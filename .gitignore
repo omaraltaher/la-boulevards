@@ -1,0 +1,15 @@
+# Outdated artifacts
+la-boulevards-mockup.html
+mockup2.html
+la-boulevards-requirements.md
+future-features.md
+
+# Python scripts (use fetch-boulevards.mjs instead)
+fetch-boulevards.py
+merge-boulevards.py
+
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
+node_modules/

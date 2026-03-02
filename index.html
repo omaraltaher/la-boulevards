@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>LA County Boulevards</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+html, body {
+  width:100%; height:100%;
+  background:#0f1123;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+  overflow:hidden;
+}
+
+#map {
+  position:absolute;
+  inset:0;
+}
+
+/* ── Overlay container — sits above map, passes events through ── */
+#ui {
+  position:absolute;
+  inset:0;
+  pointer-events:none;   /* transparent to map events by default */
+  z-index:500;
+}
+
+/* Any element inside #ui that needs clicks gets pointer-events back */
+#ui .interactive { pointer-events:auto; }
+
+/* ── Panel base ── */
+.panel {
+  background:rgba(15,17,35,0.93);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:6px;
+  padding:12px 16px;
+  color:#e0e4ef;
+}
+
+/* ── Title ── */
+#title { position:absolute; top:20px; left:20px; }
+#title h1 { font-size:14px; font-weight:600; color:#f9fafb; letter-spacing:.03em; }
+#title p  { font-size:11px; color:#4b5563; margin-top:3px; }
+
+/* ── Search ── */
+#search-wrap {
+  position:absolute;
+  top:20px; left:50%;
+  transform:translateX(-50%);
+  display:flex; gap:6px; width:290px;
+}
+#search-input-wrap {
+  flex:1;
+  position:relative;
+}
+#search-input {
+  width:100%;
+  background:rgba(15,17,35,0.95);
+  border:1px solid rgba(255,255,255,0.11);
+  border-radius:6px;
+  padding:9px 14px;
+  color:#e0e4ef;
+  font-size:13px;
+  outline:none;
+  font-family:inherit;
+}
+#search-input::placeholder { color:#374151; }
+#search-input.searching    { border-color:rgba(6,182,212,0.5); }
+#search-input.error        { border-color:rgba(239,68,68,0.5); }
+#clear-btn {
+  width:34px; height:34px;
+  background:rgba(15,17,35,0.95);
+  border:1px solid rgba(255,255,255,0.11);
+  border-radius:6px;
+  color:#4b5563; font-size:18px;
+  display:none; align-items:center; justify-content:center;
+  cursor:pointer;
+}
+#clear-btn.visible { display:flex; }
+#search-error {
+  position:absolute;
+  top:62px; left:50%;
+  transform:translateX(-50%);
+  font-size:11px; color:#f87171;
+  background:rgba(15,17,35,0.93);
+  border:1px solid rgba(239,68,68,0.3);
+  border-radius:5px;
+  padding:5px 12px;
+  white-space:nowrap;
+  display:none;
+}
+
+
+/* ── Legend ── */
+#legend { position:absolute; bottom:44px; left:20px; min-width:175px; }
+#legend .lbl { font-size:10px; color:#4b5563; text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+#legend .bar { height:5px; border-radius:3px; margin-bottom:5px;
+  background:linear-gradient(to right,#a78bfa,#6366f1,#0ea5e9,#06b6d4,#5eead4); }
+#legend .rng { display:flex; justify-content:space-between; font-size:10px; color:#6b7280; }
+
+/* ── Boulevard count ── */
+#count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
+
+/* ── Loading status ── */
+#status-bar {
+  position:absolute; bottom:20px; left:50%;
+  transform:translateX(-50%);
+  font-size:10px; color:#4b5563;
+  background:rgba(15,17,35,0.85);
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:5px; padding:4px 12px;
+  display:none; white-space:nowrap;
+  pointer-events:none;
+}
+#status-bar.visible { display:block; }
+
+/* ── Loading ── */
+#loading {
+  position:absolute;
+  top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center; color:#6b7280; font-size:13px;
+}
+#loading .spin {
+  width:28px; height:28px;
+  border:2px solid rgba(6,182,212,.2);
+  border-top-color:#06b6d4;
+  border-radius:50%;
+  animation:spin .8s linear infinite;
+  margin:0 auto 10px;
+}
+@keyframes spin { to { transform:rotate(360deg); } }
+
+/* ── Leaflet overrides ── */
+.leaflet-div-icon { background:transparent !important; border:none !important; }
+path.leaflet-interactive:focus { outline:none; }
+
+/* ── Camera markers ── */
+.cam-dot {
+  width:9px; height:9px;
+  background:rgba(6,182,212,0.65);
+  border:1.5px solid rgba(103,232,249,0.5);
+  border-radius:50%;
+  cursor:pointer;
+  transition:background 0.15s, transform 0.15s;
+}
+.cam-dot:hover { background:rgba(103,232,249,0.9); transform:scale(1.4); }
+
+/* ── Art markers ── */
+.art-dot {
+  width:9px; height:9px;
+  background:rgba(255,0,200,0.45);
+  border:1.5px solid rgba(255,80,220,0.35);
+  border-radius:50%;
+  cursor:pointer;
+  transition:background 0.15s, transform 0.15s;
+}
+.art-dot:hover { background:rgba(255,0,200,0.75); transform:scale(1.4); }
+
+/* ── Camera popup ── */
+.cam-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(255,255,255,0.08) !important;
+  border-radius:8px !important;
+  box-shadow:0 8px 32px rgba(0,0,0,0.7) !important;
+  padding:0 !important;
+  overflow:hidden;
+}
+.cam-popup .leaflet-popup-tip-container { display:none; }
+.cam-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.cam-popup .leaflet-popup-close-button {
+  color:#4b5563 !important; font-size:18px !important;
+  top:6px !important; right:8px !important;
+  z-index:10;
+}
+.cam-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
+
+/* ── Art popup ── */
+.art-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(255,255,255,0.08) !important;
+  border-radius:8px !important;
+  box-shadow:0 8px 32px rgba(0,0,0,0.7) !important;
+  padding:0 !important;
+  overflow:hidden;
+}
+.art-popup .leaflet-popup-tip-container { display:none; }
+.art-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.art-popup .leaflet-popup-close-button {
+  color:#4b5563 !important; font-size:18px !important;
+  top:6px !important; right:8px !important;
+  z-index:10;
+}
+.art-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
+
+/* ── Jonathan Gold restaurant markers ── */
+.gold-dot {
+  width:11px; height:11px;
+  background:rgba(245,158,11,0.85);
+  border:2px solid rgba(252,211,77,0.7);
+  border-radius:50%;
+  cursor:pointer;
+  transition:background 0.15s, transform 0.15s;
+  box-shadow:0 0 6px rgba(245,158,11,0.4);
+}
+.gold-dot:hover {
+  background:rgba(252,211,77,0.95);
+  transform:scale(1.5);
+  box-shadow:0 0 10px rgba(245,158,11,0.6);
+}
+
+/* ── Gold popup ── */
+.gold-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(245,158,11,0.25) !important;
+  border-radius:8px !important;
+  box-shadow:0 8px 32px rgba(0,0,0,0.7) !important;
+  padding:0 !important;
+  overflow:hidden;
+}
+.gold-popup .leaflet-popup-tip-container { display:none; }
+.gold-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.gold-popup .leaflet-popup-close-button {
+  color:#4b5563 !important; font-size:18px !important;
+  top:6px !important; right:8px !important;
+  z-index:10;
+}
+.gold-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
+
+/* ── Info panel art section ── */
+#info-art { display:none; margin-top:16px; }
+#info-art-title {
+  font-size:10px; color:#4b5563;
+  text-transform:uppercase; letter-spacing:.08em;
+  margin-bottom:8px;
+}
+.art-item {
+  padding:8px 0;
+  border-bottom:1px solid rgba(255,255,255,0.05);
+  font-size:13px;
+}
+.art-item:last-child { border-bottom:none; }
+.art-item-name { color:rgba(255,0,200,0.85); font-weight:500; }
+.art-item-artist { color:#9ca3af; font-size:12px; margin-top:2px; }
+.art-item-desc { color:#6b7280; font-size:11px; margin-top:2px; }
+
+.leaflet-control-zoom {
+  border:none !important;
+  box-shadow:none !important;
+  margin-bottom:8px !important;
+  margin-right:8px !important;
+}
+.leaflet-control-zoom a {
+  background:rgba(15,17,35,0.93) !important;
+  border:1px solid rgba(255,255,255,0.08) !important;
+  color:#6b7280 !important;
+  width:30px !important; height:30px !important;
+  line-height:28px !important; font-size:16px !important;
+}
+.leaflet-control-zoom a:hover { background:rgba(6,182,212,.2) !important; color:#67e8f9 !important; }
+.leaflet-control-zoom-in  { border-radius:6px 6px 0 0 !important; }
+.leaflet-control-zoom-out { border-radius:0 0 6px 6px !important; border-top:1px solid rgba(255,255,255,.06) !important; }
+.leaflet-control-attribution {
+  background:rgba(15,17,35,0.7) !important;
+  color:#374151 !important; font-size:9px !important;
+}
+.leaflet-control-attribution a { color:#374151 !important; }
+
+/* ── Autocomplete dropdown ── */
+#autocomplete-list {
+  position:absolute;
+  top:calc(100% + 4px); left:0;
+  width:100%;
+  background:rgba(15,17,35,0.98);
+  border:1px solid rgba(255,255,255,0.11);
+  border-radius:6px;
+  overflow:hidden;
+  display:none;
+  z-index:600;
+  box-shadow:0 8px 24px rgba(0,0,0,0.6);
+}
+#autocomplete-list.open { display:block; }
+.ac-item {
+  padding:9px 14px;
+  font-size:12px;
+  color:#9ca3af;
+  cursor:pointer;
+  border-bottom:1px solid rgba(255,255,255,0.05);
+  line-height:1.4;
+}
+.ac-item:last-child { border-bottom:none; }
+.ac-item:hover, .ac-item.active { background:rgba(6,182,212,0.15); color:#e0e4ef; }
+.ac-item b { color:#f9fafb; font-weight:500; }
+.ac-tag {
+  display:inline-block; font-size:9px; font-weight:600;
+  text-transform:uppercase; letter-spacing:.06em;
+  padding:1px 5px; border-radius:3px; margin-right:6px;
+  background:rgba(167,139,250,0.15); color:#a78bfa;
+  vertical-align:middle;
+}
+
+/* ── Tooltip ── */
+.blvd-tip {
+  background:rgba(15,17,35,0.95) !important;
+  border:1px solid rgba(255,255,255,0.1) !important;
+  border-radius:5px !important;
+  padding:7px 11px !important;
+  box-shadow:0 4px 16px rgba(0,0,0,0.5) !important;
+  pointer-events:none;
+}
+.blvd-tip::before { display:none !important; }
+.blvd-tip b   { display:block; font-size:13px; font-weight:600; color:#f9fafb; }
+.blvd-tip span { display:block; font-size:11px; color:#6b7280; margin-top:2px; }
+
+/* ── Info panel ── */
+#info-panel {
+  position:absolute;
+  top:20px; right:20px;
+  width:420px;
+  max-height:calc(100vh - 40px);
+  display:none;
+  padding:0;
+  flex-direction:column;
+  transition:border-color 0.4s, box-shadow 0.4s;
+}
+#info-panel.open { display:flex; }
+#info-panel.pico {
+  border-width:2px;
+  border-color:rgba(245,158,11,0.45);
+  box-shadow:0 0 24px rgba(245,158,11,0.1);
+}
+
+/* ── Jonathan Gold panel tribute ── */
+#gold-tribute {
+  display:none;
+  margin-bottom:16px;
+}
+#gold-tribute .gold-rule {
+  display:block;
+  padding:6px 0;
+  background:linear-gradient(to right, transparent, rgba(245,158,11,0.35), transparent) no-repeat center / 100% 1px;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+#gold-tribute .gold-rule:hover {
+  background:linear-gradient(to right, transparent, rgba(245,158,11,0.65), transparent) no-repeat center / 100% 1px;
+}
+#gold-tribute .gold-credit {
+  font-size:10px;
+  color:rgba(245,158,11,0.45);
+  text-align:center;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+#gold-tribute .gold-link {
+  display:block;
+  text-align:center;
+  margin-top:5px;
+  font-size:10px;
+  color:rgba(245,158,11,0.35);
+  text-decoration:none;
+  letter-spacing:.04em;
+}
+#gold-tribute .gold-link:hover { color:rgba(245,158,11,0.7); text-decoration:underline; }
+#info-img {
+  width:100%; height:220px;
+  object-fit:cover;
+  border-radius:5px 5px 0 0;
+  flex-shrink:0;
+  display:none;
+}
+#info-body { padding:22px 24px; overflow-y:auto; flex:1; min-height:0; }
+#info-body::-webkit-scrollbar { width:4px; }
+#info-body::-webkit-scrollbar-track { background:transparent; }
+#info-body::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:2px; }
+#info-header { margin-bottom:6px; }
+#info-name { font-size:20px; font-weight:700; color:#f9fafb; line-height:1.2; padding-right:28px; }
+#info-close {
+  position:absolute; top:10px; right:12px;
+  background:none; border:none; color:#4b5563;
+  font-size:22px; cursor:pointer; padding:0; line-height:1;
+  z-index:10;
+}
+#info-close:hover { color:#e0e4ef; }
+#info-meta { font-size:13px; color:#6b7280; margin-bottom:16px; }
+#info-extract {
+  font-size:14px; color:#9ca3af; line-height:1.7;
+  margin-bottom:16px;
+}
+#photos-strip {
+  display:none;
+  overflow-x:auto;
+  white-space:nowrap;
+  margin:14px 0 16px;
+}
+#photos-strip::-webkit-scrollbar { height:3px; }
+#photos-strip::-webkit-scrollbar-track { background:transparent; }
+#photos-strip::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:2px; }
+#photos-strip a { display:inline-block; margin-right:6px; }
+#photos-strip a:last-child { margin-right:0; }
+#photos-strip img {
+  height:80px; width:auto;
+  border-radius:4px;
+  object-fit:cover;
+  opacity:0.75;
+  transition:opacity 0.15s;
+  vertical-align:top;
+}
+#photos-strip img:hover { opacity:1; }
+
+#info-wiki {
+  font-size:13px; color:#67e8f9;
+  text-decoration:none; display:none;
+}
+#info-wiki:hover { text-decoration:underline; }
+#info-media-btn {
+  display:none; margin-top:16px;
+  background:rgba(103,232,249,0.08);
+  border:1px solid rgba(103,232,249,0.2);
+  border-radius:6px;
+  padding:10px 14px;
+  color:#67e8f9; font-size:13px;
+  cursor:pointer; width:100%; text-align:left;
+  font-family:inherit;
+}
+#info-media-btn:hover { background:rgba(103,232,249,0.14); }
+#info-media-btn.loading {
+  color:#374151; border-color:rgba(255,255,255,0.06);
+  background:transparent; cursor:default;
+}
+
+/* ── Media popup ── */
+#media-panel {
+  position:absolute;
+  top:20px; right:460px;
+  width:360px;
+  max-height:calc(100vh - 40px);
+  display:none; padding:0;
+}
+#media-panel.open { display:block; }
+#media-body { padding:22px 24px; }
+#media-header {
+  display:flex; justify-content:space-between; align-items:center;
+  margin-bottom:18px;
+}
+#media-title { font-size:16px; font-weight:600; color:#f9fafb; }
+#media-close {
+  background:none; border:none; color:#4b5563;
+  font-size:22px; cursor:pointer; padding:0; line-height:1;
+}
+#media-close:hover { color:#e0e4ef; }
+#media-list {
+  list-style:none; padding:0; margin:0;
+  max-height:calc(100vh - 160px);
+  overflow-y:auto;
+}
+#media-list::-webkit-scrollbar { width:4px; }
+#media-list::-webkit-scrollbar-track { background:transparent; }
+#media-list::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:2px; }
+#media-list li {
+  font-size:13px; color:#9ca3af; line-height:1.6;
+  padding:9px 0; border-bottom:1px solid rgba(255,255,255,0.05);
+}
+#media-list li:last-child { border-bottom:none; }
+.media-type {
+  display:inline-block; font-size:9px; font-weight:600;
+  text-transform:uppercase; letter-spacing:.06em;
+  padding:1px 6px; border-radius:3px; margin-right:6px;
+  background:rgba(103,232,249,0.1); color:#67e8f9;
+  vertical-align:middle;
+}
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div id="ui">
+  <div id="title" class="panel">
+    <h1>LA County Boulevards</h1>
+    <p>Every boulevard in Los Angeles County</p>
+  </div>
+
+  <div id="search-wrap" class="interactive">
+    <div id="search-input-wrap">
+      <input id="search-input" type="text" placeholder="Search address or boulevard…" autocomplete="off"/>
+      <div id="autocomplete-list"></div>
+    </div>
+    <div id="clear-btn">×</div>
+  </div>
+  <div id="search-error"></div>
+
+
+  <div id="legend" class="panel">
+    <div class="lbl">Color · Boulevard length</div>
+    <div class="bar"></div>
+    <div class="rng"><span>Short</span><span>Long</span></div>
+  </div>
+
+  <div id="count"></div>
+  <div id="status-bar"></div>
+  <div id="loading"><div class="spin"></div>Loading boulevard data…</div>
+
+  <div id="info-panel" class="panel interactive">
+    <button id="info-close">×</button>
+    <img id="info-img" alt=""/>
+    <div id="info-body">
+      <div id="gold-tribute">
+        <a class="gold-rule" href="https://en.wikipedia.org/wiki/Jonathan_Gold" target="_blank" rel="noopener"></a>
+        <div class="gold-credit">Jonathan Gold &nbsp;·&nbsp; 1960–2018</div>
+        <a class="gold-link" href="https://www.laweekly.com/the-year-i-ate-pico-boulevard/" target="_blank" rel="noopener">The Year I Ate Pico Boulevard →</a>
+      </div>
+      <div id="info-header">
+        <div id="info-name"></div>
+      </div>
+      <div id="info-meta"></div>
+      <div id="info-extract"></div>
+      <div id="photos-strip"></div>
+      <a id="info-wiki" target="_blank" rel="noopener">Read on Wikipedia →</a>
+      <button id="info-media-btn">Featured in films, music &amp; more →</button>
+      <div id="info-art">
+        <div id="info-art-title">Public Art</div>
+        <div id="info-art-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="media-panel" class="panel interactive">
+    <div id="media-body">
+      <div id="media-header">
+        <div id="media-title">Featured in</div>
+        <button id="media-close">×</button>
+      </div>
+      <ul id="media-list"></ul>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Embed mode ──────────────────────────────────────────────
+if (new URLSearchParams(window.location.search).get('embed') === '1') {
+  const t = document.getElementById('title');
+  if (t) t.style.display = 'none';
+}
+
+// ── Map ────────────────────────────────────────────────────
+const map = L.map('map', {
+  center: [34.05, -118.35],
+  zoom: 10,
+  zoomControl: true,
+  scrollWheelZoom: true,
+  doubleClickZoom: true,
+  dragging: true,
+  touchZoom: true,
+  keyboard: true,
+});
+map.zoomControl.setPosition('bottomright');
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
+  attribution: '© <a href="https://carto.com/">CARTO</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>',
+  subdomains: 'abcd', maxZoom: 19
+}).addTo(map);
+
+// ── Color scale (percentile rank 0–1) ──────────────────────
+function pctToColor(t) {
+  const stops = [
+    [0,    [167, 139, 250]],   // violet-400: icy lavender
+    [0.3,  [ 99, 102, 241]],   // indigo-500: deep ice
+    [0.55, [ 14, 165, 233]],   // sky-500:    glacial blue
+    [0.78, [  6, 182, 212]],   // cyan-500:   ice
+    [1,    [ 94, 234, 212]],   // teal-300:   mint frost
+  ];
+  let a = stops[0][1], b = stops[1][1], lo = 0, hi = 1;
+  for (let i = 0; i < stops.length - 1; i++) {
+    if (t >= stops[i][0] && t <= stops[i+1][0]) {
+      [lo, a] = stops[i]; [hi, b] = stops[i+1]; break;
+    }
+  }
+  const f = hi === lo ? 0 : (t - lo) / (hi - lo);
+  return `rgb(${Math.round(a[0]+f*(b[0]-a[0]))},${Math.round(a[1]+f*(b[1]-a[1]))},${Math.round(a[2]+f*(b[2]-a[2]))})`;
+}
+
+// ── Haversine (km) ─────────────────────────────────────────
+function hav(lat1, lon1, lat2, lon2) {
+  const R = 6371, dLat = (lat2-lat1)*Math.PI/180, dLon = (lon2-lon1)*Math.PI/180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+// ── Load data ──────────────────────────────────────────────
+fetch('boulevards.json').then(r => r.json()).then(data => {
+  document.getElementById('loading').style.display = 'none';
+
+  const boulevards = data.map(b => ({
+    name: b.name, pct: b.pct,
+    km: b.km, mi: (b.km * 0.621371).toFixed(1),
+    segs: b.segs,
+    lines: [],    // visible polylines
+    hits:  []     // invisible wide hit-area polylines
+  }));
+
+  boulevards.forEach(blvd => {
+    // Jonathan Gold tribute — Pico Boulevard is always gold
+    const isPico = blvd.name === 'Pico Boulevard';
+    const color = isPico ? '#f59e0b' : pctToColor(blvd.pct);
+    blvd.color = color;
+    blvd.weight  = isPico ? 1.6 : (2.4 - blvd.pct * 1.7);
+    blvd.opacity = isPico ? 0.8 : (0.9 - blvd.pct * 0.72);
+    const tip = isPico
+      ? `<b>Pico Boulevard</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#f59e0b">Jonathan Gold's Pico</span></span>`
+      : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
+    blvd.segs.forEach(seg => {
+      // Visible line — styling only, no mouse interaction
+      const line = L.polyline(seg, {
+        color, weight: blvd.weight, opacity: blvd.opacity,
+        smoothFactor: 1, interactive: false
+      }).addTo(map);
+      blvd.lines.push(line);
+
+      // Wide invisible hit area — captures hover/click for the whole corridor
+      const hit = L.polyline(seg, {
+        weight: 16, opacity: 0.001, color,
+        smoothFactor: 1
+      }).addTo(map);
+      hit.bindTooltip(tip, { sticky:true, className:'blvd-tip', direction:'top', offset:[0,-4] });
+      hit.on('mouseover', () => {
+        clearTimeout(hoverTimer);
+        if (!selectedBlvd) applyHighlight(blvd);
+      });
+      hit.on('mouseout', () => {
+        hoverTimer = setTimeout(() => {
+          if (selectedBlvd) return;
+          if (pinLat !== null) applyProximity(pinLat, pinLon);
+          else resetProximity();
+        }, 150);
+      });
+      hit.on('click', () => {
+        selectedBlvd = blvd;
+        applyHighlight(blvd);
+        showInfo(blvd);
+      });
+      blvd.hits.push(hit);
+    });
+  });
+
+  document.getElementById('count').textContent = `${boulevards.length} boulevards`;
+
+  // ── Proximity ──────────────────────────────────────────
+  const NEARBY_KM = 1.609;
+  let pin = null;
+  let pinLat = null, pinLon = null;
+  let hoverTimer = null;
+  let selectedBlvd = null;
+
+  function applyHighlight(blvd) {
+    boulevards.forEach(b => {
+      const active = b === blvd;
+      b.lines.forEach(l => l.setStyle({
+        opacity: active ? Math.max(b.opacity, 0.9) : 0.06,
+        weight:  active ? Math.max(b.weight, 2.0)  : 0.6
+      }));
+    });
+  }
+
+  function nearestKm(lat, lon, blvd) {
+    let min = Infinity;
+    blvd.segs.forEach(seg => seg.forEach(([slat, slon]) => {
+      const d = hav(lat, lon, slat, slon);
+      if (d < min) min = d;
+    }));
+    return min;
+  }
+
+  function applyProximity(lat, lon) {
+    pinLat = lat; pinLon = lon;
+    boulevards.forEach(blvd => {
+      const d = nearestKm(lat, lon, blvd);
+      const near = d <= NEARBY_KM;
+      const distMi = (d * 0.621371).toFixed(1);
+      const tip = near
+        ? `<b>${blvd.name}</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#818cf8">${distMi} mi away</span></span>`
+        : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
+      blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : 0.07, weight: near ? 2 : 1 }));
+      blvd.hits.forEach(l => l.setTooltipContent(tip));
+    });
+  }
+
+  function resetProximity() {
+    boulevards.forEach(blvd => {
+      blvd.lines.forEach(l => l.setStyle({ opacity:blvd.opacity, weight:blvd.weight }));
+      blvd.hits.forEach(l => l.setTooltipContent(`<b>${blvd.name}</b><span>${blvd.mi} mi</span>`));
+    });
+  }
+
+  // ── Geocode ────────────────────────────────────────────
+  const pinIcon = L.divIcon({
+    className: '',
+    html: `<div style="width:16px;height:16px;border:1px solid rgba(255,255,255,0.3);border-radius:50%;margin:-8px 0 0 -8px;"></div>`,
+    iconSize: [0, 0]
+  });
+
+  const searchInput = document.getElementById('search-input');
+  const clearBtn    = document.getElementById('clear-btn');
+  const errDiv      = document.getElementById('search-error');
+
+  async function doSearch() {
+    const q = searchInput.value.trim();
+    if (!q) return;
+    errDiv.style.display = 'none';
+    searchInput.classList.remove('error');
+    searchInput.classList.add('searching');
+    try {
+      const url = 'https://nominatim.openstreetmap.org/search?' +
+        new URLSearchParams({ q: q + ', Los Angeles County, CA', format:'json', limit:1 });
+      const res = await fetch(url, { headers:{ 'Accept-Language':'en' } });
+      const hits = await res.json();
+      if (!hits.length) throw new Error();
+      const lat = parseFloat(hits[0].lat), lon = parseFloat(hits[0].lon);
+      searchInput.classList.remove('searching');
+      clearBtn.classList.add('visible');
+      if (pin) map.removeLayer(pin);
+      pin = L.marker([lat, lon], { icon: pinIcon }).addTo(map);
+      map.flyTo([lat, lon], 13, { duration: 1.2 });
+      applyProximity(lat, lon);
+    } catch {
+      searchInput.classList.remove('searching');
+      searchInput.classList.add('error');
+      errDiv.textContent = 'Address not found — try a more specific address';
+      errDiv.style.display = 'block';
+      setTimeout(() => { errDiv.style.display='none'; searchInput.classList.remove('error'); }, 3000);
+    }
+  }
+
+  function doClear() {
+    searchInput.value = '';
+    searchInput.classList.remove('searching','error');
+    clearBtn.classList.remove('visible');
+    errDiv.style.display = 'none';
+    if (pin) { map.removeLayer(pin); pin = null; }
+    pinLat = null; pinLon = null;
+    infoPanel.classList.remove('open');
+    mediaPanel.classList.remove('open');
+    selectedBlvd = null;
+    resetProximity();
+  }
+
+  // ── Autocomplete ───────────────────────────────────────
+  const acList = document.getElementById('autocomplete-list');
+  let acResults = [];
+  let acIdx = -1;
+  let debounceTimer = null;
+
+  function matchBlvds(q) {
+    const ql = q.toLowerCase();
+    return boulevards
+      .filter(b => b.name.toLowerCase().includes(ql))
+      .sort((a, b) => {
+        const al = a.name.toLowerCase(), bl = b.name.toLowerCase();
+        if (al.startsWith(ql) && !bl.startsWith(ql)) return -1;
+        if (bl.startsWith(ql) && !al.startsWith(ql)) return 1;
+        return a.name.localeCompare(b.name);
+      })
+      .slice(0, 3)
+      .map(b => ({ type: 'blvd', blvd: b }));
+  }
+
+  function zoomToBlvd(blvd) {
+    let minLat = Infinity, maxLat = -Infinity, minLon = Infinity, maxLon = -Infinity;
+    blvd.segs.forEach(seg => seg.forEach(([lat, lon]) => {
+      if (lat < minLat) minLat = lat; if (lat > maxLat) maxLat = lat;
+      if (lon < minLon) minLon = lon; if (lon > maxLon) maxLon = lon;
+    }));
+    map.flyToBounds([[minLat, minLon], [maxLat, maxLon]], { padding: [60, 60], duration: 1.2 });
+  }
+
+  function renderAc(results) {
+    acResults = results;
+    acIdx = -1;
+    if (!results.length) { acList.classList.remove('open'); return; }
+    acList.innerHTML = results.map((r, i) => {
+      if (r.type === 'blvd') {
+        return `<div class="ac-item" data-idx="${i}"><span class="ac-tag">boulevard</span><b>${r.blvd.name}</b><br><span style="color:#4b5563">${r.blvd.mi} mi · ${r.blvd.km} km</span></div>`;
+      }
+      const parts = r.hit.display_name.split(', ');
+      const main = parts.slice(0, 2).join(', ');
+      const sub  = parts.slice(2, 5).join(', ');
+      return `<div class="ac-item" data-idx="${i}"><b>${main}</b>${sub ? '<br>' + sub : ''}</div>`;
+    }).join('');
+    acList.classList.add('open');
+  }
+
+  function closeAc() {
+    acList.classList.remove('open');
+    acIdx = -1;
+  }
+
+  async function fetchSuggestions(q) {
+    const blvdMatches = matchBlvds(q);
+    const url = 'https://nominatim.openstreetmap.org/search?' +
+      new URLSearchParams({
+        q: q + ', Los Angeles County, CA',
+        format: 'json', limit: 4,
+        viewbox: '-119.0,34.85,-117.6,33.6',
+        bounded: 1, addressdetails: 0
+      });
+    try {
+      const res = await fetch(url, { headers: { 'Accept-Language': 'en' } });
+      const hits = await res.json();
+      renderAc([...blvdMatches, ...hits.map(h => ({ type: 'addr', hit: h }))]);
+    } catch {
+      renderAc(blvdMatches);
+    }
+  }
+
+  function selectAc(idx) {
+    const result = acResults[idx];
+    if (!result) return;
+    closeAc();
+    errDiv.style.display = 'none';
+    searchInput.classList.remove('error', 'searching');
+    clearBtn.classList.add('visible');
+
+    if (result.type === 'blvd') {
+      searchInput.value = result.blvd.name;
+      if (pin) { map.removeLayer(pin); pin = null; }
+      pinLat = null; pinLon = null;
+      selectedBlvd = result.blvd;
+      applyHighlight(result.blvd);
+      showInfo(result.blvd);
+      zoomToBlvd(result.blvd);
+    } else {
+      const hit = result.hit;
+      searchInput.value = hit.display_name.split(', ').slice(0, 2).join(', ');
+      const lat = parseFloat(hit.lat), lon = parseFloat(hit.lon);
+      if (pin) map.removeLayer(pin);
+      pin = L.marker([lat, lon], { icon: pinIcon }).addTo(map);
+      map.flyTo([lat, lon], 13, { duration: 1.2 });
+      applyProximity(lat, lon);
+    }
+  }
+
+  searchInput.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    const q = searchInput.value.trim();
+    if (q.length < 3) { closeAc(); return; }
+    debounceTimer = setTimeout(() => fetchSuggestions(q), 280);
+  });
+
+  searchInput.addEventListener('keydown', e => {
+    const items = acList.querySelectorAll('.ac-item');
+    if (acList.classList.contains('open') && items.length) {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        acIdx = Math.min(acIdx + 1, items.length - 1);
+        items.forEach((el, i) => el.classList.toggle('active', i === acIdx));
+        return;
+      }
+      if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        acIdx = Math.max(acIdx - 1, -1);
+        items.forEach((el, i) => el.classList.toggle('active', i === acIdx));
+        return;
+      }
+      if (e.key === 'Escape') { closeAc(); return; }
+      if (e.key === 'Enter' && acIdx >= 0) { selectAc(acIdx); return; }
+    }
+    if (e.key === 'Enter') doSearch();
+  });
+
+  acList.addEventListener('click', e => {
+    const item = e.target.closest('.ac-item');
+    if (item) selectAc(parseInt(item.dataset.idx));
+  });
+
+  document.addEventListener('click', e => {
+    if (!document.getElementById('search-wrap').contains(e.target)) closeAc();
+  });
+
+  clearBtn.addEventListener('click', doClear);
+
+  // ── Wikipedia info panel ────────────────────────────────
+  const infoPanel   = document.getElementById('info-panel');
+  const infoImg     = document.getElementById('info-img');
+  const infoName    = document.getElementById('info-name');
+  const infoMeta    = document.getElementById('info-meta');
+  const infoExtract = document.getElementById('info-extract');
+  const infoWiki    = document.getElementById('info-wiki');
+  const wikiCache   = {};
+
+  async function fetchWiki(name) {
+    if (name in wikiCache) return wikiCache[name];
+    const slug = encodeURIComponent(name.replace(/ /g, '_'));
+    try {
+      const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${slug}`);
+      if (!res.ok) return (wikiCache[name] = null);
+      const data = await res.json();
+      if (data.type === 'disambiguation') return (wikiCache[name] = null);
+      return (wikiCache[name] = data);
+    } catch {}
+    return (wikiCache[name] = null);
+  }
+
+  // ── Wikimedia Commons photo strip ──────────────────────
+  const commonsCache = {};
+  const photosStrip = document.getElementById('photos-strip');
+
+  async function fetchCommons(name) {
+    if (name in commonsCache) return commonsCache[name];
+    try {
+      const url = 'https://commons.wikimedia.org/w/api.php?' + new URLSearchParams({
+        action: 'query', generator: 'search',
+        gsrnamespace: 6,
+        gsrsearch: `${name} Los Angeles`,
+        gsrlimit: 8,
+        prop: 'imageinfo',
+        iiprop: 'url|thumburl|descriptionurl',
+        iiurlwidth: 300,
+        format: 'json', origin: '*'
+      });
+      const res = await fetch(url);
+      if (!res.ok) return (commonsCache[name] = []);
+      const data = await res.json();
+      const photos = Object.values(data.query?.pages || {})
+        .filter(p => p.imageinfo?.[0]?.thumburl)
+        .map(p => ({
+          thumb: p.imageinfo[0].thumburl,
+          page:  p.imageinfo[0].descriptionurl,
+          title: p.title.replace('File:', '').replace(/\.[^.]+$/, '')
+        }));
+      return (commonsCache[name] = photos);
+    } catch {}
+    return (commonsCache[name] = []);
+  }
+
+  // ── Wikidata + MusicBrainz media lookup ────────────────
+  const mediaCache = {};
+
+  async function fetchMedia(name) {
+    if (name in mediaCache) return mediaCache[name];
+
+    // Wikidata: films, musicals, albums, singles named exactly after the boulevard
+    const sparql = `SELECT DISTINCT ?item ?itemLabel ?typeLabel ?year WHERE {
+      ?item wdt:P31 ?type.
+      VALUES ?type {
+        wd:Q11424 wd:Q5398426 wd:Q131084 wd:Q886311
+        wd:Q134556 wd:Q482994 wd:Q7725634
+      }
+      { ?item rdfs:label ?label. } UNION { ?item skos:altLabel ?label. }
+      FILTER(LANG(?label) = "en" && LCASE(?label) = "${name.toLowerCase()}")
+      OPTIONAL { ?item wdt:P577 ?date. BIND(YEAR(?date) AS ?year) }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+    } LIMIT 15`;
+
+    const [wdRes, mbRes] = await Promise.allSettled([
+      fetch('https://query.wikidata.org/sparql?' + new URLSearchParams({ query: sparql, format: 'json' }),
+        { headers: { Accept: 'application/sparql-results+json' } }),
+      fetch(`https://musicbrainz.org/ws/2/recording/?query=title:"${encodeURIComponent(name)}"&fmt=json&limit=10`)
+    ]);
+
+    const items = [];
+
+    // Wikidata results — films/musicals first
+    if (wdRes.status === 'fulfilled' && wdRes.value.ok) {
+      const data = await wdRes.value.json();
+      for (const row of data.results?.bindings || []) {
+        const label = row.itemLabel?.value || name;
+        const type  = row.typeLabel?.value || '';
+        const year  = row.year?.value;
+        items.push({ text: year ? `${label} (${year})` : label, type, priority: 2 });
+      }
+    }
+
+    // MusicBrainz results — deduplicated songs
+    if (mbRes.status === 'fulfilled' && mbRes.value.ok) {
+      const data = await mbRes.value.json();
+      const seen = new Set();
+      for (const rec of data.recordings || []) {
+        if ((rec.score || 0) < 65) continue;
+        if (!rec.title?.toLowerCase().includes(name.toLowerCase())) continue;
+        const artist = rec['artist-credit']?.[0]?.name;
+        if (!artist) continue;
+        const key = artist.toLowerCase();
+        if (seen.has(key)) continue;
+        seen.add(key);
+        items.push({ text: `"${rec.title}" — ${artist}`, type: 'song', priority: 2 });
+        if (items.filter(i => i.type === 'song').length >= 6) break;
+      }
+    }
+
+    // Films/musicals before songs, songs before everything else
+    const rank = t => /film|television/.test(t) ? 3 : /musical/.test(t) ? 2 : /song|single|album/.test(t) ? 1 : 0;
+    items.sort((a, b) => rank(b.type) - rank(a.type));
+
+    return (mediaCache[name] = items);
+  }
+
+  const infoMediaBtn = document.getElementById('info-media-btn');
+  const mediaPanel   = document.getElementById('media-panel');
+  const mediaList    = document.getElementById('media-list');
+  const statusBar    = document.getElementById('status-bar');
+
+  // ── Status bar (shows while async fetches are in flight) ──
+  let pendingCount = 0;
+  function statusStart(msg) {
+    pendingCount++;
+    statusBar.textContent = msg;
+    statusBar.classList.add('visible');
+  }
+  function statusDone() {
+    if (--pendingCount <= 0) {
+      pendingCount = 0;
+      statusBar.classList.remove('visible');
+    }
+  }
+
+  function populateArtSection(blvd) {
+    const artSection = document.getElementById('info-art');
+    const artList = document.getElementById('info-art-list');
+    if (!artItems) return; // not loaded yet
+    const pieces = artItems.filter(a => a.blvd === blvd);
+    if (!pieces.length) { artSection.style.display = 'none'; return; }
+    artList.innerHTML = pieces.map(a =>
+      `<div class="art-item">` +
+      `<div class="art-item-name">${a.title}</div>` +
+      (a.artist ? `<div class="art-item-artist">${a.artist}</div>` : '') +
+      (a.desc ? `<div class="art-item-desc">${a.desc}</div>` : '') +
+      `</div>`
+    ).join('');
+    artSection.style.display = 'block';
+  }
+
+  function showInfo(blvd) {
+    infoPanel.classList.add('open');
+    mediaPanel.classList.remove('open');
+    infoPanel.classList.toggle('pico', blvd.name === 'Pico Boulevard');
+    document.getElementById('gold-tribute').style.display =
+      blvd.name === 'Pico Boulevard' ? 'block' : 'none';
+    infoImg.style.display = 'none';
+    infoName.textContent = blvd.name;
+    infoMeta.textContent = `${blvd.mi} mi · ${blvd.km} km`;
+    infoExtract.textContent = 'Loading…';
+    infoWiki.style.display = 'none';
+    photosStrip.style.display = 'none';
+    photosStrip.innerHTML = '';
+    infoMediaBtn.textContent = 'Searching films & music…';
+    infoMediaBtn.classList.add('loading');
+    infoMediaBtn.style.display = 'block';
+    document.getElementById('info-art').style.display = 'none';
+    document.getElementById('info-art-list').innerHTML = '';
+
+    statusStart('Loading photos…');
+    fetchCommons(blvd.name).then(photos => {
+      statusDone();
+      if (blvd !== selectedBlvd) return;
+      if (!photos.length) return;
+      photosStrip.innerHTML = photos.map(p =>
+        `<a href="${p.page}" target="_blank" rel="noopener" title="${p.title}">` +
+        `<img src="${p.thumb}" alt="${p.title}"/></a>`
+      ).join('');
+      photosStrip.style.display = 'block';
+    });
+
+    statusStart('Loading Wikipedia…');
+    fetchWiki(blvd.name).then(wiki => {
+      statusDone();
+      if (blvd !== selectedBlvd) return;
+      if (wiki?.thumbnail?.source) {
+        infoImg.src = wiki.thumbnail.source;
+        infoImg.style.display = 'block';
+      }
+      if (wiki?.extract) {
+        const txt = wiki.extract;
+        infoExtract.textContent = txt.length > 340 ? txt.slice(0, 337) + '…' : txt;
+        infoWiki.href = wiki.content_urls?.desktop?.page ||
+          `https://en.wikipedia.org/wiki/${encodeURIComponent(blvd.name.replace(/ /g, '_'))}`;
+        infoWiki.style.display = 'inline';
+      } else {
+        infoExtract.textContent = 'No Wikipedia article found.';
+      }
+    });
+
+    statusStart('Searching films & music…');
+    fetchMedia(blvd.name).then(items => {
+      statusDone();
+      if (blvd !== selectedBlvd) return;
+      infoMediaBtn.classList.remove('loading');
+      if (!items.length) {
+        infoMediaBtn.style.display = 'none';
+        return;
+      }
+      mediaList.innerHTML = items.map(({ text, type }) => {
+        const badge = type ? `<span class="media-type">${type}</span> ` : '';
+        return `<li>${badge}${text}</li>`;
+      }).join('');
+      infoMediaBtn.textContent = 'Featured in films, music & more →';
+    });
+
+    populateArtSection(blvd);
+  }
+
+  infoMediaBtn.addEventListener('click', () => mediaPanel.classList.toggle('open'));
+  document.getElementById('media-close').addEventListener('click', () => mediaPanel.classList.remove('open'));
+
+  document.getElementById('info-close').addEventListener('click', () => {
+    infoPanel.classList.remove('open');
+    mediaPanel.classList.remove('open');
+    selectedBlvd = null;
+    if (pinLat !== null) applyProximity(pinLat, pinLon);
+    else resetProximity();
+  });
+
+  // ── Caltrans D7 live cameras ──────────────────────────────
+  // Flatten all boulevard points once for proximity checks
+  const allBlvdPts = [];
+  boulevards.forEach(b => b.segs.forEach(seg => seg.forEach(pt => allBlvdPts.push(pt))));
+  const CAM_THRESHOLD_KM = 0.35; // ~0.2 miles
+
+  function nearAnyBlvd(lat, lon) {
+    for (const [blat, blon] of allBlvdPts)
+      if (hav(lat, lon, blat, blon) < CAM_THRESHOLD_KM) return true;
+    return false;
+  }
+
+  (async function loadCameras() {
+    try {
+      statusStart('Loading traffic cameras…');
+      const res = await fetch('https://cwwp2.dot.ca.gov/data/d7/cctv/cctvStatusD07.json');
+      if (!res.ok) { statusDone(); return; }
+      const data = await res.json();
+      const cams = (data.data || []).map(item => item.cctv || item);
+      let refreshTimer = null;
+
+      cams.forEach(cam => {
+        const lat = parseFloat(cam.location?.latitude);
+        const lon = parseFloat(cam.location?.longitude);
+        const imgUrl = cam.imageData?.static?.currentImageURL;
+        const name  = cam.location?.locationName || 'Traffic Camera';
+
+        if (!lat || !lon || !imgUrl) return;
+        if (cam.inService !== 'true') return;
+        if (!nearAnyBlvd(lat, lon)) return;
+
+        // Probe image before adding marker — skip if unavailable
+        const probe = new Image();
+        probe.onload = () => {
+          if (probe.naturalWidth < 50) return; // tiny = placeholder
+          const icon = L.divIcon({
+            className: '', html: '<div class="cam-dot"></div>',
+            iconSize: [9, 9], iconAnchor: [4, 4]
+          });
+          const marker = L.marker([lat, lon], { icon, zIndexOffset: 200 }).addTo(map);
+          marker.on('click', () => {
+        if (refreshTimer) { clearInterval(refreshTimer); refreshTimer = null; }
+
+        // Dismiss boulevard panels so they don't overlap the camera popup
+        infoPanel.classList.remove('open');
+        mediaPanel.classList.remove('open');
+        if (selectedBlvd) {
+          selectedBlvd = null;
+          if (pinLat !== null) applyProximity(pinLat, pinLon);
+          else resetProximity();
+        }
+
+        const bust = () => `${imgUrl}?t=${Date.now()}`;
+        const html =
+          `<div style="width:300px;">` +
+          `<img id="cam-live" src="${bust()}" style="width:100%;display:block;min-height:80px;" onerror="this.alt='Image unavailable'"/>` +
+          `<div style="padding:10px 14px 12px;">` +
+          `<div style="font-size:12px;font-weight:600;color:#f9fafb;">${name}</div>` +
+          `<div style="font-size:10px;color:#4b5563;margin-top:3px;">Live · refreshes every 2 min</div>` +
+          `</div></div>`;
+
+        L.popup({ className: 'cam-popup', closeButton: true, maxWidth: 320, autoPan: true })
+          .setLatLng([lat, lon])
+          .setContent(html)
+          .openOn(map);
+
+        refreshTimer = setInterval(() => {
+          const img = document.getElementById('cam-live');
+          if (img) img.src = bust();
+          else { clearInterval(refreshTimer); refreshTimer = null; }
+        }, 120000);
+          });
+        };
+        probe.onerror = () => {}; // unavailable — skip
+        probe.src = imgUrl + '?t=' + Date.now();
+      });
+
+      map.on('popupclose', () => {
+        if (refreshTimer) { clearInterval(refreshTimer); refreshTimer = null; }
+      });
+
+      statusDone();
+    } catch (e) {
+      statusDone();
+      console.warn('Caltrans camera load failed:', e);
+    }
+  })();
+
+  // ── Public art ──────────────────────────────────────────────
+  const ART_BLVD_KM = 0.3; // max distance to associate art with a boulevard
+  let artItems = null; // null until loaded
+
+  (async function loadArt() {
+    try {
+      statusStart('Loading public art…');
+      const res = await fetch('https://data.lacity.org/resource/ejf8-ekfc.json?$limit=500');
+      if (!res.ok) { statusDone(); return; }
+      const data = await res.json();
+
+      artItems = [];
+      data.forEach(item => {
+        const lat = parseFloat(item.latitude);
+        const lon = parseFloat(item.longitude);
+        if (!lat || !lon) return;
+
+        // Find nearest boulevard
+        let nearestBlvd = null, nearestDist = Infinity;
+        boulevards.forEach(b => {
+          const d = nearestKm(lat, lon, b);
+          if (d < nearestDist) { nearestDist = d; nearestBlvd = b; }
+        });
+
+        const art = {
+          title: item.location_name || 'Untitled',
+          artist: item.artist_s || '',
+          desc: item.art_description || '',
+          address: item.project_address || '',
+          lat, lon,
+          blvd: nearestDist <= ART_BLVD_KM ? nearestBlvd : null,
+          distKm: nearestDist
+        };
+        artItems.push(art);
+
+        // Map marker
+        const icon = L.divIcon({
+          className: '', html: '<div class="art-dot"></div>',
+          iconSize: [9, 9], iconAnchor: [4, 4]
+        });
+        const marker = L.marker([lat, lon], { icon, zIndexOffset: 100 }).addTo(map);
+
+        marker.on('click', () => {
+          // Determine if art is on same boulevard as currently selected
+          if (art.blvd && art.blvd === selectedBlvd) {
+            // Keep boulevard panel open — just show art popup
+          } else if (art.blvd) {
+            // Switch to the art's boulevard
+            selectedBlvd = art.blvd;
+            applyHighlight(art.blvd);
+            showInfo(art.blvd);
+          }
+          // else: no associated boulevard — just show popup, leave panel as-is
+
+          const html =
+            `<div style="padding:14px 16px;width:260px;">` +
+            `<div style="font-size:13px;font-weight:600;color:rgba(255,0,200,0.85);margin-bottom:4px;">${art.title}</div>` +
+            (art.artist ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:4px;">${art.artist}</div>` : '') +
+            (art.desc ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${art.desc}</div>` : '') +
+            (art.address ? `<div style="font-size:10px;color:#374151;">${art.address}</div>` : '') +
+            `</div>`;
+
+          L.popup({ className: 'art-popup', closeButton: true, maxWidth: 300, autoPan: true })
+            .setLatLng([lat, lon])
+            .setContent(html)
+            .openOn(map);
+        });
+      });
+
+      // If a boulevard is already selected when art loads, populate its art section
+      if (selectedBlvd) populateArtSection(selectedBlvd);
+
+      statusDone();
+    } catch (e) {
+      statusDone();
+      console.warn('Public art load failed:', e);
+    }
+  })();
+
+  // ── Jonathan Gold's Pico restaurants ────────────────────────
+  const GOLD_RESTAURANTS = [
+    {
+      name: 'El Parian',
+      address: '1528 W Pico Blvd',
+      lat: 34.0472, lon: -118.2736,
+      quote: 'El Parian is still the champion birrieria in town, and if what you\'re after is a bowl of Jalisco-style roast goat, you\'re in the right place.',
+      source: 'LA Weekly'
+    },
+    {
+      name: 'El Colmao',
+      address: '2328 W Pico Blvd',
+      lat: 34.0473, lon: -118.2834,
+      quote: 'I sleep better knowing that there is still fried pork leg with onions like this in the world.',
+      source: 'LA Weekly'
+    },
+    {
+      name: 'Papa Cristo\'s',
+      address: '2771 W Pico Blvd',
+      lat: 34.0474, lon: -118.2997,
+      quote: 'The Greek sausage sandwich with tzatziki sauce at Papa Cristo\'s was as good as anything I\'ve ever eaten.',
+      source: 'LA Weekly'
+    },
+    {
+      name: 'Ham Ji Park',
+      address: '4135 W Pico Blvd',
+      lat: 34.0479, lon: -118.3257,
+      quote: 'Some people think the gamjatang may be the single-best hangover cure in an area dense in hangover cures. The sputtering-hot soup feels soothing, thick with potatoes, bathed in dusky chile heat.',
+      source: 'LA Times'
+    },
+    {
+      name: 'Tacos Por Favor',
+      address: '1406 Olympic Blvd, Santa Monica',
+      lat: 34.0249, lon: -118.4767,
+      quote: 'The breakfast burritos are extraordinary, fat torpedoes of egg and potato, or egg and chorizo, and the guisados at lunch are as good as anything you might find in Boyle Heights.',
+      source: 'LA Times'
+    },
+    {
+      name: 'Dino\'s Chicken & Burgers',
+      address: '2575 W Pico Blvd',
+      lat: 34.0473, lon: -118.2945,
+      quote: 'If you hit the chicken the right way, you may have infernal visions of your own, all heat and musk and dripping flesh.',
+      source: 'LA Weekly'
+    },
+    {
+      name: 'Las 7 Regiones',
+      address: '2648 W Pico Blvd',
+      lat: 34.0474, lon: -118.2960,
+      quote: 'It is Las 7 Regiones\' coloradito — thick and dense and sweet-hot and unctuous, the product of hours of labor and probably 20-odd toasted seeds and chiles and spices.',
+      source: 'LA Weekly'
+    },
+    {
+      name: 'Texis',
+      address: '2813 W Pico Blvd',
+      lat: 34.0475, lon: -118.3005,
+      quote: 'Why are there 500 pupuserias in this part of town? Because everybody is hoping they\'ll taste like the rough-and-ready ones served here.',
+      source: 'LA Weekly'
+    },
+    {
+      name: 'La Cevicheria',
+      address: '3809 W Pico Blvd',
+      lat: 34.0478, lon: -118.3195,
+      quote: 'Massive ceviches, seafood cocktails and heaps of bloody clams — the best of coastal Guatemala right here.',
+      source: 'LA Weekly'
+    },
+    {
+      name: 'Sky\'s Gourmet Tacos',
+      address: '5303 W Pico Blvd',
+      lat: 34.0500, lon: -118.3480,
+      quote: 'Tacos like mom used to make, unless mom happened to be Mexican. Soulful as hell.',
+      source: 'LA Weekly'
+    }
+  ];
+
+  const picoBoulevard = boulevards.find(b => b.name === 'Pico Boulevard');
+
+  GOLD_RESTAURANTS.forEach(resto => {
+    const icon = L.divIcon({
+      className: '', html: '<div class="gold-dot"></div>',
+      iconSize: [11, 11], iconAnchor: [5, 5]
+    });
+    const marker = L.marker([resto.lat, resto.lon], { icon, zIndexOffset: 150 }).addTo(map);
+
+    marker.on('click', () => {
+      // Select Pico if not already selected
+      if (picoBoulevard && selectedBlvd !== picoBoulevard) {
+        selectedBlvd = picoBoulevard;
+        applyHighlight(picoBoulevard);
+        showInfo(picoBoulevard);
+      }
+
+      const html =
+        `<div style="padding:16px 18px;width:280px;">` +
+        `<div style="font-size:11px;color:#f59e0b;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">Jonathan Gold</div>` +
+        `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:10px;">${resto.name}</div>` +
+        `<div style="font-size:13px;color:#9ca3af;line-height:1.6;font-style:italic;margin-bottom:8px;">"${resto.quote}"</div>` +
+        `<div style="font-size:10px;color:#4b5563;">— ${resto.source} · ${resto.address}</div>` +
+        `</div>`;
+
+      L.popup({ className: 'gold-popup', closeButton: true, maxWidth: 320, autoPan: true })
+        .setLatLng([resto.lat, resto.lon])
+        .setContent(html)
+        .openOn(map);
+    });
+  });
+
+}).catch(() => {
+  document.getElementById('loading').innerHTML =
+    '<span style="color:#ef4444">Failed to load data — check your connection and reload.</span>';
+});
+</script>
+</body>
+</html>
