@@ -226,6 +226,24 @@ path.leaflet-interactive:focus { outline:none; }
 }
 .art-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
 
+/* ── Theatre popup ── */
+.theatre-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(255,255,255,0.08) !important;
+  border-radius:8px !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  overflow:hidden;
+}
+.theatre-popup .leaflet-popup-tip-container { display:none; }
+.theatre-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.theatre-popup .leaflet-popup-close-button {
+  color:#e8eaf8 !important; font-size:18px !important;
+  top:6px !important; right:8px !important;
+  z-index:10;
+}
+.theatre-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
+
 /* ── Jonathan Gold restaurant markers ── */
 .gold-dot {
   width:11px; height:11px;
@@ -1495,7 +1513,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
               `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:10px;">The Wiltern</div>` +
               `<div style="font-size:11px;color:#4b5563;">Loading events…</div>` +
               `</div>`;
-            const popup = L.popup({ closeButton: true, maxWidth: 310, autoPan: true })
+            const popup = L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 310, autoPan: true })
               .setLatLng([lat, lon]).setContent(loadingHtml).openOn(map);
 
             (async () => {
@@ -1579,7 +1597,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             (links ? `<div>${links}</div>` : '') +
             `</div>`;
 
-          L.popup({ closeButton: true, maxWidth: 280, autoPan: true })
+          L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 280, autoPan: true })
             .setLatLng([lat, lon])
             .setContent(html)
             .openOn(map);
