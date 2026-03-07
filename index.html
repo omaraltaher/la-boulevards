@@ -238,7 +238,7 @@ path.leaflet-interactive:focus { outline:none; }
 /* ── Info panel art section ── */
 #info-art { display:none; margin-top:16px; }
 #info-art-title {
-  font-size:10px; color:#4b5563;
+  font-size:10px; color:rgba(255,0,200,0.35);
   text-transform:uppercase; letter-spacing:.08em;
   margin-bottom:8px;
 }
@@ -1212,18 +1212,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   })();
 
   // ── Public art ──────────────────────────────────────────────
-  async function fetchArtImage(title, artist) {
+  async function fetchArtInfo(title, artist) {
     const q = encodeURIComponent(`${title} ${artist} Los Angeles`);
-    const url = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrsearch=${q}&prop=imageinfo&iiprop=url&iiurlwidth=320&format=json&origin=*&gsrlimit=5`;
+    const url = `https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srsearch=${q}&format=json&origin=*&srlimit=1`;
     try {
       const res = await fetch(url);
       const data = await res.json();
-      const pages = Object.values(data.query?.pages || {});
-      for (const p of pages) {
-        const info = p.imageinfo?.[0];
-        const src = info?.thumburl || info?.url;
-        if (src && /\.(jpe?g|png|webp)/i.test(src)) return src;
-      }
+      const hit = data.query?.search?.[0];
+      if (hit) return 'https://commons.wikimedia.org/wiki/' + hit.title.replace(/ /g, '_');
     } catch(e) {}
     return null;
   }
@@ -1282,14 +1278,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           // else: no associated boulevard — just show popup, leave panel as-is
 
           const html =
-            `<div style="width:280px;">` +
-            (art.imgSrc ? `<img src="${art.imgSrc}" alt="" style="width:100%;max-height:180px;object-fit:cover;border-radius:4px 4px 0 0;"/>` : '') +
-            `<div style="padding:14px 16px;">` +
+            `<div style="padding:14px 16px;width:260px;">` +
             `<div style="font-size:13px;font-weight:600;color:rgba(255,0,200,0.85);margin-bottom:4px;">${art.title}</div>` +
             (art.artist ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:4px;">${art.artist}</div>` : '') +
             (art.desc ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${art.desc}</div>` : '') +
-            (art.address ? `<div style="font-size:10px;color:#374151;">${art.address}</div>` : '') +
-            `</div></div>`;
+            (art.address ? `<div style="font-size:10px;color:#374151;margin-bottom:6px;">${art.address}</div>` : '') +
+            (art.commonsUrl ? `<a href="${art.commonsUrl}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(255,0,200,0.6);">More info →</a>` : '') +
+            `</div>`;
 
           L.popup({ className: 'art-popup', closeButton: true, maxWidth: 320, autoPan: true })
             .setLatLng([lat, lon])
@@ -1298,9 +1293,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         });
       });
 
-      // Pre-fetch all art images in the background — results cached on art.imgSrc
+      // Pre-fetch Commons links in the background — cached on art.commonsUrl
       artItems.forEach(art => {
-        fetchArtImage(art.title, art.artist).then(src => { art.imgSrc = src; });
+        fetchArtInfo(art.title, art.artist).then(url => { art.commonsUrl = url; });
       });
 
       // If a boulevard is already selected when art loads, populate its art section
