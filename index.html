@@ -1520,7 +1520,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
               try {
                 const r = await fetch('wiltern-events.json');
                 if (!r.ok) throw new Error('not found');
-                const events = await r.json();
+                const { events } = await r.json();
                 const today = new Date().toLocaleDateString('en-CA', {timeZone: 'America/Los_Angeles'});
 
                 let evHtml = '';
