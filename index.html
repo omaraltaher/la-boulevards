@@ -101,6 +101,11 @@ html, body {
 #legend .bar { height:5px; border-radius:3px; margin-bottom:5px;
   background:linear-gradient(to right,#a78bfa,#6366f1,#0ea5e9,#06b6d4,#5eead4); }
 #legend .rng { display:flex; justify-content:space-between; font-size:10px; color:#6b7280; }
+#legend .markers { margin-top:10px; display:flex; flex-direction:column; gap:5px; }
+#legend .marker-row { display:flex; align-items:center; gap:7px; font-size:10px; color:#6b7280; }
+#legend .marker-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+#legend .cam-legend-dot { background:rgba(6,182,212,0.65); border:1.5px solid rgba(103,232,249,0.5); }
+#legend .art-legend-dot { background:rgba(255,0,200,0.45); border:1.5px solid rgba(255,80,220,0.35); }
 
 /* ── Boulevard count ── */
 #count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
@@ -499,6 +504,10 @@ path.leaflet-interactive:focus { outline:none; }
     <div class="lbl">Color · Boulevard length</div>
     <div class="bar"></div>
     <div class="rng"><span>Short</span><span>Long</span></div>
+    <div class="markers">
+      <div class="marker-row"><div class="marker-dot cam-legend-dot"></div><span>Traffic camera</span></div>
+      <div class="marker-row"><div class="marker-dot art-legend-dot"></div><span>Public art</span></div>
+    </div>
   </div>
 
   <div id="count"></div>
