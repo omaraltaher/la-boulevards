@@ -1123,10 +1123,20 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   (async function loadCameras() {
     try {
       statusStart('Loading traffic cameras…');
-      const res = await fetch('https://cwwp2.dot.ca.gov/data/d7/cctv/cctvStatusD07.json');
-      if (!res.ok) { statusDone(); return; }
-      const data = await res.json();
+
+      // Load pre-checked live camera list alongside the Caltrans feed
+      const [camRes, liveRes] = await Promise.all([
+        fetch('https://cwwp2.dot.ca.gov/data/d7/cctv/cctvStatusD07.json'),
+        fetch('cameras-live.json').catch(() => null)
+      ]);
+      if (!camRes.ok) { statusDone(); return; }
+      const data = await camRes.json();
       const cams = (data.data || []).map(item => item.cctv || item);
+
+      const liveUrls = liveRes?.ok
+        ? new Set((await liveRes.json()).urls)
+        : null; // null = no list, fall back to probe-only
+
       let refreshTimer = null;
 
       cams.forEach(cam => {
@@ -1138,6 +1148,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         if (!lat || !lon || !imgUrl) return;
         if (cam.inService !== 'true') return;
         if (!nearAnyBlvd(lat, lon)) return;
+        if (liveUrls !== null && !liveUrls.has(imgUrl)) return; // skip known TU cameras
 
         // Probe image before adding marker — skip if unavailable
         const probe = new Image();
