@@ -1114,6 +1114,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     return false;
   }
 
+  window._onCamError = img => {
+    if (img.parentNode) img.parentNode.innerHTML =
+      '<div style="height:80px;display:flex;align-items:center;justify-content:center;' +
+      'color:#4b5563;font-size:12px;">Temporarily unavailable</div>';
+  };
+
   (async function loadCameras() {
     try {
       statusStart('Loading traffic cameras…');
@@ -1154,10 +1160,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           else resetProximity();
         }
 
+        const wrapId = `cam-${Math.random().toString(36).slice(2,8)}`;
         const bust = () => `${imgUrl}?t=${Date.now()}`;
+        const mkImg = src =>
+          `<img src="${src}" style="width:100%;display:block;" onerror="_onCamError(this)"/>`;
+
         const html =
           `<div style="width:300px;">` +
-          `<img id="cam-live" src="${bust()}" style="width:100%;display:block;min-height:80px;" onerror="this.alt='Image unavailable'"/>` +
+          `<div id="${wrapId}" style="background:#111827;min-height:80px;">${mkImg(bust())}</div>` +
           `<div style="padding:10px 14px 12px;">` +
           `<div style="font-size:12px;font-weight:600;color:#f9fafb;">${name}</div>` +
           `<div style="font-size:10px;color:#4b5563;margin-top:3px;">Live · refreshes every 2 min</div>` +
@@ -1169,9 +1179,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           .openOn(map);
 
         refreshTimer = setInterval(() => {
-          const img = document.getElementById('cam-live');
-          if (img) img.src = bust();
-          else { clearInterval(refreshTimer); refreshTimer = null; }
+          const wrap = document.getElementById(wrapId);
+          if (!wrap) { clearInterval(refreshTimer); refreshTimer = null; return; }
+          wrap.innerHTML = mkImg(bust()); // re-try every 2 min; onerror handles if still down
         }, 120000);
           });
         };
