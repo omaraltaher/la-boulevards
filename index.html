@@ -1255,6 +1255,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           blvd: nearestDist <= ART_BLVD_KM ? nearestBlvd : null,
           distKm: nearestDist
         };
+        if (!art.blvd) return; // skip art not near any boulevard
         artItems.push(art);
 
         // Map marker
