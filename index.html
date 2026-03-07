@@ -1191,6 +1191,22 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   })();
 
   // ── Public art ──────────────────────────────────────────────
+  async function fetchArtImage(title, artist) {
+    const q = encodeURIComponent(`${title} ${artist} Los Angeles`);
+    const url = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrsearch=${q}&prop=imageinfo&iiprop=url&iiurlwidth=320&format=json&origin=*&gsrlimit=5`;
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+      const pages = Object.values(data.query?.pages || {});
+      for (const p of pages) {
+        const info = p.imageinfo?.[0];
+        const src = info?.thumburl || info?.url;
+        if (src && /\.(jpe?g|png|webp)/i.test(src)) return src;
+      }
+    } catch(e) {}
+    return null;
+  }
+
   const ART_BLVD_KM = 0.3; // max distance to associate art with a boulevard
   let artItems = null; // null until loaded
 
@@ -1232,7 +1248,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         });
         const marker = L.marker([lat, lon], { icon, zIndexOffset: 100 }).addTo(map);
 
-        marker.on('click', () => {
+        marker.on('click', async () => {
           // Determine if art is on same boulevard as currently selected
           if (art.blvd && art.blvd === selectedBlvd) {
             // Keep boulevard panel open — just show art popup
@@ -1244,18 +1260,31 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           }
           // else: no associated boulevard — just show popup, leave panel as-is
 
+          const imgId = `art-img-${Math.random().toString(36).slice(2,8)}`;
           const html =
-            `<div style="padding:14px 16px;width:260px;">` +
+            `<div style="width:280px;">` +
+            `<img id="${imgId}" src="" alt="" style="width:100%;max-height:180px;object-fit:cover;border-radius:4px 4px 0 0;display:none;"/>` +
+            `<div style="padding:14px 16px;">` +
             `<div style="font-size:13px;font-weight:600;color:rgba(255,0,200,0.85);margin-bottom:4px;">${art.title}</div>` +
             (art.artist ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:4px;">${art.artist}</div>` : '') +
             (art.desc ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${art.desc}</div>` : '') +
             (art.address ? `<div style="font-size:10px;color:#374151;">${art.address}</div>` : '') +
-            `</div>`;
+            `</div></div>`;
 
-          L.popup({ className: 'art-popup', closeButton: true, maxWidth: 300, autoPan: true })
+          const popup = L.popup({ className: 'art-popup', closeButton: true, maxWidth: 320, autoPan: true })
             .setLatLng([lat, lon])
             .setContent(html)
             .openOn(map);
+
+          const imgSrc = await fetchArtImage(art.title, art.artist);
+          if (imgSrc) {
+            const imgEl = document.getElementById(imgId);
+            if (imgEl) {
+              imgEl.src = imgSrc;
+              imgEl.style.display = 'block';
+              imgEl.onload = () => popup.update();
+            }
+          }
         });
       });
 
