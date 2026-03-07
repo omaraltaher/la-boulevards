@@ -1,0 +1,31 @@
+name: Refresh Wiltern events
+
+on:
+  schedule:
+    - cron: '0 15 * * *'   # 7am PT (UTC-8) every day
+  workflow_dispatch:        # allow manual trigger from GitHub Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch upcoming Wiltern events
+        run: node check-wiltern.mjs
+        env:
+          TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+
+      - name: Commit updated wiltern-events.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add wiltern-events.json
+          git diff --cached --quiet || git commit -m "chore: refresh Wiltern events [skip ci]"
+          git push

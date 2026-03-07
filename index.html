@@ -105,7 +105,7 @@ html, body {
 #legend .pico-legend-line { background:#f59e0b; }
 #legend .cam-legend-dot { background:rgba(6,182,212,0.65); border:1.5px solid rgba(103,232,249,0.5); }
 #legend .art-legend-dot { background:rgba(255,0,200,0.45); border:1.5px solid rgba(255,80,220,0.35); }
-#legend .theatre-legend-dot { background:rgba(251,191,36,0.65); border:1.5px solid rgba(252,211,77,0.5); }
+#legend .theatre-legend-dot { background:rgba(168,85,247,0.65); border:1.5px solid rgba(192,132,252,0.5); }
 
 /* ── Boulevard count ── */
 #count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
@@ -169,25 +169,25 @@ path.leaflet-interactive:focus { outline:none; }
 /* ── Theatre markers ── */
 .theatre-dot {
   width:8px; height:8px;
-  background:rgba(251,191,36,0.65);
-  border:1.5px solid rgba(252,211,77,0.5);
+  background:rgba(168,85,247,0.65);
+  border:1.5px solid rgba(192,132,252,0.5);
   border-radius:50%;
   cursor:pointer;
   transition:background 0.15s, transform 0.15s;
 }
-.theatre-dot:hover { background:rgba(251,191,36,0.9); transform:scale(1.4); }
+.theatre-dot:hover { background:rgba(168,85,247,0.9); transform:scale(1.4); }
 .wiltern-dot {
   width:13px; height:13px;
-  background:rgba(251,191,36,0.85);
-  border:2px solid rgba(252,211,77,0.9);
+  background:rgba(192,132,252,0.85);
+  border:2px solid rgba(216,180,254,0.9);
   border-radius:50%;
   cursor:pointer;
-  box-shadow:0 0 8px 3px rgba(251,191,36,0.4);
+  box-shadow:0 0 8px 3px rgba(168,85,247,0.45);
   animation:wiltern-pulse 2.5s ease-in-out infinite;
 }
 @keyframes wiltern-pulse {
-  0%, 100% { box-shadow:0 0 8px 3px rgba(251,191,36,0.4); }
-  50%       { box-shadow:0 0 16px 7px rgba(251,191,36,0.18); }
+  0%, 100% { box-shadow:0 0 8px 3px rgba(168,85,247,0.45); }
+  50%       { box-shadow:0 0 16px 7px rgba(168,85,247,0.2); }
 }
 
 /* ── Camera popup ── */
@@ -1488,6 +1488,76 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             showInfo(nearestBlvd);
           }
 
+          if (isWiltern) {
+            const loadingHtml =
+              `<div style="padding:14px 16px;width:268px;">` +
+              `<div style="font-size:10px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
+              `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:10px;">The Wiltern</div>` +
+              `<div style="font-size:11px;color:#4b5563;">Loading events…</div>` +
+              `</div>`;
+            const popup = L.popup({ closeButton: true, maxWidth: 310, autoPan: true })
+              .setLatLng([lat, lon]).setContent(loadingHtml).openOn(map);
+
+            (async () => {
+              try {
+                const r = await fetch('wiltern-events.json');
+                if (!r.ok) throw new Error('not found');
+                const events = await r.json();
+                const today = new Date().toLocaleDateString('en-CA', {timeZone: 'America/Los_Angeles'});
+
+                let evHtml = '';
+                for (const ev of events.slice(0, 4)) {
+                  const localDate = ev.date;
+                  const localTime = ev.time;
+                  const isTonight = localDate === today;
+                  const img = ev.image;
+
+                  let dateLabel = isTonight ? 'Tonight' :
+                    new Date(localDate + 'T12:00:00').toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'});
+                  if (localTime) {
+                    const [h, m] = localTime.split(':');
+                    const hr = parseInt(h);
+                    dateLabel += ` · ${hr > 12 ? hr - 12 : hr || 12}:${m} ${hr >= 12 ? 'PM' : 'AM'}`;
+                  }
+
+                  evHtml +=
+                    `<div style="margin-bottom:12px;display:flex;gap:10px;align-items:flex-start;">` +
+                    (img ? `<img src="${img}" style="width:52px;height:52px;object-fit:cover;border-radius:4px;flex-shrink:0;" loading="lazy"/>` : '') +
+                    `<div>` +
+                    `<div style="font-size:11px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#6b7280'};margin-bottom:2px;">${dateLabel}</div>` +
+                    `<div style="font-size:13px;color:#e0e4ef;margin-bottom:3px;">${ev.name}</div>` +
+                    `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:10px;color:rgba(192,132,252,0.7);text-decoration:none;">Tickets →</a>` +
+                    `</div></div>`;
+                }
+                if (!evHtml) evHtml = `<div style="font-size:11px;color:#4b5563;">No upcoming events found.</div>`;
+
+                let wikiLink = '';
+                if (el.tags.wikipedia) {
+                  const [lang, title] = el.tags.wikipedia.split(':', 2);
+                  wikiLink = `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.45);text-decoration:none;">Wikipedia →</a>`;
+                }
+
+                popup.setContent(
+                  `<div style="padding:14px 16px;width:268px;">` +
+                  `<div style="font-size:10px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
+                  `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:12px;">The Wiltern</div>` +
+                  evHtml +
+                  (wikiLink ? `<div style="margin-top:4px;border-top:1px solid rgba(255,255,255,0.06);padding-top:8px;">${wikiLink}</div>` : '') +
+                  `</div>`
+                );
+              } catch(e) {
+                popup.setContent(
+                  `<div style="padding:14px 16px;width:268px;">` +
+                  `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:8px;">The Wiltern</div>` +
+                  `<div style="font-size:11px;color:#4b5563;">Couldn't load events.</div>` +
+                  `</div>`
+                );
+              }
+            })();
+            return;
+          }
+
+          // generic theatre popup
           let wikiLink = '';
           if (el.tags.wikipedia) {
             const [lang, title] = el.tags.wikipedia.split(':', 2);
