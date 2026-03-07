@@ -97,13 +97,12 @@ html, body {
 
 /* ── Legend ── */
 #legend { position:absolute; bottom:44px; left:20px; min-width:175px; }
-#legend .lbl { font-size:10px; color:#4b5563; text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
-#legend .bar { height:5px; border-radius:3px; margin-bottom:5px;
-  background:linear-gradient(to right,#a78bfa,#6366f1,#0ea5e9,#06b6d4,#5eead4); }
-#legend .rng { display:flex; justify-content:space-between; font-size:10px; color:#6b7280; }
-#legend .markers { margin-top:10px; display:flex; flex-direction:column; gap:5px; }
+#legend .markers { display:flex; flex-direction:column; gap:5px; }
 #legend .marker-row { display:flex; align-items:center; gap:7px; font-size:10px; color:#6b7280; }
-#legend .marker-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+#legend .marker-dot  { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+#legend .marker-line { width:16px; height:2px; border-radius:1px; flex-shrink:0; }
+#legend .blvd-legend-line { background:#818cf8; }
+#legend .pico-legend-line { background:#f59e0b; }
 #legend .cam-legend-dot { background:rgba(6,182,212,0.65); border:1.5px solid rgba(103,232,249,0.5); }
 #legend .art-legend-dot { background:rgba(255,0,200,0.45); border:1.5px solid rgba(255,80,220,0.35); }
 
@@ -501,10 +500,9 @@ path.leaflet-interactive:focus { outline:none; }
 
 
   <div id="legend" class="panel">
-    <div class="lbl">Color · Boulevard length</div>
-    <div class="bar"></div>
-    <div class="rng"><span>Short</span><span>Long</span></div>
     <div class="markers">
+      <div class="marker-row"><div class="marker-line blvd-legend-line"></div><span>Boulevard</span></div>
+      <div class="marker-row"><div class="marker-line pico-legend-line"></div><span>Pico Blvd (Jonathan Gold)</span></div>
       <div class="marker-row"><div class="marker-dot cam-legend-dot"></div><span>Traffic camera</span></div>
       <div class="marker-row"><div class="marker-dot art-legend-dot"></div><span>Public art</span></div>
     </div>
@@ -575,24 +573,6 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png'
 }).addTo(map);
 
 // ── Color scale (percentile rank 0–1) ──────────────────────
-function pctToColor(t) {
-  const stops = [
-    [0,    [167, 139, 250]],   // violet-400: icy lavender
-    [0.3,  [ 99, 102, 241]],   // indigo-500: deep ice
-    [0.55, [ 14, 165, 233]],   // sky-500:    glacial blue
-    [0.78, [  6, 182, 212]],   // cyan-500:   ice
-    [1,    [ 94, 234, 212]],   // teal-300:   mint frost
-  ];
-  let a = stops[0][1], b = stops[1][1], lo = 0, hi = 1;
-  for (let i = 0; i < stops.length - 1; i++) {
-    if (t >= stops[i][0] && t <= stops[i+1][0]) {
-      [lo, a] = stops[i]; [hi, b] = stops[i+1]; break;
-    }
-  }
-  const f = hi === lo ? 0 : (t - lo) / (hi - lo);
-  return `rgb(${Math.round(a[0]+f*(b[0]-a[0]))},${Math.round(a[1]+f*(b[1]-a[1]))},${Math.round(a[2]+f*(b[2]-a[2]))})`;
-}
-
 // ── Haversine (km) ─────────────────────────────────────────
 function hav(lat1, lon1, lat2, lon2) {
   const R = 6371, dLat = (lat2-lat1)*Math.PI/180, dLon = (lon2-lon1)*Math.PI/180;
@@ -615,10 +595,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   boulevards.forEach(blvd => {
     // Jonathan Gold tribute — Pico Boulevard is always gold
     const isPico = blvd.name === 'Pico Boulevard';
-    const color = isPico ? '#f59e0b' : pctToColor(blvd.pct);
+    const color = isPico ? '#f59e0b' : '#818cf8';
     blvd.color = color;
-    blvd.weight  = isPico ? 1.6 : (2.4 - blvd.pct * 1.7);
-    blvd.opacity = isPico ? 0.8 : (0.9 - blvd.pct * 0.72);
+    blvd.weight  = isPico ? 1.6 : 1.8;
+    blvd.opacity = isPico ? 0.8 : 0.7;
     const tip = isPico
       ? `<b>Pico Boulevard</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#f59e0b">Jonathan Gold's Pico</span></span>`
       : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
