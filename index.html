@@ -597,7 +597,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const color = isPico ? '#f59e0b' : '#e8eaf8';
     blvd.color = color;
     blvd.weight  = isPico ? 1.6 : 1.8;
-    blvd.opacity = isPico ? 0.8 : 0.7;
+    blvd.opacity = isPico ? 0.8 : 0.35;
     const tip = isPico
       ? `<b>Pico Boulevard</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#f59e0b">Jonathan Gold's Pico</span></span>`
       : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
