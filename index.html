@@ -1558,17 +1558,25 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           }
 
           // generic theatre popup
-          let wikiLink = '';
-          if (el.tags.wikipedia) {
-            const [lang, title] = el.tags.wikipedia.split(':', 2);
-            wikiLink = `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(251,191,36,0.8);text-decoration:none;">Wikipedia →</a>`;
+          const tags = el.tags;
+          const addrParts = [tags['addr:housenumber'], tags['addr:street']].filter(Boolean);
+          const address = addrParts.length ? addrParts.join(' ') : (tags['addr:full'] || '');
+          const website = tags.website || tags['contact:website'] || '';
+          let links = '';
+          if (tags.wikipedia) {
+            const [lang, title] = tags.wikipedia.split(':', 2);
+            links += `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;margin-right:10px;">Wikipedia →</a>`;
+          }
+          if (website) {
+            links += `<a href="${website}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;">Website →</a>`;
           }
 
           const html =
             `<div style="padding:14px 16px;width:240px;">` +
-            `<div style="font-size:10px;color:rgba(251,191,36,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
-            `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:8px;">${name}</div>` +
-            (wikiLink ? `<div>${wikiLink}</div>` : '') +
+            `<div style="font-size:10px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
+            `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${address || links ? '8px' : '0'};">${name}</div>` +
+            (address ? `<div style="font-size:11px;color:#6b7280;margin-bottom:${links ? '8px' : '0'};">${address}</div>` : '') +
+            (links ? `<div>${links}</div>` : '') +
             `</div>`;
 
           L.popup({ closeButton: true, maxWidth: 280, autoPan: true })
