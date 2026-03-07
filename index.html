@@ -1248,7 +1248,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         });
         const marker = L.marker([lat, lon], { icon, zIndexOffset: 100 }).addTo(map);
 
-        marker.on('click', async () => {
+        marker.on('click', () => {
           // Determine if art is on same boulevard as currently selected
           if (art.blvd && art.blvd === selectedBlvd) {
             // Keep boulevard panel open — just show art popup
@@ -1260,10 +1260,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           }
           // else: no associated boulevard — just show popup, leave panel as-is
 
-          const imgId = `art-img-${Math.random().toString(36).slice(2,8)}`;
           const html =
             `<div style="width:280px;">` +
-            `<img id="${imgId}" src="" alt="" style="width:100%;max-height:180px;object-fit:cover;border-radius:4px 4px 0 0;display:none;"/>` +
+            (art.imgSrc ? `<img src="${art.imgSrc}" alt="" style="width:100%;max-height:180px;object-fit:cover;border-radius:4px 4px 0 0;"/>` : '') +
             `<div style="padding:14px 16px;">` +
             `<div style="font-size:13px;font-weight:600;color:rgba(255,0,200,0.85);margin-bottom:4px;">${art.title}</div>` +
             (art.artist ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:4px;">${art.artist}</div>` : '') +
@@ -1271,21 +1270,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             (art.address ? `<div style="font-size:10px;color:#374151;">${art.address}</div>` : '') +
             `</div></div>`;
 
-          const popup = L.popup({ className: 'art-popup', closeButton: true, maxWidth: 320, autoPan: true })
+          L.popup({ className: 'art-popup', closeButton: true, maxWidth: 320, autoPan: true })
             .setLatLng([lat, lon])
             .setContent(html)
             .openOn(map);
-
-          const imgSrc = await fetchArtImage(art.title, art.artist);
-          if (imgSrc) {
-            const imgEl = document.getElementById(imgId);
-            if (imgEl) {
-              imgEl.src = imgSrc;
-              imgEl.style.display = 'block';
-              imgEl.onload = () => popup.update();
-            }
-          }
         });
+      });
+
+      // Pre-fetch all art images in the background — results cached on art.imgSrc
+      artItems.forEach(art => {
+        fetchArtImage(art.title, art.artist).then(src => { art.imgSrc = src; });
       });
 
       // If a boulevard is already selected when art loads, populate its art section
