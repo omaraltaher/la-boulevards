@@ -2,7 +2,7 @@
 
 An interactive map of every boulevard in Los Angeles County, color-coded by length.
 
-**[Live map →](https://YOUR_USERNAME.github.io/la-boulevards)**
+**[Live map →](https://omaraltaher.github.io/la-boulevards)**
 
 ## Features
 - ~350 boulevards color-coded by length (violet = short → teal = long)
@@ -14,7 +14,7 @@ An interactive map of every boulevard in Los Angeles County, color-coded by leng
 ## Embed
 ```html
 <iframe
-  src="https://YOUR_USERNAME.github.io/la-boulevards?embed=1"
+  src="https://omaraltaher.github.io/la-boulevards?embed=1"
   width="100%" height="600"
   style="border:none;"
   loading="lazy"
