@@ -105,6 +105,7 @@ html, body {
 #legend .pico-legend-line { background:#f59e0b; }
 #legend .cam-legend-dot { background:rgba(6,182,212,0.65); border:1.5px solid rgba(103,232,249,0.5); }
 #legend .art-legend-dot { background:rgba(255,0,200,0.45); border:1.5px solid rgba(255,80,220,0.35); }
+#legend .theatre-legend-dot { background:rgba(251,191,36,0.65); border:1.5px solid rgba(252,211,77,0.5); }
 
 /* ── Boulevard count ── */
 #count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
@@ -164,6 +165,30 @@ path.leaflet-interactive:focus { outline:none; }
   transition:background 0.15s, transform 0.15s;
 }
 .art-dot:hover { background:rgba(255,0,200,0.75); transform:scale(1.4); }
+
+/* ── Theatre markers ── */
+.theatre-dot {
+  width:8px; height:8px;
+  background:rgba(251,191,36,0.65);
+  border:1.5px solid rgba(252,211,77,0.5);
+  border-radius:50%;
+  cursor:pointer;
+  transition:background 0.15s, transform 0.15s;
+}
+.theatre-dot:hover { background:rgba(251,191,36,0.9); transform:scale(1.4); }
+.wiltern-dot {
+  width:13px; height:13px;
+  background:rgba(251,191,36,0.85);
+  border:2px solid rgba(252,211,77,0.9);
+  border-radius:50%;
+  cursor:pointer;
+  box-shadow:0 0 8px 3px rgba(251,191,36,0.4);
+  animation:wiltern-pulse 2.5s ease-in-out infinite;
+}
+@keyframes wiltern-pulse {
+  0%, 100% { box-shadow:0 0 8px 3px rgba(251,191,36,0.4); }
+  50%       { box-shadow:0 0 16px 7px rgba(251,191,36,0.18); }
+}
 
 /* ── Camera popup ── */
 .cam-popup .leaflet-popup-content-wrapper {
@@ -504,6 +529,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="marker-row"><div class="marker-line blvd-legend-line"></div><span>Boulevard</span></div>
       <div class="marker-row"><div class="marker-dot cam-legend-dot"></div><span>Traffic camera</span></div>
       <div class="marker-row"><div class="marker-dot art-legend-dot"></div><span>Public art</span></div>
+      <div class="marker-row"><div class="marker-dot theatre-legend-dot"></div><span>Theatre</span></div>
     </div>
   </div>
 
@@ -1413,6 +1439,78 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         .openOn(map);
     });
   });
+
+  // ── Theatres ──────────────────────────────────────────────────
+  (async function loadTheatres() {
+    try {
+      const query =
+        '[out:json][timeout:25];' +
+        '(node["amenity"="theatre"](33.6,-118.9,34.8,-117.6);' +
+        'way["amenity"="theatre"](33.6,-118.9,34.8,-117.6););' +
+        'out center;';
+      const res = await fetch('https://overpass-api.de/api/interpreter', {
+        method: 'POST', body: query
+      });
+      if (!res.ok) return;
+      const data = await res.json();
+
+      const THEATRE_BLVD_KM = 0.3;
+      for (const el of data.elements) {
+        if (!el.tags?.name) continue;
+        const lat = el.lat ?? el.center?.lat;
+        const lon = el.lon ?? el.center?.lon;
+        if (!lat || !lon) continue;
+
+        // Find nearest boulevard
+        let nearestBlvd = null, nearestDist = Infinity;
+        boulevards.forEach(b => {
+          const d = nearestKm(lat, lon, b);
+          if (d < nearestDist) { nearestDist = d; nearestBlvd = b; }
+        });
+        if (nearestDist > THEATRE_BLVD_KM) continue;
+
+        const name = el.tags.name;
+        const isWiltern = name === 'The Wiltern';
+
+        const icon = L.divIcon({
+          className: '',
+          html: `<div class="${isWiltern ? 'wiltern-dot' : 'theatre-dot'}"></div>`,
+          iconSize: isWiltern ? [13, 13] : [8, 8],
+          iconAnchor: isWiltern ? [6, 6] : [4, 4]
+        });
+
+        const marker = L.marker([lat, lon], { icon, zIndexOffset: isWiltern ? 300 : 120 }).addTo(map);
+
+        marker.on('click', () => {
+          if (nearestBlvd && selectedBlvd !== nearestBlvd) {
+            selectedBlvd = nearestBlvd;
+            applyHighlight(nearestBlvd);
+            showInfo(nearestBlvd);
+          }
+
+          let wikiLink = '';
+          if (el.tags.wikipedia) {
+            const [lang, title] = el.tags.wikipedia.split(':', 2);
+            wikiLink = `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(251,191,36,0.8);text-decoration:none;">Wikipedia →</a>`;
+          }
+
+          const html =
+            `<div style="padding:14px 16px;width:240px;">` +
+            `<div style="font-size:10px;color:rgba(251,191,36,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
+            `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:8px;">${name}</div>` +
+            (wikiLink ? `<div>${wikiLink}</div>` : '') +
+            `</div>`;
+
+          L.popup({ closeButton: true, maxWidth: 280, autoPan: true })
+            .setLatLng([lat, lon])
+            .setContent(html)
+            .openOn(map);
+        });
+      }
+    } catch (e) {
+      console.warn('Theatre load failed:', e);
+    }
+  })();
 
 }).catch(() => {
   document.getElementById('loading').innerHTML =
