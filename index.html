@@ -1752,7 +1752,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (group.length >= MIN) {
         const lat = group.reduce((s, k) => s + pts[k].p.lat, 0) / group.length;
         const lon = group.reduce((s, k) => s + pts[k].p.lon, 0) / group.length;
-        parrotRenderGroup.addLayer(L.marker([lat, lon], { icon: makeParrotClusterIcon(group.length), zIndexOffset: 100 }));
+        const bounds = L.latLngBounds(group.map(k => [pts[k].p.lat, pts[k].p.lon]));
+        const cm = L.marker([lat, lon], { icon: makeParrotClusterIcon(group.length), zIndexOffset: 100 });
+        cm.on('click', e => { L.DomEvent.stopPropagation(e); map.fitBounds(bounds, { maxZoom: 15, padding: [40, 40] }); });
+        parrotRenderGroup.addLayer(cm);
       } else {
         for (const k of group) {
           const m = L.marker([pts[k].p.lat, pts[k].p.lon], { icon: parrotIcon, zIndexOffset: 50 });
