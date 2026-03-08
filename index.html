@@ -1818,8 +1818,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         (w.operator ? `<div style="font-size:11px;color:#9ca3af;margin-bottom:4px;">${w.operator}</div>` : '') +
         (w.type     ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${w.type}</div>` : '') +
         (w.blvd     ? `<div style="font-size:10px;color:#4b5563;margin-bottom:8px;">Near ${w.blvd}</div>` : '') +
-        (w.photo    ? `<img src="${w.photo}" style="width:100%;height:110px;object-fit:cover;border-radius:4px;margin-bottom:8px;display:block;" loading="lazy"/>` : '') +
-        (w.api      ? `<a href="https://wellstar-public.conservation.ca.gov/Well/Index/${w.api}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(180,83,9,0.8);text-decoration:none;">CalGEM record →</a>` : '') +
+        (w.photo    ? `<a href="https://www.mapillary.com/map/im/${w.photo}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(180,83,9,0.8);text-decoration:none;display:block;margin-bottom:6px;">📷 Street view →</a>` : '') +
+        (w.api      ? `<a href="https://maps.conservation.ca.gov/doggr/wellfinder/#detail/${w.api}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(180,83,9,0.8);text-decoration:none;">CalGEM record →</a>` : '') +
         `</div>`;
       L.popup({ className: 'well-popup', closeButton: true, maxWidth: 280, autoPan: true })
         .setLatLng([w.lat, w.lon]).setContent(html).openOn(map);

@@ -35,7 +35,7 @@ for (let i = 0; i < wells.length; i++) {
     if (!res.ok) { w.photo = w.photo ?? null; continue; }
     const { data } = await res.json();
     if (data && data.length > 0) {
-      w.photo = data[0].thumb_256_url;
+      w.photo = data[0].id;   // store ID only; CDN URLs are IP-signed and expire
       found++;
     } else {
       w.photo = null;
