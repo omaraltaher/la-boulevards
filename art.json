@@ -1,0 +1,1045 @@
+{
+  "generated": "2026-03-08T07:52:06.489Z",
+  "items": [
+    {
+      "title": "Los Angeles International Airport",
+      "artist": "Megan McLarney",
+      "desc": "Video art and sculptures",
+      "address": "1 World Way, LAX",
+      "lat": 33.94469,
+      "lon": -118.398,
+      "blvd": "Century Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Northridge Fire Station No. 87",
+      "artist": "Wopo Holup",
+      "desc": "Metal sculpture",
+      "address": "10124 North Balboa Ave",
+      "lat": 34.25464,
+      "lon": -118.502,
+      "blvd": "Balboa Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Watts Branch Library",
+      "artist": "Richard Wyatt",
+      "desc": "Painted mural",
+      "address": "10205 Compton Ave",
+      "lat": 33.94385,
+      "lon": -118.246,
+      "blvd": "Firth Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AAn_illustrated_history_of_Los_Angeles_County%2C_California_(IA_illustratedhisto01lewi).pdf"
+    },
+    {
+      "title": "Pico Union Branch Library",
+      "artist": "Mary Lynn Dominguez",
+      "desc": "Interior mosaic sculpture",
+      "address": "1030 S. Alvarado St.",
+      "lat": 34.05081,
+      "lon": -118.28,
+      "blvd": "Olympic Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Westwood Parking Structure",
+      "artist": "Rod Baer",
+      "desc": "Sidewalk layout based on game \"Monopoly\"",
+      "address": "1036 Broxton Ave.",
+      "lat": 34.06189,
+      "lon": -118.446,
+      "blvd": "Westwood Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Eagle Rock Child Care Center",
+      "artist": "Stuart Williams",
+      "desc": "Exterior sundial sculpture",
+      "address": "1100 Eagle Vista Drive",
+      "lat": 34.14247,
+      "lon": -118.186,
+      "blvd": "Colorado Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AGlendale_Daily_Press_1922-11-13_(IA_cgl_001955).pdf"
+    },
+    {
+      "title": "Northeast Valley Animal Care & Services Center",
+      "artist": "May Sun",
+      "desc": "Exterior installation",
+      "address": "11030 N. Stranwood Ave., Mission Hills, CA",
+      "lat": 34.27061,
+      "lon": -118.466,
+      "blvd": "Brand Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ASonoma_Valley_Expositor_1907-03-01_(IA_casomvhs_000284).pdf"
+    },
+    {
+      "title": "East Valley Solid Resources",
+      "artist": "Victor Henderson",
+      "desc": "Exterior mural and sculpture",
+      "address": "11050 Pendleton Street, Sun Valley",
+      "lat": 34.23929,
+      "lon": -118.372,
+      "blvd": "Glenoaks Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ASouthern_campus_(IA_southerncampus1928univ).pdf"
+    },
+    {
+      "title": "Mission Hills Police Station",
+      "artist": "Roberto Delgado",
+      "desc": "Interior lobby mural and exterior sculpture",
+      "address": "11121 N. Sepulveda Boulevard, Mission Hills",
+      "lat": 34.27261,
+      "lon": -118.468,
+      "blvd": "Sepulveda Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "West LA Parking Structure",
+      "artist": "Laura Larson",
+      "desc": "Six large terracotta medallions",
+      "address": "11214 Exposition Blvd.",
+      "lat": 34.035,
+      "lon": -118.435,
+      "blvd": "Exposition Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ASouthern_campus_(IA_southerncampus1979univ).pdf"
+    },
+    {
+      "title": "Hollywood Pool and Bathhouse",
+      "artist": "Laura Hull",
+      "desc": "Exterior tile mural",
+      "address": "1122 N. Cole Ave., Hollywood",
+      "lat": 34.09133,
+      "lon": -118.33,
+      "blvd": "Santa Monica Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Olympic Police Station",
+      "artist": "Shauna Gillies-Smith",
+      "desc": "Exterior art installation",
+      "address": "1130 S. Vermont Ave., Mid-City",
+      "lat": 34.04982,
+      "lon": -118.291,
+      "blvd": "Pico Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "West LA Animal Care & Services Center",
+      "artist": "Gwynn Murrill",
+      "desc": "Water feature with ceramic relief tile and 3-D bronze sculpture",
+      "address": "11361 W. Pico Blvd.",
+      "lat": 34.03469,
+      "lon": -118.44,
+      "blvd": "Pico Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Tiara Street Intergenerational Center",
+      "artist": "Ramon Ramirez",
+      "desc": "Three interior paintings",
+      "address": "11480 Tiara St., North Hollywood",
+      "lat": 34.17839,
+      "lon": -118.382,
+      "blvd": "Lankershim Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "North Hollywood Police Station",
+      "artist": "Michael Davis",
+      "desc": "Exterior glass wall installation, interior glass wall",
+      "address": "11640 Burbank Blvd., North Hollywood",
+      "lat": 34.17199,
+      "lon": -118.386,
+      "blvd": "Burbank Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ABaldwin's_Concord%2C_North_Carolina_City_Directory_(1938)_-_DPLA_-_d4e6e032efbe03b8ab92f3bba2f19f03.pdf"
+    },
+    {
+      "title": "Truesdale Recycling & Disposal Center",
+      "artist": "Jacqueline Dreager",
+      "desc": "Sculptural installation",
+      "address": "11781 Truesdale St.",
+      "lat": 34.24883,
+      "lon": -118.388,
+      "blvd": "Glenoaks Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Lake View Terrace Branch Library",
+      "artist": "Cheri Gaulke",
+      "desc": "Outdoor sculpture",
+      "address": "12002 Osborne Ave. Lake View Terrace, CA",
+      "lat": 34.27302,
+      "lon": -118.394,
+      "blvd": "Foothill Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Mar Vista Library",
+      "artist": "John O'Brien",
+      "desc": "Wave elements integrated into architecture",
+      "address": "12006 Venice Boulevard",
+      "lat": 34.00591,
+      "lon": -118.429,
+      "blvd": "Venice Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AWHSF-_Returned%2C_45-13_-_DPLA_-_08e47e0ca04337d2bfe287f7100c07e4.pdf"
+    },
+    {
+      "title": "Robertson Boulevard Parking Structure",
+      "artist": "Rod Baer",
+      "desc": "Interior metal panels",
+      "address": "123 S. Robertson Blvd.",
+      "lat": 34.07462,
+      "lon": -118.384,
+      "blvd": "Sorth Robertson Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Westwood Branch Library",
+      "artist": "John O'Brien",
+      "desc": "Interior plexiglass sculpture and window treatment",
+      "address": "1246 Glendon Ave Westwood",
+      "lat": 34.05786,
+      "lon": -118.442,
+      "blvd": "Westwood Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ASouthern_campus_(IA_southerncampus1925univ).pdf"
+    },
+    {
+      "title": "Sylmar Branch Library",
+      "artist": "Barbara Strasen",
+      "desc": "Lenticular panels",
+      "address": "13059 Glenoaks Blvd.",
+      "lat": 34.30761,
+      "lon": -118.45,
+      "blvd": "Glenoaks Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Banning Park Senior Center",
+      "artist": "Yolande Macias McKay",
+      "desc": "Interior sculptures",
+      "address": "1331 Eubank Ave.",
+      "lat": 33.79019,
+      "lon": -118.256,
+      "blvd": "Banning Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Pacoima Neighborhood City Hall",
+      "artist": "Ignacio Gomez",
+      "desc": "Mural and bronze sculpture",
+      "address": "13510 Van Nuys Blvd",
+      "lat": 34.26211,
+      "lon": -118.427,
+      "blvd": "Van Nuys Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Pacoima Branch Library",
+      "artist": "Terry Schoonhoven",
+      "desc": "Interior painting",
+      "address": "13605 Van Nuys Blvd",
+      "lat": 34.26121,
+      "lon": -118.429,
+      "blvd": "Van Nuys Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Sherman Oaks Branch Library",
+      "artist": "Sheila Pinkel",
+      "desc": "Photographic mural of Native American artifacts",
+      "address": "14245 Moorpark St., Sherman Oaks",
+      "lat": 34.15114,
+      "lon": -118.444,
+      "blvd": "Ventura Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Panorama Branch Library",
+      "artist": "Kim Abeles",
+      "desc": "Lightweight double-sided display case",
+      "address": "14345 Roscoe Blvd.",
+      "lat": 34.22175,
+      "lon": -118.446,
+      "blvd": "Roscoe Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Van Nuys Field Service Building No. 3",
+      "artist": "Helle Scharling-Todd",
+      "desc": "Tile mosaic mural",
+      "address": "14401 Saticoy St",
+      "lat": 34.20855,
+      "lon": -118.448,
+      "blvd": "Van Nuys Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "East Valley Animal Care & Service Center",
+      "artist": "Lynn Goodpasture",
+      "desc": "Glass art panels",
+      "address": "14409 Vanowen St., Van Nuys, CA",
+      "lat": 34.1941,
+      "lon": -118.447,
+      "blvd": "Van Nuys Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Arleta Fire Station No. 7",
+      "artist": "Rebecca Lowry",
+      "desc": "Panels and installation",
+      "address": "14630 Plummer St., Panorama City",
+      "lat": 34.24253,
+      "lon": -118.451,
+      "blvd": "Van Nuys Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Ross Snyder Community Center",
+      "artist": "",
+      "desc": "Exterior tile mural design",
+      "address": "1501 E. 41st Street",
+      "lat": 34.00873,
+      "lon": -118.247,
+      "blvd": "Martin Luther King Junior Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ALiberator_-_1912-03-08_(IA_cl_000109).pdf"
+    },
+    {
+      "title": "Fairfax Branch Library",
+      "artist": "Joyce Dallal",
+      "desc": "Murals",
+      "address": "161 South Gardner Street",
+      "lat": 34.0717,
+      "lon": -118.353,
+      "blvd": "Hauser Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Robertson Recreation Center",
+      "artist": "Kimura Wakana and Arnold John Felix",
+      "desc": "Immersive mural",
+      "address": "1641 Preuss Rd, Los Angeles,",
+      "lat": 34.0493,
+      "lon": -118.385,
+      "blvd": "Robertson Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Encino Fire Station No. 83",
+      "artist": "John Wehrle",
+      "desc": "Interior canvas mural and exterior ceramic mural",
+      "address": "16843 Moorpark",
+      "lat": 34.16083,
+      "lon": -118.501,
+      "blvd": "Balboa Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Robertson Branch Library",
+      "artist": "Erika Rothenberg",
+      "desc": "Quotations on building",
+      "address": "1719 S. Robertson Blvd.",
+      "lat": 34.04835,
+      "lon": -118.386,
+      "blvd": "Robertson Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Pedlow Skate Park",
+      "artist": "Stash Maleski",
+      "desc": "Four mural paintings on metal",
+      "address": "17334 Victory Blvd., Encino",
+      "lat": 34.18647,
+      "lon": -118.51,
+      "blvd": "Victory Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Watts Fire Station No. 65",
+      "artist": "Laura Larson",
+      "desc": "Interior window and exterior concrete treatment",
+      "address": "1801 E Century Blvd",
+      "lat": 33.94578,
+      "lon": -118.241,
+      "blvd": "Century Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AThe_Stethoscope_Vol._3_No._13%2C_28_March_1945_(IA_Stethoscope313450328).pdf"
+    },
+    {
+      "title": "Encino Tarzana Branch Library",
+      "artist": "Peter Shire",
+      "desc": "Interior suspended sculpture",
+      "address": "18231 Ventura Blvd",
+      "lat": 34.16655,
+      "lon": -118.53,
+      "blvd": "Ventura Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Good Beginnings Early Childhood Education Program",
+      "artist": "Jacqueline Alexander-Sykes",
+      "desc": "Painted panels",
+      "address": "1839 S. Hoover Street",
+      "lat": 34.04069,
+      "lon": -118.284,
+      "blvd": "Washington Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Reseda Pool",
+      "artist": "Jane Tsong",
+      "desc": "Installation",
+      "address": "18411 Victory Blvd, Reseda",
+      "lat": 34.18677,
+      "lon": -118.535,
+      "blvd": "Victory Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Woodland Hills Fire Station No. 84",
+      "artist": "Anne Marie Karlsen",
+      "desc": "Interior photographic ceramic tile mural",
+      "address": "21050 West Burbank Boulevard,  Woodland Hills",
+      "lat": 34.17311,
+      "lon": -118.592,
+      "blvd": "Burbank Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Topanga Police Station",
+      "artist": "Gregg LeFevre",
+      "desc": "Sixty-seven bonze plaques",
+      "address": "21501 Schoenborn St., Canoga Park",
+      "lat": 34.22104,
+      "lon": -118.599,
+      "blvd": "Roscoe Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Harbor Police Station",
+      "artist": "Dennis Oppenheim",
+      "desc": "Exterior sculpture",
+      "address": "2175 John S. Gibson Blvd., San Pedro",
+      "lat": 33.77019,
+      "lon": -118.279,
+      "blvd": "John S Gibson Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AThe_Enterprise_1924-04-10_(IA_cssf_001451).pdf"
+    },
+    {
+      "title": "Jefferson Branch Library",
+      "artist": "Todd Gray",
+      "desc": "Three large scale photo pieces",
+      "address": "2211 West Jefferson Blvd.",
+      "lat": 34.02569,
+      "lon": -118.319,
+      "blvd": "Jefferson Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AMary_Todd_Lincoln_(IA_marytoddlincolnlinc_8).pdf"
+    },
+    {
+      "title": "Woodland Hills Branch Library",
+      "artist": "Marleene Rubenstein",
+      "desc": "Mixed media installation",
+      "address": "22200 Ventura Boulevard",
+      "lat": 34.16841,
+      "lon": -118.611,
+      "blvd": "Ventura Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Imperial Courts Community Center",
+      "artist": "Paul Tzanetopolous",
+      "desc": "Bas relief sand cast tiles",
+      "address": "2250 East 114th Street",
+      "lat": 33.93128,
+      "lon": -118.232,
+      "blvd": "Mona Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Valley Communications Dispatch Center",
+      "artist": "Deborah Aschheim",
+      "desc": "Interior sculptural installation",
+      "address": "23001 Roscoe Blvd., West Hills",
+      "lat": 34.21953,
+      "lon": -118.628,
+      "blvd": "Roscoe Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Platt Branch Library",
+      "artist": "Gale McCall",
+      "desc": "Metal work at interior ceiling",
+      "address": "23650 Victory Blvd.",
+      "lat": 34.18676,
+      "lon": -118.642,
+      "blvd": "Victory Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ACalifornia_Digital_Library_(IA_reportsoftreasur00soldrich).pdf"
+    },
+    {
+      "title": "Silver Lake Branch Library",
+      "artist": "Christina Ulke",
+      "desc": "Text works on wall and fence",
+      "address": "2411 Glendale Blvd.",
+      "lat": 34.10049,
+      "lon": -118.259,
+      "blvd": "Glendale Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Pico Union Fire Station No. 13",
+      "artist": "Robert Cunningham",
+      "desc": "Bas relief sculpture on façade",
+      "address": "2415 West Pico Boulevard",
+      "lat": 34.04742,
+      "lon": -118.289,
+      "blvd": "Pico Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ADaily_Pacific_News_1851-01-13_(IA_caclmmgd_000310).pdf"
+    },
+    {
+      "title": "LAPD Metropolitan Division [Old Rampart Renovation]",
+      "artist": "Ken Gonzales-Day",
+      "desc": "Exterior metal panels",
+      "address": "2710 W. Temple St., Rampart Village",
+      "lat": 34.07287,
+      "lon": -118.276,
+      "blvd": "Rampart Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Felipe de Neve Branch Library",
+      "artist": "Joe Pinkelman",
+      "desc": "Steel pieces in the shape of an open book",
+      "address": "2820 W 6th St.",
+      "lat": 34.0633,
+      "lon": -118.284,
+      "blvd": "Occidental Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Baldwin Hills Branch Library",
+      "artist": "Todd Gray",
+      "desc": "Photo-collage structure",
+      "address": "2906 South La Brea Avenue",
+      "lat": 34.02849,
+      "lon": -118.353,
+      "blvd": "Rimpau Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ACalifornia_Digital_Library_(IA_mechanicslienlaw00walliala).pdf"
+    },
+    {
+      "title": "Palms-Rancho Park Branch Library",
+      "artist": "BJ Krivanek and Joel Breaux",
+      "desc": "Reading room window installation",
+      "address": "2920 Overland Avenue",
+      "lat": 34.03349,
+      "lon": -118.418,
+      "blvd": "National Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Palms Area Child Care Center",
+      "artist": "Brad Howe",
+      "desc": "Interior metal mobiles",
+      "address": "2950 Overland Ave",
+      "lat": 34.03288,
+      "lon": -118.418,
+      "blvd": "National Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Newton Police Station",
+      "artist": "Richard Turner",
+      "desc": "Light boxes, plaques",
+      "address": "3400 South Central Avenue",
+      "lat": 34.01256,
+      "lon": -118.256,
+      "blvd": "Jefferson Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ACity_directory_of_Macon%2C_Georgia_1899._Vol._X._Containing_an_alphabetically_arranged_list_of_business_firms_and_private_citizens%3B_a_classified_list_of_all_trades%2C_professions_and_pursuits%3B_a_st_-_DPLA_-_e7e6d0ba91807de7c4604510077e93dc.pdf"
+    },
+    {
+      "title": "South LA Care and Control Center",
+      "artist": "Eloy Torrez",
+      "desc": "Four murals",
+      "address": "3612 So. 11th Ave",
+      "lat": 34.02256,
+      "lon": -118.329,
+      "blvd": "Degnan Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Exposition Park Regional Branch Library",
+      "artist": "Cha-Rie Tang",
+      "desc": "Glass pictures against wall mural",
+      "address": "3900 S. Western Avenue",
+      "lat": 34.01446,
+      "lon": -118.309,
+      "blvd": "Hobart Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Martin Luther King Therapeutic Center",
+      "artist": "Jacki Apple",
+      "desc": "Photographic installation",
+      "address": "3934 Western Ave.",
+      "lat": 34.01332,
+      "lon": -118.309,
+      "blvd": "Hobart Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Los Angeles Riverfront Park",
+      "artist": "John O'Brien",
+      "desc": "Four hard brass plate sculptures",
+      "address": "4000 Whitsett Avenue",
+      "lat": 34.14255,
+      "lon": -118.405,
+      "blvd": "Ventura Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AAnimal_welfare._List_of_licensed_exhibitors_and_registered_exhibitors_-_United_States_Department_of_Agriculture%2C_Animal_and_Plant_Health_Inspection_Service._(IA_CAT10878887003).pdf"
+    },
+    {
+      "title": "Studio City Fire Station No. 78",
+      "artist": "Mark Levy",
+      "desc": "Decorative stained art-glass and glass clock",
+      "address": "4041 Whitsett Ave., Studio City",
+      "lat": 34.14401,
+      "lon": -118.405,
+      "blvd": "Ventura Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AThe_city_of_domes_(microform)_-_a_walk_with_an_architect_about_the_courts_and_palaces_of_the_Panama-Pacific_International_Exposition_..._(IA_cu31924020609032).pdf"
+    },
+    {
+      "title": "Washington Irving Branch Library",
+      "artist": "Elliott Pinkney",
+      "desc": "Indoor acrylic sculpture and totem",
+      "address": "4117 W. Washington Blvd.",
+      "lat": 34.04004,
+      "lon": -118.329,
+      "blvd": "Washington Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3APrinciples_of_the_law_of_personal_property_-_intended_for_the_use_of_students_in_conveyancing_(IA_principlesofperso00will).pdf"
+    },
+    {
+      "title": "Gilbert Lindsay Recreation Center",
+      "artist": "Alma Lopez and Noni Olabisi",
+      "desc": "Painted interior mural",
+      "address": "429 E. 42nd Street",
+      "lat": 34.00672,
+      "lon": -118.267,
+      "blvd": "Avalon Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Green Meadows Gymnasium",
+      "artist": "Sheila Pinkel",
+      "desc": "Decorative wrought iron gate",
+      "address": "431 E. 89th St.",
+      "lat": 33.9557,
+      "lon": -118.267,
+      "blvd": "Avalon Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Crenshaw Fire Station No. 94",
+      "artist": "Infranatural",
+      "desc": "Exterior lighting installation",
+      "address": "4470 W. Coliseum Street",
+      "lat": 34.01777,
+      "lon": -118.345,
+      "blvd": "Martin Luther King Junior Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Cahuenga Branch Library",
+      "artist": "Victor Henderson",
+      "desc": "Two painted murals",
+      "address": "4591 Santa Monica Blvd",
+      "lat": 34.09101,
+      "lon": -118.289,
+      "blvd": "Santa Monica Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AAn_illustrated_history_of_Los_Angeles_County%2C_California_(IA_illustratedhisto01lewi).pdf"
+    },
+    {
+      "title": "Memorial Branch Library",
+      "artist": "William Judson",
+      "desc": "Stained art glass-leaded windows",
+      "address": "4625 W Olympic Blvd",
+      "lat": 34.05658,
+      "lon": -118.332,
+      "blvd": "Olympic Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AGreater_Los_Angeles_and_southern_California%2C_their_portraits_and_chronological_record_of_their_careers%3B_(IA_greaterlosangele01burd).pdf"
+    },
+    {
+      "title": "Wilshire Police Station",
+      "artist": "Roderick Sykes",
+      "desc": "Interior mural paintings and exterior garden",
+      "address": "4861 West Venice Blvd.",
+      "lat": 34.04649,
+      "lon": -118.343,
+      "blvd": "Venice Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Rancho Cienega Sports Complex",
+      "artist": "Tofer Chin",
+      "desc": "Two exterior murals and sculpture",
+      "address": "5101 Rodeo Rd.",
+      "lat": 34.02138,
+      "lon": -118.356,
+      "blvd": "Obama Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Venice-Abbot Kinney Branch Library",
+      "artist": "Betty Dore",
+      "desc": "Multi-part mural",
+      "address": "501 S Venice Blvd",
+      "lat": 33.98704,
+      "lon": -118.467,
+      "blvd": "Venice Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Sherman Oaks/East Valley Adult Center",
+      "artist": "Hillary Mushkin",
+      "desc": "Four interior murals",
+      "address": "5056 Van Nuys Blvd., Sherman Oaks",
+      "lat": 34.16369,
+      "lon": -118.449,
+      "blvd": "Van Nuys Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Echo Park Childcare Center",
+      "artist": "Francois Bardol",
+      "desc": "Acrylic painted mural",
+      "address": "515 North Laveta Terrace",
+      "lat": 34.06827,
+      "lon": -118.259,
+      "blvd": "Glendale Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "North Hollywood Regional Branch Library",
+      "artist": "Beverly Crist",
+      "desc": "Ceramic tile and wrought iron panels",
+      "address": "5211 Tujunga Ave Hollywood",
+      "lat": 34.16526,
+      "lon": -118.379,
+      "blvd": "Magnolia Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Wilt Chamberlain Memorial Plaque",
+      "artist": "Peter/Sally Dudar/Marr",
+      "desc": "Bronze memorial plaque",
+      "address": "5401 Highlight Place",
+      "lat": 34.02341,
+      "lon": -118.365,
+      "blvd": "Obama Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Ahmanson Recruit Training Center",
+      "artist": "Wayne Healy",
+      "desc": "Front walkway sculpture",
+      "address": "5651 W. Manchester Ave., Westchester",
+      "lat": 33.96006,
+      "lon": -118.38,
+      "blvd": "Manchester Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Tarzana Child Care Center",
+      "artist": "Eugenia Butler and Annie Chu",
+      "desc": "Freize panels and landscaping",
+      "address": "5655 Vanalden Ave.",
+      "lat": 34.17464,
+      "lon": -118.55,
+      "blvd": "Ventura Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Hollywood Fire Station No. 82",
+      "artist": "Robert Drummond",
+      "desc": "Fine art glass and video art installation",
+      "address": "5777 Hollywood Blvd., Hollywood",
+      "lat": 34.10186,
+      "lon": -118.316,
+      "blvd": "Hollywood Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ACatalog_of_Copyright_Entries_1939_Dramatic_Compositions_Motion_Pictures_New_Series_Vol_12_Pt_1_(IA_catalogofcopyrig121libr).pdf"
+    },
+    {
+      "title": "Air Treatment Facility",
+      "artist": "Helen Lessick",
+      "desc": "Steel fence sculptural elements",
+      "address": "6000 Jefferson Blvd. Los Angeles, CA",
+      "lat": 34.02046,
+      "lon": -118.382,
+      "blvd": "Jefferson Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Lafayette Park Gymnasium/Community Center",
+      "artist": "Kyungmi Shin",
+      "desc": "Stainless-steel discs",
+      "address": "625 South La Fayette Park Place",
+      "lat": 34.06184,
+      "lon": -118.283,
+      "blvd": "Wilshire Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Playa Vista Branch Library",
+      "artist": "Anne Marie Karlsen",
+      "desc": "Photographic glass panels",
+      "address": "6400 Playa Vista Drive",
+      "lat": 33.97027,
+      "lon": -118.426,
+      "blvd": "Lincoln Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Air Treatment Facility",
+      "artist": "Michael Amescua",
+      "desc": "Installation",
+      "address": "651 S. Mission Rd., Boyle Heights",
+      "lat": 34.03612,
+      "lon": -118.226,
+      "blvd": "Whittier Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Pio Pico Koreatown Branch Library",
+      "artist": "Nancy Uyemura",
+      "desc": "Ceiling collage",
+      "address": "695 S. Serrano Ave.",
+      "lat": 34.06027,
+      "lon": -118.307,
+      "blvd": "Wilshire Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Westchester-Loyola Village Branch Library",
+      "artist": "Jill D'Agnenica",
+      "desc": "Silkscreen panels",
+      "address": "7114 W. Manchester Ave",
+      "lat": 33.9596,
+      "lon": -118.417,
+      "blvd": "Loyola Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Will & Ariel Durant Branch Library",
+      "artist": "Meg Cranston",
+      "desc": "Photographic installation and sculpture",
+      "address": "7140 W. Sunset Blvd.",
+      "lat": 34.0978,
+      "lon": -118.345,
+      "blvd": "Sunset Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Pan Pacific Park Recreation Center",
+      "artist": "Jody Zellen",
+      "desc": "Interior and exterior photography",
+      "address": "7600 Beverly Blvd.",
+      "lat": 34.07489,
+      "lon": -118.355,
+      "blvd": "Beverly Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Sunland-Tujunga Branch Library",
+      "artist": "Karen Koblitz",
+      "desc": "Outdoor handmade ceramic tile bench",
+      "address": "7771 Foothill Blvd., San Fernando Valley",
+      "lat": 34.25795,
+      "lon": -118.301,
+      "blvd": "Foothill Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Stevenson Branch Library",
+      "artist": "Xavier Llongueras",
+      "desc": "Indoor mosaic tile relief",
+      "address": "803 Spence St",
+      "lat": 34.02779,
+      "lon": -118.198,
+      "blvd": "Whittier Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Sun Valley Metrolink Station",
+      "artist": "Paul Tzanetopoulos",
+      "desc": "Mosaic wall mural",
+      "address": "8358 San Fernando Rd",
+      "lat": 34.22222,
+      "lon": -118.373,
+      "blvd": "Roscoe Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Winnetka Child Care Center",
+      "artist": "Will Nettleship",
+      "desc": "Stained glass installation",
+      "address": "8401 Winnetka Avenue",
+      "lat": 34.22279,
+      "lon": -118.571,
+      "blvd": "Roscoe Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Pacific Palisades Recreation Center",
+      "artist": "Barbara McCarren",
+      "desc": "Interior lobby installation",
+      "address": "851 Alma Real Drive",
+      "lat": 34.0441,
+      "lon": -118.525,
+      "blvd": "Sunset Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Palisades Branch Library",
+      "artist": "Will Nettleship",
+      "desc": "Interior neon wall piece",
+      "address": "861 Alma Real Drive",
+      "lat": 34.04437,
+      "lon": -118.525,
+      "blvd": "Sunset Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Sepulveda Park West",
+      "artist": "John O'Brien",
+      "desc": "Low relief plaques set on concrete podiums",
+      "address": "8756 Parthenia Place",
+      "lat": 34.22956,
+      "lon": -118.466,
+      "blvd": "Sepulveda Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ADocuments_about_Martin_Luther_King%2C_Jr.%2C_Executive_Order_14176%2C_44-at-2386_hs1-852715321_162-04-part_3_of_5.pdf"
+    },
+    {
+      "title": "Westchester Fire Station No. 5",
+      "artist": "Victor Henderson",
+      "desc": "Four exterior painted murals anda ceramic sculpture",
+      "address": "8900 Emerson Ave.",
+      "lat": 33.95491,
+      "lon": -118.404,
+      "blvd": "Lincoln Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3AThe_Survey_October_1917-March_1918_(IA_surveyoctmar1918surv).pdf"
+    },
+    {
+      "title": "Northridge Branch Library",
+      "artist": "Jill D'Agnenica",
+      "desc": "Interior suspended sculpture",
+      "address": "9051 Darby Ave Northridge",
+      "lat": 34.23517,
+      "lon": -118.534,
+      "blvd": "Reseda Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Sun Valley Fire Station No. 77",
+      "artist": "Joe Tyler",
+      "desc": "Sculptural tree",
+      "address": "9224 N Sunland Blvd., Sun Valley",
+      "lat": 34.23649,
+      "lon": -118.367,
+      "blvd": "Sunland Boulevard",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File%3ACampbell_Interurban_Press_1923-01-05_(IA_cacblm_000689).pdf"
+    },
+    {
+      "title": "Mid-Valley Intergenerational Center",
+      "artist": "Mara Lonner and Kim Schoenstadt",
+      "desc": "Mural",
+      "address": "9540 N. Van Nuys Blvd.",
+      "lat": 34.24411,
+      "lon": -118.45,
+      "blvd": "Van Nuys Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Sylmar/San Fernando Metrolink Station",
+      "artist": "Andro Avendano",
+      "desc": "Outdoor sculpture",
+      "address": "Hubbard Ave. and 1st St.",
+      "lat": 34.07371,
+      "lon": -118.306,
+      "blvd": "Hobart Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Los Feliz Bikeway Bridge",
+      "artist": "Paul Hobson",
+      "desc": "Rail design for bike bridge",
+      "address": "Los Feliz Boulevard, LA River",
+      "lat": 34.12441,
+      "lon": -118.266,
+      "blvd": "Los Feliz Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "King Boulevard Gateway",
+      "artist": "Kim Abeles",
+      "desc": "Photo-based mosaic tiles and bronze sculpture",
+      "address": "W. Martin Luther King Jr. Blvd. & Rodeo Rd., Rodeo & Jefferson",
+      "lat": 34.01987,
+      "lon": -118.349,
+      "blvd": "Martin Luther King Junior Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Exposition Park Intergenerational Community Center",
+      "artist": "Victor Henderson and Elizabeth Garrison",
+      "desc": "Interior painted mural",
+      "address": "Menlo and Martin Luther King Blvd.",
+      "lat": 34.01093,
+      "lon": -118.29,
+      "blvd": "Martin Luther King Junior Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Warner Streetscape and Transit Hub",
+      "artist": "Michael Flechtner",
+      "desc": "Neon elements",
+      "address": "Owensmouth between Erwin & Oxnard",
+      "lat": 34.17917,
+      "lon": -118.602,
+      "blvd": "Topanga Canyon Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Mar Vista Fire Station No. 62",
+      "artist": "Deborah Lefkowitz",
+      "desc": "Fiberoptic window lighting and aluminium screen",
+      "address": "S Venice Blvd and Marcasel Ave",
+      "lat": 34.00641,
+      "lon": -118.428,
+      "blvd": "Venice Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Santa Monica Blvd. Transit Parkway",
+      "artist": "Barbara McCarren",
+      "desc": "Medallions from street lighting",
+      "address": "SM Blvd Between 405 & Beverly Hills",
+      "lat": 34.04536,
+      "lon": -118.446,
+      "blvd": "Santa Monica Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Edendale Branch Library",
+      "artist": "Ernesto de la Loza",
+      "desc": "Painted mural",
+      "address": "Sunset Boulevard and Alvarado",
+      "lat": 34.08002,
+      "lon": -118.263,
+      "blvd": "Glendale Boulevard",
+      "commonsUrl": null
+    },
+    {
+      "title": "Wilmington Waterfront Promenade",
+      "artist": "Freyja Bardell and Brian Howe",
+      "desc": "Sculpture",
+      "address": "West of Avalon Boulevard & North of Water St., Wilmington",
+      "lat": 33.77942,
+      "lon": -118.254,
+      "blvd": "Banning Boulevard",
+      "commonsUrl": null
+    }
+  ]
+}

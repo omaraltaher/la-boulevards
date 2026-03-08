@@ -107,6 +107,7 @@ html, body {
 #legend .art-legend-dot { background:rgba(255,0,200,0.45); border:1.5px solid rgba(255,80,220,0.35); }
 #legend .theatre-legend-dot { background:rgba(168,85,247,0.65); border:1.5px solid rgba(192,132,252,0.5); }
 #legend .parrot-legend-dot  { background:rgba(34,197,94,0.7);   border:1.5px solid rgba(134,239,172,0.5); }
+#parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
 
 /* ── Boulevard count ── */
 #count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
@@ -613,7 +614,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="marker-row"><div class="marker-dot cam-legend-dot"></div><span>Traffic camera</span></div>
       <div class="marker-row"><div class="marker-dot art-legend-dot"></div><span>Public art</span></div>
       <div class="marker-row"><div class="marker-dot theatre-legend-dot"></div><span>Theatre</span></div>
-      <div class="marker-row"><div class="marker-dot parrot-legend-dot"></div><span>Wild parrots 🦜</span></div>
+      <div class="marker-row" id="parrot-toggle" style="cursor:pointer;user-select:none;" title="Toggle parrot layer"><div class="marker-dot parrot-legend-dot"></div><span>Wild parrots 🦜</span></div>
     </div>
   </div>
 
@@ -1356,83 +1357,46 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   (async function loadArt() {
     try {
-      statusStart('Loading public art…');
-      const res = await fetch('https://data.lacity.org/resource/ejf8-ekfc.json?$limit=500');
-      if (!res.ok) { statusDone(); return; }
-      const data = await res.json();
+      const res = await fetch('art.json');
+      if (!res.ok) return;
+      const { items } = await res.json();
 
       artItems = [];
-      data.forEach(item => {
-        const lat = parseFloat(item.latitude);
-        const lon = parseFloat(item.longitude);
-        if (!lat || !lon) return;
+      for (const item of items) {
+        const blvdObj = boulevards.find(b => b.name === item.blvd) || null;
+        if (!blvdObj) continue;
 
-        // Find nearest boulevard
-        let nearestBlvd = null, nearestDist = Infinity;
-        boulevards.forEach(b => {
-          const d = nearestKm(lat, lon, b);
-          if (d < nearestDist) { nearestDist = d; nearestBlvd = b; }
-        });
-
-        const art = {
-          title: item.location_name || 'Untitled',
-          artist: item.artist_s || '',
-          desc: item.art_description || '',
-          address: item.project_address || '',
-          lat, lon,
-          blvd: nearestDist <= ART_BLVD_KM ? nearestBlvd : null,
-          distKm: nearestDist
-        };
-        if (!art.blvd) return; // skip art not near any boulevard
+        const art = { ...item, blvd: blvdObj, commonsUrl: item.commonsUrl || null };
         artItems.push(art);
 
-        // Map marker
         const icon = L.divIcon({
           className: '', html: '<div class="art-dot"></div>',
           iconSize: [9, 9], iconAnchor: [4, 4]
         });
-        const marker = L.marker([lat, lon], { icon, zIndexOffset: 100 });
-        artMarkerList.push({ marker, blvdName: art.blvd.name });
+        const marker = L.marker([item.lat, item.lon], { icon, zIndexOffset: 100 });
+        artMarkerList.push({ marker, blvdName: item.blvd });
 
         marker.on('click', () => {
-          // Determine if art is on same boulevard as currently selected
-          if (art.blvd && art.blvd === selectedBlvd) {
-            // Keep boulevard panel open — just show art popup
-          } else if (art.blvd) {
-            // Switch to the art's boulevard
+          if (art.blvd !== selectedBlvd) {
             selectedBlvd = art.blvd;
             applyHighlight(art.blvd);
             showInfo(art.blvd);
           }
-          // else: no associated boulevard — just show popup, leave panel as-is
-
           const html =
             `<div style="padding:14px 16px;width:260px;">` +
             `<div style="font-size:13px;font-weight:600;color:rgba(255,0,200,0.85);margin-bottom:4px;">${art.title}</div>` +
-            (art.artist ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:4px;">${art.artist}</div>` : '') +
-            (art.desc ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${art.desc}</div>` : '') +
+            (art.artist  ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:4px;">${art.artist}</div>` : '') +
+            (art.desc    ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${art.desc}</div>` : '') +
             (art.address ? `<div style="font-size:10px;color:#374151;margin-bottom:6px;">${art.address}</div>` : '') +
             (art.commonsUrl ? `<a href="${art.commonsUrl}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(255,0,200,0.6);">More info →</a>` : '') +
             `</div>`;
-
           L.popup({ className: 'art-popup', closeButton: true, maxWidth: 320, autoPan: true })
-            .setLatLng([lat, lon])
-            .setContent(html)
-            .openOn(map);
+            .setLatLng([item.lat, item.lon]).setContent(html).openOn(map);
         });
-      });
+      }
 
-      // Pre-fetch Commons links in the background — cached on art.commonsUrl
-      artItems.forEach(art => {
-        fetchArtInfo(art.title, art.artist).then(url => { art.commonsUrl = url; });
-      });
-
-      // If a boulevard is already selected when art loads, show its markers + populate art section
       if (selectedBlvd) { updateOverlayMarkers(selectedBlvd); populateArtSection(selectedBlvd); }
-
-      statusDone();
     } catch (e) {
-      statusDone();
       console.warn('Public art load failed:', e);
     }
   })();
@@ -1676,6 +1640,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (!res.ok) return;
       const { parrots } = await res.json();
 
+      const parrotLayers = [];
       for (const p of parrots) {
         const marker = L.circleMarker([p.lat, p.lon], {
           radius: 5,
@@ -1686,6 +1651,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           weight: 1.2,
           interactive: true
         }).addTo(map);
+        parrotLayers.push(marker);
 
         marker.on('click', () => {
           const dateStr = p.date
@@ -1705,6 +1671,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             .openOn(map);
         });
       }
+      // Toggle
+      let parrotsVisible = true;
+      document.getElementById('parrot-toggle').addEventListener('click', () => {
+        parrotsVisible = !parrotsVisible;
+        parrotLayers.forEach(m => parrotsVisible ? m.addTo(map) : m.remove());
+        document.getElementById('parrot-toggle').classList.toggle('off', !parrotsVisible);
+      });
     } catch (e) {
       console.warn('Parrot load failed:', e);
     }
