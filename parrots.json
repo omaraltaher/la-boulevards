@@ -1,9 +1,8 @@
 {
-  "generated": "2026-03-08T07:59:30.848Z",
+  "generated": "2026-03-08T16:39:37.540Z",
   "parrots": [
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1867,
       "lon": -118.1987,
       "date": "2026-03-07",
@@ -12,7 +11,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0584,
       "lon": -118.1456,
       "date": "2026-03-07",
@@ -21,7 +19,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1113,
       "lon": -118.1332,
       "date": "2026-03-07",
@@ -30,7 +27,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0253,
       "lon": -118.1029,
       "date": "2026-03-07",
@@ -39,7 +35,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1346,
       "lon": -118.0862,
       "date": "2026-03-07",
@@ -48,7 +43,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.168,
       "lon": -118.1198,
       "date": "2026-03-07",
@@ -57,7 +51,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1219,
       "lon": -118.1563,
       "date": "2026-03-07",
@@ -66,7 +59,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0029,
       "lon": -118.1042,
       "date": "2026-03-07",
@@ -75,7 +67,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1559,
       "lon": -118.1802,
       "date": "2026-03-07",
@@ -84,7 +75,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0804,
       "lon": -118.0853,
       "date": "2026-03-07",
@@ -93,7 +83,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 34.1445,
       "lon": -118.146,
       "date": "2026-03-07",
@@ -102,7 +91,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0028,
       "lon": -118.0762,
       "date": "2026-03-07",
@@ -111,7 +99,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1846,
       "lon": -118.1411,
       "date": "2026-03-07",
@@ -120,7 +107,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.132,
       "lon": -118.0625,
       "date": "2026-03-07",
@@ -129,7 +115,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0658,
       "lon": -118.1858,
       "date": "2026-03-07",
@@ -138,7 +123,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1779,
       "lon": -118.0124,
       "date": "2026-03-07",
@@ -147,7 +131,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0535,
       "lon": -118.1928,
       "date": "2026-03-07",
@@ -156,7 +139,6 @@
     },
     {
       "species": "Nanday Parakeet",
-      "color": "#14b8a6",
       "lat": 34.1155,
       "lon": -118.7559,
       "date": "2026-03-07",
@@ -165,7 +147,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.621,
       "lon": -117.331,
       "date": "2026-03-07",
@@ -174,7 +155,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1015,
       "lon": -118.1356,
       "date": "2026-03-06",
@@ -183,7 +163,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0636,
       "lon": -118.0269,
       "date": "2026-03-06",
@@ -192,7 +171,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1357,
       "lon": -118.166,
       "date": "2026-03-06",
@@ -201,7 +179,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0523,
       "lon": -118.0618,
       "date": "2026-03-06",
@@ -210,7 +187,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0219,
       "lon": -118.0154,
       "date": "2026-03-06",
@@ -219,7 +195,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0697,
       "lon": -118.1623,
       "date": "2026-03-06",
@@ -228,7 +203,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 33.5981,
       "lon": -117.6491,
       "date": "2026-03-06",
@@ -237,7 +211,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.9164,
       "lon": -117.2151,
       "date": "2026-03-06",
@@ -246,7 +219,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 34.1368,
       "lon": -118.2327,
       "date": "2026-03-06",
@@ -255,7 +227,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 33.2404,
       "lon": -117.2676,
       "date": "2026-03-06",
@@ -264,7 +235,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.186,
       "lon": -118.0644,
       "date": "2026-03-05",
@@ -273,7 +243,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1403,
       "lon": -118.1165,
       "date": "2026-03-05",
@@ -282,7 +251,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.7337,
       "lon": -117.226,
       "date": "2026-03-05",
@@ -291,7 +259,6 @@
     },
     {
       "species": "Nanday Parakeet",
-      "color": "#14b8a6",
       "lat": 34.0727,
       "lon": -119.0156,
       "date": "2026-03-05",
@@ -300,7 +267,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.5784,
       "lon": -117.1295,
       "date": "2026-03-04",
@@ -309,7 +275,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0472,
       "lon": -118.0962,
       "date": "2026-03-04",
@@ -318,7 +283,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.071,
       "lon": -118.0139,
       "date": "2026-03-04",
@@ -327,7 +291,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.019,
       "lon": -118.1272,
       "date": "2026-03-04",
@@ -336,7 +299,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1754,
       "lon": -118.1053,
       "date": "2026-03-04",
@@ -345,7 +307,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1912,
       "lon": -118.1477,
       "date": "2026-03-04",
@@ -354,7 +315,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1625,
       "lon": -118.008,
       "date": "2026-03-04",
@@ -363,7 +323,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0233,
       "lon": -118.0507,
       "date": "2026-03-04",
@@ -372,7 +331,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1928,
       "lon": -118.106,
       "date": "2026-03-04",
@@ -381,7 +339,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1151,
       "lon": -118.0708,
       "date": "2026-03-04",
@@ -390,7 +347,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 33.1607,
       "lon": -117.3501,
       "date": "2026-03-04",
@@ -399,7 +355,6 @@
     },
     {
       "species": "Yellow-chevroned Parakeet",
-      "color": "#eab308",
       "lat": 34.018,
       "lon": -118.2893,
       "date": "2026-03-04",
@@ -408,7 +363,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.852,
       "lon": -117.0495,
       "date": "2026-03-04",
@@ -417,7 +371,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0121,
       "lon": -118.0459,
       "date": "2026-03-04",
@@ -426,7 +379,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.7469,
       "lon": -117.3075,
       "date": "2026-03-04",
@@ -435,7 +387,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0757,
       "lon": -118.1515,
       "date": "2026-03-03",
@@ -444,7 +395,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0088,
       "lon": -118.1572,
       "date": "2026-03-03",
@@ -453,7 +403,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0699,
       "lon": -118.0457,
       "date": "2026-03-03",
@@ -462,7 +411,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0344,
       "lon": -118.0091,
       "date": "2026-03-03",
@@ -471,7 +419,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0044,
       "lon": -118.0196,
       "date": "2026-03-03",
@@ -480,7 +427,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1639,
       "lon": -118.1095,
       "date": "2026-03-03",
@@ -489,7 +435,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1803,
       "lon": -118.0453,
       "date": "2026-03-03",
@@ -498,7 +443,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 34.1418,
       "lon": -118.0987,
       "date": "2026-03-03",
@@ -507,7 +451,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.8572,
       "lon": -117.3533,
       "date": "2026-03-03",
@@ -516,7 +459,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 34.1477,
       "lon": -117.026,
       "date": "2026-03-03",
@@ -525,7 +467,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.7972,
       "lon": -117.2712,
       "date": "2026-03-03",
@@ -534,7 +475,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.6019,
       "lon": -117.1168,
       "date": "2026-03-02",
@@ -543,7 +483,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.9785,
       "lon": -117.2707,
       "date": "2026-03-02",
@@ -552,7 +491,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.7875,
       "lon": -116.9849,
       "date": "2026-03-02",
@@ -561,7 +499,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 33.0381,
       "lon": -117.3321,
       "date": "2026-03-02",
@@ -570,7 +507,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 34.1685,
       "lon": -118.1644,
       "date": "2026-03-02",
@@ -579,7 +515,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0155,
       "lon": -118.0875,
       "date": "2026-03-02",
@@ -588,7 +523,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1804,
       "lon": -118.1141,
       "date": "2026-03-02",
@@ -597,7 +531,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.123,
       "lon": -118.1877,
       "date": "2026-03-02",
@@ -606,7 +539,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0931,
       "lon": -118.1844,
       "date": "2026-03-01",
@@ -615,7 +547,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.035,
       "lon": -118.1139,
       "date": "2026-03-01",
@@ -624,7 +555,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1751,
       "lon": -118.1819,
       "date": "2026-03-01",
@@ -633,7 +563,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1421,
       "lon": -118.0023,
       "date": "2026-03-01",
@@ -642,7 +571,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.8739,
       "lon": -117.3467,
       "date": "2026-03-01",
@@ -651,7 +579,6 @@
     },
     {
       "species": "Nanday Parakeet",
-      "color": "#14b8a6",
       "lat": 34.0535,
       "lon": -118.5108,
       "date": "2026-03-01",
@@ -660,7 +587,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0985,
       "lon": -118.0008,
       "date": "2026-02-28",
@@ -669,7 +595,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0473,
       "lon": -118.138,
       "date": "2026-02-28",
@@ -678,7 +603,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1117,
       "lon": -118.006,
       "date": "2026-02-28",
@@ -687,7 +611,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0068,
       "lon": -118.0428,
       "date": "2026-02-28",
@@ -696,7 +619,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1192,
       "lon": -118.1072,
       "date": "2026-02-28",
@@ -705,7 +627,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1376,
       "lon": -118.1986,
       "date": "2026-02-28",
@@ -714,7 +635,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1695,
       "lon": -118.1366,
       "date": "2026-02-28",
@@ -723,7 +643,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1161,
       "lon": -118.0307,
       "date": "2026-02-28",
@@ -732,7 +651,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.037,
       "lon": -118.0125,
       "date": "2026-02-28",
@@ -741,7 +659,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0152,
       "lon": -118.1793,
       "date": "2026-02-28",
@@ -750,7 +667,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 32.89,
       "lon": -116.8498,
       "date": "2026-02-28",
@@ -759,7 +675,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1474,
       "lon": -118.3629,
       "date": "2026-02-28",
@@ -768,7 +683,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 34.0316,
       "lon": -117.0013,
       "date": "2026-02-28",
@@ -777,7 +691,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.6549,
       "lon": -117.0272,
       "date": "2026-02-28",
@@ -786,7 +699,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.7361,
       "lon": -117.3201,
       "date": "2026-02-27",
@@ -795,7 +707,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.8489,
       "lon": -117.2741,
       "date": "2026-02-27",
@@ -804,7 +715,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.6504,
       "lon": -117.1774,
       "date": "2026-02-27",
@@ -813,7 +723,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.6005,
       "lon": -117.1921,
       "date": "2026-02-27",
@@ -822,7 +731,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 32.6293,
       "lon": -117.1879,
       "date": "2026-02-27",
@@ -831,7 +739,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 32.6051,
       "lon": -117.0093,
       "date": "2026-02-27",
@@ -840,7 +747,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1127,
       "lon": -118.4994,
       "date": "2026-02-27",
@@ -849,7 +755,6 @@
     },
     {
       "species": "Mitred Parakeet",
-      "color": "#f97316",
       "lat": 34.1042,
       "lon": -118.3552,
       "date": "2026-02-26",
@@ -858,7 +763,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 33.7789,
       "lon": -117.6681,
       "date": "2026-02-26",
@@ -867,7 +771,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.682,
       "lon": -117.1047,
       "date": "2026-02-26",
@@ -876,7 +779,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1809,
       "lon": -118.17,
       "date": "2026-02-24",
@@ -885,7 +787,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.193,
       "lon": -118.0123,
       "date": "2026-02-24",
@@ -894,7 +795,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1612,
       "lon": -118.0458,
       "date": "2026-02-24",
@@ -903,7 +803,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.07,
       "lon": -118.0474,
       "date": "2026-02-24",
@@ -912,7 +811,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.098,
       "lon": -118.1987,
       "date": "2026-02-24",
@@ -921,7 +819,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.15,
       "lon": -118.0314,
       "date": "2026-02-24",
@@ -930,7 +827,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1368,
       "lon": -118.1804,
       "date": "2026-02-24",
@@ -939,7 +835,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.8401,
       "lon": -117.3386,
       "date": "2026-02-24",
@@ -948,7 +843,6 @@
     },
     {
       "species": "Nanday Parakeet",
-      "color": "#14b8a6",
       "lat": 34.1021,
       "lon": -118.7368,
       "date": "2026-02-23",
@@ -957,7 +851,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 34.1594,
       "lon": -118.4311,
       "date": "2026-02-23",
@@ -966,7 +859,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.8659,
       "lon": -117.1906,
       "date": "2026-02-22",
@@ -975,7 +867,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.2672,
       "lon": -118.3541,
       "date": "2026-02-22",
@@ -984,7 +875,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1914,
       "lon": -118.0896,
       "date": "2026-02-21",
@@ -993,7 +883,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0317,
       "lon": -118.1883,
       "date": "2026-02-21",
@@ -1002,7 +891,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.06,
       "lon": -118.0048,
       "date": "2026-02-21",
@@ -1011,7 +899,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0892,
       "lon": -118.13,
       "date": "2026-02-21",
@@ -1020,7 +907,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1171,
       "lon": -118.0297,
       "date": "2026-02-21",
@@ -1029,7 +915,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0433,
       "lon": -118.1684,
       "date": "2026-02-21",
@@ -1038,7 +923,6 @@
     },
     {
       "species": "Mitred Parakeet",
-      "color": "#f97316",
       "lat": 32.8381,
       "lon": -117.1921,
       "date": "2026-02-21",
@@ -1047,7 +931,6 @@
     },
     {
       "species": "Nanday Parakeet",
-      "color": "#14b8a6",
       "lat": 34.102,
       "lon": -119.0182,
       "date": "2026-02-21",
@@ -1056,7 +939,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 33.7372,
       "lon": -117.8008,
       "date": "2026-02-20",
@@ -1065,7 +947,6 @@
     },
     {
       "species": "Monk Parakeet",
-      "color": "#84cc16",
       "lat": 32.671,
       "lon": -115.4931,
       "date": "2026-02-20",
@@ -1074,7 +955,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.6475,
       "lon": -117.0804,
       "date": "2026-02-20",
@@ -1083,7 +963,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.195,
       "lon": -118.1869,
       "date": "2026-02-19",
@@ -1092,7 +971,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0915,
       "lon": -118.0103,
       "date": "2026-02-19",
@@ -1101,7 +979,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 33.73,
       "lon": -117.7852,
       "date": "2026-02-19",
@@ -1110,7 +987,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 33.6066,
       "lon": -117.6766,
       "date": "2026-02-19",
@@ -1119,7 +995,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 33.7003,
       "lon": -118.1833,
       "date": "2026-02-18",
@@ -1128,7 +1003,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0756,
       "lon": -118.0962,
       "date": "2026-02-18",
@@ -1137,7 +1011,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0732,
       "lon": -118.1188,
       "date": "2026-02-17",
@@ -1146,7 +1019,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0115,
       "lon": -118.1339,
       "date": "2026-02-17",
@@ -1155,7 +1027,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.9272,
       "lon": -117.0288,
       "date": "2026-02-17",
@@ -1164,7 +1035,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0049,
       "lon": -118.1847,
       "date": "2026-02-15",
@@ -1173,7 +1043,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0602,
       "lon": -118.1225,
       "date": "2026-02-15",
@@ -1182,7 +1051,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0061,
       "lon": -118.1991,
       "date": "2026-02-15",
@@ -1191,7 +1059,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1031,
       "lon": -118.1079,
       "date": "2026-02-15",
@@ -1200,7 +1067,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 33.6893,
       "lon": -117.7641,
       "date": "2026-02-15",
@@ -1209,7 +1075,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 33.6543,
       "lon": -117.7964,
       "date": "2026-02-15",
@@ -1218,7 +1083,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1211,
       "lon": -118.1205,
       "date": "2026-02-14",
@@ -1227,7 +1091,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0735,
       "lon": -118.1954,
       "date": "2026-02-14",
@@ -1236,7 +1099,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1922,
       "lon": -118.156,
       "date": "2026-02-14",
@@ -1245,7 +1107,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 33.8282,
       "lon": -117.6242,
       "date": "2026-02-14",
@@ -1254,7 +1115,6 @@
     },
     {
       "species": "Nanday Parakeet",
-      "color": "#14b8a6",
       "lat": 34.0346,
       "lon": -118.7038,
       "date": "2026-02-14",
@@ -1263,7 +1123,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 33.6359,
       "lon": -117.6097,
       "date": "2026-02-14",
@@ -1272,7 +1131,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 32.6725,
       "lon": -117.1235,
       "date": "2026-02-14",
@@ -1281,7 +1139,6 @@
     },
     {
       "species": "Nanday Parakeet",
-      "color": "#14b8a6",
       "lat": 34.0994,
       "lon": -118.7258,
       "date": "2026-02-14",
@@ -1290,7 +1147,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.6098,
       "lon": -117.2887,
       "date": "2026-02-14",
@@ -1299,7 +1155,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 34.0481,
       "lon": -117.7865,
       "date": "2026-02-14",
@@ -1308,7 +1163,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0058,
       "lon": -118.1174,
       "date": "2026-02-13",
@@ -1317,7 +1171,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 35.4242,
       "lon": -119.0324,
       "date": "2026-02-13",
@@ -1326,7 +1179,6 @@
     },
     {
       "species": "Mitred Parakeet",
-      "color": "#f97316",
       "lat": 34.112,
       "lon": -118.2936,
       "date": "2026-02-13",
@@ -1335,7 +1187,6 @@
     },
     {
       "species": "Mitred Parakeet",
-      "color": "#f97316",
       "lat": 34.1088,
       "lon": -118.2276,
       "date": "2026-02-13",
@@ -1344,7 +1195,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.9048,
       "lon": -117.3077,
       "date": "2026-02-13",
@@ -1353,7 +1203,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0998,
       "lon": -118.0689,
       "date": "2026-02-12",
@@ -1362,7 +1211,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1985,
       "lon": -118.0686,
       "date": "2026-02-12",
@@ -1371,7 +1219,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1248,
       "lon": -118.0537,
       "date": "2026-02-12",
@@ -1380,7 +1227,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1015,
       "lon": -118.113,
       "date": "2026-02-12",
@@ -1389,7 +1235,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0741,
       "lon": -118.0533,
       "date": "2026-02-12",
@@ -1398,7 +1243,6 @@
     },
     {
       "species": "Mitred Parakeet",
-      "color": "#f97316",
       "lat": 32.8307,
       "lon": -117.1763,
       "date": "2026-02-11",
@@ -1407,7 +1251,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1089,
       "lon": -118.1629,
       "date": "2026-02-10",
@@ -1416,7 +1259,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 33.7517,
       "lon": -117.8222,
       "date": "2026-02-10",
@@ -1425,7 +1267,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.8141,
       "lon": -117.0143,
       "date": "2026-02-09",
@@ -1434,7 +1275,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.8927,
       "lon": -117.0408,
       "date": "2026-02-09",
@@ -1443,7 +1283,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.9154,
       "lon": -117.1426,
       "date": "2026-02-09",
@@ -1452,7 +1291,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.8942,
       "lon": -117.1267,
       "date": "2026-02-09",
@@ -1461,7 +1299,6 @@
     },
     {
       "species": "Nanday Parakeet",
-      "color": "#14b8a6",
       "lat": 34.0349,
       "lon": -118.6827,
       "date": "2026-02-08",
@@ -1470,7 +1307,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 34.1136,
       "lon": -118.2644,
       "date": "2026-02-08",
@@ -1479,7 +1315,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 34.0205,
       "lon": -117.0208,
       "date": "2026-02-08",
@@ -1488,7 +1323,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.2594,
       "lon": -118.3355,
       "date": "2026-02-08",
@@ -1497,7 +1331,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1997,
       "lon": -118.0354,
       "date": "2026-02-07",
@@ -1506,7 +1339,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.0421,
       "lon": -118.0534,
       "date": "2026-02-07",
@@ -1515,7 +1347,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 34.0663,
       "lon": -117.1202,
       "date": "2026-02-07",
@@ -1524,7 +1355,6 @@
     },
     {
       "species": "Wild Parrot",
-      "color": "#22c55e",
       "lat": 34.1566,
       "lon": -117.1022,
       "date": "2026-02-07",
@@ -1533,7 +1363,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.7337,
       "lon": -117.0832,
       "date": "2026-02-06",
@@ -1542,7 +1371,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 32.8565,
       "lon": -117.0299,
       "date": "2026-02-06",
@@ -1551,7 +1379,6 @@
     },
     {
       "species": "Lilac-crowned Parrot",
-      "color": "#a855f7",
       "lat": 33.651,
       "lon": -117.6005,
       "date": "2026-02-06",
@@ -1560,7 +1387,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.3148,
       "lon": -118.3904,
       "date": "2026-02-06",
@@ -1569,7 +1395,6 @@
     },
     {
       "species": "Red-crowned Parrot",
-      "color": "#ef4444",
       "lat": 34.1854,
       "lon": -117.8458,
       "date": "2026-02-06",
