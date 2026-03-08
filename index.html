@@ -1552,7 +1552,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
               `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:10px;">The Wiltern</div>` +
               `<div style="font-size:11px;color:#4b5563;">Loading events…</div>` +
               `</div>`;
-            const popup = L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 310, autoPan: true })
+            const popup = L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 310, autoPan: true, autoPanPaddingTopLeft: L.point(20, 130) })
               .setLatLng([lat, lon]).setContent(loadingHtml).openOn(map);
 
             (async () => {
