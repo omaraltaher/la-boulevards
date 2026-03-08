@@ -207,8 +207,9 @@ path.leaflet-interactive:focus { outline:none; }
 .leaflet-popup-content { margin:0 !important; width:auto !important; }
 .leaflet-popup-tip { background:rgba(15,17,35,0.97) !important; }
 .leaflet-popup-close-button {
-  color:#e8eaf8 !important; font-size:18px !important;
+  color:#fff !important; font-size:18px !important;
   top:6px !important; right:8px !important;
+  text-shadow: 0 0 2px #000, 0 0 4px #000 !important;
 }
 .leaflet-popup-close-button:hover { color:#fff !important; }
 
@@ -1641,13 +1642,15 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   })();
 
+  // Prevent Leaflet from swallowing legend clicks
+  L.DomEvent.disableClickPropagation(document.getElementById('legend'));
+
   // ── Wild Parrots ───────────────────────────────────────────────
-  const parrotLayers = [];
-  let parrotsVisible = true;
+  const parrotGroup = L.layerGroup().addTo(map);
   document.getElementById('parrot-toggle').addEventListener('click', () => {
-    parrotsVisible = !parrotsVisible;
-    parrotLayers.forEach(m => parrotsVisible ? m.addTo(map) : m.remove());
-    document.getElementById('parrot-toggle').classList.toggle('off', !parrotsVisible);
+    const on = map.hasLayer(parrotGroup);
+    on ? parrotGroup.remove() : parrotGroup.addTo(map);
+    document.getElementById('parrot-toggle').classList.toggle('off', on);
   });
 
   (async function loadParrots() {
@@ -1667,8 +1670,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       });
       for (const p of parrots) {
         const marker = L.marker([p.lat, p.lon], { icon: parrotIcon, zIndexOffset: 50 });
-        if (parrotsVisible) marker.addTo(map);
-        parrotLayers.push(marker);
+        parrotGroup.addLayer(marker);
 
         marker.on('click', () => {
           // Append T12:00:00 to prevent browser timezone shifts on date-only strings
@@ -1695,12 +1697,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   })();
 
   // ── Hidden Oil Wells ────────────────────────────────────────────
-  const wellLayers = [];
-  let wellsVisible = true;
+  const wellGroup = L.layerGroup().addTo(map);
   document.getElementById('well-toggle').addEventListener('click', () => {
-    wellsVisible = !wellsVisible;
-    wellLayers.forEach(m => wellsVisible ? m.addTo(map) : m.remove());
-    document.getElementById('well-toggle').classList.toggle('off', !wellsVisible);
+    const on = map.hasLayer(wellGroup);
+    on ? wellGroup.remove() : wellGroup.addTo(map);
+    document.getElementById('well-toggle').classList.toggle('off', on);
   });
 
   (async function loadWells() {
@@ -1711,20 +1712,19 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
       const wellIcon = L.divIcon({
         className: '',
-        html: `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="20" viewBox="0 0 13 20" opacity="0.85">
-          <line x1="6.5" y1="1" x2="0.5" y2="19" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/>
-          <line x1="6.5" y1="1" x2="12.5" y2="19" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/>
-          <line x1="3.5" y1="10" x2="9.5" y2="10" stroke="#ef4444" stroke-width="1" stroke-linecap="round"/>
-          <line x1="2"   y1="15" x2="11"  y2="15" stroke="#ef4444" stroke-width="1" stroke-linecap="round"/>
-          <line x1="0.5" y1="19" x2="12.5" y2="19" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/>
-          <circle cx="6.5" cy="1.5" r="1.5" fill="#ef4444"/>
+        html: `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20" opacity="0.9">
+          <line x1="7" y1="2"  x2="1"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
+          <line x1="7" y1="2"  x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
+          <line x1="4" y1="10" x2="10" y2="10" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
+          <line x1="2.5" y1="15" x2="11.5" y2="15" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
+          <line x1="1"  y1="19" x2="13"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="7" cy="2" r="2" fill="#b45309"/>
         </svg>`,
         iconSize: [13, 20], iconAnchor: [6, 20]
       });
       for (const w of wells) {
         const marker = L.marker([w.lat, w.lon], { icon: wellIcon, zIndexOffset: 60 });
-        if (wellsVisible) marker.addTo(map);
-        wellLayers.push(marker);
+        wellGroup.addLayer(marker);
 
         marker.on('click', () => {
           const html =
