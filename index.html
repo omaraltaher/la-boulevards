@@ -1505,7 +1505,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       className: '', html: '<div class="gold-dot"></div>',
       iconSize: [11, 11], iconAnchor: [5, 5]
     });
-    const marker = L.marker([resto.lat, resto.lon], { icon, zIndexOffset: 150 }).addTo(map);
+    const marker = L.marker([resto.lat, resto.lon], { icon, zIndexOffset: 150 });
+    artMarkerList.push({ marker, blvdName: 'Pico Boulevard' });
 
     marker.on('click', () => {
       // Select Pico if not already selected
