@@ -6,6 +6,8 @@
 <title>LA County Boulevards</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
 
@@ -110,6 +112,17 @@ html, body {
 #legend .well-legend-dot    { background:rgba(239,68,68,0.7);    border:1.5px solid rgba(252,165,165,0.5); }
 #parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
 #well-toggle.off   { opacity:0.35; text-decoration:line-through; }
+
+/* ── Well cluster bubble ── */
+.well-cluster-icon {
+  background:rgba(146,64,14,0.88);
+  border:2px solid rgba(180,83,9,0.8);
+  border-radius:50%;
+  color:#fef3c7;
+  font-size:11px; font-weight:700;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 0 6px rgba(146,64,14,0.5);
+}
 
 /* ── Boulevard count ── */
 #count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
@@ -1712,7 +1725,20 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   })();
 
   // ── Hidden Oil Wells ────────────────────────────────────────────
-  const wellGroup = L.layerGroup().addTo(map);
+  const wellGroup = L.markerClusterGroup({
+    maxClusterRadius: 50,
+    disableClusteringAtZoom: 15,
+    iconCreateFunction(cluster) {
+      const n = cluster.getChildCount();
+      const size = n < 10 ? 30 : n < 50 ? 36 : 42;
+      return L.divIcon({
+        html: `<div class="well-cluster-icon" style="width:${size}px;height:${size}px;">${n}</div>`,
+        className: '',
+        iconSize: L.point(size, size),
+        iconAnchor: L.point(size / 2, size / 2)
+      });
+    }
+  }).addTo(map);
   document.getElementById('well-toggle').addEventListener('click', () => {
     const on = map.hasLayer(wellGroup);
     on ? wellGroup.remove() : wellGroup.addTo(map);
