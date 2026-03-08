@@ -24,11 +24,12 @@ for (let i = 0; i < wells.length; i++) {
   process.stdout.write(`  ${i + 1}/${wells.length}  (${found} photos found so far)\r`);
 
   try {
+    const d = 0.0015; // ~150m in degrees
+    const bbox = `${w.lon-d},${w.lat-d},${w.lon+d},${w.lat+d}`;
     const url = `https://graph.mapillary.com/images` +
       `?access_token=${TOKEN}` +
       `&fields=id,thumb_256_url` +
-      `&closeto=${w.lon},${w.lat}` +
-      `&radius=${RADIUS_M}` +
+      `&bbox=${bbox}` +
       `&limit=1`;
     const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
     if (!res.ok) { w.photo = w.photo ?? null; continue; }
