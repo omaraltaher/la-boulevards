@@ -1677,7 +1677,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   // ── Wild Parrots ───────────────────────────────────────────────
   const parrotGroup = L.markerClusterGroup({
     maxClusterRadius: 30,
-    minimumClusterSize: 5,
+    minimumClusterSize: 3,
     disableClusteringAtZoom: 15,
     iconCreateFunction(cluster) {
       const n = cluster.getChildCount();
