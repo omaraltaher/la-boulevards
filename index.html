@@ -1675,77 +1675,103 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   L.DomEvent.disableClickPropagation(document.getElementById('legend'));
 
   // ── Wild Parrots ───────────────────────────────────────────────
-  const parrotGroup = L.markerClusterGroup({
-    maxClusterRadius: 30,
-    minimumClusterSize: 3,
-    disableClusteringAtZoom: 15,
-    iconCreateFunction(cluster) {
-      const n = cluster.getChildCount();
-      return L.divIcon({
-        html: `<div style="position:relative;width:15px;height:22px;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="22" viewBox="0 0 14 20" opacity="0.95">
-            <ellipse cx="6" cy="13" rx="3.5" ry="5" fill="none" stroke="#a3e635" stroke-width="1.1" stroke-linecap="round"/>
-            <circle cx="7" cy="5" r="3" fill="none" stroke="#a3e635" stroke-width="1.1"/>
-            <path d="M9.5,5 L13,6 L10,7.5" fill="none" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="8.2" cy="4" r="0.9" fill="#a3e635"/>
-            <line x1="4" y1="18" x2="2" y2="20" stroke="#a3e635" stroke-width="0.9" stroke-linecap="round"/>
-            <line x1="6" y1="18" x2="5" y2="20" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round"/>
-          </svg>
-          <div style="position:absolute;top:-5px;right:-8px;background:#4d7c0f;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#d9f99d;line-height:1;">${n}</div>
-        </div>`,
-        className: '',
-        iconSize: L.point(15, 22),
-        iconAnchor: L.point(7, 22)
-      });
-    }
-  }).addTo(map);
+  let parrotData = [];
+  const parrotRenderGroup = L.layerGroup().addTo(map);
+  let parrotsOn = true;
+
   document.getElementById('parrot-toggle').addEventListener('click', () => {
-    const on = map.hasLayer(parrotGroup);
-    on ? parrotGroup.remove() : parrotGroup.addTo(map);
-    document.getElementById('parrot-toggle').classList.toggle('off', on);
+    parrotsOn = !parrotsOn;
+    parrotsOn ? parrotRenderGroup.addTo(map) : parrotRenderGroup.remove();
+    document.getElementById('parrot-toggle').classList.toggle('off', !parrotsOn);
   });
+
+  const parrotSvgHtml = (w, h) =>
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 14 20" opacity="0.9">
+      <ellipse cx="6" cy="13" rx="3.5" ry="5" fill="none" stroke="#a3e635" stroke-width="1.1" stroke-linecap="round"/>
+      <circle cx="7" cy="5" r="3" fill="none" stroke="#a3e635" stroke-width="1.1"/>
+      <path d="M9.5,5 L13,6 L10,7.5" fill="none" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="8.2" cy="4" r="0.9" fill="#a3e635"/>
+      <line x1="4" y1="18" x2="2" y2="20" stroke="#a3e635" stroke-width="0.9" stroke-linecap="round"/>
+      <line x1="6" y1="18" x2="5" y2="20" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round"/>
+    </svg>`;
+
+  const parrotIcon = L.divIcon({
+    className: '', html: parrotSvgHtml(10, 15), iconSize: [10, 15], iconAnchor: [5, 15]
+  });
+
+  function makeParrotClusterIcon(n) {
+    return L.divIcon({
+      html: `<div style="position:relative;width:15px;height:22px;">${parrotSvgHtml(15, 22)}<div style="position:absolute;top:-5px;right:-8px;background:#4d7c0f;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#d9f99d;line-height:1;">${n}</div></div>`,
+      className: '', iconSize: [15, 22], iconAnchor: [7, 22]
+    });
+  }
+
+  function bindParrotClick(marker, p) {
+    marker.on('click', () => {
+      // Append T12:00:00 to prevent browser timezone shifts on date-only strings
+      const dateStr = p.date
+        ? new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
+        : '';
+      const html =
+        `<div style="padding:12px 14px;width:220px;">` +
+        `<div style="font-size:10px;color:rgba(163,230,53,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Wild Parrot 🦜</div>` +
+        `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${p.species}</div>` +
+        (dateStr ? `<div style="font-size:11px;color:#6b7280;margin-bottom:8px;">Spotted ${dateStr}</div>` : '') +
+        (p.photo ? `<img src="${p.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
+        `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(163,230,53,0.7);text-decoration:none;">iNaturalist →</a>` +
+        `</div>`;
+      L.popup({ className: 'parrot-popup', closeButton: true, maxWidth: 260, autoPan: true })
+        .setLatLng([p.lat, p.lon]).setContent(html).openOn(map);
+    });
+  }
+
+  function reclusterParrots() {
+    parrotRenderGroup.clearLayers();
+    if (!parrotsOn || !parrotData.length) return;
+    const zoom = map.getZoom();
+    const R = 30, MIN = 3;
+    if (zoom >= 15) {
+      for (const p of parrotData) {
+        const m = L.marker([p.lat, p.lon], { icon: parrotIcon, zIndexOffset: 50 });
+        bindParrotClick(m, p);
+        parrotRenderGroup.addLayer(m);
+      }
+      return;
+    }
+    const pts = parrotData.map(p => ({ p, px: map.project([p.lat, p.lon], zoom) }));
+    const used = new Set();
+    for (let i = 0; i < pts.length; i++) {
+      if (used.has(i)) continue;
+      const group = [i];
+      used.add(i);
+      for (let j = i + 1; j < pts.length; j++) {
+        if (used.has(j)) continue;
+        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
+        if (dx * dx + dy * dy <= R * R) { group.push(j); used.add(j); }
+      }
+      if (group.length >= MIN) {
+        const lat = group.reduce((s, k) => s + pts[k].p.lat, 0) / group.length;
+        const lon = group.reduce((s, k) => s + pts[k].p.lon, 0) / group.length;
+        parrotRenderGroup.addLayer(L.marker([lat, lon], { icon: makeParrotClusterIcon(group.length), zIndexOffset: 100 }));
+      } else {
+        for (const k of group) {
+          const m = L.marker([pts[k].p.lat, pts[k].p.lon], { icon: parrotIcon, zIndexOffset: 50 });
+          bindParrotClick(m, pts[k].p);
+          parrotRenderGroup.addLayer(m);
+        }
+      }
+    }
+  }
+
+  map.on('zoomend', reclusterParrots);
 
   (async function loadParrots() {
     try {
       const res = await fetch('parrots.json');
       if (!res.ok) return;
       const { parrots } = await res.json();
-
-      const parrotIcon = L.divIcon({
-        className: '',
-        html: `<svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 14 20" opacity="0.9">
-          <ellipse cx="6" cy="13" rx="3.5" ry="5" fill="none" stroke="#a3e635" stroke-width="1.1" stroke-linecap="round"/>
-          <circle cx="7" cy="5" r="3" fill="none" stroke="#a3e635" stroke-width="1.1"/>
-          <path d="M9.5,5 L13,6 L10,7.5" fill="none" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="8.2" cy="4" r="0.9" fill="#a3e635"/>
-          <line x1="4" y1="18" x2="2" y2="20" stroke="#a3e635" stroke-width="0.9" stroke-linecap="round"/>
-          <line x1="6" y1="18" x2="5" y2="20" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round"/>
-        </svg>`,
-        iconSize: [10, 15], iconAnchor: [5, 15]
-      });
-      for (const p of parrots) {
-        const marker = L.marker([p.lat, p.lon], { icon: parrotIcon, zIndexOffset: 50 });
-        parrotGroup.addLayer(marker);
-
-        marker.on('click', () => {
-          // Append T12:00:00 to prevent browser timezone shifts on date-only strings
-          const dateStr = p.date
-            ? new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
-            : '';
-          const html =
-            `<div style="padding:12px 14px;width:220px;">` +
-            `<div style="font-size:10px;color:rgba(163,230,53,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Wild Parrot 🦜</div>` +
-            `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${p.species}</div>` +
-            (dateStr ? `<div style="font-size:11px;color:#6b7280;margin-bottom:8px;">Spotted ${dateStr}</div>` : '') +
-            (p.photo ? `<img src="${p.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
-            `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(163,230,53,0.7);text-decoration:none;">iNaturalist →</a>` +
-            `</div>`;
-          L.popup({ className: 'parrot-popup', closeButton: true, maxWidth: 260, autoPan: true })
-            .setLatLng([p.lat, p.lon])
-            .setContent(html)
-            .openOn(map);
-        });
-      }
+      parrotData = parrots;
+      reclusterParrots();
     } catch (e) {
       console.warn('Parrot load failed:', e);
     }
