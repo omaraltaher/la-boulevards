@@ -12,7 +12,7 @@ const boulevards = loadBoulevards();
 const THRESHOLD_KM = 0.3;
 const BASE = 'https://gis.conservation.ca.gov/server/rest/services/WellSTAR/Wells/MapServer/0/query';
 const FIELDS = 'WellStatus,OperatorName,FieldName,WellType,WellTypeLabel,API,Latitude,Longitude';
-const WHERE = encodeURIComponent("CountyName='LOS ANGELES' AND WellStatus IN ('Active','Idle') AND WellType='OG'");
+const WHERE = encodeURIComponent("CountyName='LOS ANGELES' AND WellStatus='Active' AND WellType='OG'");
 
 async function fetchPage(offset) {
   const url = `${BASE}?where=${WHERE}&outFields=${FIELDS}&resultRecordCount=5000&resultOffset=${offset}&f=json`;

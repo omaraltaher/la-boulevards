@@ -1710,11 +1710,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const { wells } = await res.json();
 
       for (const w of wells) {
-        const color  = w.status === 'Active' ? '#ef4444' : '#f59e0b';
-        const border = w.status === 'Active' ? '#fca5a5' : '#fcd34d';
         const marker = L.circleMarker([w.lat, w.lon], {
-          radius: 4, color: border, weight: 1,
-          fillColor: color, fillOpacity: 0.75, opacity: 0.6
+          radius: 4, color: '#fca5a5', weight: 1,
+          fillColor: '#ef4444', fillOpacity: 0.75, opacity: 0.6
         });
         if (wellsVisible) marker.addTo(map);
         wellLayers.push(marker);
@@ -1722,7 +1720,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         marker.on('click', () => {
           const html =
             `<div style="padding:12px 14px;width:230px;">` +
-            `<div style="font-size:10px;color:${color};text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">🛢️ ${w.status} Oil Well</div>` +
+            `<div style="font-size:10px;color:#ef4444;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">🛢️ Active Oil Well</div>` +
             (w.field    ? `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${w.field}</div>` : '') +
             (w.operator ? `<div style="font-size:11px;color:#9ca3af;margin-bottom:4px;">${w.operator}</div>` : '') +
             (w.type     ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${w.type}</div>` : '') +
