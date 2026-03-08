@@ -1545,9 +1545,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
         const icon = L.divIcon({
           className: '',
-          html: `<div class="${isWiltern ? 'wiltern-dot' : 'theatre-dot'}"></div>`,
-          iconSize: isWiltern ? [13, 13] : [8, 8],
-          iconAnchor: isWiltern ? [6, 6] : [4, 4]
+          html: isWiltern
+            ? `<div style="position:relative;width:24px;height:30px;cursor:pointer;">
+                <svg width="24" height="16" viewBox="0 0 24 16" style="position:absolute;top:0;left:0;" fill="rgba(192,132,252,0.15)" stroke="#c084fc" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="1,15 5,6 10,12 13,1 17,10 21,4 23,15"/>
+                </svg>
+                <div class="wiltern-dot" style="position:absolute;bottom:0;left:5.5px;"></div>
+              </div>`
+            : `<div class="theatre-dot"></div>`,
+          iconSize: isWiltern ? [24, 30] : [8, 8],
+          iconAnchor: isWiltern ? [12, 23] : [4, 4]
         });
 
         const marker = L.marker([lat, lon], { icon, zIndexOffset: isWiltern ? 300 : 120 }).addTo(map);
