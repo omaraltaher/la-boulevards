@@ -27,10 +27,14 @@ const SPECIES = {
 };
 const DEFAULT = { name: 'Wild Parrot', color: '#22c55e' };
 
+// LA County bounding box
+const SWLAT = 33.70, SWLNG = -118.95, NELAT = 34.82, NELNG = -117.65;
+
 async function fetchPage(page) {
   const url = `https://api.inaturalist.org/v1/observations` +
     `?project_id=${PROJECT_SLUG}&quality_grade=research` +
     `&d1=${d1}&d2=${d2}` +
+    `&swlat=${SWLAT}&swlng=${SWLNG}&nelat=${NELAT}&nelng=${NELNG}` +
     `&per_page=${PER_PAGE}&page=${page}&order=desc&order_by=observed_on` +
     `&photos=true`;
   const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
