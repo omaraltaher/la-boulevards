@@ -190,6 +190,23 @@ path.leaflet-interactive:focus { outline:none; }
   50%       { box-shadow:0 0 16px 7px rgba(168,85,247,0.2); }
 }
 
+/* ── Global popup dark theme ── */
+.leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(255,255,255,0.08) !important;
+  border-radius:8px !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  color:#e0e4ef !important;
+}
+.leaflet-popup-content { margin:0 !important; width:auto !important; }
+.leaflet-popup-tip { background:rgba(15,17,35,0.97) !important; }
+.leaflet-popup-close-button {
+  color:#e8eaf8 !important; font-size:18px !important;
+  top:6px !important; right:8px !important;
+}
+.leaflet-popup-close-button:hover { color:#fff !important; }
+
 /* ── Camera popup ── */
 .cam-popup .leaflet-popup-content-wrapper {
   background:rgba(15,17,35,0.97) !important;
@@ -1500,10 +1517,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         const marker = L.marker([lat, lon], { icon, zIndexOffset: isWiltern ? 300 : 120 }).addTo(map);
 
         marker.on('click', () => {
-          if (nearestBlvd && selectedBlvd !== nearestBlvd) {
+          if (nearestBlvd) {
+            // Highlight the boulevard without opening its info panel
             selectedBlvd = nearestBlvd;
             applyHighlight(nearestBlvd);
-            showInfo(nearestBlvd);
           }
 
           if (isWiltern) {
