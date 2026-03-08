@@ -301,6 +301,21 @@ path.leaflet-interactive:focus { outline:none; }
 }
 .gold-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
 
+/* ── Well popup ── */
+.well-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(146,64,14,0.3) !important;
+  border-radius:8px !important; box-shadow:none !important;
+  padding:0 !important; overflow:hidden;
+}
+.well-popup .leaflet-popup-tip-container { display:none; }
+.well-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.well-popup .leaflet-popup-close-button {
+  color:#e8eaf8 !important; font-size:18px !important;
+  top:6px !important; right:8px !important; z-index:10;
+}
+.well-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
+
 /* ── Info panel art section ── */
 #info-art { display:none; margin-top:16px; }
 #info-art-title {
@@ -1735,7 +1750,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             (w.type     ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${w.type}</div>` : '') +
             (w.blvd     ? `<div style="font-size:10px;color:#4b5563;">Near ${w.blvd}</div>` : '') +
             `</div>`;
-          L.popup({ closeButton: true, maxWidth: 280, autoPan: true })
+          L.popup({ className: 'well-popup', closeButton: true, maxWidth: 280, autoPan: true })
             .setLatLng([w.lat, w.lon]).setContent(html).openOn(map);
         });
       }
