@@ -616,6 +616,18 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="marker-row"><div class="marker-dot theatre-legend-dot"></div><span>Theatre</span></div>
       <div class="marker-row" id="parrot-toggle" style="cursor:pointer;user-select:none;" title="Toggle parrot layer"><div class="marker-dot parrot-legend-dot"></div><span>Wild parrots 🦜</span></div>
     </div>
+    <div id="refresh-btn" title="Manually refresh data" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.06);color:#6b7280;font-size:10px;cursor:pointer;display:flex;align-items:center;gap:5px;user-select:none;">
+      <span style="font-size:13px;line-height:1;">↻</span> Refresh data
+    </div>
+    <div id="refresh-panel" style="display:none;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.06);">
+      <div id="refresh-pat-row" style="display:none;margin-bottom:8px;">
+        <div style="font-size:9px;color:#9ca3af;margin-bottom:4px;">GitHub token (Actions scope)</div>
+        <input id="refresh-pat-input" type="password" placeholder="ghp_…" style="width:100%;box-sizing:border-box;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:4px;padding:4px 6px;color:#f9fafb;font-size:10px;outline:none;" />
+        <button id="refresh-pat-save" style="margin-top:4px;width:100%;padding:4px;background:rgba(99,102,241,0.25);border:1px solid rgba(99,102,241,0.35);border-radius:4px;color:#a5b4fc;font-size:10px;cursor:pointer;">Save token</button>
+      </div>
+      <div id="refresh-wf-list"></div>
+      <button id="refresh-run-btn" style="margin-top:8px;width:100%;padding:5px;background:rgba(99,102,241,0.2);border:1px solid rgba(99,102,241,0.3);border-radius:4px;color:#818cf8;font-size:10px;cursor:pointer;">Run all</button>
+    </div>
   </div>
 
   <div id="count"></div>
@@ -1691,6 +1703,110 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('loading').innerHTML =
     '<span style="color:#ef4444">Failed to load data — check your connection and reload.</span>';
 });
+
+// ── Data refresh panel ──────────────────────────────────────
+(function() {
+  const REPO = 'omaraltaher/la-boulevards';
+  const PAT_KEY = 'gh_refresh_pat';
+  const WORKFLOWS = [
+    { id: 'refresh-cameras.yml',  label: 'Traffic cameras' },
+    { id: 'refresh-wiltern.yml',  label: 'Wiltern events'  },
+    { id: 'refresh-theatres.yml', label: 'Theatres'        },
+    { id: 'refresh-parrots.yml',  label: 'Parrots'         },
+    { id: 'refresh-art.yml',      label: 'Public art'      },
+  ];
+
+  // Build workflow status rows
+  const wfList = document.getElementById('refresh-wf-list');
+  WORKFLOWS.forEach(wf => {
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex;align-items:center;gap:6px;font-size:10px;color:#6b7280;padding:2px 0;';
+    row.innerHTML = `<span id="rf-${wf.id}" style="width:14px;text-align:center;font-size:11px;flex-shrink:0;">–</span><span>${wf.label}</span>`;
+    wfList.appendChild(row);
+  });
+
+  function getPat() { return localStorage.getItem(PAT_KEY); }
+  function setIcon(id, icon, color) {
+    const el = document.getElementById(`rf-${id}`);
+    if (el) { el.textContent = icon; el.style.color = color; }
+  }
+
+  async function pollRun(wfId, pat, dispatchedAt) {
+    const deadline = Date.now() + 5 * 60 * 1000;
+    await new Promise(r => setTimeout(r, 5000));
+    while (Date.now() < deadline) {
+      try {
+        const r = await fetch(
+          `https://api.github.com/repos/${REPO}/actions/workflows/${wfId}/runs?event=workflow_dispatch&per_page=1`,
+          { headers: { Authorization: `Bearer ${pat}` } }
+        );
+        const data = await r.json();
+        const run = data.workflow_runs?.[0];
+        if (run && new Date(run.created_at).getTime() >= dispatchedAt - 15000) {
+          if (run.status === 'completed') {
+            setIcon(wfId, run.conclusion === 'success' ? '✓' : '✗',
+                          run.conclusion === 'success' ? '#4ade80' : '#f87171');
+            return;
+          }
+          setIcon(wfId, '⟳', '#818cf8');
+        }
+      } catch {}
+      await new Promise(r => setTimeout(r, 6000));
+    }
+    setIcon(wfId, '?', '#9ca3af');
+  }
+
+  async function dispatchWorkflow(wf, pat) {
+    setIcon(wf.id, '⟳', '#818cf8');
+    const dispatchedAt = Date.now();
+    try {
+      const r = await fetch(
+        `https://api.github.com/repos/${REPO}/actions/workflows/${wf.id}/dispatches`,
+        {
+          method: 'POST',
+          headers: { Authorization: `Bearer ${pat}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ ref: 'main' })
+        }
+      );
+      if (r.status === 204) {
+        setIcon(wf.id, '⟳', '#818cf8');
+        pollRun(wf.id, pat, dispatchedAt);
+      } else {
+        setIcon(wf.id, '✗', '#f87171');
+      }
+    } catch {
+      setIcon(wf.id, '✗', '#f87171');
+    }
+  }
+
+  const refreshBtn = document.getElementById('refresh-btn');
+  const panel      = document.getElementById('refresh-panel');
+  const patRow     = document.getElementById('refresh-pat-row');
+  const runBtn     = document.getElementById('refresh-run-btn');
+
+  refreshBtn.addEventListener('click', () => {
+    const open = panel.style.display !== 'none';
+    panel.style.display = open ? 'none' : 'block';
+    if (!open) {
+      if (!getPat()) patRow.style.display = 'block';
+      WORKFLOWS.forEach(wf => setIcon(wf.id, '–', '#6b7280'));
+    }
+  });
+
+  document.getElementById('refresh-pat-save').addEventListener('click', () => {
+    const val = document.getElementById('refresh-pat-input').value.trim();
+    if (val) { localStorage.setItem(PAT_KEY, val); patRow.style.display = 'none'; }
+  });
+
+  runBtn.addEventListener('click', async () => {
+    const pat = getPat();
+    if (!pat) { patRow.style.display = 'block'; return; }
+    runBtn.disabled = true;
+    runBtn.textContent = 'Running…';
+    await Promise.all(WORKFLOWS.map(wf => dispatchWorkflow(wf, pat)));
+    setTimeout(() => { runBtn.disabled = false; runBtn.textContent = 'Run all'; }, 8000);
+  });
+})();
 </script>
 </body>
 </html>
