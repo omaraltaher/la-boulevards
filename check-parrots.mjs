@@ -65,7 +65,6 @@ for (const obs of all) {
     const photo = obs.photos?.[0]?.url?.replace('/square.', '/small.') || null;
     grid.set(gridKey, {
       species: sp.name,
-      color: sp.color,
       lat: Math.round(lat * 1e4) / 1e4,
       lon: Math.round(lon * 1e4) / 1e4,
       date: obs.observed_on || null,

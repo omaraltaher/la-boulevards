@@ -5,31 +5,11 @@
 // Usage:  node check-art.mjs
 // Output: art.json
 
-import { writeFileSync, readFileSync } from 'fs';
+import { writeFileSync } from 'fs';
+import { loadBoulevards, nearestBlvd } from './geo-utils.mjs';
 
-const boulevards = JSON.parse(readFileSync('boulevards.json', 'utf8'));
+const boulevards = loadBoulevards();
 const THRESHOLD_KM = 0.3;
-
-function hav(lat1, lon1, lat2, lon2) {
-  const R = 6371;
-  const dLat = (lat2 - lat1) * Math.PI / 180;
-  const dLon = (lon2 - lon1) * Math.PI / 180;
-  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
-  return R * 2 * Math.asin(Math.sqrt(a));
-}
-
-function nearestBlvd(lat, lon) {
-  let best = null, bestDist = Infinity;
-  for (const b of boulevards) {
-    for (const seg of b.segs) {
-      for (const [slat, slon] of seg) {
-        const d = hav(lat, lon, slat, slon);
-        if (d < bestDist) { bestDist = d; best = b; }
-      }
-    }
-  }
-  return { blvd: best, dist: bestDist };
-}
 
 async function fetchCommonsUrl(title, artist) {
   const q = encodeURIComponent(`${title} ${artist} Los Angeles`);
@@ -65,7 +45,7 @@ for (const item of allItems) {
   const lat = parseFloat(item.latitude);
   const lon = parseFloat(item.longitude);
   if (!lat || !lon) continue;
-  const { blvd, dist } = nearestBlvd(lat, lon);
+  const { blvd, dist } = nearestBlvd(boulevards, lat, lon);
   if (dist > THRESHOLD_KM) continue;
   nearby.push({
     title:   item.location_name  || 'Untitled',

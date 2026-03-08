@@ -705,6 +705,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   boulevards.forEach(blvd => {
     // Jonathan Gold tribute — Pico Boulevard is always gold
     const isPico = blvd.name === 'Pico Boulevard';
+    blvd.isPico  = isPico;
     const color = isPico ? '#f59e0b' : '#e8eaf8';
     blvd.color = color;
     blvd.weight  = isPico ? 1.6 : 1.8;
@@ -747,6 +748,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   });
 
   document.getElementById('count').textContent = `${boulevards.length} boulevards`;
+  const blvdByName = new Map(boulevards.map(b => [b.name, b]));
 
   // ── Proximity ──────────────────────────────────────────
   const NEARBY_KM = 1.609;
@@ -773,10 +775,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function applyHighlight(blvd) {
     boulevards.forEach(b => {
       const active = b === blvd;
-      const isPico = b.name === 'Pico Boulevard';
       b.lines.forEach(l => l.setStyle({
-        opacity: active ? Math.max(b.opacity, 0.9) : isPico ? Math.max(b.opacity, 0.75) : 0.06,
-        weight:  active ? Math.max(b.weight, 2.0)  : isPico ? Math.max(b.weight, 1.8)  : 0.6
+        opacity: active ? Math.max(b.opacity, 0.9) : b.isPico ? Math.max(b.opacity, 0.75) : 0.06,
+        weight:  active ? Math.max(b.weight, 2.0)  : b.isPico ? Math.max(b.weight, 1.8)  : 0.6
       }));
     });
     updateOverlayMarkers(blvd);
@@ -800,18 +801,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const tip = near
         ? `<b>${blvd.name}</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#818cf8">${distMi} mi away</span></span>`
         : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
-      const isPico = blvd.name === 'Pico Boulevard';
-      blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : isPico ? 0.75 : 0.07, weight: near ? 2 : isPico ? 1.8 : 1 }));
+      blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : blvd.isPico ? 0.75 : 0.07, weight: near ? 2 : blvd.isPico ? 1.8 : 1 }));
       blvd.hits.forEach(l => l.setTooltipContent(tip));
     });
   }
 
   function resetProximity() {
     boulevards.forEach(blvd => {
-      const isPico = blvd.name === 'Pico Boulevard';
       blvd.lines.forEach(l => l.setStyle({
-        opacity: isPico ? Math.max(blvd.opacity, 0.75) : blvd.opacity,
-        weight:  isPico ? Math.max(blvd.weight, 1.8)  : blvd.weight
+        opacity: blvd.isPico ? Math.max(blvd.opacity, 0.75) : blvd.opacity,
+        weight:  blvd.isPico ? Math.max(blvd.weight, 1.8)  : blvd.weight
       }));
       blvd.hits.forEach(l => l.setTooltipContent(`<b>${blvd.name}</b><span>${blvd.mi} mi</span>`));
     });
@@ -1369,7 +1368,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
       artItems = [];
       for (const item of items) {
-        const blvdObj = boulevards.find(b => b.name === item.blvd) || null;
+        const blvdObj = blvdByName.get(item.blvd);
         if (!blvdObj) continue;
 
         const art = { ...item, blvd: blvdObj, commonsUrl: item.commonsUrl || null };
@@ -1646,18 +1645,22 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (!res.ok) return;
       const { parrots } = await res.json();
 
-      const parrotLayers = [];
-      for (const p of parrots) {
-        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 22 22" opacity="0.9">
+      const parrotIcon = L.divIcon({
+        className: '',
+        html: `<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 22 22" opacity="0.9">
           <circle cx="9" cy="7" r="5" fill="#a3e635"/>
           <ellipse cx="13" cy="15" rx="5" ry="6" fill="#a3e635"/>
           <polygon points="4,7 0,5.5 1,8.5" fill="#a3e635" opacity="0.85"/>
-        </svg>`;
-        const icon = L.divIcon({ className: '', html: svg, iconSize: [11, 11], iconAnchor: [5, 5] });
-        const marker = L.marker([p.lat, p.lon], { icon, zIndexOffset: 50 }).addTo(map);
+        </svg>`,
+        iconSize: [11, 11], iconAnchor: [5, 5]
+      });
+      const parrotLayers = [];
+      for (const p of parrots) {
+        const marker = L.marker([p.lat, p.lon], { icon: parrotIcon, zIndexOffset: 50 }).addTo(map);
         parrotLayers.push(marker);
 
         marker.on('click', () => {
+          // Append T12:00:00 to prevent browser timezone shifts on date-only strings
           const dateStr = p.date
             ? new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
             : '';
