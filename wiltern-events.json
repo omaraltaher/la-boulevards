@@ -1,13 +1,6 @@
 {
-  "generated": "2026-03-07T23:50:43.290Z",
+  "generated": "2026-03-08T16:22:31.712Z",
   "events": [
-    {
-      "name": "DRAMA: Platonic Romance Tour",
-      "date": "2026-03-07",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/drama-platonic-romance-tour-los-angeles-california-03-07-2026/event/09006339BABC56ED",
-      "image": "https://s1.ticketm.net/dam/a/b80/6c57cbe5-33f0-44ea-a9e1-b78fef201b80_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "dodie with special guest Andy Louis",
       "date": "2026-03-10",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/2026-hearts2hearts-premiere-showcase-hearts-2-los-angeles-california-03-22-2026/event/0900638BCD91CE28",
       "image": "https://s1.ticketm.net/dam/a/c17/959f2bde-5e7c-4f67-9ce3-0e0e2fc7ac17_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "hololive presents Takanashi Kiara & Ninomae Ina'nis \"Drawn to Dawn\"",
+      "date": "2026-03-27",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/hololive-presents-takanashi-kiara-ninomae-inanis-los-angeles-california-03-27-2026/event/0900637C326B5C55",
+      "image": "https://s1.ticketm.net/dam/e/221/d24fb6cf-361d-4caf-9eb4-5f0997996221_RECOMENDATION_16_9.jpg"
     }
   ]
 }
