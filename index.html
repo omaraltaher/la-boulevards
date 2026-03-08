@@ -1817,7 +1817,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         (w.field    ? `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${w.field}</div>` : '') +
         (w.operator ? `<div style="font-size:11px;color:#9ca3af;margin-bottom:4px;">${w.operator}</div>` : '') +
         (w.type     ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${w.type}</div>` : '') +
-        (w.blvd     ? `<div style="font-size:10px;color:#4b5563;">Near ${w.blvd}</div>` : '') +
+        (w.blvd     ? `<div style="font-size:10px;color:#4b5563;margin-bottom:8px;">Near ${w.blvd}</div>` : '') +
+        (w.api      ? `<a href="https://wellstar-public.conservation.ca.gov/Well/Index/${w.api}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(180,83,9,0.8);text-decoration:none;">CalGEM record →</a>` : '') +
         `</div>`;
       L.popup({ className: 'well-popup', closeButton: true, maxWidth: 280, autoPan: true })
         .setLatLng([w.lat, w.lon]).setContent(html).openOn(map);
