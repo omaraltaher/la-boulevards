@@ -107,7 +107,9 @@ html, body {
 #legend .art-legend-dot { background:rgba(255,0,200,0.45); border:1.5px solid rgba(255,80,220,0.35); }
 #legend .theatre-legend-dot { background:rgba(168,85,247,0.65); border:1.5px solid rgba(192,132,252,0.5); }
 #legend .parrot-legend-dot  { background:rgba(163,230,53,0.7);   border:1.5px solid rgba(190,242,100,0.5); }
+#legend .well-legend-dot    { background:rgba(239,68,68,0.7);    border:1.5px solid rgba(252,165,165,0.5); }
 #parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
+#well-toggle.off   { opacity:0.35; text-decoration:line-through; }
 
 /* ── Boulevard count ── */
 #count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
@@ -615,6 +617,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="marker-row"><div class="marker-dot art-legend-dot"></div><span>Public art</span></div>
       <div class="marker-row"><div class="marker-dot theatre-legend-dot"></div><span>Theatre</span></div>
       <div class="marker-row" id="parrot-toggle" style="cursor:pointer;user-select:none;" title="Toggle parrot layer"><div class="marker-dot parrot-legend-dot"></div><span>Wild parrots 🦜</span></div>
+      <div class="marker-row" id="well-toggle"   style="cursor:pointer;user-select:none;" title="Toggle oil well layer"><div class="marker-dot well-legend-dot"></div><span>Hidden oil wells 🛢️</span></div>
     </div>
   </div>
 
@@ -1688,6 +1691,49 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       }
     } catch (e) {
       console.warn('Parrot load failed:', e);
+    }
+  })();
+
+  // ── Hidden Oil Wells ────────────────────────────────────────────
+  const wellLayers = [];
+  let wellsVisible = true;
+  document.getElementById('well-toggle').addEventListener('click', () => {
+    wellsVisible = !wellsVisible;
+    wellLayers.forEach(m => wellsVisible ? m.addTo(map) : m.remove());
+    document.getElementById('well-toggle').classList.toggle('off', !wellsVisible);
+  });
+
+  (async function loadWells() {
+    try {
+      const res = await fetch('wells.json');
+      if (!res.ok) return;
+      const { wells } = await res.json();
+
+      for (const w of wells) {
+        const color  = w.status === 'Active' ? '#ef4444' : '#f59e0b';
+        const border = w.status === 'Active' ? '#fca5a5' : '#fcd34d';
+        const marker = L.circleMarker([w.lat, w.lon], {
+          radius: 4, color: border, weight: 1,
+          fillColor: color, fillOpacity: 0.75, opacity: 0.6
+        });
+        if (wellsVisible) marker.addTo(map);
+        wellLayers.push(marker);
+
+        marker.on('click', () => {
+          const html =
+            `<div style="padding:12px 14px;width:230px;">` +
+            `<div style="font-size:10px;color:${color};text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">🛢️ ${w.status} Oil Well</div>` +
+            (w.field    ? `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${w.field}</div>` : '') +
+            (w.operator ? `<div style="font-size:11px;color:#9ca3af;margin-bottom:4px;">${w.operator}</div>` : '') +
+            (w.type     ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${w.type}</div>` : '') +
+            (w.blvd     ? `<div style="font-size:10px;color:#4b5563;">Near ${w.blvd}</div>` : '') +
+            `</div>`;
+          L.popup({ closeButton: true, maxWidth: 280, autoPan: true })
+            .setLatLng([w.lat, w.lon]).setContent(html).openOn(map);
+        });
+      }
+    } catch (e) {
+      console.warn('Well load failed:', e);
     }
   })();
 
