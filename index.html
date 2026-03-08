@@ -6,8 +6,6 @@
 <title>LA County Boulevards</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
 
@@ -1678,6 +1676,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let parrotData = [];
   const parrotRenderGroup = L.layerGroup().addTo(map);
   let parrotsOn = true;
+  const pinnedParrots = new Set();
 
   document.getElementById('parrot-toggle').addEventListener('click', () => {
     parrotsOn = !parrotsOn;
@@ -1730,16 +1729,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (!parrotsOn || !parrotData.length) return;
     const zoom = map.getZoom();
     const R = 30, MIN = 3;
-    if (zoom >= 15) {
-      for (const p of parrotData) {
-        const m = L.marker([p.lat, p.lon], { icon: parrotIcon, zIndexOffset: 50 });
-        bindParrotClick(m, p);
-        parrotRenderGroup.addLayer(m);
-      }
-      return;
-    }
     const pts = parrotData.map(p => ({ p, px: map.project([p.lat, p.lon], zoom) }));
     const used = new Set();
+    for (const k of pinnedParrots) { used.add(k); }
+    for (const k of pinnedParrots) {
+      const m = L.marker([pts[k].p.lat, pts[k].p.lon], { icon: parrotIcon, zIndexOffset: 50 });
+      bindParrotClick(m, pts[k].p);
+      parrotRenderGroup.addLayer(m);
+    }
     for (let i = 0; i < pts.length; i++) {
       if (used.has(i)) continue;
       const group = [i];
@@ -1752,9 +1749,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (group.length >= MIN) {
         const lat = group.reduce((s, k) => s + pts[k].p.lat, 0) / group.length;
         const lon = group.reduce((s, k) => s + pts[k].p.lon, 0) / group.length;
-        const bounds = L.latLngBounds(group.map(k => [pts[k].p.lat, pts[k].p.lon]));
         const cm = L.marker([lat, lon], { icon: makeParrotClusterIcon(group.length), zIndexOffset: 100 });
-        cm.on('click', e => { L.DomEvent.stopPropagation(e); map.fitBounds(bounds, { maxZoom: 15, padding: [40, 40] }); });
+        cm.on('click', e => { L.DomEvent.stopPropagation(e); group.forEach(k => pinnedParrots.add(k)); reclusterParrots(); });
         parrotRenderGroup.addLayer(cm);
       } else {
         for (const k of group) {
@@ -1766,7 +1762,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   }
 
-  map.on('zoomend', reclusterParrots);
+  map.on('zoomend', () => { pinnedParrots.clear(); reclusterParrots(); });
 
   (async function loadParrots() {
     try {
@@ -1781,71 +1777,100 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   })();
 
   // ── Hidden Oil Wells ────────────────────────────────────────────
-  const wellGroup = L.markerClusterGroup({
-    maxClusterRadius: 30,
-    minimumClusterSize: 5,
-    disableClusteringAtZoom: 15,
-    iconCreateFunction(cluster) {
-      const n = cluster.getChildCount();
-      return L.divIcon({
-        html: `<div style="position:relative;width:22px;height:32px;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="32" viewBox="0 0 14 20" opacity="0.95">
-            <line x1="7" y1="2"  x2="1"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
-            <line x1="7" y1="2"  x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
-            <line x1="4" y1="10" x2="10" y2="10" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
-            <line x1="2.5" y1="15" x2="11.5" y2="15" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
-            <line x1="1"  y1="19" x2="13"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
-            <circle cx="7" cy="2" r="2" fill="#b45309"/>
-          </svg>
-          <div style="position:absolute;top:-5px;right:-8px;background:#b45309;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fef3c7;line-height:1;">${n}</div>
-        </div>`,
-        className: '',
-        iconSize: L.point(22, 32),
-        iconAnchor: L.point(11, 32)
-      });
-    }
-  }).addTo(map);
+  let wellData = [];
+  const wellRenderGroup = L.layerGroup().addTo(map);
+  let wellsOn = true;
+  const pinnedWells = new Set();
+
   document.getElementById('well-toggle').addEventListener('click', () => {
-    const on = map.hasLayer(wellGroup);
-    on ? wellGroup.remove() : wellGroup.addTo(map);
-    document.getElementById('well-toggle').classList.toggle('off', on);
+    wellsOn = !wellsOn;
+    wellsOn ? wellRenderGroup.addTo(map) : wellRenderGroup.remove();
+    document.getElementById('well-toggle').classList.toggle('off', !wellsOn);
   });
+
+  const wellSvgHtml = (w, h) =>
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 14 20" opacity="0.9">
+      <line x1="7" y1="2"  x2="1"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="7" y1="2"  x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="4" y1="10" x2="10" y2="10" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
+      <line x1="2.5" y1="15" x2="11.5" y2="15" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
+      <line x1="1"  y1="19" x2="13"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="7" cy="2" r="2" fill="#b45309"/>
+    </svg>`;
+
+  const wellIcon = L.divIcon({
+    className: '', html: wellSvgHtml(14, 20), iconSize: [13, 20], iconAnchor: [6, 20]
+  });
+
+  function makeWellClusterIcon(n) {
+    return L.divIcon({
+      html: `<div style="position:relative;width:22px;height:32px;">${wellSvgHtml(22, 32)}<div style="position:absolute;top:-5px;right:-8px;background:#b45309;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fef3c7;line-height:1;">${n}</div></div>`,
+      className: '', iconSize: [22, 32], iconAnchor: [11, 32]
+    });
+  }
+
+  function bindWellClick(marker, w) {
+    marker.on('click', () => {
+      const html =
+        `<div style="padding:12px 14px;width:230px;">` +
+        `<div style="font-size:10px;color:#ef4444;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">🛢️ Active Oil Well</div>` +
+        (w.field    ? `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${w.field}</div>` : '') +
+        (w.operator ? `<div style="font-size:11px;color:#9ca3af;margin-bottom:4px;">${w.operator}</div>` : '') +
+        (w.type     ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${w.type}</div>` : '') +
+        (w.blvd     ? `<div style="font-size:10px;color:#4b5563;">Near ${w.blvd}</div>` : '') +
+        `</div>`;
+      L.popup({ className: 'well-popup', closeButton: true, maxWidth: 280, autoPan: true })
+        .setLatLng([w.lat, w.lon]).setContent(html).openOn(map);
+    });
+  }
+
+  function reclusterWells() {
+    wellRenderGroup.clearLayers();
+    if (!wellsOn || !wellData.length) return;
+    const zoom = map.getZoom();
+    const R = 30, MIN = 5;
+    const pts = wellData.map(w => ({ w, px: map.project([w.lat, w.lon], zoom) }));
+    const used = new Set();
+    for (const k of pinnedWells) { used.add(k); }
+    for (const k of pinnedWells) {
+      const m = L.marker([pts[k].w.lat, pts[k].w.lon], { icon: wellIcon, zIndexOffset: 60 });
+      bindWellClick(m, pts[k].w);
+      wellRenderGroup.addLayer(m);
+    }
+    for (let i = 0; i < pts.length; i++) {
+      if (used.has(i)) continue;
+      const group = [i];
+      used.add(i);
+      for (let j = i + 1; j < pts.length; j++) {
+        if (used.has(j)) continue;
+        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
+        if (dx * dx + dy * dy <= R * R) { group.push(j); used.add(j); }
+      }
+      if (group.length >= MIN) {
+        const lat = group.reduce((s, k) => s + pts[k].w.lat, 0) / group.length;
+        const lon = group.reduce((s, k) => s + pts[k].w.lon, 0) / group.length;
+        const cm = L.marker([lat, lon], { icon: makeWellClusterIcon(group.length), zIndexOffset: 100 });
+        cm.on('click', e => { L.DomEvent.stopPropagation(e); group.forEach(k => pinnedWells.add(k)); reclusterWells(); });
+        wellRenderGroup.addLayer(cm);
+      } else {
+        for (const k of group) {
+          const m = L.marker([pts[k].w.lat, pts[k].w.lon], { icon: wellIcon, zIndexOffset: 60 });
+          bindWellClick(m, pts[k].w);
+          wellRenderGroup.addLayer(m);
+        }
+      }
+    }
+  }
+
+  map.on('zoomend', () => { pinnedWells.clear(); reclusterWells(); });
 
   (async function loadWells() {
     try {
       const res = await fetch('wells.json');
       if (!res.ok) return;
       const { wells } = await res.json();
-
-      const wellIcon = L.divIcon({
-        className: '',
-        html: `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20" opacity="0.9">
-          <line x1="7" y1="2"  x2="1"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
-          <line x1="7" y1="2"  x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
-          <line x1="4" y1="10" x2="10" y2="10" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
-          <line x1="2.5" y1="15" x2="11.5" y2="15" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
-          <line x1="1"  y1="19" x2="13"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
-          <circle cx="7" cy="2" r="2" fill="#b45309"/>
-        </svg>`,
-        iconSize: [13, 20], iconAnchor: [6, 20]
-      });
-      for (const w of wells) {
-        const marker = L.marker([w.lat, w.lon], { icon: wellIcon, zIndexOffset: 60 });
-        wellGroup.addLayer(marker);
-
-        marker.on('click', () => {
-          const html =
-            `<div style="padding:12px 14px;width:230px;">` +
-            `<div style="font-size:10px;color:#ef4444;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">🛢️ Active Oil Well</div>` +
-            (w.field    ? `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${w.field}</div>` : '') +
-            (w.operator ? `<div style="font-size:11px;color:#9ca3af;margin-bottom:4px;">${w.operator}</div>` : '') +
-            (w.type     ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${w.type}</div>` : '') +
-            (w.blvd     ? `<div style="font-size:10px;color:#4b5563;">Near ${w.blvd}</div>` : '') +
-            `</div>`;
-          L.popup({ className: 'well-popup', closeButton: true, maxWidth: 280, autoPan: true })
-            .setLatLng([w.lat, w.lon]).setContent(html).openOn(map);
-        });
-      }
+      wellData = wells;
+      reclusterWells();
     } catch (e) {
       console.warn('Well load failed:', e);
     }
