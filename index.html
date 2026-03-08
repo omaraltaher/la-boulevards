@@ -1256,6 +1256,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     else resetProximity();
   });
 
+  map.on('click', () => {
+    if (!selectedBlvd) return;
+    infoPanel.classList.remove('open');
+    mediaPanel.classList.remove('open');
+    selectedBlvd = null;
+    updateOverlayMarkers(null);
+    if (pinLat !== null) applyProximity(pinLat, pinLon);
+    else resetProximity();
+  });
+
   // ── Caltrans D7 live cameras ──────────────────────────────
   // Flatten all boulevard points once for proximity checks
   const allBlvdPts = [];
