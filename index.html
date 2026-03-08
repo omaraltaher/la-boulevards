@@ -1639,6 +1639,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   })();
 
   // ── Wild Parrots ───────────────────────────────────────────────
+  const parrotLayers = [];
+  let parrotsVisible = true;
+  document.getElementById('parrot-toggle').addEventListener('click', () => {
+    parrotsVisible = !parrotsVisible;
+    parrotLayers.forEach(m => parrotsVisible ? m.addTo(map) : m.remove());
+    document.getElementById('parrot-toggle').classList.toggle('off', !parrotsVisible);
+  });
+
   (async function loadParrots() {
     try {
       const res = await fetch('parrots.json');
@@ -1654,9 +1662,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         </svg>`,
         iconSize: [11, 11], iconAnchor: [5, 5]
       });
-      const parrotLayers = [];
       for (const p of parrots) {
-        const marker = L.marker([p.lat, p.lon], { icon: parrotIcon, zIndexOffset: 50 }).addTo(map);
+        const marker = L.marker([p.lat, p.lon], { icon: parrotIcon, zIndexOffset: 50 });
+        if (parrotsVisible) marker.addTo(map);
         parrotLayers.push(marker);
 
         marker.on('click', () => {
@@ -1678,13 +1686,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             .openOn(map);
         });
       }
-      // Toggle
-      let parrotsVisible = true;
-      document.getElementById('parrot-toggle').addEventListener('click', () => {
-        parrotsVisible = !parrotsVisible;
-        parrotLayers.forEach(m => parrotsVisible ? m.addTo(map) : m.remove());
-        document.getElementById('parrot-toggle').classList.toggle('off', !parrotsVisible);
-      });
     } catch (e) {
       console.warn('Parrot load failed:', e);
     }
