@@ -106,7 +106,7 @@ html, body {
 #legend .cam-legend-dot { background:rgba(6,182,212,0.65); border:1.5px solid rgba(103,232,249,0.5); }
 #legend .art-legend-dot { background:rgba(255,0,200,0.45); border:1.5px solid rgba(255,80,220,0.35); }
 #legend .theatre-legend-dot { background:rgba(168,85,247,0.65); border:1.5px solid rgba(192,132,252,0.5); }
-#legend .parrot-legend-dot  { background:rgba(34,197,94,0.7);   border:1.5px solid rgba(134,239,172,0.5); }
+#legend .parrot-legend-dot  { background:rgba(163,230,53,0.7);   border:1.5px solid rgba(190,242,100,0.5); }
 #parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
 
 /* ── Boulevard count ── */
@@ -1649,9 +1649,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const parrotLayers = [];
       for (const p of parrots) {
         const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 22 22" opacity="0.9">
-          <circle cx="9" cy="7" r="5" fill="#22c55e"/>
-          <ellipse cx="13" cy="15" rx="5" ry="6" fill="#22c55e"/>
-          <polygon points="4,7 0,5.5 1,8.5" fill="#22c55e" opacity="0.85"/>
+          <circle cx="9" cy="7" r="5" fill="#a3e635"/>
+          <ellipse cx="13" cy="15" rx="5" ry="6" fill="#a3e635"/>
+          <polygon points="4,7 0,5.5 1,8.5" fill="#a3e635" opacity="0.85"/>
         </svg>`;
         const icon = L.divIcon({ className: '', html: svg, iconSize: [11, 11], iconAnchor: [5, 5] });
         const marker = L.marker([p.lat, p.lon], { icon, zIndexOffset: 50 }).addTo(map);
@@ -1663,11 +1663,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             : '';
           const html =
             `<div style="padding:12px 14px;width:220px;">` +
-            `<div style="font-size:10px;color:rgba(34,197,94,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Wild Parrot 🦜</div>` +
+            `<div style="font-size:10px;color:rgba(163,230,53,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Wild Parrot 🦜</div>` +
             `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${p.species}</div>` +
             (dateStr ? `<div style="font-size:11px;color:#6b7280;margin-bottom:8px;">Spotted ${dateStr}</div>` : '') +
             (p.photo ? `<img src="${p.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
-            `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(34,197,94,0.7);text-decoration:none;">iNaturalist →</a>` +
+            `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(163,230,53,0.7);text-decoration:none;">iNaturalist →</a>` +
             `</div>`;
           L.popup({ className: 'parrot-popup', closeButton: true, maxWidth: 260, autoPan: true })
             .setLatLng([p.lat, p.lon])
