@@ -773,9 +773,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function applyHighlight(blvd) {
     boulevards.forEach(b => {
       const active = b === blvd;
+      const isPico = b.name === 'Pico Boulevard';
       b.lines.forEach(l => l.setStyle({
-        opacity: active ? Math.max(b.opacity, 0.9) : 0.06,
-        weight:  active ? Math.max(b.weight, 2.0)  : 0.6
+        opacity: active ? Math.max(b.opacity, 0.9) : isPico ? Math.max(b.opacity, 0.75) : 0.06,
+        weight:  active ? Math.max(b.weight, 2.0)  : isPico ? Math.max(b.weight, 1.8)  : 0.6
       }));
     });
     updateOverlayMarkers(blvd);
@@ -799,14 +800,19 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const tip = near
         ? `<b>${blvd.name}</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#818cf8">${distMi} mi away</span></span>`
         : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
-      blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : 0.07, weight: near ? 2 : 1 }));
+      const isPico = blvd.name === 'Pico Boulevard';
+      blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : isPico ? 0.75 : 0.07, weight: near ? 2 : isPico ? 1.8 : 1 }));
       blvd.hits.forEach(l => l.setTooltipContent(tip));
     });
   }
 
   function resetProximity() {
     boulevards.forEach(blvd => {
-      blvd.lines.forEach(l => l.setStyle({ opacity:blvd.opacity, weight:blvd.weight }));
+      const isPico = blvd.name === 'Pico Boulevard';
+      blvd.lines.forEach(l => l.setStyle({
+        opacity: isPico ? Math.max(blvd.opacity, 0.75) : blvd.opacity,
+        weight:  isPico ? Math.max(blvd.weight, 1.8)  : blvd.weight
+      }));
       blvd.hits.forEach(l => l.setTooltipContent(`<b>${blvd.name}</b><span>${blvd.mi} mi</span>`));
     });
   }

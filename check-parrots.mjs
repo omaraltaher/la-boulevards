@@ -10,6 +10,11 @@ import { writeFileSync } from 'fs';
 const PROJECT_SLUG = 'free-flying-los-angeles-parrot-project';
 const PER_PAGE = 200;
 
+// Date range: past 30 days as of now
+const today = new Date();
+const d2 = today.toISOString().slice(0, 10);
+const d1 = new Date(today - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+
 // Species → display name + color
 const SPECIES = {
   'Amazona viridigenalis': { name: 'Red-crowned Parrot',        color: '#ef4444' },
@@ -25,6 +30,7 @@ const DEFAULT = { name: 'Wild Parrot', color: '#22c55e' };
 async function fetchPage(page) {
   const url = `https://api.inaturalist.org/v1/observations` +
     `?project_id=${PROJECT_SLUG}&quality_grade=research` +
+    `&d1=${d1}&d2=${d2}` +
     `&per_page=${PER_PAGE}&page=${page}&order=desc&order_by=observed_on` +
     `&photos=true`;
   const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
@@ -32,7 +38,7 @@ async function fetchPage(page) {
   return res.json();
 }
 
-console.log('Fetching parrot observations from iNaturalist…');
+console.log(`Fetching parrot observations from iNaturalist (${d1} → ${d2})…`);
 const first = await fetchPage(1);
 const total = first.total_results;
 const pages = Math.min(Math.ceil(total / PER_PAGE), 50); // cap at 10,000 obs
