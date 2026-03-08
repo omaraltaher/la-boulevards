@@ -113,16 +113,6 @@ html, body {
 #parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
 #well-toggle.off   { opacity:0.35; text-decoration:line-through; }
 
-/* ── Well cluster bubble ── */
-.well-cluster-icon {
-  background:rgba(146,64,14,0.88);
-  border:2px solid rgba(180,83,9,0.8);
-  border-radius:50%;
-  color:#fef3c7;
-  font-size:11px; font-weight:700;
-  display:flex; align-items:center; justify-content:center;
-  box-shadow:0 0 6px rgba(146,64,14,0.5);
-}
 
 /* ── Boulevard count ── */
 #count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
@@ -1730,12 +1720,21 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     disableClusteringAtZoom: 15,
     iconCreateFunction(cluster) {
       const n = cluster.getChildCount();
-      const size = n < 10 ? 30 : n < 50 ? 36 : 42;
       return L.divIcon({
-        html: `<div class="well-cluster-icon" style="width:${size}px;height:${size}px;">${n}</div>`,
+        html: `<div style="position:relative;width:22px;height:32px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="32" viewBox="0 0 14 20" opacity="0.95">
+            <line x1="7" y1="2"  x2="1"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="7" y1="2"  x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="4" y1="10" x2="10" y2="10" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
+            <line x1="2.5" y1="15" x2="11.5" y2="15" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/>
+            <line x1="1"  y1="19" x2="13"  y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/>
+            <circle cx="7" cy="2" r="2" fill="#b45309"/>
+          </svg>
+          <div style="position:absolute;top:-5px;right:-8px;background:#b45309;border:1.5px solid #fef3c7;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fef3c7;line-height:1;">${n}</div>
+        </div>`,
         className: '',
-        iconSize: L.point(size, size),
-        iconAnchor: L.point(size / 2, size / 2)
+        iconSize: L.point(22, 32),
+        iconAnchor: L.point(11, 32)
       });
     }
   }).addTo(map);
