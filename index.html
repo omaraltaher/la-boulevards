@@ -106,6 +106,7 @@ html, body {
 #legend .cam-legend-dot { background:rgba(6,182,212,0.65); border:1.5px solid rgba(103,232,249,0.5); }
 #legend .art-legend-dot { background:rgba(255,0,200,0.45); border:1.5px solid rgba(255,80,220,0.35); }
 #legend .theatre-legend-dot { background:rgba(168,85,247,0.65); border:1.5px solid rgba(192,132,252,0.5); }
+#legend .parrot-legend-dot  { background:rgba(34,197,94,0.7);   border:1.5px solid rgba(134,239,172,0.5); }
 
 /* ── Boulevard count ── */
 #count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
@@ -143,6 +144,7 @@ html, body {
 /* ── Leaflet overrides ── */
 .leaflet-div-icon { background:transparent !important; border:none !important; }
 path.leaflet-interactive:focus { outline:none; }
+.leaflet-overlay-pane path { transition: stroke-opacity 0.6s ease; }
 
 /* ── Camera markers ── */
 .cam-dot {
@@ -537,6 +539,16 @@ path.leaflet-interactive:focus { outline:none; }
   background:rgba(103,232,249,0.1); color:#67e8f9;
   vertical-align:middle;
 }
+/* ── Parrot popup ── */
+.parrot-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(34,197,94,0.2) !important;
+  border-radius:8px !important; box-shadow:none !important;
+  padding:0 !important; overflow:hidden;
+}
+.parrot-popup .leaflet-popup-tip-container { display:none; }
+.parrot-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+
 /* ── Mobile ── */
 @media (max-width: 640px) {
 
@@ -601,6 +613,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="marker-row"><div class="marker-dot cam-legend-dot"></div><span>Traffic camera</span></div>
       <div class="marker-row"><div class="marker-dot art-legend-dot"></div><span>Public art</span></div>
       <div class="marker-row"><div class="marker-dot theatre-legend-dot"></div><span>Theatre</span></div>
+      <div class="marker-row"><div class="marker-dot parrot-legend-dot"></div><span>Wild parrots 🦜</span></div>
     </div>
   </div>
 
@@ -1653,6 +1666,47 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (selectedBlvd) updateOverlayMarkers(selectedBlvd);
     } catch (e) {
       console.warn('Theatre load failed:', e);
+    }
+  })();
+
+  // ── Wild Parrots ───────────────────────────────────────────────
+  (async function loadParrots() {
+    try {
+      const res = await fetch('parrots.json');
+      if (!res.ok) return;
+      const { parrots } = await res.json();
+
+      for (const p of parrots) {
+        const marker = L.circleMarker([p.lat, p.lon], {
+          radius: 5,
+          fillColor: p.color,
+          color: p.color,
+          fillOpacity: 0.75,
+          opacity: 0.9,
+          weight: 1.2,
+          interactive: true
+        }).addTo(map);
+
+        marker.on('click', () => {
+          const dateStr = p.date
+            ? new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
+            : '';
+          const html =
+            `<div style="padding:12px 14px;width:220px;">` +
+            `<div style="font-size:10px;color:rgba(34,197,94,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Wild Parrot 🦜</div>` +
+            `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${p.species}</div>` +
+            (dateStr ? `<div style="font-size:11px;color:#6b7280;margin-bottom:8px;">Spotted ${dateStr}</div>` : '') +
+            (p.photo ? `<img src="${p.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
+            `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(34,197,94,0.7);text-decoration:none;">iNaturalist →</a>` +
+            `</div>`;
+          L.popup({ className: 'parrot-popup', closeButton: true, maxWidth: 260, autoPan: true })
+            .setLatLng([p.lat, p.lon])
+            .setContent(html)
+            .openOn(map);
+        });
+      }
+    } catch (e) {
+      console.warn('Parrot load failed:', e);
     }
   })();
 

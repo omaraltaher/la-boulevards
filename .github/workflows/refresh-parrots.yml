@@ -1,0 +1,28 @@
+name: Refresh parrot sightings
+
+on:
+  schedule:
+    - cron: '0 17 1 * *'   # 9am PT on the 1st of each month
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch parrot observations from iNaturalist
+        run: node check-parrots.mjs
+
+      - name: Commit updated parrots.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add parrots.json
+          git diff --cached --quiet || git commit -m "chore: refresh parrot sightings [skip ci]"
+          git push
