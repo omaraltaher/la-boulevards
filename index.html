@@ -1726,7 +1726,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // ── Hidden Oil Wells ────────────────────────────────────────────
   const wellGroup = L.markerClusterGroup({
-    maxClusterRadius: 50,
+    maxClusterRadius: 30,
     disableClusteringAtZoom: 15,
     iconCreateFunction(cluster) {
       const n = cluster.getChildCount();
