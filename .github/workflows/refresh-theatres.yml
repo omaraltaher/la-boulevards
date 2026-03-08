@@ -1,0 +1,28 @@
+name: Refresh theatre data
+
+on:
+  schedule:
+    - cron: '0 16 1 * *'   # 8am PT on the 1st of each month
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch theatres from OpenStreetMap
+        run: node check-theatres.mjs
+
+      - name: Commit updated theatres.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add theatres.json
+          git diff --cached --quiet || git commit -m "chore: refresh theatre data [skip ci]"
+          git push

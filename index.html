@@ -1511,36 +1511,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   });
 
-  // ── Theatres ──────────────────────────────────────────────────
+  // ── Theatres (pre-baked static JSON, no live Overpass call) ────
   (async function loadTheatres() {
     try {
-      const query =
-        '[out:json][timeout:25];' +
-        '(node["amenity"="theatre"](33.6,-118.9,34.8,-117.6);' +
-        'way["amenity"="theatre"](33.6,-118.9,34.8,-117.6););' +
-        'out center;';
-      const res = await fetch('https://overpass-api.de/api/interpreter', {
-        method: 'POST', body: query
-      });
+      const res = await fetch('theatres.json');
       if (!res.ok) return;
-      const data = await res.json();
+      const { theatres } = await res.json();
 
-      const THEATRE_BLVD_KM = 0.3;
-      for (const el of data.elements) {
-        if (!el.tags?.name) continue;
-        const lat = el.lat ?? el.center?.lat;
-        const lon = el.lon ?? el.center?.lon;
-        if (!lat || !lon) continue;
-
-        // Find nearest boulevard
-        let nearestBlvd = null, nearestDist = Infinity;
-        boulevards.forEach(b => {
-          const d = nearestKm(lat, lon, b);
-          if (d < nearestDist) { nearestDist = d; nearestBlvd = b; }
-        });
-        if (nearestDist > THEATRE_BLVD_KM) continue;
-
-        const name = el.tags.name;
+      for (const t of theatres) {
+        const { name, lat, lon, wikipedia, website, address } = t;
+        const nearestBlvd = boulevards.find(b => b.name === t.blvd) || null;
         const isWiltern = name === 'The Wiltern';
 
         const icon = L.divIcon({
@@ -1561,7 +1541,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
         marker.on('click', () => {
           if (nearestBlvd) {
-            // Highlight the boulevard without opening its info panel
             selectedBlvd = nearestBlvd;
             applyHighlight(nearestBlvd);
           }
@@ -1585,22 +1564,17 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
                 let evHtml = '';
                 for (const ev of events.slice(0, 4)) {
-                  const localDate = ev.date;
-                  const localTime = ev.time;
-                  const isTonight = localDate === today;
-                  const img = ev.image;
-
+                  const isTonight = ev.date === today;
                   let dateLabel = isTonight ? 'Tonight' :
-                    new Date(localDate + 'T12:00:00').toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'});
-                  if (localTime) {
-                    const [h, m] = localTime.split(':');
+                    new Date(ev.date + 'T12:00:00').toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'});
+                  if (ev.time) {
+                    const [h, m] = ev.time.split(':');
                     const hr = parseInt(h);
                     dateLabel += ` · ${hr > 12 ? hr - 12 : hr || 12}:${m} ${hr >= 12 ? 'PM' : 'AM'}`;
                   }
-
                   evHtml +=
                     `<div style="margin-bottom:12px;display:flex;gap:10px;align-items:flex-start;">` +
-                    (img ? `<img src="${img}" style="width:52px;height:52px;object-fit:cover;border-radius:4px;flex-shrink:0;" loading="lazy"/>` : '') +
+                    (ev.image ? `<img src="${ev.image}" style="width:52px;height:52px;object-fit:cover;border-radius:4px;flex-shrink:0;" loading="lazy"/>` : '') +
                     `<div>` +
                     `<div style="font-size:11px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#6b7280'};margin-bottom:2px;">${dateLabel}</div>` +
                     `<div style="font-size:13px;color:#e0e4ef;margin-bottom:3px;">${ev.name}</div>` +
@@ -1610,11 +1584,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
                 if (!evHtml) evHtml = `<div style="font-size:11px;color:#4b5563;">No upcoming events found.</div>`;
 
                 let wikiLink = '';
-                if (el.tags.wikipedia) {
-                  const [lang, title] = el.tags.wikipedia.split(':', 2);
+                if (wikipedia) {
+                  const [lang, title] = wikipedia.split(':', 2);
                   wikiLink = `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.45);text-decoration:none;">Wikipedia →</a>`;
                 }
-
                 popup.setContent(
                   `<div style="padding:14px 16px;width:268px;">` +
                   `<div style="font-size:10px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
@@ -1636,19 +1609,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           }
 
           // generic theatre popup
-          const tags = el.tags;
-          const addrParts = [tags['addr:housenumber'], tags['addr:street']].filter(Boolean);
-          const address = addrParts.length ? addrParts.join(' ') : (tags['addr:full'] || '');
-          const website = tags.website || tags['contact:website'] || '';
           let links = '';
-          if (tags.wikipedia) {
-            const [lang, title] = tags.wikipedia.split(':', 2);
+          if (wikipedia) {
+            const [lang, title] = wikipedia.split(':', 2);
             links += `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;margin-right:10px;">Wikipedia →</a>`;
           }
           if (website) {
             links += `<a href="${website}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;">Website →</a>`;
           }
-
           const html =
             `<div style="padding:14px 16px;width:240px;">` +
             `<div style="font-size:10px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
@@ -1656,11 +1624,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             (address ? `<div style="font-size:11px;color:#6b7280;margin-bottom:${links ? '8px' : '0'};">${address}</div>` : '') +
             (links ? `<div>${links}</div>` : '') +
             `</div>`;
-
           L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 280, autoPan: true })
-            .setLatLng([lat, lon])
-            .setContent(html)
-            .openOn(map);
+            .setLatLng([lat, lon]).setContent(html).openOn(map);
         });
       }
     } catch (e) {

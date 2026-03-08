@@ -1,0 +1,1139 @@
+{
+  "generated": "2026-03-08T07:18:21.665Z",
+  "theatres": [
+    {
+      "name": "Odyssey Theatre",
+      "lat": 34.0417024,
+      "lon": -118.4396518,
+      "blvd": "Sepulveda Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Geffen Playhouse",
+      "lat": 34.0634558,
+      "lon": -118.4445262,
+      "blvd": "Westwood Boulevard",
+      "wikipedia": null,
+      "website": "http://geffenplayhouse.com/",
+      "address": "10886 Le Conte Avenue"
+    },
+    {
+      "name": "Stages Trilingual Theater",
+      "lat": 34.0991667,
+      "lon": -118.3372222,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Bob Baker Marionette Theater",
+      "lat": 34.0619856,
+      "lon": -118.2590477,
+      "blvd": "Glendale Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Coronet Theater",
+      "lat": 34.0776752,
+      "lon": -118.3762668,
+      "blvd": "La Cienega Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Wilshire Ebell Theater and Club",
+      "lat": 34.0608333,
+      "lon": -118.325,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Eileen L Norris Cinema Theatre",
+      "lat": 34.0214018,
+      "lon": -118.2856302,
+      "blvd": "Hoover Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "American Childrens Theatre",
+      "lat": 34.0169543,
+      "lon": -118.4973024,
+      "blvd": "Santa Monica Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Miles Memorial Playhouse",
+      "lat": 34.0226678,
+      "lon": -118.4957074,
+      "blvd": "Lincoln Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "1130 Lincoln Boulevard"
+    },
+    {
+      "name": "Pasadena Playhouse",
+      "lat": 34.1451288,
+      "lon": -118.1372956,
+      "blvd": "Colorado Boulevard",
+      "wikipedia": "en:Pasadena Playhouse",
+      "website": "https://www.pasadenaplayhouse.org/",
+      "address": "39 South El Molino Avenue"
+    },
+    {
+      "name": "Ambassador Auditorium",
+      "lat": 34.1433407,
+      "lon": -118.1564604,
+      "blvd": "Colorado Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "North Star Auditorium",
+      "lat": 34.0330678,
+      "lon": -118.2984085,
+      "blvd": "Adams Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Memorial Auditorium",
+      "lat": 34.100009,
+      "lon": -118.3392438,
+      "blvd": "Hollywood Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "The Novo",
+      "lat": 34.0445489,
+      "lon": -118.2654725,
+      "blvd": "Olympic Boulevard",
+      "wikipedia": "en:The Novo",
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Theatricum Botanicum",
+      "lat": 34.1113131,
+      "lon": -118.5920476,
+      "blvd": "Topanga Canyon Boulevard",
+      "wikipedia": null,
+      "website": "https://theatricum.com/",
+      "address": "1419 North Topanga Canyon Boulevard"
+    },
+    {
+      "name": "Eli Broad Stage",
+      "lat": 34.0221535,
+      "lon": -118.489969,
+      "blvd": "Santa Monica Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "1310 11th Street"
+    },
+    {
+      "name": "The Actors' Gang",
+      "lat": 34.0264088,
+      "lon": -118.3930267,
+      "blvd": "Venice Boulevard",
+      "wikipedia": "en:The Actors' Gang",
+      "website": "http://www.theactorsgang.com/",
+      "address": "9070 Venice Boulevard"
+    },
+    {
+      "name": "Avalon Hollywood",
+      "lat": 34.1027177,
+      "lon": -118.326997,
+      "blvd": "Hollywood Boulevard",
+      "wikipedia": null,
+      "website": "https://avalonhollywood.com/",
+      "address": "1735 Vine Street"
+    },
+    {
+      "name": "Orpheum Theatre",
+      "lat": 34.0427183,
+      "lon": -118.2553893,
+      "blvd": "Olympic Boulevard",
+      "wikipedia": null,
+      "website": "https://www.laorpheum.com/",
+      "address": null
+    },
+    {
+      "name": "Newman Recital Hall in Hancock Foundation",
+      "lat": 34.0197048,
+      "lon": -118.2846227,
+      "blvd": "Exposition Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "World Stage Performance Gallery",
+      "lat": 34.005289,
+      "lon": -118.331691,
+      "blvd": "Degnan Boulevard",
+      "wikipedia": null,
+      "website": "https://www.theworldstage.org/",
+      "address": "4321 Degnan Boulevard"
+    },
+    {
+      "name": "World Peace Ikeda Auditorium",
+      "lat": 34.0206747,
+      "lon": -118.4969699,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Skylight Theater",
+      "lat": 34.1041148,
+      "lon": -118.2916011,
+      "blvd": "Hollywood Boulevard",
+      "wikipedia": null,
+      "website": "http://skylighttheatrecompany.com",
+      "address": "1816 1/2 North Vermont Avenue"
+    },
+    {
+      "name": "The Groundlings School",
+      "lat": 34.0833683,
+      "lon": -118.3484912,
+      "blvd": "Alta Vista Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "The Groundlings",
+      "lat": 34.0837069,
+      "lon": -118.3489991,
+      "blvd": "Alta Vista Boulevard",
+      "wikipedia": "en:The Groundlings",
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Carson Center",
+      "lat": 34.0229905,
+      "lon": -118.2856199,
+      "blvd": "Jefferson Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Schoenfeld Symphonic Hall",
+      "lat": 34.0231394,
+      "lon": -118.2854751,
+      "blvd": "Jefferson Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Big Oak Little Theater",
+      "lat": 34.2637712,
+      "lon": -118.6101024,
+      "blvd": "Valley Circle Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "The Wiltern",
+      "lat": 34.0614963,
+      "lon": -118.308908,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": "https://www.wiltern.com",
+      "address": "3790 Wilshire Boulevard"
+    },
+    {
+      "name": "Inglewood Playhouse",
+      "lat": 33.9744583,
+      "lon": -118.3429723,
+      "blvd": "Redondo Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Samuel Goldwyn Theater",
+      "lat": 34.0672656,
+      "lon": -118.3873849,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": "https://oscars.org/",
+      "address": "8949 Wilshire Boulevard"
+    },
+    {
+      "name": "WaterWorld",
+      "lat": 34.1369219,
+      "lon": -118.3541946,
+      "blvd": "Universal Studios Boulevard",
+      "wikipedia": "en:Waterworld: A Live Sea War Spectacular",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/rides-and-attractions/waterworld",
+      "address": null
+    },
+    {
+      "name": "Internation city Theater",
+      "lat": 33.7678285,
+      "lon": -118.189703,
+      "blvd": "Long Beach Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Multi-Purpose Room",
+      "lat": 33.8736367,
+      "lon": -118.0955232,
+      "blvd": "Artesia Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Amphitheater",
+      "lat": 33.9733599,
+      "lon": -118.423146,
+      "blvd": "Jefferson Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Taft Senior Quad Stage",
+      "lat": 34.1688565,
+      "lon": -118.571643,
+      "blvd": "Ventura Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Dynasty Typewriter At The Hayworth",
+      "lat": 34.0604633,
+      "lon": -118.2806495,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": "https://www.dynastytypewriter.com/",
+      "address": "2511 Wilshire Boulevard"
+    },
+    {
+      "name": "Lyric Hyperion Theater & Cafe",
+      "lat": 34.0988134,
+      "lon": -118.2737922,
+      "blvd": "Griffith Park Boulevard",
+      "wikipedia": null,
+      "website": "https://lyrichyperion.com/",
+      "address": null
+    },
+    {
+      "name": "Old Town Music Hall",
+      "lat": 33.9176277,
+      "lon": -118.4170326,
+      "blvd": "El Segundo Boulevard",
+      "wikipedia": null,
+      "website": "https://oldtownmusichall.org/",
+      "address": "140 Richmond Street"
+    },
+    {
+      "name": "Pico Playhouse",
+      "lat": 34.0448735,
+      "lon": -118.4192358,
+      "blvd": "Pico Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "David Geffen Theater",
+      "lat": 34.0638486,
+      "lon": -118.360788,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Raymond Kabbaz Theatre",
+      "lat": 34.0471537,
+      "lon": -118.4159902,
+      "blvd": "Pico Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Black Box Theater",
+      "lat": 34.1354323,
+      "lon": -117.893585,
+      "blvd": "Foothill Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Warehouse Theater",
+      "lat": 34.1353884,
+      "lon": -117.89357,
+      "blvd": "Foothill Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Miracle Theater",
+      "lat": 33.9612421,
+      "lon": -118.3517757,
+      "blvd": "Manchester Boulevard",
+      "wikipedia": null,
+      "website": "https://www.themiracleinglewood.com",
+      "address": "226 South Market Street"
+    },
+    {
+      "name": "McCadden Theatre",
+      "lat": 34.0924654,
+      "lon": -118.3376769,
+      "blvd": "Santa Monica Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "1157 North McCadden Place"
+    },
+    {
+      "name": "Dorothy Collins Brown Amphitheater",
+      "lat": 34.0645524,
+      "lon": -118.357952,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "BunnyLuv Theatre",
+      "lat": 34.1578801,
+      "lon": -118.3693889,
+      "blvd": "Lankershim Boulevard",
+      "wikipedia": null,
+      "website": "https://www.bunnyluv.org",
+      "address": "10935 Camarillo Street"
+    },
+    {
+      "name": "Ark Theatre",
+      "lat": 34.1742063,
+      "lon": -118.3800118,
+      "blvd": "Lankershim Boulevard",
+      "wikipedia": null,
+      "website": "https://arktheatrecompany.org/",
+      "address": "5700 Lankershim Boulevard"
+    },
+    {
+      "name": "Santa Monica Playhouse",
+      "lat": 34.0190134,
+      "lon": -118.497831,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "The Blue Door",
+      "lat": 34.0249755,
+      "lon": -118.39653,
+      "blvd": "Venice Boulevard",
+      "wikipedia": null,
+      "website": "https://www.bluedoorculver.com/home",
+      "address": "9617 Venice Boulevard"
+    },
+    {
+      "name": "Linwood Dunn Theater",
+      "lat": 34.0945399,
+      "lon": -118.3270388,
+      "blvd": "Cahuenga Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "HTLAMS auditorium",
+      "lat": 34.1699878,
+      "lon": -118.4521712,
+      "blvd": "Burbank Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "The Road Theatre Company",
+      "lat": 34.165113,
+      "lon": -118.3649648,
+      "blvd": "Magnolia Boulevard",
+      "wikipedia": null,
+      "website": "https://roadtheatre.org",
+      "address": "10747 Magnolia Boulevard"
+    },
+    {
+      "name": "Westchester Playhouse",
+      "lat": 33.9634369,
+      "lon": -118.3738105,
+      "blvd": "La Cienega Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Fanatic Salon Theater",
+      "lat": 34.0110141,
+      "lon": -118.4195911,
+      "blvd": "Sawtelle Boulevard",
+      "wikipedia": null,
+      "website": "https://fanaticsalon.com/",
+      "address": "3815 Sawtelle Boulevard"
+    },
+    {
+      "name": "Barbara Morrison Performing Arts Center",
+      "lat": 34.005851,
+      "lon": -118.3316971,
+      "blvd": "Degnan Boulevard",
+      "wikipedia": null,
+      "website": "https://tbmpac.com/",
+      "address": null
+    },
+    {
+      "name": "Upright Citizens Brigade",
+      "lat": 34.0825243,
+      "lon": -118.2722105,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": "https://ucbcomedy.com/",
+      "address": null
+    },
+    {
+      "name": "The Garage Theater",
+      "lat": 33.77548,
+      "lon": -118.1897939,
+      "blvd": "Long Beach Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Vidiots",
+      "lat": 34.1348871,
+      "lon": -118.2150941,
+      "blvd": "Eagle Rock Boulevard",
+      "wikipedia": null,
+      "website": "https://vidiotsfoundation.org/",
+      "address": "4884 Eagle Rock Boulevard"
+    },
+    {
+      "name": "Cinegrill Theater",
+      "lat": 34.1013569,
+      "lon": -118.3415918,
+      "blvd": "Hollywood Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "CVHS MacDonald Auditorium",
+      "lat": 34.2233541,
+      "lon": -118.2439449,
+      "blvd": "Foothill Boulevard",
+      "wikipedia": null,
+      "website": "https://gusd.net/cvhs",
+      "address": null
+    },
+    {
+      "name": "Parson’s Nose Theater",
+      "lat": 34.1478169,
+      "lon": -118.1463084,
+      "blvd": "Colorado Boulevard",
+      "wikipedia": null,
+      "website": "https://parsonsnose.com/",
+      "address": "95 North Marengo Avenue"
+    },
+    {
+      "name": "Santa Monica Civic Auditorium",
+      "lat": 34.0090592,
+      "lon": -118.4893045,
+      "blvd": "Pico Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Dolby Theatre",
+      "lat": 34.1026841,
+      "lon": -118.3404683,
+      "blvd": "Hollywood Boulevard",
+      "wikipedia": "en:Dolby Theatre",
+      "website": "https://www.dolbytheatre.com/",
+      "address": "6801 Hollywood Boulevard"
+    },
+    {
+      "name": "Pasadena Civic Auditorium",
+      "lat": 34.1438771,
+      "lon": -118.1442662,
+      "blvd": "Colorado Boulevard",
+      "wikipedia": null,
+      "website": "https://pasadenacivic.visitpasadena.com",
+      "address": "300 East Green Street"
+    },
+    {
+      "name": "Amphitheatre",
+      "lat": 34.1440938,
+      "lon": -118.1174158,
+      "blvd": "Colorado Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Redondo Beach Performing Arts Center",
+      "lat": 33.8881888,
+      "lon": -118.3773379,
+      "blvd": "Manhattan Beach Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Wadsworth Theater",
+      "lat": 34.0542703,
+      "lon": -118.4581913,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Founding Faculty Amphitheater",
+      "lat": 34.1045688,
+      "lon": -117.7033771,
+      "blvd": "Claremont Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Bram Goldsmith Theater",
+      "lat": 34.0722805,
+      "lon": -118.4012372,
+      "blvd": "Santa Monica Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Downey Civic Theatre",
+      "lat": 33.9391521,
+      "lon": -118.129615,
+      "blvd": "Firestone Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Saban Media Center",
+      "lat": 34.1661564,
+      "lon": -118.3740631,
+      "blvd": "Lankershim Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "5210 Lankershim Boulevard"
+    },
+    {
+      "name": "The Colony Theatre Company",
+      "lat": 34.1852168,
+      "lon": -118.3122422,
+      "blvd": "Alley n/o Magnolia Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Kirk Douglas Theatre",
+      "lat": 34.021582,
+      "lon": -118.3969816,
+      "blvd": "Washington Boulevard",
+      "wikipedia": "en:Kirk Douglas Theatre",
+      "website": "https://www.centertheatregroup.org/visit/kirk-douglas-theatre/",
+      "address": "9820 Washington Boulevard"
+    },
+    {
+      "name": "Ivy Substation",
+      "lat": 34.0264565,
+      "lon": -118.3929434,
+      "blvd": "Venice Boulevard",
+      "wikipedia": "en:Ivy Substation",
+      "website": null,
+      "address": "9070 Venice Boulevard"
+    },
+    {
+      "name": "Nimoy Theater",
+      "lat": 34.0577525,
+      "lon": -118.4427689,
+      "blvd": "Westwood Boulevard",
+      "wikipedia": "en:Nimoy Theater",
+      "website": "https://cap.ucla.edu/ucla-nimoy-theater",
+      "address": "1262 Westwood Boulevard"
+    },
+    {
+      "name": "Acme Comedy",
+      "lat": 34.1636693,
+      "lon": -118.3735791,
+      "blvd": "Lankershim Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Bing Theater",
+      "lat": 34.0224487,
+      "lon": -118.286046,
+      "blvd": "Jefferson Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "3500"
+    },
+    {
+      "name": "Scene Dock Theatre",
+      "lat": 34.0206455,
+      "lon": -118.2912417,
+      "blvd": "Exposition Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "1030"
+    },
+    {
+      "name": "Shrine Auditorium",
+      "lat": 34.0234462,
+      "lon": -118.2813214,
+      "blvd": "Jefferson Boulevard",
+      "wikipedia": "en:Shrine Auditorium and Expo Hall",
+      "website": null,
+      "address": "665 West Jefferson Boulevard"
+    },
+    {
+      "name": "Westlake Theater",
+      "lat": 34.0582653,
+      "lon": -118.2752081,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Upright Citizens Brigade",
+      "lat": 34.0984685,
+      "lon": -118.3079793,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Barnsdall Gallery Theatre",
+      "lat": 34.0997069,
+      "lon": -118.2935673,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Henry Fonda Theater",
+      "lat": 34.1012686,
+      "lon": -118.3232599,
+      "blvd": "Hollywood Boulevard",
+      "wikipedia": "en:The Fonda Theatre",
+      "website": "https://www.fondatheatre.com/",
+      "address": "6126 Hollywood Boulevard"
+    },
+    {
+      "name": "Hollywood Palladium",
+      "lat": 34.0984868,
+      "lon": -118.3243265,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Brentwood Theatre",
+      "lat": 34.0597994,
+      "lon": -118.4652543,
+      "blvd": "MacArthur Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Fields Gower Theatre",
+      "lat": 34.0846601,
+      "lon": -118.322108,
+      "blvd": "Plymouth Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Sunset Amphitheater",
+      "lat": 34.0753478,
+      "lon": -118.4531248,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Ivar Theatre",
+      "lat": 34.1000725,
+      "lon": -118.3285165,
+      "blvd": "Cahuenga Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "1605 Ivar Avenue"
+    },
+    {
+      "name": "Ricardo Montalban Theatre",
+      "lat": 34.1002933,
+      "lon": -118.3271192,
+      "blvd": "Hollywood Boulevard",
+      "wikipedia": null,
+      "website": "https://www.themontalban.com/",
+      "address": "1614 Vine Street"
+    },
+    {
+      "name": "ACME Comedy Theatre",
+      "lat": 34.0746826,
+      "lon": -118.3443696,
+      "blvd": "Beverly Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "El Capitan Entertainment Centre",
+      "lat": 34.1011651,
+      "lon": -118.3401591,
+      "blvd": "Hollywood Boulevard",
+      "wikipedia": "en:Hollywood Masonic Temple",
+      "website": null,
+      "address": "6840 Hollywood Boulevard"
+    },
+    {
+      "name": "Bootleg Theater",
+      "lat": 34.0671829,
+      "lon": -118.2721969,
+      "blvd": "Beverly Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "2220 Beverly Boulevard"
+    },
+    {
+      "name": "Levitt Pavilion",
+      "lat": 34.0601428,
+      "lon": -118.2780834,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "El Rey Theatre",
+      "lat": 34.062696,
+      "lon": -118.3489121,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "5515 Wilshire Boulevard"
+    },
+    {
+      "name": "Teragram Ballroom",
+      "lat": 34.0517215,
+      "lon": -118.2671184,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": "https://www.teragramballroom.com",
+      "address": "1234 West 7th Street"
+    },
+    {
+      "name": "Olympic Auditorium",
+      "lat": 34.0341367,
+      "lon": -118.2680522,
+      "blvd": "Washington Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Peacock Theater",
+      "lat": 34.0444911,
+      "lon": -118.2670572,
+      "blvd": "Olympic Boulevard",
+      "wikipedia": "en:Peacock Theater",
+      "website": "https://www.peacocktheater.com/",
+      "address": "777 Chick Hearn Court"
+    },
+    {
+      "name": "The Belasco Theater",
+      "lat": 34.0402603,
+      "lon": -118.2592624,
+      "blvd": "Olympic Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "The Comedy Store",
+      "lat": 34.0952175,
+      "lon": -118.3739858,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": "https://thecomedystore.com/",
+      "address": "8433 West Sunset Boulevard"
+    },
+    {
+      "name": "Haugh Performing Arts Center",
+      "lat": 34.1354444,
+      "lon": -117.8876519,
+      "blvd": "Foothill Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Wilshire Theatre",
+      "lat": 34.064423,
+      "lon": -118.3748251,
+      "blvd": "Wilshire Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Performing Arts",
+      "lat": 34.2109582,
+      "lon": -118.4666935,
+      "blvd": "Sepulveda Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Class Act Musical Theatre",
+      "lat": 34.166183,
+      "lon": -118.6437397,
+      "blvd": "Valley Circle Boulevard",
+      "wikipedia": null,
+      "website": "https://classactmusicaltheatre.com",
+      "address": "5345 Wilhelmina Avenue"
+    },
+    {
+      "name": "Bredlow Pavilion",
+      "lat": 34.1768492,
+      "lon": -118.603564,
+      "blvd": "Topanga Canyon Boulevard",
+      "wikipedia": null,
+      "website": "https://www.valleycultural.org/",
+      "address": null
+    },
+    {
+      "name": "Terrace Theater",
+      "lat": 33.765225,
+      "lon": -118.1893934,
+      "blvd": "Ocean Boulevard",
+      "wikipedia": null,
+      "website": "https://www.lbentertainmentcenter.com/venues/terrace-theater/;https://www.longbeachcc.com/facilities/theaters/",
+      "address": "300 East Ocean Boulevard"
+    },
+    {
+      "name": "Morgan-Wixson Theatre",
+      "lat": 34.023859,
+      "lon": -118.4619476,
+      "blvd": "Pico Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Toxic Toast Theatre",
+      "lat": 33.7762378,
+      "lon": -118.1926638,
+      "blvd": "Long Beach Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "755 Pine Avenue"
+    },
+    {
+      "name": "Burnight Center/Theatre",
+      "lat": 33.8866301,
+      "lon": -118.0961537,
+      "blvd": "Alondra Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "La Mirada Theatre For The Performing Arts",
+      "lat": 33.8967862,
+      "lon": -118.0095698,
+      "blvd": "La Mirada Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Performing Arts Education Center",
+      "lat": 34.1505966,
+      "lon": -118.7521854,
+      "blvd": "Thousand Oaks Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Bonita Center for the Arts",
+      "lat": 34.0981508,
+      "lon": -117.8255377,
+      "blvd": "Covina Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "822 W Covina Boulevard"
+    },
+    {
+      "name": "Amphitheater",
+      "lat": 34.1613932,
+      "lon": -118.0572504,
+      "blvd": "Sierra Madre Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Auditorium Building",
+      "lat": 34.1665872,
+      "lon": -118.2295444,
+      "blvd": "Cañada Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Glendale Center Theater",
+      "lat": 34.1508921,
+      "lon": -118.2560372,
+      "blvd": "Brand Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Alex Theatre",
+      "lat": 34.1488453,
+      "lon": -118.2543558,
+      "blvd": "Brand Boulevard",
+      "wikipedia": "en:Alex Theatre",
+      "website": "https://www.alextheatre.org/",
+      "address": "216 South Brand Boulevard"
+    },
+    {
+      "name": "The Palmdale Amphitheater",
+      "lat": 34.6032771,
+      "lon": -118.1781765,
+      "blvd": "Rancho Vista Boulevard",
+      "wikipedia": null,
+      "website": "https://www.palmdaleamphitheater.com/",
+      "address": "2723 Rancho Vista Boulevard"
+    },
+    {
+      "name": "Marie Kerr Park Amphitheater",
+      "lat": 34.6027346,
+      "lon": -118.1775961,
+      "blvd": "Rancho Vista Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "2723 Rancho Vista Boulevard"
+    },
+    {
+      "name": "Memorial Open Air Theatre",
+      "lat": 34.0111664,
+      "lon": -118.4866093,
+      "blvd": "Pico Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "UCLA Art Council Amphitheater",
+      "lat": 34.072732,
+      "lon": -118.4434866,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "M. Nixt Amphitheater",
+      "lat": 33.7780302,
+      "lon": -118.3735449,
+      "blvd": "Hawthorne Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Sherry Lansing Theatre",
+      "lat": 34.0849936,
+      "lon": -118.3188145,
+      "blvd": "Irving Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "5 Towers Stage",
+      "lat": 34.136701,
+      "lon": -118.3522454,
+      "blvd": "Universal Studios Boulevard",
+      "wikipedia": null,
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/entertainment/citywalk/5-towers-stage",
+      "address": "5527"
+    },
+    {
+      "name": "Hermosa Beach Playhouse",
+      "lat": 33.8644022,
+      "lon": -118.3937229,
+      "blvd": "Aviation Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Beverly O'Neill Theater",
+      "lat": 33.7647255,
+      "lon": -118.1893889,
+      "blvd": "Ocean Boulevard",
+      "wikipedia": null,
+      "website": "https://www.longbeachcc.com/facilities/theaters/beverly-oneill-theater/",
+      "address": "300 East Ocean Boulevard"
+    }
+  ]
+}
