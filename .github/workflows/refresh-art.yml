@@ -5,6 +5,10 @@ on:
     - cron: '0 18 1 * *'   # 10am PT on the 1st of each month
   workflow_dispatch:
 
+concurrency:
+  group: refresh-art
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest

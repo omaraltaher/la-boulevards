@@ -5,6 +5,10 @@ on:
     - cron: '0 17 1 * *'   # 9am PT on the 1st of each month
   workflow_dispatch:
 
+concurrency:
+  group: refresh-parrots
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest

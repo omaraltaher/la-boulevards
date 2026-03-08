@@ -5,6 +5,10 @@ on:
     - cron: '0 15 * * *'   # 7am PT (UTC-8) every day
   workflow_dispatch:        # allow manual trigger from GitHub Actions tab
 
+concurrency:
+  group: refresh-wiltern
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
