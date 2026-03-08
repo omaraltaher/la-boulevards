@@ -760,7 +760,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           else resetProximity();
         }, 150);
       });
-      hit.on('click', () => {
+      hit.on('click', e => {
+        L.DomEvent.stopPropagation(e);
         selectedBlvd = blvd;
         applyHighlight(blvd);
         showInfo(blvd);
