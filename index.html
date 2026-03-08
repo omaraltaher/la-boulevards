@@ -1675,7 +1675,30 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   L.DomEvent.disableClickPropagation(document.getElementById('legend'));
 
   // ── Wild Parrots ───────────────────────────────────────────────
-  const parrotGroup = L.layerGroup().addTo(map);
+  const parrotGroup = L.markerClusterGroup({
+    maxClusterRadius: 30,
+    minimumClusterSize: 5,
+    disableClusteringAtZoom: 15,
+    iconCreateFunction(cluster) {
+      const n = cluster.getChildCount();
+      return L.divIcon({
+        html: `<div style="position:relative;width:10px;height:15px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 14 20" opacity="0.95">
+            <ellipse cx="6" cy="13" rx="3.5" ry="5" fill="none" stroke="#a3e635" stroke-width="1.1" stroke-linecap="round"/>
+            <circle cx="7" cy="5" r="3" fill="none" stroke="#a3e635" stroke-width="1.1"/>
+            <path d="M9.5,5 L13,6 L10,7.5" fill="none" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="8.2" cy="4" r="0.9" fill="#a3e635"/>
+            <line x1="4" y1="18" x2="2" y2="20" stroke="#a3e635" stroke-width="0.9" stroke-linecap="round"/>
+            <line x1="6" y1="18" x2="5" y2="20" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round"/>
+          </svg>
+          <div style="position:absolute;top:-5px;right:-8px;background:#4d7c0f;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#d9f99d;line-height:1;">${n}</div>
+        </div>`,
+        className: '',
+        iconSize: L.point(10, 15),
+        iconAnchor: L.point(5, 15)
+      });
+    }
+  }).addTo(map);
   document.getElementById('parrot-toggle').addEventListener('click', () => {
     const on = map.hasLayer(parrotGroup);
     on ? parrotGroup.remove() : parrotGroup.addTo(map);
