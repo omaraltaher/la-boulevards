@@ -583,37 +583,23 @@ path.leaflet-interactive:focus { outline:none; }
 }
 .sunset-spot-dot:hover { transform:scale(1.5); filter:brightness(1.4); }
 
-/* ── Sunset spot + Ruscha popups ── */
-.sunset-popup .leaflet-popup-content-wrapper,
-.ruscha-popup .leaflet-popup-content-wrapper {
+/* ── Sunset spot popup ── */
+.sunset-popup .leaflet-popup-content-wrapper {
   background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(168,85,247,0.25) !important;
   border-radius:8px !important;
   box-shadow:0 8px 32px rgba(0,0,0,0.7) !important;
   padding:0 !important;
   overflow:hidden;
 }
-.sunset-popup .leaflet-popup-content-wrapper { border:1px solid rgba(168,85,247,0.25) !important; }
-.ruscha-popup .leaflet-popup-content-wrapper  { border:1px solid rgba(148,163,184,0.2) !important; }
-.sunset-popup .leaflet-popup-tip-container,
-.ruscha-popup .leaflet-popup-tip-container { display:none; }
-.sunset-popup .leaflet-popup-content,
-.ruscha-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
-.sunset-popup .leaflet-popup-close-button,
-.ruscha-popup .leaflet-popup-close-button {
+.sunset-popup .leaflet-popup-tip-container { display:none; }
+.sunset-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.sunset-popup .leaflet-popup-close-button {
   color:#e8eaf8 !important; font-size:18px !important;
   top:6px !important; right:8px !important;
   z-index:10;
 }
-.sunset-popup .leaflet-popup-close-button:hover,
-.ruscha-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
-
-/* ── Ruscha camera markers ── */
-.ruscha-dot {
-  width:8px; height:8px;
-  cursor:pointer;
-  transition:transform 0.15s, filter 0.15s;
-}
-.ruscha-dot:hover { transform:scale(1.5); filter:brightness(1.6); }
+.sunset-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
 
 /* ── Mobile ── */
 @media (max-width: 640px) {
@@ -1800,119 +1786,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // Prevent Leaflet from swallowing legend clicks
   L.DomEvent.disableClickPropagation(document.getElementById('legend'));
-
-  // ── Getty/Ruscha Sunset Boulevard photo dots ─────────────────────
-  const ruschaCameraSvg = (w, h) =>
-    `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 14 11" opacity="0.85">` +
-    `<rect x="1" y="3" width="12" height="8" rx="1.5" fill="none" stroke="#94a3b8" stroke-width="1.1"/>` +
-    `<circle cx="7" cy="7" r="2.5" fill="none" stroke="#94a3b8" stroke-width="1"/>` +
-    `<path d="M4.5,3 L5.5,1 L8.5,1 L9.5,3" fill="none" stroke="#94a3b8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>` +
-    `<circle cx="11" cy="5" r="0.8" fill="#94a3b8"/>` +
-    `</svg>`;
-
-  const ruschaIcon = L.divIcon({
-    className: '',
-    html: `<div class="ruscha-dot">${ruschaCameraSvg(14, 11)}</div>`,
-    iconSize: [14, 11], iconAnchor: [7, 5]
-  });
-
-  function makeRuschaClusterIcon(n) {
-    return L.divIcon({
-      html: `<div style="position:relative;width:18px;height:15px;">${ruschaCameraSvg(18, 15)}<div style="position:absolute;top:-6px;right:-8px;background:#334155;border:1px solid #64748b;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#cbd5e1;line-height:1;">${n}</div></div>`,
-      className: '', iconSize: [18, 15], iconAnchor: [9, 7]
-    });
-  }
-
-  let ruschaData = [];
-  const ruschaRenderGroup = L.layerGroup();
-  const pinnedRuscha = new Set();
-
-  function bindRuschaClick(marker, r) {
-    marker.on('click', () => {
-      const html =
-        `<div style="padding:12px 14px;width:250px;">` +
-        `<div style="font-size:10px;color:#94a3b8;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Ed Ruscha · Every Building on the Sunset Strip</div>` +
-        (r.year ? `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${r.year}</div>` : '') +
-        (r.label ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:8px;line-height:1.5;">${r.label}</div>` : '') +
-        `<a href="https://12sunsets.getty.edu/" target="_blank" rel="noopener" style="font-size:11px;color:rgba(148,163,184,0.85);text-decoration:none;">View in Getty Archive →</a>` +
-        `</div>`;
-      L.popup({ className: 'ruscha-popup', closeButton: true, maxWidth: 290, autoPan: true })
-        .setLatLng([r.lat, r.lon]).setContent(html).openOn(map);
-    });
-  }
-
-  function reclusterRuscha() {
-    ruschaRenderGroup.clearLayers();
-    if (!ruschaData.length) return;
-    const zoom = map.getZoom();
-    const DISABLE_ZOOM = 16;
-    if (zoom >= DISABLE_ZOOM) {
-      ruschaData.forEach(r => {
-        const m = L.marker([r.lat, r.lon], { icon: ruschaIcon, zIndexOffset: 40 });
-        bindRuschaClick(m, r);
-        ruschaRenderGroup.addLayer(m);
-      });
-      return;
-    }
-    const R = 30, MIN = 5;
-    const pts = ruschaData.map(r => ({ r, px: map.project([r.lat, r.lon], zoom) }));
-    const used = new Set();
-    for (const k of pinnedRuscha) { used.add(k); }
-    for (const k of pinnedRuscha) {
-      const m = L.marker([pts[k].r.lat, pts[k].r.lon], { icon: ruschaIcon, zIndexOffset: 40 });
-      bindRuschaClick(m, pts[k].r);
-      ruschaRenderGroup.addLayer(m);
-    }
-    for (let i = 0; i < pts.length; i++) {
-      if (used.has(i)) continue;
-      const group = [i];
-      used.add(i);
-      for (let j = i + 1; j < pts.length; j++) {
-        if (used.has(j)) continue;
-        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
-        if (dx * dx + dy * dy <= R * R) { group.push(j); used.add(j); }
-      }
-      if (group.length >= MIN) {
-        const lat = group.reduce((s, k) => s + pts[k].r.lat, 0) / group.length;
-        const lon = group.reduce((s, k) => s + pts[k].r.lon, 0) / group.length;
-        const cm = L.marker([lat, lon], { icon: makeRuschaClusterIcon(group.length), zIndexOffset: 80 });
-        cm.on('click', e => { L.DomEvent.stopPropagation(e); group.forEach(k => pinnedRuscha.add(k)); reclusterRuscha(); });
-        ruschaRenderGroup.addLayer(cm);
-      } else {
-        for (const k of group) {
-          const m = L.marker([pts[k].r.lat, pts[k].r.lon], { icon: ruschaIcon, zIndexOffset: 40 });
-          bindRuschaClick(m, pts[k].r);
-          ruschaRenderGroup.addLayer(m);
-        }
-      }
-    }
-  }
-
-  map.on('zoomend', () => { pinnedRuscha.clear(); reclusterRuscha(); });
-
-  (async function loadRuscha() {
-    try {
-      const res = await fetch('ruscha.json');
-      if (!res.ok) return;
-      const { photos } = await res.json();
-      ruschaData = photos;
-      // Add to artMarkerList so it shows only when Sunset is selected
-      const ruschaGroupMarker = {
-        // Sentinel — manages the whole layerGroup as one unit
-        _isRuschaGroup: true,
-        marker: { addTo: () => { ruschaRenderGroup.addTo(map); reclusterRuscha(); },
-                  remove: () => ruschaRenderGroup.remove() },
-        blvdName: 'Sunset Boulevard'
-      };
-      artMarkerList.push(ruschaGroupMarker);
-      if (selectedBlvd && selectedBlvd.name === 'Sunset Boulevard') {
-        ruschaRenderGroup.addTo(map);
-        reclusterRuscha();
-      }
-    } catch (e) {
-      console.warn('Ruscha load failed:', e);
-    }
-  })();
 
   // ── Wild Parrots ───────────────────────────────────────────────
   let parrotData = [];

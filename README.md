@@ -28,7 +28,6 @@ An interactive map of every boulevard in Los Angeles County — the streets, the
 | Theatres | purple dot | when boulevard selected |
 | Jonathan Gold restaurants | gold dot | when Pico selected |
 | Sunset Strip landmarks | gradient star | when Sunset selected |
-| Ruscha photo locations | silver camera | when Sunset selected |
 | Wild parrots (toggleable) | green parrot | always (toggle off to hide) |
 | Hidden oil wells (toggleable) | brown derrick | always (toggle off to hide) |
 
@@ -48,7 +47,6 @@ Type a boulevard name for autocomplete, or any address for proximity mode — ne
 | `parrots.json` | iNaturalist / Free-Flying LA Parrot Project | Monthly |
 | `art.json` | LA City Open Data | Monthly |
 | `wells.json` | CalGEM ArcGIS REST API | Manual |
-| `ruscha.json` | Getty Arches API | Manual (`node check-ruscha.mjs`) |
 | `boulevards.json` | OpenStreetMap Overpass | Manual |
 
 GitHub Actions commit updated files with `[skip ci]`.
@@ -97,7 +95,6 @@ Requires Node 18+.
 - Parrots: iNaturalist / Occidental College Moore Lab of Zoology
 - Wiltern events: Ticketmaster Discovery API
 - Oil wells: CalGEM (California Geologic Energy Management Division)
-- Ruscha photos: Getty Research Institute via [tools.getty.edu/arches/ruscha](https://tools.getty.edu/arches/ruscha)
 
 ## License
 
