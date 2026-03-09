@@ -51,16 +51,13 @@ function extractYear(displayname) {
   return m ? parseInt(m[1]) : null;
 }
 
-/** Extract short label from displayname — just street + year, strip the roll/image info */
-function shortLabel(displayname) {
+/** Extract short label from displayname — cross-street + year, strip the roll/image info */
+function shortLabel(displayname, year) {
   if (!displayname) return 'Sunset Blvd';
   // "Sunset Boulevard, 1985 : Roll 14 : N. Camden Dr. headed west : Image 0155"
   const parts = displayname.split(':');
   if (parts.length >= 3) {
-    // Include street, year and cross-street
     const location = parts[2].trim().replace(/ headed (east|west)$/i, '');
-    const yearPart = parts[0].trim(); // "Sunset Boulevard, 1985"
-    const year = extractYear(yearPart);
     return year ? `${location} (${year})` : location;
   }
   return displayname.split(':')[0].trim();
@@ -100,7 +97,7 @@ async function main() {
 
       const displayname = record.displayname || '';
       const year = extractYear(displayname);
-      const label = shortLabel(displayname);
+      const label = shortLabel(displayname, year);
 
       // Extract lat/lon from Production → Photography Location → Coordinates (WKT)
       let coords = null;
@@ -116,7 +113,7 @@ async function main() {
 
       if (!coords) continue;
 
-      // Deduplicate within ~30m (round to 3 decimal places ≈ ~111m)
+      // Deduplicate within ~90m at LA latitude (3 decimal places ≈ 111m longitude, ~90m actual)
       const dedupKey = `${coords.lat.toFixed(3)},${coords.lon.toFixed(3)},${year}`;
       if (seenCoords.has(dedupKey)) continue;
       seenCoords.add(dedupKey);

@@ -583,23 +583,29 @@ path.leaflet-interactive:focus { outline:none; }
 }
 .sunset-spot-dot:hover { transform:scale(1.5); filter:brightness(1.4); }
 
-/* ── Sunset spot popup ── */
-.sunset-popup .leaflet-popup-content-wrapper {
+/* ── Sunset spot + Ruscha popups ── */
+.sunset-popup .leaflet-popup-content-wrapper,
+.ruscha-popup .leaflet-popup-content-wrapper {
   background:rgba(15,17,35,0.97) !important;
-  border:1px solid rgba(168,85,247,0.25) !important;
   border-radius:8px !important;
   box-shadow:0 8px 32px rgba(0,0,0,0.7) !important;
   padding:0 !important;
   overflow:hidden;
 }
-.sunset-popup .leaflet-popup-tip-container { display:none; }
-.sunset-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
-.sunset-popup .leaflet-popup-close-button {
+.sunset-popup .leaflet-popup-content-wrapper { border:1px solid rgba(168,85,247,0.25) !important; }
+.ruscha-popup .leaflet-popup-content-wrapper  { border:1px solid rgba(148,163,184,0.2) !important; }
+.sunset-popup .leaflet-popup-tip-container,
+.ruscha-popup .leaflet-popup-tip-container { display:none; }
+.sunset-popup .leaflet-popup-content,
+.ruscha-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.sunset-popup .leaflet-popup-close-button,
+.ruscha-popup .leaflet-popup-close-button {
   color:#e8eaf8 !important; font-size:18px !important;
   top:6px !important; right:8px !important;
   z-index:10;
 }
-.sunset-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
+.sunset-popup .leaflet-popup-close-button:hover,
+.ruscha-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
 
 /* ── Ruscha camera markers ── */
 .ruscha-dot {
@@ -608,24 +614,6 @@ path.leaflet-interactive:focus { outline:none; }
   transition:transform 0.15s, filter 0.15s;
 }
 .ruscha-dot:hover { transform:scale(1.5); filter:brightness(1.6); }
-
-/* ── Ruscha popup ── */
-.ruscha-popup .leaflet-popup-content-wrapper {
-  background:rgba(15,17,35,0.97) !important;
-  border:1px solid rgba(148,163,184,0.2) !important;
-  border-radius:8px !important;
-  box-shadow:0 8px 32px rgba(0,0,0,0.7) !important;
-  padding:0 !important;
-  overflow:hidden;
-}
-.ruscha-popup .leaflet-popup-tip-container { display:none; }
-.ruscha-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
-.ruscha-popup .leaflet-popup-close-button {
-  color:#e8eaf8 !important; font-size:18px !important;
-  top:6px !important; right:8px !important;
-  z-index:10;
-}
-.ruscha-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
 
 /* ── Mobile ── */
 @media (max-width: 640px) {
@@ -797,7 +785,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     blvd.color   = color;
     blvd.weight  = isPico ? 1.6 : 1.8;
     blvd.opacity = isPico ? 0.8 : isSunset ? 0.75 : 0.35;
-    const tip = isPico
+    blvd.tip = isPico
       ? `<b>Pico Boulevard</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#f59e0b">Jonathan Gold's Pico</span></span>`
       : isSunset
       ? `<b>Sunset Boulevard</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#c084fc">The Strip</span></span>`
@@ -817,63 +805,42 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           }).addTo(map));
         }
         ptOffset += seg.length;
-        const hit = L.polyline(seg, { weight:16, opacity:0.001, color:'#c084fc', smoothFactor:1 }).addTo(map);
-        hit.bindTooltip(tip, { sticky:true, className:'blvd-tip', direction:'top', offset:[0,-4] });
-        hit.on('mouseover', () => {
-          clearTimeout(hoverTimer);
-          if (!selectedBlvd) applyHighlight(blvd);
-        });
-        hit.on('mouseout', () => {
-          hoverTimer = setTimeout(() => {
-            if (selectedBlvd) return;
-            if (pinLat !== null) applyProximity(pinLat, pinLon);
-            else resetProximity();
-          }, 150);
-        });
-        hit.on('click', e => {
-          L.DomEvent.stopPropagation(e);
-          selectedBlvd = blvd;
-          applyHighlight(blvd);
-          showInfo(blvd);
-        });
-        blvd.hits.push(hit);
+        setupHit(L.polyline(seg, { weight:16, opacity:0.001, color:'#c084fc', smoothFactor:1 }).addTo(map), blvd);
       });
     } else {
       blvd.segs.forEach(seg => {
         // Visible line — styling only, no mouse interaction
-        const line = L.polyline(seg, {
+        blvd.lines.push(L.polyline(seg, {
           color, weight: blvd.weight, opacity: blvd.opacity,
           smoothFactor: 1, interactive: false
-        }).addTo(map);
-        blvd.lines.push(line);
-
+        }).addTo(map));
         // Wide invisible hit area — captures hover/click for the whole corridor
-        const hit = L.polyline(seg, {
-          weight: 16, opacity: 0.001, color,
-          smoothFactor: 1
-        }).addTo(map);
-        hit.bindTooltip(tip, { sticky:true, className:'blvd-tip', direction:'top', offset:[0,-4] });
-        hit.on('mouseover', () => {
-          clearTimeout(hoverTimer);
-          if (!selectedBlvd) applyHighlight(blvd);
-        });
-        hit.on('mouseout', () => {
-          hoverTimer = setTimeout(() => {
-            if (selectedBlvd) return;
-            if (pinLat !== null) applyProximity(pinLat, pinLon);
-            else resetProximity();
-          }, 150);
-        });
-        hit.on('click', e => {
-          L.DomEvent.stopPropagation(e);
-          selectedBlvd = blvd;
-          applyHighlight(blvd);
-          showInfo(blvd);
-        });
-        blvd.hits.push(hit);
+        setupHit(L.polyline(seg, { weight:16, opacity:0.001, color, smoothFactor:1 }).addTo(map), blvd);
       });
     }
   });
+
+  function setupHit(hit, blvd) {
+    hit.bindTooltip(blvd.tip, { sticky:true, className:'blvd-tip', direction:'top', offset:[0,-4] });
+    hit.on('mouseover', () => {
+      clearTimeout(hoverTimer);
+      if (!selectedBlvd) applyHighlight(blvd);
+    });
+    hit.on('mouseout', () => {
+      hoverTimer = setTimeout(() => {
+        if (selectedBlvd) return;
+        if (pinLat !== null) applyProximity(pinLat, pinLon);
+        else resetProximity();
+      }, 150);
+    });
+    hit.on('click', e => {
+      L.DomEvent.stopPropagation(e);
+      selectedBlvd = blvd;
+      applyHighlight(blvd);
+      showInfo(blvd);
+    });
+    blvd.hits.push(hit);
+  }
 
   document.getElementById('count').textContent = `${boulevards.length} boulevards`;
   const blvdByName = new Map(boulevards.map(b => [b.name, b]));
@@ -940,10 +907,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         opacity: blvd.isPico ? Math.max(blvd.opacity, 0.75) : blvd.opacity,
         weight:  blvd.isPico ? Math.max(blvd.weight, 1.8)  : blvd.weight
       }));
-      const resetTip = blvd.isSunset
-        ? `<b>Sunset Boulevard</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#c084fc">The Strip</span></span>`
-        : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
-      blvd.hits.forEach(l => l.setTooltipContent(resetTip));
+      blvd.hits.forEach(l => l.setTooltipContent(blvd.tip));
     });
   }
 
@@ -1670,8 +1634,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     iconSize: [11, 11], iconAnchor: [5, 5]
   });
 
-  const sunsetBoulevard = boulevards.find(b => b.name === 'Sunset Boulevard');
-
   (async function loadSunsetSpots() {
     try {
       const res = await fetch('sunset-spots.json');
@@ -1683,10 +1645,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         artMarkerList.push({ marker, blvdName: 'Sunset Boulevard' });
 
         marker.on('click', () => {
-          if (sunsetBoulevard && selectedBlvd !== sunsetBoulevard) {
-            selectedBlvd = sunsetBoulevard;
-            applyHighlight(sunsetBoulevard);
-            showInfo(sunsetBoulevard);
+          const sunsetBlvd = blvdByName.get('Sunset Boulevard');
+          if (sunsetBlvd && selectedBlvd !== sunsetBlvd) {
+            selectedBlvd = sunsetBlvd;
+            applyHighlight(sunsetBlvd);
+            showInfo(sunsetBlvd);
           }
           const html =
             `<div style="padding:16px 18px;width:290px;">` +
