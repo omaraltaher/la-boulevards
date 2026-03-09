@@ -45,6 +45,8 @@ html, body {
 #title { position:absolute; top:20px; left:20px; }
 #title h1 { font-size:14px; font-weight:600; color:#f9fafb; letter-spacing:.03em; }
 #title p  { font-size:11px; color:#4b5563; margin-top:3px; }
+.title-bullets { list-style:none; margin:8px 0 0; padding:0; font-size:12px; color:#6b7280; line-height:1.8; }
+.title-bullets li::before { content:'·  '; color:#4b5563; }
 
 /* ── Search ── */
 #search-wrap {
@@ -97,7 +99,6 @@ html, body {
 
 /* ── Legend ── */
 #legend { position:absolute; bottom:44px; left:20px; min-width:175px; }
-#legend .markers { display:flex; flex-direction:column; gap:5px; }
 #legend .marker-row { display:flex; align-items:center; gap:7px; font-size:10px; color:#6b7280; }
 #legend .marker-dot  { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
 #legend .marker-line { width:16px; height:2px; border-radius:1px; flex-shrink:0; }
@@ -108,6 +109,20 @@ html, body {
 #legend .theatre-legend-dot { background:rgba(168,85,247,0.65); border:1.5px solid rgba(192,132,252,0.5); }
 #parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
 #well-toggle.off   { opacity:0.35; text-decoration:line-through; }
+.legend-group + .legend-group { border-top:1px solid rgba(255,255,255,0.06); margin-top:6px; padding-top:6px; }
+.legend-group-header { display:flex; justify-content:space-between; align-items:center; font-size:10px; text-transform:uppercase; letter-spacing:.08em; color:#4b5563; cursor:pointer; user-select:none; padding:2px 0 6px; }
+.legend-group-header:hover { color:#6b7280; }
+.lg-chevron { font-size:10px; transition:transform 0.2s; }
+.legend-group.collapsed .lg-chevron { transform:rotate(-90deg); }
+.legend-group.collapsed .legend-group-body { display:none; }
+.legend-group-body { display:flex; flex-direction:column; gap:5px; }
+.legend-sources-toggle { font-size:10px; color:#4b5563; cursor:pointer; user-select:none; margin-top:8px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.06); }
+.legend-sources-toggle:hover { color:#6b7280; }
+.legend-sources-panel { display:none; margin-top:6px; font-size:10px; color:#6b7280; line-height:1.9; }
+.legend-sources-panel.open { display:block; }
+.legend-sources-panel a { color:#9ca3af; text-decoration:none; }
+.legend-sources-panel a:hover { text-decoration:underline; }
+.src-gh { margin-top:6px; color:#9ca3af; }
 
 
 /* ── Boulevard count ── */
@@ -663,8 +678,13 @@ path.leaflet-interactive:focus { outline:none; }
 
 <div id="ui">
   <div id="title" class="panel">
-    <h1>LA County Boulevards</h1>
-    <p>Every boulevard in Los Angeles County</p>
+    <h1>Boulevard Love</h1>
+    <p>Explore Los Angeles through its boulevards</p>
+    <ul class="title-bullets">
+      <li>150+ historic boulevards</li>
+      <li>Hidden landmarks, art, parrots, oil wells</li>
+      <li>Cultural stories from LA history</li>
+    </ul>
   </div>
 
   <div id="search-wrap" class="interactive">
@@ -678,14 +698,38 @@ path.leaflet-interactive:focus { outline:none; }
 
 
   <div id="legend" class="panel">
-    <div class="markers">
-      <div class="marker-row"><div class="marker-line blvd-legend-line"></div><span>Boulevard</span></div>
-      <div class="marker-row"><div class="marker-line sunset-legend-line"></div><span>Sunset Strip</span></div>
-      <div class="marker-row"><div class="marker-dot cam-legend-dot"></div><span>Traffic camera</span></div>
-      <div class="marker-row"><div class="marker-dot art-legend-dot"></div><span>Public art</span></div>
-      <div class="marker-row"><div class="marker-dot theatre-legend-dot"></div><span>Theatre</span></div>
-      <div class="marker-row" id="parrot-toggle" style="cursor:pointer;user-select:none;" title="Toggle parrot layer"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><ellipse cx="6" cy="13" rx="3.5" ry="5" fill="none" stroke="#a3e635" stroke-width="1.1" stroke-linecap="round"/><circle cx="7" cy="5" r="3" fill="none" stroke="#a3e635" stroke-width="1.1"/><path d="M9.5,5 L13,6 L10,7.5" fill="none" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8.2" cy="4" r="0.9" fill="#a3e635"/><line x1="4" y1="18" x2="2" y2="20" stroke="#a3e635" stroke-width="0.9" stroke-linecap="round"/><line x1="6" y1="18" x2="5" y2="20" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round"/></svg><span>Wild parrots 🦜</span></div>
-      <div class="marker-row" id="well-toggle"   style="cursor:pointer;user-select:none;" title="Toggle oil well layer"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="20" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><line x1="7" y1="2" x2="1" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/><line x1="7" y1="2" x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/><line x1="4" y1="10" x2="10" y2="10" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/><line x1="2.5" y1="15" x2="11.5" y2="15" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/><line x1="1" y1="19" x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/><circle cx="7" cy="2" r="2" fill="#b45309"/></svg><span>Hidden oil wells 🛢️</span></div>
+    <div class="legend-group">
+      <div class="legend-group-header">Explore <span class="lg-chevron">▾</span></div>
+      <div class="legend-group-body">
+        <div class="marker-row"><div class="marker-line blvd-legend-line"></div><span>Boulevard</span></div>
+        <div class="marker-row"><div class="marker-line sunset-legend-line"></div><span>Sunset Strip</span></div>
+        <div class="marker-row"><div class="marker-dot cam-legend-dot"></div><span>Traffic camera</span></div>
+        <div class="marker-row"><div class="marker-dot art-legend-dot"></div><span>Public art</span></div>
+        <div class="marker-row"><div class="marker-dot theatre-legend-dot"></div><span>Theatre</span></div>
+      </div>
+    </div>
+    <div class="legend-group">
+      <div class="legend-group-header">Living City <span class="lg-chevron">▾</span></div>
+      <div class="legend-group-body">
+        <div class="marker-row" id="parrot-toggle" style="cursor:pointer;user-select:none;" title="Toggle parrot layer"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><ellipse cx="6" cy="13" rx="3.5" ry="5" fill="none" stroke="#a3e635" stroke-width="1.1" stroke-linecap="round"/><circle cx="7" cy="5" r="3" fill="none" stroke="#a3e635" stroke-width="1.1"/><path d="M9.5,5 L13,6 L10,7.5" fill="none" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8.2" cy="4" r="0.9" fill="#a3e635"/><line x1="4" y1="18" x2="2" y2="20" stroke="#a3e635" stroke-width="0.9" stroke-linecap="round"/><line x1="6" y1="18" x2="5" y2="20" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round"/></svg><span>Wild parrots 🦜</span></div>
+      </div>
+    </div>
+    <div class="legend-group">
+      <div class="legend-group-header">Hidden Infrastructure <span class="lg-chevron">▾</span></div>
+      <div class="legend-group-body">
+        <div class="marker-row" id="well-toggle" style="cursor:pointer;user-select:none;" title="Toggle oil well layer"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="20" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><line x1="7" y1="2" x2="1" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/><line x1="7" y1="2" x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/><line x1="4" y1="10" x2="10" y2="10" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/><line x1="2.5" y1="15" x2="11.5" y2="15" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/><line x1="1" y1="19" x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/><circle cx="7" cy="2" r="2" fill="#b45309"/></svg><span>Hidden oil wells 🛢️</span></div>
+      </div>
+    </div>
+    <div id="sources-toggle" class="legend-sources-toggle">Data Sources ℹ️</div>
+    <div id="sources-panel" class="legend-sources-panel">
+      <div class="src-row"><b>Boulevards</b> — OpenStreetMap (ODbL)</div>
+      <div class="src-row"><b>Traffic Cameras</b> — <a href="https://cwwp2.dot.ca.gov/" target="_blank" rel="noopener">Caltrans D7 CCTV</a></div>
+      <div class="src-row"><b>Public Art</b> — <a href="https://data.lacity.org/Parks-Recreation/Los-Angeles-City-Public-Art/ejf8-ekfc" target="_blank" rel="noopener">LA City Open Data</a></div>
+      <div class="src-row"><b>Theatres</b> — OpenStreetMap</div>
+      <div class="src-row"><b>Wild Parrots 🦜</b> — <a href="https://www.inaturalist.org/projects/free-flying-los-angeles-parrot-project" target="_blank" rel="noopener">iNaturalist / Occidental College</a></div>
+      <div class="src-row"><b>Oil Wells 🛢️</b> — <a href="https://www.conservation.ca.gov/calgem" target="_blank" rel="noopener">CalGEM, CA Dept. of Conservation</a></div>
+      <div class="src-row"><b>Editorial</b> — Jonathan Gold, LA Weekly</div>
+      <div class="src-row src-gh"><a href="https://github.com/omaraltaher/la-boulevards" target="_blank" rel="noopener">Open source on GitHub →</a></div>
     </div>
   </div>
 
@@ -2097,6 +2141,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 }).catch(() => {
   document.getElementById('loading').innerHTML =
     '<span style="color:#ef4444">Failed to load data — check your connection and reload.</span>';
+});
+
+document.querySelectorAll('.legend-group-header').forEach(h => {
+  h.addEventListener('click', () => h.closest('.legend-group').classList.toggle('collapsed'));
+});
+
+document.getElementById('sources-toggle').addEventListener('click', () => {
+  document.getElementById('sources-panel').classList.toggle('open');
 });
 
 </script>
