@@ -417,6 +417,14 @@ path.leaflet-interactive:focus { outline:none; }
   border-color:rgba(245,158,11,0.45);
   box-shadow:0 0 24px rgba(245,158,11,0.1);
 }
+#info-panel.sunset {
+  border-width:2px;
+  border-color:rgba(168,85,247,0.45);
+  box-shadow:0 0 24px rgba(244,114,182,0.08), 0 0 24px rgba(168,85,247,0.08);
+}
+#legend .sunset-legend-line {
+  background:linear-gradient(to right, #f472b6, #a855f7);
+}
 
 /* ── Jonathan Gold panel tribute ── */
 #gold-tribute {
@@ -567,6 +575,58 @@ path.leaflet-interactive:focus { outline:none; }
 .parrot-popup .leaflet-popup-tip-container { display:none; }
 .parrot-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
 
+/* ── Sunset spot markers ── */
+.sunset-spot-dot {
+  width:11px; height:11px;
+  cursor:pointer;
+  transition:transform 0.15s, filter 0.15s;
+}
+.sunset-spot-dot:hover { transform:scale(1.5); filter:brightness(1.4); }
+
+/* ── Sunset spot popup ── */
+.sunset-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(168,85,247,0.25) !important;
+  border-radius:8px !important;
+  box-shadow:0 8px 32px rgba(0,0,0,0.7) !important;
+  padding:0 !important;
+  overflow:hidden;
+}
+.sunset-popup .leaflet-popup-tip-container { display:none; }
+.sunset-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.sunset-popup .leaflet-popup-close-button {
+  color:#e8eaf8 !important; font-size:18px !important;
+  top:6px !important; right:8px !important;
+  z-index:10;
+}
+.sunset-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
+
+/* ── Ruscha camera markers ── */
+.ruscha-dot {
+  width:8px; height:8px;
+  cursor:pointer;
+  transition:transform 0.15s, filter 0.15s;
+}
+.ruscha-dot:hover { transform:scale(1.5); filter:brightness(1.6); }
+
+/* ── Ruscha popup ── */
+.ruscha-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(148,163,184,0.2) !important;
+  border-radius:8px !important;
+  box-shadow:0 8px 32px rgba(0,0,0,0.7) !important;
+  padding:0 !important;
+  overflow:hidden;
+}
+.ruscha-popup .leaflet-popup-tip-container { display:none; }
+.ruscha-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.ruscha-popup .leaflet-popup-close-button {
+  color:#e8eaf8 !important; font-size:18px !important;
+  top:6px !important; right:8px !important;
+  z-index:10;
+}
+.ruscha-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
+
 /* ── Mobile ── */
 @media (max-width: 640px) {
 
@@ -628,6 +688,7 @@ path.leaflet-interactive:focus { outline:none; }
   <div id="legend" class="panel">
     <div class="markers">
       <div class="marker-row"><div class="marker-line blvd-legend-line"></div><span>Boulevard</span></div>
+      <div class="marker-row"><div class="marker-line sunset-legend-line"></div><span>Sunset Strip</span></div>
       <div class="marker-row"><div class="marker-dot cam-legend-dot"></div><span>Traffic camera</span></div>
       <div class="marker-row"><div class="marker-dot art-legend-dot"></div><span>Public art</span></div>
       <div class="marker-row"><div class="marker-dot theatre-legend-dot"></div><span>Theatre</span></div>
@@ -708,6 +769,12 @@ function hav(lat1, lon1, lat2, lon2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
 
+function lerpColor(c1, c2, t) {
+  const h = c => [parseInt(c.slice(1,3),16), parseInt(c.slice(3,5),16), parseInt(c.slice(5,7),16)];
+  const [r1,g1,b1] = h(c1), [r2,g2,b2] = h(c2);
+  return `#${[r1+(r2-r1)*t, g1+(g2-g1)*t, b1+(b2-b1)*t].map(v=>Math.round(v).toString(16).padStart(2,'0')).join('')}`;
+}
+
 // ── Load data ──────────────────────────────────────────────
 fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('loading').style.display = 'none';
@@ -722,48 +789,90 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   boulevards.forEach(blvd => {
     // Jonathan Gold tribute — Pico Boulevard is always gold
-    const isPico = blvd.name === 'Pico Boulevard';
-    blvd.isPico  = isPico;
+    const isPico   = blvd.name === 'Pico Boulevard';
+    const isSunset = blvd.name === 'Sunset Boulevard';
+    blvd.isPico   = isPico;
+    blvd.isSunset = isSunset;
     const color = isPico ? '#f59e0b' : '#e8eaf8';
-    blvd.color = color;
+    blvd.color   = color;
     blvd.weight  = isPico ? 1.6 : 1.8;
-    blvd.opacity = isPico ? 0.8 : 0.35;
+    blvd.opacity = isPico ? 0.8 : isSunset ? 0.75 : 0.35;
     const tip = isPico
       ? `<b>Pico Boulevard</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#f59e0b">Jonathan Gold's Pico</span></span>`
+      : isSunset
+      ? `<b>Sunset Boulevard</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#c084fc">The Strip</span></span>`
       : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
-    blvd.segs.forEach(seg => {
-      // Visible line — styling only, no mouse interaction
-      const line = L.polyline(seg, {
-        color, weight: blvd.weight, opacity: blvd.opacity,
-        smoothFactor: 1, interactive: false
-      }).addTo(map);
-      blvd.lines.push(line);
 
-      // Wide invisible hit area — captures hover/click for the whole corridor
-      const hit = L.polyline(seg, {
-        weight: 16, opacity: 0.001, color,
-        smoothFactor: 1
-      }).addTo(map);
-      hit.bindTooltip(tip, { sticky:true, className:'blvd-tip', direction:'top', offset:[0,-4] });
-      hit.on('mouseover', () => {
-        clearTimeout(hoverTimer);
-        if (!selectedBlvd) applyHighlight(blvd);
+    if (isSunset) {
+      // Gradient: one mini-polyline per point pair for smooth pink→purple
+      const totalPts = blvd.segs.reduce((s, seg) => s + seg.length, 0);
+      let ptOffset = 0;
+      blvd.segs.forEach(seg => {
+        for (let i = 0; i < seg.length - 1; i++) {
+          const t = (ptOffset + i) / Math.max(totalPts - 1, 1);
+          blvd.lines.push(L.polyline([seg[i], seg[i+1]], {
+            color: lerpColor('#f472b6', '#a855f7', t),
+            weight: blvd.weight, opacity: blvd.opacity,
+            smoothFactor: 1, interactive: false
+          }).addTo(map));
+        }
+        ptOffset += seg.length;
+        const hit = L.polyline(seg, { weight:16, opacity:0.001, color:'#c084fc', smoothFactor:1 }).addTo(map);
+        hit.bindTooltip(tip, { sticky:true, className:'blvd-tip', direction:'top', offset:[0,-4] });
+        hit.on('mouseover', () => {
+          clearTimeout(hoverTimer);
+          if (!selectedBlvd) applyHighlight(blvd);
+        });
+        hit.on('mouseout', () => {
+          hoverTimer = setTimeout(() => {
+            if (selectedBlvd) return;
+            if (pinLat !== null) applyProximity(pinLat, pinLon);
+            else resetProximity();
+          }, 150);
+        });
+        hit.on('click', e => {
+          L.DomEvent.stopPropagation(e);
+          selectedBlvd = blvd;
+          applyHighlight(blvd);
+          showInfo(blvd);
+        });
+        blvd.hits.push(hit);
       });
-      hit.on('mouseout', () => {
-        hoverTimer = setTimeout(() => {
-          if (selectedBlvd) return;
-          if (pinLat !== null) applyProximity(pinLat, pinLon);
-          else resetProximity();
-        }, 150);
+    } else {
+      blvd.segs.forEach(seg => {
+        // Visible line — styling only, no mouse interaction
+        const line = L.polyline(seg, {
+          color, weight: blvd.weight, opacity: blvd.opacity,
+          smoothFactor: 1, interactive: false
+        }).addTo(map);
+        blvd.lines.push(line);
+
+        // Wide invisible hit area — captures hover/click for the whole corridor
+        const hit = L.polyline(seg, {
+          weight: 16, opacity: 0.001, color,
+          smoothFactor: 1
+        }).addTo(map);
+        hit.bindTooltip(tip, { sticky:true, className:'blvd-tip', direction:'top', offset:[0,-4] });
+        hit.on('mouseover', () => {
+          clearTimeout(hoverTimer);
+          if (!selectedBlvd) applyHighlight(blvd);
+        });
+        hit.on('mouseout', () => {
+          hoverTimer = setTimeout(() => {
+            if (selectedBlvd) return;
+            if (pinLat !== null) applyProximity(pinLat, pinLon);
+            else resetProximity();
+          }, 150);
+        });
+        hit.on('click', e => {
+          L.DomEvent.stopPropagation(e);
+          selectedBlvd = blvd;
+          applyHighlight(blvd);
+          showInfo(blvd);
+        });
+        blvd.hits.push(hit);
       });
-      hit.on('click', e => {
-        L.DomEvent.stopPropagation(e);
-        selectedBlvd = blvd;
-        applyHighlight(blvd);
-        showInfo(blvd);
-      });
-      blvd.hits.push(hit);
-    });
+    }
   });
 
   document.getElementById('count').textContent = `${boulevards.length} boulevards`;
@@ -795,8 +904,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     boulevards.forEach(b => {
       const active = b === blvd;
       b.lines.forEach(l => l.setStyle({
-        opacity: active ? Math.max(b.opacity, 0.9) : b.isPico ? Math.max(b.opacity, 0.75) : 0.06,
-        weight:  active ? Math.max(b.weight, 2.0)  : b.isPico ? Math.max(b.weight, 1.8)  : 0.6
+        opacity: active ? Math.max(b.opacity, 0.9) : b.isPico ? Math.max(b.opacity, 0.75) : b.isSunset ? 0.6 : 0.06,
+        weight:  active ? Math.max(b.weight, 2.0)  : b.isPico ? Math.max(b.weight, 1.8)  : b.isSunset ? 1.6 : 0.6
       }));
     });
     updateOverlayMarkers(blvd);
@@ -820,7 +929,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const tip = near
         ? `<b>${blvd.name}</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#818cf8">${distMi} mi away</span></span>`
         : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
-      blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : blvd.isPico ? 0.75 : 0.07, weight: near ? 2 : blvd.isPico ? 1.8 : 1 }));
+      blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : blvd.isPico ? 0.75 : blvd.isSunset ? 0.6 : 0.07, weight: near ? 2 : blvd.isPico ? 1.8 : blvd.isSunset ? 1.6 : 1 }));
       blvd.hits.forEach(l => l.setTooltipContent(tip));
     });
   }
@@ -831,7 +940,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         opacity: blvd.isPico ? Math.max(blvd.opacity, 0.75) : blvd.opacity,
         weight:  blvd.isPico ? Math.max(blvd.weight, 1.8)  : blvd.weight
       }));
-      blvd.hits.forEach(l => l.setTooltipContent(`<b>${blvd.name}</b><span>${blvd.mi} mi</span>`));
+      const resetTip = blvd.isSunset
+        ? `<b>Sunset Boulevard</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#c084fc">The Strip</span></span>`
+        : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
+      blvd.hits.forEach(l => l.setTooltipContent(resetTip));
     });
   }
 
@@ -1176,6 +1288,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoPanel.classList.add('open');
     mediaPanel.classList.remove('open');
     infoPanel.classList.toggle('pico', blvd.name === 'Pico Boulevard');
+    infoPanel.classList.toggle('sunset', blvd.name === 'Sunset Boulevard');
     document.getElementById('gold-tribute').style.display =
       blvd.name === 'Pico Boulevard' ? 'block' : 'none';
     infoImg.style.display = 'none';
@@ -1542,6 +1655,61 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   });
 
+  // ── Sunset Famous Spots ─────────────────────────────────────────
+  const sunsetStarSvg =
+    `<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24">` +
+    `<defs><linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="100%">` +
+    `<stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#a855f7"/>` +
+    `</linearGradient></defs>` +
+    `<polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="url(#sg)" stroke="rgba(192,132,252,0.5)" stroke-width="1"/>` +
+    `</svg>`;
+
+  const sunsetSpotIcon = L.divIcon({
+    className: '',
+    html: `<div class="sunset-spot-dot">${sunsetStarSvg}</div>`,
+    iconSize: [11, 11], iconAnchor: [5, 5]
+  });
+
+  const sunsetBoulevard = boulevards.find(b => b.name === 'Sunset Boulevard');
+
+  (async function loadSunsetSpots() {
+    try {
+      const res = await fetch('sunset-spots.json');
+      if (!res.ok) return;
+      const { spots } = await res.json();
+
+      spots.forEach(spot => {
+        const marker = L.marker([spot.lat, spot.lon], { icon: sunsetSpotIcon, zIndexOffset: 160 });
+        artMarkerList.push({ marker, blvdName: 'Sunset Boulevard' });
+
+        marker.on('click', () => {
+          if (sunsetBoulevard && selectedBlvd !== sunsetBoulevard) {
+            selectedBlvd = sunsetBoulevard;
+            applyHighlight(sunsetBoulevard);
+            showInfo(sunsetBoulevard);
+          }
+          const html =
+            `<div style="padding:16px 18px;width:290px;">` +
+            `<div style="font-size:10px;background:linear-gradient(to right,#f472b6,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">${spot.category}</div>` +
+            `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:10px;padding-right:16px;">${spot.name}</div>` +
+            `<div style="font-size:13px;color:#9ca3af;line-height:1.65;margin-bottom:10px;">${spot.desc}</div>` +
+            `<a href="${spot.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.8);text-decoration:none;">Learn more →</a>` +
+            `</div>`;
+          L.popup({ className: 'sunset-popup', closeButton: true, maxWidth: 330, autoPan: true })
+            .setLatLng([spot.lat, spot.lon])
+            .setContent(html)
+            .openOn(map);
+        });
+      });
+
+      if (selectedBlvd && selectedBlvd.name === 'Sunset Boulevard') {
+        updateOverlayMarkers(selectedBlvd);
+      }
+    } catch (e) {
+      console.warn('Sunset spots load failed:', e);
+    }
+  })();
+
   // ── Theatres (pre-baked static JSON, no live Overpass call) ────
   (async function loadTheatres() {
     try {
@@ -1669,6 +1837,119 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // Prevent Leaflet from swallowing legend clicks
   L.DomEvent.disableClickPropagation(document.getElementById('legend'));
+
+  // ── Getty/Ruscha Sunset Boulevard photo dots ─────────────────────
+  const ruschaCameraSvg = (w, h) =>
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 14 11" opacity="0.85">` +
+    `<rect x="1" y="3" width="12" height="8" rx="1.5" fill="none" stroke="#94a3b8" stroke-width="1.1"/>` +
+    `<circle cx="7" cy="7" r="2.5" fill="none" stroke="#94a3b8" stroke-width="1"/>` +
+    `<path d="M4.5,3 L5.5,1 L8.5,1 L9.5,3" fill="none" stroke="#94a3b8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>` +
+    `<circle cx="11" cy="5" r="0.8" fill="#94a3b8"/>` +
+    `</svg>`;
+
+  const ruschaIcon = L.divIcon({
+    className: '',
+    html: `<div class="ruscha-dot">${ruschaCameraSvg(14, 11)}</div>`,
+    iconSize: [14, 11], iconAnchor: [7, 5]
+  });
+
+  function makeRuschaClusterIcon(n) {
+    return L.divIcon({
+      html: `<div style="position:relative;width:18px;height:15px;">${ruschaCameraSvg(18, 15)}<div style="position:absolute;top:-6px;right:-8px;background:#334155;border:1px solid #64748b;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#cbd5e1;line-height:1;">${n}</div></div>`,
+      className: '', iconSize: [18, 15], iconAnchor: [9, 7]
+    });
+  }
+
+  let ruschaData = [];
+  const ruschaRenderGroup = L.layerGroup();
+  const pinnedRuscha = new Set();
+
+  function bindRuschaClick(marker, r) {
+    marker.on('click', () => {
+      const html =
+        `<div style="padding:12px 14px;width:250px;">` +
+        `<div style="font-size:10px;color:#94a3b8;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Ed Ruscha · Every Building on the Sunset Strip</div>` +
+        (r.year ? `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${r.year}</div>` : '') +
+        (r.label ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:8px;line-height:1.5;">${r.label}</div>` : '') +
+        `<a href="https://12sunsets.getty.edu/" target="_blank" rel="noopener" style="font-size:11px;color:rgba(148,163,184,0.85);text-decoration:none;">View in Getty Archive →</a>` +
+        `</div>`;
+      L.popup({ className: 'ruscha-popup', closeButton: true, maxWidth: 290, autoPan: true })
+        .setLatLng([r.lat, r.lon]).setContent(html).openOn(map);
+    });
+  }
+
+  function reclusterRuscha() {
+    ruschaRenderGroup.clearLayers();
+    if (!ruschaData.length) return;
+    const zoom = map.getZoom();
+    const DISABLE_ZOOM = 16;
+    if (zoom >= DISABLE_ZOOM) {
+      ruschaData.forEach(r => {
+        const m = L.marker([r.lat, r.lon], { icon: ruschaIcon, zIndexOffset: 40 });
+        bindRuschaClick(m, r);
+        ruschaRenderGroup.addLayer(m);
+      });
+      return;
+    }
+    const R = 30, MIN = 5;
+    const pts = ruschaData.map(r => ({ r, px: map.project([r.lat, r.lon], zoom) }));
+    const used = new Set();
+    for (const k of pinnedRuscha) { used.add(k); }
+    for (const k of pinnedRuscha) {
+      const m = L.marker([pts[k].r.lat, pts[k].r.lon], { icon: ruschaIcon, zIndexOffset: 40 });
+      bindRuschaClick(m, pts[k].r);
+      ruschaRenderGroup.addLayer(m);
+    }
+    for (let i = 0; i < pts.length; i++) {
+      if (used.has(i)) continue;
+      const group = [i];
+      used.add(i);
+      for (let j = i + 1; j < pts.length; j++) {
+        if (used.has(j)) continue;
+        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
+        if (dx * dx + dy * dy <= R * R) { group.push(j); used.add(j); }
+      }
+      if (group.length >= MIN) {
+        const lat = group.reduce((s, k) => s + pts[k].r.lat, 0) / group.length;
+        const lon = group.reduce((s, k) => s + pts[k].r.lon, 0) / group.length;
+        const cm = L.marker([lat, lon], { icon: makeRuschaClusterIcon(group.length), zIndexOffset: 80 });
+        cm.on('click', e => { L.DomEvent.stopPropagation(e); group.forEach(k => pinnedRuscha.add(k)); reclusterRuscha(); });
+        ruschaRenderGroup.addLayer(cm);
+      } else {
+        for (const k of group) {
+          const m = L.marker([pts[k].r.lat, pts[k].r.lon], { icon: ruschaIcon, zIndexOffset: 40 });
+          bindRuschaClick(m, pts[k].r);
+          ruschaRenderGroup.addLayer(m);
+        }
+      }
+    }
+  }
+
+  map.on('zoomend', () => { pinnedRuscha.clear(); reclusterRuscha(); });
+
+  (async function loadRuscha() {
+    try {
+      const res = await fetch('ruscha.json');
+      if (!res.ok) return;
+      const { photos } = await res.json();
+      ruschaData = photos;
+      // Add to artMarkerList so it shows only when Sunset is selected
+      const ruschaGroupMarker = {
+        // Sentinel — manages the whole layerGroup as one unit
+        _isRuschaGroup: true,
+        marker: { addTo: () => { ruschaRenderGroup.addTo(map); reclusterRuscha(); },
+                  remove: () => ruschaRenderGroup.remove() },
+        blvdName: 'Sunset Boulevard'
+      };
+      artMarkerList.push(ruschaGroupMarker);
+      if (selectedBlvd && selectedBlvd.name === 'Sunset Boulevard') {
+        ruschaRenderGroup.addTo(map);
+        reclusterRuscha();
+      }
+    } catch (e) {
+      console.warn('Ruscha load failed:', e);
+    }
+  })();
 
   // ── Wild Parrots ───────────────────────────────────────────────
   let parrotData = [];

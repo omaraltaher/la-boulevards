@@ -1,0 +1,124 @@
+{
+  "spots": [
+    {
+      "name": "Whisky a Go Go",
+      "lat": 34.0908,
+      "lon": -118.3843,
+      "category": "Music Venue",
+      "desc": "The club that launched The Doors, Janis Joplin, and Led Zeppelin. Jim Morrison was fired here in 1966 for improvising an Oedipal poem mid-set. Still books live rock nightly.",
+      "url": "https://en.wikipedia.org/wiki/Whisky_a_Go_Go"
+    },
+    {
+      "name": "The Roxy Theatre",
+      "lat": 34.0907,
+      "lon": -118.3863,
+      "category": "Music Venue",
+      "desc": "Opened in 1973, the Roxy was where Neil Young recorded 'Tonight's the Night' live. Bruce Springsteen played his famous LA debut here. Above it: On the Rox, the private club where Lennon met Nilsson.",
+      "url": "https://en.wikipedia.org/wiki/The_Roxy_Theatre_(West_Hollywood)"
+    },
+    {
+      "name": "Viper Room",
+      "lat": 34.0905,
+      "lon": -118.3878,
+      "category": "Music Venue",
+      "desc": "Johnny Depp co-owned this jazz-turned-rock club. On Halloween 1993, River Phoenix collapsed outside and died at 23. Tom Petty and Johnny Cash played private sets here in the 90s.",
+      "url": "https://en.wikipedia.org/wiki/Viper_Room"
+    },
+    {
+      "name": "Rainbow Bar & Grill",
+      "lat": 34.0910,
+      "lon": -118.3856,
+      "category": "Bar & Restaurant",
+      "desc": "The Strip's great watering hole since 1972. Marilyn Monroe met Joe DiMaggio on a blind date here (when it was the Villa Nova). The back booth was Lemmy Kilmister's office until his death in 2015.",
+      "url": "https://en.wikipedia.org/wiki/Rainbow_Bar_and_Grill"
+    },
+    {
+      "name": "Andaz West Hollywood (Riot House)",
+      "lat": 34.0912,
+      "lon": -118.3836,
+      "category": "Hotel",
+      "desc": "Formerly the Continental Hyatt, nicknamed 'Riot House' by Led Zeppelin's road crew. Keith Moon drove a motorcycle through the lobby. Jim Morrison dangled from a window. The entire 70s rock excess era lived here.",
+      "url": "https://en.wikipedia.org/wiki/Andaz_West_Hollywood"
+    },
+    {
+      "name": "Chateau Marmont",
+      "lat": 34.0958,
+      "lon": -118.3777,
+      "category": "Hotel",
+      "desc": "Columbia Pictures told its stars 'if you must get in trouble, do it at the Chateau.' John Belushi died here in bungalow 3 in 1982. Greta Garbo, Howard Hughes, and Led Zeppelin were regulars. Still a fortress of celebrity privacy.",
+      "url": "https://en.wikipedia.org/wiki/Chateau_Marmont"
+    },
+    {
+      "name": "Sunset Tower Hotel",
+      "lat": 34.0940,
+      "lon": -118.3802,
+      "category": "Hotel",
+      "desc": "This 1929 Art Deco landmark housed Howard Hughes, Bugsy Siegel, Marilyn Monroe, and Frank Sinatra simultaneously at various points. Truman Capote claimed to have written 'Answered Prayers' in its bar.",
+      "url": "https://en.wikipedia.org/wiki/Sunset_Tower_Hotel"
+    },
+    {
+      "name": "The Comedy Store",
+      "lat": 34.0918,
+      "lon": -118.3826,
+      "category": "Comedy Club",
+      "desc": "Ground zero for stand-up comedy since 1972. Pauly Shore's mother Mitzi owned it for decades. Robin Williams, David Letterman, and Jim Carrey all paid dues here. The 1979 comedians' strike that won performers pay started at this address.",
+      "url": "https://en.wikipedia.org/wiki/The_Comedy_Store"
+    },
+    {
+      "name": "Book Soup",
+      "lat": 34.0919,
+      "lon": -118.3868,
+      "category": "Bookstore",
+      "desc": "Open since 1975, this legendary independent bookstore has hosted signings by everyone from Salman Rushdie to Tom Waits. Hunter S. Thompson called it one of the last great American bookstores. Still open, still defying the odds.",
+      "url": "https://en.wikipedia.org/wiki/Book_Soup"
+    },
+    {
+      "name": "Sunset Sound",
+      "lat": 34.0981,
+      "lon": -118.3393,
+      "category": "Recording Studio",
+      "desc": "Built for Disney in 1958, Sunset Sound became the studio where The Doors, Van Halen, and Prince recorded seminal albums. 'Purple Rain' was tracked here in 1983. Rolling Stones, Led Zeppelin, and Janis Joplin all recorded within these walls.",
+      "url": "https://en.wikipedia.org/wiki/Sunset_Sound_Recorders"
+    },
+    {
+      "name": "Alta Cienega Motel",
+      "lat": 34.0895,
+      "lon": -118.3745,
+      "category": "Historic Site",
+      "desc": "Room 32 was Jim Morrison's unofficial LA residence in 1969–70. He paid $75/month to sleep here while living on the Strip and working on 'Morrison Hotel'. The neon sign is unchanged. Fans still leave candles and whiskey on the sill.",
+      "url": "https://en.wikipedia.org/wiki/Jim_Morrison"
+    },
+    {
+      "name": "Pandora's Box site",
+      "lat": 34.0936,
+      "lon": -118.3807,
+      "category": "Historic Site",
+      "desc": "A teen coffee house that stood at this intersection until 1966. When the city tried to close it with a curfew ordinance, kids rioted on the Strip. The Buffalo Springfield wrote 'For What It's Worth' about that night. The building was demolished; the intersection remains.",
+      "url": "https://en.wikipedia.org/wiki/Sunset_Strip_curfew_riots"
+    },
+    {
+      "name": "Tower Records site",
+      "lat": 34.0919,
+      "lon": -118.3892,
+      "category": "Historic Site",
+      "desc": "The flagship Tower Records stood here from 1971 until 2006 bankruptcy. Bruce Springsteen, Elton John, and Michael Jackson all did in-store signings. The 24-hour record store became the Strip's nocturnal nerve center. Colin Hanks made a documentary about its loss.",
+      "url": "https://en.wikipedia.org/wiki/Tower_Records"
+    },
+    {
+      "name": "Schwab's Pharmacy site",
+      "lat": 34.0977,
+      "lon": -118.3635,
+      "category": "Historic Site",
+      "desc": "The mythologized soda fountain where Lana Turner was supposedly discovered (actually a different diner, but never mind — Hollywood improved the story). For 50 years it was where aspiring actors nursed 15-cent coffees between auditions. Demolished in 1988; a Virgin Megastore, then a CVS, now replaced.",
+      "url": "https://en.wikipedia.org/wiki/Schwab%27s_Pharmacy"
+    },
+    {
+      "name": "The Troubadour",
+      "lat": 34.0804,
+      "lon": -118.3878,
+      "category": "Music Venue",
+      "desc": "Just south of the Strip proper, the Troubadour launched the singer-songwriter era: Elton John's US debut, James Taylor, Joni Mitchell, and Linda Ronstadt all broke here. John Lennon was ejected for heckling the Smothers Brothers from the balcony in 1974.",
+      "url": "https://en.wikipedia.org/wiki/Troubadour_(West_Hollywood)"
+    }
+  ]
+}
