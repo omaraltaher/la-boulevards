@@ -420,10 +420,10 @@ path.leaflet-interactive:focus { outline:none; }
 #info-panel.sunset {
   border-width:2px;
   border-color:rgba(168,85,247,0.45);
-  box-shadow:0 0 24px rgba(244,114,182,0.08), 0 0 24px rgba(168,85,247,0.08);
+  box-shadow:0 0 24px rgba(249,115,22,0.1), 0 0 24px rgba(236,72,153,0.08), 0 0 24px rgba(168,85,247,0.08);
 }
 #legend .sunset-legend-line {
-  background:linear-gradient(to right, #f472b6, #a855f7);
+  background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7);
 }
 
 /* ── Jonathan Gold panel tribute ── */
@@ -748,6 +748,12 @@ function lerpColor(c1, c2, t) {
   const [r1,g1,b1] = h(c1), [r2,g2,b2] = h(c2);
   return `#${[r1+(r2-r1)*t, g1+(g2-g1)*t, b1+(b2-b1)*t].map(v=>Math.round(v).toString(16).padStart(2,'0')).join('')}`;
 }
+const SUNSET_COLORS = ['#a855f7', '#ec4899', '#f97316', '#ec4899', '#a855f7'];
+function multiLerp(colors, t) {
+  const n = colors.length - 1;
+  const i = Math.min(Math.floor(t * n), n - 1);
+  return lerpColor(colors[i], colors[i + 1], t * n - i);
+}
 
 // ── Load data ──────────────────────────────────────────────
 fetch('boulevards.json').then(r => r.json()).then(data => {
@@ -785,7 +791,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         for (let i = 0; i < seg.length - 1; i++) {
           const t = (ptOffset + i) / Math.max(totalPts - 1, 1);
           blvd.lines.push(L.polyline([seg[i], seg[i+1]], {
-            color: lerpColor('#f472b6', '#a855f7', t),
+            color: multiLerp(SUNSET_COLORS, t),
             weight: blvd.weight, opacity: blvd.opacity,
             smoothFactor: 1, interactive: false
           }).addTo(map));
@@ -1609,7 +1615,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const sunsetStarSvg =
     `<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24">` +
     `<defs><linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="100%">` +
-    `<stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#a855f7"/>` +
+    `<stop offset="0%" stop-color="#a855f7"/><stop offset="25%" stop-color="#ec4899"/><stop offset="50%" stop-color="#f97316"/><stop offset="75%" stop-color="#ec4899"/><stop offset="100%" stop-color="#a855f7"/>` +
     `</linearGradient></defs>` +
     `<polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="url(#sg)" stroke="rgba(192,132,252,0.5)" stroke-width="1"/>` +
     `</svg>`;
@@ -1639,7 +1645,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           }
           const html =
             `<div style="padding:16px 18px;width:290px;">` +
-            `<div style="font-size:10px;background:linear-gradient(to right,#f472b6,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">${spot.category}</div>` +
+            `<div style="font-size:10px;background:linear-gradient(to right,#a855f7,#ec4899,#f97316,#ec4899,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">${spot.category}</div>` +
             `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:10px;padding-right:16px;">${spot.name}</div>` +
             `<div style="font-size:13px;color:#9ca3af;line-height:1.65;margin-bottom:10px;">${spot.desc}</div>` +
             `<a href="${spot.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.8);text-decoration:none;">Learn more →</a>` +
