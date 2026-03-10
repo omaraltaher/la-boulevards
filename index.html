@@ -970,12 +970,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       else marker.remove();
     });
     theatreMarkerList.forEach(({ marker, blvdName, isWiltern }) => {
-      if (isWiltern) return;
+      if (isWiltern) {
+        const wilternVisible = !name || name === 'Wilshire Boulevard' || name === 'Western Avenue';
+        wilternVisible ? marker.addTo(map) : marker.remove();
+        return;
+      }
       if (name && blvdName === name) marker.addTo(map);
       else marker.remove();
     });
-    // Always keep Wiltern visible regardless of selected boulevard
-    theatreMarkerList.filter(({ isWiltern }) => isWiltern).forEach(({ marker }) => marker.addTo(map));
   }
 
   function applyHighlight(blvd) {
