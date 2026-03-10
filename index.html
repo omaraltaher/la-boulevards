@@ -488,14 +488,14 @@ path.leaflet-interactive:focus { outline:none; }
   display:none; /* shown only on mobile via media query */
   align-items:center;
   justify-content:center;
-  padding:12px 0 8px;
+  padding:20px 0 14px;
   cursor:grab;
   touch-action:none;
 }
 .sheet-pill {
-  width:36px; height:4px;
-  border-radius:2px;
-  background:rgba(255,255,255,0.2);
+  width:48px; height:5px;
+  border-radius:3px;
+  background:rgba(255,255,255,0.25);
 }
 #info-img {
   width:100%; height:220px;
@@ -505,7 +505,7 @@ path.leaflet-interactive:focus { outline:none; }
   display:none;
   margin-bottom:16px;
 }
-#info-body { padding:22px 24px; overflow-y:auto; flex:1; min-height:0; }
+#info-body { padding:22px 24px calc(22px + env(safe-area-inset-bottom, 0px)); overflow-y:auto; flex:1; min-height:0; }
 #info-body::-webkit-scrollbar { width:4px; }
 #info-body::-webkit-scrollbar-track { background:transparent; }
 #info-body::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:2px; }
@@ -1215,7 +1215,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const infoWiki    = document.getElementById('info-wiki');
 
   // ── Mobile bottom-sheet ──────────────────────────────────
-  const PEEK_H = 90; // px: handle + name + meta visible in peek state
+  const PEEK_H = 120; // px: handle + name + meta + stats visible in peek state
   let sheetState = 'closed';
   let sheetPanelH = 0;
   function isMobile() { return window.innerWidth <= 640; }
@@ -1252,34 +1252,45 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // Touch drag on handle
   const sheetHandle = document.getElementById('sheet-handle');
-  let dragStartY = null, dragStartTranslate = 0;
-  sheetHandle.addEventListener('touchstart', e => {
-    if (!isMobile()) return;
-    dragStartY = e.touches[0].clientY;
-    dragStartTranslate = sheetY(sheetState);
-    infoPanel.style.transition = 'none';
-  }, { passive: true });
-  sheetHandle.addEventListener('touchmove', e => {
-    if (!isMobile() || dragStartY === null) return;
-    const dy = e.touches[0].clientY - dragStartY;
-    const next = Math.max(0, Math.min(sheetPanelH, dragStartTranslate + dy));
-    infoPanel.style.transform = `translateY(${next}px)`;
-  }, { passive: true });
-  sheetHandle.addEventListener('touchend', e => {
-    if (!isMobile() || dragStartY === null) return;
-    const dy = e.changedTouches[0].clientY - dragStartY;
-    const order = ['full', 'half', 'peek'];
-    const idx = order.indexOf(sheetState);
-    if (dy < -60) {
-      setSheetState(order[Math.max(0, idx - 1)]);
-    } else if (dy > 60) {
-      if (sheetState === 'peek') closeSheet();
-      else setSheetState(order[Math.min(order.length - 1, idx + 1)]);
-    } else {
-      setSheetState(sheetState); // snap back
-    }
-    dragStartY = null;
-  }, { passive: true });
+  let dragStartY = null, dragStartTranslate = 0, dragMoved = false;
+
+  function attachSheetDrag(el) {
+    el.addEventListener('touchstart', e => {
+      if (!isMobile()) return;
+      dragStartY = e.touches[0].clientY;
+      dragStartTranslate = sheetY(sheetState);
+      dragMoved = false;
+      infoPanel.style.transition = 'none';
+    }, { passive: true });
+    el.addEventListener('touchmove', e => {
+      if (!isMobile() || dragStartY === null) return;
+      const dy = e.touches[0].clientY - dragStartY;
+      if (Math.abs(dy) > 5) dragMoved = true;
+      const next = Math.max(0, Math.min(sheetPanelH, dragStartTranslate + dy));
+      infoPanel.style.transform = `translateY(${next}px)`;
+    }, { passive: true });
+    el.addEventListener('touchend', e => {
+      if (!isMobile() || dragStartY === null) return;
+      const dy = e.changedTouches[0].clientY - dragStartY;
+      const order = ['full', 'half', 'peek'];
+      const idx = order.indexOf(sheetState);
+      if (!dragMoved) {
+        // tap: expand to next state
+        setSheetState(order[Math.max(0, idx - 1)]);
+      } else if (dy < -60) {
+        setSheetState(order[Math.max(0, idx - 1)]);
+      } else if (dy > 60) {
+        if (sheetState === 'peek') closeSheet();
+        else setSheetState(order[Math.min(order.length - 1, idx + 1)]);
+      } else {
+        setSheetState(sheetState); // snap back
+      }
+      dragStartY = null;
+    }, { passive: true });
+  }
+
+  attachSheetDrag(sheetHandle);
+  attachSheetDrag(document.getElementById('info-header'));
 
   const wikiCache   = {};
 
