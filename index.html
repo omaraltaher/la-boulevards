@@ -670,8 +670,9 @@ path.leaflet-interactive:focus { outline:none; }
   #legend { bottom: 24px; left: 12px; }
   #count  { bottom: 8px;  left: 12px; }
 
-  /* Title: hide on mobile — search bar leaves no room */
-  #title { display: none; }
+  /* Title: move below search bar, hide bullets to keep it compact */
+  #title { top: 68px; left: 16px; right: 16px; }
+  .title-bullets { display: none; }
 }
 </style>
 </head>
