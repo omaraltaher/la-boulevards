@@ -1482,9 +1482,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     history.replaceState(null, '', `?blvd=${encodeURIComponent(blvd.name)}`);
     const shareEl = document.getElementById('info-share');
     const shareText = `${blvd.name}: ${blvd.mi} mi${theatreCount ? `, ${theatreCount} theatres` : ''}${artCount ? `, ${artCount} public art pieces` : ''}. Explore LA's hidden layers on Boulevard Love`;
-    shareEl.innerHTML = `<div class="share-label">Share</div><div class="share-row"><button class="share-btn" id="share-tw">Twitter</button><button class="share-btn" id="share-rd">Reddit</button><button class="share-btn" id="share-cp">Copy link</button></div>`;
+    shareEl.innerHTML = `<div class="share-label">Share</div><div class="share-row"><button class="share-btn" id="share-rd">Reddit</button><button class="share-btn" id="share-cp">Copy link</button></div>`;
     shareEl.classList.add('visible');
-    document.getElementById('share-tw').onclick = () => window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(blvdUrl)}`, '_blank');
     document.getElementById('share-rd').onclick = () => window.open(`https://reddit.com/submit?url=${encodeURIComponent(blvdUrl)}&title=${encodeURIComponent(blvd.name + ' — Boulevard Love')}`, '_blank');
     const cpBtn = document.getElementById('share-cp');
     cpBtn.onclick = () => navigator.clipboard.writeText(blvdUrl).then(() => { cpBtn.textContent = 'Copied!'; setTimeout(() => cpBtn.textContent = 'Copy link', 2000); });
