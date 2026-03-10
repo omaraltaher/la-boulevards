@@ -116,13 +116,15 @@ html, body {
 .legend-group.collapsed .lg-chevron { transform:rotate(-90deg); }
 .legend-group.collapsed .legend-group-body { display:none; }
 .legend-group-body { display:flex; flex-direction:column; gap:5px; }
-#legend-collapse-btn { font-size:11px; color:#ec4899; cursor:pointer; user-select:none; text-align:right; padding-bottom:5px; margin-bottom:3px; border-bottom:1px solid rgba(255,255,255,0.06); }
+#legend-collapse-btn { font-size:11px; color:#ec4899; cursor:pointer; user-select:none; text-align:left; padding-bottom:5px; margin-bottom:3px; border-bottom:1px solid rgba(255,255,255,0.06); }
 #legend-collapse-btn:hover { color:#f97316; }
-#legend.legend-collapsed .legend-group-header { opacity:0; pointer-events:none; }
-#legend.legend-collapsed .marker-row span { opacity:0; }
+#legend.legend-collapsed { overflow:hidden; }
+#legend.legend-collapsed .legend-group-header { display:none; }
+#legend.legend-collapsed .marker-row span { display:none; }
+#legend.legend-collapsed .legend-group + .legend-group { border-top:none; margin-top:2px; padding-top:0; }
 #legend.legend-collapsed .legend-group.collapsed .legend-group-body { display:flex; }
 #legend.legend-collapsed .legend-sources-toggle,
-#legend.legend-collapsed .legend-sources-panel { opacity:0; pointer-events:none; }
+#legend.legend-collapsed .legend-sources-panel { display:none; }
 .legend-sources-toggle { font-size:11px; color:#4b5563; cursor:pointer; user-select:none; pointer-events:auto; margin-top:8px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.06); }
 .legend-sources-toggle:hover { color:#6b7280; }
 .legend-sources-panel { display:none; margin-top:6px; font-size:11px; color:#6b7280; line-height:1.9; }
@@ -2161,12 +2163,20 @@ document.querySelectorAll('.legend-group-header').forEach(h => {
 
 const legendEl = document.getElementById('legend');
 const legendBtn = document.getElementById('legend-collapse-btn');
+function collapseLegend() {
+  legendEl.style.height = legendEl.offsetHeight + 'px';
+  legendEl.classList.add('legend-collapsed');
+  legendBtn.textContent = '›';
+}
+function expandLegend() {
+  legendEl.classList.remove('legend-collapsed');
+  legendEl.style.height = '';
+  legendBtn.textContent = '‹';
+}
 legendBtn.addEventListener('click', () => {
-  const collapsed = legendEl.classList.toggle('legend-collapsed');
-  legendBtn.textContent = collapsed ? '›' : '‹';
+  legendEl.classList.contains('legend-collapsed') ? expandLegend() : collapseLegend();
 });
-legendEl.classList.add('legend-collapsed');
-legendBtn.textContent = '›';
+requestAnimationFrame(() => collapseLegend());
 
 document.getElementById('sources-toggle').addEventListener('click', () => {
   document.getElementById('sources-panel').classList.toggle('open');
