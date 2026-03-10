@@ -1460,7 +1460,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       sheetPanelH = infoPanel.offsetHeight;
       infoPanel.style.transition = 'none';
       infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
-      requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
+      requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('peek')));
     }
     mediaPanel.classList.remove('open');
     infoPanel.classList.toggle('pico', blvd.name === 'Pico Boulevard');
