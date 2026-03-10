@@ -64,7 +64,7 @@ Phase 5: Community Layer (loved places, printable boulevards)
 
 ---
 
-## 1.1 — Reframe the Hero Message
+## 1.1 ✅ — Reframe the Hero Message
 
 **Current:** "Every boulevard in Los Angeles County" — accurate but not compelling. Most users don't know why boulevards are interesting.
 
@@ -90,7 +90,7 @@ Cultural stories from LA history
 - Update the subtitle as new layers ship (add "ghost railways" once that layer is live)
 - Future: once BlvdLove.LA domain is secured, update all references
 
-## 1.2 — Show the Map Immediately
+## 1.2 ✅ — Show the Map Immediately
 
 **Current:** Users see loading state + minimal UI before the map appears.
 
@@ -104,7 +104,7 @@ Cultural stories from LA history
 - If data is still loading, show the base map first with a subtle per-layer loading indicator
 - Hero message from 1.1 can be a brief overlay that fades, or a collapsible banner — should NOT block the map
 
-## 1.3 — Layer Grouping
+## 1.3 ✅ — Layer Grouping
 
 Current toggles are a flat list. As more layers ship, group them:
 
@@ -129,7 +129,7 @@ Living City
 
 Groups should be collapsible. Move oil wells and parrots into their groups now so the structure is ready when new layers arrive. Don't show empty groups until their first layer ships.
 
-## 1.4 — Boulevard Story Card
+## 1.4 ✅ — Boulevard Story Card
 
 **Current:** Clicking a boulevard shows its name and basic info. The Jonathan Gold / Pico Boulevard editorial sidebar exists but is separate from the boulevard popup itself.
 
@@ -174,7 +174,7 @@ Featured in
 - Victory Boulevard → L.A. Taco suadero stand feature
 - Add more as editorial content is curated in Phase 2
 
-## 1.5 — Shareability
+## 1.5 ✅ — Shareability
 
 **Current:** No way to share a specific boulevard or link someone directly to it.
 
@@ -206,7 +206,7 @@ Share this boulevard →
 - Deep links make the map discoverable via social media, text, Slack, etc.
 - Without deep links, every share just dumps someone on the homepage with no context
 
-## 1.6 — Base Map Options
+## 1.6 ✅ — Base Map Options
 
 **Current:** Dark theme (already a strong default — makes data layers pop).
 
@@ -249,7 +249,7 @@ Share this boulevard →
 - Test touch targets: layer toggle icons and share buttons need to be at least 44x44px
 - Search bar should be a single-line input at the top of the screen, not a full search panel
 
-## 1.8 — Data Sources Panel
+## 1.8 ✅ — Data Sources Panel
 
 **Add a collapsible "Data Sources" section in the UI.** Urban/open data people will appreciate knowing where everything comes from. Builds credibility and invites contributions.
 

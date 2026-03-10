@@ -98,7 +98,7 @@ html, body {
 
 
 /* ── Legend ── */
-#legend { position:absolute; bottom:44px; left:20px; width:fit-content; pointer-events:auto; }
+#legend { position:absolute; bottom:44px; left:20px; width:fit-content; padding:10px 12px; pointer-events:auto; }
 #legend:not(.legend-collapsed) { position:absolute; padding-top:36px; }
 #legend:not(.legend-collapsed) #legend-collapse-btn { position:absolute; top:8px; right:10px; padding:0; margin:0; border-bottom:none; line-height:1; }
 #legend .marker-row { display:flex; align-items:center; gap:7px; font-size:13px; color:#6b7280; }
@@ -112,7 +112,7 @@ html, body {
 #parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
 #well-toggle.off   { opacity:0.35; text-decoration:line-through; }
 .legend-group + .legend-group { border-top:1px solid rgba(255,255,255,0.06); margin-top:6px; padding-top:6px; }
-.legend-group-header { display:flex; justify-content:space-between; align-items:center; font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:#4b5563; cursor:pointer; user-select:none; padding:2px 0 6px; }
+.legend-group-header { display:flex; justify-content:flex-start; gap:8px; align-items:center; font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:#4b5563; cursor:pointer; user-select:none; padding:2px 0 6px; }
 .legend-group-header:hover { color:#6b7280; }
 .lg-chevron { font-size:13px; transition:transform 0.2s; }
 .legend-group.collapsed .lg-chevron { transform:rotate(-90deg); }
@@ -707,6 +707,7 @@ path.leaflet-interactive:focus { outline:none; }
 .bm-btn.active { color:#e5e7eb; background:rgba(255,255,255,0.1); }
 .bm-btn:hover:not(.active) { color:#9ca3af; }
 #legend.legend-collapsed #basemap-switcher { border-bottom:none; margin-bottom:2px; padding-bottom:2px; }
+#legend.legend-collapsed .bm-btn { padding:3px 5px; font-size:10px; }
 </style>
 </head>
 <body>
@@ -738,7 +739,7 @@ path.leaflet-interactive:focus { outline:none; }
     <div id="legend-collapse-btn" title="Toggle labels">‹</div>
     <div id="basemap-switcher">
       <button class="bm-btn active" data-bm="dark">Dark</button>
-      <button class="bm-btn" data-bm="sat">Satellite</button>
+      <button class="bm-btn" data-bm="sat">Sat</button>
     </div>
     <div class="legend-group">
       <div class="legend-group-header">Explore <span class="lg-chevron">▾</span></div>
