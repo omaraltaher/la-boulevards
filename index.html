@@ -43,9 +43,9 @@ html, body {
 
 /* ── Title ── */
 #title { position:absolute; top:20px; left:20px; }
-#title h1 { font-size:14px; font-weight:600; letter-spacing:.03em; background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
-#title p  { font-size:11px; color:#4b5563; margin-top:3px; }
-.title-bullets { list-style:none; margin:8px 0 0; padding:0; font-size:12px; color:#6b7280; line-height:1.8; }
+#title h1 { font-size:15px; font-weight:600; letter-spacing:.03em; background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+#title p  { font-size:12px; color:#4b5563; margin-top:3px; }
+.title-bullets { list-style:none; margin:8px 0 0; padding:0; font-size:13px; color:#6b7280; line-height:1.8; }
 .title-bullets li::before { content:'·  '; color:#4b5563; }
 
 /* ── Search ── */
@@ -66,7 +66,7 @@ html, body {
   border-radius:6px;
   padding:9px 14px;
   color:#f9fafb;
-  font-size:13px;
+  font-size:14px;
   outline:none;
   font-family:inherit;
 }
@@ -87,7 +87,7 @@ html, body {
   position:absolute;
   top:62px; left:50%;
   transform:translateX(-50%);
-  font-size:11px; color:#f87171;
+  font-size:12px; color:#f87171;
   background:rgba(15,17,35,0.93);
   border:1px solid rgba(239,68,68,0.3);
   border-radius:5px;
@@ -99,7 +99,7 @@ html, body {
 
 /* ── Legend ── */
 #legend { position:absolute; bottom:44px; left:20px; min-width:175px; pointer-events:auto; }
-#legend .marker-row { display:flex; align-items:center; gap:7px; font-size:10px; color:#6b7280; }
+#legend .marker-row { display:flex; align-items:center; gap:7px; font-size:11px; color:#6b7280; }
 #legend .marker-dot  { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
 #legend .marker-line { width:16px; height:2px; border-radius:1px; flex-shrink:0; }
 #legend .blvd-legend-line { background:#e8eaf8; }
@@ -110,15 +110,15 @@ html, body {
 #parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
 #well-toggle.off   { opacity:0.35; text-decoration:line-through; }
 .legend-group + .legend-group { border-top:1px solid rgba(255,255,255,0.06); margin-top:6px; padding-top:6px; }
-.legend-group-header { display:flex; justify-content:space-between; align-items:center; font-size:10px; text-transform:uppercase; letter-spacing:.08em; color:#4b5563; cursor:pointer; user-select:none; padding:2px 0 6px; }
+.legend-group-header { display:flex; justify-content:space-between; align-items:center; font-size:11px; text-transform:uppercase; letter-spacing:.08em; color:#4b5563; cursor:pointer; user-select:none; padding:2px 0 6px; }
 .legend-group-header:hover { color:#6b7280; }
-.lg-chevron { font-size:10px; transition:transform 0.2s; }
+.lg-chevron { font-size:11px; transition:transform 0.2s; }
 .legend-group.collapsed .lg-chevron { transform:rotate(-90deg); }
 .legend-group.collapsed .legend-group-body { display:none; }
 .legend-group-body { display:flex; flex-direction:column; gap:5px; }
-.legend-sources-toggle { font-size:10px; color:#4b5563; cursor:pointer; user-select:none; pointer-events:auto; margin-top:8px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.06); }
+.legend-sources-toggle { font-size:11px; color:#4b5563; cursor:pointer; user-select:none; pointer-events:auto; margin-top:8px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.06); }
 .legend-sources-toggle:hover { color:#6b7280; }
-.legend-sources-panel { display:none; margin-top:6px; font-size:10px; color:#6b7280; line-height:1.9; }
+.legend-sources-panel { display:none; margin-top:6px; font-size:11px; color:#6b7280; line-height:1.9; }
 .legend-sources-panel.open { display:block; }
 .legend-sources-panel a { color:#9ca3af; text-decoration:none; }
 .legend-sources-panel a:hover { text-decoration:underline; }
@@ -126,13 +126,13 @@ html, body {
 
 
 /* ── Boulevard count ── */
-#count { position:absolute; bottom:20px; left:20px; font-size:10px; color:#374151; }
+#count { position:absolute; bottom:20px; left:20px; font-size:11px; color:#374151; }
 
 /* ── Loading status ── */
 #status-bar {
   position:absolute; bottom:20px; left:50%;
   transform:translateX(-50%);
-  font-size:10px; color:#4b5563;
+  font-size:11px; color:#4b5563;
   background:rgba(15,17,35,0.85);
   border:1px solid rgba(255,255,255,0.06);
   border-radius:5px; padding:4px 12px;
@@ -146,7 +146,7 @@ html, body {
   position:absolute;
   top:50%; left:50%;
   transform:translate(-50%,-50%);
-  text-align:center; color:#6b7280; font-size:13px;
+  text-align:center; color:#6b7280; font-size:14px;
 }
 #loading .spin {
   width:28px; height:28px;
@@ -333,19 +333,19 @@ path.leaflet-interactive:focus { outline:none; }
 /* ── Info panel art section ── */
 #info-art { display:none; margin-top:16px; }
 #info-art-title {
-  font-size:10px; color:rgba(255,0,200,0.85);
+  font-size:11px; color:rgba(255,0,200,0.85);
   text-transform:uppercase; letter-spacing:.08em;
   margin-bottom:8px;
 }
 .art-item {
   padding:8px 0;
   border-bottom:1px solid rgba(255,255,255,0.05);
-  font-size:13px;
+  font-size:14px;
 }
 .art-item:last-child { border-bottom:none; }
 .art-item-name { color:rgba(255,0,200,0.85); font-weight:500; }
-.art-item-artist { color:#9ca3af; font-size:12px; margin-top:2px; }
-.art-item-desc { color:#6b7280; font-size:11px; margin-top:2px; }
+.art-item-artist { color:#9ca3af; font-size:13px; margin-top:2px; }
+.art-item-desc { color:#6b7280; font-size:12px; margin-top:2px; }
 
 .leaflet-control-zoom {
   border:none !important;
@@ -385,7 +385,7 @@ path.leaflet-interactive:focus { outline:none; }
 #autocomplete-list.open { display:block; }
 .ac-item {
   padding:9px 14px;
-  font-size:12px;
+  font-size:13px;
   color:#9ca3af;
   cursor:pointer;
   border-bottom:1px solid rgba(255,255,255,0.05);
@@ -395,7 +395,7 @@ path.leaflet-interactive:focus { outline:none; }
 .ac-item:hover, .ac-item.active { background:rgba(6,182,212,0.15); color:#e0e4ef; }
 .ac-item b { color:#f9fafb; font-weight:500; }
 .ac-tag {
-  display:inline-block; font-size:9px; font-weight:600;
+  display:inline-block; font-size:10px; font-weight:600;
   text-transform:uppercase; letter-spacing:.06em;
   padding:1px 5px; border-radius:3px; margin-right:6px;
   background:rgba(167,139,250,0.15); color:#a78bfa;
@@ -412,8 +412,8 @@ path.leaflet-interactive:focus { outline:none; }
   pointer-events:none;
 }
 .blvd-tip::before { display:none !important; }
-.blvd-tip b   { display:block; font-size:13px; font-weight:600; color:#f9fafb; }
-.blvd-tip span { display:block; font-size:11px; color:#6b7280; margin-top:2px; }
+.blvd-tip b   { display:block; font-size:14px; font-weight:600; color:#f9fafb; }
+.blvd-tip span { display:block; font-size:12px; color:#6b7280; margin-top:2px; }
 
 /* ── Info panel ── */
 #info-panel {
@@ -457,7 +457,7 @@ path.leaflet-interactive:focus { outline:none; }
   background:linear-gradient(to right, transparent, rgba(245,158,11,0.65), transparent) no-repeat center / 100% 1px;
 }
 #gold-tribute .gold-credit {
-  font-size:10px;
+  font-size:11px;
   color:rgba(245,158,11,0.45);
   text-align:center;
   letter-spacing:.1em;
@@ -467,7 +467,7 @@ path.leaflet-interactive:focus { outline:none; }
   display:block;
   text-align:center;
   margin-top:5px;
-  font-size:10px;
+  font-size:11px;
   color:rgba(245,158,11,0.35);
   text-decoration:none;
   letter-spacing:.04em;
@@ -500,17 +500,17 @@ path.leaflet-interactive:focus { outline:none; }
 #info-body::-webkit-scrollbar-track { background:transparent; }
 #info-body::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:2px; }
 #info-header { margin-bottom:6px; }
-#info-name { font-size:20px; font-weight:700; color:#f9fafb; line-height:1.2; padding-right:28px; }
+#info-name { font-size:22px; font-weight:700; color:#f9fafb; line-height:1.2; padding-right:28px; }
 #info-close {
   position:absolute; top:10px; right:12px;
   background:none; border:none; color:#e8eaf8;
-  font-size:22px; cursor:pointer; padding:0; line-height:1;
+  font-size:24px; cursor:pointer; padding:0; line-height:1;
   z-index:10;
 }
 #info-close:hover { color:#e0e4ef; }
-#info-meta { font-size:13px; color:#6b7280; margin-bottom:16px; }
+#info-meta { font-size:14px; color:#6b7280; margin-bottom:16px; }
 #info-extract {
-  font-size:14px; color:#9ca3af; line-height:1.7;
+  font-size:15px; color:#9ca3af; line-height:1.7;
   margin-bottom:16px;
 }
 #photos-strip {
@@ -535,7 +535,7 @@ path.leaflet-interactive:focus { outline:none; }
 #photos-strip img:hover { opacity:1; }
 
 #info-wiki {
-  font-size:13px; color:#67e8f9;
+  font-size:14px; color:#67e8f9;
   text-decoration:none; display:none;
 }
 #info-wiki:hover { text-decoration:underline; }
@@ -545,7 +545,7 @@ path.leaflet-interactive:focus { outline:none; }
   border:1px solid rgba(103,232,249,0.2);
   border-radius:6px;
   padding:10px 14px;
-  color:#67e8f9; font-size:13px;
+  color:#67e8f9; font-size:14px;
   cursor:pointer; width:100%; text-align:left;
   font-family:inherit;
 }
@@ -569,10 +569,10 @@ path.leaflet-interactive:focus { outline:none; }
   display:flex; justify-content:space-between; align-items:center;
   margin-bottom:18px;
 }
-#media-title { font-size:16px; font-weight:600; color:#f9fafb; }
+#media-title { font-size:17px; font-weight:600; color:#f9fafb; }
 #media-close {
   background:none; border:none; color:#e8eaf8;
-  font-size:22px; cursor:pointer; padding:0; line-height:1;
+  font-size:24px; cursor:pointer; padding:0; line-height:1;
 }
 #media-close:hover { color:#e0e4ef; }
 #media-list {
@@ -584,12 +584,12 @@ path.leaflet-interactive:focus { outline:none; }
 #media-list::-webkit-scrollbar-track { background:transparent; }
 #media-list::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:2px; }
 #media-list li {
-  font-size:13px; color:#9ca3af; line-height:1.6;
+  font-size:14px; color:#9ca3af; line-height:1.6;
   padding:9px 0; border-bottom:1px solid rgba(255,255,255,0.05);
 }
 #media-list li:last-child { border-bottom:none; }
 .media-type {
-  display:inline-block; font-size:9px; font-weight:600;
+  display:inline-block; font-size:10px; font-weight:600;
   text-transform:uppercase; letter-spacing:.06em;
   padding:1px 6px; border-radius:3px; margin-right:6px;
   background:rgba(103,232,249,0.1); color:#67e8f9;
@@ -659,7 +659,7 @@ path.leaflet-interactive:focus { outline:none; }
   #sheet-handle { display: flex; }
   #info-img { height: 150px; }
   #info-body { padding: 0 18px 24px; overflow-y: auto; }
-  #info-name { font-size: 17px; }
+  #info-name { font-size:18px; }
 
   /* Popups: never wider than screen */
   .leaflet-popup      { max-width: calc(100vw - 20px) !important; }
@@ -1490,7 +1490,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   window._onCamError = img => {
     if (img.parentNode) img.parentNode.innerHTML =
       '<div style="height:80px;display:flex;align-items:center;justify-content:center;' +
-      'color:#4b5563;font-size:12px;">Temporarily unavailable</div>';
+      'color:#4b5563;font-size:13px;">Temporarily unavailable</div>';
   };
 
   (async function loadCameras() {
@@ -1554,8 +1554,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           `<div style="width:300px;">` +
           `<div id="${wrapId}" style="background:#111827;min-height:80px;">${mkImg(bust())}</div>` +
           `<div style="padding:10px 14px 12px;">` +
-          `<div style="font-size:12px;font-weight:600;color:#f9fafb;">${name}</div>` +
-          `<div style="font-size:10px;color:#4b5563;margin-top:3px;">Live · refreshes every 2 min</div>` +
+          `<div style="font-size:13px;font-weight:600;color:#f9fafb;">${name}</div>` +
+          `<div style="font-size:11px;color:#4b5563;margin-top:3px;">Live · refreshes every 2 min</div>` +
           `</div></div>`;
 
         L.popup({ className: 'cam-popup', closeButton: true, maxWidth: 320, autoPan: true })
@@ -1630,11 +1630,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           }
           const html =
             `<div style="padding:14px 16px;width:260px;">` +
-            `<div style="font-size:13px;font-weight:600;color:rgba(255,0,200,0.85);margin-bottom:4px;">${art.title}</div>` +
-            (art.artist  ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:4px;">${art.artist}</div>` : '') +
-            (art.desc    ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${art.desc}</div>` : '') +
-            (art.address ? `<div style="font-size:10px;color:#374151;margin-bottom:6px;">${art.address}</div>` : '') +
-            (art.commonsUrl ? `<a href="${art.commonsUrl}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(255,0,200,0.6);">More info →</a>` : '') +
+            `<div style="font-size:14px;font-weight:600;color:rgba(255,0,200,0.85);margin-bottom:4px;">${art.title}</div>` +
+            (art.artist  ? `<div style="font-size:13px;color:#9ca3af;margin-bottom:4px;">${art.artist}</div>` : '') +
+            (art.desc    ? `<div style="font-size:12px;color:#6b7280;margin-bottom:4px;">${art.desc}</div>` : '') +
+            (art.address ? `<div style="font-size:11px;color:#374151;margin-bottom:6px;">${art.address}</div>` : '') +
+            (art.commonsUrl ? `<a href="${art.commonsUrl}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(255,0,200,0.6);">More info →</a>` : '') +
             `</div>`;
           L.popup({ className: 'art-popup', closeButton: true, maxWidth: 320, autoPan: true })
             .setLatLng([item.lat, item.lon]).setContent(html).openOn(map);
@@ -1741,10 +1741,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
       const html =
         `<div style="padding:16px 18px;width:280px;">` +
-        `<div style="font-size:11px;color:#f59e0b;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">Jonathan Gold</div>` +
-        `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:10px;">${resto.name}</div>` +
-        `<div style="font-size:13px;color:#9ca3af;line-height:1.6;font-style:italic;margin-bottom:8px;">"${resto.quote}"</div>` +
-        `<div style="font-size:10px;color:#4b5563;">— ${resto.source} · ${resto.address}</div>` +
+        `<div style="font-size:12px;color:#f59e0b;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">Jonathan Gold</div>` +
+        `<div style="font-size:15px;font-weight:600;color:#f9fafb;margin-bottom:10px;">${resto.name}</div>` +
+        `<div style="font-size:14px;color:#9ca3af;line-height:1.6;font-style:italic;margin-bottom:8px;">"${resto.quote}"</div>` +
+        `<div style="font-size:11px;color:#4b5563;">— ${resto.source} · ${resto.address}</div>` +
         `</div>`;
 
       L.popup({ className: 'gold-popup', closeButton: true, maxWidth: 320, autoPan: true })
@@ -1788,10 +1788,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           }
           const html =
             `<div style="padding:16px 18px;width:290px;">` +
-            `<div style="font-size:10px;background:linear-gradient(to right,#a855f7,#ec4899,#f97316,#ec4899,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">${spot.category}</div>` +
-            `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:10px;padding-right:16px;">${spot.name}</div>` +
-            `<div style="font-size:13px;color:#9ca3af;line-height:1.65;margin-bottom:10px;">${spot.desc}</div>` +
-            `<a href="${spot.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.8);text-decoration:none;">Learn more →</a>` +
+            `<div style="font-size:11px;background:linear-gradient(to right,#a855f7,#ec4899,#f97316,#ec4899,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">${spot.category}</div>` +
+            `<div style="font-size:15px;font-weight:600;color:#f9fafb;margin-bottom:10px;padding-right:16px;">${spot.name}</div>` +
+            `<div style="font-size:14px;color:#9ca3af;line-height:1.65;margin-bottom:10px;">${spot.desc}</div>` +
+            `<a href="${spot.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(192,132,252,0.8);text-decoration:none;">Learn more →</a>` +
             `</div>`;
           L.popup({ className: 'sunset-popup', closeButton: true, maxWidth: 330, autoPan: true })
             .setLatLng([spot.lat, spot.lon])
@@ -1847,9 +1847,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           if (isWiltern) {
             const loadingHtml =
               `<div style="padding:14px 16px;width:268px;">` +
-              `<div style="font-size:10px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
-              `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:10px;">The Wiltern</div>` +
-              `<div style="font-size:11px;color:#4b5563;">Loading events…</div>` +
+              `<div style="font-size:11px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
+              `<div style="font-size:15px;font-weight:600;color:#f9fafb;margin-bottom:10px;">The Wiltern</div>` +
+              `<div style="font-size:12px;color:#4b5563;">Loading events…</div>` +
               `</div>`;
             const popup = L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 310, autoPan: true, autoPanPaddingTopLeft: L.point(20, 130) })
               .setLatLng([lat, lon]).setContent(loadingHtml).openOn(map);
@@ -1875,22 +1875,22 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
                     `<div style="margin-bottom:12px;display:flex;gap:10px;align-items:flex-start;">` +
                     (ev.image ? `<img src="${ev.image}" style="width:52px;height:52px;object-fit:cover;border-radius:4px;flex-shrink:0;" loading="lazy"/>` : '') +
                     `<div>` +
-                    `<div style="font-size:11px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#6b7280'};margin-bottom:2px;">${dateLabel}</div>` +
-                    `<div style="font-size:13px;color:#e0e4ef;margin-bottom:3px;">${ev.name}</div>` +
-                    `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:10px;color:rgba(192,132,252,0.7);text-decoration:none;">Tickets →</a>` +
+                    `<div style="font-size:12px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#6b7280'};margin-bottom:2px;">${dateLabel}</div>` +
+                    `<div style="font-size:14px;color:#e0e4ef;margin-bottom:3px;">${ev.name}</div>` +
+                    `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;">Tickets →</a>` +
                     `</div></div>`;
                 }
-                if (!evHtml) evHtml = `<div style="font-size:11px;color:#4b5563;">No upcoming events found.</div>`;
+                if (!evHtml) evHtml = `<div style="font-size:12px;color:#4b5563;">No upcoming events found.</div>`;
 
                 let wikiLink = '';
                 if (wikipedia) {
                   const [lang, title] = wikipedia.split(':', 2);
-                  wikiLink = `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.45);text-decoration:none;">Wikipedia →</a>`;
+                  wikiLink = `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(192,132,252,0.45);text-decoration:none;">Wikipedia →</a>`;
                 }
                 popup.setContent(
                   `<div style="padding:14px 16px;width:268px;">` +
-                  `<div style="font-size:10px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
-                  `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:12px;">The Wiltern</div>` +
+                  `<div style="font-size:11px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
+                  `<div style="font-size:15px;font-weight:600;color:#f9fafb;margin-bottom:12px;">The Wiltern</div>` +
                   evHtml +
                   (wikiLink ? `<div style="margin-top:4px;border-top:1px solid rgba(255,255,255,0.06);padding-top:8px;">${wikiLink}</div>` : '') +
                   `</div>`
@@ -1898,8 +1898,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
               } catch(e) {
                 popup.setContent(
                   `<div style="padding:14px 16px;width:268px;">` +
-                  `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:8px;">The Wiltern</div>` +
-                  `<div style="font-size:11px;color:#4b5563;">Couldn't load events.</div>` +
+                  `<div style="font-size:15px;font-weight:600;color:#f9fafb;margin-bottom:8px;">The Wiltern</div>` +
+                  `<div style="font-size:12px;color:#4b5563;">Couldn't load events.</div>` +
                   `</div>`
                 );
               }
@@ -1911,16 +1911,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           let links = '';
           if (wikipedia) {
             const [lang, title] = wikipedia.split(':', 2);
-            links += `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;margin-right:10px;">Wikipedia →</a>`;
+            links += `<a href="https://${lang}.wikipedia.org/wiki/${encodeURIComponent(title)}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(192,132,252,0.7);text-decoration:none;margin-right:10px;">Wikipedia →</a>`;
           }
           if (website) {
-            links += `<a href="${website}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;">Website →</a>`;
+            links += `<a href="${website}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(192,132,252,0.7);text-decoration:none;">Website →</a>`;
           }
           const html =
             `<div style="padding:14px 16px;width:240px;">` +
-            `<div style="font-size:10px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
-            `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${address || links ? '8px' : '0'};">${name}</div>` +
-            (address ? `<div style="font-size:11px;color:#6b7280;margin-bottom:${links ? '8px' : '0'};">${address}</div>` : '') +
+            `<div style="font-size:11px;color:rgba(192,132,252,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">Theatre</div>` +
+            `<div style="font-size:15px;font-weight:600;color:#f9fafb;margin-bottom:${address || links ? '8px' : '0'};">${name}</div>` +
+            (address ? `<div style="font-size:12px;color:#6b7280;margin-bottom:${links ? '8px' : '0'};">${address}</div>` : '') +
             (links ? `<div>${links}</div>` : '') +
             `</div>`;
           L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 280, autoPan: true })
@@ -1964,7 +1964,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function makeParrotClusterIcon(n) {
     return L.divIcon({
-      html: `<div style="position:relative;width:15px;height:22px;">${parrotSvgHtml(15, 22)}<div style="position:absolute;top:-5px;right:-8px;background:#4d7c0f;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#d9f99d;line-height:1;">${n}</div></div>`,
+      html: `<div style="position:relative;width:15px;height:22px;">${parrotSvgHtml(15, 22)}<div style="position:absolute;top:-5px;right:-8px;background:#4d7c0f;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#d9f99d;line-height:1;">${n}</div></div>`,
       className: '', iconSize: [15, 22], iconAnchor: [7, 22]
     });
   }
@@ -1977,11 +1977,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         : '';
       const html =
         `<div style="padding:12px 14px;width:220px;">` +
-        `<div style="font-size:10px;color:rgba(163,230,53,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Wild Parrot 🦜</div>` +
-        `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${p.species}</div>` +
-        (dateStr ? `<div style="font-size:11px;color:#6b7280;margin-bottom:8px;">Spotted ${dateStr}</div>` : '') +
+        `<div style="font-size:11px;color:rgba(163,230,53,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Wild Parrot 🦜</div>` +
+        `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${p.species}</div>` +
+        (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">Spotted ${dateStr}</div>` : '') +
         (p.photo ? `<img src="${p.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
-        `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(163,230,53,0.7);text-decoration:none;">iNaturalist →</a>` +
+        `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(163,230,53,0.7);text-decoration:none;">iNaturalist →</a>` +
         `</div>`;
       L.popup({ className: 'parrot-popup', closeButton: true, maxWidth: 260, autoPan: true })
         .setLatLng([p.lat, p.lon]).setContent(html).openOn(map);
@@ -2068,7 +2068,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function makeWellClusterIcon(n) {
     return L.divIcon({
-      html: `<div style="position:relative;width:22px;height:32px;">${wellSvgHtml(22, 32)}<div style="position:absolute;top:-5px;right:-8px;background:#b45309;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fef3c7;line-height:1;">${n}</div></div>`,
+      html: `<div style="position:relative;width:22px;height:32px;">${wellSvgHtml(22, 32)}<div style="position:absolute;top:-5px;right:-8px;background:#b45309;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fef3c7;line-height:1;">${n}</div></div>`,
       className: '', iconSize: [22, 32], iconAnchor: [11, 32]
     });
   }
@@ -2077,13 +2077,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     marker.on('click', () => {
       const html =
         `<div style="padding:12px 14px;width:230px;">` +
-        `<div style="font-size:10px;color:#ef4444;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">🛢️ Active Oil Well</div>` +
-        (w.field    ? `<div style="font-size:13px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${w.field}</div>` : '') +
-        (w.operator ? `<div style="font-size:11px;color:#9ca3af;margin-bottom:4px;">${w.operator}</div>` : '') +
-        (w.type     ? `<div style="font-size:11px;color:#6b7280;margin-bottom:4px;">${w.type}</div>` : '') +
-        (w.blvd     ? `<div style="font-size:10px;color:#4b5563;margin-bottom:8px;">Near ${w.blvd}</div>` : '') +
-        (w.photo    ? `<a href="https://www.mapillary.com/app?pKey=${w.photo}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(180,83,9,0.8);text-decoration:none;display:block;margin-bottom:6px;">📷 Street view →</a>` : '') +
-        (w.api      ? `<a href="https://maps.conservation.ca.gov/calgem/findwells/" target="_blank" rel="noopener" style="font-size:11px;color:rgba(180,83,9,0.8);text-decoration:none;">CalGEM API #${w.api} →</a>` : '') +
+        `<div style="font-size:11px;color:#ef4444;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">🛢️ Active Oil Well</div>` +
+        (w.field    ? `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${w.field}</div>` : '') +
+        (w.operator ? `<div style="font-size:12px;color:#9ca3af;margin-bottom:4px;">${w.operator}</div>` : '') +
+        (w.type     ? `<div style="font-size:12px;color:#6b7280;margin-bottom:4px;">${w.type}</div>` : '') +
+        (w.blvd     ? `<div style="font-size:11px;color:#4b5563;margin-bottom:8px;">Near ${w.blvd}</div>` : '') +
+        (w.photo    ? `<a href="https://www.mapillary.com/app?pKey=${w.photo}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(180,83,9,0.8);text-decoration:none;display:block;margin-bottom:6px;">📷 Street view →</a>` : '') +
+        (w.api      ? `<a href="https://maps.conservation.ca.gov/calgem/findwells/" target="_blank" rel="noopener" style="font-size:12px;color:rgba(180,83,9,0.8);text-decoration:none;">CalGEM API #${w.api} →</a>` : '') +
         `</div>`;
       L.popup({ className: 'well-popup', closeButton: true, maxWidth: 280, autoPan: true })
         .setLatLng([w.lat, w.lon]).setContent(html).openOn(map);
