@@ -1939,10 +1939,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         const icon = L.divIcon({
           className: '',
           html: isWiltern
-            ? `<svg class="wiltern-heart" xmlns="http://www.w3.org/2000/svg" width="28" height="26" viewBox="0 0 28 26"><path d="M14,24 C10,20 1,16 1,9.5 C1,5.5 4,2 7.5,2 C10,2 12.2,3.5 14,6.5 C15.8,3.5 18,2 20.5,2 C24,2 27,5.5 27,9.5 C27,16 18,20 14,24 Z"/></svg>`
+            ? `<svg class="wiltern-heart" xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 28 26"><path d="M14,24 C10,20 1,16 1,9.5 C1,5.5 4,2 7.5,2 C10,2 12.2,3.5 14,6.5 C15.8,3.5 18,2 20.5,2 C24,2 27,5.5 27,9.5 C27,16 18,20 14,24 Z"/></svg>`
             : `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 16 20"><path d="M1,1 Q8,4.5 15,1" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M8,1 Q8.5,4 8,7" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M1,1 L1,17 Q4.5,13 4.5,9 Q4.5,5 1,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><path d="M15,1 L15,17 Q11.5,13 11.5,9 Q11.5,5 15,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="1" y1="10.5" x2="5" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="15" y1="10.5" x2="11" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="1" y1="19" x2="15" y2="19" stroke="#c084fc" stroke-width="1.2" stroke-linecap="round"/></svg>`,
-          iconSize: isWiltern ? [28, 26] : [13, 16],
-          iconAnchor: isWiltern ? [14, 24] : [6, 16]
+          iconSize: isWiltern ? [20, 18] : [13, 16],
+          iconAnchor: isWiltern ? [10, 17] : [6, 16]
         });
 
         const marker = L.marker([lat, lon], { icon, zIndexOffset: isWiltern ? 300 : 120 });
