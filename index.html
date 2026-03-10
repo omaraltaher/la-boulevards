@@ -118,10 +118,11 @@ html, body {
 .legend-group-body { display:flex; flex-direction:column; gap:5px; }
 #legend-collapse-btn { font-size:11px; color:#ec4899; cursor:pointer; user-select:none; text-align:left; padding-bottom:5px; margin-bottom:3px; border-bottom:1px solid rgba(255,255,255,0.06); }
 #legend-collapse-btn:hover { color:#f97316; }
-#legend.legend-collapsed { overflow:hidden; }
+#legend.legend-collapsed { width:fit-content; min-width:0; }
 #legend.legend-collapsed .legend-group-header { display:none; }
 #legend.legend-collapsed .marker-row span { display:none; }
 #legend.legend-collapsed .legend-group + .legend-group { border-top:none; margin-top:2px; padding-top:0; }
+#legend.legend-collapsed .legend-group-body { gap:6px; }
 #legend.legend-collapsed .legend-group.collapsed .legend-group-body { display:flex; }
 #legend.legend-collapsed .legend-sources-toggle,
 #legend.legend-collapsed .legend-sources-panel { display:none; }
@@ -2163,20 +2164,12 @@ document.querySelectorAll('.legend-group-header').forEach(h => {
 
 const legendEl = document.getElementById('legend');
 const legendBtn = document.getElementById('legend-collapse-btn');
-function collapseLegend() {
-  legendEl.style.height = legendEl.offsetHeight + 'px';
-  legendEl.classList.add('legend-collapsed');
-  legendBtn.textContent = '›';
-}
-function expandLegend() {
-  legendEl.classList.remove('legend-collapsed');
-  legendEl.style.height = '';
-  legendBtn.textContent = '‹';
-}
 legendBtn.addEventListener('click', () => {
-  legendEl.classList.contains('legend-collapsed') ? expandLegend() : collapseLegend();
+  const collapsed = legendEl.classList.toggle('legend-collapsed');
+  legendBtn.textContent = collapsed ? '›' : '‹';
 });
-requestAnimationFrame(() => collapseLegend());
+legendEl.classList.add('legend-collapsed');
+legendBtn.textContent = '›';
 
 document.getElementById('sources-toggle').addEventListener('click', () => {
   document.getElementById('sources-panel').classList.toggle('open');
