@@ -836,12 +836,13 @@ const map = L.map('map', {
   dragging: true,
   touchZoom: true,
   keyboard: true,
+  preferCanvas: true,
 });
 map.zoomControl.setPosition('bottomright');
 
 const TILE_LAYERS = {
-  dark:  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', { attribution:'© <a href="https://carto.com/">CARTO</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>', subdomains:'abcd', maxZoom:19 }),
-  sat:   L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution:'© Esri', maxZoom:19 })
+  dark:  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', { attribution:'© <a href="https://carto.com/">CARTO</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>', subdomains:'abcd', maxZoom:19, updateWhenIdle: true, keepBuffer: 1 }),
+  sat:   L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution:'© Esri', maxZoom:19, updateWhenIdle: true, keepBuffer: 1 })
 };
 const _savedBm = localStorage.getItem('blvd-basemap') || 'dark';
 let currentTileLayer = (TILE_LAYERS[_savedBm] || TILE_LAYERS.dark).addTo(map);
@@ -982,14 +983,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   function applyHighlight(blvd) {
-    boulevards.forEach(b => {
-      const active = b === blvd;
-      b.lines.forEach(l => l.setStyle({
-        opacity: active ? Math.max(b.opacity, 0.9) : b.isPico ? Math.max(b.opacity, 0.75) : b.isSunset ? 0.6 : 0.06,
-        weight:  active ? Math.max(b.weight, 2.0)  : b.isPico ? Math.max(b.weight, 1.8)  : b.isSunset ? 1.6 : 0.6
-      }));
-    });
     updateOverlayMarkers(blvd);
+    requestAnimationFrame(() => {
+      boulevards.forEach(b => {
+        const active = b === blvd;
+        b.lines.forEach(l => l.setStyle({
+          opacity: active ? Math.max(b.opacity, 0.9) : b.isPico ? Math.max(b.opacity, 0.75) : b.isSunset ? 0.6 : 0.06,
+          weight:  active ? Math.max(b.weight, 2.0)  : b.isPico ? Math.max(b.weight, 1.8)  : b.isSunset ? 1.6 : 0.6
+        }));
+      });
+    });
   }
 
   function nearestKm(lat, lon, blvd) {
@@ -1003,25 +1006,32 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function applyProximity(lat, lon) {
     pinLat = lat; pinLon = lon;
-    boulevards.forEach(blvd => {
+    const updates = boulevards.map(blvd => {
       const d = nearestKm(lat, lon, blvd);
       const near = d <= NEARBY_KM;
       const distMi = (d * 0.621371).toFixed(1);
       const tip = near
         ? `<b>${blvd.name}</b><span>${blvd.mi} mi &nbsp;·&nbsp; <span style="color:#818cf8">${distMi} mi away</span></span>`
         : `<b>${blvd.name}</b><span>${blvd.mi} mi</span>`;
-      blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : blvd.isPico ? 0.75 : blvd.isSunset ? 0.6 : 0.07, weight: near ? 2 : blvd.isPico ? 1.8 : blvd.isSunset ? 1.6 : 1 }));
       blvd.hits.forEach(l => l.setTooltipContent(tip));
+      return { blvd, near };
+    });
+    requestAnimationFrame(() => {
+      updates.forEach(({ blvd, near }) => {
+        blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : blvd.isPico ? 0.75 : blvd.isSunset ? 0.6 : 0.07, weight: near ? 2 : blvd.isPico ? 1.8 : blvd.isSunset ? 1.6 : 1 }));
+      });
     });
   }
 
   function resetProximity() {
-    boulevards.forEach(blvd => {
-      blvd.lines.forEach(l => l.setStyle({
-        opacity: blvd.isPico ? Math.max(blvd.opacity, 0.75) : blvd.opacity,
-        weight:  blvd.isPico ? Math.max(blvd.weight, 1.8)  : blvd.weight
-      }));
-      blvd.hits.forEach(l => l.setTooltipContent(blvd.tip));
+    boulevards.forEach(blvd => blvd.hits.forEach(l => l.setTooltipContent(blvd.tip)));
+    requestAnimationFrame(() => {
+      boulevards.forEach(blvd => {
+        blvd.lines.forEach(l => l.setStyle({
+          opacity: blvd.isPico ? Math.max(blvd.opacity, 0.75) : blvd.opacity,
+          weight:  blvd.isPico ? Math.max(blvd.weight, 1.8)  : blvd.weight
+        }));
+      });
     });
   }
 
@@ -2154,8 +2164,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   }
 
-  map.on('zoomend', () => { pinnedParrots.clear(); reclusterParrots(); });
-
   (async function loadParrots() {
     try {
       const res = await fetch('parrots.json');
@@ -2256,7 +2264,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   }
 
-  map.on('zoomend', () => { pinnedWells.clear(); reclusterWells(); });
+  let _reclusterTimer;
+  map.on('zoomend', () => {
+    pinnedParrots.clear();
+    pinnedWells.clear();
+    clearTimeout(_reclusterTimer);
+    _reclusterTimer = setTimeout(() => { reclusterParrots(); reclusterWells(); }, 200);
+  });
 
   (async function loadWells() {
     try {
