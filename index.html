@@ -634,11 +634,11 @@ path.leaflet-interactive:focus { outline:none; }
 /* ── Mobile ── */
 @media (max-width: 640px) {
 
-  /* Search: stretch full width (title is hidden on mobile) */
+  /* Search: top right */
   #search-wrap {
-    left: 16px;
+    left: auto;
     right: 16px;
-    width: auto;
+    width: 55%;
     transform: none;
   }
   #search-error {
@@ -670,9 +670,9 @@ path.leaflet-interactive:focus { outline:none; }
   #legend { bottom: 24px; left: 12px; }
   #count  { bottom: 8px;  left: 12px; }
 
-  /* Title: move below search bar, hide bullets to keep it compact */
-  #title { top: 68px; left: 16px; right: 16px; }
-  .title-bullets { display: none; }
+  /* Title: top left, compact */
+  #title { top: 20px; left: 16px; max-width: 38%; }
+  #title p, .title-bullets { display: none; }
 }
 </style>
 </head>
