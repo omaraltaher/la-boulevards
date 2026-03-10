@@ -668,7 +668,7 @@ path.leaflet-interactive:focus { outline:none; }
   }
   #sheet-handle { display: flex; }
   #info-img { height: 150px; }
-  #info-body { padding: 0 18px 24px; overflow-y: auto; }
+  #info-body { padding: 0 18px calc(24px + env(safe-area-inset-bottom, 0px)); overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
   #info-name { font-size:18px; }
 
   /* Popups: never wider than screen */
@@ -1290,6 +1290,26 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   attachSheetDrag(sheetHandle);
   attachSheetDrag(document.getElementById('info-header'));
 
+  // On info-body: swipe up expands panel when not full; swipe down collapses when scrolled to top
+  const infoBodyEl = document.getElementById('info-body');
+  let bodyDragStartY = null;
+  infoBodyEl.addEventListener('touchstart', e => {
+    if (!isMobile()) return;
+    bodyDragStartY = e.touches[0].clientY;
+  }, { passive: true });
+  infoBodyEl.addEventListener('touchend', e => {
+    if (!isMobile() || bodyDragStartY === null) return;
+    const dy = e.changedTouches[0].clientY - bodyDragStartY;
+    const order = ['full', 'half', 'peek'];
+    const idx = order.indexOf(sheetState);
+    if (dy < -60 && sheetState !== 'full') {
+      setSheetState(order[Math.max(0, idx - 1)]);
+    } else if (dy > 60 && sheetState !== 'peek' && infoBodyEl.scrollTop === 0) {
+      setSheetState(order[Math.min(order.length - 1, idx + 1)]);
+    }
+    bodyDragStartY = null;
+  }, { passive: true });
+
   const wikiCache   = {};
 
   async function fetchWiki(name) {
@@ -1440,7 +1460,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       sheetPanelH = infoPanel.offsetHeight;
       infoPanel.style.transition = 'none';
       infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
-      requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('peek')));
+      requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
     }
     mediaPanel.classList.remove('open');
     infoPanel.classList.toggle('pico', blvd.name === 'Pico Boulevard');
