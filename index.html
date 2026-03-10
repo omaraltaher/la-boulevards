@@ -4,6 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>LA County Boulevards</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230f1123'/><path d='M16 4C10.5 4 6 8.5 6 14c0 6 10 14 10 14s10-8 10-14C26 8.5 21.5 4 16 4z' fill='%23ec4899'/><circle cx='16' cy='14' r='3.5' fill='%230f1123'/></svg>"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
@@ -849,10 +850,19 @@ let currentTileLayer = (TILE_LAYERS[_savedBm] || TILE_LAYERS.dark).addTo(map);
 
 // ── Color scale (percentile rank 0–1) ──────────────────────
 // ── Haversine (km) ─────────────────────────────────────────
-// On mobile the title+search bar occupies ~64px from the top; keep popups below it.
-function popupPad() {
-  return window.innerWidth <= 640 ? { autoPanPaddingTopLeft: L.point(10, 72) } : {};
-}
+// On mobile, pan the map after any popup opens so it clears the title+search bar overlay.
+const MOBILE_HEADER_H = 80; // px — title+search bar bottom edge on mobile
+map.on('popupopen', e => {
+  if (window.innerWidth > 640) return;
+  requestAnimationFrame(() => {
+    const el = e.popup.getElement();
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    if (rect.top < MOBILE_HEADER_H) {
+      map.panBy([0, rect.top - MOBILE_HEADER_H - 8]);
+    }
+  });
+});
 
 function hav(lat1, lon1, lat2, lon2) {
   const R = 6371, dLat = (lat2-lat1)*Math.PI/180, dLon = (lon2-lon1)*Math.PI/180;
@@ -1692,7 +1702,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           `<div id="${wrapId}" style="background:#111827;min-height:80px;">${mkImg(bust())}</div>` +
           `<div style="padding:10px 14px 12px;">` +
           `<div style="font-size:13px;font-weight:600;color:#f9fafb;">${name}</div>` +
-          `<div style="font-size:11px;color:#4b5563;margin-top:3px;">Live · refreshes every 2 min</div>` +
+          `<div style="font-size:11px;color:#6b7280;margin-top:3px;">Live · refreshes every 2 min</div>` +
           `</div></div>`;
 
         L.popup({ className: 'cam-popup', closeButton: true, maxWidth: 320, autoPan: true, ...popupPad() })
