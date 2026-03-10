@@ -2269,14 +2269,20 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   if (_deepParam) {
     const _deepTarget = boulevards.find(b => b.name.toLowerCase() === _deepParam.toLowerCase());
     if (_deepTarget) {
+      selectedBlvd = _deepTarget;
+      applyHighlight(_deepTarget);
+      showInfo(_deepTarget); // sets sheetPanelH on mobile
       const _allPts = _deepTarget.segs.flat();
       if (_allPts.length) {
         const _lats = _allPts.map(p => p[0]), _lons = _allPts.map(p => p[1]);
-        map.fitBounds([[Math.min(..._lats), Math.min(..._lons)], [Math.max(..._lats), Math.max(..._lons)]], { padding: [40, 40] });
+        const _bottomPad = isMobile() ? Math.round(sheetPanelH * 0.62) + 24 : 40;
+        const _rightPad  = isMobile() ? 40 : 460;
+        map.fitBounds(
+          [[Math.min(..._lats), Math.min(..._lons)], [Math.max(..._lats), Math.max(..._lons)]],
+          { paddingTopLeft: [40, 40], paddingBottomRight: [_rightPad, _bottomPad] }
+        );
       }
-      selectedBlvd = _deepTarget;
-      applyHighlight(_deepTarget);
-      showInfo(_deepTarget);
+      if (isMobile()) setTimeout(() => setSheetState('half'), 50);
     }
   }
 
