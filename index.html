@@ -2258,8 +2258,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   if (_deepParam) {
     const _deepTarget = boulevards.find(b => b.name.toLowerCase() === _deepParam.toLowerCase());
     if (_deepTarget) {
-      const _seg = _deepTarget.segs[0];
-      if (_seg?.length) map.setView(_seg[Math.floor(_seg.length / 2)], 14);
+      const _allPts = _deepTarget.segs.flat();
+      if (_allPts.length) {
+        const _lats = _allPts.map(p => p[0]), _lons = _allPts.map(p => p[1]);
+        map.fitBounds([[Math.min(..._lats), Math.min(..._lons)], [Math.max(..._lats), Math.max(..._lons)]], { padding: [40, 40] });
+      }
       selectedBlvd = _deepTarget;
       applyHighlight(_deepTarget);
       showInfo(_deepTarget);
