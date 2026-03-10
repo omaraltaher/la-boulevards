@@ -702,10 +702,11 @@ path.leaflet-interactive:focus { outline:none; }
 .share-btn:hover { background:rgba(255,255,255,0.1); color:#e5e7eb; }
 
 /* ── Basemap switcher ── */
-#basemap-switcher { position:absolute; bottom:95px; right:10px; display:flex; flex-direction:column; gap:2px; padding:5px; pointer-events:auto; min-width:0; }
-.bm-btn { font-size:11px; padding:4px 9px; background:transparent; border:none; color:#4b5563; cursor:pointer; border-radius:3px; text-align:left; white-space:nowrap; }
+#basemap-switcher { display:flex; flex-direction:row; gap:2px; margin-bottom:6px; padding-bottom:6px; border-bottom:1px solid rgba(255,255,255,0.06); pointer-events:auto; }
+.bm-btn { font-size:11px; padding:3px 8px; background:transparent; border:none; color:#4b5563; cursor:pointer; border-radius:3px; white-space:nowrap; }
 .bm-btn.active { color:#e5e7eb; background:rgba(255,255,255,0.1); }
 .bm-btn:hover:not(.active) { color:#9ca3af; }
+#legend.legend-collapsed #basemap-switcher { display:none; }
 </style>
 </head>
 <body>
@@ -735,6 +736,10 @@ path.leaflet-interactive:focus { outline:none; }
 
   <div id="legend" class="panel">
     <div id="legend-collapse-btn" title="Toggle labels">‹</div>
+    <div id="basemap-switcher">
+      <button class="bm-btn active" data-bm="dark">Dark</button>
+      <button class="bm-btn" data-bm="sat">Satellite</button>
+    </div>
     <div class="legend-group">
       <div class="legend-group-header">Explore <span class="lg-chevron">▾</span></div>
       <div class="legend-group-body">
@@ -810,10 +815,6 @@ path.leaflet-interactive:focus { outline:none; }
       </div>
       <ul id="media-list"></ul>
     </div>
-  </div>
-  <div id="basemap-switcher" class="panel interactive">
-    <button class="bm-btn active" data-bm="dark">Dark</button>
-<button class="bm-btn" data-bm="sat">Satellite</button>
   </div>
 </div>
 
