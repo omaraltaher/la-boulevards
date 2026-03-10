@@ -684,6 +684,27 @@ path.leaflet-interactive:focus { outline:none; }
   #title { top: 20px; left: 16px; width: 38%; }
   .title-bullets { display: none; }
 }
+
+/* ── Story card stats ── */
+#info-stats { display:flex; flex-wrap:wrap; gap:4px 12px; margin:5px 0 2px; font-size:12px; color:#6b7280; }
+.info-stat { white-space:nowrap; }
+.info-editorial { margin:4px 0 6px; font-size:12px; color:#6b7280; }
+.info-editorial a { color:#9ca3af; text-decoration:none; }
+.info-editorial a:hover { text-decoration:underline; }
+
+/* ── Share section ── */
+.info-share { margin-top:12px; padding-top:8px; border-top:1px solid rgba(255,255,255,0.06); display:none; }
+.info-share.visible { display:block; }
+.share-label { font-size:11px; color:#4b5563; margin-bottom:5px; }
+.share-row { display:flex; gap:5px; }
+.share-btn { font-size:11px; padding:4px 10px; background:rgba(255,255,255,0.06); border:none; color:#9ca3af; cursor:pointer; border-radius:4px; }
+.share-btn:hover { background:rgba(255,255,255,0.1); color:#e5e7eb; }
+
+/* ── Basemap switcher ── */
+#basemap-switcher { position:absolute; bottom:95px; right:10px; display:flex; flex-direction:column; gap:2px; padding:5px; pointer-events:auto; min-width:0; }
+.bm-btn { font-size:11px; padding:4px 9px; background:transparent; border:none; color:#4b5563; cursor:pointer; border-radius:3px; text-align:left; white-space:nowrap; }
+.bm-btn.active { color:#e5e7eb; background:rgba(255,255,255,0.1); }
+.bm-btn:hover:not(.active) { color:#9ca3af; }
 </style>
 </head>
 <body>
@@ -760,6 +781,8 @@ path.leaflet-interactive:focus { outline:none; }
         <div id="info-name"></div>
       </div>
       <div id="info-meta"></div>
+      <div id="info-stats"></div>
+      <div id="info-editorial" class="info-editorial"></div>
       <img id="info-img" alt=""/>
       <div id="gold-tribute">
         <a class="gold-rule" href="https://en.wikipedia.org/wiki/Jonathan_Gold" target="_blank" rel="noopener"></a>
@@ -774,6 +797,7 @@ path.leaflet-interactive:focus { outline:none; }
         <div id="info-art-title">Public Art</div>
         <div id="info-art-list"></div>
       </div>
+      <div id="info-share" class="info-share"></div>
     </div>
   </div>
 
@@ -785,6 +809,11 @@ path.leaflet-interactive:focus { outline:none; }
       </div>
       <ul id="media-list"></ul>
     </div>
+  </div>
+  <div id="basemap-switcher" class="panel interactive">
+    <button class="bm-btn active" data-bm="dark">Dark</button>
+    <button class="bm-btn" data-bm="retro">Retro</button>
+    <button class="bm-btn" data-bm="sat">Satellite</button>
   </div>
 </div>
 
@@ -808,10 +837,13 @@ const map = L.map('map', {
 });
 map.zoomControl.setPosition('bottomright');
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
-  attribution: '© <a href="https://carto.com/">CARTO</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>',
-  subdomains: 'abcd', maxZoom: 19
-}).addTo(map);
+const TILE_LAYERS = {
+  dark:  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', { attribution:'© <a href="https://carto.com/">CARTO</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>', subdomains:'abcd', maxZoom:19 }),
+  retro: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png', { attribution:'© <a href="https://carto.com/">CARTO</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>', subdomains:'abcd', maxZoom:19 }),
+  sat:   L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution:'© Esri', maxZoom:19 })
+};
+const _savedBm = localStorage.getItem('blvd-basemap') || 'dark';
+let currentTileLayer = (TILE_LAYERS[_savedBm] || TILE_LAYERS.dark).addTo(map);
 
 // ── Color scale (percentile rank 0–1) ──────────────────────
 // ── Haversine (km) ─────────────────────────────────────────
@@ -819,6 +851,12 @@ function hav(lat1, lon1, lat2, lon2) {
   const R = 6371, dLat = (lat2-lat1)*Math.PI/180, dLon = (lon2-lon1)*Math.PI/180;
   const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+function countNearBlvd(points, blvd, threshKm) {
+  const pts = [];
+  blvd.segs.forEach(seg => seg.forEach(([lat, lon]) => pts.push([lat, lon])));
+  return points.filter(p => pts.some(([slat, slon]) => hav(p.lat, p.lon, slat, slon) <= threshKm)).length;
 }
 
 function lerpColor(c1, c2, t) {
@@ -925,6 +963,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const theatreMarkerList = []; // { marker, blvdName, isWiltern }
 
   function updateOverlayMarkers(blvd) {
+    if (!blvd) history.replaceState(null, '', location.pathname);
     const name = blvd ? blvd.name : null;
     artMarkerList.forEach(({ marker, blvdName }) => {
       if (name && blvdName === name) marker.addTo(map);
@@ -1402,6 +1441,43 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoImg.style.display = 'none';
     infoName.textContent = blvd.name;
     infoMeta.textContent = `${blvd.mi} mi · ${blvd.km} km`;
+
+    // Layer counts
+    const artCount     = artMarkerList.filter(({ blvdName }) => blvdName === blvd.name).length;
+    const theatreCount = theatreMarkerList.filter(({ blvdName, isWiltern }) => !isWiltern && blvdName === blvd.name).length;
+    const wellCount    = wellData.length    ? countNearBlvd(wellData,    blvd, 0.15) : 0;
+    const parrotCount  = parrotData.length  ? countNearBlvd(parrotData,  blvd, 0.15) : 0;
+    const stats = [];
+    if (theatreCount) stats.push(`🎭 ${theatreCount} theatre${theatreCount !== 1 ? 's' : ''}`);
+    if (artCount)     stats.push(`🎨 ${artCount} public art`);
+    if (wellCount)    stats.push(`🛢️ ${wellCount} oil well${wellCount !== 1 ? 's' : ''}`);
+    if (parrotCount)  stats.push(`🦜 ${parrotCount} parrot${parrotCount !== 1 ? 's' : ''}`);
+    document.getElementById('info-stats').innerHTML = stats.map(s => `<span class="info-stat">${s}</span>`).join('');
+
+    // Editorial links
+    const EDITORIAL = {
+      'Wilshire Boulevard': '<a href="https://lataco.com/best-tacos-720-metro" target="_blank" rel="noopener">Best tacos along the 720 line → L.A. Taco</a>',
+      'Olympic Boulevard':  '<a href="https://lataco.com/12-best-tacos-to-try" target="_blank" rel="noopener">Olympic Blvd Taco Row → L.A. Taco</a>',
+      'Sunset Boulevard':   '<a href="https://en.wikipedia.org/wiki/Sunset_Blvd._(film)" target="_blank" rel="noopener">Sunset Blvd. (1950 film) →</a>',
+      'Victory Boulevard':  '<a href="https://lataco.com/best-tacos-in-the-san-fernando-valley" target="_blank" rel="noopener">Best tacos in the Valley → L.A. Taco</a>',
+    };
+    const editorial = EDITORIAL[blvd.name];
+    const editEl = document.getElementById('info-editorial');
+    editEl.innerHTML = editorial ? `Featured: ${editorial}` : '';
+    editEl.style.display = editorial ? '' : 'none';
+
+    // Share buttons + deep link
+    const blvdUrl = `${location.origin}${location.pathname}?blvd=${encodeURIComponent(blvd.name)}`;
+    history.replaceState(null, '', `?blvd=${encodeURIComponent(blvd.name)}`);
+    const shareEl = document.getElementById('info-share');
+    const shareText = `${blvd.name}: ${blvd.mi} mi${theatreCount ? `, ${theatreCount} theatres` : ''}${artCount ? `, ${artCount} public art pieces` : ''}. Explore LA's hidden layers on Boulevard Love`;
+    shareEl.innerHTML = `<div class="share-label">Share</div><div class="share-row"><button class="share-btn" id="share-tw">Twitter</button><button class="share-btn" id="share-rd">Reddit</button><button class="share-btn" id="share-cp">Copy link</button></div>`;
+    shareEl.classList.add('visible');
+    document.getElementById('share-tw').onclick = () => window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(blvdUrl)}`, '_blank');
+    document.getElementById('share-rd').onclick = () => window.open(`https://reddit.com/submit?url=${encodeURIComponent(blvdUrl)}&title=${encodeURIComponent(blvd.name + ' — Boulevard Love')}`, '_blank');
+    const cpBtn = document.getElementById('share-cp');
+    cpBtn.onclick = () => navigator.clipboard.writeText(blvdUrl).then(() => { cpBtn.textContent = 'Copied!'; setTimeout(() => cpBtn.textContent = 'Copy link', 2000); });
+
     infoExtract.textContent = 'Loading…';
     infoWiki.style.display = 'none';
     photosStrip.style.display = 'none';
@@ -2153,6 +2229,19 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   })();
 
+  // ── Deep link restore ─────────────────────────────────────
+  const _deepParam = new URLSearchParams(location.search).get('blvd');
+  if (_deepParam) {
+    const _deepTarget = boulevards.find(b => b.name.toLowerCase() === _deepParam.toLowerCase());
+    if (_deepTarget) {
+      const _seg = _deepTarget.segs[0];
+      if (_seg?.length) map.setView(_seg[Math.floor(_seg.length / 2)], 14);
+      selectedBlvd = _deepTarget;
+      applyHighlight(_deepTarget);
+      showInfo(_deepTarget);
+    }
+  }
+
 }).catch(() => {
   document.getElementById('loading').innerHTML =
     '<span style="color:#ef4444">Failed to load data — check your connection and reload.</span>';
@@ -2173,6 +2262,18 @@ legendBtn.textContent = '›';
 
 document.getElementById('sources-toggle').addEventListener('click', () => {
   document.getElementById('sources-panel').classList.toggle('open');
+});
+
+// ── Basemap switcher ──────────────────────────────────────────
+document.querySelectorAll('.bm-btn').forEach(btn => {
+  btn.classList.toggle('active', btn.dataset.bm === _savedBm);
+  btn.addEventListener('click', () => {
+    map.removeLayer(currentTileLayer);
+    currentTileLayer = TILE_LAYERS[btn.dataset.bm].addTo(map);
+    currentTileLayer.bringToBack();
+    document.querySelectorAll('.bm-btn').forEach(b => b.classList.toggle('active', b === btn));
+    localStorage.setItem('blvd-basemap', btn.dataset.bm);
+  });
 });
 
 </script>
