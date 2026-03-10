@@ -812,8 +812,7 @@ path.leaflet-interactive:focus { outline:none; }
   </div>
   <div id="basemap-switcher" class="panel interactive">
     <button class="bm-btn active" data-bm="dark">Dark</button>
-    <button class="bm-btn" data-bm="retro">Retro</button>
-    <button class="bm-btn" data-bm="sat">Satellite</button>
+<button class="bm-btn" data-bm="sat">Satellite</button>
   </div>
 </div>
 
@@ -839,7 +838,6 @@ map.zoomControl.setPosition('bottomright');
 
 const TILE_LAYERS = {
   dark:  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', { attribution:'© <a href="https://carto.com/">CARTO</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>', subdomains:'abcd', maxZoom:19 }),
-  retro: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png', { attribution:'© <a href="https://carto.com/">CARTO</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>', subdomains:'abcd', maxZoom:19 }),
   sat:   L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution:'© Esri', maxZoom:19 })
 };
 const _savedBm = localStorage.getItem('blvd-basemap') || 'dark';
