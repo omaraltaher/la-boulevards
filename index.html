@@ -116,6 +116,15 @@ html, body {
 .legend-group.collapsed .lg-chevron { transform:rotate(-90deg); }
 .legend-group.collapsed .legend-group-body { display:none; }
 .legend-group-body { display:flex; flex-direction:column; gap:5px; }
+#legend-collapse-btn { font-size:11px; color:#4b5563; cursor:pointer; user-select:none; text-align:right; padding-bottom:5px; margin-bottom:3px; border-bottom:1px solid rgba(255,255,255,0.06); }
+#legend-collapse-btn:hover { color:#6b7280; }
+#legend.legend-collapsed .legend-group-header { display:none; }
+#legend.legend-collapsed .marker-row span { display:none; }
+#legend.legend-collapsed .legend-group-body { gap:4px; }
+#legend.legend-collapsed .legend-group + .legend-group { border-top:none; margin-top:3px; padding-top:0; }
+#legend.legend-collapsed .legend-group.collapsed .legend-group-body { display:flex; }
+#legend.legend-collapsed .legend-sources-toggle,
+#legend.legend-collapsed .legend-sources-panel { display:none; }
 .legend-sources-toggle { font-size:11px; color:#4b5563; cursor:pointer; user-select:none; pointer-events:auto; margin-top:8px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.06); }
 .legend-sources-toggle:hover { color:#6b7280; }
 .legend-sources-panel { display:none; margin-top:6px; font-size:11px; color:#6b7280; line-height:1.9; }
@@ -702,6 +711,7 @@ path.leaflet-interactive:focus { outline:none; }
 
 
   <div id="legend" class="panel">
+    <div id="legend-collapse-btn" title="Toggle labels">‹</div>
     <div class="legend-group">
       <div class="legend-group-header">Explore <span class="lg-chevron">▾</span></div>
       <div class="legend-group-body">
@@ -2149,6 +2159,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
 document.querySelectorAll('.legend-group-header').forEach(h => {
   h.addEventListener('click', () => h.closest('.legend-group').classList.toggle('collapsed'));
+});
+
+document.getElementById('legend-collapse-btn').addEventListener('click', () => {
+  const legend = document.getElementById('legend');
+  const collapsed = legend.classList.toggle('legend-collapsed');
+  document.getElementById('legend-collapse-btn').textContent = collapsed ? '›' : '‹';
 });
 
 document.getElementById('sources-toggle').addEventListener('click', () => {
