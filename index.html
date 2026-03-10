@@ -207,18 +207,17 @@ path.leaflet-interactive:focus { outline:none; }
   transition:background 0.15s, transform 0.15s;
 }
 .theatre-dot:hover { background:rgba(168,85,247,0.9); transform:scale(1.4); }
-.wiltern-dot {
-  width:13px; height:13px;
-  background:rgba(192,132,252,0.85);
-  border:2px solid rgba(216,180,254,0.9);
-  border-radius:50%;
+.wiltern-heart {
+  fill:rgba(192,132,252,0.85);
+  stroke:rgba(216,180,254,0.9);
+  stroke-width:1.5px;
   cursor:pointer;
-  box-shadow:0 0 8px 3px rgba(168,85,247,0.45);
+  filter:drop-shadow(0 0 4px rgba(168,85,247,0.55));
   animation:wiltern-pulse 2.5s ease-in-out infinite;
 }
 @keyframes wiltern-pulse {
-  0%, 100% { box-shadow:0 0 8px 3px rgba(168,85,247,0.45); }
-  50%       { box-shadow:0 0 16px 7px rgba(168,85,247,0.2); }
+  0%, 100% { filter:drop-shadow(0 0 4px rgba(168,85,247,0.55)); }
+  50%       { filter:drop-shadow(0 0 10px rgba(168,85,247,0.25)); }
 }
 
 /* ── Global popup dark theme ── */
@@ -1940,15 +1939,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         const icon = L.divIcon({
           className: '',
           html: isWiltern
-            ? `<div style="position:relative;width:16px;height:30px;cursor:pointer;">
-                <svg width="16" height="16" viewBox="0 0 24 16" style="position:absolute;top:0;left:0;" fill="rgba(240,185,40,0.2)" stroke="#e8b824" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                  <polygon points="1,15 5,6 10,12 13,1 17,10 21,4 23,15"/>
-                </svg>
-                <div class="wiltern-dot" style="position:absolute;bottom:0;left:1.5px;"></div>
-              </div>`
+            ? `<svg class="wiltern-heart" xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16"><path d="M9,14 C6,11 0,8.5 0,5 A4.5,4.5 0 0 1 9,2.5 A4.5,4.5 0 0 1 18,5 C18,8.5 12,11 9,14 Z"/></svg>`
             : `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 16 20"><path d="M1,1 Q8,4.5 15,1" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M8,1 Q8.5,4 8,7" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M1,1 L1,17 Q4.5,13 4.5,9 Q4.5,5 1,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><path d="M15,1 L15,17 Q11.5,13 11.5,9 Q11.5,5 15,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="1" y1="10.5" x2="5" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="15" y1="10.5" x2="11" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="1" y1="19" x2="15" y2="19" stroke="#c084fc" stroke-width="1.2" stroke-linecap="round"/></svg>`,
-          iconSize: isWiltern ? [16, 30] : [13, 16],
-          iconAnchor: isWiltern ? [8, 23] : [6, 16]
+          iconSize: isWiltern ? [18, 16] : [13, 16],
+          iconAnchor: isWiltern ? [9, 14] : [6, 16]
         });
 
         const marker = L.marker([lat, lon], { icon, zIndexOffset: isWiltern ? 300 : 120 });
