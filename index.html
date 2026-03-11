@@ -2306,13 +2306,30 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // ── Mountain Lions + P-22 Tribute ───────────────────────────────
   let lionData = [];
+  let p22SightingData = [];
+  let p22RouteLine = null;
   const lionRenderGroup = L.layerGroup().addTo(map);
   let lionsOn = true;
   const pinnedLions = new Set();
 
+  // P-22's journey: Santa Monica Mtns → 405 crossing → Sepulveda Pass → 101 crossing → Griffith Park
+  const P22_ROUTE = [
+    [34.030, -118.580],   // Santa Monica Mountains origin
+    [34.055, -118.475],   // 405 freeway crossing (Sepulveda Pass)
+    [34.078, -118.430],   // Between freeways
+    [34.098, -118.355],   // 101 freeway crossing (Cahuenga Pass)
+    [34.1184, -118.3004]  // Griffith Park home
+  ];
+
+  function setP22RouteVisible(on) {
+    if (!p22RouteLine) return;
+    on ? p22RouteLine.addTo(map) : p22RouteLine.remove();
+  }
+
   document.getElementById('lion-toggle').addEventListener('click', () => {
     lionsOn = !lionsOn;
     lionsOn ? lionRenderGroup.addTo(map) : lionRenderGroup.remove();
+    setP22RouteVisible(lionsOn);
     document.getElementById('lion-toggle').classList.toggle('off', !lionsOn);
   });
 
@@ -2390,14 +2407,47 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         }
       }
     }
+
+    // P-22 individual sighting dots (small amber circles, no clustering)
+    for (const s of p22SightingData) {
+      const dot = L.circleMarker([s.lat, s.lon], {
+        radius: 4, color: '#fbbf24', fillColor: '#fde68a',
+        fillOpacity: 0.75, weight: 1.5, opacity: 0.85
+      });
+      dot.on('click', () => {
+        const dateStr = s.date
+          ? new Date(s.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
+          : '';
+        const html =
+          `<div style="padding:12px 14px;width:220px;">` +
+          `<div style="font-size:11px;color:rgba(251,191,36,0.85);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">P-22 Sighting 🦁</div>` +
+          `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">Griffith Park</div>` +
+          (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">${dateStr}</div>` : '') +
+          (s.photo ? `<img src="${s.photo}" style="width:100%;height:90px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
+          `<a href="${s.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(251,191,36,0.75);text-decoration:none;">iNaturalist →</a>` +
+          `</div>`;
+        L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 260, autoPan: true })
+          .setLatLng([s.lat, s.lon]).setContent(html).openOn(map);
+      });
+      lionRenderGroup.addLayer(dot);
+    }
   }
 
   (async function loadLions() {
     try {
       const res = await fetch('lions.json');
       if (!res.ok) return;
-      const { lions } = await res.json();
+      const { lions, p22 } = await res.json();
       lionData = lions;
+      p22SightingData = p22 || [];
+
+      // Draw P-22 journey polyline
+      p22RouteLine = L.polyline(P22_ROUTE, {
+        color: '#f59e0b', weight: 2, opacity: 0.5,
+        dashArray: '8, 6', interactive: false
+      });
+      if (lionsOn) p22RouteLine.addTo(map);
+
       reclusterLions();
     } catch (e) {
       console.warn('Lion load failed:', e);
