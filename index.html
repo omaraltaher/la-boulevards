@@ -2506,10 +2506,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           `His journey inspired the <a href="https://www.annenbergfoundation.org/initiatives/wildlife-crossing/" target="_blank" rel="noopener" style="color:rgba(245,158,11,0.7);">Wallis Annenberg Wildlife Crossing</a> — ` +
           `the world's largest wildlife crossing, now under construction at Liberty Canyon on the 101.` +
           `</div>` +
+          `<div style="margin-bottom:10px;">` +
+          `<div style="font-size:11px;color:rgba(245,158,11,0.7);margin-bottom:5px;">🎙️ 99% Invisible · Ep. 516 "Cougar Town"</div>` +
+          `<audio controls preload="none" style="width:100%;height:32px;accent-color:#f59e0b;">` +
+          `<source src="https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/92e774dd-a401-44fd-8255-52ddbd97d13c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=92e774dd-a401-44fd-8255-52ddbd97d13c&feed=BqbsxVfO" type="audio/mpeg"/>` +
+          `</audio>` +
+          `</div>` +
           `<div style="display:flex;gap:10px;flex-wrap:wrap;">` +
-          `<a href="https://www.nps.gov/samo/learn/news/gps-data-offer-clues-on-famous-lion-locations.htm" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">NPS GPS report →</a>` +
+          `<a href="https://99percentinvisible.org/episode/516-cougar-town/" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">99pi →</a>` +
+          `<a href="https://www.nps.gov/samo/learn/news/gps-data-offer-clues-on-famous-lion-locations.htm" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">NPS →</a>` +
           `<a href="https://en.wikipedia.org/wiki/P-22" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">Wikipedia →</a>` +
-          `<a href="https://www.inaturalist.org/taxa/42007" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">iNaturalist →</a>` +
           `</div></div>`;
         L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 320, autoPan: true })
           .setLatLng(e.latlng).setContent(html).openOn(map);
@@ -2532,18 +2538,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         p22Marker.setIcon(makeP22Icon());
         reclusterLions();
       }
-      const html =
-        `<div style="padding:14px 16px;width:260px;">` +
-        `<div style="font-size:11px;color:rgba(245,158,11,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">🦁 P-22 Tribute</div>` +
-        `<div style="font-size:16px;font-weight:700;color:#f9fafb;margin-bottom:8px;">The Ghost of Griffith Park</div>` +
-        `<div style="font-size:13px;color:#d1d5db;line-height:1.55;margin-bottom:10px;">P-22 crossed the 405 and 101 freeways — alone — to reach Griffith Park, where he lived for a decade as LA's most famous wild resident. He became a symbol of urban wildlife survival and inspired the Wallis Annenberg Wildlife Crossing.</div>` +
-        `<div style="font-size:12px;color:#9ca3af;margin-bottom:10px;">Born ~2010 · Santa Monica Mountains<br>Crossed 405 &amp; 101 freeways, 2012<br>Griffith Park home, 2012–2022<br>Euthanized Dec 17, 2022</div>` +
-        `<div style="display:flex;gap:10px;flex-wrap:wrap;">` +
-        `<a href="https://www.nps.gov/samo/learn/nature/pumapage.htm" target="_blank" rel="noopener" style="font-size:12px;color:rgba(245,158,11,0.8);text-decoration:none;">NPS Puma Project →</a>` +
-        `<a href="https://en.wikipedia.org/wiki/P-22" target="_blank" rel="noopener" style="font-size:12px;color:rgba(245,158,11,0.8);text-decoration:none;">Wikipedia →</a>` +
-        `</div></div>`;
-      L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 300, autoPan: true })
-        .setLatLng([P22_LAT, P22_LON]).setContent(html).openOn(map);
     });
   })();
 
