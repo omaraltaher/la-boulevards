@@ -736,7 +736,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="legend-group-header">Living City <span class="lg-chevron">▾</span></div>
       <div class="legend-group-body">
         <div class="marker-row" id="parrot-toggle" style="cursor:pointer;user-select:none;" title="Toggle parrot layer"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><ellipse cx="6" cy="13" rx="3.5" ry="5" fill="none" stroke="#a3e635" stroke-width="1.1" stroke-linecap="round"/><circle cx="7" cy="5" r="3" fill="none" stroke="#a3e635" stroke-width="1.1"/><path d="M9.5,5 L13,6 L10,7.5" fill="none" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8.2" cy="4" r="0.9" fill="#a3e635"/><line x1="4" y1="18" x2="2" y2="20" stroke="#a3e635" stroke-width="0.9" stroke-linecap="round"/><line x1="6" y1="18" x2="5" y2="20" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round"/></svg><span>Wild parrots</span></div>
-        <div class="marker-row" id="lion-toggle" style="cursor:pointer;user-select:none;" title="Toggle mountain lion layer"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18" style="flex-shrink:0;opacity:0.9"><ellipse cx="9" cy="13" rx="4" ry="3" fill="#f59e0b"/><circle cx="4" cy="8" r="2.2" fill="#f59e0b"/><circle cx="8" cy="6" r="2.2" fill="#f59e0b"/><circle cx="12.5" cy="6.5" r="2.2" fill="#f59e0b"/><circle cx="16" cy="9.5" r="2.2" fill="#f59e0b"/></svg><span>Mountain lions</span></div>
+        <div class="marker-row" id="lion-toggle" style="cursor:pointer;user-select:none;" title="Toggle mountain lion layer"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18" style="flex-shrink:0;opacity:0.9"><ellipse cx="9" cy="13" rx="4" ry="3" fill="none" stroke="#f59e0b" stroke-width="1.2"/><circle cx="4" cy="8" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.2"/><circle cx="8" cy="6" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.2"/><circle cx="12.5" cy="6.5" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.2"/><circle cx="16" cy="9.5" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.2"/></svg><span>Mountain lions</span></div>
       </div>
     </div>
     <div class="legend-group">
@@ -2314,10 +2314,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // P-22's journey: Santa Monica Mtns → 405 crossing → Sepulveda Pass → 101 crossing → Griffith Park
   const P22_ROUTE = [
-    [34.030, -118.580],   // Santa Monica Mountains origin
-    [34.055, -118.475],   // 405 freeway crossing (Sepulveda Pass)
-    [34.078, -118.430],   // Between freeways
-    [34.098, -118.355],   // 101 freeway crossing (Cahuenga Pass)
+    [34.095, -118.650],   // Santa Monica Mountains interior (Malibu Creek area)
+    [34.072, -118.460],   // 405 freeway crossing (Sepulveda Pass)
+    [34.085, -118.405],   // Hollywood Hills, between freeways
+    [34.102, -118.347],   // 101 freeway crossing (Cahuenga Pass)
     [34.1184, -118.3004]  // Griffith Park home
   ];
 
@@ -2335,11 +2335,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   const lionPawHtml = (w, h, opacity) =>
     `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 18 18" opacity="${opacity || 0.9}">
-      <ellipse cx="9" cy="13.5" rx="4.5" ry="3" fill="#f59e0b"/>
-      <circle cx="3.5" cy="8" r="2.2" fill="#f59e0b"/>
-      <circle cx="7.5" cy="6" r="2.2" fill="#f59e0b"/>
-      <circle cx="12" cy="6.5" r="2.2" fill="#f59e0b"/>
-      <circle cx="16" cy="9.5" r="2.2" fill="#f59e0b"/>
+      <ellipse cx="9" cy="13.5" rx="4.5" ry="3" fill="none" stroke="#f59e0b" stroke-width="1.2"/>
+      <circle cx="3.5" cy="8" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.2"/>
+      <circle cx="7.5" cy="6" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.2"/>
+      <circle cx="12" cy="6.5" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.2"/>
+      <circle cx="16" cy="9.5" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.2"/>
     </svg>`;
 
   const lionIcon = L.divIcon({
@@ -2461,11 +2461,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       className: '',
       html: `<div style="display:flex;flex-direction:column;align-items:center;gap:2px;">
         <svg class="p22-paw" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 18 18">
-          <ellipse cx="9" cy="13.5" rx="4.5" ry="3" fill="#f59e0b"/>
-          <circle cx="3.5" cy="8" r="2.2" fill="#f59e0b"/>
-          <circle cx="7.5" cy="6" r="2.2" fill="#f59e0b"/>
-          <circle cx="12" cy="6.5" r="2.2" fill="#f59e0b"/>
-          <circle cx="16" cy="9.5" r="2.2" fill="#f59e0b"/>
+          <ellipse cx="9" cy="13.5" rx="4.5" ry="3" fill="none" stroke="#f59e0b" stroke-width="1.3"/>
+          <circle cx="3.5" cy="8" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.3"/>
+          <circle cx="7.5" cy="6" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.3"/>
+          <circle cx="12" cy="6.5" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.3"/>
+          <circle cx="16" cy="9.5" r="2.2" fill="none" stroke="#f59e0b" stroke-width="1.3"/>
         </svg>
         <div style="font-size:9px;font-weight:700;color:#fbbf24;letter-spacing:.05em;white-space:nowrap;text-shadow:0 1px 3px rgba(0,0,0,0.9);">P-22</div>
       </div>`,
