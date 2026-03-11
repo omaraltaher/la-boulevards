@@ -112,6 +112,7 @@ html, body {
 #legend .theatre-legend-dot { background:rgba(168,85,247,0.65); border:1.5px solid rgba(192,132,252,0.5); }
 #parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
 #well-toggle.off   { opacity:0.35; text-decoration:line-through; }
+#lion-toggle.off   { opacity:0.35; text-decoration:line-through; }
 .legend-group + .legend-group { border-top:1px solid rgba(255,255,255,0.06); margin-top:6px; padding-top:6px; }
 .legend-group-header { display:flex; justify-content:flex-start; gap:8px; align-items:center; font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:#4b5563; cursor:pointer; user-select:none; padding:2px 0 6px; }
 .legend-group-header:hover { color:#6b7280; }
@@ -220,6 +221,14 @@ path.leaflet-interactive:focus { outline:none; }
 @keyframes wiltern-pulse {
   0%, 100% { filter:drop-shadow(0 0 4px rgba(168,85,247,0.55)); }
   50%       { filter:drop-shadow(0 0 10px rgba(168,85,247,0.25)); }
+}
+.p22-paw {
+  cursor:pointer;
+  animation:p22pulse 3s ease-in-out infinite;
+}
+@keyframes p22pulse {
+  0%, 100% { filter:drop-shadow(0 0 3px rgba(245,158,11,0.7)); }
+  50%       { filter:drop-shadow(0 0 9px rgba(245,158,11,0.9)) drop-shadow(0 0 16px rgba(245,158,11,0.4)); }
 }
 
 /* ── Global popup dark theme ── */
@@ -364,10 +373,11 @@ path.leaflet-interactive:focus { outline:none; }
   text-decoration:none; margin-top:4px;
 }
 .info-item-maplnk:hover { text-decoration:underline; }
-#info-theatres, #info-wells, #info-parrots { display:none; margin-top:16px; }
+#info-theatres, #info-wells, #info-parrots, #info-lions { display:none; margin-top:16px; }
 #info-theatres-title { font-size:11px; color:rgba(168,85,247,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-wells-title { font-size:11px; color:rgba(180,83,9,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-parrots-title { font-size:11px; color:rgba(34,197,94,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+#info-lions-title { font-size:11px; color:rgba(245,158,11,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 .info-item { padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-size:14px; }
 .info-item:last-child { border-bottom:none; }
 .info-item-name { font-weight:500; }
@@ -577,6 +587,16 @@ path.leaflet-interactive:focus { outline:none; }
 .parrot-popup .leaflet-popup-tip-container { display:none; }
 .parrot-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
 
+/* ── Lion popup ── */
+.lion-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(245,158,11,0.25) !important;
+  border-radius:8px !important; box-shadow:none !important;
+  padding:0 !important; overflow:hidden;
+}
+.lion-popup .leaflet-popup-tip-container { display:none; }
+.lion-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+
 /* ── Sunset spot markers ── */
 .sunset-spot-dot {
   width:11px; height:11px;
@@ -716,6 +736,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="legend-group-header">Living City <span class="lg-chevron">▾</span></div>
       <div class="legend-group-body">
         <div class="marker-row" id="parrot-toggle" style="cursor:pointer;user-select:none;" title="Toggle parrot layer"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><ellipse cx="6" cy="13" rx="3.5" ry="5" fill="none" stroke="#a3e635" stroke-width="1.1" stroke-linecap="round"/><circle cx="7" cy="5" r="3" fill="none" stroke="#a3e635" stroke-width="1.1"/><path d="M9.5,5 L13,6 L10,7.5" fill="none" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8.2" cy="4" r="0.9" fill="#a3e635"/><line x1="4" y1="18" x2="2" y2="20" stroke="#a3e635" stroke-width="0.9" stroke-linecap="round"/><line x1="6" y1="18" x2="5" y2="20" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round"/></svg><span>Wild parrots</span></div>
+        <div class="marker-row" id="lion-toggle" style="cursor:pointer;user-select:none;" title="Toggle mountain lion layer"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18 18" style="flex-shrink:0;opacity:0.9"><ellipse cx="9" cy="13" rx="4" ry="3" fill="#f59e0b"/><circle cx="4" cy="8" r="2.2" fill="#f59e0b"/><circle cx="8" cy="6" r="2.2" fill="#f59e0b"/><circle cx="12.5" cy="6.5" r="2.2" fill="#f59e0b"/><circle cx="16" cy="9.5" r="2.2" fill="#f59e0b"/></svg><span>Mountain lions</span></div>
       </div>
     </div>
     <div class="legend-group">
@@ -733,6 +754,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="src-row"><b>Theatres</b> — OpenStreetMap</div>
       <div class="src-row"><b>Wild Parrots 🦜</b> — <a href="https://www.inaturalist.org/projects/free-flying-los-angeles-parrot-project" target="_blank" rel="noopener">iNaturalist / Occidental College</a></div>
       <div class="src-row"><b>Oil Wells 🛢️</b> — <a href="https://www.conservation.ca.gov/calgem" target="_blank" rel="noopener">CalGEM, CA Dept. of Conservation</a></div>
+      <div class="src-row"><b>Mountain Lions 🦁</b> — <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist / NPS Puma Project</a></div>
       <div class="src-row"><b>Editorial</b> — Jonathan Gold, LA Weekly</div>
       <div class="src-row src-gh"><a href="https://github.com/omaraltaher/la-boulevards" target="_blank" rel="noopener">Open source on GitHub →</a></div>
     </div>
@@ -776,6 +798,10 @@ path.leaflet-interactive:focus { outline:none; }
       <div id="info-parrots">
         <div id="info-parrots-title">Wild Parrots</div>
         <div id="info-parrots-list"></div>
+      </div>
+      <div id="info-lions">
+        <div id="info-lions-title">Mountain Lion Sightings</div>
+        <div id="info-lions-list"></div>
       </div>
       <div id="info-share" class="info-share"></div>
     </div>
@@ -1476,6 +1502,27 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     sec.style.display = 'block';
   }
 
+  function populateLionSection(blvd) {
+    const sec = document.getElementById('info-lions');
+    const list = document.getElementById('info-lions-list');
+    if (!lionData.length) { sec.style.display = 'none'; return; }
+    const items = filterNearBlvd(lionData, blvd, 0.25);
+    if (!items.length) { sec.style.display = 'none'; return; }
+    const show = items.slice(0, 10);
+    list.innerHTML = show.map(l => {
+      const dateStr = l.date ? new Date(l.date + 'T12:00:00').toLocaleDateString('en-US', { month:'short', year:'numeric' }) : '';
+      return `<div class="info-item">` +
+        `<div class="info-item-name" style="color:rgba(245,158,11,0.85)">Mountain Lion</div>` +
+        (dateStr ? `<div class="info-item-sub">${dateStr}</div>` : '') +
+        `<div class="info-item-links">` +
+        `<a class="info-item-maplnk" href="${l.url}" target="_blank" rel="noopener">iNaturalist →</a>` +
+        `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${l.lat},${l.lon})">→ map</a>` +
+        `</div></div>`;
+    }).join('');
+    if (items.length > 10) list.innerHTML += `<div style="font-size:12px;color:#6b7280;padding-top:6px;">+${items.length - 10} more nearby</div>`;
+    sec.style.display = 'block';
+  }
+
   function showInfo(blvd) {
     infoPanel.classList.add('open');
     if (isMobile()) {
@@ -1497,11 +1544,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const theatreCount = theatreMarkerList.filter(({ blvdName, isWiltern }) => !isWiltern && blvdName === blvd.name).length;
     const wellCount    = wellData.length    ? countNearBlvd(wellData,    blvd, 0.15) : 0;
     const parrotCount  = parrotData.length  ? countNearBlvd(parrotData,  blvd, 0.15) : 0;
+    const lionCount    = lionData.length    ? countNearBlvd(lionData,    blvd, 0.25) : 0;
     const stats = [];
     if (theatreCount) stats.push(`🎭 ${theatreCount} theatre${theatreCount !== 1 ? 's' : ''}`);
     if (artCount)     stats.push(`🎨 ${artCount} public art`);
     if (wellCount)    stats.push(`🛢️ ${wellCount} oil well${wellCount !== 1 ? 's' : ''}`);
     if (parrotCount)  stats.push(`🦜 ${parrotCount} parrot${parrotCount !== 1 ? 's' : ''}`);
+    if (lionCount)    stats.push(`🦁 ${lionCount} mountain lion${lionCount !== 1 ? 's' : ''}`);
     document.getElementById('info-stats').innerHTML = stats.map(s => `<span class="info-stat">${s}</span>`).join('');
 
     // Editorial links
@@ -1539,6 +1588,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     document.getElementById('info-wells-list').innerHTML = '';
     document.getElementById('info-parrots').style.display = 'none';
     document.getElementById('info-parrots-list').innerHTML = '';
+    document.getElementById('info-lions').style.display = 'none';
+    document.getElementById('info-lions-list').innerHTML = '';
 
     statusStart('Loading photos…');
     fetchCommons(blvd.name).then(photos => {
@@ -1575,6 +1626,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     populateTheatreSection(blvd);
     populateWellSection(blvd);
     populateParrotSection(blvd);
+    populateLionSection(blvd);
   }
 
   document.getElementById('info-close').addEventListener('click', () => {
@@ -2252,12 +2304,147 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   }
 
+  // ── Mountain Lions + P-22 Tribute ───────────────────────────────
+  let lionData = [];
+  const lionRenderGroup = L.layerGroup().addTo(map);
+  let lionsOn = true;
+  const pinnedLions = new Set();
+
+  document.getElementById('lion-toggle').addEventListener('click', () => {
+    lionsOn = !lionsOn;
+    lionsOn ? lionRenderGroup.addTo(map) : lionRenderGroup.remove();
+    document.getElementById('lion-toggle').classList.toggle('off', !lionsOn);
+  });
+
+  const lionPawHtml = (w, h, opacity) =>
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 18 18" opacity="${opacity || 0.9}">
+      <ellipse cx="9" cy="13.5" rx="4.5" ry="3" fill="#f59e0b"/>
+      <circle cx="3.5" cy="8" r="2.2" fill="#f59e0b"/>
+      <circle cx="7.5" cy="6" r="2.2" fill="#f59e0b"/>
+      <circle cx="12" cy="6.5" r="2.2" fill="#f59e0b"/>
+      <circle cx="16" cy="9.5" r="2.2" fill="#f59e0b"/>
+    </svg>`;
+
+  const lionIcon = L.divIcon({
+    className: '', html: lionPawHtml(14, 14), iconSize: [14, 14], iconAnchor: [7, 14]
+  });
+
+  function makeLionClusterIcon(n) {
+    return L.divIcon({
+      html: `<div style="position:relative;width:18px;height:18px;">${lionPawHtml(18, 18)}<div style="position:absolute;top:-5px;right:-8px;background:#b45309;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fef3c7;line-height:1;">${n}</div></div>`,
+      className: '', iconSize: [18, 18], iconAnchor: [9, 18]
+    });
+  }
+
+  function bindLionClick(marker, l) {
+    marker.on('click', () => {
+      const dateStr = l.date
+        ? new Date(l.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
+        : '';
+      const html =
+        `<div style="padding:12px 14px;width:220px;">` +
+        `<div style="font-size:11px;color:rgba(245,158,11,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Mountain Lion 🦁</div>` +
+        `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">Puma concolor</div>` +
+        (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">Observed ${dateStr}</div>` : '') +
+        (l.photo ? `<img src="${l.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
+        `<a href="${l.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(245,158,11,0.7);text-decoration:none;">iNaturalist →</a>` +
+        `</div>`;
+      L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 260, autoPan: true })
+        .setLatLng([l.lat, l.lon]).setContent(html).openOn(map);
+    });
+  }
+
+  function reclusterLions() {
+    lionRenderGroup.clearLayers();
+    if (!lionsOn || !lionData.length) return;
+    const zoom = map.getZoom();
+    const R = 35, MIN = 3;
+    const pts = lionData.map(l => ({ l, px: map.project([l.lat, l.lon], zoom) }));
+    const used = new Set();
+    for (const k of pinnedLions) { used.add(k); }
+    for (const k of pinnedLions) {
+      const m = L.marker([pts[k].l.lat, pts[k].l.lon], { icon: lionIcon, zIndexOffset: 50 });
+      bindLionClick(m, pts[k].l);
+      lionRenderGroup.addLayer(m);
+    }
+    for (let i = 0; i < pts.length; i++) {
+      if (used.has(i)) continue;
+      const group = [i];
+      used.add(i);
+      for (let j = i + 1; j < pts.length; j++) {
+        if (used.has(j)) continue;
+        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
+        if (dx * dx + dy * dy <= R * R) { group.push(j); used.add(j); }
+      }
+      if (group.length >= MIN) {
+        const lat = group.reduce((s, k) => s + pts[k].l.lat, 0) / group.length;
+        const lon = group.reduce((s, k) => s + pts[k].l.lon, 0) / group.length;
+        const cm = L.marker([lat, lon], { icon: makeLionClusterIcon(group.length), zIndexOffset: 100 });
+        cm.on('click', e => { L.DomEvent.stopPropagation(e); group.forEach(k => pinnedLions.add(k)); reclusterLions(); });
+        lionRenderGroup.addLayer(cm);
+      } else {
+        for (const k of group) {
+          const m = L.marker([pts[k].l.lat, pts[k].l.lon], { icon: lionIcon, zIndexOffset: 50 });
+          bindLionClick(m, pts[k].l);
+          lionRenderGroup.addLayer(m);
+        }
+      }
+    }
+  }
+
+  (async function loadLions() {
+    try {
+      const res = await fetch('lions.json');
+      if (!res.ok) return;
+      const { lions } = await res.json();
+      lionData = lions;
+      reclusterLions();
+    } catch (e) {
+      console.warn('Lion load failed:', e);
+    }
+  })();
+
+  // ── P-22 Tribute Marker ─────────────────────────────────────────
+  (function addP22() {
+    const P22_LAT = 34.1184, P22_LON = -118.3004;
+    const p22Icon = L.divIcon({
+      className: '',
+      html: `<div style="display:flex;flex-direction:column;align-items:center;gap:2px;">
+        <svg class="p22-paw" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 18 18">
+          <ellipse cx="9" cy="13.5" rx="4.5" ry="3" fill="#f59e0b"/>
+          <circle cx="3.5" cy="8" r="2.2" fill="#f59e0b"/>
+          <circle cx="7.5" cy="6" r="2.2" fill="#f59e0b"/>
+          <circle cx="12" cy="6.5" r="2.2" fill="#f59e0b"/>
+          <circle cx="16" cy="9.5" r="2.2" fill="#f59e0b"/>
+        </svg>
+        <div style="font-size:9px;font-weight:700;color:#fbbf24;letter-spacing:.05em;white-space:nowrap;text-shadow:0 1px 3px rgba(0,0,0,0.9);">P-22</div>
+      </div>`,
+      iconSize: [30, 36], iconAnchor: [15, 36]
+    });
+    const p22Marker = L.marker([P22_LAT, P22_LON], { icon: p22Icon, zIndexOffset: 500 }).addTo(map);
+    p22Marker.on('click', () => {
+      const html =
+        `<div style="padding:14px 16px;width:260px;">` +
+        `<div style="font-size:11px;color:rgba(245,158,11,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">🦁 P-22 Tribute</div>` +
+        `<div style="font-size:16px;font-weight:700;color:#f9fafb;margin-bottom:8px;">The Ghost of Griffith Park</div>` +
+        `<div style="font-size:13px;color:#d1d5db;line-height:1.55;margin-bottom:10px;">P-22 crossed the 405 and 101 freeways — alone — to reach Griffith Park, where he lived for a decade as LA's most famous wild resident. He became a symbol of urban wildlife survival and inspired the Wallis Annenberg Wildlife Crossing.</div>` +
+        `<div style="font-size:12px;color:#9ca3af;margin-bottom:10px;">Born ~2010 · Santa Monica Mountains<br>Crossed 405 &amp; 101 freeways, 2012<br>Griffith Park home, 2012–2022<br>Euthanized Dec 17, 2022</div>` +
+        `<div style="display:flex;gap:10px;flex-wrap:wrap;">` +
+        `<a href="https://www.nps.gov/samo/learn/nature/pumapage.htm" target="_blank" rel="noopener" style="font-size:12px;color:rgba(245,158,11,0.8);text-decoration:none;">NPS Puma Project →</a>` +
+        `<a href="https://en.wikipedia.org/wiki/P-22" target="_blank" rel="noopener" style="font-size:12px;color:rgba(245,158,11,0.8);text-decoration:none;">Wikipedia →</a>` +
+        `</div></div>`;
+      L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 300, autoPan: true })
+        .setLatLng([P22_LAT, P22_LON]).setContent(html).openOn(map);
+    });
+  })();
+
   let _reclusterTimer;
   map.on('zoomend', () => {
     pinnedParrots.clear();
     pinnedWells.clear();
+    pinnedLions.clear();
     clearTimeout(_reclusterTimer);
-    _reclusterTimer = setTimeout(() => { reclusterParrots(); reclusterWells(); }, 200);
+    _reclusterTimer = setTimeout(() => { reclusterParrots(); reclusterWells(); reclusterLions(); }, 200);
   });
 
   (async function loadWells() {
