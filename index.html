@@ -999,8 +999,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       boulevards.forEach(b => {
         const active = b === blvd;
         b.lines.forEach(l => l.setStyle({
-          opacity: active ? Math.max(b.opacity, 0.9) : b.isPico ? Math.max(b.opacity, 0.75) : b.isSunset ? 0.6 : 0.06,
-          weight:  active ? Math.max(b.weight, 2.0)  : b.isPico ? Math.max(b.weight, 1.8)  : b.isSunset ? 1.6 : 0.6
+          opacity: active ? Math.max(b.opacity, 0.9) : b.isPico ? Math.max(b.opacity, 0.75) : 0.06,
+          weight:  active ? Math.max(b.weight, 2.0)  : b.isPico ? Math.max(b.weight, 1.8)  : 0.6
         }));
       });
     });
@@ -1029,7 +1029,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
     requestAnimationFrame(() => {
       updates.forEach(({ blvd, near }) => {
-        blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : blvd.isPico ? 0.75 : blvd.isSunset ? 0.6 : 0.07, weight: near ? 2 : blvd.isPico ? 1.8 : blvd.isSunset ? 1.6 : 1 }));
+        blvd.lines.forEach(l => l.setStyle({ opacity: near ? 0.95 : blvd.isPico ? 0.75 : 0.07, weight: near ? 2 : blvd.isPico ? 1.8 : 1 }));
       });
     });
   }
@@ -1638,8 +1638,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     updateOverlayMarkers(null);
     requestAnimationFrame(() => {
       boulevards.forEach(b => b.lines.forEach(l => l.setStyle({
-        opacity: b.isPico ? Math.max(b.opacity, 0.75) : b.isSunset ? 0.6 : 0.06,
-        weight:  b.isPico ? Math.max(b.weight, 1.8)  : b.isSunset ? 1.6 : 0.6
+        opacity: b.isPico ? Math.max(b.opacity, 0.75) : 0.06,
+        weight:  b.isPico ? Math.max(b.weight, 1.8)  : 0.6
       })));
     });
     infoPanel.classList.remove('pico', 'sunset');
