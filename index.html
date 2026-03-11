@@ -2314,25 +2314,22 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // P-22's journey: Santa Monica Mtns → 405 crossing → Sepulveda Pass → 101 crossing → Griffith Park
   const P22_ROUTE = [
-    [34.095, -118.650],  // Santa Monica Mountains (Malibu Creek)
-    [34.090, -118.624],  // ridge east
-    [34.077, -118.599],  // dip through Topanga canyon
-    [34.084, -118.571],  // Topanga State Park ridge
-    [34.073, -118.543],  // descending toward 405 corridor
-    [34.064, -118.511],  // canyon approach
-    [34.069, -118.488],  // west side of 405
-    [34.072, -118.460],  // 405 crossing (Sepulveda Pass)
-    [34.080, -118.442],  // Bel Air hills
-    [34.091, -118.430],  // Stone Canyon ridgeline
-    [34.086, -118.416],  // dip into canyon
-    [34.094, -118.400],  // Mulholland corridor
-    [34.089, -118.382],  // Hollywood Hills east
-    [34.097, -118.364],  // approaching Cahuenga
-    [34.102, -118.347],  // 101 crossing (Cahuenga Pass)
-    [34.110, -118.334],  // Cahuenga Hills
-    [34.107, -118.320],  // bearing toward Griffith
-    [34.114, -118.309],  // final ridge
-    [34.1184, -118.3004] // Griffith Park home
+    [34.098, -118.645],  // Santa Monica Mountains — Malibu Creek SP (born west of 405)
+    [34.088, -118.618],  // ridge east through Topanga State Park
+    [34.076, -118.591],  // Topanga canyon
+    [34.069, -118.558],  // descending south fork
+    [34.063, -118.526],  // lower Topanga, approaching 405 corridor
+    [34.070, -118.496],  // Sepulveda Pass west slope
+    [34.075, -118.461],  // 405 crossing — Sepulveda Pass
+    [34.082, -118.446],  // Bel-Air, east of 405
+    [34.094, -118.432],  // Stone Canyon Reservoir area
+    [34.087, -118.413],  // Beverly Glen canyon
+    [34.095, -118.394],  // Mulholland Drive
+    [34.089, -118.374],  // Hollywood Hills east of Mulholland
+    [34.099, -118.352],  // approaching Cahuenga Pass
+    [34.101, -118.341],  // 101 crossing — Cahuenga Pass (near Hollywood Bowl)
+    [34.102, -118.337],  // Ford Theatre ridgeline — first documented sighting, Feb 12 2012
+    [34.1184, -118.3004] // Griffith Park — home for 10 years
   ];
 
   function setP22RouteVisible(on) {
