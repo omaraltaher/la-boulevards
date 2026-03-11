@@ -839,15 +839,15 @@ let currentTileLayer = (TILE_LAYERS[_savedBm] || TILE_LAYERS.dark).addTo(map);
 // ── Color scale (percentile rank 0–1) ──────────────────────
 // ── Haversine (km) ─────────────────────────────────────────
 // On mobile, pan the map after any popup opens so it clears the title+search bar overlay.
-const MOBILE_HEADER_H = 80; // px — title+search bar bottom edge on mobile
 map.on('popupopen', e => {
-  if (window.innerWidth > 640) return;
   requestAnimationFrame(() => {
     const el = e.popup.getElement();
     if (!el) return;
+    const titleEl = document.getElementById('title');
+    const headerBottom = titleEl ? titleEl.getBoundingClientRect().bottom + 10 : 0;
     const rect = el.getBoundingClientRect();
-    if (rect.top < MOBILE_HEADER_H) {
-      map.panBy([0, rect.top - MOBILE_HEADER_H - 8]);
+    if (rect.top < headerBottom) {
+      map.panBy([0, rect.top - headerBottom]);
     }
   });
 });
