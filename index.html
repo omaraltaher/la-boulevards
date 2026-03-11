@@ -726,7 +726,6 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="legend-group-header">Explore <span class="lg-chevron">▾</span></div>
       <div class="legend-group-body">
         <div class="marker-row"><div class="marker-line blvd-legend-line"></div><span>Boulevard</span></div>
-        <div class="marker-row"><div class="marker-line sunset-legend-line"></div><span>Sunset Strip</span></div>
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 20 14" style="flex-shrink:0;opacity:0.9"><rect x="1" y="3" width="11" height="8" rx="1.5" fill="none" stroke="#67e8f9" stroke-width="1.2" stroke-linecap="round"/><circle cx="6.5" cy="7" r="2.3" fill="none" stroke="#67e8f9" stroke-width="1.0"/><circle cx="6.5" cy="7" r="0.8" fill="#67e8f9"/><path d="M12,5 L18,3.5 L18,10.5 L12,9" fill="none" stroke="#67e8f9" stroke-width="1.0" stroke-linejoin="round"/></svg><span>Traffic camera</span></div>
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><circle cx="7" cy="3" r="2" fill="none" stroke="#e879f9" stroke-width="1.2"/><path d="M5.5,5 Q4.5,7.5 5,10.5 L9,10.5 Q9.5,7.5 8.5,5 Z" fill="none" stroke="#e879f9" stroke-width="1.1"/><line x1="5.5" y1="5.5" x2="2" y2="2" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="8.5" y1="6" x2="12" y2="7.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="6" y1="10.5" x2="5" y2="13.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="8" y1="10.5" x2="9" y2="13.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><rect x="3" y="13.5" width="8" height="4.5" rx="0.5" fill="none" stroke="#e879f9" stroke-width="1.1"/><line x1="2" y1="19.5" x2="12" y2="19.5" stroke="#e879f9" stroke-width="1.2" stroke-linecap="round"/></svg><span>Public art</span></div>
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 16 20" style="flex-shrink:0;opacity:0.9"><path d="M1,1 Q8,4.5 15,1" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M8,1 Q8.5,4 8,7" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M1,1 L1,17 Q4.5,13 4.5,9 Q4.5,5 1,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><path d="M15,1 L15,17 Q11.5,13 11.5,9 Q11.5,5 15,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="1" y1="10.5" x2="5" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="15" y1="10.5" x2="11" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="1" y1="19" x2="15" y2="19" stroke="#c084fc" stroke-width="1.2" stroke-linecap="round"/></svg><span>Theatre</span></div>
@@ -2309,6 +2308,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let p22SightingData = [];
   let p22RouteLine = null;
   let p22Expanded = false;
+  let p22Marker = null;
   const lionRenderGroup = L.layerGroup().addTo(map);
   let lionsOn = true;
   const pinnedLions = new Set();
@@ -2391,6 +2391,30 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   }
 
+  function makeP22Icon() {
+    const badge = (!p22Expanded && p22SightingData.length > 0)
+      ? `<div style="position:absolute;top:-6px;right:-8px;background:#b45309;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fef3c7;line-height:1;">${p22SightingData.length}</div>`
+      : '';
+    return L.divIcon({
+      className: '',
+      html: `<div style="position:relative;display:inline-flex;flex-direction:column;align-items:center;gap:2px;">
+        <svg class="p22-paw" xmlns="http://www.w3.org/2000/svg" width="30" height="15" viewBox="0 0 28 14">
+          <path d="M5,10 C7,4 14,3 18,5.5 C22,7 23,5 25,5" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M7,12 C12,11 18,10 22,9.5" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M25,5 C27,5 28,7 27,8.5 C26.5,9.5 24.5,10.5 23,9.5" fill="none" stroke="#f59e0b" stroke-width="1.4" stroke-linecap="round"/>
+          <line x1="23" y1="9.5" x2="27" y2="14" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/>
+          <line x1="21.5" y1="10" x2="25" y2="14" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/>
+          <line x1="6" y1="10.5" x2="2" y2="14" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/>
+          <line x1="8" y1="11" x2="5" y2="14" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/>
+          <path d="M5,10 C3,7 4,3 2,1" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        ${badge}
+        <div style="font-size:9px;font-weight:700;color:#fbbf24;letter-spacing:.05em;white-space:nowrap;text-shadow:0 1px 3px rgba(0,0,0,0.9);">P-22</div>
+      </div>`,
+      iconSize: [30, 27], iconAnchor: [15, 27]
+    });
+  }
+
   function reclusterLions() {
     lionRenderGroup.clearLayers();
     if (!lionsOn || !lionData.length) return;
@@ -2428,34 +2452,26 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       }
     }
 
-    // P-22 sightings — single cluster marker until clicked, then individual dots
-    if (p22SightingData.length > 0) {
-      if (!p22Expanded) {
-        const lat = p22SightingData.reduce((s, p) => s + p.lat, 0) / p22SightingData.length;
-        const lon = p22SightingData.reduce((s, p) => s + p.lon, 0) / p22SightingData.length;
-        const cm = L.marker([lat, lon], { icon: makeLionClusterIcon(p22SightingData.length), zIndexOffset: 200 });
-        cm.on('click', e => { L.DomEvent.stopPropagation(e); p22Expanded = true; reclusterLions(); });
-        lionRenderGroup.addLayer(cm);
-      } else {
-        for (const s of p22SightingData) {
-          const dot = L.marker([s.lat, s.lon], { icon: lionIcon, zIndexOffset: 150 });
-          dot.on('click', () => {
-            const dateStr = s.date
-              ? new Date(s.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
-              : '';
-            const html =
-              `<div style="padding:12px 14px;width:220px;">` +
-              `<div style="font-size:11px;color:rgba(251,191,36,0.85);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">P-22 Sighting 🦁</div>` +
-              `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">Griffith Park</div>` +
-              (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">${dateStr}</div>` : '') +
-              (s.photo ? `<img src="${s.photo}" style="width:100%;height:90px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
-              `<a href="${s.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(251,191,36,0.75);text-decoration:none;">iNaturalist →</a>` +
-              `</div>`;
-            L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 260, autoPan: true })
-              .setLatLng([s.lat, s.lon]).setContent(html).openOn(map);
-          });
-          lionRenderGroup.addLayer(dot);
-        }
+    // P-22 individual sightings — only rendered when expanded (tribute marker is the cluster)
+    if (p22Expanded) {
+      for (const s of p22SightingData) {
+        const dot = L.marker([s.lat, s.lon], { icon: lionIcon, zIndexOffset: 150 });
+        dot.on('click', () => {
+          const dateStr = s.date
+            ? new Date(s.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
+            : '';
+          const html =
+            `<div style="padding:12px 14px;width:220px;">` +
+            `<div style="font-size:11px;color:rgba(251,191,36,0.85);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">P-22 Sighting 🦁</div>` +
+            `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">Griffith Park</div>` +
+            (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">${dateStr}</div>` : '') +
+            (s.photo ? `<img src="${s.photo}" style="width:100%;height:90px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
+            `<a href="${s.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(251,191,36,0.75);text-decoration:none;">iNaturalist →</a>` +
+            `</div>`;
+          L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 260, autoPan: true })
+            .setLatLng([s.lat, s.lon]).setContent(html).openOn(map);
+        });
+        lionRenderGroup.addLayer(dot);
       }
     }
   }
@@ -2467,6 +2483,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const { lions, p22 } = await res.json();
       lionData = lions;
       p22SightingData = p22 || [];
+      if (p22Marker) p22Marker.setIcon(makeP22Icon());
 
       // Draw P-22 journey polyline
       p22RouteLine = L.polyline(P22_ROUTE, {
@@ -2481,28 +2498,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   })();
 
-  // ── P-22 Tribute Marker ─────────────────────────────────────────
+  // ── P-22 Tribute Marker (also serves as cluster) ────────────────
   (function addP22() {
     const P22_LAT = 34.1184, P22_LON = -118.3004;
-    const p22Icon = L.divIcon({
-      className: '',
-      html: `<div style="display:flex;flex-direction:column;align-items:center;gap:2px;">
-        <svg class="p22-paw" xmlns="http://www.w3.org/2000/svg" width="30" height="15" viewBox="0 0 28 14">
-          <path d="M5,10 C7,4 14,3 18,5.5 C22,7 23,5 25,5" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M7,12 C12,11 18,10 22,9.5" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
-          <path d="M25,5 C27,5 28,7 27,8.5 C26.5,9.5 24.5,10.5 23,9.5" fill="none" stroke="#f59e0b" stroke-width="1.4" stroke-linecap="round"/>
-          <line x1="23" y1="9.5" x2="27" y2="14" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/>
-          <line x1="21.5" y1="10" x2="25" y2="14" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/>
-          <line x1="6" y1="10.5" x2="2" y2="14" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/>
-          <line x1="8" y1="11" x2="5" y2="14" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/>
-          <path d="M5,10 C3,7 4,3 2,1" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
-        </svg>
-        <div style="font-size:9px;font-weight:700;color:#fbbf24;letter-spacing:.05em;white-space:nowrap;text-shadow:0 1px 3px rgba(0,0,0,0.9);">P-22</div>
-      </div>`,
-      iconSize: [30, 27], iconAnchor: [15, 27]
-    });
-    const p22Marker = L.marker([P22_LAT, P22_LON], { icon: p22Icon, zIndexOffset: 500 }).addTo(map);
+    p22Marker = L.marker([P22_LAT, P22_LON], { icon: makeP22Icon(), zIndexOffset: 500 }).addTo(map);
     p22Marker.on('click', () => {
+      if (!p22Expanded && p22SightingData.length > 0) {
+        p22Expanded = true;
+        p22Marker.setIcon(makeP22Icon());
+        reclusterLions();
+      }
       const html =
         `<div style="padding:14px 16px;width:260px;">` +
         `<div style="font-size:11px;color:rgba(245,158,11,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">🦁 P-22 Tribute</div>` +
@@ -2524,6 +2529,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     pinnedWells.clear();
     pinnedLions.clear();
     p22Expanded = false;
+    if (p22Marker) p22Marker.setIcon(makeP22Icon());
     clearTimeout(_reclusterTimer);
     _reclusterTimer = setTimeout(() => { reclusterParrots(); reclusterWells(); reclusterLions(); }, 200);
   });
