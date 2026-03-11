@@ -2369,7 +2369,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   // ── Mountain Lions + P-22 Tribute ───────────────────────────────
   let lionData = [];
   let p22SightingData = [];
-  let p22RouteLine = null;
+  let p22RouteLine = null, p22HitLine = null;
   let p22Expanded = false;
   let p22Marker = null;
   const lionRenderGroup = L.layerGroup().addTo(map);
@@ -2399,6 +2399,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function setP22RouteVisible(on) {
     if (!p22RouteLine) return;
     on ? p22RouteLine.addTo(map) : p22RouteLine.remove();
+    if (p22HitLine) on ? p22HitLine.addTo(map) : p22HitLine.remove();
   }
 
   document.getElementById('lion-toggle').addEventListener('click', () => {
@@ -2548,17 +2549,20 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       p22SightingData = p22 || [];
       if (p22Marker) p22Marker.setIcon(makeP22Icon());
 
-      // Draw P-22 journey polyline
+      // Draw P-22 journey polyline + wide invisible hit area
       p22RouteLine = L.polyline(P22_ROUTE, {
         color: '#f59e0b', weight: 3, opacity: 0.55,
-        dashArray: '8, 6', interactive: true
+        dashArray: '8, 6', interactive: false
       });
-      p22RouteLine.on('click', e => {
+      p22HitLine = L.polyline(P22_ROUTE, {
+        color: 'transparent', weight: 20, opacity: 0, interactive: true
+      });
+      p22HitLine.on('click', e => {
         L.DomEvent.stopPropagation(e);
         _skipNextMapClick = true;
         showP22Info();
       });
-      if (lionsOn) p22RouteLine.addTo(map);
+      if (lionsOn) { p22RouteLine.addTo(map); p22HitLine.addTo(map); }
 
       reclusterLions();
     } catch (e) {
