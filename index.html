@@ -1654,7 +1654,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoMeta.textContent = 'Santa Monica Mountains → Griffith Park, 2012';
     document.getElementById('info-stats').innerHTML = '';
     document.getElementById('gold-tribute').style.display = 'none';
-    infoImg.style.display = 'none';
+    infoImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/P-22-Mountain-Lion.jpg/600px-P-22-Mountain-Lion.jpg';
+    infoImg.style.display = 'block';
     const editEl = document.getElementById('info-editorial');
     editEl.innerHTML = `<a href="https://99percentinvisible.org/episode/516-cougar-town/" target="_blank" rel="noopener" style="color:rgba(245,158,11,0.8);">🎙️ 99% Invisible: Cougar Town →</a>`;
     editEl.style.display = '';
