@@ -2487,8 +2487,32 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
       // Draw P-22 journey polyline
       p22RouteLine = L.polyline(P22_ROUTE, {
-        color: '#f59e0b', weight: 2, opacity: 0.5,
-        dashArray: '8, 6', interactive: false
+        color: '#f59e0b', weight: 3, opacity: 0.55,
+        dashArray: '8, 6', interactive: true
+      });
+      p22RouteLine.on('click', e => {
+        L.DomEvent.stopPropagation(e);
+        const html =
+          `<div style="padding:14px 16px;width:280px;">` +
+          `<div style="font-size:11px;color:rgba(245,158,11,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">🦁 P-22 · The Journey</div>` +
+          `<div style="font-size:15px;font-weight:700;color:#f9fafb;margin-bottom:10px;">From the Mountains to the City</div>` +
+          `<div style="font-size:12px;color:#d1d5db;line-height:1.6;margin-bottom:10px;">` +
+          `Sometime in 2012, a young male mountain lion left the Santa Monica Mountains and made one of the most remarkable solo journeys in urban wildlife history. ` +
+          `He crossed the 10-lane <b style="color:#fbbf24;">405 freeway</b> at Sepulveda Pass — likely at night — then navigated the mansions of Bel-Air, Stone Canyon, and Beverly Glen. ` +
+          `He then crossed the <b style="color:#fbbf24;">101 freeway</b> near Cahuenga Pass, and was first photographed by a remote camera on a ridgeline above the Ford Theatre on <b style="color:#fbbf24;">February 12, 2012</b>. ` +
+          `He had found a home — 9 square miles of Griffith Park — surrounded by 4 million people.` +
+          `</div>` +
+          `<div style="font-size:11px;color:#6b7280;line-height:1.5;margin-bottom:10px;">` +
+          `His journey inspired the <a href="https://www.annenbergfoundation.org/initiatives/wildlife-crossing/" target="_blank" rel="noopener" style="color:rgba(245,158,11,0.7);">Wallis Annenberg Wildlife Crossing</a> — ` +
+          `the world's largest wildlife crossing, now under construction at Liberty Canyon on the 101.` +
+          `</div>` +
+          `<div style="display:flex;gap:10px;flex-wrap:wrap;">` +
+          `<a href="https://www.nps.gov/samo/learn/news/gps-data-offer-clues-on-famous-lion-locations.htm" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">NPS GPS report →</a>` +
+          `<a href="https://en.wikipedia.org/wiki/P-22" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">Wikipedia →</a>` +
+          `<a href="https://www.inaturalist.org/taxa/42007" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">iNaturalist →</a>` +
+          `</div></div>`;
+        L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 320, autoPan: true })
+          .setLatLng(e.latlng).setContent(html).openOn(map);
       });
       if (lionsOn) p22RouteLine.addTo(map);
 
