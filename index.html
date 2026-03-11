@@ -1705,7 +1705,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           `<div style="font-size:11px;color:#6b7280;margin-top:3px;">Live · refreshes every 2 min</div>` +
           `</div></div>`;
 
-        L.popup({ className: 'cam-popup', closeButton: true, maxWidth: 320, autoPan: true, ...popupPad() })
+        L.popup({ className: 'cam-popup', closeButton: true, maxWidth: 320, autoPan: true })
           .setLatLng([lat, lon])
           .setContent(html)
           .openOn(map);
@@ -1783,7 +1783,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             (art.address ? `<div style="font-size:11px;color:#374151;margin-bottom:6px;">${art.address}</div>` : '') +
             (art.commonsUrl ? `<a href="${art.commonsUrl}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(255,0,200,0.6);">More info →</a>` : '') +
             `</div>`;
-          L.popup({ className: 'art-popup', closeButton: true, maxWidth: 320, autoPan: true, ...popupPad() })
+          L.popup({ className: 'art-popup', closeButton: true, maxWidth: 320, autoPan: true })
             .setLatLng([item.lat, item.lon]).setContent(html).openOn(map);
         });
       }
@@ -1894,7 +1894,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         `<div style="font-size:11px;color:#4b5563;">— ${resto.source} · ${resto.address}</div>` +
         `</div>`;
 
-      L.popup({ className: 'gold-popup', closeButton: true, maxWidth: 320, autoPan: true, ...popupPad() })
+      L.popup({ className: 'gold-popup', closeButton: true, maxWidth: 320, autoPan: true })
         .setLatLng([resto.lat, resto.lon])
         .setContent(html)
         .openOn(map);
@@ -1940,7 +1940,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             `<div style="font-size:14px;color:#9ca3af;line-height:1.65;margin-bottom:10px;">${spot.desc}</div>` +
             `<a href="${spot.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(192,132,252,0.8);text-decoration:none;">Learn more →</a>` +
             `</div>`;
-          L.popup({ className: 'sunset-popup', closeButton: true, maxWidth: 330, autoPan: true, ...popupPad() })
+          L.popup({ className: 'sunset-popup', closeButton: true, maxWidth: 330, autoPan: true })
             .setLatLng([spot.lat, spot.lon])
             .setContent(html)
             .openOn(map);
@@ -2004,7 +2004,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
               `<div style="font-size:15px;font-weight:600;color:#f9fafb;margin-bottom:10px;">The Wiltern</div>` +
               `<div style="font-size:12px;color:#4b5563;">Loading events…</div>` +
               `</div>`;
-            const popup = L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 310, autoPan: true, ...popupPad() })
+            const popup = L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 310, autoPan: true })
               .setLatLng([lat, lon]).setContent(loadingHtml).openOn(map);
 
             (async () => {
@@ -2076,7 +2076,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             (address ? `<div style="font-size:12px;color:#6b7280;margin-bottom:${links ? '8px' : '0'};">${address}</div>` : '') +
             (links ? `<div>${links}</div>` : '') +
             `</div>`;
-          L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 280, autoPan: true, ...popupPad() })
+          L.popup({ className: 'theatre-popup', closeButton: true, maxWidth: 280, autoPan: true })
             .setLatLng([lat, lon]).setContent(html).openOn(map);
         });
       }
@@ -2136,7 +2136,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         (p.photo ? `<img src="${p.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
         `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(163,230,53,0.7);text-decoration:none;">iNaturalist →</a>` +
         `</div>`;
-      L.popup({ className: 'parrot-popup', closeButton: true, maxWidth: 260, autoPan: true, ...popupPad() })
+      L.popup({ className: 'parrot-popup', closeButton: true, maxWidth: 260, autoPan: true })
         .setLatLng([p.lat, p.lon]).setContent(html).openOn(map);
     });
   }
@@ -2236,7 +2236,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         (w.photo    ? `<a href="https://www.mapillary.com/app?pKey=${w.photo}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(180,83,9,0.8);text-decoration:none;display:block;margin-bottom:6px;">📷 Street view →</a>` : '') +
         (w.api      ? `<a href="https://maps.conservation.ca.gov/calgem/findwells/" target="_blank" rel="noopener" style="font-size:12px;color:rgba(180,83,9,0.8);text-decoration:none;">CalGEM API #${w.api} →</a>` : '') +
         `</div>`;
-      L.popup({ className: 'well-popup', closeButton: true, maxWidth: 280, autoPan: true, ...popupPad() })
+      L.popup({ className: 'well-popup', closeButton: true, maxWidth: 280, autoPan: true })
         .setLatLng([w.lat, w.lon]).setContent(html).openOn(map);
     });
   }
