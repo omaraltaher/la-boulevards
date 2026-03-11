@@ -2314,11 +2314,25 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // P-22's journey: Santa Monica Mtns → 405 crossing → Sepulveda Pass → 101 crossing → Griffith Park
   const P22_ROUTE = [
-    [34.095, -118.650],   // Santa Monica Mountains interior (Malibu Creek area)
-    [34.072, -118.460],   // 405 freeway crossing (Sepulveda Pass)
-    [34.085, -118.405],   // Hollywood Hills, between freeways
-    [34.102, -118.347],   // 101 freeway crossing (Cahuenga Pass)
-    [34.1184, -118.3004]  // Griffith Park home
+    [34.095, -118.650],  // Santa Monica Mountains (Malibu Creek)
+    [34.090, -118.624],  // ridge east
+    [34.077, -118.599],  // dip through Topanga canyon
+    [34.084, -118.571],  // Topanga State Park ridge
+    [34.073, -118.543],  // descending toward 405 corridor
+    [34.064, -118.511],  // canyon approach
+    [34.069, -118.488],  // west side of 405
+    [34.072, -118.460],  // 405 crossing (Sepulveda Pass)
+    [34.080, -118.442],  // Bel Air hills
+    [34.091, -118.430],  // Stone Canyon ridgeline
+    [34.086, -118.416],  // dip into canyon
+    [34.094, -118.400],  // Mulholland corridor
+    [34.089, -118.382],  // Hollywood Hills east
+    [34.097, -118.364],  // approaching Cahuenga
+    [34.102, -118.347],  // 101 crossing (Cahuenga Pass)
+    [34.110, -118.334],  // Cahuenga Hills
+    [34.107, -118.320],  // bearing toward Griffith
+    [34.114, -118.309],  // final ridge
+    [34.1184, -118.3004] // Griffith Park home
   ];
 
   function setP22RouteVisible(on) {
