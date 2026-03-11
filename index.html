@@ -1242,11 +1242,29 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   window._flyTo = (lat, lon) => {
-    if (!isMobile()) { map.flyTo([lat, lon], 17); return; }
+    const openMarkerAt = () => {
+      let best = null, bestD = Infinity;
+      map.eachLayer(l => {
+        if (!l.getLatLng) return;
+        const ll = l.getLatLng();
+        const d = Math.hypot(ll.lat - lat, ll.lng - lon);
+        if (d < bestD) { bestD = d; best = l; }
+      });
+      if (best && bestD < 0.0001) best.fire('click');
+    };
+
+    if (!isMobile()) {
+      map.flyTo([lat, lon], 17);
+      map.once('moveend', () => setTimeout(openMarkerAt, 300));
+      return;
+    }
     setSheetState('half');
     const panOffset = Math.round(sheetPanelH * 0.31);
     map.flyTo([lat, lon], 17);
-    map.once('moveend', () => { if (panOffset > 0) map.panBy([0, panOffset], { animate: false }); });
+    map.once('moveend', () => {
+      if (panOffset > 0) map.panBy([0, panOffset], { animate: false });
+      setTimeout(openMarkerAt, 300);
+    });
   };
   function closeSheet() {
     selectedBlvd = null;
