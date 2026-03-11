@@ -846,8 +846,11 @@ function filterNearBlvd(points, blvd, threshKm) {
 }
 
 window._flyTo = (lat, lon) => {
-  if (window.innerWidth <= 640 && typeof setSheetState === 'function') setSheetState('peek');
+  if (window.innerWidth > 640) { map.flyTo([lat, lon], 17); return; }
+  setSheetState('half');
+  const panOffset = Math.round(sheetPanelH * 0.31);
   map.flyTo([lat, lon], 17);
+  map.once('moveend', () => { if (panOffset > 0) map.panBy([0, panOffset], { animate: false }); });
 };
 
 function lerpColor(c1, c2, t) {
