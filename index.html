@@ -971,6 +971,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let pinLat = null, pinLon = null;
   let hoverTimer = null;
   let selectedBlvd = null;
+  let p22RouteSelected = false;
   const artMarkerList = [];    // { marker, blvdName }
   const theatreMarkerList = []; // { marker, blvdName, isWiltern }
 
@@ -1293,6 +1294,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   };
   function closeSheet() {
     selectedBlvd = null;
+    p22RouteSelected = false;
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
     else resetProximity();
@@ -1523,6 +1525,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   function showInfo(blvd) {
+    p22RouteSelected = false;
     infoPanel.classList.add('open');
     if (isMobile()) {
       sheetPanelH = infoPanel.offsetHeight;
@@ -1628,7 +1631,55 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     populateLionSection(blvd);
   }
 
+  function showP22Info() {
+    p22RouteSelected = true;
+    selectedBlvd = null;
+    // Dim all boulevard lines
+    updateOverlayMarkers(null);
+    requestAnimationFrame(() => {
+      boulevards.forEach(b => b.lines.forEach(l => l.setStyle({
+        opacity: b.isPico ? Math.max(b.opacity, 0.75) : b.isSunset ? 0.6 : 0.06,
+        weight:  b.isPico ? Math.max(b.weight, 1.8)  : b.isSunset ? 1.6 : 0.6
+      })));
+    });
+    infoPanel.classList.remove('pico', 'sunset');
+    infoPanel.classList.add('open');
+    if (isMobile()) {
+      sheetPanelH = infoPanel.offsetHeight;
+      infoPanel.style.transition = 'none';
+      infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
+      requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('peek')));
+    }
+    infoName.textContent = 'P-22 · The Journey';
+    infoMeta.textContent = 'Santa Monica Mountains → Griffith Park, 2012';
+    document.getElementById('info-stats').innerHTML = '';
+    document.getElementById('gold-tribute').style.display = 'none';
+    infoImg.style.display = 'none';
+    const editEl = document.getElementById('info-editorial');
+    editEl.innerHTML = `<a href="https://99percentinvisible.org/episode/516-cougar-town/" target="_blank" rel="noopener" style="color:rgba(245,158,11,0.8);">🎙️ 99% Invisible: Cougar Town →</a>`;
+    editEl.style.display = '';
+    infoExtract.innerHTML =
+      `Sometime in 2012, a young male mountain lion left the Santa Monica Mountains and made one of the most remarkable solo journeys in urban wildlife history. ` +
+      `He crossed the 10-lane 405 at Sepulveda Pass — likely at night — then navigated Bel-Air, Stone Canyon, and Beverly Glen before crossing the 101 near Cahuenga Pass. ` +
+      `He was first photographed above the Ford Theatre on February 12, 2012. He lived in Griffith Park for a decade, surrounded by 4 million people.` +
+      `<audio controls preload="none" style="width:100%;margin-top:12px;accent-color:#f59e0b;">` +
+      `<source src="https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/92e774dd-a401-44fd-8255-52ddbd97d13c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=92e774dd-a401-44fd-8255-52ddbd97d13c&feed=BqbsxVfO" type="audio/mpeg"/></audio>`;
+    infoWiki.href = 'https://en.wikipedia.org/wiki/P-22';
+    infoWiki.textContent = 'Read on Wikipedia →';
+    infoWiki.style.display = 'inline';
+    photosStrip.innerHTML = '';
+    photosStrip.style.display = 'none';
+    ['info-art','info-theatres','info-wells','info-parrots','info-lions'].forEach(id =>
+      document.getElementById(id).style.display = 'none');
+    const shareEl = document.getElementById('info-share');
+    shareEl.innerHTML =
+      `<div class="share-row"><a href="https://www.nps.gov/samo/learn/nature/pumapage.htm" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.7);text-decoration:none;">NPS Puma Project →</a>` +
+      `<a href="https://www.annenbergfoundation.org/initiatives/wildlife-crossing/" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.7);text-decoration:none;">Wildlife Crossing →</a></div>`;
+    shareEl.classList.add('visible');
+  }
+
   document.getElementById('info-close').addEventListener('click', () => {
+    p22RouteSelected = false;
     if (isMobile()) { closeSheet(); return; }
     infoPanel.classList.remove('open');
     selectedBlvd = null;
@@ -1638,6 +1689,15 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   });
 
   map.on('click', () => {
+    if (p22RouteSelected) {
+      p22RouteSelected = false;
+      if (isMobile()) { closeSheet(); return; }
+      infoPanel.classList.remove('open');
+      updateOverlayMarkers(null);
+      if (pinLat !== null) applyProximity(pinLat, pinLon);
+      else resetProximity();
+      return;
+    }
     if (!selectedBlvd) return;
     if (isMobile()) { closeSheet(); return; }
     infoPanel.classList.remove('open');
@@ -2492,33 +2552,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       });
       p22RouteLine.on('click', e => {
         L.DomEvent.stopPropagation(e);
-        const html =
-          `<div style="padding:14px 16px;width:280px;">` +
-          `<div style="font-size:11px;color:rgba(245,158,11,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">🦁 P-22 · The Journey</div>` +
-          `<div style="font-size:15px;font-weight:700;color:#f9fafb;margin-bottom:10px;">From the Mountains to the City</div>` +
-          `<div style="font-size:12px;color:#d1d5db;line-height:1.6;margin-bottom:10px;">` +
-          `Sometime in 2012, a young male mountain lion left the Santa Monica Mountains and made one of the most remarkable solo journeys in urban wildlife history. ` +
-          `He crossed the 10-lane <b style="color:#fbbf24;">405 freeway</b> at Sepulveda Pass — likely at night — then navigated the mansions of Bel-Air, Stone Canyon, and Beverly Glen. ` +
-          `He then crossed the <b style="color:#fbbf24;">101 freeway</b> near Cahuenga Pass, and was first photographed by a remote camera on a ridgeline above the Ford Theatre on <b style="color:#fbbf24;">February 12, 2012</b>. ` +
-          `He had found a home — 9 square miles of Griffith Park — surrounded by 4 million people.` +
-          `</div>` +
-          `<div style="font-size:11px;color:#6b7280;line-height:1.5;margin-bottom:10px;">` +
-          `His journey inspired the <a href="https://www.annenbergfoundation.org/initiatives/wildlife-crossing/" target="_blank" rel="noopener" style="color:rgba(245,158,11,0.7);">Wallis Annenberg Wildlife Crossing</a> — ` +
-          `the world's largest wildlife crossing, now under construction at Liberty Canyon on the 101.` +
-          `</div>` +
-          `<div style="margin-bottom:10px;">` +
-          `<div style="font-size:11px;color:rgba(245,158,11,0.7);margin-bottom:5px;">🎙️ 99% Invisible · Ep. 516 "Cougar Town"</div>` +
-          `<audio controls preload="none" style="width:100%;height:32px;accent-color:#f59e0b;">` +
-          `<source src="https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/92e774dd-a401-44fd-8255-52ddbd97d13c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=92e774dd-a401-44fd-8255-52ddbd97d13c&feed=BqbsxVfO" type="audio/mpeg"/>` +
-          `</audio>` +
-          `</div>` +
-          `<div style="display:flex;gap:10px;flex-wrap:wrap;">` +
-          `<a href="https://99percentinvisible.org/episode/516-cougar-town/" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">99pi →</a>` +
-          `<a href="https://www.nps.gov/samo/learn/news/gps-data-offer-clues-on-famous-lion-locations.htm" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">NPS →</a>` +
-          `<a href="https://en.wikipedia.org/wiki/P-22" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.8);text-decoration:none;">Wikipedia →</a>` +
-          `</div></div>`;
-        L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 320, autoPan: true })
-          .setLatLng(e.latlng).setContent(html).openOn(map);
+        showP22Info();
       });
       if (lionsOn) p22RouteLine.addTo(map);
 
