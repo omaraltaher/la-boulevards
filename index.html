@@ -1658,13 +1658,15 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/P-22-Mountain-Lion.jpg/600px-P-22-Mountain-Lion.jpg';
     infoImg.style.display = 'block';
     const editEl = document.getElementById('info-editorial');
-    editEl.innerHTML = `<a href="https://99percentinvisible.org/episode/516-cougar-town/" target="_blank" rel="noopener" style="color:rgba(245,158,11,0.8);">🎙️ 99% Invisible: Cougar Town →</a>`;
-    editEl.style.display = '';
+    editEl.innerHTML = '';
+    editEl.style.display = 'none';
     infoExtract.innerHTML =
       `Sometime in 2012, a young male mountain lion left the Santa Monica Mountains and made one of the most remarkable solo journeys in urban wildlife history. ` +
       `He crossed the 10-lane 405 at Sepulveda Pass — likely at night — then navigated Bel-Air, Stone Canyon, and Beverly Glen before crossing the 101 near Cahuenga Pass. ` +
       `He was first photographed above the Ford Theatre on February 12, 2012. He lived in Griffith Park for a decade, surrounded by 4 million people.` +
-      `<audio controls preload="none" style="width:100%;margin-top:12px;accent-color:#f59e0b;">` +
+      `<div style="font-size:11px;color:rgba(245,158,11,0.7);margin-top:14px;margin-bottom:4px;">` +
+      `<a href="https://99percentinvisible.org/episode/516-cougar-town/" target="_blank" rel="noopener" style="color:rgba(245,158,11,0.8);text-decoration:none;">🎙️ 99% Invisible · Ep. 516 "Cougar Town"</a></div>` +
+      `<audio controls preload="none" style="width:100%;accent-color:#f59e0b;">` +
       `<source src="https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/92e774dd-a401-44fd-8255-52ddbd97d13c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=92e774dd-a401-44fd-8255-52ddbd97d13c&feed=BqbsxVfO" type="audio/mpeg"/></audio>`;
     infoWiki.href = 'https://en.wikipedia.org/wiki/P-22';
     infoWiki.textContent = 'Read on Wikipedia →';
