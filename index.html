@@ -551,62 +551,7 @@ path.leaflet-interactive:focus { outline:none; }
   text-decoration:none; display:none;
 }
 #info-wiki:hover { text-decoration:underline; }
-#info-media-btn {
-  display:none; margin-top:16px;
-  background:rgba(103,232,249,0.08);
-  border:1px solid rgba(103,232,249,0.2);
-  border-radius:6px;
-  padding:10px 14px;
-  color:#67e8f9; font-size:14px;
-  cursor:pointer; width:100%; text-align:left;
-  font-family:inherit;
-}
-#info-media-btn:hover { background:rgba(103,232,249,0.14); }
-#info-media-btn.loading {
-  color:#374151; border-color:rgba(255,255,255,0.06);
-  background:transparent; cursor:default;
-}
 
-/* ── Media popup ── */
-#media-panel {
-  position:absolute;
-  top:20px; right:460px;
-  width:360px;
-  max-height:calc(100vh - 40px);
-  display:none; padding:0;
-}
-#media-panel.open { display:block; }
-#media-body { padding:22px 24px; }
-#media-header {
-  display:flex; justify-content:space-between; align-items:center;
-  margin-bottom:18px;
-}
-#media-title { font-size:17px; font-weight:600; color:#f9fafb; }
-#media-close {
-  background:none; border:none; color:#e8eaf8;
-  font-size:24px; cursor:pointer; padding:0; line-height:1;
-}
-#media-close:hover { color:#e0e4ef; }
-#media-list {
-  list-style:none; padding:0; margin:0;
-  max-height:calc(100vh - 160px);
-  overflow-y:auto;
-}
-#media-list::-webkit-scrollbar { width:4px; }
-#media-list::-webkit-scrollbar-track { background:transparent; }
-#media-list::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:2px; }
-#media-list li {
-  font-size:14px; color:#9ca3af; line-height:1.6;
-  padding:9px 0; border-bottom:1px solid rgba(255,255,255,0.05);
-}
-#media-list li:last-child { border-bottom:none; }
-.media-type {
-  display:inline-block; font-size:10px; font-weight:600;
-  text-transform:uppercase; letter-spacing:.06em;
-  padding:1px 6px; border-radius:3px; margin-right:6px;
-  background:rgba(103,232,249,0.1); color:#67e8f9;
-  vertical-align:middle;
-}
 /* ── Parrot popup ── */
 .parrot-popup .leaflet-popup-content-wrapper {
   background:rgba(15,17,35,0.97) !important;
@@ -800,7 +745,6 @@ path.leaflet-interactive:focus { outline:none; }
       <div id="info-extract"></div>
       <div id="photos-strip"></div>
       <a id="info-wiki" target="_blank" rel="noopener">Read on Wikipedia →</a>
-      <button id="info-media-btn">Featured in films, music &amp; more →</button>
       <div id="info-art">
         <div id="info-art-title">Public Art</div>
         <div id="info-art-list"></div>
@@ -809,15 +753,6 @@ path.leaflet-interactive:focus { outline:none; }
     </div>
   </div>
 
-  <div id="media-panel" class="panel interactive">
-    <div id="media-body">
-      <div id="media-header">
-        <div id="media-title">Featured in</div>
-        <button id="media-close">×</button>
-      </div>
-      <ul id="media-list"></ul>
-    </div>
-  </div>
 </div>
 
 <script>
@@ -1097,7 +1032,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (pin) { map.removeLayer(pin); pin = null; }
     pinLat = null; pinLon = null;
     infoPanel.classList.remove('open');
-    mediaPanel.classList.remove('open');
     selectedBlvd = null;
     resetProximity();
   }
@@ -1272,7 +1206,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   }
   function closeSheet() {
-    mediaPanel.classList.remove('open');
     selectedBlvd = null;
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
@@ -1389,72 +1322,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     return (commonsCache[name] = []);
   }
 
-  // ── Wikidata + MusicBrainz media lookup ────────────────
-  const mediaCache = {};
-
-  async function fetchMedia(name) {
-    if (name in mediaCache) return mediaCache[name];
-
-    // Wikidata: films, musicals, albums, singles named exactly after the boulevard
-    const sparql = `SELECT DISTINCT ?item ?itemLabel ?typeLabel ?year WHERE {
-      ?item wdt:P31 ?type.
-      VALUES ?type {
-        wd:Q11424 wd:Q5398426 wd:Q131084 wd:Q886311
-        wd:Q134556 wd:Q482994 wd:Q7725634
-      }
-      { ?item rdfs:label ?label. } UNION { ?item skos:altLabel ?label. }
-      FILTER(LANG(?label) = "en" && LCASE(?label) = "${name.toLowerCase()}")
-      OPTIONAL { ?item wdt:P577 ?date. BIND(YEAR(?date) AS ?year) }
-      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-    } LIMIT 15`;
-
-    const [wdRes, mbRes] = await Promise.allSettled([
-      fetch('https://query.wikidata.org/sparql?' + new URLSearchParams({ query: sparql, format: 'json' }),
-        { headers: { Accept: 'application/sparql-results+json' } }),
-      fetch(`https://musicbrainz.org/ws/2/recording/?query=title:"${encodeURIComponent(name)}"&fmt=json&limit=10`)
-    ]);
-
-    const items = [];
-
-    // Wikidata results — films/musicals first
-    if (wdRes.status === 'fulfilled' && wdRes.value.ok) {
-      const data = await wdRes.value.json();
-      for (const row of data.results?.bindings || []) {
-        const label = row.itemLabel?.value || name;
-        const type  = row.typeLabel?.value || '';
-        const year  = row.year?.value;
-        items.push({ text: year ? `${label} (${year})` : label, type, priority: 2 });
-      }
-    }
-
-    // MusicBrainz results — deduplicated songs
-    if (mbRes.status === 'fulfilled' && mbRes.value.ok) {
-      const data = await mbRes.value.json();
-      const seen = new Set();
-      for (const rec of data.recordings || []) {
-        if ((rec.score || 0) < 65) continue;
-        if (!rec.title?.toLowerCase().includes(name.toLowerCase())) continue;
-        const artist = rec['artist-credit']?.[0]?.name;
-        if (!artist) continue;
-        const key = artist.toLowerCase();
-        if (seen.has(key)) continue;
-        seen.add(key);
-        items.push({ text: `"${rec.title}" — ${artist}`, type: 'song', priority: 2 });
-        if (items.filter(i => i.type === 'song').length >= 6) break;
-      }
-    }
-
-    // Films/musicals before songs, songs before everything else
-    const rank = t => /film|television/.test(t) ? 3 : /musical/.test(t) ? 2 : /song|single|album/.test(t) ? 1 : 0;
-    items.sort((a, b) => rank(b.type) - rank(a.type));
-
-    return (mediaCache[name] = items);
-  }
-
-  const infoMediaBtn = document.getElementById('info-media-btn');
-  const mediaPanel   = document.getElementById('media-panel');
-  const mediaList    = document.getElementById('media-list');
-  const statusBar    = document.getElementById('status-bar');
+  const statusBar = document.getElementById('status-bar');
 
   // ── Status bar (shows while async fetches are in flight) ──
   let pendingCount = 0;
@@ -1494,7 +1362,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
       requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('peek')));
     }
-    mediaPanel.classList.remove('open');
     infoPanel.classList.toggle('pico', blvd.name === 'Pico Boulevard');
     infoPanel.classList.toggle('sunset', blvd.name === 'Sunset Boulevard');
     document.getElementById('gold-tribute').style.display =
@@ -1542,9 +1409,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoWiki.style.display = 'none';
     photosStrip.style.display = 'none';
     photosStrip.innerHTML = '';
-    infoMediaBtn.textContent = 'Searching films & music…';
-    infoMediaBtn.classList.add('loading');
-    infoMediaBtn.style.display = 'block';
     document.getElementById('info-art').style.display = 'none';
     document.getElementById('info-art-list').innerHTML = '';
 
@@ -1579,32 +1443,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       }
     });
 
-    statusStart('Searching films & music…');
-    fetchMedia(blvd.name).then(items => {
-      statusDone();
-      if (blvd !== selectedBlvd) return;
-      infoMediaBtn.classList.remove('loading');
-      if (!items.length) {
-        infoMediaBtn.style.display = 'none';
-        return;
-      }
-      mediaList.innerHTML = items.map(({ text, type }) => {
-        const badge = type ? `<span class="media-type">${type}</span> ` : '';
-        return `<li>${badge}${text}</li>`;
-      }).join('');
-      infoMediaBtn.textContent = 'Featured in films, music & more →';
-    });
-
     populateArtSection(blvd);
   }
-
-  infoMediaBtn.addEventListener('click', () => mediaPanel.classList.toggle('open'));
-  document.getElementById('media-close').addEventListener('click', () => mediaPanel.classList.remove('open'));
 
   document.getElementById('info-close').addEventListener('click', () => {
     if (isMobile()) { closeSheet(); return; }
     infoPanel.classList.remove('open');
-    mediaPanel.classList.remove('open');
     selectedBlvd = null;
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
@@ -1615,7 +1459,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (!selectedBlvd) return;
     if (isMobile()) { closeSheet(); return; }
     infoPanel.classList.remove('open');
-    mediaPanel.classList.remove('open');
     selectedBlvd = null;
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
@@ -1684,7 +1527,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
         // Dismiss boulevard panels so they don't overlap the camera popup
         infoPanel.classList.remove('open');
-        mediaPanel.classList.remove('open');
         if (selectedBlvd) {
           selectedBlvd = null;
           updateOverlayMarkers(null);
