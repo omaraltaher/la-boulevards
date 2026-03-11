@@ -972,6 +972,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let hoverTimer = null;
   let selectedBlvd = null;
   let p22RouteSelected = false;
+  let _skipNextMapClick = false;
   const artMarkerList = [];    // { marker, blvdName }
   const theatreMarkerList = []; // { marker, blvdName, isWiltern }
 
@@ -1690,6 +1691,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   });
 
   map.on('click', () => {
+    if (_skipNextMapClick) { _skipNextMapClick = false; return; }
     if (p22RouteSelected) {
       p22RouteSelected = false;
       if (isMobile()) { closeSheet(); return; }
@@ -2553,6 +2555,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       });
       p22RouteLine.on('click', e => {
         L.DomEvent.stopPropagation(e);
+        _skipNextMapClick = true;
         showP22Info();
       });
       if (lionsOn) p22RouteLine.addTo(map);
