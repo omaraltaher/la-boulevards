@@ -1696,6 +1696,18 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           }
         }, 380);
       }));
+    } else {
+      // Desktop: fit the full voyage into the viewport left of the open panel
+      const allPts = [...P22_ROUTE, ...p22SightingData.map(o => [o.lat, o.lon])];
+      const voyageBounds = L.latLngBounds(allPts);
+      setTimeout(() => {
+        map.fitBounds(voyageBounds, {
+          paddingTopLeft: [40, 60],
+          paddingBottomRight: [480, 40],
+          animate: true,
+          maxZoom: 13
+        });
+      }, 50);
     }
     infoName.textContent = 'P-22 · The Journey';
     infoMeta.textContent = 'Santa Monica Mountains → Griffith Park, 2012';
