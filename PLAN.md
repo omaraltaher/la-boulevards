@@ -17,6 +17,7 @@
 - Jonathan Gold editorial sidebar with "Year I Ate Pico Boulevard" link
 - "Featured in films, music & more" section
 - Boulevard search
+- **Phase 1 complete:** Boulevard Love hero, collapsible legend groups (Explore/Living City/Hidden City), data sources panel, story card layer counts, share buttons (Reddit/Copy link), deep links with fitBounds, basemap switcher (Dark/Satellite), mobile bottom-sheet, Wiltern heart marker
 
 ### What's Next
 The remaining work builds outward from what exists. Each phase adds a capability that the next phase depends on.
@@ -226,7 +227,7 @@ Share this boulevard →
 - Different base maps tell different stories — satellite makes oil wells visceral, retro makes ghost railways feel like time travel
 - Low-effort, high-impact addition that gives users a sense of control
 
-## 1.7 — Mobile Experience
+## 1.7 ✅ — Mobile Experience
 
 **This will likely be used on phones.** Someone shares a boulevard link, the recipient opens it on their phone. That experience needs to work.
 
@@ -426,7 +427,14 @@ out skel qt;
 
 ---
 
-## 2.3 — Urban Wildlife 🐾
+## 2.3 ✅ — Mountain Lions 🦁 (shipped as part of P-22 tribute)
+**90-day iNaturalist sightings for LA County + all-time P-22 Griffith Park sightings.**
+- `check-lions.mjs` + `lions.json` + `refresh-lions.yml` (monthly GitHub Action)
+- Amber Jaguar-style leaper SVG icon; clustered; toggleable in Living City legend group
+- P-22 marker at Griffith Park doubles as cluster (badge count when collapsed)
+- iNaturalist `taxon_id=42007` (Puma concolor), `quality_grade=research,needs_id`
+
+## 2.4 — Urban Wildlife 🐾 (remaining — non-lion species)
 **Consolidates wildlife corridors + individual sightings. Point layer — same pattern as existing parrots/oil wells.**
 
 ### Data Sources
@@ -635,10 +643,20 @@ The stop card pulls data from whichever layer the stop belongs to — same popup
 
 ---
 
-## 4.1 — P-22 Tribute: The Lion of Los Angeles 🦁
+## 4.1 ✅ — P-22 Tribute: The Lion of Los Angeles 🦁 (shipped)
 
-### Overview
-Dedicated narrative experience celebrating P-22, LA's famous mountain lion. Uses the Drive engine from Phase 3 but with a curated editorial route instead of a boulevard geometry.
+### Overview (shipped as full animated journey)
+Dedicated narrative experience celebrating P-22, LA's famous mountain lion. Implemented as an animated journey:
+
+**Start state:** P-22 cat icon marker at Santa Monica Mountains. Map loads at zoom 10 with marker visible at western edge.
+
+**On click:** `fitBounds` the entire route (waypoints + known observations) to tightest zoom, then draws the animated path — 180ms per route waypoint, 700ms per observation stop. Observation markers drop at each verified iNaturalist sighting along the way.
+
+**After animation:** Info panel opens (main story: journey narrative, route methodology note, last observation photo, 99pi Ep.516 audio, Wikipedia link, sightings list). On mobile: `fitBounds` all observations above the half-open sheet.
+
+**Interaction model:** Clicking observation dots → per-obs popup (photo, date, iNat link). Clicking the route polyline → main story panel. Dots/line persist until user selects another boulevard. `p22RouteSelected` flag manages state alongside `selectedBlvd`.
+
+**Visual:** Amber `#f59e0b` dashed polyline, P-22 cat SVG markers at each observation. Info panel gets amber border matching the polyline color.
 
 ### Route
 P-22's historic journey from the Santa Monica Mountains to Griffith Park, crossing the 405 and 101 freeways. The route passes through/near several boulevards.
@@ -880,7 +898,7 @@ Living City
   └── 🌮 L.A. Taco Picks         Phase 2
 
 Narrative Routes                 Phase 4
-  └── 🦁 P-22: The Lion of Los Angeles
+  └── 🦁 P-22: The Lion of Los Angeles   ✅ live
 
 Community                        Phase 5
   └── ❤️ Loved Places
