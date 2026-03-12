@@ -1710,7 +1710,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoExtract.innerHTML =
       `Sometime in 2012, a young male mountain lion left the Santa Monica Mountains and made one of the most remarkable solo journeys in urban wildlife history. ` +
       `He crossed the 10-lane 405 at Sepulveda Pass — likely at night — then navigated Bel-Air, Stone Canyon, and Beverly Glen before crossing the 101 near Cahuenga Pass. ` +
-      `He was first photographed above the Ford Theatre on February 12, 2012. He lived in Griffith Park for a decade, surrounded by 4 million people.` +
+      `He was first photographed above the Ford Theatre on February 12, 2012. He lived in Griffith Park for a decade, surrounded by 4 million people.</p>` +
+      `<p style="margin-top:10px;color:rgba(224,228,239,0.6);font-size:12px;line-height:1.6;">` +
+      `The route shown here is reconstructed from two sources: the western leg — from the Santa Monica Mountains through Sepulveda Pass and across the 101 at Cahuenga — ` +
+      `is based on wildlife corridor research and documented mountain lion movement patterns in the region. ` +
+      `The stops in Griffith Park are actual verified observations from iNaturalist, plotted in the order they were recorded.` +
       `<div style="font-size:11px;color:rgba(245,158,11,0.7);margin-top:14px;margin-bottom:4px;">` +
       `<a href="https://99percentinvisible.org/episode/516-cougar-town/" target="_blank" rel="noopener" style="color:rgba(245,158,11,0.8);text-decoration:none;">🎙️ 99% Invisible · Ep. 516 "Cougar Town"</a></div>` +
       `<audio controls preload="none" style="width:100%;accent-color:#f59e0b;">` +
@@ -2714,7 +2718,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       _skipNextMapClick = true;
       if (p22Animating) return;
       if (p22AnimDone) return; // popup bound via bindPopup opens automatically
-      startAnim();
+      if (map.getZoom() > 10) {
+        map.once('moveend', startAnim);
+        map.flyTo([34.05, -118.38], 10, { animate: true, duration: 0.6 });
+      } else {
+        startAnim();
+      }
     });
   })();
 
