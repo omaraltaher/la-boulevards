@@ -2728,10 +2728,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (alreadyFits) {
         startAnim();
       } else {
-        map.once('moveend', startAnim);
+        map.once('moveend', () => {
+          map.once('zoomend', startAnim);
+          map.zoomIn(1, { animate: true, duration: 0.3 });
+        });
         map.fitBounds(routeBounds, {
           paddingTopLeft: [60, 70], paddingBottomRight: [60, 60],
-          animate: true, maxZoom: 13
+          animate: true, maxZoom: 12
         });
       }
     });
