@@ -1000,6 +1000,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   function applyHighlight(blvd) {
+    resetP22Anim();
     updateOverlayMarkers(blvd);
     requestAnimationFrame(() => {
       boulevards.forEach(b => {
@@ -1675,11 +1676,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoMeta.textContent = 'Santa Monica Mountains → Griffith Park, 2012';
     document.getElementById('info-stats').innerHTML = '';
     document.getElementById('gold-tribute').style.display = 'none';
-    const _lastObs = [...p22SightingData].sort((a, b) => (a.date || '').localeCompare(b.date || '')).slice(-1)[0];
-    const _lastPhoto = _lastObs?.photo
-      ? _lastObs.photo.replace('/small.', '/medium.')
-      : 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/P-22-Mountain-Lion.jpg/600px-P-22-Mountain-Lion.jpg';
-    infoImg.src = _lastPhoto;
+    infoImg.src = _p22LastPhoto ||
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/P-22-Mountain-Lion.jpg/600px-P-22-Mountain-Lion.jpg';
     infoImg.style.display = 'block';
     const editEl = document.getElementById('info-editorial');
     editEl.innerHTML = '';
@@ -2425,6 +2423,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let p22Animating = false, p22AnimDone = false, p22AnimTimer = null;
   let p22AnimLine = null;
   let p22ObsDots = [];
+  let _p22LastPhoto = null;
   const lionRenderGroup = L.layerGroup().addTo(map);
   let lionsOn = true;
   const pinnedLions = new Set();
@@ -2453,6 +2452,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (p22Marker) on ? p22Marker.addTo(map) : p22Marker.remove();
     if (p22AnimLine) on ? p22AnimLine.addTo(map) : p22AnimLine.remove();
     p22ObsDots.forEach(d => on ? d.addTo(map) : d.remove());
+  }
+
+  function resetP22Anim() {
+    if (!p22AnimDone && !p22Animating) return;
+    p22Animating = false; p22AnimDone = false;
+    if (p22AnimTimer) { clearTimeout(p22AnimTimer); p22AnimTimer = null; }
+    if (p22AnimLine) { p22AnimLine.remove(); p22AnimLine = null; }
+    p22ObsDots.forEach(d => d.remove()); p22ObsDots = [];
+    _p22LastPhoto = null;
+    if (p22Marker) p22Marker.setLatLng(P22_ROUTE[0]);
   }
 
   document.getElementById('lion-toggle').addEventListener('click', () => {
@@ -2597,6 +2606,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     function startAnim() {
       p22Animating = true;
       const obs = [...p22SightingData].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+      // Preload + cache the last observation photo
+      const _lastObs = obs.slice(-1)[0];
+      _p22LastPhoto = _lastObs?.photo
+        ? _lastObs.photo.replace('/small.', '/medium.')
+        : 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/P-22-Mountain-Lion.jpg/600px-P-22-Mountain-Lion.jpg';
+      const _preload = new Image(); _preload.src = _p22LastPhoto;
 
       p22AnimLine = L.polyline([P22_START], {
         color: '#f59e0b', weight: 2.5, opacity: 0.8, dashArray: '8, 6', interactive: false
@@ -2636,7 +2651,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22Marker.on('click', () => {
       _skipNextMapClick = true;
       if (p22Animating) return;
-      if (p22AnimDone) { resetAnim(); return; }
+      if (p22AnimDone) { showP22Info(); return; }
       startAnim();
     });
   })();
