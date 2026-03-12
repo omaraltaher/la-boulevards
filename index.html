@@ -795,7 +795,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div id="info-meta"></div>
       <div id="info-stats"></div>
       <div id="info-editorial" class="info-editorial"></div>
-      <img id="info-img" alt=""/>
+      <img id="info-img" alt="" onerror="this.style.display='none'"/>
       <div id="gold-tribute">
         <a class="gold-rule" href="https://en.wikipedia.org/wiki/Jonathan_Gold" target="_blank" rel="noopener"></a>
         <div class="gold-credit">Jonathan Gold &nbsp;·&nbsp; 1960–2018</div>
@@ -1624,7 +1624,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (!photos.length) return;
       photosStrip.innerHTML = photos.map(p =>
         `<a href="${p.page}" target="_blank" rel="noopener" title="${p.title}">` +
-        `<img src="${p.thumb}" alt="${p.title}"/></a>`
+        `<img src="${p.thumb}" alt="${p.title}" onerror="this.parentElement.style.display='none'"/></a>`
       ).join('');
       photosStrip.style.display = 'block';
     });
@@ -1634,6 +1634,17 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       statusDone();
       if (blvd !== selectedBlvd) return;
       if (wiki?.thumbnail?.source) {
+        infoImg.onerror = () => {
+          infoImg.style.display = 'none';
+          // Fallback: use first Commons photo if Wikipedia thumbnail fails
+          fetchCommons(blvd.name).then(photos => {
+            if (photos.length && blvd === selectedBlvd) {
+              infoImg.onerror = () => { infoImg.style.display = 'none'; };
+              infoImg.src = photos[0].thumb;
+              infoImg.style.display = 'block';
+            }
+          });
+        };
         infoImg.src = wiki.thumbnail.source;
         infoImg.style.display = 'block';
       }
