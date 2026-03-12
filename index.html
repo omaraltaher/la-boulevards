@@ -2596,10 +2596,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         const o = obs[i];
         p22AnimLine.addLatLng([o.lat, o.lon]);
         p22Marker.setLatLng([o.lat, o.lon]);
-        const dot = L.circleMarker([o.lat, o.lon], {
-          radius: 5, color: '#f59e0b', fillColor: '#f59e0b', fillOpacity: 0.7,
-          weight: 1.5, interactive: false
-        }).addTo(map);
+        const dot = L.marker([o.lat, o.lon], { icon: makeP22Icon(), interactive: false }).addTo(map);
         p22ObsDots.push(dot);
         p22AnimTimer = setTimeout(() => nextObs(i + 1), 700);
       }
