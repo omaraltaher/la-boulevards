@@ -628,6 +628,23 @@ path.leaflet-interactive:focus { outline:none; }
 }
 .sunset-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
 
+/* ── P-22 observation popup ── */
+.p22-obs-popup .leaflet-popup-content-wrapper {
+  background:rgba(10,10,16,0.97) !important;
+  border:1px solid rgba(245,158,11,0.4) !important;
+  border-radius:8px !important;
+  box-shadow:0 6px 24px rgba(245,158,11,0.15) !important;
+  padding:0 !important;
+  overflow:hidden;
+}
+.p22-obs-popup .leaflet-popup-tip { background:rgba(10,10,16,0.97); }
+.p22-obs-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.p22-obs-popup .leaflet-popup-close-button {
+  color:rgba(245,158,11,0.7) !important; font-size:18px !important;
+  top:6px !important; right:8px !important; z-index:10;
+}
+.p22-obs-popup .leaflet-popup-close-button:hover { color:#fbbf24 !important; }
+
 /* ── Mobile ── */
 @media (max-width: 640px) {
 
@@ -2422,6 +2439,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let p22Marker = null;
   let p22Animating = false, p22AnimDone = false, p22AnimTimer = null;
   let p22AnimLine = null;
+  let p22HitLine = null;
   let p22ObsDots = [];
   let _p22LastPhoto = null;
   const lionRenderGroup = L.layerGroup().addTo(map);
@@ -2451,6 +2469,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function setP22RouteVisible(on) {
     if (p22Marker) on ? p22Marker.addTo(map) : p22Marker.remove();
     if (p22AnimLine) on ? p22AnimLine.addTo(map) : p22AnimLine.remove();
+    if (p22HitLine)  on ? p22HitLine.addTo(map)  : p22HitLine.remove();
     p22ObsDots.forEach(d => on ? d.addTo(map) : d.remove());
   }
 
@@ -2459,9 +2478,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22Animating = false; p22AnimDone = false;
     if (p22AnimTimer) { clearTimeout(p22AnimTimer); p22AnimTimer = null; }
     if (p22AnimLine) { p22AnimLine.remove(); p22AnimLine = null; }
+    if (p22HitLine)  { p22HitLine.remove();  p22HitLine = null; }
     p22ObsDots.forEach(d => d.remove()); p22ObsDots = [];
     _p22LastPhoto = null;
-    if (p22Marker) p22Marker.setLatLng(P22_ROUTE[0]);
+    if (p22Marker) { p22Marker.unbindPopup(); p22Marker.setLatLng(P22_ROUTE[0]); }
   }
 
   document.getElementById('lion-toggle').addEventListener('click', () => {
@@ -2599,8 +2619,25 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       p22Animating = false; p22AnimDone = false;
       if (p22AnimTimer) { clearTimeout(p22AnimTimer); p22AnimTimer = null; }
       if (p22AnimLine) { p22AnimLine.remove(); p22AnimLine = null; }
+      if (p22HitLine)  { p22HitLine.remove();  p22HitLine = null; }
       p22ObsDots.forEach(d => d.remove()); p22ObsDots = [];
+      p22Marker.unbindPopup();
       p22Marker.setLatLng(P22_START);
+    }
+
+    function makeP22ObsPopupHtml(o) {
+      const dateStr = o.date
+        ? new Date(o.date + 'T12:00:00').toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' })
+        : 'Unknown date';
+      const photo = o.photo ? o.photo.replace('/small.', '/medium.') : null;
+      return `<div style="width:220px;padding:10px;">` +
+        (photo ? `<img src="${photo}" style="width:100%;height:110px;object-fit:cover;border-radius:4px;margin-bottom:8px;display:block;"/>` : '') +
+        `<div style="font-weight:700;color:#fbbf24;font-size:13px;margin-bottom:3px;">P-22 · Griffith Park</div>` +
+        `<div style="color:rgba(255,255,255,0.6);font-size:11px;">${dateStr}</div>` +
+        `<div style="margin-top:8px;display:flex;gap:12px;">` +
+        `<a href="${o.url}" target="_blank" rel="noopener" style="color:#fbbf24;font-size:11px;text-decoration:none;">iNaturalist →</a>` +
+        `<a href="#" onclick="event.preventDefault();_flyTo(${o.lat},${o.lon})" style="color:#fbbf24;font-size:11px;text-decoration:none;">→ map</a>` +
+        `</div></div>`;
     }
 
     function startAnim() {
@@ -2617,6 +2654,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         color: '#f59e0b', weight: 2.5, opacity: 0.8, dashArray: '8, 6', interactive: false
       }).addTo(map);
 
+      // Wide transparent hit area over the route — clicking opens main P-22 panel
+      p22HitLine = L.polyline([P22_START], {
+        color: 'transparent', weight: 18, opacity: 0, interactive: true
+      }).addTo(map);
+      p22HitLine.on('click', () => { _skipNextMapClick = true; if (!p22Animating) showP22Info(); });
+
       let wi = 1;
       function nextWaypoint() {
         if (wi >= P22_ROUTE.length) {
@@ -2626,6 +2669,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         }
         const pt = P22_ROUTE[wi++];
         p22AnimLine.addLatLng(pt);
+        p22HitLine.addLatLng(pt);
         p22Marker.setLatLng(pt);
         p22AnimTimer = setTimeout(nextWaypoint, 180);
       }
@@ -2634,15 +2678,21 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         if (i >= obs.length) { finish(); return; }
         const o = obs[i];
         p22AnimLine.addLatLng([o.lat, o.lon]);
+        p22HitLine.addLatLng([o.lat, o.lon]);
         p22Marker.setLatLng([o.lat, o.lon]);
         const dot = L.marker([o.lat, o.lon], { icon: makeP22Icon(), interactive: true, zIndexOffset: 590 }).addTo(map);
-        dot.on('click', () => { _skipNextMapClick = true; if (!p22Animating) showP22Info(); });
+        dot.bindPopup(makeP22ObsPopupHtml(o), { className: 'p22-obs-popup', maxWidth: 260, closeButton: true });
+        dot.on('click', () => { _skipNextMapClick = true; });
         p22ObsDots.push(dot);
         p22AnimTimer = setTimeout(() => nextObs(i + 1), 700);
       }
 
       function finish() {
         p22Animating = false; p22AnimDone = true;
+        // Bind last-obs popup to the main marker so clicking it shows that sighting
+        if (_lastObs) {
+          p22Marker.bindPopup(makeP22ObsPopupHtml(_lastObs), { className: 'p22-obs-popup', maxWidth: 260, closeButton: true });
+        }
         showP22Info();
       }
 
@@ -2652,7 +2702,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22Marker.on('click', () => {
       _skipNextMapClick = true;
       if (p22Animating) return;
-      if (p22AnimDone) { showP22Info(); return; }
+      if (p22AnimDone) return; // popup bound via bindPopup opens automatically
       startAnim();
     });
   })();
