@@ -1655,7 +1655,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     populateLionSection(blvd);
   }
 
-  function showP22Info() {
+  function showP22Info(obsBounds) {
     p22RouteSelected = true;
     selectedBlvd = null;
     // Dim all boulevard lines
@@ -1674,19 +1674,27 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
       requestAnimationFrame(() => requestAnimationFrame(() => {
         setSheetState('half');
-        // Pan so the last sighting stays visible above the half-open sheet
         setTimeout(() => {
-          if (p22Marker) {
+          const bottomPad = Math.round(sheetPanelH * 0.62) + 24;
+          if (obsBounds) {
+            // Fit all observations in the viewport above the half-open sheet
+            map.fitBounds(obsBounds, {
+              paddingTopLeft: [24, 56],
+              paddingBottomRight: [24, bottomPad],
+              maxZoom: 15,
+              animate: true
+            });
+          } else if (p22Marker) {
+            // Fallback: pan to keep marker above the sheet
             const ll = p22Marker.getLatLng();
-            const sheetVisibleH = Math.round(sheetPanelH * 0.62);
-            const mapH = window.innerHeight - sheetVisibleH;
+            const mapH = window.innerHeight - (sheetPanelH - Math.round(sheetPanelH * 0.38));
             const pt = map.latLngToContainerPoint(ll);
             const targetY = mapH * 0.45;
             if (pt.y > targetY) {
               map.panBy([0, pt.y - targetY], { animate: true, duration: 0.4 });
             }
           }
-        }, 350);
+        }, 380);
       }));
     }
     infoName.textContent = 'P-22 · The Journey';
@@ -2693,7 +2701,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         if (_lastObs) {
           p22Marker.bindPopup(makeP22ObsPopupHtml(_lastObs), { className: 'p22-obs-popup', maxWidth: 260, closeButton: true });
         }
-        showP22Info();
+        const obsBounds = obs.length
+          ? L.latLngBounds(obs.map(o => [o.lat, o.lon]))
+          : null;
+        showP22Info(obsBounds);
       }
 
       p22AnimTimer = setTimeout(nextWaypoint, 300);
