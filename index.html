@@ -474,6 +474,11 @@ path.leaflet-interactive:focus { outline:none; }
   border-color:rgba(168,85,247,0.45);
   box-shadow:0 0 24px rgba(249,115,22,0.1), 0 0 24px rgba(236,72,153,0.08), 0 0 24px rgba(168,85,247,0.08);
 }
+#info-panel.p22 {
+  border-width:2px;
+  border-color:rgba(245,158,11,0.45);
+  box-shadow:0 0 24px rgba(245,158,11,0.12);
+}
 #legend .sunset-legend-line {
   background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7);
 }
@@ -1259,7 +1264,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (state === 'closed') {
       infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
       setTimeout(() => {
-        infoPanel.classList.remove('open');
+        infoPanel.classList.remove('open', 'p22');
         infoPanel.style.transform = '';
         infoPanel.style.transition = '';
       }, 350);
@@ -1644,12 +1649,27 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       })));
     });
     infoPanel.classList.remove('pico', 'sunset');
-    infoPanel.classList.add('open');
+    infoPanel.classList.add('open', 'p22');
     if (isMobile()) {
       sheetPanelH = infoPanel.offsetHeight;
       infoPanel.style.transition = 'none';
       infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
-      requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('peek')));
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        setSheetState('half');
+        // Pan so the last sighting stays visible above the half-open sheet
+        setTimeout(() => {
+          if (p22Marker) {
+            const ll = p22Marker.getLatLng();
+            const sheetVisibleH = Math.round(sheetPanelH * 0.62);
+            const mapH = window.innerHeight - sheetVisibleH;
+            const pt = map.latLngToContainerPoint(ll);
+            const targetY = mapH * 0.45;
+            if (pt.y > targetY) {
+              map.panBy([0, pt.y - targetY], { animate: true, duration: 0.4 });
+            }
+          }
+        }, 350);
+      }));
     }
     infoName.textContent = 'P-22 · The Journey';
     infoMeta.textContent = 'Santa Monica Mountains → Griffith Park, 2012';
@@ -1711,7 +1731,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('info-close').addEventListener('click', () => {
     p22RouteSelected = false;
     if (isMobile()) { closeSheet(); return; }
-    infoPanel.classList.remove('open');
+    infoPanel.classList.remove('open', 'p22');
     selectedBlvd = null;
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
@@ -1723,7 +1743,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (p22RouteSelected) {
       p22RouteSelected = false;
       if (isMobile()) { closeSheet(); return; }
-      infoPanel.classList.remove('open');
+      infoPanel.classList.remove('open', 'p22');
       updateOverlayMarkers(null);
       if (pinLat !== null) applyProximity(pinLat, pinLon);
       else resetProximity();
