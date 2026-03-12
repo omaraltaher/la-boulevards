@@ -1673,8 +1673,34 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoWiki.style.display = 'inline';
     photosStrip.innerHTML = '';
     photosStrip.style.display = 'none';
-    ['info-art','info-theatres','info-wells','info-parrots','info-lions'].forEach(id =>
+    ['info-art','info-theatres','info-wells','info-parrots'].forEach(id =>
       document.getElementById(id).style.display = 'none');
+
+    // P-22 sightings list
+    const lionsSec  = document.getElementById('info-lions');
+    const lionsList = document.getElementById('info-lions-list');
+    const lionTitle = document.getElementById('info-lions-title');
+    if (p22SightingData.length) {
+      lionTitle.textContent = 'Documented Sightings';
+      lionTitle.style.color = 'rgba(245,158,11,0.85)';
+      const sorted = [...p22SightingData].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+      lionsList.innerHTML = sorted.map(s => {
+        const dateStr = s.date
+          ? new Date(s.date + 'T12:00:00').toLocaleDateString('en-US', { year:'numeric', month:'short', day:'numeric' })
+          : 'Unknown date';
+        return `<div class="info-item">` +
+          (s.photo ? `<img src="${s.photo}" loading="lazy" style="width:100%;height:80px;object-fit:cover;border-radius:4px;margin-bottom:6px;"/>` : '') +
+          `<div class="info-item-name" style="color:rgba(245,158,11,0.85)">Griffith Park</div>` +
+          `<div class="info-item-sub">${dateStr}</div>` +
+          `<div class="info-item-links">` +
+          `<a class="info-item-maplnk" href="${s.url}" target="_blank" rel="noopener">iNaturalist →</a>` +
+          `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${s.lat},${s.lon})">→ map</a>` +
+          `</div></div>`;
+      }).join('');
+      lionsSec.style.display = 'block';
+    } else {
+      lionsSec.style.display = 'none';
+    }
     const shareEl = document.getElementById('info-share');
     shareEl.innerHTML =
       `<div class="share-row"><a href="https://www.nps.gov/samo/learn/nature/pumapage.htm" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.7);text-decoration:none;">NPS Puma Project →</a>` +
