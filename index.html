@@ -978,7 +978,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     hit.on('click', e => {
       L.DomEvent.stopPropagation(e);
       selectedBlvd = blvd;
-      applyHighlight(blvd);
+      applyHighlight(blvd, true);
       showInfo(blvd);
     });
     blvd.hits.push(hit);
@@ -1016,8 +1016,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   }
 
-  function applyHighlight(blvd) {
-    resetP22Anim();
+  function applyHighlight(blvd, fromClick = false) {
+    if (fromClick) resetP22Anim();
     updateOverlayMarkers(blvd);
     requestAnimationFrame(() => {
       boulevards.forEach(b => {
@@ -1202,7 +1202,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (pin) { map.removeLayer(pin); pin = null; }
       pinLat = null; pinLon = null;
       selectedBlvd = result.blvd;
-      applyHighlight(result.blvd);
+      applyHighlight(result.blvd, true);
       showInfo(result.blvd);
       zoomToBlvd(result.blvd);
     } else {
@@ -1950,7 +1950,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         marker.on('click', () => {
           if (art.blvd !== selectedBlvd) {
             selectedBlvd = art.blvd;
-            applyHighlight(art.blvd);
+            applyHighlight(art.blvd, true);
             showInfo(art.blvd);
           }
           const html =
@@ -2060,7 +2060,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       // Select Pico if not already selected
       if (picoBoulevard && selectedBlvd !== picoBoulevard) {
         selectedBlvd = picoBoulevard;
-        applyHighlight(picoBoulevard);
+        applyHighlight(picoBoulevard, true);
         showInfo(picoBoulevard);
       }
 
@@ -2108,7 +2108,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           const sunsetBlvd = blvdByName.get('Sunset Boulevard');
           if (sunsetBlvd && selectedBlvd !== sunsetBlvd) {
             selectedBlvd = sunsetBlvd;
-            applyHighlight(sunsetBlvd);
+            applyHighlight(sunsetBlvd, true);
             showInfo(sunsetBlvd);
           }
           const html =
@@ -2172,7 +2172,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         marker.on('click', () => {
           if (nearestBlvd) {
             selectedBlvd = nearestBlvd;
-            applyHighlight(nearestBlvd);
+            applyHighlight(nearestBlvd, true);
           }
 
           if (isWiltern) {
@@ -2806,7 +2806,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const _deepTarget = boulevards.find(b => b.name.toLowerCase() === _deepParam.toLowerCase());
     if (_deepTarget) {
       selectedBlvd = _deepTarget;
-      applyHighlight(_deepTarget);
+      applyHighlight(_deepTarget, true);
       showInfo(_deepTarget); // sets sheetPanelH on mobile
       const _allPts = _deepTarget.segs.flat();
       if (_allPts.length) {
