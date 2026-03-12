@@ -2718,11 +2718,21 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       _skipNextMapClick = true;
       if (p22Animating) return;
       if (p22AnimDone) return; // popup bound via bindPopup opens automatically
-      if (map.getZoom() > 10) {
-        map.once('moveend', startAnim);
-        map.flyTo([34.05, -118.38], 10, { animate: true, duration: 0.6 });
-      } else {
+      // Build bounds of the full path: route waypoints + all known observations
+      const allPts = [...P22_ROUTE, ...p22SightingData.map(o => [o.lat, o.lon])];
+      const routeBounds = L.latLngBounds(allPts);
+      const padPx = L.point(60, 70);
+      const idealZoom = map.getBoundsZoom(routeBounds, false, padPx);
+      const alreadyFits = map.getBounds().contains(routeBounds)
+        && Math.abs(map.getZoom() - idealZoom) <= 1;
+      if (alreadyFits) {
         startAnim();
+      } else {
+        map.once('moveend', startAnim);
+        map.fitBounds(routeBounds, {
+          paddingTopLeft: [60, 70], paddingBottomRight: [60, 60],
+          animate: true, maxZoom: 13
+        });
       }
     });
   })();
