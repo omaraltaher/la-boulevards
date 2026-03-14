@@ -979,44 +979,23 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     hit.bindTooltip(blvd.tip, { sticky:true, className:'blvd-tip', direction:'top', offset:[0,-4] });
     hit.on('mouseover', () => {
       clearTimeout(hoverTimer);
-      if (isMobile()) { if (!selectedBlvd) applyHighlight(blvd); return; }
-      // Desktop: open info panel on hover without dimming other boulevards
-      if (selectedBlvd) return;
-      _hovering = true;
-      selectedBlvd = blvd;
-      showInfo(blvd);
+      // Mobile: dim others on hover. Desktop: tooltip auto-shows; nothing else.
+      if (isMobile() && !selectedBlvd) applyHighlight(blvd);
     });
     hit.on('mouseout', () => {
-      if (isMobile()) {
-        hoverTimer = setTimeout(() => {
-          if (selectedBlvd) return;
-          if (pinLat !== null) applyProximity(pinLat, pinLon);
-          else resetProximity();
-        }, 150);
-        return;
-      }
-      // Desktop: close panel on mouseout only if it was opened by hover (not click)
-      if (!_hovering) return;
-      clearTimeout(hoverTimer);
+      // Mobile only: reset styles after hover
+      if (!isMobile()) return;
       hoverTimer = setTimeout(() => {
-        if (!_hovering) return;
-        _hovering = false;
-        selectedBlvd = null;
-        infoPanel.classList.remove('open', 'pico', 'sunset', 'p22');
-        updateOverlayMarkers(null);
+        if (selectedBlvd) return;
+        if (pinLat !== null) applyProximity(pinLat, pinLon);
+        else resetProximity();
       }, 150);
     });
     hit.on('click', e => {
       L.DomEvent.stopPropagation(e);
-      _hovering = false;
       selectedBlvd = blvd;
       applyHighlight(blvd, true);
-      if (infoPanel.classList.contains('open')) {
-        // Panel already open from hover — lock in selection and update URL
-        history.replaceState(null, '', `?blvd=${encodeURIComponent(blvd.name)}`);
-      } else {
-        showInfo(blvd);
-      }
+      showInfo(blvd);
     });
     blvd.hits.push(hit);
   }
@@ -1030,7 +1009,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let pinLat = null, pinLon = null;
   let hoverTimer = null;
   let selectedBlvd = null;
-  let _hovering = false; // true = panel open from hover; resets to false on click or close
   let p22RouteSelected = false;
   let _skipNextMapClick = false;
   const artMarkerList = [];    // { marker, blvdName }
@@ -1154,7 +1132,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     errDiv.style.display = 'none';
     if (pin) { map.removeLayer(pin); pin = null; }
     pinLat = null; pinLon = null;
-    _hovering = false;
     infoPanel.classList.remove('open');
     selectedBlvd = null;
     resetProximity();
@@ -1356,7 +1333,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   };
   function closeSheet() {
-    _hovering = false;
     selectedBlvd = null;
     p22RouteSelected = false;
     updateOverlayMarkers(null);
@@ -1633,7 +1609,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
     // Share buttons + deep link
     const blvdUrl = `${location.origin}${location.pathname}?blvd=${encodeURIComponent(blvd.name)}`;
-    if (!_hovering) history.replaceState(null, '', `?blvd=${encodeURIComponent(blvd.name)}`);
+    history.replaceState(null, '', `?blvd=${encodeURIComponent(blvd.name)}`);
     const shareEl = document.getElementById('info-share');
     const shareText = `${blvd.name}: ${blvd.mi} mi${theatreCount ? `, ${theatreCount} theatres` : ''}${artCount ? `, ${artCount} public art pieces` : ''}. Explore LA's hidden layers on Boulevard Love`;
     shareEl.innerHTML = `<div class="share-label">Share</div><div class="share-row"><button class="share-btn" id="share-rd">Reddit</button><button class="share-btn" id="share-cp">Copy link</button></div>`;
@@ -1823,7 +1799,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   document.getElementById('info-close').addEventListener('click', () => {
-    _hovering = false;
     p22RouteSelected = false;
     if (isMobile()) { closeSheet(); return; }
     infoPanel.classList.remove('open', 'p22');
@@ -1846,7 +1821,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
     if (!selectedBlvd) return;
     if (isMobile()) { closeSheet(); return; }
-    _hovering = false;
     infoPanel.classList.remove('open');
     selectedBlvd = null;
     updateOverlayMarkers(null);
