@@ -769,7 +769,7 @@ path.leaflet-interactive:focus { outline:none; }
     <div id="legend-refresh" class="legend-sources-toggle" onclick="location.reload()" style="margin-top:4px;">↺ Refresh</div>
     <div id="sources-toggle" class="legend-sources-toggle">Data Sources ℹ️</div>
     <div id="sources-panel" class="legend-sources-panel">
-      <div class="src-row"><b>Boulevards</b> — OpenStreetMap (ODbL)</div>
+      <div class="src-row"><b>Boulevards</b> — OpenStreetMap (ODbL); lengths from <a href="https://en.wikipedia.org/wiki/Wikipedia:About" target="_blank" rel="noopener">Wikipedia</a></div>
       <div class="src-row"><b>Traffic Cameras</b> — <a href="https://cwwp2.dot.ca.gov/" target="_blank" rel="noopener">Caltrans D7 CCTV</a></div>
       <div class="src-row"><b>Public Art</b> — <a href="https://data.lacity.org/Parks-Recreation/Los-Angeles-City-Public-Art/ejf8-ekfc" target="_blank" rel="noopener">LA City Open Data</a></div>
       <div class="src-row"><b>Theatres</b> — OpenStreetMap</div>
@@ -905,13 +905,26 @@ function multiLerp(colors, t) {
   return lerpColor(colors[i], colors[i + 1], t * n - i);
 }
 
+// ── Boulevard lengths from Wikipedia (Wikipedia / Wikimedia Foundation) ──
+// OSM-derived km values double-count divided roads; these correct the major ones.
+const BLVD_LENGTH_MI = {
+  'Sunset Boulevard':        '23.6',
+  'Pico Boulevard':          '15.5',
+  'Wilshire Boulevard':      '15.8',
+  'Olympic Boulevard':       '14.8',
+  'Venice Boulevard':        '14.0',
+  'Sepulveda Boulevard':     '42.8',
+  'Santa Monica Boulevard':  '13.7',
+  'Ventura Boulevard':       '18.0',
+};
+
 // ── Load data ──────────────────────────────────────────────
 fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('loading').style.display = 'none';
 
   const boulevards = data.map(b => ({
     name: b.name, pct: b.pct,
-    km: b.km, mi: (b.km * 0.621371).toFixed(1),
+    km: b.km, mi: BLVD_LENGTH_MI[b.name] || (b.km * 0.621371).toFixed(1),
     segs: b.segs,
     lines: [],    // visible polylines
     hits:  []     // invisible wide hit-area polylines
