@@ -8,7 +8,7 @@ An interactive map of every boulevard in Los Angeles County — the streets, the
 
 ## What's on the map
 
-**~280 boulevards** drawn from OpenStreetMap. Click any one for a Wikipedia extract, Wikimedia Commons photo strip, and a panel of films, albums, and songs named after it. Info panel has a white outline on desktop; slides up as a bottom sheet on mobile.
+**~300 boulevards** drawn from OpenStreetMap. Click any one for a Wikipedia extract, Wikimedia Commons photo strip, and a panel of films, albums, and songs named after it. Info panel has a white outline on desktop; slides up as a bottom sheet on mobile.
 
 ### Special streets
 
@@ -61,6 +61,11 @@ GitHub Actions commit updated files with `[skip ci]`.
 # Boulevard geometry
 node fetch-boulevards.mjs    # fetch from Overpass (~30s)
 node merge-segments.mjs      # merge fragmented OSM segments
+```
+
+`fetch-boulevards.mjs` groups directional OSM variants together ("West X Boulevard" + "East X Boulevard" → "X Boulevard") and deduplicates parallel `oneway=yes` carriageways within each group by 40m midpoint proximity, so divided roads aren't double-counted. The 8 most prominent boulevards (Sunset, Pico, Wilshire, Olympic, Venice, Sepulveda, Santa Monica, Ventura) have their lengths overridden in `index.html` with Wikipedia values; all others use the corrected OSM estimate.
+
+```bash
 
 # Ruscha photo locations (~5 min, samples Getty Arches API)
 node check-ruscha.mjs
@@ -97,7 +102,7 @@ Requires Node 18+.
 
 ## Sources
 
-- Street geometry: OpenStreetMap (ODbL) via Overpass API
+- Street geometry & lengths: OpenStreetMap (ODbL) via Overpass API; major boulevard lengths from Wikipedia / Wikimedia Foundation
 - Map tiles: CARTO dark_nolabels / Esri satellite
 - Boulevard info: Wikipedia REST API, Wikimedia Commons, Wikidata SPARQL, MusicBrainz
 - Cameras: Caltrans District 7 CCTV feed

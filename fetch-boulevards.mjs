@@ -1,13 +1,19 @@
 // Run once: node fetch-boulevards.mjs
 // Fetches LA County boulevard data from Overpass, processes it,
 // and writes a compact boulevards.json for the map to load locally.
+//
+// Length accuracy:
+//   - "West X Blvd" / "East X Blvd" are grouped under "X Blvd" (same street, different sections)
+//   - oneway=yes ways within each group are deduplicated at 40m midpoint proximity
+//     to avoid double-counting both carriageways of divided roads
+//   - index.html overrides the 8 most prominent boulevards with Wikipedia lengths
 
 import { writeFileSync } from 'fs';
 
 const query = `[out:json][timeout:120];
 area["name"="Los Angeles County"]["admin_level"="6"]->.la;
 way["name"~"Boulevard$",i](area.la);
-out geom;`;
+out geom tags;`;
 
 console.log('Fetching from Overpass API (this takes ~30s)...');
 
@@ -36,6 +42,21 @@ function segmentLength(geom) {
   return len;
 }
 
+// Midpoint of a way's geometry
+function midpoint(geom) {
+  return {
+    lat: geom.reduce((s, n) => s + n.lat, 0) / geom.length,
+    lon: geom.reduce((s, n) => s + n.lon, 0) / geom.length
+  };
+}
+
+// Flat distance in metres (accurate enough at ~100m scale)
+function flatDist(a, b) {
+  const dlat = (b.lat - a.lat) * 111000;
+  const dlon = (b.lon - a.lon) * 111000 * Math.cos(a.lat * Math.PI / 180);
+  return Math.sqrt(dlat*dlat + dlon*dlon);
+}
+
 // Douglas-Peucker simplification to reduce node count
 function perpendicularDist(pt, start, end) {
   const dx = end[0] - start[0], dy = end[1] - start[1];
@@ -59,19 +80,50 @@ function simplify(pts, eps) {
   return [pts[0], pts[pts.length-1]];
 }
 
-// Group ways by name, simplify geometry
+// Strip leading directional prefix ("West X Blvd" → "X Blvd").
+// Guard: only strip when the next word is ≥4 chars, so "West End Blvd" stays intact.
+function canonical(name) {
+  return name.replace(/^(?:West|East|North|South) (?=\w{4})/, '');
+}
+
+// Group all ways under their canonical boulevard name
 const byName = {};
 const ways = data.elements.filter(e => e.type === 'way' && e.geometry?.length >= 2);
 
 ways.forEach(w => {
-  const name = w.tags?.name || 'Unknown Boulevard';
-  if (!byName[name]) byName[name] = { name, totalKm: 0, segments: [] };
-  const km = segmentLength(w.geometry);
-  byName[name].totalKm += km;
+  const name = canonical(w.tags?.name || 'Unknown Boulevard');
+  if (!byName[name]) byName[name] = { name, ways: [] };
+  byName[name].ways.push(w);
+});
+
+console.log(`Grouped into ${Object.keys(byName).length} canonical boulevards. Deduplicating...`);
+
+// For each boulevard: compute length, deduplicating parallel oneway carriageways.
+// Strategy: for oneway=yes ways, skip any whose midpoint falls within 40m of an
+// already-counted oneway way in the same group (parallel carriageway of a divided road).
+// Non-oneway ways are always counted. All ways' geometry is kept for rendering.
+Object.values(byName).forEach(group => {
+  const oneways    = group.ways.filter(w => w.tags?.oneway === 'yes' || w.tags?.oneway === '1');
+  const nonOneways = group.ways.filter(w => !w.tags?.oneway || w.tags?.oneway === 'no');
+
+  const skip = new Set();
+  for (let i = 0; i < oneways.length; i++) {
+    if (skip.has(i)) continue;
+    const mi = midpoint(oneways[i].geometry);
+    for (let j = i + 1; j < oneways.length; j++) {
+      if (skip.has(j)) continue;
+      if (flatDist(mi, midpoint(oneways[j].geometry)) < 40) skip.add(j);
+    }
+  }
+
+  group.totalKm =
+    oneways.filter((_, i) => !skip.has(i)).reduce((s, w) => s + segmentLength(w.geometry), 0) +
+    nonOneways.reduce((s, w) => s + segmentLength(w.geometry), 0);
+
   // simplify: epsilon ~0.0001 degrees ≈ 10m — reduces nodes by ~70%
-  const pts = w.geometry.map(n => [n.lat, n.lon]);
-  const simplified = simplify(pts, 0.0001);
-  byName[name].segments.push(simplified);
+  group.segments = group.ways.map(w =>
+    simplify(w.geometry.map(n => [n.lat, n.lon]), 0.0001)
+  );
 });
 
 // Percentile rank by total length
