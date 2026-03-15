@@ -19,7 +19,7 @@ const SWLAT = 33.70, SWLNG = -118.95, NELAT = 34.82, NELNG = -117.65;
 async function fetchPage(page) {
   const url = `https://api.inaturalist.org/v1/observations` +
     `?taxon_id=${TAXON_ID}` +
-    `&quality_grade=research,needs_id` +
+    `&quality_grade=research` +
     `&swlat=${SWLAT}&swlng=${SWLNG}&nelat=${NELAT}&nelng=${NELNG}` +
     `&per_page=${PER_PAGE}&page=${page}&order=desc&order_by=observed_on` +
     `&d1=${d1}&d2=${d2}&photos=true`;
