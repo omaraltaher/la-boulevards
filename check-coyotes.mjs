@@ -7,7 +7,7 @@
 
 import { writeFileSync } from 'fs';
 
-const TAXON_ID = 40151; // Canis latrans
+const TAXON_ID = 42051; // Canis latrans
 const PER_PAGE = 200;
 
 const today = new Date();
