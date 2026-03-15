@@ -645,15 +645,6 @@ path.leaflet-interactive:focus { outline:none; }
 }
 .p22-obs-popup .leaflet-popup-close-button:hover { color:#fbbf24 !important; }
 
-.crossing-popup .leaflet-popup-content-wrapper {
-  background: rgba(10,10,16,0.97);
-  border: 1px solid rgba(74,222,128,0.4);
-  border-radius: 8px;
-  box-shadow: 0 6px 24px rgba(74,222,128,0.15);
-}
-.crossing-popup .leaflet-popup-tip { background: rgba(10,10,16,0.97); }
-.crossing-popup .leaflet-popup-content { margin: 0; color: #e0e4ef; }
-
 /* ── Mobile ── */
 @media (max-width: 640px) {
 
@@ -2497,7 +2488,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let lionData = [];
   let p22SightingData = [];
   let p22Marker = null;
-  let crossingMarker = null;
   let p22Animating = false, p22AnimDone = false, p22AnimTimer = null;
   let p22AnimLine = null;
   let p22HitLine = null;
@@ -2532,7 +2522,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (p22AnimLine) on ? p22AnimLine.addTo(map) : p22AnimLine.remove();
     if (p22HitLine)  on ? p22HitLine.addTo(map)  : p22HitLine.remove();
     p22ObsDots.forEach(d => on ? d.addTo(map) : d.remove());
-    if (crossingMarker) on ? crossingMarker.addTo(map) : crossingMarker.remove();
   }
 
   function resetP22Anim() {
@@ -2695,49 +2684,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   (function addP22() {
     const P22_START = P22_ROUTE[0]; // Santa Monica Mountains
     p22Marker = L.marker(P22_START, { icon: makeP22Icon(), zIndexOffset: 600 }).addTo(map);
-
-    // ── Wallis Annenberg Wildlife Crossing ──
-    const CROSSING_LATLNG = [34.1372, -118.7188];
-    const crossingIcon = L.divIcon({
-      className: '',
-      html: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" viewBox="0 0 32 24"
-          style="filter:drop-shadow(0 0 5px rgba(74,222,128,0.5))">
-        <path d="M2,18 L2,13 Q16,3 30,13 L30,18" fill="none" stroke="#4ade80" stroke-width="1.8" stroke-linecap="round"/>
-        <line x1="1" y1="18" x2="31" y2="18" stroke="#4ade80" stroke-width="2" stroke-linecap="round"/>
-        <line x1="10" y1="18" x2="10" y2="13" stroke="#4ade80" stroke-width="1.2"/>
-        <ellipse cx="10" cy="11" rx="3" ry="3.5" fill="#4ade80" opacity="0.85"/>
-        <line x1="16" y1="18" x2="16" y2="11" stroke="#4ade80" stroke-width="1.2"/>
-        <ellipse cx="16" cy="9"  rx="3.5" ry="4"   fill="#4ade80" opacity="0.95"/>
-        <line x1="22" y1="18" x2="22" y2="13" stroke="#4ade80" stroke-width="1.2"/>
-        <ellipse cx="22" cy="11" rx="3" ry="3.5" fill="#4ade80" opacity="0.85"/>
-      </svg>`,
-      iconSize: [32, 24], iconAnchor: [16, 24]
-    });
-
-    crossingMarker = L.marker(CROSSING_LATLNG, { icon: crossingIcon, zIndexOffset: 400 }).addTo(map);
-
-    crossingMarker.bindPopup(`
-      <div style="width:240px;padding:10px 12px;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Liberty_Canyon_Wildlife_Crossing_aerial.jpg/640px-Liberty_Canyon_Wildlife_Crossing_aerial.jpg"
-          style="width:100%;height:120px;object-fit:cover;border-radius:4px;margin-bottom:8px;display:block;"
-          onerror="this.style.display='none'"/>
-        <div style="font-weight:700;color:#4ade80;font-size:13px;margin-bottom:4px;">
-          Wallis Annenberg Wildlife Crossing
-        </div>
-        <div style="color:rgba(255,255,255,0.55);font-size:11px;line-height:1.5;margin-bottom:8px;">
-          World's largest wildlife crossing — 200 ft wide over US-101 at Liberty Canyon.
-          Opened Earth Day, April 2025. Built in part for P-22's legacy.
-        </div>
-        <div style="display:flex;gap:12px;">
-          <a href="https://en.wikipedia.org/wiki/Wallis_Annenberg_Wildlife_Crossing"
-             target="_blank" rel="noopener" style="color:#4ade80;font-size:11px;text-decoration:none;">Wikipedia →</a>
-          <a href="https://www.nps.gov/samo/learn/nature/wallis-annenberg-wildlife-crossing.htm"
-             target="_blank" rel="noopener" style="color:#4ade80;font-size:11px;text-decoration:none;">NPS →</a>
-        </div>
-      </div>
-    `, { maxWidth: 264, className: 'crossing-popup', offset: [0, -4] });
-
-    crossingMarker.on('click', e => L.DomEvent.stopPropagation(e));
 
     function resetAnim() {
       p22Animating = false; p22AnimDone = false;
