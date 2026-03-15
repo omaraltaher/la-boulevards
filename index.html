@@ -2875,26 +2875,26 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     // ── Wallis Annenberg Wildlife Crossing ────────────────────
     const crossingIcon = L.divIcon({
       className: '',
-      html: `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 28 32"
+      html: `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="34" viewBox="0 0 28 34"
           style="filter:drop-shadow(0 0 4px rgba(134,239,172,0.45))">
-        <!-- Freeway stubs visible east and west of the bridge -->
-        <line x1="0"  y1="14" x2="7"  y2="14" stroke="rgba(148,163,184,0.65)" stroke-width="2"/>
-        <line x1="21" y1="14" x2="28" y2="14" stroke="rgba(148,163,184,0.65)" stroke-width="2"/>
-        <line x1="0"  y1="18" x2="7"  y2="18" stroke="rgba(148,163,184,0.65)" stroke-width="2"/>
-        <line x1="21" y1="18" x2="28" y2="18" stroke="rgba(148,163,184,0.65)" stroke-width="2"/>
-        <!-- Bridge deck (N-S band crossing over freeway) -->
-        <rect x="7" y="1" width="14" height="30" rx="2" fill="rgba(134,239,172,0.18)" stroke="#86efac" stroke-width="1.5"/>
-        <!-- Vegetation (top-down tree clusters) -->
+        <!-- Freeway stubs — visible at the narrow waist on each side -->
+        <line x1="0"  y1="15" x2="9"  y2="15" stroke="rgba(148,163,184,0.65)" stroke-width="1.8"/>
+        <line x1="19" y1="15" x2="28" y2="15" stroke="rgba(148,163,184,0.65)" stroke-width="1.8"/>
+        <line x1="0"  y1="19" x2="9"  y2="19" stroke="rgba(148,163,184,0.65)" stroke-width="1.8"/>
+        <line x1="19" y1="19" x2="28" y2="19" stroke="rgba(148,163,184,0.65)" stroke-width="1.8"/>
+        <!-- Hourglass bridge deck — wide at ends, narrows at freeway crossing -->
+        <path d="M 4,1 L 24,1 C 24,8 19,12 19,17 C 19,22 24,26 24,33 L 4,33 C 4,26 9,22 9,17 C 9,12 4,8 4,1 Z"
+              fill="rgba(134,239,172,0.18)" stroke="#86efac" stroke-width="1.5" stroke-linejoin="round"/>
+        <!-- Top vegetation -->
         <circle cx="11" cy="5"  r="2.2" fill="#86efac" opacity="0.9"/>
         <circle cx="17" cy="5"  r="2.2" fill="#86efac" opacity="0.9"/>
         <circle cx="14" cy="10" r="2.3" fill="#86efac" opacity="0.9"/>
-        <circle cx="11" cy="16" r="2"   fill="#86efac" opacity="0.85"/>
-        <circle cx="17" cy="16" r="2"   fill="#86efac" opacity="0.85"/>
-        <circle cx="14" cy="22" r="2.3" fill="#86efac" opacity="0.9"/>
-        <circle cx="11" cy="27" r="2.2" fill="#86efac" opacity="0.9"/>
-        <circle cx="17" cy="27" r="2.2" fill="#86efac" opacity="0.9"/>
+        <!-- Bottom vegetation -->
+        <circle cx="14" cy="24" r="2.3" fill="#86efac" opacity="0.9"/>
+        <circle cx="11" cy="29" r="2.2" fill="#86efac" opacity="0.9"/>
+        <circle cx="17" cy="29" r="2.2" fill="#86efac" opacity="0.9"/>
       </svg>`,
-      iconSize: [28, 32], iconAnchor: [14, 16]
+      iconSize: [28, 34], iconAnchor: [14, 17]
     });
     crossingMarker = L.marker([34.1372, -118.7188], { icon: crossingIcon, zIndexOffset: 400 });
     crossingMarker.bindPopup(`
