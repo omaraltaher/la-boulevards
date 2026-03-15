@@ -380,6 +380,12 @@ path.leaflet-interactive:focus { outline:none; }
 #info-parrots-title { font-size:11px; color:rgba(34,197,94,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-lions-title { font-size:11px; color:rgba(245,158,11,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-coyotes-title { font-size:11px; color:rgba(160,120,56,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+#info-cameras { display:none; margin-top:16px; }
+#info-cameras-title { font-size:11px; color:rgba(103,232,249,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+#info-cameras-list { display:flex; flex-wrap:wrap; gap:8px; }
+.cam-thumb-item { cursor:pointer; width:120px; }
+.cam-thumb-item img { width:120px; height:68px; object-fit:cover; border-radius:3px; display:block; }
+.cam-thumb-item-name { font-size:11px; color:#9ca3af; margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:120px; }
 .info-item { padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-size:14px; }
 .info-item:last-child { border-bottom:none; }
 .info-item-name { font-weight:500; }
@@ -840,6 +846,10 @@ path.leaflet-interactive:focus { outline:none; }
         <div id="info-coyotes-title">Coyote Sightings</div>
         <div id="info-coyotes-list"></div>
       </div>
+      <div id="info-cameras">
+        <div id="info-cameras-title">Live Traffic Cameras</div>
+        <div id="info-cameras-list"></div>
+      </div>
       <div id="info-share" class="info-share"></div>
     </div>
   </div>
@@ -1029,6 +1039,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let _skipNextMapClick = false;
   const artMarkerList = [];    // { marker, blvdName }
   const theatreMarkerList = []; // { marker, blvdName, isWiltern }
+  const camMarkerList = [];    // { marker, blvdName, imgUrl, name, lat, lon, openCamPopup }
+  window._openCamFromPanel = idx => { const e = camMarkerList[idx]; if (e) e.openCamPopup(); };
 
   function updateOverlayMarkers(blvd) {
     if (!blvd) history.replaceState(null, '', location.pathname);
@@ -1043,6 +1055,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         wilternVisible ? marker.addTo(map) : marker.remove();
         return;
       }
+      if (name && blvdName === name) marker.addTo(map);
+      else marker.remove();
+    });
+    camMarkerList.forEach(({ marker, blvdName }) => {
       if (name && blvdName === name) marker.addTo(map);
       else marker.remove();
     });
@@ -1601,6 +1617,20 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     sec.style.display = 'block';
   }
 
+  function populateCameraSection(blvd) {
+    const sec = document.getElementById('info-cameras');
+    const list = document.getElementById('info-cameras-list');
+    const cams = camMarkerList.filter(c => c.blvdName === blvd.name);
+    if (!cams.length) { sec.style.display = 'none'; return; }
+    list.innerHTML = cams.slice(0, 8).map(c => {
+      const idx = camMarkerList.indexOf(c);
+      return `<div class="cam-thumb-item" onclick="_openCamFromPanel(${idx})">` +
+        `<img src="${c.imgUrl}?t=${Date.now()}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` +
+        `<div class="cam-thumb-item-name">${c.name}</div></div>`;
+    }).join('');
+    sec.style.display = 'block';
+  }
+
   function showInfo(blvd) {
     p22RouteSelected = false;
     infoPanel.classList.add('open');
@@ -1625,6 +1655,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const parrotCount  = parrotData.length  ? countNearBlvd(parrotData,  blvd, 0.15) : 0;
     const lionCount    = lionData.length    ? countNearBlvd(lionData,    blvd, 0.25) : 0;
     const coyoteCount  = coyoteData.length  ? countNearBlvd(coyoteData,  blvd, 0.25) : 0;
+    const camCount     = camMarkerList.filter(c => c.blvdName === blvd.name).length;
     const stats = [];
     if (theatreCount) stats.push(`🎭 ${theatreCount} theatre${theatreCount !== 1 ? 's' : ''}`);
     if (artCount)     stats.push(`🎨 ${artCount} public art`);
@@ -1632,6 +1663,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (parrotCount)  stats.push(`🦜 ${parrotCount} parrot${parrotCount !== 1 ? 's' : ''}`);
     if (lionCount)    stats.push(`🦁 ${lionCount} mountain lion${lionCount !== 1 ? 's' : ''}`);
     if (coyoteCount)  stats.push(`🐺 ${coyoteCount} coyote${coyoteCount !== 1 ? 's' : ''}`);
+    if (camCount)     stats.push(`📷 ${camCount} live camera${camCount !== 1 ? 's' : ''}`);
     document.getElementById('info-stats').innerHTML = stats.map(s => `<span class="info-stat">${s}</span>`).join('');
 
     // Editorial links
@@ -1673,6 +1705,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     document.getElementById('info-lions-list').innerHTML = '';
     document.getElementById('info-coyotes').style.display = 'none';
     document.getElementById('info-coyotes-list').innerHTML = '';
+    document.getElementById('info-cameras').style.display = 'none';
+    document.getElementById('info-cameras-list').innerHTML = '';
 
     statusStart('Loading photos…');
     fetchCommons(blvd.name).then(photos => {
@@ -1722,6 +1756,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     populateParrotSection(blvd);
     populateLionSection(blvd);
     populateCoyoteSection(blvd);
+    populateCameraSection(blvd);
   }
 
   function showP22Info(obsBounds) {
@@ -1805,7 +1840,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoWiki.style.display = 'inline';
     photosStrip.innerHTML = '';
     photosStrip.style.display = 'none';
-    ['info-art','info-theatres','info-wells','info-parrots','info-coyotes'].forEach(id =>
+    ['info-art','info-theatres','info-wells','info-parrots','info-coyotes','info-cameras'].forEach(id =>
       document.getElementById(id).style.display = 'none');
 
     // P-22 sightings list
@@ -1873,13 +1908,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   // ── Caltrans D7 live cameras ──────────────────────────────
   // Flatten all boulevard points once for proximity checks
   const allBlvdPts = [];
-  boulevards.forEach(b => b.segs.forEach(seg => seg.forEach(pt => allBlvdPts.push(pt))));
+  boulevards.forEach(b => b.segs.forEach(seg => seg.forEach(pt => allBlvdPts.push([pt[0], pt[1], b.name]))));
   const CAM_THRESHOLD_KM = 0.35; // ~0.2 miles
 
-  function nearAnyBlvd(lat, lon) {
-    for (const [blat, blon] of allBlvdPts)
-      if (hav(lat, lon, blat, blon) < CAM_THRESHOLD_KM) return true;
-    return false;
+  function closestBlvd(lat, lon) {
+    let best = null, bestDist = Infinity;
+    for (const [blat, blon, bname] of allBlvdPts) {
+      const d = hav(lat, lon, blat, blon);
+      if (d < CAM_THRESHOLD_KM && d < bestDist) { bestDist = d; best = bname; }
+    }
+    return best;
   }
 
   window._onCamError = img => {
@@ -1915,7 +1953,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
         if (!lat || !lon || !imgUrl) return;
         if (cam.inService !== 'true') return;
-        if (!nearAnyBlvd(lat, lon)) return;
+        const blvdForCam = closestBlvd(lat, lon);
+        if (!blvdForCam) return;
         if (liveUrls !== null && !liveUrls.has(imgUrl)) return; // skip known TU cameras
 
         // Probe image before adding marker — skip if unavailable
@@ -1926,43 +1965,32 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             className: '', html: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14"><rect x="1" y="3" width="11" height="8" rx="1.5" fill="none" stroke="#67e8f9" stroke-width="1.2" stroke-linecap="round"/><circle cx="6.5" cy="7" r="2.3" fill="none" stroke="#67e8f9" stroke-width="1.0"/><circle cx="6.5" cy="7" r="0.8" fill="#67e8f9"/><path d="M12,5 L18,3.5 L18,10.5 L12,9" fill="none" stroke="#67e8f9" stroke-width="1.0" stroke-linejoin="round"/></svg>',
             iconSize: [20, 14], iconAnchor: [10, 7]
           });
-          const marker = L.marker([lat, lon], { icon, zIndexOffset: 200 }).addTo(map);
-          marker.on('click', () => {
-        if (refreshTimer) { clearInterval(refreshTimer); refreshTimer = null; }
-
-        // Dismiss boulevard panels so they don't overlap the camera popup
-        infoPanel.classList.remove('open');
-        if (selectedBlvd) {
-          selectedBlvd = null;
-          updateOverlayMarkers(null);
-          if (pinLat !== null) applyProximity(pinLat, pinLon);
-          else resetProximity();
-        }
-
-        const wrapId = `cam-${Math.random().toString(36).slice(2,8)}`;
-        const bust = () => `${imgUrl}?t=${Date.now()}`;
-        const mkImg = src =>
-          `<img src="${src}" style="width:100%;display:block;" onerror="_onCamError(this)"/>`;
-
-        const html =
-          `<div style="width:300px;">` +
-          `<div id="${wrapId}" style="background:#111827;min-height:80px;">${mkImg(bust())}</div>` +
-          `<div style="padding:10px 14px 12px;">` +
-          `<div style="font-size:13px;font-weight:600;color:#f9fafb;">${name}</div>` +
-          `<div style="font-size:11px;color:#6b7280;margin-top:3px;">Live · refreshes every 2 min</div>` +
-          `</div></div>`;
-
-        L.popup({ className: 'cam-popup', closeButton: true, maxWidth: 320, autoPan: true })
-          .setLatLng([lat, lon])
-          .setContent(html)
-          .openOn(map);
-
-        refreshTimer = setInterval(() => {
-          const wrap = document.getElementById(wrapId);
-          if (!wrap) { clearInterval(refreshTimer); refreshTimer = null; return; }
-          wrap.innerHTML = mkImg(bust()); // re-try every 2 min; onerror handles if still down
-        }, 120000);
-          });
+          const marker = L.marker([lat, lon], { icon, zIndexOffset: 200 });
+          const openCamPopup = () => {
+            if (refreshTimer) { clearInterval(refreshTimer); refreshTimer = null; }
+            const wrapId = `cam-${Math.random().toString(36).slice(2,8)}`;
+            const bust = () => `${imgUrl}?t=${Date.now()}`;
+            const mkImg = src =>
+              `<img src="${src}" style="width:100%;display:block;" onerror="_onCamError(this)"/>`;
+            const html =
+              `<div style="width:300px;">` +
+              `<div id="${wrapId}" style="background:#111827;min-height:80px;">${mkImg(bust())}</div>` +
+              `<div style="padding:10px 14px 12px;">` +
+              `<div style="font-size:13px;font-weight:600;color:#f9fafb;">${name}</div>` +
+              `<div style="font-size:11px;color:#6b7280;margin-top:3px;">Live · refreshes every 2 min</div>` +
+              `</div></div>`;
+            L.popup({ className: 'cam-popup', closeButton: true, maxWidth: 320, autoPan: true })
+              .setLatLng([lat, lon])
+              .setContent(html)
+              .openOn(map);
+            refreshTimer = setInterval(() => {
+              const wrap = document.getElementById(wrapId);
+              if (!wrap) { clearInterval(refreshTimer); refreshTimer = null; return; }
+              wrap.innerHTML = mkImg(bust());
+            }, 120000);
+          };
+          marker.on('click', openCamPopup);
+          camMarkerList.push({ marker, blvdName: blvdForCam, imgUrl, name, lat, lon, openCamPopup });
         };
         probe.onerror = () => {}; // unavailable — skip
         probe.src = imgUrl + '?t=' + Date.now();
