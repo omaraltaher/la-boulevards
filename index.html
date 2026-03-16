@@ -1959,17 +1959,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoMeta.textContent = 'The Red Cars · 1901–1961';
     document.getElementById('info-stats').innerHTML = '';
     document.getElementById('gold-tribute').style.display = 'none';
-    infoImg.style.display = 'none';
-    fetch('https://en.wikipedia.org/w/api.php?action=query&titles=File:BigRedCar.jpg&prop=imageinfo&iiprop=url&iiurlwidth=640&format=json&origin=*')
-      .then(r => r.json())
-      .then(d => {
-        const src = Object.values(d.query.pages)[0]?.imageinfo?.[0]?.thumburl;
-        if (src && railwaySelected) {
-          infoImg.onerror = () => { infoImg.style.display = 'none'; };
-          infoImg.src = src;
-          infoImg.style.display = 'block';
-        }
-      }).catch(() => {});
+    if (railwayImageUrl) {
+      infoImg.onerror = () => { infoImg.style.display = 'none'; };
+      infoImg.src = railwayImageUrl;
+      infoImg.style.display = 'block';
+    } else {
+      infoImg.style.display = 'none';
+    }
     const editEl = document.getElementById('info-editorial');
     editEl.innerHTML = ''; editEl.style.display = 'none';
     document.getElementById('info-share').classList.remove('visible');
@@ -3176,6 +3172,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // ── Ghost Railway ────────────────────────────────────────────────
   let railwayData = [];
+  let railwayImageUrl = null;
   const railwayRenderGroup = L.layerGroup().addTo(map);
   let railwayOn = true;
 
@@ -3222,8 +3219,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     try {
       const res = await fetch('railway.json');
       if (!res.ok) return;
-      const { routes } = await res.json();
-      railwayData = routes;
+      const json = await res.json();
+      railwayData = json.routes;
+      railwayImageUrl = json.imageUrl || null;
       renderRailway();
     } catch (e) {
       console.warn('Railway load failed:', e);

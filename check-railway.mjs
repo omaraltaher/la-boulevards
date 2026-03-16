@@ -64,5 +64,21 @@ console.log(`${ghost.length} ghost segments across ${ghostNames.length} named li
 console.log(`${active.length} active segments across ${activeNames.length} named surviving corridors`);
 console.log('Active lines:', activeNames.join(', '));
 
-writeFileSync('railway.json', JSON.stringify({ generated: new Date().toISOString(), routes }, null, 2));
+// Resolve Wikipedia image URL at build time so the map doesn't need a runtime API call
+let imageUrl = null;
+try {
+  console.log('Fetching PE image URL from Wikipedia…');
+  const imgRes = await fetch(
+    'https://en.wikipedia.org/w/api.php?action=query&titles=File:BigRedCar.jpg&prop=imageinfo&iiprop=url&iiurlwidth=640&format=json&origin=*'
+  );
+  if (imgRes.ok) {
+    const imgData = await imgRes.json();
+    imageUrl = Object.values(imgData.query.pages)[0]?.imageinfo?.[0]?.thumburl ?? null;
+    if (imageUrl) console.log('Image URL cached:', imageUrl);
+  }
+} catch (e) {
+  console.warn('Image fetch failed (non-fatal):', e.message);
+}
+
+writeFileSync('railway.json', JSON.stringify({ generated: new Date().toISOString(), imageUrl, routes }, null, 2));
 console.log('Written to railway.json');
