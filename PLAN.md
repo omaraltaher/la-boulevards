@@ -18,6 +18,11 @@
 - "Featured in films, music & more" section
 - Boulevard search
 - **Phase 1 complete:** Boulevard Love hero, collapsible legend groups (Explore/Living City/Hidden City), data sources panel, story card layer counts, share buttons (Reddit/Copy link), deep links with fitBounds, basemap switcher (Dark/Satellite), mobile bottom-sheet, Wiltern heart marker
+- **Phase 2 partial:**
+  - ✅ Mountain Lions 🦁 — 90-day LA County sightings + P-22 all-time Griffith Park. Monthly refresh.
+  - ✅ Coyotes 🐺 — 30-day LA County research-grade sightings (iNat taxon 42051). Monthly refresh. Paw print icon.
+  - ✅ P-22 animated journey (Phase 4.1 shipped early) — full interactive narrative experience
+- **Camera changes:** Traffic cameras now boulevard-conditional (show only when their boulevard is selected). Camera thumbnails shown in info panel at bottom. 📷 count in story card stats.
 
 ### What's Next
 The remaining work builds outward from what exists. Each phase adds a capability that the next phase depends on.
@@ -434,7 +439,14 @@ out skel qt;
 - P-22 marker at Griffith Park doubles as cluster (badge count when collapsed)
 - iNaturalist `taxon_id=42007` (Puma concolor), `quality_grade=research,needs_id`
 
-## 2.4 — Urban Wildlife 🐾 (remaining — non-lion species)
+## 2.3b ✅ — Coyotes 🐺 (shipped)
+**30-day iNaturalist research-grade sightings, LA County.**
+- `check-coyotes.mjs` + `coyotes.json` + `refresh-coyotes.yml` (monthly GitHub Action)
+- Brown paw-print SVG icon (`#a07838`); clustered; toggleable in Living City legend group
+- iNaturalist `taxon_id=42051` (Canis latrans), `quality_grade=research` only
+- 0.02° grid deduplication (~2km), ~46 unique locations from 65 observations (30-day window)
+
+## 2.4 — Urban Wildlife 🐾 (remaining — bobcats + corridors)
 **Consolidates wildlife corridors + individual sightings. Point layer — same pattern as existing parrots/oil wells.**
 
 ### Data Sources
@@ -894,7 +906,9 @@ Hidden Infrastructure
 
 Living City
   ├── 🦜 Wild Parrots            ✅ live
-  ├── 🐾 Urban Wildlife          Phase 2
+  ├── 🦁 Mountain Lions          ✅ live
+  ├── 🐺 Coyotes                 ✅ live
+  ├── 🐾 Urban Wildlife (bobcats + corridors)   Phase 2
   └── 🌮 L.A. Taco Picks         Phase 2
 
 Narrative Routes                 Phase 4
