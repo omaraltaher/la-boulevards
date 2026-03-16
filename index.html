@@ -2495,11 +2495,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   const coyoteSvgHtml = (w, h) =>
     `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 22 22" opacity="0.9">
-      <ellipse cx="11" cy="15.5" rx="5.5" ry="4"   fill="#a07838"/>
-      <ellipse cx="4.5" cy="10"  rx="2.3" ry="2.8"  fill="#a07838"/>
-      <ellipse cx="8.5" cy="7"   rx="2.3" ry="2.8"  fill="#a07838"/>
-      <ellipse cx="13.5" cy="7"  rx="2.3" ry="2.8"  fill="#a07838"/>
-      <ellipse cx="17.5" cy="10" rx="2.3" ry="2.8"  fill="#a07838"/>
+      <ellipse cx="11" cy="15.5" rx="5.5" ry="4"   fill="none" stroke="#a07838" stroke-width="1.2"/>
+      <ellipse cx="4.5" cy="10"  rx="2.3" ry="2.8"  fill="none" stroke="#a07838" stroke-width="1.2"/>
+      <ellipse cx="8.5" cy="7"   rx="2.3" ry="2.8"  fill="none" stroke="#a07838" stroke-width="1.2"/>
+      <ellipse cx="13.5" cy="7"  rx="2.3" ry="2.8"  fill="none" stroke="#a07838" stroke-width="1.2"/>
+      <ellipse cx="17.5" cy="10" rx="2.3" ry="2.8"  fill="none" stroke="#a07838" stroke-width="1.2"/>
     </svg>`;
 
   const coyoteIcon = L.divIcon({
