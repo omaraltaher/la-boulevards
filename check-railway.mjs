@@ -14,6 +14,8 @@ const QUERY = `[out:json][timeout:60];
   way["railway"="abandoned"]["name"~"."](33.70,-118.95,34.82,-117.65);
   way["railway"="razed"]["name"~"."](33.70,-118.95,34.82,-117.65);
   way["railway"]["old_railway_operator"="Pacific Electric Railway"](33.70,-118.95,34.82,-117.65);
+  way["railway"="light_rail"]["name"="Metro E Line"](33.70,-118.95,34.82,-117.65);
+  way["railway"="light_rail"]["name"="Metro A Line"](33.70,-118.95,34.82,-117.65);
 );
 out body;
 >;
@@ -39,8 +41,14 @@ const routes = data.elements
     const coords = way.nodes.map(id => nodes.get(id)).filter(Boolean);
     const railwayTag = way.tags.railway;
     const status = (railwayTag === 'abandoned' || railwayTag === 'razed') ? 'ghost' : 'active';
+    // Map Metro line names to their PE predecessor
+    const PE_SUCCESSORS = {
+      'Metro E Line': 'Metro E Line (former Santa Monica Air Line)',
+      'Metro A Line': 'Metro A Line (former Long Beach Line)',
+    };
+    const rawName = way.tags.name || way.tags.old_name || null;
     return {
-      name:     way.tags.name || way.tags.old_name || null,
+      name:     PE_SUCCESSORS[rawName] || rawName,
       operator: way.tags.old_railway_operator || way.tags.operator || null,
       status,
       coords
