@@ -1055,7 +1055,18 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const artMarkerList = [];    // { marker, blvdName }
   const theatreMarkerList = []; // { marker, blvdName, isWiltern }
   const camMarkerList = [];    // { marker, blvdName, imgUrl, name, lat, lon, openCamPopup }
-  window._openCamFromPanel = idx => { const e = camMarkerList[idx]; if (e) e.openCamPopup(); };
+  window._openCamFromPanel = idx => {
+    const e = camMarkerList[idx];
+    if (!e) return;
+    if (!isMobile()) { e.openCamPopup(); return; }
+    setSheetState('half');
+    const panOffset = Math.round(sheetPanelH * 0.31);
+    map.flyTo([e.lat, e.lon], map.getZoom());
+    map.once('moveend', () => {
+      if (panOffset > 0) map.panBy([0, panOffset], { animate: false });
+      setTimeout(e.openCamPopup, 200);
+    });
+  };
 
   function updateOverlayMarkers(blvd) {
     if (!blvd) history.replaceState(null, '', location.pathname);
