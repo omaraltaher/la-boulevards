@@ -3116,7 +3116,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           opacity: isActive ? 0.7 : 0.38,
           ...(isActive ? {} : { dashArray: '8,5' })
         });
-        line.on('click', e => {
+        const clickHandler = e => {
           L.DomEvent.stopPropagation(e);
           const label = isActive ? 'Surviving PE Corridor' : 'Ghost Railway';
           const blurb = isActive
@@ -3132,8 +3132,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             `</div>`;
           L.popup({ className: 'railway-popup', closeButton: true, maxWidth: 260, autoPan: true })
             .setLatLng(e.latlng).setContent(html).openOn(map);
-        });
+        };
+        line.on('click', clickHandler);
+        const hitLine = L.polyline(coords, { color: 'transparent', weight: 16, opacity: 0 });
+        hitLine.on('click', clickHandler);
         railwayRenderGroup.addLayer(line);
+        railwayRenderGroup.addLayer(hitLine);
       }
     }
   }
