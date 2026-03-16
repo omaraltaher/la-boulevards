@@ -1959,8 +1959,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoMeta.textContent = 'The Red Cars · 1901–1961';
     document.getElementById('info-stats').innerHTML = '';
     document.getElementById('gold-tribute').style.display = 'none';
-    infoImg.onerror = () => { infoImg.style.display = 'none'; };
-    infoImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Hollywood_car_Pacific_Electric.jpg/640px-Hollywood_car_Pacific_Electric.jpg';
+    infoImg.onerror = () => {
+      infoImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/PE531_Pasadena_Southern_Pacific_Station.jpg/640px-PE531_Pasadena_Southern_Pacific_Station.jpg';
+      infoImg.onerror = () => { infoImg.style.display = 'none'; };
+    };
+    infoImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BigRedCar.jpg/640px-BigRedCar.jpg';
     infoImg.style.display = 'block';
     const editEl = document.getElementById('info-editorial');
     editEl.innerHTML = ''; editEl.style.display = 'none';
