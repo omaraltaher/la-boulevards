@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-// Fetches Pacific Electric ghost railway data from OpenStreetMap Overpass API.
-// Queries named abandoned/razed railway ways in the LA County bounding box,
-// plus any way tagged with the Pacific Electric Railway as the former operator.
+// Fetches Pacific Electric railway data from OpenStreetMap Overpass API.
+// Queries both ghost (abandoned/razed) and surviving (active) PE corridors.
+// Routes include a `status` field: "ghost" or "active".
 //
 // Usage:  node check-railway.mjs
 // Output: railway.json
@@ -13,12 +13,13 @@ const QUERY = `[out:json][timeout:60];
   way["railway"="abandoned"]["old_railway_operator"="Pacific Electric Railway"](33.70,-118.95,34.82,-117.65);
   way["railway"="abandoned"]["name"~"."](33.70,-118.95,34.82,-117.65);
   way["railway"="razed"]["name"~"."](33.70,-118.95,34.82,-117.65);
+  way["railway"]["old_railway_operator"="Pacific Electric Railway"](33.70,-118.95,34.82,-117.65);
 );
 out body;
 >;
 out skel qt;`;
 
-console.log('Fetching ghost railway data from Overpass…');
+console.log('Fetching Pacific Electric railway data from Overpass…');
 const res = await fetch('https://overpass-api.de/api/interpreter', {
   method: 'POST',
   body: 'data=' + encodeURIComponent(QUERY),
@@ -36,15 +37,24 @@ const routes = data.elements
   .filter(e => e.type === 'way' && e.nodes && e.tags)
   .map(way => {
     const coords = way.nodes.map(id => nodes.get(id)).filter(Boolean);
+    const railwayTag = way.tags.railway;
+    const status = (railwayTag === 'abandoned' || railwayTag === 'razed') ? 'ghost' : 'active';
     return {
       name:     way.tags.name || way.tags.old_name || null,
       operator: way.tags.old_railway_operator || way.tags.operator || null,
+      status,
       coords
     };
   })
   .filter(r => r.coords.length >= 2 && r.name);
 
-const uniqueNames = [...new Set(routes.map(r => r.name))];
-console.log(`${routes.length} segments across ${uniqueNames.length} named lines`);
+const ghost  = routes.filter(r => r.status === 'ghost');
+const active = routes.filter(r => r.status === 'active');
+const ghostNames  = [...new Set(ghost.map(r => r.name))];
+const activeNames = [...new Set(active.map(r => r.name))];
+console.log(`${ghost.length} ghost segments across ${ghostNames.length} named lines`);
+console.log(`${active.length} active segments across ${activeNames.length} named surviving corridors`);
+console.log('Active lines:', activeNames.join(', '));
+
 writeFileSync('railway.json', JSON.stringify({ generated: new Date().toISOString(), routes }, null, 2));
 console.log('Written to railway.json');

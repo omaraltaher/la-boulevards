@@ -3174,25 +3174,35 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (!railwayOn || !railwayData.length) return;
     const byName = new Map();
     for (const route of railwayData) {
-      if (!byName.has(route.name)) byName.set(route.name, { name: route.name, operator: route.operator, segs: [] });
+      if (!byName.has(route.name)) {
+        byName.set(route.name, { name: route.name, operator: route.operator, status: route.status, segs: [] });
+      }
       byName.get(route.name).segs.push(route.coords);
     }
     for (const entry of byName.values()) {
+      const isActive = entry.status === 'active';
       for (const coords of entry.segs) {
         const line = L.polyline(coords, {
-          color: '#fef08a', weight: 1.8, opacity: 0.38, dashArray: '8,5'
+          color: '#fef08a',
+          weight: isActive ? 2.2 : 1.8,
+          opacity: isActive ? 0.7 : 0.38,
+          ...(isActive ? {} : { dashArray: '8,5' })
         });
         line.on('click', e => {
           L.DomEvent.stopPropagation(e);
+          const label = isActive ? 'Surviving PE Corridor' : 'Ghost Railway';
+          const blurb = isActive
+            ? `<div style="color:#6b7280;font-size:11px;line-height:1.5;margin-bottom:6px;">Still in active use — a surviving fragment of the Pacific Electric network.</div>`
+            : `<div style="color:#6b7280;font-size:11px;line-height:1.5;margin-bottom:6px;">Abandoned 1950–1961. Once part of the world's largest electric railway — 1,100+ miles connecting 56 cities.</div>`;
           const html =
-            `<div style="padding:10px 12px;width:200px;">` +
-            `<div style="color:#fef08a;font-size:11px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;">Ghost Railway</div>` +
+            `<div style="padding:10px 12px;width:220px;">` +
+            `<div style="color:#fef08a;font-size:11px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;">${label}</div>` +
             `<div style="color:#f9fafb;font-size:13px;font-weight:600;margin-bottom:6px;">${entry.name}</div>` +
-            (entry.operator ? `<div style="color:#9ca3af;font-size:11px;margin-bottom:6px;">${entry.operator}</div>` : '') +
+            blurb +
             `<a href="https://en.wikipedia.org/wiki/Pacific_Electric" target="_blank" rel="noopener" ` +
-            `style="color:#fef08a;font-size:11px;text-decoration:none;display:block;margin-top:4px;">Pacific Electric Railway →</a>` +
+            `style="color:#fef08a;font-size:11px;text-decoration:none;">Pacific Electric Railway →</a>` +
             `</div>`;
-          L.popup({ className: 'railway-popup', closeButton: true, maxWidth: 240, autoPan: true })
+          L.popup({ className: 'railway-popup', closeButton: true, maxWidth: 260, autoPan: true })
             .setLatLng(e.latlng).setContent(html).openOn(map);
         });
         railwayRenderGroup.addLayer(line);
