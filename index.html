@@ -3119,18 +3119,29 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         const clickHandler = e => {
           L.DomEvent.stopPropagation(e);
           const label = isActive ? 'Surviving PE Corridor' : 'Ghost Railway';
-          const blurb = isActive
-            ? `<div style="color:#6b7280;font-size:11px;line-height:1.5;margin-bottom:6px;">Still in active use — a surviving fragment of the Pacific Electric network.</div>`
-            : `<div style="color:#6b7280;font-size:11px;line-height:1.5;margin-bottom:6px;">Abandoned 1950–1961. Once part of the world's largest electric railway — 1,100+ miles connecting 56 cities.</div>`;
+          const story = isActive
+            ? `<p style="color:rgba(224,228,239,0.85);font-size:12px;line-height:1.6;margin:0 0 8px;">` +
+              `A surviving fragment of the Pacific Electric network — still carrying passengers today, ` +
+              `decades after the rest of the Red Cars were dismantled.</p>`
+            : `<p style="color:rgba(224,228,239,0.85);font-size:12px;line-height:1.6;margin:0 0 8px;">` +
+              `Once part of the world's largest electric railway — 1,100+ miles connecting 56 cities across LA. ` +
+              `The Red Cars were killed off between 1950–1961. GM, Standard Oil, and Firestone were convicted in 1949 ` +
+              `of conspiring to buy up and dismantle US streetcar systems and replace them with buses. ` +
+              `The same story inspired <em>Who Framed Roger Rabbit</em>.</p>`;
+          const method =
+            `<p style="color:rgba(224,228,239,0.4);font-size:11px;line-height:1.5;margin:8px 0 0;">` +
+            `Lines sourced from OpenStreetMap, where contributors have mapped PE routes from historical records. ` +
+            `Ghost lines (dashed) are tagged <code style="font-size:10px;">railway=abandoned</code> or ` +
+            `<code style="font-size:10px;">railway=razed</code>; solid lines remain in active use.</p>`;
           const html =
-            `<div style="padding:10px 12px;width:220px;">` +
+            `<div style="padding:12px 14px;width:240px;">` +
             `<div style="color:#fef08a;font-size:11px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;">${label}</div>` +
-            `<div style="color:#f9fafb;font-size:13px;font-weight:600;margin-bottom:6px;">${entry.name}</div>` +
-            blurb +
+            `<div style="color:#f9fafb;font-size:14px;font-weight:600;margin-bottom:8px;">${entry.name}</div>` +
+            story + method +
             `<a href="https://en.wikipedia.org/wiki/Pacific_Electric" target="_blank" rel="noopener" ` +
-            `style="color:#fef08a;font-size:11px;text-decoration:none;">Pacific Electric Railway →</a>` +
+            `style="color:#fef08a;font-size:11px;text-decoration:none;display:block;margin-top:10px;">Pacific Electric Railway →</a>` +
             `</div>`;
-          L.popup({ className: 'railway-popup', closeButton: true, maxWidth: 260, autoPan: true })
+          L.popup({ className: 'railway-popup', closeButton: true, maxWidth: 280, autoPan: true })
             .setLatLng(e.latlng).setContent(html).openOn(map);
         };
         line.on('click', clickHandler);
