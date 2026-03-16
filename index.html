@@ -3119,6 +3119,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         const clickHandler = e => {
           L.DomEvent.stopPropagation(e);
           const label = isActive ? 'Surviving PE Corridor' : 'Ghost Railway';
+          const audio99pi = isActive ? '' :
+            `<div style="font-size:11px;color:rgba(254,240,138,0.7);margin:8px 0 4px;">` +
+            `<a href="https://99percentinvisible.org/episode/episode-70-the-great-red-car-conspiracy/" target="_blank" rel="noopener" ` +
+            `style="color:rgba(254,240,138,0.8);text-decoration:none;">🎙️ 99% Invisible · Ep. 70 "The Great Red Car Conspiracy"</a></div>` +
+            `<audio controls preload="none" style="width:100%;accent-color:#fef08a;margin-bottom:6px;">` +
+            `<source src="https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/df3c9f38-3150-4bc8-8113-2a2e7c86222f/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=df3c9f38-3150-4bc8-8113-2a2e7c86222f&feed=BqbsxVfO" type="audio/mpeg"/></audio>`;
           const story = isActive
             ? `<p style="color:rgba(224,228,239,0.85);font-size:12px;line-height:1.6;margin:0 0 8px;">` +
               `A surviving fragment of the Pacific Electric network — still carrying passengers today, ` +
@@ -3137,7 +3143,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             `<div style="padding:12px 14px;width:240px;">` +
             `<div style="color:#fef08a;font-size:11px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;">${label}</div>` +
             `<div style="color:#f9fafb;font-size:14px;font-weight:600;margin-bottom:8px;">${entry.name}</div>` +
-            story + method +
+            story + audio99pi + method +
             `<a href="https://en.wikipedia.org/wiki/Pacific_Electric" target="_blank" rel="noopener" ` +
             `style="color:#fef08a;font-size:11px;text-decoration:none;display:block;margin-top:10px;">Pacific Electric Railway →</a>` +
             `</div>`;
