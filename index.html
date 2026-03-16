@@ -1959,12 +1959,17 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoMeta.textContent = 'The Red Cars · 1901–1961';
     document.getElementById('info-stats').innerHTML = '';
     document.getElementById('gold-tribute').style.display = 'none';
-    infoImg.onerror = () => {
-      infoImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/PE531_Pasadena_Southern_Pacific_Station.jpg/640px-PE531_Pasadena_Southern_Pacific_Station.jpg';
-      infoImg.onerror = () => { infoImg.style.display = 'none'; };
-    };
-    infoImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BigRedCar.jpg/640px-BigRedCar.jpg';
-    infoImg.style.display = 'block';
+    infoImg.style.display = 'none';
+    fetch('https://en.wikipedia.org/w/api.php?action=query&titles=File:BigRedCar.jpg&prop=imageinfo&iiprop=url&iiurlwidth=640&format=json&origin=*')
+      .then(r => r.json())
+      .then(d => {
+        const src = Object.values(d.query.pages)[0]?.imageinfo?.[0]?.thumburl;
+        if (src && railwaySelected) {
+          infoImg.onerror = () => { infoImg.style.display = 'none'; };
+          infoImg.src = src;
+          infoImg.style.display = 'block';
+        }
+      }).catch(() => {});
     const editEl = document.getElementById('info-editorial');
     editEl.innerHTML = ''; editEl.style.display = 'none';
     document.getElementById('info-share').classList.remove('visible');
