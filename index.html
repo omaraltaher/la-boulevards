@@ -3137,8 +3137,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             `<div style="color:#f87171;font-size:11px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;">Fault Line</div>` +
             `<div style="color:#f9fafb;font-size:13px;font-weight:600;margin-bottom:6px;">${fault.name}</div>` +
             parts.join('') +
-            `<a href="https://www.usgs.gov/programs/earthquake-hazards/faults" target="_blank" rel="noopener" ` +
-            `style="color:#f87171;font-size:11px;text-decoration:none;display:block;margin-top:8px;">USGS Fault Database →</a>` +
+            `<div style="color:#4b5563;font-size:10px;margin-top:8px;">USGS Quaternary Fault Database</div>` +
             `</div>`;
           L.popup({ className: 'fault-popup', closeButton: true, maxWidth: 240, autoPan: true })
             .setLatLng(e.latlng).setContent(html).openOn(map);
