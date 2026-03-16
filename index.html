@@ -355,7 +355,7 @@ path.leaflet-interactive:focus { outline:none; }
 #fault-toggle.off, #railway-toggle.off { opacity:0.35; text-decoration:line-through; }
 .fault-popup .leaflet-popup-content-wrapper {
   background:rgba(15,17,35,0.97) !important;
-  border:1px solid rgba(168,152,152,0.25) !important;
+  border:1px solid rgba(176,136,136,0.25) !important;
   border-radius:8px !important; box-shadow:none !important;
   padding:0 !important; overflow:hidden;
 }
@@ -365,7 +365,7 @@ path.leaflet-interactive:focus { outline:none; }
   color:#e8eaf8 !important; font-size:18px !important;
   top:6px !important; right:8px !important; z-index:10;
 }
-.fault-popup .leaflet-popup-close-button:hover { color:#a89898 !important; }
+.fault-popup .leaflet-popup-close-button:hover { color:#b08888 !important; }
 .railway-popup .leaflet-popup-content-wrapper {
   background:rgba(15,17,35,0.97) !important;
   border:1px solid rgba(254,240,138,0.25) !important;
@@ -823,7 +823,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="legend-group-header">Hidden City <span class="lg-chevron">▾</span></div>
       <div class="legend-group-body">
         <div class="marker-row" id="well-toggle" style="cursor:pointer;user-select:none;" title="Toggle oil well layer"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="20" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><line x1="7" y1="2" x2="1" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/><line x1="7" y1="2" x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/><line x1="4" y1="10" x2="10" y2="10" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/><line x1="2.5" y1="15" x2="11.5" y2="15" stroke="#92400e" stroke-width="1.1" stroke-linecap="round"/><line x1="1" y1="19" x2="13" y2="19" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/><circle cx="7" cy="2" r="2" fill="#b45309"/></svg><span>Hidden oil wells</span></div>
-        <div class="marker-row" id="fault-toggle" style="cursor:pointer;user-select:none;" title="Toggle fault lines"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12" style="flex-shrink:0;opacity:0.9"><polyline points="1,10 5,2 9,9 13,3 17,8 19,4" fill="none" stroke="#a89898" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fault lines</span></div>
+        <div class="marker-row" id="fault-toggle" style="cursor:pointer;user-select:none;" title="Toggle fault lines"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12" style="flex-shrink:0;opacity:0.9"><polyline points="1,10 5,2 9,9 13,3 17,8 19,4" fill="none" stroke="#b08888" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fault lines</span></div>
         <div class="marker-row" id="railway-toggle" style="cursor:pointer;user-select:none;" title="Toggle ghost railway"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12" style="flex-shrink:0;opacity:0.9"><line x1="1" y1="6" x2="19" y2="6" stroke="#fef08a" stroke-width="2" stroke-dasharray="4,3" stroke-linecap="round"/></svg><span>Ghost railway</span></div>
       </div>
     </div>
@@ -3122,7 +3122,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const dashArray = cls === 'C' ? '6,5' : cls === 'B' ? '12,4' : null;
       for (const seg of fault.segments) {
         const line = L.polyline(seg, {
-          color: '#a89898', weight: 1.6, opacity,
+          color: '#b08888', weight: 1.6, opacity,
           ...(dashArray ? { dashArray } : {})
         });
         line.on('click', e => {
@@ -3134,7 +3134,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           if (fault.age)       parts.push(`<div style="color:#6b7280;font-size:11px;margin-bottom:2px;">${fault.age}</div>`);
           const html =
             `<div style="padding:10px 12px;width:200px;">` +
-            `<div style="color:#a89898;font-size:11px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;">Fault Line</div>` +
+            `<div style="color:#b08888;font-size:11px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;">Fault Line</div>` +
             `<div style="color:#f9fafb;font-size:13px;font-weight:600;margin-bottom:6px;">${fault.name}</div>` +
             parts.join('') +
             `<div style="color:#4b5563;font-size:10px;margin-top:8px;">USGS Quaternary Fault Database</div>` +
