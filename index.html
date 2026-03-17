@@ -1926,7 +1926,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     shareEl.classList.add('visible');
   }
 
-  function showRailwayInfo() {
+  function showRailwayInfo(status, lineName) {
     railwaySelected = true;
     p22RouteSelected = false;
     selectedBlvd = null;
@@ -1945,50 +1945,74 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
       requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
     } else {
-      const allCoords = railwayData.flatMap(r => r.coords);
-      if (allCoords.length) {
+      const relevantCoords = railwayData.filter(r => r.status === status).flatMap(r => r.coords);
+      if (relevantCoords.length) {
         setTimeout(() => {
-          map.fitBounds(L.latLngBounds(allCoords), {
+          map.fitBounds(L.latLngBounds(relevantCoords), {
             paddingTopLeft: [40, 60], paddingBottomRight: [480, 40],
             animate: true, maxZoom: 12
           });
         }, 50);
       }
     }
-    infoName.textContent = 'Pacific Electric Railway';
-    infoMeta.textContent = 'The Red Cars · 1901–1961';
     document.getElementById('info-stats').innerHTML = '';
     document.getElementById('gold-tribute').style.display = 'none';
-    if (railwayImageUrl) {
-      infoImg.onerror = () => { infoImg.style.display = 'none'; };
-      infoImg.src = railwayImageUrl;
-      infoImg.style.display = 'block';
-    } else {
-      infoImg.style.display = 'none';
-    }
-    const editEl = document.getElementById('info-editorial');
-    editEl.innerHTML = ''; editEl.style.display = 'none';
+    document.getElementById('info-editorial').innerHTML = '';
+    document.getElementById('info-editorial').style.display = 'none';
     document.getElementById('info-share').classList.remove('visible');
     document.getElementById('info-share').innerHTML = '';
-    infoExtract.innerHTML =
-      `Once the world's largest electric railway — 1,100+ miles of track connecting 56 cities across Los Angeles, Orange, San Bernardino, and Riverside counties. ` +
-      `The Red Cars ran from 1901 to 1961.</p>` +
-      `<p style="margin-top:10px;color:#9ca3af;font-size:15px;line-height:1.7;">` +
-      `GM, Standard Oil, and Firestone were convicted in 1949 of conspiring to buy up and dismantle US streetcar systems through a holding company called National City Lines, replacing them with buses. ` +
-      `The same story inspired <em>Who Framed Roger Rabbit</em> (1988) — Judge Doom buys the Red Cars to tear them down for a freeway.</p>` +
-      `<p style="margin-top:10px;color:rgba(224,228,239,0.45);font-size:11px;line-height:1.5;">` +
-      `Lines sourced from OpenStreetMap contributors who mapped PE routes from historical records. ` +
-      `Ghost lines (dashed) are tagged <code style="font-size:10px;">railway=abandoned</code> or <code style="font-size:10px;">railway=razed</code>; solid lines remain in active use.</p>` +
-      `<div style="font-size:11px;color:rgba(254,240,138,0.7);margin-top:14px;margin-bottom:4px;">` +
-      `<a href="https://99percentinvisible.org/episode/episode-70-the-great-red-car-conspiracy/" target="_blank" rel="noopener" style="color:rgba(254,240,138,0.8);text-decoration:none;">🎙️ 99% Invisible · Ep. 70 "The Great Red Car Conspiracy"</a></div>` +
-      `<audio controls preload="none" style="width:100%;accent-color:#fef08a;">` +
-      `<source src="https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/df3c9f38-3150-4bc8-8113-2a2e7c86222f/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=df3c9f38-3150-4bc8-8113-2a2e7c86222f&feed=BqbsxVfO" type="audio/mpeg"/></audio>`;
-    infoWiki.href = 'https://en.wikipedia.org/wiki/Pacific_Electric';
-    infoWiki.textContent = 'Read on Wikipedia →';
-    infoWiki.style.display = 'inline';
     photosStrip.innerHTML = ''; photosStrip.style.display = 'none';
     ['info-art','info-theatres','info-wells','info-parrots','info-coyotes','info-cameras','info-lions'].forEach(id =>
       document.getElementById(id).style.display = 'none');
+
+    if (status === 'ghost') {
+      infoName.textContent = 'Pacific Electric Railway';
+      infoMeta.textContent = 'The Red Cars · 1901–1961';
+      if (railwayImageUrl) {
+        infoImg.onerror = () => { infoImg.style.display = 'none'; };
+        infoImg.src = railwayImageUrl;
+        infoImg.style.display = 'block';
+      } else {
+        infoImg.style.display = 'none';
+      }
+      infoExtract.innerHTML =
+        `Once the world's largest electric railway — 1,100+ miles of track connecting 56 cities across Los Angeles, Orange, San Bernardino, and Riverside counties. ` +
+        `The Red Cars ran from 1901 to 1961.</p>` +
+        `<p style="margin-top:10px;color:#9ca3af;font-size:15px;line-height:1.7;">` +
+        `GM, Standard Oil, and Firestone were convicted in 1949 of conspiring to buy up and dismantle US streetcar systems through a holding company called National City Lines, replacing them with buses. ` +
+        `The same story inspired <em>Who Framed Roger Rabbit</em> (1988) — Judge Doom buys the Red Cars to tear them down for a freeway.</p>` +
+        `<p style="margin-top:10px;color:rgba(224,228,239,0.45);font-size:11px;line-height:1.5;">` +
+        `Lines sourced from OpenStreetMap contributors who mapped PE routes from historical records. ` +
+        `Ghost lines (dashed) are tagged <code style="font-size:10px;">railway=abandoned</code> or <code style="font-size:10px;">railway=razed</code>.</p>` +
+        `<div style="font-size:11px;color:rgba(254,240,138,0.7);margin-top:14px;margin-bottom:4px;">` +
+        `<a href="https://99percentinvisible.org/episode/episode-70-the-great-red-car-conspiracy/" target="_blank" rel="noopener" style="color:rgba(254,240,138,0.8);text-decoration:none;">🎙️ 99% Invisible · Ep. 70 "The Great Red Car Conspiracy"</a></div>` +
+        `<audio controls preload="none" style="width:100%;accent-color:#fef08a;">` +
+        `<source src="https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/df3c9f38-3150-4bc8-8113-2a2e7c86222f/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=df3c9f38-3150-4bc8-8113-2a2e7c86222f&feed=BqbsxVfO" type="audio/mpeg"/></audio>`;
+      infoWiki.href = 'https://en.wikipedia.org/wiki/Pacific_Electric';
+      infoWiki.textContent = 'Read on Wikipedia →';
+      infoWiki.style.display = 'inline';
+
+    } else {
+      // Active / surviving corridor
+      const META = {
+        'Metro E Line (former Santa Monica Air Line)': { year: 2016, wiki: 'https://en.wikipedia.org/wiki/E_Line_(Los_Angeles_Metro)', desc: 'The Santa Monica Air Line was PE\'s fastest route — express service from downtown LA to the beach. After decades as a freight spur, Metro rebuilt it as the Expo Line (now E Line), opening in 2016.' },
+        'Metro A Line (former Long Beach Line)': { year: 1990, wiki: 'https://en.wikipedia.org/wiki/A_Line_(Los_Angeles_Metro)', desc: 'PE\'s Long Beach Line was one of its busiest routes, carrying commuters 20 miles from downtown to the harbor. Metro revived the corridor in 1990 as LA\'s first modern light rail — the Blue Line, now the A Line.' },
+        'West Santa Ana Branch': { year: null, wiki: 'https://en.wikipedia.org/wiki/West_Santa_Ana_Branch', desc: 'A former PE freight and passenger corridor through southeast LA County. Metro is currently planning a new light rail line along this alignment, connecting Artesia to downtown LA.' },
+      };
+      const meta = META[lineName] || { year: null, wiki: 'https://en.wikipedia.org/wiki/Pacific_Electric', desc: 'This corridor traces a former Pacific Electric right-of-way that survived into the modern era.' };
+      infoName.textContent = lineName || 'Surviving PE Corridor';
+      infoMeta.textContent = meta.year ? `PE right-of-way · active since ${meta.year}` : 'Former PE right-of-way · planned revival';
+      infoImg.style.display = 'none';
+      infoExtract.innerHTML =
+        `${meta.desc}</p>` +
+        `<p style="margin-top:10px;color:#9ca3af;font-size:15px;line-height:1.7;">` +
+        `When the Red Cars shut down in 1961, most of LA\'s 1,100-mile network was paved over. A handful of corridors survived — as freight lines, abandoned rights-of-way, or simply too expensive to demolish. These are the ghost rails that came back.</p>` +
+        `<p style="margin-top:10px;color:rgba(224,228,239,0.45);font-size:11px;line-height:1.5;">` +
+        `Sourced from OpenStreetMap. Active PE successor lines are tagged <code style="font-size:10px;">old_railway_operator=Pacific Electric Railway</code> or identified by name.</p>`;
+      infoWiki.href = meta.wiki;
+      infoWiki.textContent = 'Read on Wikipedia →';
+      infoWiki.style.display = 'inline';
+    }
   }
 
   document.getElementById('info-close').addEventListener('click', () => {
@@ -3204,7 +3228,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         const clickHandler = e => {
           L.DomEvent.stopPropagation(e);
           _skipNextMapClick = true;
-          showRailwayInfo();
+          showRailwayInfo(entry.status, entry.name);
         };
         line.on('click', clickHandler);
         const hitLine = L.polyline(coords, { color: 'transparent', weight: 16, opacity: 0 });
