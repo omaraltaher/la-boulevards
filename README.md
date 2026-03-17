@@ -24,6 +24,7 @@ An interactive map of every boulevard in Los Angeles County — the streets, the
 |---|---|---|
 | Caltrans traffic cameras | cyan dot | always |
 | The Wiltern | pulsing purple dot + crown | always |
+| Wallis Annenberg Wildlife Crossing | green arch bridge SVG | with mountain lions toggle |
 | Public art | magenta dot | when boulevard selected |
 | Theatres | purple dot | when boulevard selected |
 | Jonathan Gold restaurants | gold dot | when Pico selected |
@@ -31,10 +32,19 @@ An interactive map of every boulevard in Los Angeles County — the streets, the
 | Wild parrots | green parrot SVG | toggleable |
 | Hidden oil wells | brown derrick SVG | toggleable |
 | Mountain lions | amber cat SVG | toggleable |
+| Coyotes | brown coyote SVG | toggleable |
+| Pacific Electric Ghost Railway | dashed yellow line | toggleable |
+| Pacific Electric Active Railway | solid yellow line | toggleable |
 
 ### P-22: The Lion of Los Angeles
 
 The amber cat icon in the Santa Monica Mountains is P-22. Click it to watch his journey to Griffith Park unfold — the route draws itself in real time, stopping at each verified iNaturalist sighting along the way. When the journey ends, the info panel opens with his story, a 99% Invisible audio episode, and the full sighting record. Click any observation marker for its photo and iNaturalist link. Click the route line to reopen the story panel.
+
+### Pacific Electric Railway
+
+Yellow dashed lines trace the ghost of LA's former Red Car network — the 1,100-mile interurban system that connected 56 cities before shutting down in 1961. Solid yellow lines show the corridors that survived as Metro light rail (E Line, A Line, West Santa Ana Branch). Click any line to open a full info panel: ghost lines show the history, conspiracy theory (GM/National City Lines conviction), and a 99% Invisible audio episode; active lines show how each specific PE corridor was revived.
+
+The Wallis Annenberg Wildlife Crossing — the world's largest wildlife crossing, opened April 2025 over US-101 at Liberty Canyon — appears as a green bridge icon near Agoura Hills. It shows and hides with the mountain lions toggle, connecting P-22's legacy to its physical outcome.
 
 ---
 
@@ -47,6 +57,8 @@ The amber cat icon in the Santa Monica Mountains is P-22. Click it to watch his 
 | `theatres.json` | OpenStreetMap Overpass | Monthly |
 | `parrots.json` | iNaturalist / Free-Flying LA Parrot Project | Monthly |
 | `lions.json` | iNaturalist (taxon 42007) | Monthly |
+| `coyotes.json` | iNaturalist (taxon 42051) | Monthly |
+| `railway.json` | OpenStreetMap Overpass + Wikipedia image API | Yearly (Jan 1) |
 | `art.json` | LA City Open Data | Monthly |
 | `wells.json` | CalGEM ArcGIS REST API | Manual |
 | `boulevards.json` | OpenStreetMap Overpass | Manual |
@@ -110,6 +122,11 @@ Requires Node 18+.
 - Theatres: OpenStreetMap
 - Parrots: iNaturalist / Occidental College Moore Lab of Zoology
 - Mountain lions: iNaturalist (Puma concolor, taxon 42007)
+- Coyotes: iNaturalist (Canis latrans, taxon 42051)
+- Ghost railway: OpenStreetMap contributors (`railway=abandoned/razed`, `old_railway_operator=Pacific Electric Railway`)
+- Active PE corridors: OpenStreetMap (Metro E Line, A Line, West Santa Ana Branch)
+- Railway images: Wikimedia Commons via Wikipedia imageinfo API (pre-baked at build time)
+- Wallis Annenberg Wildlife Crossing: Wikipedia + NPS
 - Wiltern events: Ticketmaster Discovery API
 - Oil wells: CalGEM (California Geologic Energy Management Division)
 - P-22 photo: NPS public domain via Wikimedia Commons

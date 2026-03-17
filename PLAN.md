@@ -21,6 +21,7 @@
 - **Phase 2 partial:**
   - ✅ Mountain Lions 🦁 — 90-day LA County sightings + P-22 all-time Griffith Park. Monthly refresh.
   - ✅ Coyotes 🐺 — 30-day LA County research-grade sightings (iNat taxon 42051). Monthly refresh. Paw print icon.
+  - ✅ Ghost Railway 🚋 — Pacific Electric ghost (dashed) + active (solid) corridors. Two independent legend toggles. Ghost panel: PE history, GM conspiracy, 99pi audio. Active panel: per-line Metro story, matched image, 99pi audio. Images pre-baked in `railway.json` (`imageUrl` + `activeImages`). Wallis Annenberg Wildlife Crossing marker (green bridge, shows with lions toggle).
   - ✅ P-22 animated journey (Phase 4.1 shipped early) — full interactive narrative experience
 - **Camera changes:** Traffic cameras now boulevard-conditional (show only when their boulevard is selected). Camera thumbnails shown in info panel at bottom. 📷 count in story card stats.
 
@@ -328,8 +329,8 @@ Boulevard Love · BlvdLove.LA · Open source on GitHub
 
 ---
 
-## 2.1 — Ghost Railway (Pacific Electric) 🚋
-**Highest wow factor. First polyline layer — oil wells and parrots are both point data.**
+## 2.1 ✅ — Ghost Railway (Pacific Electric) 🚋
+**Shipped. Two independent legend toggles (ghost/active). Full info panels per status.**
 
 ### Data Source
 OpenStreetMap via Overpass API — abandoned/dismantled railway lines in the LA metro area
@@ -900,9 +901,10 @@ Explore
   └── Theatre
 
 Hidden Infrastructure
-  ├── 🛢️ Hidden Oil Wells        ✅ live
-  ├── 🚋 Ghost Railway           Phase 2
-  └── ⚫ Storm Drains             Phase 2
+  ├── 🛢️ Hidden Oil Wells                    ✅ live
+  ├── 🚋 Pacific Electric Ghost Railway      ✅ live (dashed)
+  ├── 🚃 Pacific Electric Active Railway     ✅ live (solid)
+  └── ⚫ Storm Drains                         Phase 2
 
 Living City
   ├── 🦜 Wild Parrots            ✅ live
