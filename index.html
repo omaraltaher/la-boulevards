@@ -875,17 +875,9 @@ path.leaflet-interactive:focus { outline:none; }
       <div id="info-extract"></div>
       <div id="photos-strip"></div>
       <a id="info-wiki" target="_blank" rel="noopener">Read on Wikipedia →</a>
-      <div id="info-art">
-        <div id="info-art-title">Public Art</div>
-        <div id="info-art-list"></div>
-      </div>
-      <div id="info-theatres">
-        <div id="info-theatres-title">Theatres</div>
-        <div id="info-theatres-list"></div>
-      </div>
-      <div id="info-wells">
-        <div id="info-wells-title">Oil Wells</div>
-        <div id="info-wells-list"></div>
+      <div id="info-cameras">
+        <div id="info-cameras-title">Live Traffic Cameras</div>
+        <div id="info-cameras-list"></div>
       </div>
       <div id="info-parrots">
         <div id="info-parrots-title">Wild Parrots</div>
@@ -903,9 +895,17 @@ path.leaflet-interactive:focus { outline:none; }
         <div id="info-tacos-title">LA Tacos 🌮</div>
         <div id="info-tacos-list"></div>
       </div>
-      <div id="info-cameras">
-        <div id="info-cameras-title">Live Traffic Cameras</div>
-        <div id="info-cameras-list"></div>
+      <div id="info-theatres">
+        <div id="info-theatres-title">Theatres</div>
+        <div id="info-theatres-list"></div>
+      </div>
+      <div id="info-art">
+        <div id="info-art-title">Public Art</div>
+        <div id="info-art-list"></div>
+      </div>
+      <div id="info-wells">
+        <div id="info-wells-title">Oil Wells</div>
+        <div id="info-wells-list"></div>
       </div>
       <div id="info-share" class="info-share"></div>
     </div>
@@ -1940,14 +1940,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       }
     });
 
-    populateArtSection(blvd);
-    populateTheatreSection(blvd);
-    populateWellSection(nearWells);
+    populateCameraSection(blvd);
     populateParrotSection(nearParrots);
     populateLionSection(nearLions);
     populateCoyoteSection(nearCoyotes);
     populateTacoSection(blvd);
-    populateCameraSection(blvd);
+    populateTheatreSection(blvd);
+    populateArtSection(blvd);
+    populateWellSection(nearWells);
   }
 
   function dimAllBoulevards() {
