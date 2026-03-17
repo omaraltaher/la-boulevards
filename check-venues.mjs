@@ -17,6 +17,13 @@ const VENUES = [
   { id: 'KovZ917AI1p',  name: 'Avalon Hollywood' },
   { id: 'KovZ917A25f',  name: 'The Novo' },
   { id: 'KovZ917ARk0',  name: 'Peacock Theater' },
+  { id: 'KovZpZAEvnFA', name: 'Teragram Ballroom' },
+  { id: 'KovZpa971e',   name: 'Alex Theatre' },
+  { id: 'ZFr9jZA1vF',   name: 'Kirk Douglas Theatre' },
+  { id: 'KovZpa3u7e',   name: 'Shrine Auditorium' },
+  { id: 'KovZpa3uCe',   name: 'Orpheum Theatre' },
+  { id: 'rZ7HnEZ17fOAg', name: 'Pasadena Civic Auditorium' },
+  { id: 'KovZpa2Hxe',   name: 'Greek Theatre' },
 ];
 
 function sleep(ms) {

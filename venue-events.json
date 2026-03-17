@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-17T05:23:38.252Z",
+  "generated": "2026-03-17T05:27:18.225Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -290,6 +290,238 @@
         "time": "20:00:00",
         "url": "https://www.axs.com/events/1287112/blessd-tickets",
         "image": "https://s1.ticketm.net/dam/a/555/9be76154-9e35-40cd-9403-86e7efb45555_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Teragram Ballroom": [
+      {
+        "name": "Nour Khodr",
+        "date": "2026-03-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/nour-khodr-los-angeles-california-03-19-2026/event/090064359616B3CA",
+        "image": "https://s1.ticketm.net/dam/e/dbd/dbb009e7-8bb4-4a7a-b999-51576a25adbd_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Against the Current",
+        "date": "2026-03-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/against-the-current-los-angeles-california-03-20-2026/event/0900643AA79C80F6",
+        "image": "https://s1.ticketm.net/dam/e/668/acc884de-a099-412f-8618-26d3fc186668_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Spiritual Cramp",
+        "date": "2026-03-21",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/spiritual-cramp-los-angeles-california-03-21-2026/event/0900630EE3725852",
+        "image": "https://s1.ticketm.net/dam/e/d6c/6ac15e35-b257-4e1d-a911-cfb2535f2d6c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Scary Pockets with support from Scary Goldings",
+        "date": "2026-03-27",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/scary-pockets-with-support-from-scary-los-angeles-california-03-27-2026/event/0900642896B26FC1",
+        "image": "https://s1.ticketm.net/dam/e/1a8/f1e6f2b8-3497-4feb-9ba5-e1f7dc4281a8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Scary Pockets with support from Scary Goldings",
+        "date": "2026-03-28",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/scary-pockets-with-support-from-scary-los-angeles-california-03-28-2026/event/0900642899D17529",
+        "image": "https://s1.ticketm.net/dam/e/8be/a0a8c69e-e1fa-40fa-8ea7-810865b378be_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "KCRW Presents: Ratboys: When the Sun Explodes Tour 2026",
+        "date": "2026-04-03",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/kcrw-presents-ratboys-when-the-sun-los-angeles-california-04-03-2026/event/09006333BAEE4334",
+        "image": "https://s1.ticketm.net/dam/a/23d/8648d974-7543-47eb-be96-7827601ae23d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Eliza McLamb: Good Story Tour",
+        "date": "2026-04-04",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/eliza-mclamb-good-story-tour-los-angeles-california-04-04-2026/event/0900630C86330E75",
+        "image": "https://s1.ticketm.net/dam/e/cb5/dd5bd65a-5cb1-4ee3-8cce-e3bc5bcf9cb5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Thursday presents: Full City Devolucion w/ special guest Chris Conley",
+        "date": "2026-04-10",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/thursday-presents-full-city-devolucion-w-los-angeles-california-04-10-2026/event/0900642ECEF1FD75",
+        "image": "https://s1.ticketm.net/dam/e/cc0/80ff0373-5045-480f-b0d9-454619796cc0_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Alex Theatre": [
+      {
+        "name": "The Ravi Shankar Ensemble",
+        "date": "2026-03-31",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/the-ravi-shankar-ensemble-glendale-california-03-31-2026/event/0B0062DAD02929E1",
+        "image": "https://s1.ticketm.net/dam/a/45f/1140969a-ce24-4daf-83a2-477dc7fb245f_1282021_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Trio Los Panchos",
+        "date": "2026-04-10",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/trio-los-panchos-glendale-california-04-10-2026/event/0B00644AD53A4BF2",
+        "image": "https://s1.ticketm.net/dam/e/9a9/f30cd903-f2e5-4046-80d5-ef44003789a9_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Violet Brown Presents the Unconventional KingZ",
+        "date": "2026-04-11",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/violet-brown-presents-the-unconventional-kingz-glendale-california-04-11-2026/event/0B006358BC6F33B0",
+        "image": "https://s1.ticketm.net/dam/e/d8c/c9608b6c-ad4a-4318-9eca-97f5f1db4d8c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Artur Zakiyan",
+        "date": "2026-05-02",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/artur-zakiyan-glendale-california-05-02-2026/event/0B0062FCB4521586",
+        "image": "https://s1.ticketm.net/dam/e/339/d27507c8-f31f-4f9c-bc7f-721c0f070339_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "YVES TOUR 2026: THE AMERICAS",
+        "date": "2026-05-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/yves-tour-2026-the-americas-glendale-california-05-08-2026/event/0B006466E94D5CCD",
+        "image": "https://s1.ticketm.net/dam/e/723/b3e11623-da21-4703-a2ba-9cc1dd557723_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Whose Live Anyway?",
+        "date": "2026-06-06",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/whose-live-anyway-glendale-california-06-06-2026/event/0B00644BB1853905",
+        "image": "https://s1.ticketm.net/dam/a/e19/4ff116ef-1748-417c-85ec-e9559ebc1e19_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Kirk Douglas Theatre": [],
+    "Shrine Auditorium": [
+      {
+        "name": "Ashnikko",
+        "date": "2026-03-20",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbGO",
+        "image": "https://s1.ticketm.net/dam/a/bc5/26b41698-3b6a-4d3d-a179-a289e1340bc5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Music of SQUARE ENIX",
+        "date": "2026-05-02",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O6ft",
+        "image": null
+      }
+    ],
+    "Orpheum Theatre": [
+      {
+        "name": "Lola Young",
+        "date": "2026-03-16",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/lola-young-los-angeles-california-03-16-2026/event/09006458C7783520",
+        "image": "https://s1.ticketm.net/dam/a/250/ce10df4c-355f-42f1-b839-4558986c0250_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Jerry Harrison & Adrian Belew: REMAIN IN LIGHT",
+        "date": "2026-03-28",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/jerry-harrison-adrian-belew-remain-in-los-angeles-california-03-28-2026/event/09006427B4F589A3",
+        "image": "https://s1.ticketm.net/dbimages/727484a.jpg"
+      },
+      {
+        "name": "Taiwan Campus Folk Music 2026 USA Tour",
+        "date": "2026-04-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/taiwan-campus-folk-music-2026-usa-los-angeles-california-04-07-2026/event/0900642B1884C65D",
+        "image": "https://s1.ticketm.net/dam/e/9d3/12f0e794-fa77-497a-ab8f-732b04b969d3_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Taiwan Campus Folk Music 2026 USA Tour",
+        "date": "2026-04-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/taiwan-campus-folk-music-2026-usa-los-angeles-california-04-08-2026/event/0900642B1888C65F",
+        "image": "https://s1.ticketm.net/dam/e/c1c/3b0d1d79-6c85-4958-aa8f-495f81cf8c1c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Taiwan Campus Folk Music 2026 USA Tour",
+        "date": "2026-04-09",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/taiwan-campus-folk-music-2026-usa-los-angeles-california-04-09-2026/event/0900642B188AC662",
+        "image": "https://s1.ticketm.net/dam/e/758/73e97320-79d7-4d0e-b92f-d8c993c1e758_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Moth Mainstage",
+        "date": "2026-04-15",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/the-moth-mainstage-los-angeles-california-04-15-2026/event/0900643889EC9208",
+        "image": "https://s1.ticketm.net/dam/e/7ef/ca1236d4-5c43-4bb7-be42-11d6f3a387ef_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ara Malikian - Intruso World Tour",
+        "date": "2026-04-17",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/ara-malikian-intruso-world-tour-los-angeles-california-04-17-2026/event/0900635CB6736FD2",
+        "image": "https://s1.ticketm.net/dam/a/cf4/f1391fe2-643e-4a9e-99b2-f44eb193acf4_1557581_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lily Allen Performs West End Girl",
+        "date": "2026-04-25",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/lily-allen-performs-west-end-girl-los-angeles-california-04-25-2026/event/09006382D92BA9F7",
+        "image": "https://s1.ticketm.net/dam/a/78b/e73d29f4-b17c-497d-ac4a-0a8c7503c78b_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Pasadena Civic Auditorium": [],
+    "Greek Theatre": [
+      {
+        "name": "THEE SACRED SOULS at THE GREEK",
+        "date": "2026-04-22",
+        "time": "19:00:00",
+        "image": null
+      },
+      {
+        "name": "KCRW Presents Thee Sacred Souls",
+        "date": "2026-04-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/kcrw-presents-thee-sacred-souls-los-angeles-california-04-22-2026/event/090064348C4F5D15",
+        "image": "https://s1.ticketm.net/dam/a/a17/414bf0b5-8d65-4637-a157-b11d82250a17_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "THEE SACRED SOULS at THE GREEK",
+        "date": "2026-04-23",
+        "time": "19:00:00",
+        "image": null
+      },
+      {
+        "name": "KCRW Presents Thee Sacred Souls",
+        "date": "2026-04-23",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/kcrw-presents-thee-sacred-souls-los-angeles-california-04-23-2026/event/0900642F8321584F",
+        "image": "https://s1.ticketm.net/dam/a/a17/414bf0b5-8d65-4637-a157-b11d82250a17_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Neil Forever: Love at The Greek",
+        "date": "2026-04-25",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/neil-forever-love-at-the-greek-los-angeles-california-04-25-2026/event/09006333EC6A5E1E",
+        "image": "https://s1.ticketm.net/dam/a/be5/0e98e455-57cf-4747-a398-de1dcb552be5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PEE-WEE's PLAYHOUSE at THE GREEK",
+        "date": "2026-05-04",
+        "time": "20:00:00",
+        "image": null
+      },
+      {
+        "name": "Netflix Is A Joke Presents:  Pee-wee's Playhouse 40th Anniversary",
+        "date": "2026-05-04",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-peewees-los-angeles-california-05-04-2026/event/0900642CFC0BCC91",
+        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "JERRY SEINFELD at THE GREEK",
+        "date": "2026-05-05",
+        "time": "20:00:00",
+        "image": null
       }
     ]
   }
