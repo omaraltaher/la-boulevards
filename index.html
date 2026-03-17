@@ -2720,14 +2720,18 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       <line x1="6" y1="18" x2="5" y2="20" stroke="#a3e635" stroke-width="0.8" stroke-linecap="round"/>
     </svg>`;
 
+  // 32×32 transparent wrapper gives a finger-sized touch target while keeping the visual bird unchanged.
+  // iconAnchor [16,24]: center x=16, bottom of 15px bird centered in 32px = (32-15)/2+15 ≈ 24.
   const parrotIcon = L.divIcon({
-    className: '', html: parrotSvgHtml(10, 15), iconSize: [10, 15], iconAnchor: [5, 15]
+    className: '',
+    html: `<div style="width:32px;height:32px;display:flex;align-items:center;justify-content:center;">${parrotSvgHtml(10, 15)}</div>`,
+    iconSize: [32, 32], iconAnchor: [16, 24]
   });
 
   function makeParrotClusterIcon(n) {
     return L.divIcon({
-      html: `<div style="position:relative;width:10px;height:15px;">${parrotSvgHtml(10, 15)}<div style="position:absolute;top:-5px;right:-8px;background:#4d7c0f;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#d9f99d;line-height:1;">${n}</div></div>`,
-      className: '', iconSize: [10, 15], iconAnchor: [5, 15]
+      html: `<div style="width:32px;height:32px;display:flex;align-items:center;justify-content:center;"><div style="position:relative;width:10px;height:15px;">${parrotSvgHtml(10, 15)}<div style="position:absolute;top:-5px;right:-8px;background:#4d7c0f;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#d9f99d;line-height:1;">${n}</div></div></div>`,
+      className: '', iconSize: [32, 32], iconAnchor: [16, 24]
     });
   }
 
