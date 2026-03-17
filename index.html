@@ -2117,7 +2117,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         `GM, Standard Oil, and Firestone were convicted in 1949 of conspiring to buy up and dismantle US streetcar systems through a holding company called National City Lines, replacing them with buses. ` +
         `The same story inspired <em>Who Framed Roger Rabbit</em> (1988) — Judge Doom buys the Red Cars to tear them down for a freeway.</p>` +
         `<p style="margin-top:10px;color:rgba(224,228,239,0.45);font-size:11px;line-height:1.5;">` +
-        `Lines sourced from OpenStreetMap contributors who mapped PE routes from historical records. ` +
+        `Lines sourced from OpenStreetMap contributors who mapped Pacific Electric routes from historical records. ` +
         `Ghost lines (dashed) are tagged <code style="font-size:10px;">railway=abandoned</code> or <code style="font-size:10px;">railway=razed</code>.</p>` +
         `<div style="font-size:11px;color:rgba(254,240,138,0.7);margin-top:14px;margin-bottom:4px;">` +
         `<a href="https://99percentinvisible.org/episode/episode-70-the-great-red-car-conspiracy/" target="_blank" rel="noopener" style="color:rgba(254,240,138,0.8);text-decoration:none;">🎙️ 99% Invisible · Ep. 70 "The Great Red Car Conspiracy"</a></div>` +
@@ -2130,13 +2130,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     } else {
       // Active / surviving corridor
       const META = {
-        'Metro E Line (former Santa Monica Air Line)': { year: 2016, wiki: 'https://en.wikipedia.org/wiki/E_Line_(Los_Angeles_Metro)', desc: 'The Santa Monica Air Line was PE\'s fastest route — express service from downtown LA to the beach. After decades as a freight spur, Metro rebuilt it as the Expo Line (now E Line), opening in 2016.' },
-        'Metro A Line (former Long Beach Line)': { year: 1990, wiki: 'https://en.wikipedia.org/wiki/A_Line_(Los_Angeles_Metro)', desc: 'PE\'s Long Beach Line was one of its busiest routes, carrying commuters 20 miles from downtown to the harbor. Metro revived the corridor in 1990 as LA\'s first modern light rail — the Blue Line, now the A Line.' },
-        'West Santa Ana Branch': { year: null, wiki: 'https://en.wikipedia.org/wiki/West_Santa_Ana_Branch', desc: 'A former PE freight and passenger corridor through southeast LA County. Metro is currently planning a new light rail line along this alignment, connecting Artesia to downtown LA.' },
+        'Metro E Line (former Santa Monica Air Line)': { year: 2016, wiki: 'https://en.wikipedia.org/wiki/E_Line_(Los_Angeles_Metro)', desc: 'The Santa Monica Air Line was Pacific Electric\'s fastest route — express service from downtown LA to the beach. After decades as a freight spur, Metro rebuilt it as the Expo Line (now E Line), opening in 2016.' },
+        'Metro A Line (former Long Beach Line)': { year: 1990, wiki: 'https://en.wikipedia.org/wiki/A_Line_(Los_Angeles_Metro)', desc: 'Pacific Electric\'s Long Beach Line was one of its busiest routes, carrying commuters 20 miles from downtown to the harbor. Metro revived the corridor in 1990 as LA\'s first modern light rail — the Blue Line, now the A Line.' },
+        'West Santa Ana Branch': { year: null, wiki: 'https://en.wikipedia.org/wiki/West_Santa_Ana_Branch', desc: 'A former Pacific Electric freight and passenger corridor through southeast LA County. Metro is currently planning a new light rail line along this alignment, connecting Artesia to downtown LA.' },
       };
       const meta = META[lineName] || { year: null, wiki: 'https://en.wikipedia.org/wiki/Pacific_Electric', desc: 'This corridor traces a former Pacific Electric right-of-way that survived into the modern era.' };
-      infoName.textContent = lineName || 'Surviving PE Corridor';
-      infoMeta.textContent = meta.year ? `PE right-of-way · active since ${meta.year}` : 'Former PE right-of-way · planned revival';
+      infoName.textContent = lineName || 'Surviving Pacific Electric Corridor';
+      infoMeta.textContent = meta.year ? `Pacific Electric right-of-way · active since ${meta.year}` : 'Former Pacific Electric right-of-way · planned revival';
       const activeImgSrc = railwayActiveImages[lineName];
       if (activeImgSrc) {
         infoImg.onerror = () => { infoImg.style.display = 'none'; };
@@ -3282,8 +3282,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       for (const coords of entry.segs) {
         const line = L.polyline(coords, {
           color: '#fef08a',
-          weight: isActive ? 2.2 : 1.8,
-          opacity: isActive ? 0.7 : 0.38,
+          weight: isActive ? 1.4 : 1.1,
+          opacity: isActive ? 0.55 : 0.3,
           ...(isActive ? {} : { dashArray: '8,5' })
         });
         const clickHandler = e => {
