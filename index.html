@@ -1138,7 +1138,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const artMarkerList = [];    // { marker, blvdName }
   const theatreMarkerList = []; // { marker, blvdName, isWiltern }
   const camMarkerList = [];    // { marker, blvdName, imgUrl, name, lat, lon, openCamPopup }
-  const tacoMarkerList = [];   // { marker, blvdName, lat, lon, photo, name, openPopup }
+  const tacoMarkerList = [];   // { marker, blvdName, lat, lon, name, taco, url, openPopup }
   window._openTacoFromPanel = idx => {
     const t = tacoMarkerList[idx];
     if (!t) return;
@@ -1790,11 +1790,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (!items.length) { sec.style.display = 'none'; return; }
     list.innerHTML = items.map(t => {
       const idx = tacoMarkerList.indexOf(t);
-      return `<div class="cam-thumb-item" onclick="_openTacoFromPanel(${idx})">` +
-        (t.photo
-          ? `<img src="${t.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>`
-          : `<div style="width:120px;height:68px;background:#1f2937;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:18px;">🌮</div>`) +
-        `<div class="cam-thumb-item-name">${t.name}</div></div>`;
+      return `<div class="info-item">` +
+        `<div class="info-item-name" style="color:rgba(239,68,68,0.85);cursor:pointer;" onclick="_openTacoFromPanel(${idx})">${t.name}</div>` +
+        (t.taco ? `<div class="info-item-sub" style="font-style:italic">${t.taco}</div>` : '') +
+        `<div class="info-item-links">` +
+        `<a class="info-item-maplnk" href="${t.url}" target="_blank" rel="noopener">L.A. Taco →</a>` +
+        `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_openTacoFromPanel(${idx})">→ map</a>` +
+        `</div></div>`;
     }).join('');
     sec.style.display = 'block';
   }
@@ -2501,13 +2503,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             `<div style="padding:14px 16px;width:260px;">` +
             `<div style="font-size:11px;color:rgba(239,68,68,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">LA Tacos</div>` +
             `<a href="${t.url}" target="_blank" rel="noopener" style="font-size:15px;font-weight:600;color:#f9fafb;text-decoration:none;display:block;margin-bottom:${t.taco ? '6px' : '0'};">${t.name}</a>` +
-            (t.taco ? `<div style="font-size:12px;color:#6b7280;font-style:italic;margin-bottom:${t.photo ? '8px' : '0'};">${t.taco}</div>` : '') +
-            (t.photo ? `<img src="${t.photo}" style="width:100%;height:90px;object-fit:cover;border-radius:3px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
+            (t.taco ? `<div style="font-size:12px;color:#6b7280;font-style:italic;">${t.taco}</div>` : '') +
             `</div>`;
           L.popup({ className: 'la-taco-popup', closeButton: true, maxWidth: 320, autoPan: true })
             .setLatLng([t.lat, t.lon]).setContent(html).openOn(map);
         };
-        tacoMarkerList.push({ marker, blvdName: t.boulevard, lat: t.lat, lon: t.lon, photo: t.photo, name: t.name, openPopup });
+        tacoMarkerList.push({ marker, blvdName: t.boulevard, lat: t.lat, lon: t.lon, name: t.name, taco: t.taco, url: t.url, openPopup });
         artMarkerList.push({ marker, blvdName: t.boulevard });
         marker.on('click', e => { L.DomEvent.stopPropagation(e.originalEvent); openPopup(); });
       });
