@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-17T03:50:59.728Z",
+  "generated": "2026-03-17T04:26:35.225Z",
   "tacos": [
     {
       "name": "Carnitas Los Gabrieles",
@@ -9,7 +9,7 @@
       "lat": 34.0330584,
       "lon": -118.2452213,
       "boulevard": "Olympic Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+      "photo": null
     },
     {
       "name": "Sonoratown",
@@ -19,7 +19,7 @@
       "lat": 34.0415628,
       "lon": -118.2521722,
       "boulevard": "Olympic Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_Sonoratown_0510.jpg?w=710"
     },
     {
       "name": "La Flor de Yucatán",
@@ -29,7 +29,7 @@
       "lat": 34.041714,
       "lon": -118.284022,
       "boulevard": "Washington Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+      "photo": null
     },
     {
       "name": "Taco Nazo",
@@ -39,7 +39,7 @@
       "lat": 33.8889867,
       "lon": -118.1146432,
       "boulevard": "Alondra Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1663.jpg?w=710"
     },
     {
       "name": "Birriería El Jalisciense",
@@ -49,7 +49,7 @@
       "lat": 34.0186956,
       "lon": -118.2040834,
       "boulevard": "Olympic Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+      "photo": null
     },
     {
       "name": "Komal",
@@ -59,7 +59,7 @@
       "lat": 34.0173544,
       "lon": -118.2783867,
       "boulevard": "Exposition Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_KomalMolino_2805.jpg?w=710"
     },
     {
       "name": "Burritos La Palma",
@@ -69,17 +69,7 @@
       "lat": 34.0233012,
       "lon": -118.2173577,
       "boulevard": "Olympic Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
-    },
-    {
-      "name": "Tacos 1986 (DTLA)",
-      "taco": "Taco de carne asada",
-      "address": "609 S Spring St, Los Angeles, CA",
-      "url": "https://lataco.com/12-best-tacos-to-try/",
-      "lat": 34.0456573,
-      "lon": -118.2511151,
-      "boulevard": "Wilshire Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+      "photo": null
     },
     {
       "name": "Guatemalan Night Market",
@@ -89,7 +79,7 @@
       "lat": 34.0582307,
       "lon": -118.2721357,
       "boulevard": "Wilshire Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-2-of-47.jpg?w=710"
     },
     {
       "name": "Tacos de Canasta",
@@ -99,7 +89,7 @@
       "lat": 34.0606795,
       "lon": -118.2772084,
       "boulevard": "Wilshire Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-28-of-47.jpg?w=710"
     },
     {
       "name": "Birriería Estilo Chinaloa",
@@ -109,7 +99,7 @@
       "lat": 34.0614545,
       "lon": -118.306404,
       "boulevard": "Wilshire Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-tacos-2023-1-of-9.jpg?w=710"
     },
     {
       "name": "La Purépecha",
@@ -119,7 +109,7 @@
       "lat": 34.0371174,
       "lon": -118.4664127,
       "boulevard": "Santa Monica Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-44-of-47.jpg?w=710"
     },
     {
       "name": "Jonah's Kitchen",
@@ -129,17 +119,7 @@
       "lat": 34.0386615,
       "lon": -118.4742159,
       "boulevard": "Wilshire Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
-    },
-    {
-      "name": "Otro Dia Tacos",
-      "taco": "Taco de pollo",
-      "address": "9911 S Santa Monica Blvd, Beverly Hills, CA",
-      "url": "https://lataco.com/best-tacos-west-hollywood/",
-      "lat": 34.065338,
-      "lon": -118.4122776,
-      "boulevard": "Santa Monica Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-42-of-47.jpg?w=710"
     },
     {
       "name": "El Cartel",
@@ -149,7 +129,7 @@
       "lat": 34.0626321,
       "lon": -118.3489122,
       "boulevard": "Wilshire Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-24-of-47.jpg?w=710"
     },
     {
       "name": "El Tauro Taco Truck",
@@ -159,7 +139,7 @@
       "lat": 34.0617198,
       "lon": -118.290062,
       "boulevard": "Wilshire Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2026/03/Colorful_Semi-Trucks.jpeg?resize=2880%2C1920"
     },
     {
       "name": "Chuy's Tacos Dorados",
@@ -169,7 +149,7 @@
       "lat": 34.0395636,
       "lon": -118.2311923,
       "boulevard": "Whittier Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/DitroitDTLA_ERecinos-9-of-31.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-14-of-47-1.jpg?w=710"
     },
     {
       "name": "Corteza",
@@ -179,7 +159,7 @@
       "lat": 34.0452145,
       "lon": -118.2666588,
       "boulevard": "Olympic Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/DitroitDTLA_ERecinos-9-of-31.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/carnitas-los-gabrieles.jpeg?w=710"
     },
     {
       "name": "La Salsa Tacos de Canasta",
@@ -189,7 +169,7 @@
       "lat": 33.835624,
       "lon": -118.3400794,
       "boulevard": "Torrance Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/DitroitDTLA_ERecinos-9-of-31.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/09/Screenshot-2023-09-11-at-2.43.08-PM.png?w=710"
     },
     {
       "name": "Guerrilla Tacos",
@@ -199,17 +179,27 @@
       "lat": 34.0344189,
       "lon": -118.2321198,
       "boulevard": "Whittier Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/DitroitDTLA_ERecinos-9-of-31.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/Mexicali-Taco-Taco-de-Asada-1.jpg?w=710"
     },
     {
       "name": "Mexicali Taco & Co",
       "taco": "Taco vampiro",
       "address": "702 N Figueroa St, Los Angeles, CA",
-      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "url": "https://lataco.com/best-tacos-dtla/",
       "lat": 34.0635451,
       "lon": -118.2455896,
       "boulevard": "Sunset Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/IMG_1347.jpeg?w=710"
+    },
+    {
+      "name": "Otro Dia Tacos",
+      "taco": "Taco de pollo",
+      "address": "9911 S Santa Monica Blvd, Beverly Hills, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.065338,
+      "lon": -118.4122776,
+      "boulevard": "Santa Monica Boulevard",
+      "photo": null
     },
     {
       "name": "Madre (Fairfax)",
@@ -219,7 +209,7 @@
       "lat": 34.0865453,
       "lon": -118.361724,
       "boulevard": "Crescent Heights Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/94ec6094-f758-4f75-9079-a03cdada43eb.png?w=710"
     },
     {
       "name": "Tacos 1986 (WeHo)",
@@ -229,7 +219,7 @@
       "lat": 34.0762377,
       "lon": -118.346933,
       "boulevard": "Beverly Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/04/image0.jpeg?w=710"
     },
     {
       "name": "MXO by Wes Avila",
@@ -239,7 +229,7 @@
       "lat": 34.0861012,
       "lon": -118.376263,
       "boulevard": "North La Cienega Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/03/guisados1-e1742924773849.png?w=710"
     },
     {
       "name": "Guisados",
@@ -249,7 +239,7 @@
       "lat": 34.0844187,
       "lon": -118.3852343,
       "boulevard": "Santa Monica Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/12/Untitled-design-1-copy.jpg?w=710"
     },
     {
       "name": "Escuela Taquería",
@@ -259,7 +249,7 @@
       "lat": 34.0759631,
       "lon": -118.352402,
       "boulevard": "Beverly Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/gracias-madre.png?w=710"
     },
     {
       "name": "Gracias Madre",
@@ -269,7 +259,7 @@
       "lat": 34.0809551,
       "lon": -118.386948,
       "boulevard": "Robertson Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/94ec6094-f758-4f75-9079-a03cdada43eb.png?w=710"
     },
     {
       "name": "Tu Madre",
@@ -279,7 +269,7 @@
       "lat": 34.091002,
       "lon": -118.3630707,
       "boulevard": "Santa Monica Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/94ec6094-f758-4f75-9079-a03cdada43eb.png?w=710"
     },
     {
       "name": "Zarape Cocina & Cantina",
@@ -289,7 +279,7 @@
       "lat": 34.0905541,
       "lon": -118.3741896,
       "boulevard": "Santa Monica Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/walking-spanish.jpg?w=710"
     },
     {
       "name": "Walking Spanish",
@@ -299,7 +289,7 @@
       "lat": 34.0908427,
       "lon": -118.3530098,
       "boulevard": "Santa Monica Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/El-Carmen-1.jpg?w=710"
     },
     {
       "name": "El Carmen",
@@ -309,17 +299,17 @@
       "lat": 34.0722421,
       "lon": -118.367332,
       "boulevard": "Crescent Heights Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2026/03/Colorful_Semi-Trucks.jpeg?resize=2880%2C1920"
     },
     {
       "name": "Madre (National)",
       "taco": "Tlayuda",
       "address": "10426 National Blvd, Los Angeles, CA",
-      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
       "lat": 34.0287037,
       "lon": -118.4113979,
       "boulevard": "National Boulevard",
-      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/94ec6094-f758-4f75-9079-a03cdada43eb.png?w=710"
     }
   ]
 }

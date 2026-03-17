@@ -395,6 +395,7 @@ path.leaflet-interactive:focus { outline:none; }
 #info-lions-title { font-size:11px; color:rgba(245,158,11,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-coyotes-title { font-size:11px; color:rgba(160,120,56,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-tacos-title { font-size:11px; color:rgba(239,68,68,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+#info-tacos-list { display:flex; flex-wrap:wrap; gap:8px; }
 /* ── LA Taco popup ── */
 .la-taco-popup .leaflet-popup-content-wrapper {
   background:rgba(15,17,35,0.97) !important;
@@ -814,7 +815,7 @@ path.leaflet-interactive:focus { outline:none; }
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 20 14" style="flex-shrink:0;opacity:0.9"><rect x="1" y="3" width="11" height="8" rx="1.5" fill="none" stroke="#67e8f9" stroke-width="1.2" stroke-linecap="round"/><circle cx="6.5" cy="7" r="2.3" fill="none" stroke="#67e8f9" stroke-width="1.0"/><circle cx="6.5" cy="7" r="0.8" fill="#67e8f9"/><path d="M12,5 L18,3.5 L18,10.5 L12,9" fill="none" stroke="#67e8f9" stroke-width="1.0" stroke-linejoin="round"/></svg><span>Traffic camera</span></div>
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><circle cx="7" cy="3" r="2" fill="none" stroke="#e879f9" stroke-width="1.2"/><path d="M5.5,5 Q4.5,7.5 5,10.5 L9,10.5 Q9.5,7.5 8.5,5 Z" fill="none" stroke="#e879f9" stroke-width="1.1"/><line x1="5.5" y1="5.5" x2="2" y2="2" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="8.5" y1="6" x2="12" y2="7.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="6" y1="10.5" x2="5" y2="13.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="8" y1="10.5" x2="9" y2="13.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><rect x="3" y="13.5" width="8" height="4.5" rx="0.5" fill="none" stroke="#e879f9" stroke-width="1.1"/><line x1="2" y1="19.5" x2="12" y2="19.5" stroke="#e879f9" stroke-width="1.2" stroke-linecap="round"/></svg><span>Public art</span></div>
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 16 20" style="flex-shrink:0;opacity:0.9"><path d="M1,1 Q8,4.5 15,1" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M8,1 Q8.5,4 8,7" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M1,1 L1,17 Q4.5,13 4.5,9 Q4.5,5 1,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><path d="M15,1 L15,17 Q11.5,13 11.5,9 Q11.5,5 15,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="1" y1="10.5" x2="5" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="15" y1="10.5" x2="11" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="1" y1="19" x2="15" y2="19" stroke="#c084fc" stroke-width="1.2" stroke-linecap="round"/></svg><span>Theatre</span></div>
-        <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="7" height="14" viewBox="0 0 9 18" style="flex-shrink:0;opacity:0.9"><rect x="3.5" y="0" width="2" height="2" rx="0.4" fill="#ef4444"/><path d="M3.5,2 L3.5,10 L1,11.5 L1,15.5 Q1,17.5 4.5,17.5 Q8,17.5 8,15.5 L8,11.5 L5.5,10 L5.5,2 Z" fill="none" stroke="#ef4444" stroke-width="1.3" stroke-linejoin="round"/></svg><span>LA Taco picks</span></div>
+        <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="7" height="14" viewBox="0 0 9 18" style="flex-shrink:0;opacity:0.9"><rect x="3" y="0" width="3" height="2" rx="0.5" fill="#ef4444"/><path d="M3,2 L3,5 Q1,6 1,7.5 L1,15 Q1,17 4.5,17 Q8,17 8,15 L8,7.5 Q8,6 6,5 L6,2 Z" fill="rgba(239,68,68,0.2)" stroke="#ef4444" stroke-width="1.3" stroke-linejoin="round"/></svg><span>LA Taco picks</span></div>
       </div>
     </div>
     <div class="legend-group">
@@ -1097,6 +1098,19 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const artMarkerList = [];    // { marker, blvdName }
   const theatreMarkerList = []; // { marker, blvdName, isWiltern }
   const camMarkerList = [];    // { marker, blvdName, imgUrl, name, lat, lon, openCamPopup }
+  const tacoMarkerList = [];   // { marker, blvdName, lat, lon, photo, name, openPopup }
+  window._openTacoFromPanel = idx => {
+    const t = tacoMarkerList[idx];
+    if (!t) return;
+    if (!isMobile()) { t.openPopup(); return; }
+    setSheetState('half');
+    const panOffset = Math.round(sheetPanelH * 0.31);
+    map.flyTo([t.lat, t.lon], map.getZoom());
+    map.once('moveend', () => {
+      if (panOffset > 0) map.panBy([0, panOffset], { animate: false });
+      setTimeout(t.openPopup, 200);
+    });
+  };
   window._openCamFromPanel = idx => {
     const e = camMarkerList[idx];
     if (!e) return;
@@ -1689,18 +1703,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function populateTacoSection(blvd) {
     const sec  = document.getElementById('info-tacos');
     const list = document.getElementById('info-tacos-list');
-    if (!tacoData.length) { sec.style.display = 'none'; return; }
-    const items = tacoData.filter(t => t.boulevard === blvd.name);
+    const items = tacoMarkerList.filter(t => t.blvdName === blvd.name);
     if (!items.length) { sec.style.display = 'none'; return; }
-    list.innerHTML = items.map(t =>
-      `<div class="info-item">` +
-      `<div class="info-item-name" style="color:rgba(239,68,68,0.85)">${t.name}</div>` +
-      (t.taco ? `<div class="info-item-sub" style="font-style:italic">${t.taco}</div>` : '') +
-      `<div class="info-item-links">` +
-      `<a class="info-item-maplnk" href="${t.url}" target="_blank" rel="noopener">L.A. Taco →</a>` +
-      `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${t.lat},${t.lon})">→ map</a>` +
-      `</div></div>`
-    ).join('');
+    list.innerHTML = items.map(t => {
+      const idx = tacoMarkerList.indexOf(t);
+      return `<div class="cam-thumb-item" onclick="_openTacoFromPanel(${idx})">` +
+        (t.photo
+          ? `<img src="${t.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>`
+          : `<div style="width:120px;height:68px;background:#1f2937;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:18px;">🌮</div>`) +
+        `<div class="cam-thumb-item-name">${t.name}</div></div>`;
+    }).join('');
     sec.style.display = 'block';
   }
 
@@ -1744,7 +1756,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const parrotCount  = parrotData.length  ? countNearBlvd(parrotData,  blvd, 0.15) : 0;
     const lionCount    = lionData.length    ? countNearBlvd(lionData,    blvd, 0.25) : 0;
     const coyoteCount  = coyoteData.length  ? countNearBlvd(coyoteData,  blvd, 0.25) : 0;
-    const tacoCount    = tacoData.length    ? tacoData.filter(t => t.boulevard === blvd.name).length : 0;
+    const tacoCount    = tacoMarkerList.filter(t => t.blvdName === blvd.name).length;
     const camCount     = camMarkerList.filter(c => c.blvdName === blvd.name).length;
     const stats = [];
     if (theatreCount) stats.push(`🎭 ${theatreCount} theatre${theatreCount !== 1 ? 's' : ''}`);
@@ -2381,14 +2393,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   });
 
   // ── LA Tacos ──────────────────────────────────────────────────
-  let tacoData = [];
-
   const tacoBottleSvg =
     `<svg xmlns="http://www.w3.org/2000/svg" width="9" height="18" viewBox="0 0 9 18"
         style="filter:drop-shadow(0 0 3px rgba(239,68,68,0.5))">
-      <rect x="3.5" y="0" width="2" height="2" rx="0.4" fill="#ef4444" opacity="0.9"/>
-      <path d="M3.5,2 L3.5,10 L1,11.5 L1,15.5 Q1,17.5 4.5,17.5 Q8,17.5 8,15.5 L8,11.5 L5.5,10 L5.5,2 Z"
-        fill="none" stroke="#ef4444" stroke-width="1.2" stroke-linejoin="round" opacity="0.9"/>
+      <rect x="3" y="0" width="3" height="2" rx="0.5" fill="#ef4444" opacity="0.9"/>
+      <path d="M3,2 L3,5 Q1,6 1,7.5 L1,15 Q1,17 4.5,17 Q8,17 8,15 L8,7.5 Q8,6 6,5 L6,2 Z"
+        fill="rgba(239,68,68,0.12)" stroke="#ef4444" stroke-width="1.1" stroke-linejoin="round" opacity="0.9"/>
     </svg>`;
 
   const tacoIcon = L.divIcon({
@@ -2401,12 +2411,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const res = await fetch('tacos.json');
       if (!res.ok) return;
       const { tacos } = await res.json();
-      tacoData = tacos;
       tacos.forEach(t => {
         const marker = L.marker([t.lat, t.lon], { icon: tacoIcon, zIndexOffset: 150 });
-        artMarkerList.push({ marker, blvdName: t.boulevard });
-        marker.on('click', e => {
-          L.DomEvent.stopPropagation(e.originalEvent);
+        const openPopup = () => {
           const html =
             `<div style="padding:14px 16px;width:260px;">` +
             `<div style="font-size:11px;color:rgba(239,68,68,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">LA Tacos</div>` +
@@ -2416,7 +2423,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
             `</div>`;
           L.popup({ className: 'la-taco-popup', closeButton: true, maxWidth: 320, autoPan: true })
             .setLatLng([t.lat, t.lon]).setContent(html).openOn(map);
-        });
+        };
+        tacoMarkerList.push({ marker, blvdName: t.boulevard, lat: t.lat, lon: t.lon, photo: t.photo, name: t.name, openPopup });
+        artMarkerList.push({ marker, blvdName: t.boulevard });
+        marker.on('click', e => { L.DomEvent.stopPropagation(e.originalEvent); openPopup(); });
       });
       updateOverlayMarkers(selectedBlvd);
     } catch (e) { console.warn('Taco load failed:', e); }
