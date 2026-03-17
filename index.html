@@ -975,6 +975,46 @@ function filterNearBlvd(points, blvd, threshKm) {
   return points.filter(p => pts.some(([slat, slon]) => hav(p.lat, p.lon, slat, slon) <= threshKm));
 }
 
+function makeClusterSystem(cfg) {
+  // cfg: { renderGroup, getData, isOn, icon, clusterIcon, bindClick, R, MIN }
+  const pinned = new Set();
+  function recluster() {
+    cfg.renderGroup.clearLayers();
+    if (!cfg.isOn() || !cfg.getData().length) return;
+    const data = cfg.getData();
+    const zoom = map.getZoom();
+    const pts = data.map((item, i) => ({ item, i, px: map.project([item.lat, item.lon], zoom) }));
+    const used = new Set(pinned);
+    for (const k of pinned) {
+      const m = L.marker([pts[k].item.lat, pts[k].item.lon], { icon: cfg.icon, zIndexOffset: cfg.zIndex ?? 50 });
+      cfg.bindClick(m, pts[k].item);
+      cfg.renderGroup.addLayer(m);
+    }
+    for (let i = 0; i < pts.length; i++) {
+      if (used.has(i)) continue;
+      const group = [i]; used.add(i);
+      for (let j = i + 1; j < pts.length; j++) {
+        if (used.has(j)) continue;
+        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
+        if (dx * dx + dy * dy <= cfg.R * cfg.R) { group.push(j); used.add(j); }
+      }
+      if (group.length >= cfg.MIN) {
+        const lat = group.reduce((s, k) => s + pts[k].item.lat, 0) / group.length;
+        const lon = group.reduce((s, k) => s + pts[k].item.lon, 0) / group.length;
+        const cm = L.marker([lat, lon], { icon: cfg.clusterIcon(group.length), zIndexOffset: 100 });
+        cm.on('click', e => { L.DomEvent.stopPropagation(e.originalEvent || e); group.forEach(k => pinned.add(k)); recluster(); });
+        cfg.renderGroup.addLayer(cm);
+      } else {
+        for (const k of group) {
+          const m = L.marker([pts[k].item.lat, pts[k].item.lon], { icon: cfg.icon, zIndexOffset: cfg.zIndex ?? 50 });
+          cfg.bindClick(m, pts[k].item);
+          cfg.renderGroup.addLayer(m);
+        }
+      }
+    }
+  }
+  return { pinned, recluster };
+}
 
 function lerpColor(c1, c2, t) {
   const h = c => [parseInt(c.slice(1,3),16), parseInt(c.slice(3,5),16), parseInt(c.slice(5,7),16)];
@@ -1124,91 +1164,47 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   };
 
+  function _openWildlifePopup(item, pinnedSet, reclusterFn, cfg) {
+    pinnedSet.add(item._idx);
+    reclusterFn();
+    const dateStr = item.date
+      ? new Date(item.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
+      : '';
+    const html =
+      `<div style="padding:12px 14px;width:220px;">` +
+      `<div style="font-size:11px;color:${cfg.color};text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">${cfg.label}</div>` +
+      `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${cfg.species(item)}</div>` +
+      (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">${cfg.verb} ${dateStr}</div>` : '') +
+      (item.photo ? `<img src="${item.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
+      `<a href="${item.url}" target="_blank" rel="noopener" style="font-size:12px;color:${cfg.color};opacity:0.8;text-decoration:none;">iNaturalist →</a>` +
+      `</div>`;
+    const openPopup = () =>
+      L.popup({ className: cfg.popupClass, closeButton: true, maxWidth: 260, autoPan: true })
+        .setLatLng([item.lat, item.lon]).setContent(html).openOn(map);
+    if (!isMobile()) { openPopup(); return; }
+    setSheetState('half');
+    const panOffset = Math.round(sheetPanelH * 0.31);
+    map.flyTo([item.lat, item.lon], map.getZoom());
+    map.once('moveend', () => {
+      if (panOffset > 0) map.panBy([0, panOffset], { animate: false });
+      setTimeout(openPopup, 200);
+    });
+  }
+
   window._openCoyoteFromPanel = idx => {
-    const c = coyoteData[idx];
-    if (!c) return;
-    pinnedCoyotes.add(idx);
-    reclusterCoyotes();
-    const dateStr = c.date
-      ? new Date(c.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
-      : '';
-    const html =
-      `<div style="padding:12px 14px;width:220px;">` +
-      `<div style="font-size:11px;color:rgba(160,120,56,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Coyote</div>` +
-      `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">Canis latrans</div>` +
-      (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">Observed ${dateStr}</div>` : '') +
-      (c.photo ? `<img src="${c.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
-      `<a href="${c.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(160,120,56,0.7);text-decoration:none;">iNaturalist →</a>` +
-      `</div>`;
-    const openPopup = () =>
-      L.popup({ className: 'coyote-popup', closeButton: true, maxWidth: 260, autoPan: true })
-        .setLatLng([c.lat, c.lon]).setContent(html).openOn(map);
-    if (!isMobile()) { openPopup(); return; }
-    setSheetState('half');
-    const panOffset = Math.round(sheetPanelH * 0.31);
-    map.flyTo([c.lat, c.lon], map.getZoom());
-    map.once('moveend', () => {
-      if (panOffset > 0) map.panBy([0, panOffset], { animate: false });
-      setTimeout(openPopup, 200);
-    });
+    const c = coyoteData[idx]; if (!c) return;
+    _openWildlifePopup(c, pinnedCoyotes, reclusterCoyotes,
+      { color: 'rgba(160,120,56,0.8)', label: 'Coyote', species: () => 'Canis latrans', verb: 'Observed', popupClass: 'coyote-popup' });
   };
-
   window._openParrotFromPanel = idx => {
-    const p = parrotData[idx];
-    if (!p) return;
-    pinnedParrots.add(idx);
-    reclusterParrots();
-    const dateStr = p.date
-      ? new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
-      : '';
-    const html =
-      `<div style="padding:12px 14px;width:220px;">` +
-      `<div style="font-size:11px;color:rgba(163,230,53,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Wild Parrot 🦜</div>` +
-      `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${p.species}</div>` +
-      (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">Spotted ${dateStr}</div>` : '') +
-      (p.photo ? `<img src="${p.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
-      `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(163,230,53,0.7);text-decoration:none;">iNaturalist →</a>` +
-      `</div>`;
-    const openPopup = () =>
-      L.popup({ className: 'parrot-popup', closeButton: true, maxWidth: 260, autoPan: true })
-        .setLatLng([p.lat, p.lon]).setContent(html).openOn(map);
-    if (!isMobile()) { openPopup(); return; }
-    setSheetState('half');
-    const panOffset = Math.round(sheetPanelH * 0.31);
-    map.flyTo([p.lat, p.lon], map.getZoom());
-    map.once('moveend', () => {
-      if (panOffset > 0) map.panBy([0, panOffset], { animate: false });
-      setTimeout(openPopup, 200);
-    });
+    const p = parrotData[idx]; if (!p) return;
+    _openWildlifePopup(p, pinnedParrots, reclusterParrots,
+      { color: 'rgba(163,230,53,0.8)', label: 'Wild Parrot 🦜', species: item => item.species, verb: 'Spotted', popupClass: 'parrot-popup' });
   };
-
   window._openLionFromPanel = idx => {
-    const l = lionData[idx];
-    if (!l) return;
-    pinnedLions.add(idx);
-    reclusterLions();
-    const dateStr = l.date
-      ? new Date(l.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'})
-      : '';
-    const html =
-      `<div style="padding:12px 14px;width:220px;">` +
-      `<div style="font-size:11px;color:rgba(245,158,11,0.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Mountain Lion 🦁</div>` +
-      `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">Puma concolor</div>` +
-      (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">Observed ${dateStr}</div>` : '') +
-      (l.photo ? `<img src="${l.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy"/>` : '') +
-      `<a href="${l.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(245,158,11,0.7);text-decoration:none;">iNaturalist →</a>` +
-      `</div>`;
-    const openPopup = () =>
-      L.popup({ className: 'lion-popup', closeButton: true, maxWidth: 260, autoPan: true })
-        .setLatLng([l.lat, l.lon]).setContent(html).openOn(map);
-    if (!isMobile()) { openPopup(); return; }
-    setSheetState('half');
-    const panOffset = Math.round(sheetPanelH * 0.31);
-    map.flyTo([l.lat, l.lon], map.getZoom());
-    map.once('moveend', () => {
-      if (panOffset > 0) map.panBy([0, panOffset], { animate: false });
-      setTimeout(openPopup, 200);
-    });
+    const l = lionData[idx]; if (!l) return;
+    _openWildlifePopup(l, pinnedLions, reclusterLions,
+      { color: 'rgba(245,158,11,0.8)', label: 'Mountain Lion 🦁', species: () => 'Puma concolor', verb: 'Observed', popupClass: 'lion-popup' });
   };
 
   function updateOverlayMarkers(blvd) {
@@ -1479,12 +1475,34 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const infoMeta    = document.getElementById('info-meta');
   const infoExtract = document.getElementById('info-extract');
   const infoWiki    = document.getElementById('info-wiki');
+  const infoStats    = document.getElementById('info-stats');
+  const infoEditorial = document.getElementById('info-editorial');
+  const infoShare    = document.getElementById('info-share');
+  const photosStrip  = document.getElementById('photos-strip');
+  const secArt       = document.getElementById('info-art');
+  const secArtList   = document.getElementById('info-art-list');
+  const secTheatres  = document.getElementById('info-theatres');
+  const secTheatresList = document.getElementById('info-theatres-list');
+  const secWells     = document.getElementById('info-wells');
+  const secWellsList = document.getElementById('info-wells-list');
+  const secParrots   = document.getElementById('info-parrots');
+  const secParrotsList = document.getElementById('info-parrots-list');
+  const secLions     = document.getElementById('info-lions');
+  const secLionsList = document.getElementById('info-lions-list');
+  const secCoyotes   = document.getElementById('info-coyotes');
+  const secCoyotesList = document.getElementById('info-coyotes-list');
+  const secTacos     = document.getElementById('info-tacos');
+  const secTacosList = document.getElementById('info-tacos-list');
+  const secCameras   = document.getElementById('info-cameras');
+  const secCamerasList = document.getElementById('info-cameras-list');
 
   // ── Mobile bottom-sheet ──────────────────────────────────
   const PEEK_H = 120; // px: handle + name + meta + stats visible in peek state
   let sheetState = 'closed';
   let sheetPanelH = 0;
-  function isMobile() { return window.innerWidth <= 640; }
+  let _isMobileCache = window.innerWidth <= 640;
+  window.addEventListener('resize', () => { _isMobileCache = window.innerWidth <= 640; });
+  function isMobile() { return _isMobileCache; }
   function sheetY(state) {
     if (state === 'peek') return sheetPanelH - PEEK_H;
     if (state === 'half') return Math.round(sheetPanelH * 0.38);
@@ -1622,7 +1640,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // ── Wikimedia Commons photo strip ──────────────────────
   const commonsCache = {};
-  const photosStrip = document.getElementById('photos-strip');
 
   async function fetchCommons(name) {
     if (name in commonsCache) return commonsCache[name];
@@ -1669,8 +1686,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   function populateArtSection(blvd) {
-    const artSection = document.getElementById('info-art');
-    const artList = document.getElementById('info-art-list');
+    const artSection = secArt;
+    const artList = secArtList;
     if (!artItems) return;
     const pieces = artItems.filter(a => a.blvd === blvd);
     if (!pieces.length) { artSection.style.display = 'none'; return; }
@@ -1686,8 +1703,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   function populateTheatreSection(blvd) {
-    const sec = document.getElementById('info-theatres');
-    const list = document.getElementById('info-theatres-list');
+    const sec = secTheatres;
+    const list = secTheatresList;
     const items = theatreMarkerList.filter(({ blvdName, isWiltern }) => blvdName === blvd.name && !isWiltern);
     if (!items.length) { sec.style.display = 'none'; return; }
     list.innerHTML = items.map(({ name, lat, lon, wikipedia, website, address }) =>
@@ -1703,11 +1720,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     sec.style.display = 'block';
   }
 
-  function populateWellSection(blvd) {
-    const sec = document.getElementById('info-wells');
-    const list = document.getElementById('info-wells-list');
-    if (!wellData.length) { sec.style.display = 'none'; return; }
-    const items = filterNearBlvd(wellData, blvd, 0.15);
+  function populateWellSection(items) {
+    const sec = secWells;
+    const list = secWellsList;
     if (!items.length) { sec.style.display = 'none'; return; }
     const show = items.slice(0, 20);
     list.innerHTML = show.map(w =>
@@ -1723,14 +1738,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     sec.style.display = 'block';
   }
 
-  function populateParrotSection(blvd) {
-    const sec = document.getElementById('info-parrots');
-    const list = document.getElementById('info-parrots-list');
-    if (!parrotData.length) { sec.style.display = 'none'; return; }
-    const items = filterNearBlvd(parrotData, blvd, 0.15);
+  function populateParrotSection(items) {
+    const sec = secParrots;
+    const list = secParrotsList;
     if (!items.length) { sec.style.display = 'none'; return; }
     list.innerHTML = items.slice(0, 12).map(p => {
-      const idx = parrotData.indexOf(p);
+      const idx = p._idx;
       const label = [p.species || 'Wild Parrot', p.date ? new Date(p.date).toLocaleDateString('en-US', { month:'short', year:'numeric' }) : ''].filter(Boolean).join(' · ');
       return `<div class="cam-thumb-item" onclick="_openParrotFromPanel(${idx})">` +
         (p.photo ? `<img src="${p.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` : '') +
@@ -1740,14 +1753,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     sec.style.display = 'block';
   }
 
-  function populateLionSection(blvd) {
-    const sec = document.getElementById('info-lions');
-    const list = document.getElementById('info-lions-list');
-    if (!lionData.length) { sec.style.display = 'none'; return; }
-    const items = filterNearBlvd(lionData, blvd, 0.25);
+  function populateLionSection(items) {
+    const sec = secLions;
+    const list = secLionsList;
     if (!items.length) { sec.style.display = 'none'; return; }
     list.innerHTML = items.slice(0, 8).map(l => {
-      const idx = lionData.indexOf(l);
+      const idx = l._idx;
       const label = l.date ? new Date(l.date + 'T12:00:00').toLocaleDateString('en-US', { month:'short', year:'numeric' }) : 'Mountain Lion';
       return `<div class="cam-thumb-item" onclick="_openLionFromPanel(${idx})">` +
         (l.photo ? `<img src="${l.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` : '') +
@@ -1757,14 +1768,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     sec.style.display = 'block';
   }
 
-  function populateCoyoteSection(blvd) {
-    const sec = document.getElementById('info-coyotes');
-    const list = document.getElementById('info-coyotes-list');
-    if (!coyoteData.length) { sec.style.display = 'none'; return; }
-    const items = filterNearBlvd(coyoteData, blvd, 0.25);
+  function populateCoyoteSection(items) {
+    const sec = secCoyotes;
+    const list = secCoyotesList;
     if (!items.length) { sec.style.display = 'none'; return; }
     list.innerHTML = items.slice(0, 8).map(c => {
-      const idx = coyoteData.indexOf(c);
+      const idx = c._idx;
       const label = c.date ? new Date(c.date + 'T12:00:00').toLocaleDateString('en-US', { month:'short', year:'numeric' }) : 'Coyote';
       return `<div class="cam-thumb-item" onclick="_openCoyoteFromPanel(${idx})">` +
         (c.photo ? `<img src="${c.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` : '') +
@@ -1775,8 +1784,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   function populateTacoSection(blvd) {
-    const sec  = document.getElementById('info-tacos');
-    const list = document.getElementById('info-tacos-list');
+    const sec  = secTacos;
+    const list = secTacosList;
     const items = tacoMarkerList.filter(t => t.blvdName === blvd.name);
     if (!items.length) { sec.style.display = 'none'; return; }
     list.innerHTML = items.map(t => {
@@ -1791,8 +1800,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   function populateCameraSection(blvd) {
-    const sec = document.getElementById('info-cameras');
-    const list = document.getElementById('info-cameras-list');
+    const sec = secCameras;
+    const list = secCamerasList;
     const cams = camMarkerList.filter(c => c.blvdName === blvd.name);
     if (!cams.length) { sec.style.display = 'none'; return; }
     list.innerHTML = cams.slice(0, 8).map(c => {
@@ -1826,10 +1835,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     // Layer counts
     const artCount     = artMarkerList.filter(({ blvdName }) => blvdName === blvd.name).length;
     const theatreCount = theatreMarkerList.filter(({ blvdName, isWiltern }) => !isWiltern && blvdName === blvd.name).length;
-    const wellCount    = wellData.length    ? countNearBlvd(wellData,    blvd, 0.15) : 0;
-    const parrotCount  = parrotData.length  ? countNearBlvd(parrotData,  blvd, 0.15) : 0;
-    const lionCount    = lionData.length    ? countNearBlvd(lionData,    blvd, 0.25) : 0;
-    const coyoteCount  = coyoteData.length  ? countNearBlvd(coyoteData,  blvd, 0.25) : 0;
+    const nearWells    = wellData.length    ? filterNearBlvd(wellData,    blvd, 0.15) : [];
+    const nearParrots  = parrotData.length  ? filterNearBlvd(parrotData,  blvd, 0.15) : [];
+    const nearLions    = lionData.length    ? filterNearBlvd(lionData,    blvd, 0.25) : [];
+    const nearCoyotes  = coyoteData.length  ? filterNearBlvd(coyoteData,  blvd, 0.25) : [];
+    const wellCount    = nearWells.length;
+    const parrotCount  = nearParrots.length;
+    const lionCount    = nearLions.length;
+    const coyoteCount  = nearCoyotes.length;
     const tacoCount    = tacoMarkerList.filter(t => t.blvdName === blvd.name).length;
     const camCount     = camMarkerList.filter(c => c.blvdName === blvd.name).length;
     const stats = [];
@@ -1841,7 +1854,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (coyoteCount)  stats.push(`🐺 ${coyoteCount} coyote${coyoteCount !== 1 ? 's' : ''}`);
     if (tacoCount)    stats.push(`🌮 ${tacoCount} LA Taco${tacoCount !== 1 ? 's' : ''}`);
     if (camCount)     stats.push(`📷 ${camCount} live camera${camCount !== 1 ? 's' : ''}`);
-    document.getElementById('info-stats').innerHTML = stats.map(s => `<span class="info-stat">${s}</span>`).join('');
+    infoStats.innerHTML = stats.map(s => `<span class="info-stat">${s}</span>`).join('');
 
     // Editorial links
     const EDITORIAL = {
@@ -1851,17 +1864,15 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       'Victory Boulevard':  '<a href="https://lataco.com/best-tacos-in-the-san-fernando-valley" target="_blank" rel="noopener">Best tacos in the Valley → L.A. Taco</a>',
     };
     const editorial = EDITORIAL[blvd.name];
-    const editEl = document.getElementById('info-editorial');
-    editEl.innerHTML = editorial ? `Featured: ${editorial}` : '';
-    editEl.style.display = editorial ? '' : 'none';
+    infoEditorial.innerHTML = editorial ? `Featured: ${editorial}` : '';
+    infoEditorial.style.display = editorial ? '' : 'none';
 
     // Share buttons + deep link
     const blvdUrl = `${location.origin}${location.pathname}?blvd=${encodeURIComponent(blvd.name)}`;
     history.replaceState(null, '', `?blvd=${encodeURIComponent(blvd.name)}`);
-    const shareEl = document.getElementById('info-share');
     const shareText = `${blvd.name}: ${blvd.mi} mi${theatreCount ? `, ${theatreCount} theatres` : ''}${artCount ? `, ${artCount} public art pieces` : ''}. Explore LA's hidden layers on Boulevard Love`;
-    shareEl.innerHTML = `<div class="share-label">Share</div><div class="share-row"><button class="share-btn" id="share-rd">Reddit</button><button class="share-btn" id="share-cp">Copy link</button></div>`;
-    shareEl.classList.add('visible');
+    infoShare.innerHTML = `<div class="share-label">Share</div><div class="share-row"><button class="share-btn" id="share-rd">Reddit</button><button class="share-btn" id="share-cp">Copy link</button></div>`;
+    infoShare.classList.add('visible');
     document.getElementById('share-rd').onclick = () => window.open(`https://reddit.com/submit?url=${encodeURIComponent(blvdUrl)}&title=${encodeURIComponent(blvd.name + ' — Boulevard Love')}`, '_blank');
     const cpBtn = document.getElementById('share-cp');
     cpBtn.onclick = () => navigator.clipboard.writeText(blvdUrl).then(() => { cpBtn.textContent = 'Copied!'; setTimeout(() => cpBtn.textContent = 'Copy link', 2000); });
@@ -1870,22 +1881,22 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoWiki.style.display = 'none';
     photosStrip.style.display = 'none';
     photosStrip.innerHTML = '';
-    document.getElementById('info-art').style.display = 'none';
-    document.getElementById('info-art-list').innerHTML = '';
-    document.getElementById('info-theatres').style.display = 'none';
-    document.getElementById('info-theatres-list').innerHTML = '';
-    document.getElementById('info-wells').style.display = 'none';
-    document.getElementById('info-wells-list').innerHTML = '';
-    document.getElementById('info-parrots').style.display = 'none';
-    document.getElementById('info-parrots-list').innerHTML = '';
-    document.getElementById('info-lions').style.display = 'none';
-    document.getElementById('info-lions-list').innerHTML = '';
-    document.getElementById('info-coyotes').style.display = 'none';
-    document.getElementById('info-coyotes-list').innerHTML = '';
-    document.getElementById('info-tacos').style.display = 'none';
-    document.getElementById('info-tacos-list').innerHTML = '';
-    document.getElementById('info-cameras').style.display = 'none';
-    document.getElementById('info-cameras-list').innerHTML = '';
+    secArt.style.display = 'none';
+    secArtList.innerHTML = '';
+    secTheatres.style.display = 'none';
+    secTheatresList.innerHTML = '';
+    secWells.style.display = 'none';
+    secWellsList.innerHTML = '';
+    secParrots.style.display = 'none';
+    secParrotsList.innerHTML = '';
+    secLions.style.display = 'none';
+    secLionsList.innerHTML = '';
+    secCoyotes.style.display = 'none';
+    secCoyotesList.innerHTML = '';
+    secTacos.style.display = 'none';
+    secTacosList.innerHTML = '';
+    secCameras.style.display = 'none';
+    secCamerasList.innerHTML = '';
 
     statusStart('Loading photos…');
     fetchCommons(blvd.name).then(photos => {
@@ -1931,12 +1942,21 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
     populateArtSection(blvd);
     populateTheatreSection(blvd);
-    populateWellSection(blvd);
-    populateParrotSection(blvd);
-    populateLionSection(blvd);
-    populateCoyoteSection(blvd);
+    populateWellSection(nearWells);
+    populateParrotSection(nearParrots);
+    populateLionSection(nearLions);
+    populateCoyoteSection(nearCoyotes);
     populateTacoSection(blvd);
     populateCameraSection(blvd);
+  }
+
+  function dimAllBoulevards() {
+    requestAnimationFrame(() => {
+      boulevards.forEach(b => b.lines.forEach(l => l.setStyle({
+        opacity: b.isPico ? Math.max(b.opacity, 0.75) : 0.06,
+        weight:  b.isPico ? Math.max(b.weight, 1.8)  : 0.6
+      })));
+    });
   }
 
   function showP22Info(obsBounds) {
@@ -1944,12 +1964,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     selectedBlvd = null;
     // Dim all boulevard lines
     updateOverlayMarkers(null);
-    requestAnimationFrame(() => {
-      boulevards.forEach(b => b.lines.forEach(l => l.setStyle({
-        opacity: b.isPico ? Math.max(b.opacity, 0.75) : 0.06,
-        weight:  b.isPico ? Math.max(b.weight, 1.8)  : 0.6
-      })));
-    });
+    dimAllBoulevards();
     infoPanel.classList.remove('pico', 'sunset');
     infoPanel.classList.add('open', 'p22');
     if (isMobile()) {
@@ -1995,14 +2010,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
     infoName.textContent = 'P-22 · The Journey';
     infoMeta.textContent = 'Santa Monica Mountains → Griffith Park, 2012';
-    document.getElementById('info-stats').innerHTML = '';
+    infoStats.innerHTML = '';
     document.getElementById('gold-tribute').style.display = 'none';
     infoImg.src = _p22LastPhoto ||
       'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/P-22-Mountain-Lion.jpg/600px-P-22-Mountain-Lion.jpg';
     infoImg.style.display = 'block';
-    const editEl = document.getElementById('info-editorial');
-    editEl.innerHTML = '';
-    editEl.style.display = 'none';
+    infoEditorial.innerHTML = '';
+    infoEditorial.style.display = 'none';
     infoExtract.innerHTML =
       `Sometime in 2012, a young male mountain lion left the Santa Monica Mountains and made one of the most remarkable solo journeys in urban wildlife history. ` +
       `He crossed the 10-lane 405 at Sepulveda Pass — likely at night — then navigated Bel-Air, Stone Canyon, and Beverly Glen before crossing the 101 near Cahuenga Pass. ` +
@@ -2020,18 +2034,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoWiki.style.display = 'inline';
     photosStrip.innerHTML = '';
     photosStrip.style.display = 'none';
-    ['info-art','info-theatres','info-wells','info-parrots','info-coyotes','info-tacos','info-cameras'].forEach(id =>
-      document.getElementById(id).style.display = 'none');
+    [secArt, secTheatres, secWells, secParrots, secCoyotes, secTacos, secCameras].forEach(el =>
+      el.style.display = 'none');
 
     // P-22 sightings list
-    const lionsSec  = document.getElementById('info-lions');
-    const lionsList = document.getElementById('info-lions-list');
     const lionTitle = document.getElementById('info-lions-title');
     if (p22SightingData.length) {
       lionTitle.textContent = 'Documented Sightings';
       lionTitle.style.color = 'rgba(245,158,11,0.85)';
       const sorted = [...p22SightingData].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
-      lionsList.innerHTML = sorted.map(s => {
+      secLionsList.innerHTML = sorted.map(s => {
         const dateStr = s.date
           ? new Date(s.date + 'T12:00:00').toLocaleDateString('en-US', { year:'numeric', month:'short', day:'numeric' })
           : 'Unknown date';
@@ -2044,15 +2056,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${s.lat},${s.lon})">→ map</a>` +
           `</div></div>`;
       }).join('');
-      lionsSec.style.display = 'block';
+      secLions.style.display = 'block';
     } else {
-      lionsSec.style.display = 'none';
+      secLions.style.display = 'none';
     }
-    const shareEl = document.getElementById('info-share');
-    shareEl.innerHTML =
+    infoShare.innerHTML =
       `<div class="share-row"><a href="https://www.nps.gov/samo/learn/nature/pumapage.htm" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.7);text-decoration:none;">NPS Puma Project →</a>` +
       `<a href="https://www.annenbergfoundation.org/initiatives/wildlife-crossing/" target="_blank" rel="noopener" style="font-size:11px;color:rgba(245,158,11,0.7);text-decoration:none;">Wildlife Crossing →</a></div>`;
-    shareEl.classList.add('visible');
+    infoShare.classList.add('visible');
   }
 
   function showRailwayInfo(status, lineName) {
@@ -2060,12 +2071,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22RouteSelected = false;
     selectedBlvd = null;
     updateOverlayMarkers(null);
-    requestAnimationFrame(() => {
-      boulevards.forEach(b => b.lines.forEach(l => l.setStyle({
-        opacity: b.isPico ? Math.max(b.opacity, 0.75) : 0.06,
-        weight:  b.isPico ? Math.max(b.weight, 1.8)  : 0.6
-      })));
-    });
+    dimAllBoulevards();
     infoPanel.classList.remove('pico', 'sunset', 'p22');
     infoPanel.classList.add('open', 'railway');
     if (isMobile()) {
@@ -2084,15 +2090,15 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         }, 50);
       }
     }
-    document.getElementById('info-stats').innerHTML = '';
+    infoStats.innerHTML = '';
     document.getElementById('gold-tribute').style.display = 'none';
-    document.getElementById('info-editorial').innerHTML = '';
-    document.getElementById('info-editorial').style.display = 'none';
-    document.getElementById('info-share').classList.remove('visible');
-    document.getElementById('info-share').innerHTML = '';
+    infoEditorial.innerHTML = '';
+    infoEditorial.style.display = 'none';
+    infoShare.classList.remove('visible');
+    infoShare.innerHTML = '';
     photosStrip.innerHTML = ''; photosStrip.style.display = 'none';
-    ['info-art','info-theatres','info-wells','info-parrots','info-coyotes','info-tacos','info-cameras','info-lions'].forEach(id =>
-      document.getElementById(id).style.display = 'none');
+    [secArt, secTheatres, secWells, secParrots, secCoyotes, secTacos, secCameras, secLions].forEach(el =>
+      el.style.display = 'none');
 
     if (status === 'ghost') {
       infoName.textContent = 'Pacific Electric Railway';
@@ -2697,8 +2703,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let parrotData = [];
   const parrotRenderGroup = L.layerGroup().addTo(map);
   let parrotsOn = true;
-  const pinnedParrots = new Set();
-
   document.getElementById('parrot-toggle').addEventListener('click', () => {
     parrotsOn = !parrotsOn;
     parrotsOn ? parrotRenderGroup.addTo(map) : parrotRenderGroup.remove();
@@ -2745,50 +2749,18 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   }
 
-  function reclusterParrots() {
-    parrotRenderGroup.clearLayers();
-    if (!parrotsOn || !parrotData.length) return;
-    const zoom = map.getZoom();
-    const R = 30, MIN = 3;
-    const pts = parrotData.map(p => ({ p, px: map.project([p.lat, p.lon], zoom) }));
-    const used = new Set();
-    for (const k of pinnedParrots) { used.add(k); }
-    for (const k of pinnedParrots) {
-      const m = L.marker([pts[k].p.lat, pts[k].p.lon], { icon: parrotIcon, zIndexOffset: 50 });
-      bindParrotClick(m, pts[k].p);
-      parrotRenderGroup.addLayer(m);
-    }
-    for (let i = 0; i < pts.length; i++) {
-      if (used.has(i)) continue;
-      const group = [i];
-      used.add(i);
-      for (let j = i + 1; j < pts.length; j++) {
-        if (used.has(j)) continue;
-        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
-        if (dx * dx + dy * dy <= R * R) { group.push(j); used.add(j); }
-      }
-      if (group.length >= MIN) {
-        const lat = group.reduce((s, k) => s + pts[k].p.lat, 0) / group.length;
-        const lon = group.reduce((s, k) => s + pts[k].p.lon, 0) / group.length;
-        const cm = L.marker([lat, lon], { icon: makeParrotClusterIcon(group.length), zIndexOffset: 100 });
-        cm.on('click', e => { L.DomEvent.stopPropagation(e); group.forEach(k => pinnedParrots.add(k)); reclusterParrots(); });
-        parrotRenderGroup.addLayer(cm);
-      } else {
-        for (const k of group) {
-          const m = L.marker([pts[k].p.lat, pts[k].p.lon], { icon: parrotIcon, zIndexOffset: 50 });
-          bindParrotClick(m, pts[k].p);
-          parrotRenderGroup.addLayer(m);
-        }
-      }
-    }
-  }
+  const { pinned: pinnedParrots, recluster: reclusterParrots } = makeClusterSystem({
+    renderGroup: parrotRenderGroup, getData: () => parrotData, isOn: () => parrotsOn,
+    icon: parrotIcon, clusterIcon: makeParrotClusterIcon, bindClick: bindParrotClick,
+    R: 30, MIN: 3
+  });
 
   (async function loadParrots() {
     try {
       const res = await fetch('parrots.json');
       if (!res.ok) return;
       const { parrots } = await res.json();
-      parrotData = parrots;
+      parrotData = parrots.map((p, i) => ({ ...p, _idx: i }));
       reclusterParrots();
     } catch (e) {
       console.warn('Parrot load failed:', e);
@@ -2799,8 +2771,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let coyoteData = [];
   const coyoteRenderGroup = L.layerGroup().addTo(map);
   let coyotesOn = true;
-  const pinnedCoyotes = new Set();
-
   document.getElementById('coyote-toggle').addEventListener('click', () => {
     coyotesOn = !coyotesOn;
     coyotesOn ? coyoteRenderGroup.addTo(map) : coyoteRenderGroup.remove();
@@ -2846,49 +2816,18 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   }
 
-  function reclusterCoyotes() {
-    coyoteRenderGroup.clearLayers();
-    if (!coyotesOn || !coyoteData.length) return;
-    const zoom = map.getZoom();
-    const R = 35, MIN = 3;
-    const pts = coyoteData.map(c => ({ c, px: map.project([c.lat, c.lon], zoom) }));
-    const used = new Set();
-    for (const k of pinnedCoyotes) used.add(k);
-    for (const k of pinnedCoyotes) {
-      const m = L.marker([pts[k].c.lat, pts[k].c.lon], { icon: coyoteIcon, zIndexOffset: 50 });
-      bindCoyoteClick(m, pts[k].c);
-      coyoteRenderGroup.addLayer(m);
-    }
-    for (let i = 0; i < pts.length; i++) {
-      if (used.has(i)) continue;
-      const group = [i]; used.add(i);
-      for (let j = i + 1; j < pts.length; j++) {
-        if (used.has(j)) continue;
-        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
-        if (dx * dx + dy * dy <= R * R) { group.push(j); used.add(j); }
-      }
-      if (group.length >= MIN) {
-        const lat = group.reduce((s, k) => s + pts[k].c.lat, 0) / group.length;
-        const lon = group.reduce((s, k) => s + pts[k].c.lon, 0) / group.length;
-        const cm = L.marker([lat, lon], { icon: makeCoyoteClusterIcon(group.length), zIndexOffset: 100 });
-        cm.on('click', e => { L.DomEvent.stopPropagation(e.originalEvent); group.forEach(k => pinnedCoyotes.add(k)); reclusterCoyotes(); });
-        coyoteRenderGroup.addLayer(cm);
-      } else {
-        for (const k of group) {
-          const m = L.marker([pts[k].c.lat, pts[k].c.lon], { icon: coyoteIcon, zIndexOffset: 50 });
-          bindCoyoteClick(m, pts[k].c);
-          coyoteRenderGroup.addLayer(m);
-        }
-      }
-    }
-  }
+  const { pinned: pinnedCoyotes, recluster: reclusterCoyotes } = makeClusterSystem({
+    renderGroup: coyoteRenderGroup, getData: () => coyoteData, isOn: () => coyotesOn,
+    icon: coyoteIcon, clusterIcon: makeCoyoteClusterIcon, bindClick: bindCoyoteClick,
+    R: 35, MIN: 3
+  });
 
   (async function loadCoyotes() {
     try {
       const res = await fetch('coyotes.json');
       if (!res.ok) return;
       const { coyotes } = await res.json();
-      coyoteData = coyotes;
+      coyoteData = coyotes.map((c, i) => ({ ...c, _idx: i }));
       reclusterCoyotes();
     } catch (e) {
       console.warn('Coyote load failed:', e);
@@ -2899,8 +2838,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let wellData = [];
   const wellRenderGroup = L.layerGroup().addTo(map);
   let wellsOn = true;
-  const pinnedWells = new Set();
-
   document.getElementById('well-toggle').addEventListener('click', () => {
     wellsOn = !wellsOn;
     wellsOn ? wellRenderGroup.addTo(map) : wellRenderGroup.remove();
@@ -2945,43 +2882,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   }
 
-  function reclusterWells() {
-    wellRenderGroup.clearLayers();
-    if (!wellsOn || !wellData.length) return;
-    const zoom = map.getZoom();
-    const R = 30, MIN = 5;
-    const pts = wellData.map(w => ({ w, px: map.project([w.lat, w.lon], zoom) }));
-    const used = new Set();
-    for (const k of pinnedWells) { used.add(k); }
-    for (const k of pinnedWells) {
-      const m = L.marker([pts[k].w.lat, pts[k].w.lon], { icon: wellIcon, zIndexOffset: 60 });
-      bindWellClick(m, pts[k].w);
-      wellRenderGroup.addLayer(m);
-    }
-    for (let i = 0; i < pts.length; i++) {
-      if (used.has(i)) continue;
-      const group = [i];
-      used.add(i);
-      for (let j = i + 1; j < pts.length; j++) {
-        if (used.has(j)) continue;
-        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
-        if (dx * dx + dy * dy <= R * R) { group.push(j); used.add(j); }
-      }
-      if (group.length >= MIN) {
-        const lat = group.reduce((s, k) => s + pts[k].w.lat, 0) / group.length;
-        const lon = group.reduce((s, k) => s + pts[k].w.lon, 0) / group.length;
-        const cm = L.marker([lat, lon], { icon: makeWellClusterIcon(group.length), zIndexOffset: 100 });
-        cm.on('click', e => { L.DomEvent.stopPropagation(e); group.forEach(k => pinnedWells.add(k)); reclusterWells(); });
-        wellRenderGroup.addLayer(cm);
-      } else {
-        for (const k of group) {
-          const m = L.marker([pts[k].w.lat, pts[k].w.lon], { icon: wellIcon, zIndexOffset: 60 });
-          bindWellClick(m, pts[k].w);
-          wellRenderGroup.addLayer(m);
-        }
-      }
-    }
-  }
+  const { pinned: pinnedWells, recluster: reclusterWells } = makeClusterSystem({
+    renderGroup: wellRenderGroup, getData: () => wellData, isOn: () => wellsOn,
+    icon: wellIcon, clusterIcon: makeWellClusterIcon, bindClick: bindWellClick,
+    R: 30, MIN: 5, zIndex: 60
+  });
 
   // ── Mountain Lions + P-22 Tribute ───────────────────────────────
   let lionData = [];
@@ -2995,7 +2900,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let _p22LastPhoto = null;
   const lionRenderGroup = L.layerGroup().addTo(map);
   let lionsOn = true;
-  const pinnedLions = new Set();
 
   // P-22's journey: Santa Monica Mtns → 405 crossing → Sepulveda Pass → 101 crossing → Griffith Park
   const P22_ROUTE = [
@@ -3109,51 +3013,18 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   }
 
-  function reclusterLions() {
-    lionRenderGroup.clearLayers();
-    if (!lionsOn || !lionData.length) return;
-    const zoom = map.getZoom();
-    const R = 35, MIN = 3;
-    const pts = lionData.map(l => ({ l, px: map.project([l.lat, l.lon], zoom) }));
-    const used = new Set();
-    for (const k of pinnedLions) { used.add(k); }
-    for (const k of pinnedLions) {
-      const m = L.marker([pts[k].l.lat, pts[k].l.lon], { icon: lionIcon, zIndexOffset: 50 });
-      bindLionClick(m, pts[k].l);
-      lionRenderGroup.addLayer(m);
-    }
-    for (let i = 0; i < pts.length; i++) {
-      if (used.has(i)) continue;
-      const group = [i];
-      used.add(i);
-      for (let j = i + 1; j < pts.length; j++) {
-        if (used.has(j)) continue;
-        const dx = pts[i].px.x - pts[j].px.x, dy = pts[i].px.y - pts[j].px.y;
-        if (dx * dx + dy * dy <= R * R) { group.push(j); used.add(j); }
-      }
-      if (group.length >= MIN) {
-        const lat = group.reduce((s, k) => s + pts[k].l.lat, 0) / group.length;
-        const lon = group.reduce((s, k) => s + pts[k].l.lon, 0) / group.length;
-        const cm = L.marker([lat, lon], { icon: makeLionClusterIcon(group.length), zIndexOffset: 100 });
-        cm.on('click', e => { L.DomEvent.stopPropagation(e); group.forEach(k => pinnedLions.add(k)); reclusterLions(); });
-        lionRenderGroup.addLayer(cm);
-      } else {
-        for (const k of group) {
-          const m = L.marker([pts[k].l.lat, pts[k].l.lon], { icon: lionIcon, zIndexOffset: 50 });
-          bindLionClick(m, pts[k].l);
-          lionRenderGroup.addLayer(m);
-        }
-      }
-    }
-
-  }
+  const { pinned: pinnedLions, recluster: reclusterLions } = makeClusterSystem({
+    renderGroup: lionRenderGroup, getData: () => lionData, isOn: () => lionsOn,
+    icon: lionIcon, clusterIcon: makeLionClusterIcon, bindClick: bindLionClick,
+    R: 35, MIN: 3
+  });
 
   (async function loadLions() {
     try {
       const res = await fetch('lions.json');
       if (!res.ok) return;
       const { lions, p22 } = await res.json();
-      lionData = lions;
+      lionData = lions.map((l, i) => ({ ...l, _idx: i }));
       p22SightingData = p22 || [];
 
       reclusterLions();
