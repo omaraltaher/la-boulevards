@@ -388,12 +388,25 @@ path.leaflet-interactive:focus { outline:none; }
   text-decoration:none; margin-top:4px;
 }
 .info-item-maplnk:hover { text-decoration:underline; }
-#info-theatres, #info-wells, #info-parrots, #info-lions, #info-coyotes { display:none; margin-top:16px; }
+#info-theatres, #info-wells, #info-parrots, #info-lions, #info-coyotes, #info-tacos { display:none; margin-top:16px; }
 #info-theatres-title { font-size:11px; color:rgba(168,85,247,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-wells-title { font-size:11px; color:rgba(180,83,9,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-parrots-title { font-size:11px; color:rgba(34,197,94,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-lions-title { font-size:11px; color:rgba(245,158,11,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-coyotes-title { font-size:11px; color:rgba(160,120,56,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+#info-tacos-title { font-size:11px; color:rgba(239,68,68,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+/* ── LA Taco popup ── */
+.la-taco-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(239,68,68,0.25) !important;
+  border-radius:3px !important; padding:0 !important; overflow:hidden;
+}
+.la-taco-popup .leaflet-popup-tip-container { display:none; }
+.la-taco-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.la-taco-popup .leaflet-popup-close-button {
+  color:#e8eaf8 !important; font-size:18px !important;
+  top:6px !important; right:8px !important; z-index:10;
+}
 #info-cameras { display:none; margin-top:16px; }
 #info-cameras-title { font-size:11px; color:rgba(103,232,249,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-cameras-list { display:flex; flex-wrap:wrap; gap:8px; }
@@ -831,6 +844,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="src-row"><b>Mountain Lions 🦁</b> — <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist / NPS Puma Project</a></div>
       <div class="src-row"><b>Coyotes 🐺</b> — <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist (30-day sightings)</a></div>
 <div class="src-row"><b>Ghost Railway 🚋</b> — OpenStreetMap (abandoned &amp; razed railway ways)</div>
+      <div class="src-row"><b>LA Tacos 🌮</b> — <a href="https://lataco.com" target="_blank" rel="noopener">L.A. Taco</a> (James Beard Award-winning)</div>
       <div class="src-row"><b>Editorial</b> — Jonathan Gold, LA Weekly</div>
       <div class="src-row src-gh"><a href="https://github.com/omaraltaher/la-boulevards" target="_blank" rel="noopener">Open source on GitHub →</a></div>
     </div>
@@ -882,6 +896,10 @@ path.leaflet-interactive:focus { outline:none; }
       <div id="info-coyotes">
         <div id="info-coyotes-title">Coyote Sightings</div>
         <div id="info-coyotes-list"></div>
+      </div>
+      <div id="info-tacos">
+        <div id="info-tacos-title">LA Tacos 🌮</div>
+        <div id="info-tacos-list"></div>
       </div>
       <div id="info-cameras">
         <div id="info-cameras-title">Live Traffic Cameras</div>
@@ -1667,6 +1685,24 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     sec.style.display = 'block';
   }
 
+  function populateTacoSection(blvd) {
+    const sec  = document.getElementById('info-tacos');
+    const list = document.getElementById('info-tacos-list');
+    if (!tacoData.length) { sec.style.display = 'none'; return; }
+    const items = tacoData.filter(t => t.boulevard === blvd.name);
+    if (!items.length) { sec.style.display = 'none'; return; }
+    list.innerHTML = items.map(t =>
+      `<div class="info-item">` +
+      `<div class="info-item-name" style="color:rgba(239,68,68,0.85)">${t.name}</div>` +
+      (t.taco ? `<div class="info-item-sub" style="font-style:italic">${t.taco}</div>` : '') +
+      `<div class="info-item-links">` +
+      `<a class="info-item-maplnk" href="${t.url}" target="_blank" rel="noopener">L.A. Taco →</a>` +
+      `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${t.lat},${t.lon})">→ map</a>` +
+      `</div></div>`
+    ).join('');
+    sec.style.display = 'block';
+  }
+
   function populateCameraSection(blvd) {
     const sec = document.getElementById('info-cameras');
     const list = document.getElementById('info-cameras-list');
@@ -1707,6 +1743,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const parrotCount  = parrotData.length  ? countNearBlvd(parrotData,  blvd, 0.15) : 0;
     const lionCount    = lionData.length    ? countNearBlvd(lionData,    blvd, 0.25) : 0;
     const coyoteCount  = coyoteData.length  ? countNearBlvd(coyoteData,  blvd, 0.25) : 0;
+    const tacoCount    = tacoData.length    ? tacoData.filter(t => t.boulevard === blvd.name).length : 0;
     const camCount     = camMarkerList.filter(c => c.blvdName === blvd.name).length;
     const stats = [];
     if (theatreCount) stats.push(`🎭 ${theatreCount} theatre${theatreCount !== 1 ? 's' : ''}`);
@@ -1715,6 +1752,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (parrotCount)  stats.push(`🦜 ${parrotCount} parrot${parrotCount !== 1 ? 's' : ''}`);
     if (lionCount)    stats.push(`🦁 ${lionCount} mountain lion${lionCount !== 1 ? 's' : ''}`);
     if (coyoteCount)  stats.push(`🐺 ${coyoteCount} coyote${coyoteCount !== 1 ? 's' : ''}`);
+    if (tacoCount)    stats.push(`🌮 ${tacoCount} LA Taco${tacoCount !== 1 ? 's' : ''}`);
     if (camCount)     stats.push(`📷 ${camCount} live camera${camCount !== 1 ? 's' : ''}`);
     document.getElementById('info-stats').innerHTML = stats.map(s => `<span class="info-stat">${s}</span>`).join('');
 
@@ -1757,6 +1795,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     document.getElementById('info-lions-list').innerHTML = '';
     document.getElementById('info-coyotes').style.display = 'none';
     document.getElementById('info-coyotes-list').innerHTML = '';
+    document.getElementById('info-tacos').style.display = 'none';
+    document.getElementById('info-tacos-list').innerHTML = '';
     document.getElementById('info-cameras').style.display = 'none';
     document.getElementById('info-cameras-list').innerHTML = '';
 
@@ -1808,6 +1848,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     populateParrotSection(blvd);
     populateLionSection(blvd);
     populateCoyoteSection(blvd);
+    populateTacoSection(blvd);
     populateCameraSection(blvd);
   }
 
@@ -1892,7 +1933,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoWiki.style.display = 'inline';
     photosStrip.innerHTML = '';
     photosStrip.style.display = 'none';
-    ['info-art','info-theatres','info-wells','info-parrots','info-coyotes','info-cameras'].forEach(id =>
+    ['info-art','info-theatres','info-wells','info-parrots','info-coyotes','info-tacos','info-cameras'].forEach(id =>
       document.getElementById(id).style.display = 'none');
 
     // P-22 sightings list
@@ -1963,7 +2004,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     document.getElementById('info-share').classList.remove('visible');
     document.getElementById('info-share').innerHTML = '';
     photosStrip.innerHTML = ''; photosStrip.style.display = 'none';
-    ['info-art','info-theatres','info-wells','info-parrots','info-coyotes','info-cameras','info-lions'].forEach(id =>
+    ['info-art','info-theatres','info-wells','info-parrots','info-coyotes','info-tacos','info-cameras','info-lions'].forEach(id =>
       document.getElementById(id).style.display = 'none');
 
     if (status === 'ghost') {
@@ -2337,6 +2378,48 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         .openOn(map);
     });
   });
+
+  // ── LA Tacos ──────────────────────────────────────────────────
+  let tacoData = [];
+
+  const tacoBottleSvg =
+    `<svg xmlns="http://www.w3.org/2000/svg" width="9" height="18" viewBox="0 0 9 18"
+        style="filter:drop-shadow(0 0 3px rgba(239,68,68,0.5))">
+      <rect x="3" y="0" width="3" height="2" rx="0.6" fill="#ef4444" opacity="0.9"/>
+      <path d="M3.5,2 L2.8,4.5 L1,6.5 L1,15.5 Q1,17 4.5,17 Q8,17 8,15.5 L8,6.5 L6.2,4.5 L5.5,2 Z"
+        fill="none" stroke="#ef4444" stroke-width="1.2" stroke-linejoin="round" opacity="0.9"/>
+    </svg>`;
+
+  const tacoIcon = L.divIcon({
+    className: '', html: tacoBottleSvg,
+    iconSize: [9, 18], iconAnchor: [4, 18]
+  });
+
+  (async function loadTacos() {
+    try {
+      const res = await fetch('tacos.json');
+      if (!res.ok) return;
+      const { tacos } = await res.json();
+      tacoData = tacos;
+      tacos.forEach(t => {
+        const marker = L.marker([t.lat, t.lon], { icon: tacoIcon, zIndexOffset: 150 });
+        artMarkerList.push({ marker, blvdName: t.boulevard });
+        marker.on('click', e => {
+          L.DomEvent.stopPropagation(e.originalEvent);
+          const html =
+            `<div style="padding:14px 16px;width:260px;">` +
+            `<div style="font-size:11px;color:rgba(239,68,68,0.75);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;">LA Tacos</div>` +
+            `<a href="${t.url}" target="_blank" rel="noopener" style="font-size:15px;font-weight:600;color:#f9fafb;text-decoration:none;display:block;margin-bottom:${t.taco ? '6px' : '0'};">${t.name}</a>` +
+            (t.taco ? `<div style="font-size:12px;color:#6b7280;font-style:italic;margin-bottom:${t.photo ? '8px' : '0'};">${t.taco}</div>` : '') +
+            (t.photo ? `<img src="${t.photo}" style="width:100%;height:90px;object-fit:cover;border-radius:3px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
+            `</div>`;
+          L.popup({ className: 'la-taco-popup', closeButton: true, maxWidth: 320, autoPan: true })
+            .setLatLng([t.lat, t.lon]).setContent(html).openOn(map);
+        });
+      });
+      updateOverlayMarkers(selectedBlvd);
+    } catch (e) { console.warn('Taco load failed:', e); }
+  })();
 
   // ── Sunset Famous Spots ─────────────────────────────────────────
   const sunsetStarSvg =

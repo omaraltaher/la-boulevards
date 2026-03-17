@@ -1,0 +1,325 @@
+{
+  "generated": "2026-03-17T03:50:59.728Z",
+  "tacos": [
+    {
+      "name": "Carnitas Los Gabrieles",
+      "taco": "Carnitas de costilla",
+      "address": "1235 E Olympic Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 34.0330584,
+      "lon": -118.2452213,
+      "boulevard": "Olympic Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    },
+    {
+      "name": "Sonoratown",
+      "taco": "Taco de carne asada",
+      "address": "208 E 8th St, Los Angeles, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 34.0415628,
+      "lon": -118.2521722,
+      "boulevard": "Olympic Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    },
+    {
+      "name": "La Flor de Yucatán",
+      "taco": "Cochinita pibil",
+      "address": "1800 S Hoover St, Los Angeles, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 34.041714,
+      "lon": -118.284022,
+      "boulevard": "Washington Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    },
+    {
+      "name": "Taco Nazo",
+      "taco": "Taco de camarón",
+      "address": "10326 Alondra Blvd, Bellflower, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 33.8889867,
+      "lon": -118.1146432,
+      "boulevard": "Alondra Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    },
+    {
+      "name": "Birriería El Jalisciense",
+      "taco": "Birria de chivo tatemada",
+      "address": "3442 E Olympic Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 34.0186956,
+      "lon": -118.2040834,
+      "boulevard": "Olympic Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    },
+    {
+      "name": "Komal",
+      "taco": "Taco de barbacoa",
+      "address": "3655 S Grand Ave, Los Angeles, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 34.0173544,
+      "lon": -118.2783867,
+      "boulevard": "Exposition Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    },
+    {
+      "name": "Burritos La Palma",
+      "taco": "Taco de carnitas",
+      "address": "2811 E Olympic Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 34.0233012,
+      "lon": -118.2173577,
+      "boulevard": "Olympic Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    },
+    {
+      "name": "Tacos 1986 (DTLA)",
+      "taco": "Taco de carne asada",
+      "address": "609 S Spring St, Los Angeles, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 34.0456573,
+      "lon": -118.2511151,
+      "boulevard": "Wilshire Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    },
+    {
+      "name": "Guatemalan Night Market",
+      "taco": "Tacos guatemaltecos",
+      "address": "1870 W 6th St, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-720-metro/",
+      "lat": 34.0582307,
+      "lon": -118.2721357,
+      "boulevard": "Wilshire Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+    },
+    {
+      "name": "Tacos de Canasta",
+      "taco": "Tacos de canasta",
+      "address": "2325 W 6th St, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-720-metro/",
+      "lat": 34.0606795,
+      "lon": -118.2772084,
+      "boulevard": "Wilshire Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+    },
+    {
+      "name": "Birriería Estilo Chinaloa",
+      "taco": "Birria de res",
+      "address": "3680 Wilshire Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-720-metro/",
+      "lat": 34.0614545,
+      "lon": -118.306404,
+      "boulevard": "Wilshire Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+    },
+    {
+      "name": "La Purépecha",
+      "taco": "Tacos de carnitas",
+      "address": "725 Broadway, Santa Monica, CA",
+      "url": "https://lataco.com/best-tacos-720-metro/",
+      "lat": 34.0371174,
+      "lon": -118.4664127,
+      "boulevard": "Santa Monica Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+    },
+    {
+      "name": "Jonah's Kitchen",
+      "taco": "Tacos de pollo",
+      "address": "2518 Wilshire Blvd, Santa Monica, CA",
+      "url": "https://lataco.com/best-tacos-720-metro/",
+      "lat": 34.0386615,
+      "lon": -118.4742159,
+      "boulevard": "Wilshire Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+    },
+    {
+      "name": "Otro Dia Tacos",
+      "taco": "Taco de pollo",
+      "address": "9911 S Santa Monica Blvd, Beverly Hills, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.065338,
+      "lon": -118.4122776,
+      "boulevard": "Santa Monica Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "El Cartel",
+      "taco": "Taco gobernador",
+      "address": "5515 Wilshire Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-720-metro/",
+      "lat": 34.0626321,
+      "lon": -118.3489122,
+      "boulevard": "Wilshire Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+    },
+    {
+      "name": "El Tauro Taco Truck",
+      "taco": "Taco al pastor",
+      "address": "3108 Wilshire Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-720-metro/",
+      "lat": 34.0617198,
+      "lon": -118.290062,
+      "boulevard": "Wilshire Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2023/05/Javier-Taco-guide-2023-Metro-26-of-47-e1702936638943.jpg"
+    },
+    {
+      "name": "Chuy's Tacos Dorados",
+      "taco": "Tacos dorados",
+      "address": "1335 Willow St, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-dtla/",
+      "lat": 34.0395636,
+      "lon": -118.2311923,
+      "boulevard": "Whittier Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/DitroitDTLA_ERecinos-9-of-31.jpg"
+    },
+    {
+      "name": "Corteza",
+      "taco": "Taco de suadero",
+      "address": "900 W Olympic Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-dtla/",
+      "lat": 34.0452145,
+      "lon": -118.2666588,
+      "boulevard": "Olympic Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/DitroitDTLA_ERecinos-9-of-31.jpg"
+    },
+    {
+      "name": "La Salsa Tacos de Canasta",
+      "taco": "Tacos de canasta",
+      "address": "1285 Maple Ave, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-dtla/",
+      "lat": 33.835624,
+      "lon": -118.3400794,
+      "boulevard": "Torrance Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/DitroitDTLA_ERecinos-9-of-31.jpg"
+    },
+    {
+      "name": "Guerrilla Tacos",
+      "taco": "Seasonal market taco",
+      "address": "2000 E 7th St, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-dtla/",
+      "lat": 34.0344189,
+      "lon": -118.2321198,
+      "boulevard": "Whittier Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/DitroitDTLA_ERecinos-9-of-31.jpg"
+    },
+    {
+      "name": "Mexicali Taco & Co",
+      "taco": "Taco vampiro",
+      "address": "702 N Figueroa St, Los Angeles, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 34.0635451,
+      "lon": -118.2455896,
+      "boulevard": "Sunset Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    },
+    {
+      "name": "Madre (Fairfax)",
+      "taco": "Memelita",
+      "address": "801 N Fairfax Ave, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.0865453,
+      "lon": -118.361724,
+      "boulevard": "Crescent Heights Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "Tacos 1986 (WeHo)",
+      "taco": "Taco de carne asada",
+      "address": "7235 Beverly Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.0762377,
+      "lon": -118.346933,
+      "boulevard": "Beverly Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "MXO by Wes Avila",
+      "taco": "Chef-driven seasonal taco",
+      "address": "826 N La Cienega Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.0861012,
+      "lon": -118.376263,
+      "boulevard": "North La Cienega Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "Guisados",
+      "taco": "Taco de guisado del día",
+      "address": "8935 Santa Monica Blvd, West Hollywood, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.0844187,
+      "lon": -118.3852343,
+      "boulevard": "Santa Monica Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "Escuela Taquería",
+      "taco": "Taco de birria",
+      "address": "7450 Beverly Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.0759631,
+      "lon": -118.352402,
+      "boulevard": "Beverly Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "Gracias Madre",
+      "taco": "Taco de coliflor",
+      "address": "8905 Melrose Ave, West Hollywood, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.0809551,
+      "lon": -118.386948,
+      "boulevard": "Robertson Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "Tu Madre",
+      "taco": "Taco al pastor",
+      "address": "1111 Hayworth Ave, West Hollywood, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.091002,
+      "lon": -118.3630707,
+      "boulevard": "Santa Monica Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "Zarape Cocina & Cantina",
+      "taco": "Taco de pescado",
+      "address": "8351 Santa Monica Blvd, West Hollywood, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.0905541,
+      "lon": -118.3741896,
+      "boulevard": "Santa Monica Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "Walking Spanish",
+      "taco": "Taco de carnitas",
+      "address": "7511 Santa Monica Blvd, West Hollywood, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.0908427,
+      "lon": -118.3530098,
+      "boulevard": "Santa Monica Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "El Carmen",
+      "taco": "Taco de carne asada",
+      "address": "8138 W 3rd St, Los Angeles, CA",
+      "url": "https://lataco.com/best-tacos-west-hollywood/",
+      "lat": 34.0722421,
+      "lon": -118.367332,
+      "boulevard": "Crescent Heights Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/05/Tacos-Guelaguetza.jpg"
+    },
+    {
+      "name": "Madre (National)",
+      "taco": "Tlayuda",
+      "address": "10426 National Blvd, Los Angeles, CA",
+      "url": "https://lataco.com/12-best-tacos-to-try/",
+      "lat": 34.0287037,
+      "lon": -118.4113979,
+      "boulevard": "National Boulevard",
+      "photo": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/07/MS_ElTaconazo_1525.jpg"
+    }
+  ]
+}
