@@ -41838,5 +41838,10 @@
         ]
       ]
     }
-  ]
+  ],
+  "activeImages": {
+    "Metro E Line (former Santa Monica Air Line)": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/LA_Metro_E_Line_Elevated.jpg/960px-LA_Metro_E_Line_Elevated.jpg",
+    "Metro A Line (former Long Beach Line)": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Metro_Blue_Line_-_Expo_Line_%289560427839%29.jpg/960px-Metro_Blue_Line_-_Expo_Line_%289560427839%29.jpg",
+    "West Santa Ana Branch": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Pacific_electric_rail_stanton2008-2.jpg/960px-Pacific_electric_rail_stanton2008-2.jpg"
+  }
 }

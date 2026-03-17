@@ -2002,7 +2002,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const meta = META[lineName] || { year: null, wiki: 'https://en.wikipedia.org/wiki/Pacific_Electric', desc: 'This corridor traces a former Pacific Electric right-of-way that survived into the modern era.' };
       infoName.textContent = lineName || 'Surviving PE Corridor';
       infoMeta.textContent = meta.year ? `PE right-of-way · active since ${meta.year}` : 'Former PE right-of-way · planned revival';
-      infoImg.style.display = 'none';
+      const activeImgSrc = railwayActiveImages[lineName];
+      if (activeImgSrc) {
+        infoImg.onerror = () => { infoImg.style.display = 'none'; };
+        infoImg.src = activeImgSrc;
+        infoImg.style.display = 'block';
+      } else {
+        infoImg.style.display = 'none';
+      }
       infoExtract.innerHTML =
         `${meta.desc}</p>` +
         `<p style="margin-top:10px;color:#9ca3af;font-size:15px;line-height:1.7;">` +
@@ -3197,6 +3204,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   // ── Ghost Railway ────────────────────────────────────────────────
   let railwayData = [];
   let railwayImageUrl = null;
+  let railwayActiveImages = {};
   const railwayRenderGroup = L.layerGroup().addTo(map);
   let railwayOn = true;
 
@@ -3246,6 +3254,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const json = await res.json();
       railwayData = json.routes;
       railwayImageUrl = json.imageUrl || null;
+      railwayActiveImages = json.activeImages || {};
       renderRailway();
     } catch (e) {
       console.warn('Railway load failed:', e);

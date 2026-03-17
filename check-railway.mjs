@@ -64,21 +64,35 @@ console.log(`${ghost.length} ghost segments across ${ghostNames.length} named li
 console.log(`${active.length} active segments across ${activeNames.length} named surviving corridors`);
 console.log('Active lines:', activeNames.join(', '));
 
-// Resolve Wikipedia image URL at build time so the map doesn't need a runtime API call
-let imageUrl = null;
-try {
-  console.log('Fetching PE image URL from Wikipedia…');
-  const imgRes = await fetch(
-    'https://en.wikipedia.org/w/api.php?action=query&titles=File:BigRedCar.jpg&prop=imageinfo&iiprop=url&iiurlwidth=640&format=json&origin=*'
-  );
-  if (imgRes.ok) {
-    const imgData = await imgRes.json();
-    imageUrl = Object.values(imgData.query.pages)[0]?.imageinfo?.[0]?.thumburl ?? null;
-    if (imageUrl) console.log('Image URL cached:', imageUrl);
-  }
-} catch (e) {
-  console.warn('Image fetch failed (non-fatal):', e.message);
+// Resolve Wikipedia image URLs at build time
+async function fetchWikiThumb(filename) {
+  try {
+    const res = await fetch(
+      `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(filename)}&prop=imageinfo&iiprop=url&iiurlwidth=640&format=json&origin=*`
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    return Object.values(data.query.pages)[0]?.imageinfo?.[0]?.thumburl ?? null;
+  } catch { return null; }
 }
 
-writeFileSync('railway.json', JSON.stringify({ generated: new Date().toISOString(), imageUrl, routes }, null, 2));
+console.log('Fetching image URLs from Wikipedia…');
+const [imageUrl, eLine, aLine, santaAna] = await Promise.all([
+  fetchWikiThumb('File:BigRedCar.jpg'),
+  fetchWikiThumb('File:LA_Metro_E_Line_Elevated.jpg'),
+  fetchWikiThumb('File:Metro Blue Line - Expo Line (9560427839).jpg'),
+  fetchWikiThumb('File:Pacific_electric_rail_stanton2008-2.jpg'),
+]);
+
+const activeImages = {
+  'Metro E Line (former Santa Monica Air Line)': eLine,
+  'Metro A Line (former Long Beach Line)':       aLine,
+  'West Santa Ana Branch':                       santaAna,
+};
+
+Object.entries({ 'ghost (Red Car)': imageUrl, ...activeImages }).forEach(([k, v]) =>
+  console.log(`  ${k}: ${v || 'not found'}`)
+);
+
+writeFileSync('railway.json', JSON.stringify({ generated: new Date().toISOString(), imageUrl, activeImages, routes }, null, 2));
 console.log('Written to railway.json');
