@@ -395,7 +395,7 @@ path.leaflet-interactive:focus { outline:none; }
 #info-lions-title { font-size:11px; color:rgba(245,158,11,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-coyotes-title { font-size:11px; color:rgba(160,120,56,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-tacos-title { font-size:11px; color:rgba(239,68,68,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
-#info-tacos-list { display:flex; flex-wrap:wrap; gap:8px; }
+#info-tacos-list, #info-parrots-list, #info-lions-list, #info-coyotes-list { display:flex; flex-wrap:wrap; gap:8px; }
 /* ── LA Taco popup ── */
 .la-taco-popup .leaflet-popup-content-wrapper {
   background:rgba(15,17,35,0.97) !important;
@@ -1642,19 +1642,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (!parrotData.length) { sec.style.display = 'none'; return; }
     const items = filterNearBlvd(parrotData, blvd, 0.15);
     if (!items.length) { sec.style.display = 'none'; return; }
-    const show = items.slice(0, 15);
-    list.innerHTML = show.map(p => {
-      const dateStr = p.date ? new Date(p.date).toLocaleDateString('en-US', { month:'short', year:'numeric' }) : '';
-      const sub = [p.count ? `Flock of ${p.count}` : '', dateStr].filter(Boolean).join(' · ');
-      return `<div class="info-item">` +
-        `<div class="info-item-name" style="color:rgba(34,197,94,0.85)">${p.species || 'Wild Parrot'}</div>` +
-        (sub ? `<div class="info-item-sub">${sub}</div>` : '') +
-        `<div class="info-item-links">` +
-        `<a class="info-item-maplnk" href="${p.url}" target="_blank" rel="noopener">iNaturalist →</a>` +
-        `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${p.lat},${p.lon})">→ map</a>` +
-        `</div></div>`;
+    list.innerHTML = items.slice(0, 12).map(p => {
+      const label = [p.species || 'Wild Parrot', p.date ? new Date(p.date).toLocaleDateString('en-US', { month:'short', year:'numeric' }) : ''].filter(Boolean).join(' · ');
+      return `<a class="cam-thumb-item" href="${p.url}" target="_blank" rel="noopener" style="text-decoration:none">` +
+        (p.photo ? `<img src="${p.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` : '') +
+        `<div class="cam-thumb-item-name">${label}</div></a>`;
     }).join('');
-    if (items.length > 15) list.innerHTML += `<div style="font-size:12px;color:#6b7280;padding-top:6px;">+${items.length - 15} more nearby</div>`;
+    if (items.length > 12) list.innerHTML += `<div style="font-size:12px;color:#6b7280;padding-top:6px;">+${items.length - 12} more nearby</div>`;
     sec.style.display = 'block';
   }
 
@@ -1664,18 +1658,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (!lionData.length) { sec.style.display = 'none'; return; }
     const items = filterNearBlvd(lionData, blvd, 0.25);
     if (!items.length) { sec.style.display = 'none'; return; }
-    const show = items.slice(0, 10);
-    list.innerHTML = show.map(l => {
-      const dateStr = l.date ? new Date(l.date + 'T12:00:00').toLocaleDateString('en-US', { month:'short', year:'numeric' }) : '';
-      return `<div class="info-item">` +
-        `<div class="info-item-name" style="color:rgba(245,158,11,0.85)">Mountain Lion</div>` +
-        (dateStr ? `<div class="info-item-sub">${dateStr}</div>` : '') +
-        `<div class="info-item-links">` +
-        `<a class="info-item-maplnk" href="${l.url}" target="_blank" rel="noopener">iNaturalist →</a>` +
-        `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${l.lat},${l.lon})">→ map</a>` +
-        `</div></div>`;
+    list.innerHTML = items.slice(0, 8).map(l => {
+      const label = l.date ? new Date(l.date + 'T12:00:00').toLocaleDateString('en-US', { month:'short', year:'numeric' }) : 'Mountain Lion';
+      return `<a class="cam-thumb-item" href="${l.url}" target="_blank" rel="noopener" style="text-decoration:none">` +
+        (l.photo ? `<img src="${l.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` : '') +
+        `<div class="cam-thumb-item-name">${label}</div></a>`;
     }).join('');
-    if (items.length > 10) list.innerHTML += `<div style="font-size:12px;color:#6b7280;padding-top:6px;">+${items.length - 10} more nearby</div>`;
+    if (items.length > 8) list.innerHTML += `<div style="font-size:12px;color:#6b7280;padding-top:6px;">+${items.length - 8} more nearby</div>`;
     sec.style.display = 'block';
   }
 
@@ -1685,18 +1674,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (!coyoteData.length) { sec.style.display = 'none'; return; }
     const items = filterNearBlvd(coyoteData, blvd, 0.25);
     if (!items.length) { sec.style.display = 'none'; return; }
-    const show = items.slice(0, 10);
-    list.innerHTML = show.map(c => {
-      const dateStr = c.date ? new Date(c.date + 'T12:00:00').toLocaleDateString('en-US', { month:'short', year:'numeric' }) : '';
-      return `<div class="info-item">` +
-        `<div class="info-item-name" style="color:rgba(160,120,56,0.85)">Coyote</div>` +
-        (dateStr ? `<div class="info-item-sub">${dateStr}</div>` : '') +
-        `<div class="info-item-links">` +
-        `<a class="info-item-maplnk" href="${c.url}" target="_blank" rel="noopener">iNaturalist →</a>` +
-        `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${c.lat},${c.lon})">→ map</a>` +
-        `</div></div>`;
+    list.innerHTML = items.slice(0, 8).map(c => {
+      const label = c.date ? new Date(c.date + 'T12:00:00').toLocaleDateString('en-US', { month:'short', year:'numeric' }) : 'Coyote';
+      return `<a class="cam-thumb-item" href="${c.url}" target="_blank" rel="noopener" style="text-decoration:none">` +
+        (c.photo ? `<img src="${c.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` : '') +
+        `<div class="cam-thumb-item-name">${label}</div></a>`;
     }).join('');
-    if (items.length > 10) list.innerHTML += `<div style="font-size:12px;color:#6b7280;padding-top:6px;">+${items.length - 10} more nearby</div>`;
+    if (items.length > 8) list.innerHTML += `<div style="font-size:12px;color:#6b7280;padding-top:6px;">+${items.length - 8} more nearby</div>`;
     sec.style.display = 'block';
   }
 
