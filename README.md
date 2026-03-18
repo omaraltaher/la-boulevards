@@ -26,7 +26,7 @@ An interactive map of every boulevard in Los Angeles County — the streets, the
 | The Wiltern | pulsing purple dot + crown | always |
 | Wallis Annenberg Wildlife Crossing | green arch bridge SVG | with mountain lions toggle |
 | Public art | magenta dot | when boulevard selected |
-| Theatres | purple dot | when boulevard selected |
+| Theatres | purple dot | when boulevard selected — 13 venues show upcoming Ticketmaster shows |
 | Jonathan Gold restaurants | gold dot | when Pico selected |
 | Sunset Strip landmarks | gradient star | when Sunset selected |
 | Wild parrots | green parrot SVG | toggleable |
@@ -54,6 +54,7 @@ The Wallis Annenberg Wildlife Crossing — the world's largest wildlife crossing
 |---|---|---|
 | `cameras-live.json` | Caltrans D7 CCTV | Daily 6am PT |
 | `wiltern-events.json` | Ticketmaster Discovery API | Daily 7am PT |
+| `venue-events.json` | Ticketmaster Discovery API (13 venues) | Daily 8am PT |
 | `theatres.json` | OpenStreetMap Overpass | Monthly |
 | `parrots.json` | iNaturalist / Free-Flying LA Parrot Project | Monthly |
 | `lions.json` | iNaturalist (taxon 42007) | Monthly |
@@ -128,6 +129,7 @@ Requires Node 18+.
 - Railway images: Wikimedia Commons via Wikipedia imageinfo API (pre-baked at build time)
 - Wallis Annenberg Wildlife Crossing: Wikipedia + NPS
 - Wiltern events: Ticketmaster Discovery API
+- Venue events: Ticketmaster Discovery API (Hollywood Palladium, El Rey, Henry Fonda, Avalon, The Novo, Peacock Theater, Teragram Ballroom, Alex Theatre, Kirk Douglas Theatre, Shrine Auditorium, Orpheum, Pasadena Civic Auditorium, Greek Theatre)
 - Oil wells: CalGEM (California Geologic Energy Management Division)
 - P-22 photo: NPS public domain via Wikimedia Commons
 

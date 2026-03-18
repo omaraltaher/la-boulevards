@@ -18,12 +18,13 @@
 - "Featured in films, music & more" section
 - Boulevard search
 - **Phase 1 complete:** Boulevard Love hero, collapsible legend groups (Explore/Living City/Hidden City), data sources panel, story card layer counts, share buttons (Reddit/Copy link), deep links with fitBounds, basemap switcher (Dark/Satellite), mobile bottom-sheet, Wiltern heart marker
-- **Phase 2 partial:**
+- **Phase 2 complete:**
   - ✅ Mountain Lions 🦁 — 90-day LA County sightings + P-22 all-time Griffith Park. Monthly refresh.
-  - ✅ Coyotes 🐺 — 30-day LA County research-grade sightings (iNat taxon 42051). Monthly refresh. Paw print icon.
+  - ✅ Coyotes 🐺 — 30-day LA County research-grade sightings (iNat taxon 42051). Monthly refresh.
   - ✅ Ghost Railway 🚋 — Pacific Electric ghost (dashed) + active (solid) corridors. Two independent legend toggles. Ghost panel: PE history, GM conspiracy, 99pi audio. Active panel: per-line Metro story, matched image, 99pi audio. Images pre-baked in `railway.json` (`imageUrl` + `activeImages`). Wallis Annenberg Wildlife Crossing marker (green bridge, shows with lions toggle).
   - ✅ P-22 animated journey (Phase 4.1 shipped early) — full interactive narrative experience
-- **Camera changes:** Traffic cameras now boulevard-conditional (show only when their boulevard is selected). Camera thumbnails shown in info panel at bottom. 📷 count in story card stats.
+  - ✅ Multi-venue Ticketmaster — 13 LA venues tracked in `venue-events.json` (daily). Theatre popup shows upcoming shows with images, dates, and ticket links when data exists. Venues: Hollywood Palladium, El Rey, Henry Fonda, Avalon, The Novo, Peacock Theater, Teragram Ballroom, Alex Theatre, Kirk Douglas Theatre, Shrine Auditorium, Orpheum, Pasadena Civic Auditorium, Greek Theatre.
+- **Architecture:** `makeClusterSystem(cfg)` factory replaces 4 duplicate cluster systems (parrots/coyotes/wells/lions). `_openWildlifePopup` shared panel-click handler. `_idx` pre-indexing on wildlife items. 22 DOM nodes cached at init. `isMobile()` cached with resize listener. Info panel section order: cameras → parrots → lions → coyotes → theatres → art → wells.
 
 ### What's Next
 The remaining work builds outward from what exists. Each phase adds a capability that the next phase depends on.
