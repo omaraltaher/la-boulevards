@@ -1673,16 +1673,26 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const list = secTheatresList;
     const items = theatreMarkerList.filter(({ blvdName, isWiltern }) => blvdName === blvd.name && !isWiltern);
     if (!items.length) { sec.style.display = 'none'; return; }
-    list.innerHTML = items.map(({ name, lat, lon, wikipedia, website, address }) =>
-      `<div class="info-item">` +
-      `<div class="info-item-name" style="color:rgba(168,85,247,0.85)">${name}</div>` +
-      (address ? `<div class="info-item-sub">${address}</div>` : '') +
-      `<div class="info-item-links">` +
-      (wikipedia ? `<a class="info-item-maplnk" href="${wikipedia}" target="_blank" rel="noopener">Wikipedia →</a>` : '') +
-      (website   ? `<a class="info-item-maplnk" href="${website}"   target="_blank" rel="noopener">Website →</a>`   : '') +
-      `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${lat},${lon})">→ map</a>` +
-      `</div></div>`
-    ).join('');
+    list.innerHTML = items.map(({ name, lat, lon, wikipedia, website, address }) => {
+      const events = venueEvents[name] || [];
+      const evHtml = events.slice(0, 3).map(ev => {
+        const d = new Date(ev.date + 'T12:00:00');
+        const label = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        return `<div class="info-item-sub" style="margin-top:3px;">` +
+          `<span style="color:#6b7280;min-width:50px;display:inline-block">${label}</span>` +
+          `<a class="info-item-maplnk" href="${ev.url}" target="_blank" rel="noopener" style="font-style:normal">${ev.name}</a>` +
+          `</div>`;
+      }).join('');
+      return `<div class="info-item">` +
+        `<div class="info-item-name" style="color:rgba(168,85,247,0.85)">${name}</div>` +
+        (address ? `<div class="info-item-sub">${address}</div>` : '') +
+        evHtml +
+        `<div class="info-item-links">` +
+        (wikipedia ? `<a class="info-item-maplnk" href="${wikipedia}" target="_blank" rel="noopener">Wikipedia →</a>` : '') +
+        (website   ? `<a class="info-item-maplnk" href="${website}"   target="_blank" rel="noopener">Website →</a>`   : '') +
+        `<a class="info-item-maplnk" href="#" onclick="event.preventDefault();_flyTo(${lat},${lon})">→ map</a>` +
+        `</div></div>`;
+    }).join('');
     sec.style.display = 'block';
   }
 
