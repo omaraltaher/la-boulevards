@@ -1,13 +1,6 @@
 {
-  "generated": "2026-03-17T16:04:49.277Z",
+  "generated": "2026-03-18T16:06:58.784Z",
   "events": [
-    {
-      "name": "Lauren Spencer Smith: THE ART OF BEING A MESS TOUR",
-      "date": "2026-03-17",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/lauren-spencer-smith-the-art-of-los-angeles-california-03-17-2026/event/090062C4D43131AD",
-      "image": "https://s1.ticketm.net/dam/a/1fd/6ec58e06-e186-4a20-bd31-444ff7c541fd_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Josh Johnson: LIVE TAPING",
       "date": "2026-03-20",
@@ -56,6 +49,13 @@
       "time": "18:00:00",
       "url": "https://www.ticketmaster.com/microwave-much-love-10-year-anniversary-los-angeles-california-03-29-2026/event/09006382D64CA8B9",
       "image": "https://s1.ticketm.net/dam/a/344/bb49816d-0760-4ea6-8181-b9fb2a55d344_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Ricky Montgomery's Montgomery Ricky 10 Year Anniversary Tour",
+      "date": "2026-04-01",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/ricky-montgomerys-montgomery-ricky-10-year-los-angeles-california-04-01-2026/event/09006425F96BAA1E",
+      "image": "https://s1.ticketm.net/dam/a/9ce/d4a126d1-91f2-4dc8-8617-7b0b20d2d9ce_RECOMENDATION_16_9.jpg"
     }
   ]
 }
