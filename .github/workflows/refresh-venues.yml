@@ -25,6 +25,7 @@ jobs:
         run: node check-venues.mjs
         env:
           TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
 
       - name: Commit updated venue-events.json
         run: |

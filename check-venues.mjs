@@ -10,6 +10,9 @@ import { writeFileSync } from 'fs';
 const key = process.env.TICKETMASTER_KEY;
 if (!key) { console.error('Missing TICKETMASTER_KEY env var'); process.exit(1); }
 
+const ebToken = process.env.EVENTBRITE_TOKEN || null;
+if (!ebToken) console.warn('No EVENTBRITE_TOKEN — skipping Eventbrite fallback');
+
 const VENUES = [
   // — original 13 ——————————————————————————————————————————————
   { id: 'KovZpZAEAlaA',  name: 'Hollywood Palladium' },
@@ -101,6 +104,48 @@ for (let i = 0; i < VENUES.length; i++) {
   // Wait 300ms between fetches to avoid rate limiting (skip after last)
   if (i < VENUES.length - 1) {
     await sleep(300);
+  }
+}
+
+// ── Eventbrite fallback for venues that got 0 events from Ticketmaster ──────
+if (ebToken) {
+  const empty = VENUES.filter(v => venues[v.name].length === 0);
+  if (empty.length) {
+    console.log(`\nEventbrite pass for ${empty.length} venues with no TM events…`);
+    for (const venue of empty) {
+      await sleep(500);
+      try {
+        const url = `https://www.eventbriteapi.com/v3/events/search/` +
+          `?q=${encodeURIComponent(venue.name)}&location.address=${encodeURIComponent('Los Angeles, CA')}` +
+          `&location.within=5mi&sort_by=date&expand=venue&status=live`;
+        const res = await fetch(url, { headers: { Authorization: `Bearer ${ebToken}` } });
+        if (!res.ok) { console.warn(`  EB error for ${venue.name}: ${res.status}`); continue; }
+        const data = await res.json();
+        const events = (data.events || [])
+          .filter(ev => {
+            const vname = ev.venue?.name?.toLowerCase() || '';
+            const query = venue.name.toLowerCase().replace(/^the /, '');
+            return vname.includes(query) || query.split(' ').filter(w => w.length > 3).every(w => vname.includes(w));
+          })
+          .slice(0, 8)
+          .map(ev => ({
+            name: ev.name?.text || ev.name,
+            date: ev.start?.local?.slice(0, 10) || null,
+            time: ev.start?.local?.slice(11, 16) || null,
+            url:  ev.url,
+            image: ev.logo?.url || null,
+          }));
+        if (events.length) {
+          venues[venue.name] = events;
+          totalEvents += events.length;
+          console.log(`  ✓ ${events.length} events found for ${venue.name} (Eventbrite)`);
+        } else {
+          console.log(`  — no events: ${venue.name}`);
+        }
+      } catch (e) {
+        console.warn(`  EB fetch failed for ${venue.name}:`, e.message);
+      }
+    }
   }
 }
 

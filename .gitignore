@@ -8,6 +8,9 @@ future-features.md
 fetch-boulevards.py
 merge-boulevards.py
 
+# Secrets
+.env
+
 # macOS / editor
 .DS_Store
 .vscode/
