@@ -26,7 +26,7 @@ An interactive map of every boulevard in Los Angeles County — the streets, the
 | The Wiltern | pulsing purple dot + crown | always |
 | Wallis Annenberg Wildlife Crossing | green arch bridge SVG | with mountain lions toggle |
 | Public art | magenta dot | when boulevard selected |
-| Theatres | purple dot | when boulevard selected — 13 venues show upcoming Ticketmaster shows |
+| Theatres | purple dot | when boulevard selected — 36 venues show upcoming shows (Ticketmaster + Eventbrite) |
 | Jonathan Gold restaurants | gold dot | when Pico selected |
 | Sunset Strip landmarks | gradient star | when Sunset selected |
 | Wild parrots | green parrot SVG | toggleable |
@@ -48,44 +48,36 @@ The Wallis Annenberg Wildlife Crossing — the world's largest wildlife crossing
 
 ---
 
-## Data refresh schedule
+## GitHub Actions
 
-| File | Source | Updated |
+All data is pre-baked at build time and refreshed on a schedule. Every workflow supports `workflow_dispatch` for manual triggering. Actions commit updated JSON with `[skip ci]`.
+
+| Workflow | Updates | Schedule | Secrets |
+|---|---|---|---|
+| `refresh-cameras.yml` | `cameras-live.json` | Daily 6am PT | — |
+| `refresh-wiltern.yml` | `wiltern-events.json` | Daily 7am PT | `TICKETMASTER_KEY` |
+| `refresh-venues.yml` | `venue-events.json` | Daily 8am PT | `TICKETMASTER_KEY`, `EVENTBRITE_TOKEN` |
+| `refresh-lions.yml` | `lions.json` | Monthly 1st, 1am PT | — |
+| `refresh-coyotes.yml` | `coyotes.json` | Monthly 1st, 2am PT | — |
+| `refresh-theatres.yml` | `theatres.json` | Monthly 1st, 8am PT | — |
+| `refresh-parrots.yml` | `parrots.json` | Monthly 1st, 9am PT | — |
+| `refresh-art.yml` | `art.json` | Monthly 1st, 10am PT | — |
+| `refresh-wells.yml` | `wells.json` | Monthly 1st, 11am PT | — |
+| `refresh-railway.yml` | `railway.json` | Yearly Jan 1, 11am UTC | — |
+| `refresh-faults.yml` | `faults.json` | Yearly Jan 1, 9am UTC | — |
+| `refresh-tacos.yml` | `tacos.json` | Yearly Jan 1, 8am UTC | — |
+
+### Manual-only data
+
+| File | Source | How to regenerate |
 |---|---|---|
-| `cameras-live.json` | Caltrans D7 CCTV | Daily 6am PT |
-| `wiltern-events.json` | Ticketmaster Discovery API | Daily 7am PT |
-| `venue-events.json` | Ticketmaster Discovery API (13 venues) | Daily 8am PT |
-| `theatres.json` | OpenStreetMap Overpass | Monthly |
-| `parrots.json` | iNaturalist / Free-Flying LA Parrot Project | Monthly |
-| `lions.json` | iNaturalist (taxon 42007) | Monthly |
-| `coyotes.json` | iNaturalist (taxon 42051) | Monthly |
-| `railway.json` | OpenStreetMap Overpass + Wikipedia image API | Yearly (Jan 1) |
-| `art.json` | LA City Open Data | Monthly |
-| `wells.json` | CalGEM ArcGIS REST API | Manual |
-| `boulevards.json` | OpenStreetMap Overpass | Manual |
-
-GitHub Actions commit updated files with `[skip ci]`.
+| `boulevards.json` | OpenStreetMap Overpass | `node fetch-boulevards.mjs && node merge-segments.mjs` |
+| `wells.json` | CalGEM ArcGIS REST API | `node check-wells.mjs` |
+| `ruscha.json` | Getty Arches API | `node check-ruscha.mjs` (~5 min) |
 
 ---
 
-## Regenerate data
-
-```bash
-# Boulevard geometry
-node fetch-boulevards.mjs    # fetch from Overpass (~30s)
-node merge-segments.mjs      # merge fragmented OSM segments
-```
-
-`fetch-boulevards.mjs` groups directional OSM variants together ("West X Boulevard" + "East X Boulevard" → "X Boulevard") and deduplicates parallel `oneway=yes` carriageways within each group by 40m midpoint proximity, so divided roads aren't double-counted. The 8 most prominent boulevards (Sunset, Pico, Wilshire, Olympic, Venice, Sepulveda, Santa Monica, Ventura) have their lengths overridden in `index.html` with Wikipedia values; all others use the corrected OSM estimate.
-
-```bash
-
-# Ruscha photo locations (~5 min, samples Getty Arches API)
-node check-ruscha.mjs
-
-# Mountain lion sightings
-node check-lions.mjs
-```
+`fetch-boulevards.mjs` groups directional OSM variants ("West X Boulevard" + "East X Boulevard" → "X Boulevard") and deduplicates parallel `oneway=yes` carriageways within each group by 40m midpoint proximity. The 8 most prominent boulevards have their lengths overridden in `index.html` with Wikipedia values; all others use the corrected OSM estimate.
 
 Requires Node 18+.
 
@@ -129,7 +121,7 @@ Requires Node 18+.
 - Railway images: Wikimedia Commons via Wikipedia imageinfo API (pre-baked at build time)
 - Wallis Annenberg Wildlife Crossing: Wikipedia + NPS
 - Wiltern events: Ticketmaster Discovery API
-- Venue events: Ticketmaster Discovery API (Hollywood Palladium, El Rey, Henry Fonda, Avalon, The Novo, Peacock Theater, Teragram Ballroom, Alex Theatre, Kirk Douglas Theatre, Shrine Auditorium, Orpheum, Pasadena Civic Auditorium, Greek Theatre)
+- Venue events: Ticketmaster Discovery API + Eventbrite API (36 venues — see `check-venues.mjs` for full list)
 - Oil wells: CalGEM (California Geologic Energy Management Division)
 - P-22 photo: NPS public domain via Wikimedia Commons
 
