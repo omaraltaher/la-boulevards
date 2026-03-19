@@ -107,44 +107,46 @@ for (let i = 0; i < VENUES.length; i++) {
   }
 }
 
-// ── Eventbrite fallback for venues that got 0 events from Ticketmaster ──────
+// ── Eventbrite fallback (venue_id / org_id — search API was deprecated 2020) ─
+// IDs sourced manually from eventbrite.com venue/organizer pages.
+const EB_VENUES = [
+  { name: 'El Rey Theatre',                         type: 'venue', id: '295552078' },
+  { name: 'Kirk Douglas Theatre',                   type: 'venue', id: '240699653' },
+  { name: 'Pasadena Civic Auditorium',              type: 'venue', id: '62750627'  },
+  { name: 'Ambassador Auditorium',                  type: 'venue', id: '209847889' },
+  { name: 'Downey Civic Theatre',                   type: 'venue', id: '285106603' },
+  { name: 'Haugh Performing Arts Center',           type: 'venue', id: '294859443' },
+  { name: 'The Comedy Store',                       type: 'venue', id: '250415463' },
+  { name: 'Barnsdall Gallery Theatre',              type: 'venue', id: '160868339' },
+  { name: 'Levitt Pavilion',                        type: 'org',   id: '29531385721' },
+  { name: 'Bob Baker Marionette Theater',           type: 'org',   id: '31080469933' },
+  // Beverly O'Neill, Bootleg, Ivar, Groundlings — not on Eventbrite
+];
+
 if (ebToken) {
-  const empty = VENUES.filter(v => venues[v.name].length === 0);
-  if (empty.length) {
-    console.log(`\nEventbrite pass for ${empty.length} venues with no TM events…`);
-    for (const venue of empty) {
-      await sleep(500);
-      try {
-        const url = `https://www.eventbriteapi.com/v3/events/search/` +
-          `?q=${encodeURIComponent(venue.name)}&location.address=${encodeURIComponent('Los Angeles, CA')}` +
-          `&location.within=5mi&sort_by=date&expand=venue&status=live`;
-        const res = await fetch(url, { headers: { Authorization: `Bearer ${ebToken}` } });
-        if (!res.ok) { console.warn(`  EB error for ${venue.name}: ${res.status}`); continue; }
-        const data = await res.json();
-        const events = (data.events || [])
-          .filter(ev => {
-            const vname = ev.venue?.name?.toLowerCase() || '';
-            const query = venue.name.toLowerCase().replace(/^the /, '');
-            return vname.includes(query) || query.split(' ').filter(w => w.length > 3).every(w => vname.includes(w));
-          })
-          .slice(0, 8)
-          .map(ev => ({
-            name: ev.name?.text || ev.name,
-            date: ev.start?.local?.slice(0, 10) || null,
-            time: ev.start?.local?.slice(11, 16) || null,
-            url:  ev.url,
-            image: ev.logo?.url || null,
-          }));
-        if (events.length) {
-          venues[venue.name] = events;
-          totalEvents += events.length;
-          console.log(`  ✓ ${events.length} events found for ${venue.name} (Eventbrite)`);
-        } else {
-          console.log(`  — no events: ${venue.name}`);
-        }
-      } catch (e) {
-        console.warn(`  EB fetch failed for ${venue.name}:`, e.message);
-      }
+  console.log(`\nEventbrite pass for ${EB_VENUES.length} venues…`);
+  for (const venue of EB_VENUES) {
+    await sleep(500);
+    try {
+      const base = venue.type === 'org'
+        ? `https://www.eventbriteapi.com/v3/organizations/${venue.id}/events/`
+        : `https://www.eventbriteapi.com/v3/venues/${venue.id}/events/`;
+      const url = `${base}?status=live&order_by=start_asc&expand=venue`;
+      const res = await fetch(url, { headers: { Authorization: `Bearer ${ebToken}` } });
+      if (!res.ok) { console.warn(`  EB error for ${venue.name}: ${res.status}`); continue; }
+      const data = await res.json();
+      const events = (data.events || []).slice(0, 8).map(ev => ({
+        name:  ev.name?.text || ev.name,
+        date:  ev.start?.local?.slice(0, 10) || null,
+        time:  ev.start?.local?.slice(11, 16) || null,
+        url:   ev.url,
+        image: ev.logo?.url || null,
+      }));
+      venues[venue.name] = events;
+      totalEvents += events.length;
+      console.log(`  ${events.length ? `✓ ${events.length} events` : '— no events'}: ${venue.name}`);
+    } catch (e) {
+      console.warn(`  EB fetch failed for ${venue.name}:`, e.message);
     }
   }
 }
