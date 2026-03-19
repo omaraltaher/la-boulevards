@@ -1671,7 +1671,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function populateTheatreSection(blvd) {
     const sec = secTheatres;
     const list = secTheatresList;
-    const items = theatreMarkerList.filter(({ blvdName, isWiltern }) => blvdName === blvd.name && !isWiltern);
+    const isWilternBlvd = blvd.name === 'Wilshire Boulevard' || blvd.name === 'Western Avenue';
+    const items = theatreMarkerList.filter(({ blvdName, isWiltern }) => isWiltern ? isWilternBlvd : blvdName === blvd.name);
     if (!items.length) { sec.style.display = 'none'; return; }
     list.innerHTML = items.map(({ name, lat, lon, wikipedia, website, address }) => {
       const events = venueEvents[name] || [];
@@ -1794,7 +1795,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
     // Layer counts
     const artCount     = artMarkerList.filter(({ blvdName }) => blvdName === blvd.name).length;
-    const theatreCount = theatreMarkerList.filter(({ blvdName, isWiltern }) => !isWiltern && blvdName === blvd.name).length;
+    const _isWilternBlvd = blvd.name === 'Wilshire Boulevard' || blvd.name === 'Western Avenue';
+    const theatreCount = theatreMarkerList.filter(({ blvdName, isWiltern }) => isWiltern ? _isWilternBlvd : blvdName === blvd.name).length;
     const nearWells    = wellData.length    ? filterNearBlvd(wellData,    blvd, 0.15) : [];
     const nearParrots  = parrotData.length  ? filterNearBlvd(parrotData,  blvd, 0.15) : [];
     const nearLions    = lionData.length    ? filterNearBlvd(lionData,    blvd, 0.25) : [];
@@ -3270,10 +3272,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let venueEvents = {};
   (async function loadVenueEvents() {
     try {
-      const res = await fetch('venue-events.json');
-      if (!res.ok) return;
-      const { venues } = await res.json();
-      venueEvents = venues || {};
+      const [venueRes, wilternRes] = await Promise.all([fetch('venue-events.json'), fetch('wiltern-events.json')]);
+      if (venueRes.ok) { const { venues } = await venueRes.json(); venueEvents = venues || {}; }
+      if (wilternRes.ok) { const { events } = await wilternRes.json(); if (events?.length) venueEvents['The Wiltern'] = events; }
     } catch(e) { console.warn('Venue events load failed:', e); }
   })();
 
