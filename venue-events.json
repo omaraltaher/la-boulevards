@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-18T16:54:37.868Z",
+  "generated": "2026-03-19T00:30:49.527Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -124,7 +124,7 @@
         "date": "2026-03-20",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/darren-styles-avalon-hollywood-tickets/14089994",
-        "image": "https://i.ticketweb.com/i/00/12/81/63/44_Edp.jpg?v=10"
+        "image": "https://i.ticketweb.com/i/00/12/81/63/44_Edp.jpg?v=11"
       },
       {
         "name": "Paul van Dyk (Open to Close)",
@@ -316,13 +316,6 @@
       },
       {
         "name": "Scary Pockets with support from Scary Goldings",
-        "date": "2026-03-27",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/scary-pockets-with-support-from-scary-los-angeles-california-03-27-2026/event/0900642896B26FC1",
-        "image": "https://s1.ticketm.net/dam/e/1a8/f1e6f2b8-3497-4feb-9ba5-e1f7dc4281a8_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Scary Pockets with support from Scary Goldings",
         "date": "2026-03-28",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/scary-pockets-with-support-from-scary-los-angeles-california-03-28-2026/event/0900642899D17529",
@@ -348,6 +341,13 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/thursday-presents-full-city-devolucion-w-los-angeles-california-04-10-2026/event/0900642ECEF1FD75",
         "image": "https://s1.ticketm.net/dam/e/cc0/80ff0373-5045-480f-b0d9-454619796cc0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Rocketship with Tony Molina",
+        "date": "2026-04-11",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/rocketship-with-tony-molina-los-angeles-california-04-11-2026/event/09006391AEA58461",
+        "image": "https://s1.ticketm.net/dam/e/ca5/a311b5c6-eb16-47cf-92a4-583a57e8bca5_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -523,6 +523,544 @@
         "time": "20:00:00",
         "image": null
       }
-    ]
+    ],
+    "Dolby Theatre": [
+      {
+        "name": "iHeartRadio Music Awards 2026",
+        "date": "2026-03-26",
+        "time": "17:00:00",
+        "url": "https://www.ticketmaster.com/iheartradio-music-awards-2026-hollywood-california-03-26-2026/event/0900642D8F51671F",
+        "image": "https://s1.ticketm.net/dam/a/3f1/3cebd792-4b97-4292-abb9-e0145d80a3f1_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PaleyFest LA: Pluribus",
+        "date": "2026-04-04",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/paleyfest-la-pluribus-hollywood-california-04-04-2026/event/09006431CE4CF1DC",
+        "image": "https://s1.ticketm.net/dam/e/7cd/547034b5-1b4b-4443-8856-f1313d66a7cd_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PaleyFest LA: Charlie's Angels: 50th Anniversary Celebration",
+        "date": "2026-04-06",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/paleyfest-la-charlies-angels-50th-anniversary-hollywood-california-04-06-2026/event/09006431CE52F1E6",
+        "image": "https://s1.ticketm.net/dam/e/151/54eacefa-b74a-4fbd-ac70-11de28434151_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PaleyFest LA: Shrinking",
+        "date": "2026-04-07",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/paleyfest-la-shrinking-hollywood-california-04-07-2026/event/09006431CE57F1F1",
+        "image": "https://s1.ticketm.net/dam/e/8b1/6f7fadd8-4c31-4316-a169-9674b1be58b1_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PaleyFest LA: Nobody Wants This",
+        "date": "2026-04-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/paleyfest-la-nobody-wants-this-hollywood-california-04-08-2026/event/09006431CE5CF1FC",
+        "image": "https://s1.ticketm.net/dam/e/717/d56e8da2-3fa6-4d20-b2d1-28a2f1d3b717_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PaleyFest LA: Emily in Paris",
+        "date": "2026-04-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/paleyfest-la-emily-in-paris-hollywood-california-04-10-2026/event/09006431CE61F209",
+        "image": "https://s1.ticketm.net/dam/e/8d7/b0b791f0-3b0c-425c-87cc-7ec8b5e708d7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PaleyFest LA: Scrubs",
+        "date": "2026-04-11",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/paleyfest-la-scrubs-hollywood-california-04-11-2026/event/09006431CE6BF21D",
+        "image": "https://s1.ticketm.net/dam/e/d5e/0c45a593-1593-4cf2-beff-e8512d935d5e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PaleyFest LA: Your Friends & Neighbors",
+        "date": "2026-04-11",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/paleyfest-la-your-friends-neighbors-hollywood-california-04-11-2026/event/09006431CE66F214",
+        "image": "https://s1.ticketm.net/dam/e/90c/f3b0497e-0973-40b9-bcaa-3c6eb7c4790c_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Geffen Playhouse": [
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-18",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Oxe_",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-19",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7Z",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-20",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7v",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-21",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7e",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7d",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-22",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox77",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7A",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-26",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7k",
+        "image": null
+      }
+    ],
+    "Pasadena Playhouse": [],
+    "Ricardo Montalban Theatre": [
+      {
+        "name": "A Conversation with Brandy: PHASES Book Tour",
+        "date": "2026-03-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/a-conversation-with-brandy-phases-book-hollywood-california-03-29-2026/event/0B00644286701BF0",
+        "image": "https://s1.ticketm.net/dam/a/8cf/348a6995-35c8-430c-a069-cd931bf6b8cf_381401_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Comedy Gives Back Presents: Alt Comedy All-Stars 2026",
+        "date": "2026-04-22",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/comedy-gives-back-presents-alt-comedy-hollywood-california-04-22-2026/event/0B006465B7FF438C",
+        "image": "https://s1.ticketm.net/dam/e/6fd/e8902a8d-15ce-4bfa-9f91-bd7453d426fd_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: This Better Be Funny with David Letterman",
+        "date": "2026-05-05",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-this-hollywood-california-05-05-2026/event/0B00642FBC163C98",
+        "image": "https://s1.ticketm.net/dam/a/4ee/36b49a74-167c-4c60-b5e9-c8738f7ec4ee_1308421_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: This Better Be Funny with David Letterman",
+        "date": "2026-05-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-this-hollywood-california-05-07-2026/event/0B00642FBC123C96",
+        "image": "https://s1.ticketm.net/dam/a/4ee/36b49a74-167c-4c60-b5e9-c8738f7ec4ee_1308421_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is a Joke Presents: Stamptown - Live Taping 18+",
+        "date": "2026-05-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-stamptown-hollywood-california-05-08-2026/event/0B00642FF0CC4B31",
+        "image": "https://s1.ticketm.net/dam/a/2d8/ee3057d0-b1fc-4e78-b122-baf724b3a2d8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is a Joke Presents: Stamptown - Live Taping 18+",
+        "date": "2026-05-09",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-stamptown-hollywood-california-05-09-2026/event/0B00642FF0D04B33",
+        "image": "https://s1.ticketm.net/dam/a/2d8/ee3057d0-b1fc-4e78-b122-baf724b3a2d8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is a Joke Presents: Stamptown - Live Taping 18+",
+        "date": "2026-05-09",
+        "time": "21:45:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-stamptown-hollywood-california-05-09-2026/event/0B00642FF0D84B36",
+        "image": "https://s1.ticketm.net/dam/a/2d8/ee3057d0-b1fc-4e78-b122-baf724b3a2d8_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Ambassador Auditorium": [],
+    "Wilshire Ebell Theater and Club": [
+      {
+        "name": "Bryce Crawford",
+        "date": "2026-03-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qpGb",
+        "image": null
+      },
+      {
+        "name": "On Cinema - The Certified \"Five Bags of Popcorn\" Tour",
+        "date": "2026-04-17",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/on-cinema-the-certified-five-bags-los-angeles-california-04-17-2026/event/090063371E536425",
+        "image": "https://s1.ticketm.net/dam/a/7dc/3e949a8c-f6ef-46f8-8fb5-74b687de47dc_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: The Princess Bride with Cary Elwes",
+        "date": "2026-05-04",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-the-los-angeles-california-05-04-2026/event/0900642DBA8AA97E",
+        "image": "https://s1.ticketm.net/dam/a/e8e/9e42c94b-3f92-4d1b-b16f-fc5089f22e8e_1654151_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Tom Papa Live",
+        "date": "2026-05-05",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-tom-los-angeles-california-05-05-2026/event/09006430FA6477E0",
+        "image": "https://s1.ticketm.net/dam/a/298/e1da6737-7aa4-424d-8fb6-24c0700c8298_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: MIKE BIRBIGLIA WORKING IT OUT WITH FRIENDS",
+        "date": "2026-05-06",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-mike-los-angeles-california-05-06-2026/event/09006432241A389F",
+        "image": "https://s1.ticketm.net/dam/a/8b4/065b89d0-ae30-41cd-ac90-ff36db72f8b4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Matt Mathews: Boujee On A Budget",
+        "date": "2026-05-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-matt-los-angeles-california-05-07-2026/event/09006390A75D83A0",
+        "image": "https://s1.ticketm.net/dam/a/9ae/2583bc8f-6f06-4229-9e5a-4cc2fb2da9ae_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Justin Willman - One For The Ages Tour",
+        "date": "2026-05-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-justin-los-angeles-california-05-08-2026/event/09006391F201B19A",
+        "image": "https://s1.ticketm.net/dam/a/945/b02be5ca-1cb7-46d4-baf0-68d2f390c945_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Justin Willman - One For The Ages Tour",
+        "date": "2026-05-09",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-justin-los-angeles-california-05-09-2026/event/09006458ABC93908",
+        "image": "https://s1.ticketm.net/dam/a/945/b02be5ca-1cb7-46d4-baf0-68d2f390c945_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "La Mirada Theatre For The Performing Arts": [
+      {
+        "name": "Neil Berg's 50 Years Of Rock and Roll",
+        "date": "2026-03-21",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q6CZ",
+        "image": null
+      },
+      {
+        "name": "Neil Berg's 50 Years Of Rock and Roll",
+        "date": "2026-03-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q6Cv",
+        "image": null
+      },
+      {
+        "name": "The Stinky Cheese Man & Other Fairly Stoopid Tales",
+        "date": "2026-03-29",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q6J9",
+        "image": null
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-11",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jY",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-11",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3js",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-12",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jw",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-16",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jS",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-17",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jV",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Downey Civic Theatre": [],
+    "Redondo Beach Performing Arts Center": [
+      {
+        "name": "Tyler Henry - Hollywood Medium",
+        "date": "2026-09-13",
+        "time": "16:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qo43",
+        "image": "https://s1.ticketm.net/dam/a/364/7c426d37-0180-4cd4-93a2-40f29cd34364_1437551_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Haugh Performing Arts Center": [],
+    "Eli Broad Stage": [
+      {
+        "name": "Santa Monica International Jazz Festival: A Tribute to John Coltrane",
+        "date": "2026-05-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/santa-monica-international-jazz-festival-a-santa-monica-california-05-08-2026/event/0900644D9932B876",
+        "image": "https://s1.ticketm.net/dam/a/8e6/224d4207-3cec-471a-9a9d-0834897868e6_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Beverly O'Neill Theater": [],
+    "Levitt Pavilion": [],
+    "Bootleg Theater": [],
+    "Coronet Theater": [
+      {
+        "name": "Maria Bamford w/ Netflix Is A Joke: The Festival",
+        "date": "2026-05-07",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O006",
+        "image": "https://s1.ticketm.net/dam/a/1bb/27e1dbf1-1e21-42f3-b3c3-0ff8dddcd1bb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Maria Bamford",
+        "date": "2026-05-07",
+        "time": "20:00:00",
+        "url": "https://tinyurl.com/ybhbpded",
+        "image": "https://s1.ticketm.net/dam/a/1bb/27e1dbf1-1e21-42f3-b3c3-0ff8dddcd1bb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Robby Hoffman w/ Netflix Is A Joke: The Festival",
+        "date": "2026-05-08",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O007",
+        "image": null
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Robby Hoffman",
+        "date": "2026-05-08",
+        "time": "20:00:00",
+        "url": "https://tinyurl.com/ymkxyvje",
+        "image": "https://s1.ticketm.net/dam/a/b8a/3a3787fb-d4e9-4782-8989-3fafc0622b8a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Robby Hoffman (LATE SHOW)",
+        "date": "2026-05-08",
+        "time": "22:30:00",
+        "url": "https://wl.eventim.us/event/netflix-is-a-joke-presents-robby-hoffman-late-show/682817?afflky=LargoAtTheCoronet",
+        "image": "https://s1.ticketm.net/dam/a/b8a/3a3787fb-d4e9-4782-8989-3fafc0622b8a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Jeff Hiller w/ Netflix Is A Joke: The Festival",
+        "date": "2026-05-09",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O0xo",
+        "image": null
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Jeff Hiller",
+        "date": "2026-05-09",
+        "time": "20:00:00",
+        "url": "https://tinyurl.com/bdzk9hfz",
+        "image": "https://s1.ticketm.net/dam/a/5e2/407ba10c-232b-4029-a274-3654dc44c5e2_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Ivar Theatre": [],
+    "Dynasty Typewriter At The Hayworth": [
+      {
+        "name": "Netflix Is A Joke Presents: Chaos!",
+        "date": "2026-05-04",
+        "time": "19:00:00",
+        "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-chaos",
+        "image": "https://s1.ticketm.net/dam/a/965/a64d33fc-1eaa-4a71-9ed9-76cdd5b2c965_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Mike Ward",
+        "date": "2026-05-04",
+        "time": "21:30:00",
+        "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-mike-ward",
+        "image": "https://s1.ticketm.net/dam/a/743/5bf26c12-5944-40f9-88c8-32c2de110743_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Nicole Byer (18+ Event)",
+        "date": "2026-05-05",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O0-Y",
+        "image": "https://s1.ticketm.net/dam/a/7b7/c1e10f3a-a215-4e13-8d25-555bf29bd7b7_1644311_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Nicole Byer",
+        "date": "2026-05-05",
+        "time": "19:00:00",
+        "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-nicole-byer",
+        "image": "https://s1.ticketm.net/dam/a/7b7/c1e10f3a-a215-4e13-8d25-555bf29bd7b7_1644311_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: EDI PATTERSON: PLAYGIRL",
+        "date": "2026-05-05",
+        "time": "21:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OEp8",
+        "image": "https://s1.ticketm.net/dam/a/49e/bd148b14-1fe0-41a2-b804-d41d698d549e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: EDI PATTERSON: PLAYGIRL",
+        "date": "2026-05-05",
+        "time": "21:30:00",
+        "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-edi-patterson-playgirl",
+        "image": "https://s1.ticketm.net/dam/a/49e/bd148b14-1fe0-41a2-b804-d41d698d549e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Lucas Zelnick - Crowdwork Only Show (16+ Event)",
+        "date": "2026-05-06",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O0-S",
+        "image": null
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Lucas Zelnick - Crowdwork Only Show",
+        "date": "2026-05-06",
+        "time": "19:00:00",
+        "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-lucas-zelnick---crowdwork-only-show",
+        "image": "https://s1.ticketm.net/dam/a/121/d159fec3-07af-41d8-94fd-1d1e884be121_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Bob Baker Marionette Theater": [],
+    "Miracle Theater": [
+      {
+        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
+        "date": "2026-03-18",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-03-18-2026/event/0B006450C26E3D11",
+        "image": "https://s1.ticketm.net/dam/e/20d/12eefb21-a478-4121-9f0a-46ba4023620d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "\"Me Against The World\" Musical Poetry Show",
+        "date": "2026-03-21",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/me-against-the-world-musical-poetry-inglewood-california-03-21-2026/event/0B00643AC27A417A",
+        "image": "https://s1.ticketm.net/dam/e/7be/1b7d5615-4706-444c-b98e-a0879b7d07be_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Pynk Beard",
+        "date": "2026-03-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/pynk-beard-inglewood-california-03-22-2026/event/0B00646E969B2E35",
+        "image": "https://s1.ticketm.net/dam/e/833/6a8152dd-c649-4f20-a139-bec89f00b833_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Cory Henry Presents: The Church Experience",
+        "date": "2026-03-29",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/cory-henry-presents-the-church-experience-inglewood-california-03-29-2026/event/0B006453ABF15A8A",
+        "image": "https://s1.ticketm.net/dam/a/a1f/21111ac8-9609-4d6e-bd4f-775267c9fa1f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Cult Classics Cinema Presents Brown Sugar",
+        "date": "2026-04-04",
+        "time": "17:00:00",
+        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-brown-sugar-inglewood-california-04-04-2026/event/0B00646EA05C38B9",
+        "image": "https://s1.ticketm.net/dam/e/3ac/bbe0878f-0f17-4d62-bb28-5f91d1bf53ac_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LOVE ON RETREAT",
+        "date": "2026-04-11",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/love-on-retreat-inglewood-california-04-11-2026/event/0B00645AD5B0599A",
+        "image": "https://s1.ticketm.net/dam/e/367/b00f2e84-4c88-4320-9ac8-aafa91c16367_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LOVE ON RETREAT",
+        "date": "2026-04-12",
+        "time": "16:00:00",
+        "url": "https://www.ticketmaster.com/love-on-retreat-inglewood-california-04-12-2026/event/0B00645AD5B1599C",
+        "image": null
+      },
+      {
+        "name": "Kevin Ross 2026 Experience ",
+        "date": "2026-06-06",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/kevin-ross-2026-experience-inglewood-california-06-06-2026/event/0B0064672A0C71B0",
+        "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "Barnsdall Gallery Theatre": [],
+    "The Groundlings": [],
+    "Upright Citizens Brigade": [
+      {
+        "name": "Netflix Is A Joke Presents: F*ck This Month x Holy Sh!t Improv",
+        "date": "2026-05-04",
+        "time": "21:30:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-fck-this-month-holy-sht-improv/",
+        "image": null
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Four After Five",
+        "date": "2026-05-05",
+        "time": "19:00:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-four-after-five/",
+        "image": "https://s1.ticketm.net/dam/a/45c/8ae02ec6-da2a-4608-a098-6fa49e47945c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: The Punch-up Open Mic with Beth Stelling",
+        "date": "2026-05-05",
+        "time": "19:00:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-the-punch-up-with-beth-stelling/",
+        "image": "https://s1.ticketm.net/dam/a/f09/383ac4be-5cc9-498b-83e1-5ecc560cbf09_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Mohanad Elshieky",
+        "date": "2026-05-05",
+        "time": "21:30:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-mohanad-elshieky/",
+        "image": "https://s1.ticketm.net/dam/a/7f4/b0755df1-4e49-44c1-bda7-a4af9af587f4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Kerry Coddett: Mudhole",
+        "date": "2026-05-06",
+        "time": "19:00:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-kerry-coddett-mudhole/",
+        "image": null
+      },
+      {
+        "name": "Netflix Is A Joke Presents: TAG IT w/ The Sklar Brothers",
+        "date": "2026-05-06",
+        "time": "21:30:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-tag-it-w-the-sklar-brothers/",
+        "image": "https://s1.ticketm.net/dam/a/922/feec859e-c789-4eee-bd8f-687f68d96922_447321_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Doug Loves Movies",
+        "date": "2026-05-07",
+        "time": "19:00:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-doug-loves-movies/",
+        "image": "https://s1.ticketm.net/dam/a/b62/69229ac0-c492-4089-9026-cc50c4261b62_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Andrew Knox as The Emotional Alpha",
+        "date": "2026-05-07",
+        "time": "21:30:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-andrew-knox-as-the-emotional-alpha/",
+        "image": "https://s1.ticketm.net/dam/a/f96/1faed785-513e-4443-a056-01a153384f96_RECOMENDATION_16_9.jpg"
+      }
+    ],
+    "The Comedy Store": []
   }
 }

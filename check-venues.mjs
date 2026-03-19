@@ -11,19 +11,46 @@ const key = process.env.TICKETMASTER_KEY;
 if (!key) { console.error('Missing TICKETMASTER_KEY env var'); process.exit(1); }
 
 const VENUES = [
-  { id: 'KovZpZAEAlaA', name: 'Hollywood Palladium' },
-  { id: 'KovZpZAkJnnA', name: 'El Rey Theatre' },
-  { id: 'KovZpZAFAkIA', name: 'Henry Fonda Theater' },
-  { id: 'KovZ917AI1p',  name: 'Avalon Hollywood' },
-  { id: 'KovZ917A25f',  name: 'The Novo' },
-  { id: 'KovZ917ARk0',  name: 'Peacock Theater' },
-  { id: 'KovZpZAEvnFA', name: 'Teragram Ballroom' },
-  { id: 'KovZpa971e',   name: 'Alex Theatre' },
-  { id: 'ZFr9jZA1vF',   name: 'Kirk Douglas Theatre' },
-  { id: 'KovZpa3u7e',   name: 'Shrine Auditorium' },
-  { id: 'KovZpa3uCe',   name: 'Orpheum Theatre' },
+  // — original 13 ——————————————————————————————————————————————
+  { id: 'KovZpZAEAlaA',  name: 'Hollywood Palladium' },
+  { id: 'KovZpZAkJnnA',  name: 'El Rey Theatre' },
+  { id: 'KovZpZAFAkIA',  name: 'Henry Fonda Theater' },
+  { id: 'KovZ917AI1p',   name: 'Avalon Hollywood' },
+  { id: 'KovZ917A25f',   name: 'The Novo' },
+  { id: 'KovZ917ARk0',   name: 'Peacock Theater' },
+  { id: 'KovZpZAEvnFA',  name: 'Teragram Ballroom' },
+  { id: 'KovZpa971e',    name: 'Alex Theatre' },
+  { id: 'ZFr9jZA1vF',    name: 'Kirk Douglas Theatre' },
+  { id: 'KovZpa3u7e',    name: 'Shrine Auditorium' },
+  { id: 'KovZpa3uCe',    name: 'Orpheum Theatre' },
   { id: 'rZ7HnEZ17fOAg', name: 'Pasadena Civic Auditorium' },
-  { id: 'KovZpa2Hxe',   name: 'Greek Theatre' },
+  { id: 'KovZpa2Hxe',    name: 'Greek Theatre' },
+  // — performing arts ——————————————————————————————————————————
+  { id: 'KovZpZAdtaEA',  name: 'Dolby Theatre' },
+  { id: 'KovZpZAaEFtA',  name: 'Geffen Playhouse' },
+  { id: 'KovZpZAF6E6A',  name: 'Pasadena Playhouse' },
+  { id: 'KovZpZA1vaIA',  name: 'Ricardo Montalban Theatre' },
+  { id: 'KovZpZAAttIA',  name: 'Ambassador Auditorium' },
+  { id: 'KovZpZA7v6tA',  name: 'Wilshire Ebell Theater and Club' },
+  { id: 'ZFr9jZk11d',    name: 'La Mirada Theatre For The Performing Arts' },
+  { id: 'ZFr9jZakd7',    name: 'Downey Civic Theatre' },
+  { id: 'KovZpZA1tvJA',  name: 'Redondo Beach Performing Arts Center' },
+  { id: 'ZFr9jZFvdd',    name: 'Haugh Performing Arts Center' },
+  { id: 'KovZpZAJdIFA',  name: 'Eli Broad Stage' },
+  { id: 'Z7r9jZa7s4',    name: 'Beverly O\'Neill Theater' },
+  { id: 'KovZ917AxPH',   name: 'Levitt Pavilion' },
+  // — indie / music ————————————————————————————————————————————
+  { id: 'KovZpZAEAJAA',  name: 'Bootleg Theater' },
+  { id: 'KovZpZA1aJ6A',  name: 'Coronet Theater' },
+  { id: 'KovZpa9Tbe',    name: 'Ivar Theatre' },
+  { id: 'KovZ917ANZV',   name: 'Dynasty Typewriter At The Hayworth' },
+  { id: 'KovZ917ASsc',   name: 'Bob Baker Marionette Theater' },
+  { id: 'KovZpZA1tdFA',  name: 'Miracle Theater' },
+  { id: 'KovZ917Axzb',   name: 'Barnsdall Gallery Theatre' },
+  // — comedy ———————————————————————————————————————————————————
+  { id: 'Z7r9jZaA9x',    name: 'The Groundlings' },
+  { id: 'KovZ917AmI0',   name: 'Upright Citizens Brigade' },
+  { id: 'Z7r9jZa7M2',    name: 'The Comedy Store' },
 ];
 
 function sleep(ms) {
