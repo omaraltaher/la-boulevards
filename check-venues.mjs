@@ -129,7 +129,7 @@ if (ebToken) {
     await sleep(500);
     try {
       const base = venue.type === 'org'
-        ? `https://www.eventbriteapi.com/v3/organizations/${venue.id}/events/`
+        ? `https://www.eventbriteapi.com/v3/organizers/${venue.id}/events/`
         : `https://www.eventbriteapi.com/v3/venues/${venue.id}/events/`;
       const url = `${base}?status=live&order_by=start_asc&expand=venue`;
       const res = await fetch(url, { headers: { Authorization: `Bearer ${ebToken}` } });
