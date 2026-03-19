@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-19T00:44:02.458Z",
+  "generated": "2026-03-19T03:50:03.363Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -585,13 +585,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-03-18",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Oxe_",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-03-19",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7Z",
@@ -637,6 +630,13 @@
         "date": "2026-03-26",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7k",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-27",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox76",
         "image": null
       }
     ],
