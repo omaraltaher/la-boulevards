@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-19T03:51:19.257Z",
+  "generated": "2026-03-19T16:53:14.447Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -945,13 +945,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
-        "date": "2026-03-18",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-03-18-2026/event/0B006450C26E3D11",
-        "image": "https://s1.ticketm.net/dam/e/20d/12eefb21-a478-4121-9f0a-46ba4023620d_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "\"Me Against The World\" Musical Poetry Show",
         "date": "2026-03-21",
         "time": "19:00:00",
@@ -998,6 +991,13 @@
         "date": "2026-06-06",
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/kevin-ross-2026-experience-inglewood-california-06-06-2026/event/0B0064672A0C71B0",
+        "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Kevin Ross 2026 Experience ",
+        "date": "2026-06-06",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/kevin-ross-2026-experience-inglewood-california-06-06-2026/event/0B0064672A0E71B2",
         "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
       }
     ],
