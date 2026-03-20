@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-19T16:53:14.447Z",
+  "generated": "2026-03-20T16:37:32.839Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "1tbsp (18 and Over)",
-        "date": "2026-03-19",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O6e4",
-        "image": null
-      },
-      {
         "name": "Amber Mark w/ Sherwyn",
         "date": "2026-03-20",
         "time": "21:00:00",
@@ -116,6 +109,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Of1b",
         "image": "https://s1.ticketm.net/dam/a/8fb/5c5460ca-5c24-42fe-a08f-702efdf5d8fb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "DVSN",
+        "date": "2026-03-29",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIpv",
+        "image": "https://s1.ticketm.net/dam/a/aa1/bedc4502-6320-46e8-94a9-75bfdc148aa1_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -124,7 +124,7 @@
         "date": "2026-03-20",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/darren-styles-avalon-hollywood-tickets/14089994",
-        "image": "https://i.ticketweb.com/i/00/12/81/63/44_Edp.jpg?v=11"
+        "image": "https://i.ticketweb.com/i/00/12/81/63/44_Edp.jpg?v=12"
       },
       {
         "name": "Paul van Dyk (Open to Close)",
@@ -178,6 +178,13 @@
     ],
     "The Novo": [
       {
+        "name": "ONE PLATE AT A TIME - Demi Lovato (Lecture - Signed copy of cookbook included)",
+        "date": "2026-03-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yag",
+        "image": "https://s1.ticketm.net/dam/a/d32/6c88c721-0ec9-46a3-91bb-17fd58e17d32_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "The Maine w/ Nightly",
         "date": "2026-03-28",
         "time": "18:30:00",
@@ -225,13 +232,6 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-fJp",
         "image": "https://s1.ticketm.net/dam/a/5d2/98da185a-7dcb-4b43-bef0-844ed85165d2_1174191_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Face to Face w/ Unwritten Law",
-        "date": "2026-04-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0Z0",
-        "image": "https://s1.ticketm.net/dam/a/d29/73c8ef4b-58a2-4cdb-9c1a-612b81fb8d29_1118641_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Nour Khodr",
-        "date": "2026-03-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/nour-khodr-los-angeles-california-03-19-2026/event/090064359616B3CA",
-        "image": "https://s1.ticketm.net/dam/e/dbd/dbb009e7-8bb4-4a7a-b999-51576a25adbd_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Against the Current",
         "date": "2026-03-20",
         "time": "19:00:00",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/rocketship-with-tony-molina-los-angeles-california-04-11-2026/event/09006391AEA58461",
         "image": "https://s1.ticketm.net/dam/e/ca5/a311b5c6-eb16-47cf-92a4-583a57e8bca5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "My Life With The Thrill Kill Kult w/ Light Asylum, Die Sexual & more!",
+        "date": "2026-04-18",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/my-life-with-the-thrill-kill-los-angeles-california-04-18-2026/event/0900638405E119B0",
+        "image": "https://s1.ticketm.net/dam/a/f1b/132b4c2d-0330-4499-a524-eb52c6eeaf1b_1093821_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -585,13 +585,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-03-19",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7Z",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-03-20",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7v",
@@ -637,6 +630,13 @@
         "date": "2026-03-27",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox76",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-28",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7a",
         "image": null
       }
     ],
