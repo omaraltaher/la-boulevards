@@ -1,20 +1,6 @@
 {
-  "generated": "2026-03-20T15:40:55.177Z",
+  "generated": "2026-03-21T15:24:19.701Z",
   "events": [
-    {
-      "name": "Josh Johnson: LIVE TAPING",
-      "date": "2026-03-20",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/josh-johnson-live-taping-los-angeles-california-03-20-2026/event/09006443E2DA9ACB",
-      "image": "https://s1.ticketm.net/dam/a/a1f/6aec4b02-7063-4485-bcc9-242f0eef6a1f_RECOMENDATION_16_9.jpg"
-    },
-    {
-      "name": "Josh Johnson: LIVE TAPING",
-      "date": "2026-03-20",
-      "time": "21:30:00",
-      "url": "https://www.ticketmaster.com/josh-johnson-live-taping-los-angeles-california-03-20-2026/event/0900644ACFC0A8B7",
-      "image": "https://s1.ticketm.net/dam/a/a1f/6aec4b02-7063-4485-bcc9-242f0eef6a1f_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Andrew Callaghan: All Gas No Brakes x Channel 5 \"Carnival\"",
       "date": "2026-03-21",
@@ -56,6 +42,20 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/ricky-montgomerys-montgomery-ricky-10-year-los-angeles-california-04-01-2026/event/09006425F96BAA1E",
       "image": "https://s1.ticketm.net/dam/a/9ce/d4a126d1-91f2-4dc8-8617-7b0b20d2d9ce_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Montgomery Ricky 10 Year Anniversary Tour Live From Los Angeles",
+      "date": "2026-04-01",
+      "time": "21:00:00",
+      "url": "https://veeps.com/rickymontgomery/21268925-63ef-4735-9dca-2a23f53475f1",
+      "image": "https://res.cloudinary.com/veeps/image/upload/t_ticketmaster/v1773256747/assets/xbm4sybv8swnoij3tc1u.jpg"
+    },
+    {
+      "name": "Calum Scott - The Avenoir Tour 2026",
+      "date": "2026-04-03",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/calum-scott-the-avenoir-tour-2026-los-angeles-california-04-03-2026/event/09006284E3E0615A",
+      "image": "https://s1.ticketm.net/dam/a/044/7fb786a0-98eb-4cd2-8abe-3cdd31469044_RECOMENDATION_16_9.jpg"
     }
   ]
 }
