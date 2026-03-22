@@ -1,13 +1,6 @@
 {
-  "generated": "2026-03-21T15:24:19.701Z",
+  "generated": "2026-03-22T15:24:41.023Z",
   "events": [
-    {
-      "name": "Andrew Callaghan: All Gas No Brakes x Channel 5 \"Carnival\"",
-      "date": "2026-03-21",
-      "time": "19:30:00",
-      "url": "https://www.ticketmaster.com/andrew-callaghan-all-gas-no-brakes-los-angeles-california-03-21-2026/event/090062F1E7AD6C35",
-      "image": "https://s1.ticketm.net/dam/a/c9c/77109041-77b6-4226-bb34-addc5f164c9c_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "2026 Hearts2Hearts Premiere Showcase [HEARTS 2 HOUSE] in LOS ANGELES",
       "date": "2026-03-22",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/calum-scott-the-avenoir-tour-2026-los-angeles-california-04-03-2026/event/09006284E3E0615A",
       "image": "https://s1.ticketm.net/dam/a/044/7fb786a0-98eb-4cd2-8abe-3cdd31469044_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Hail the Sun",
+      "date": "2026-04-04",
+      "time": "17:45:00",
+      "url": "https://www.ticketmaster.com/hail-the-sun-los-angeles-california-04-04-2026/event/09006385D28AC95E",
+      "image": "https://s1.ticketm.net/dam/a/2d9/96b2eb70-b495-49a2-b04a-b33efb1942d9_RECOMENDATION_16_9.jpg"
     }
   ]
 }
