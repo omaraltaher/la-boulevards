@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-21T16:23:25.553Z",
+  "generated": "2026-03-22T16:23:56.965Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Amber Mark w/ Sherwyn",
-        "date": "2026-03-21",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r9bd",
-        "image": "https://s1.ticketm.net/dam/a/9cf/7c352cc2-904b-4cdb-b424-981f9fba99cf_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Enjambre w/ Surely Tempo",
         "date": "2026-03-22",
         "time": "20:00:00",
@@ -116,16 +109,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OA3K",
         "image": "https://s1.ticketm.net/dam/a/04e/c528df0d-ff70-4ebf-afe9-7926c518e04e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Benee w/ BAYLi",
+        "date": "2026-04-03",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qyb7",
+        "image": "https://s1.ticketm.net/dam/a/6ef/7bf94ee4-25c8-4cd0-b6ea-5050712536ef_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Paul van Dyk (Open to Close)",
-        "date": "2026-03-21",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/paul-van-dyk-open-to-avalon-hollywood-tickets/13986204",
-        "image": "https://s1.ticketm.net/dam/a/176/3d9dba1d-0b69-4ca4-a7f5-e1f9f91fe176_1305461_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Gasolina",
         "date": "2026-03-27",
@@ -174,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/eli-fur-avalon-hollywood-tickets/14773473",
         "image": "https://s1.ticketm.net/dam/a/4bb/602ee3d0-a0e7-4ffb-acf0-bdef5402d4bb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "VTSS",
+        "date": "2026-06-12",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/vtss-avalon-hollywood-tickets/14188444",
+        "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -236,13 +236,6 @@
     ],
     "Peacock Theater": [
       {
-        "name": "Michael McIntyre - Ages 12+",
-        "date": "2026-03-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q3Pb",
-        "image": "https://s1.ticketm.net/dam/a/7f0/3f3fad04-732a-4508-b330-1ba0518cd7f0_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Gabby's Dollhouse Live!",
         "date": "2026-03-22",
         "time": "13:00:00",
@@ -290,16 +283,16 @@
         "time": "20:00:00",
         "url": "https://www.axs.com/events/1287112/blessd-tickets",
         "image": "https://s1.ticketm.net/dam/a/555/9be76154-9e35-40cd-9403-86e7efb45555_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "BLESSD - EL MEJOR HOMBRE DEL MUNDO TOUR - LA",
+        "date": "2026-05-01",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSjI",
+        "image": "https://s1.ticketm.net/dam/a/555/9be76154-9e35-40cd-9403-86e7efb45555_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Spiritual Cramp",
-        "date": "2026-03-21",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/spiritual-cramp-los-angeles-california-03-21-2026/event/0900630EE3725852",
-        "image": "https://s1.ticketm.net/dam/e/d6c/6ac15e35-b257-4e1d-a911-cfb2535f2d6c_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Scary Pockets with support from Scary Goldings",
         "date": "2026-03-28",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/throwing-muses-moonlight-concessions-los-angeles-california-04-21-2026/event/09006435AEB813CF",
         "image": "https://s1.ticketm.net/dam/e/10f/c1d9c132-12b5-4b42-ba4c-545ffc5f010f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ashes Remain \"What I've become 15 year anniversary\" ft Stephen Stanley",
+        "date": "2026-04-22",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/ashes-remain-what-ive-become-15-los-angeles-california-04-22-2026/event/09006442169CBA3F",
+        "image": "https://s1.ticketm.net/dam/e/e72/e9180b85-e3d4-4ad5-a775-c0ea80990e72_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -578,20 +578,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-03-21",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7e",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
-        "date": "2026-03-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7d",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-03-22",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox77",
@@ -630,6 +616,20 @@
         "date": "2026-03-28",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7F",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-03-29",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox78",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-04-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7o",
         "image": null
       }
     ],
@@ -746,20 +746,6 @@
     ],
     "La Mirada Theatre For The Performing Arts": [
       {
-        "name": "Neil Berg's 50 Years Of Rock and Roll",
-        "date": "2026-03-21",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q6CZ",
-        "image": null
-      },
-      {
-        "name": "Neil Berg's 50 Years Of Rock and Roll",
-        "date": "2026-03-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q6Cv",
-        "image": null
-      },
-      {
         "name": "The Stinky Cheese Man & Other Fairly Stoopid Tales",
         "date": "2026-03-29",
         "time": "13:30:00",
@@ -799,6 +785,20 @@
         "date": "2026-04-17",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jV",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-18",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jU",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-18",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jg",
         "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -937,13 +937,6 @@
     ],
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
-      {
-        "name": "\"Me Against The World\" Musical Poetry Show",
-        "date": "2026-03-21",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/me-against-the-world-musical-poetry-inglewood-california-03-21-2026/event/0B00643AC27A417A",
-        "image": "https://s1.ticketm.net/dam/e/7be/1b7d5615-4706-444c-b98e-a0879b7d07be_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Pynk Beard",
         "date": "2026-03-22",
