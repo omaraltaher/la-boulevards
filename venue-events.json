@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-22T16:23:56.965Z",
+  "generated": "2026-03-23T16:53:57.304Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Enjambre w/ Surely Tempo",
-        "date": "2026-03-22",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ONOx",
-        "image": "https://s1.ticketm.net/dam/a/d2f/59447000-c4b8-4a36-8a10-93339a5e8d2f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Naika",
         "date": "2026-03-26",
         "time": "21:00:00",
@@ -116,6 +109,13 @@
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qyb7",
         "image": "https://s1.ticketm.net/dam/a/6ef/7bf94ee4-25c8-4cd0-b6ea-5050712536ef_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Rich Amiri",
+        "date": "2026-04-04",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Os-b",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
@@ -236,13 +236,6 @@
     ],
     "Peacock Theater": [
       {
-        "name": "Gabby's Dollhouse Live!",
-        "date": "2026-03-22",
-        "time": "13:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jgAZ",
-        "image": "https://s1.ticketm.net/dam/a/8a1/38678b8a-b9a3-4d0a-8f47-a9d1a476d8a1_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tatev Asatryan",
         "date": "2026-04-11",
         "time": "18:00:00",
@@ -290,6 +283,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSjI",
         "image": "https://s1.ticketm.net/dam/a/555/9be76154-9e35-40cd-9403-86e7efb45555_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "October London w/ Eric Benet",
+        "date": "2026-05-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OVCb",
+        "image": "https://s1.ticketm.net/dam/a/a21/6bf4de36-f4a0-440e-956d-c25e56603a21_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
@@ -385,6 +385,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/yves-tour-2026-the-americas-glendale-california-05-08-2026/event/0B006466E94D5CCD",
         "image": "https://s1.ticketm.net/dam/e/723/b3e11623-da21-4703-a2ba-9cc1dd557723_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Andres Cepeda",
+        "date": "2026-05-27",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OVb-",
+        "image": "https://s1.ticketm.net/dam/a/f24/b1c3ac3e-410d-42bb-baee-e453d6b5cf24_465931_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Whose Live Anyway?",
@@ -578,13 +585,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-03-22",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox77",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-03-25",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7A",
@@ -630,6 +630,13 @@
         "date": "2026-04-01",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7o",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-04-02",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox73",
         "image": null
       }
     ],
@@ -938,13 +945,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Pynk Beard",
-        "date": "2026-03-22",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/pynk-beard-inglewood-california-03-22-2026/event/0B00646E969B2E35",
-        "image": "https://s1.ticketm.net/dam/e/833/6a8152dd-c649-4f20-a139-bec89f00b833_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Cory Henry Presents: The Church Experience",
         "date": "2026-03-29",
         "time": "19:30:00",
@@ -971,6 +971,13 @@
         "time": "16:00:00",
         "url": "https://www.ticketmaster.com/love-on-retreat-inglewood-california-04-12-2026/event/0B00645AD5B1599C",
         "image": null
+      },
+      {
+        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
+        "date": "2026-04-15",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-04-15-2026/event/0B006476D34D48F6",
+        "image": "https://s1.ticketm.net/dam/e/2b4/9ae830dd-4420-4912-8cc0-4447e1c5b2b4_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Kevin Ross 2026 Experience ",
