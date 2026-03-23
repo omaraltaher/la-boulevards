@@ -1,13 +1,6 @@
 {
-  "generated": "2026-03-22T15:24:41.023Z",
+  "generated": "2026-03-23T15:58:37.302Z",
   "events": [
-    {
-      "name": "2026 Hearts2Hearts Premiere Showcase [HEARTS 2 HOUSE] in LOS ANGELES",
-      "date": "2026-03-22",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/2026-hearts2hearts-premiere-showcase-hearts-2-los-angeles-california-03-22-2026/event/0900638BCD91CE28",
-      "image": "https://s1.ticketm.net/dam/a/c17/959f2bde-5e7c-4f67-9ce3-0e0e2fc7ac17_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "hololive presents Takanashi Kiara & Ninomae Ina'nis \"Drawn to Dawn\"",
       "date": "2026-03-27",
@@ -56,6 +49,13 @@
       "time": "17:45:00",
       "url": "https://www.ticketmaster.com/hail-the-sun-los-angeles-california-04-04-2026/event/09006385D28AC95E",
       "image": "https://s1.ticketm.net/dam/a/2d9/96b2eb70-b495-49a2-b04a-b33efb1942d9_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Verka Serduchka",
+      "date": "2026-04-05",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/verka-serduchka-los-angeles-california-04-05-2026/event/09006313A32129A6",
+      "image": "https://s1.ticketm.net/dam/a/838/ed6f9692-42f7-4e36-b1c2-35114867a838_RECOMENDATION_16_9.jpg"
     }
   ]
 }
