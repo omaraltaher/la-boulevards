@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-23T16:53:57.304Z",
+  "generated": "2026-03-24T16:55:57.023Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -162,18 +162,18 @@
         "image": "https://i.ticketweb.com/i/00/12/80/58/54_Edp.jpg?v=13"
       },
       {
+        "name": "Lady Faith",
+        "date": "2026-05-22",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/lady-faith-avalon-hollywood-tickets/14807943",
+        "image": "https://i.ticketweb.com/i/00/13/40/91/33_Edp.jpg?v=4"
+      },
+      {
         "name": "Eli & Fur",
         "date": "2026-06-06",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/eli-fur-avalon-hollywood-tickets/14773473",
         "image": "https://s1.ticketm.net/dam/a/4bb/602ee3d0-a0e7-4ffb-acf0-bdef5402d4bb_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "VTSS",
-        "date": "2026-06-12",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/vtss-avalon-hollywood-tickets/14188444",
-        "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
