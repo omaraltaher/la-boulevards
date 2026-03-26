@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-25T16:58:11.837Z",
+  "generated": "2026-03-26T16:56:43.109Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -585,13 +585,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-03-25",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7A",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-03-26",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7k",
@@ -637,6 +630,13 @@
         "date": "2026-04-02",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox73",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-04-03",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7K",
         "image": null
       }
     ],
@@ -992,6 +992,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/kevin-ross-2026-experience-inglewood-california-06-06-2026/event/0B0064672A0E71B2",
         "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tre Floyd's Black Girl Therapy",
+        "date": "2026-09-19",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
+        "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
