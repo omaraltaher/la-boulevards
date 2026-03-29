@@ -1,13 +1,6 @@
 {
-  "generated": "2026-03-28T15:29:19.373Z",
+  "generated": "2026-03-29T15:29:35.623Z",
   "events": [
-    {
-      "name": "hololive presents Takanashi Kiara & Ninomae Ina'nis \"Drawn to Dawn\"",
-      "date": "2026-03-28",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/hololive-presents-takanashi-kiara-ninomae-inanis-los-angeles-california-03-28-2026/event/0900637C329B5CD5",
-      "image": "https://s1.ticketm.net/dam/e/f52/92e80cac-28f3-48b1-9735-1b14b98ccf52_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Microwave \"Much Love\" 10 Year Anniversary Tour",
       "date": "2026-03-29",
@@ -56,6 +49,13 @@
       "time": "18:00:00",
       "url": "https://www.ticketmaster.com/maddox-batson-live-worldwide-tour-los-angeles-california-04-08-2026/event/090063640608FCDA",
       "image": "https://s1.ticketm.net/dam/a/54f/b81a0792-67bd-491d-8804-674ffc61c54f_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Humbe",
+      "date": "2026-04-09",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/humbe-los-angeles-california-04-09-2026/event/09006384F67BF05B",
+      "image": "https://s1.ticketm.net/dam/a/39e/84f7f505-ad5e-43a9-862f-c5cc1f28839e_RECOMENDATION_16_9.jpg"
     }
   ]
 }
