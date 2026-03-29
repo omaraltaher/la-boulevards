@@ -1,14 +1,7 @@
 {
-  "generated": "2026-03-28T16:27:55.749Z",
+  "generated": "2026-03-29T16:28:59.525Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Mariah the Scientist: HEARTS SOLD SEPARATELY TOUR",
-        "date": "2026-03-28",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/mariah-the-scientist-hearts-sold-separately-hollywood-california-03-28-2026/event/090063249A486AD2",
-        "image": "https://s1.ticketm.net/dam/a/518/802fe50d-82d1-4b23-a9bb-b8cfd3831518_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Mariah the Scientist: HEARTS SOLD SEPARATELY TOUR",
         "date": "2026-03-29",
@@ -57,17 +50,17 @@
         "time": null,
         "url": "https://www.ticketmaster.com/2-day-pass-svdden-death-hollywood-california-04-10-2026/event/090064537A3F57D9",
         "image": "https://s1.ticketm.net/dam/a/fe0/d182ebdd-f35f-49c0-ac03-c1f9b28d8fe0_1842761_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Bassrush Presents SVDDEN DEATH",
+        "date": "2026-04-11",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/bassrush-presents-svdden-death-hollywood-california-04-11-2026/event/090064517EE350E2",
+        "image": "https://s1.ticketm.net/dam/a/fe0/d182ebdd-f35f-49c0-ac03-c1f9b28d8fe0_1842761_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "White Reaper x Drug Church",
-        "date": "2026-03-28",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Of1b",
-        "image": "https://s1.ticketm.net/dam/a/8fb/5c5460ca-5c24-42fe-a08f-702efdf5d8fb_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "DVSN",
         "date": "2026-03-29",
@@ -116,16 +109,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-4up",
         "image": "https://s1.ticketm.net/dam/a/759/9418fc95-dfcf-4ba8-a39d-1c947ec86759_1645331_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Joost Klein",
+        "date": "2026-04-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--Ff",
+        "image": "https://s1.ticketm.net/dam/a/1ff/72e7f434-ba2b-481f-923d-21e63fa7a1ff_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Space Yacht: Big Bass Ting",
-        "date": "2026-03-28",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/space-yacht-big-bass-ting-avalon-hollywood-tickets/14174604",
-        "image": "https://i.ticketweb.com/i/00/12/89/23/24_Edp.jpg?v=7"
-      },
       {
         "name": "Emo Nite",
         "date": "2026-04-03",
@@ -178,13 +171,6 @@
     ],
     "The Novo": [
       {
-        "name": "The Maine w/ Nightly",
-        "date": "2026-03-28",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OFeA",
-        "image": "https://s1.ticketm.net/dam/a/ad7/afffca04-e20b-433d-a0b7-3bd1a5853ad7_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Kun",
         "date": "2026-04-04",
         "time": "20:00:00",
@@ -232,6 +218,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0Z0",
         "image": "https://s1.ticketm.net/dam/a/d29/73c8ef4b-58a2-4cdb-9c1a-612b81fb8d29_1118641_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Everglow",
+        "date": "2026-04-25",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-EPs",
+        "image": null
       }
     ],
     "Peacock Theater": [
@@ -294,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Scary Pockets with support from Scary Goldings",
-        "date": "2026-03-28",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/scary-pockets-with-support-from-scary-los-angeles-california-03-28-2026/event/0900642899D17529",
-        "image": "https://s1.ticketm.net/dam/e/8be/a0a8c69e-e1fa-40fa-8ea7-810865b378be_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "KCRW Presents: Ratboys: When the Sun Explodes Tour 2026",
         "date": "2026-04-03",
         "time": "19:00:00",
@@ -348,6 +334,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/ashes-remain-what-ive-become-15-los-angeles-california-04-22-2026/event/09006442169CBA3F",
         "image": "https://s1.ticketm.net/dam/e/e72/e9180b85-e3d4-4ad5-a775-c0ea80990e72_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Zebra: 50th Anniversary Tour - Hosted By Eddie Trunk",
+        "date": "2026-04-25",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/zebra-50th-anniversary-tour-hosted-by-los-angeles-california-04-25-2026/event/0900637201A24ABA",
+        "image": "https://s1.ticketm.net/dam/a/af4/2af70d10-23dd-42a7-9d0d-0b6c00438af4_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -413,13 +406,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Jerry Harrison & Adrian Belew: REMAIN IN LIGHT",
-        "date": "2026-03-28",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/jerry-harrison-adrian-belew-remain-in-los-angeles-california-03-28-2026/event/09006427B4F589A3",
-        "image": "https://s1.ticketm.net/dbimages/727484a.jpg"
-      },
-      {
         "name": "Taiwan Campus Folk Music 2026 USA Tour",
         "date": "2026-04-07",
         "time": "19:00:00",
@@ -467,6 +453,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/lily-allen-performs-west-end-girl-los-angeles-california-04-26-2026/event/09006382D931A9FC",
         "image": "https://s1.ticketm.net/dam/a/78b/e73d29f4-b17c-497d-ac4a-0a8c7503c78b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Hiromis SonicWonder",
+        "date": "2026-05-01",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/hiromis-sonicwonder-los-angeles-california-05-01-2026/event/0900632FDBC631E1",
+        "image": "https://s1.ticketm.net/dam/a/a8e/c786502e-f398-407f-b03e-8304d0a60a8e_1754251_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -585,20 +578,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-03-28",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7a",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
-        "date": "2026-03-28",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7F",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-03-29",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox78",
@@ -637,6 +616,20 @@
         "date": "2026-04-04",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7f",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-04-05",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7p",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-04-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox79",
         "image": null
       }
     ],
