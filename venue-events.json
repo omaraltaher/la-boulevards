@@ -1,14 +1,7 @@
 {
-  "generated": "2026-03-29T16:28:59.525Z",
+  "generated": "2026-03-30T16:51:19.669Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Mariah the Scientist: HEARTS SOLD SEPARATELY TOUR",
-        "date": "2026-03-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/mariah-the-scientist-hearts-sold-separately-hollywood-california-03-29-2026/event/090063249A506ADD",
-        "image": "https://s1.ticketm.net/dam/a/518/802fe50d-82d1-4b23-a9bb-b8cfd3831518_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Slaughter To Prevail: North America 2026 with Whitechapel & Attila",
         "date": "2026-04-02",
@@ -57,17 +50,17 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/bassrush-presents-svdden-death-hollywood-california-04-11-2026/event/090064517EE350E2",
         "image": "https://s1.ticketm.net/dam/a/fe0/d182ebdd-f35f-49c0-ac03-c1f9b28d8fe0_1842761_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "City Pop Waves: Masayoshi Takanaka SUPER TAKANAKA WORLD LIVE 2026",
+        "date": "2026-04-12",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/city-pop-waves-masayoshi-takanaka-super-hollywood-california-04-12-2026/event/0900636A9E5C9D93",
+        "image": "https://s1.ticketm.net/dam/a/1e5/44d43c88-8f2d-48f4-b2d3-21b10d70e1e5_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "DVSN",
-        "date": "2026-03-29",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIpv",
-        "image": "https://s1.ticketm.net/dam/a/aa1/bedc4502-6320-46e8-94a9-75bfdc148aa1_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Sarah Kinsley w/ girlpuppy",
         "date": "2026-03-31",
@@ -116,6 +109,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--Ff",
         "image": "https://s1.ticketm.net/dam/a/1ff/72e7f434-ba2b-481f-923d-21e63fa7a1ff_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Raf-Saperra",
+        "date": "2026-04-24",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-kuI",
+        "image": "https://s1.ticketm.net/dam/a/4e8/400720bc-af79-49b6-8b56-63f72ace44e8_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -578,13 +578,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-03-29",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox78",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-04-01",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7o",
@@ -631,17 +624,17 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox79",
         "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-04-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPb",
+        "image": null
       }
     ],
     "Pasadena Playhouse": [],
     "Ricardo Montalban Theatre": [
-      {
-        "name": "A Conversation with Brandy: PHASES Book Tour",
-        "date": "2026-03-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/a-conversation-with-brandy-phases-book-hollywood-california-03-29-2026/event/0B00644286701BF0",
-        "image": "https://s1.ticketm.net/dam/a/8cf/348a6995-35c8-430c-a069-cd931bf6b8cf_381401_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Comedy Gives Back Presents: Alt Comedy All-Stars 2026",
         "date": "2026-04-22",
@@ -687,13 +680,6 @@
     ],
     "Ambassador Auditorium": [],
     "Wilshire Ebell Theater and Club": [
-      {
-        "name": "Bryce Crawford",
-        "date": "2026-03-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qpGb",
-        "image": null
-      },
       {
         "name": "On Cinema - The Certified \"Five Bags of Popcorn\" Tour",
         "date": "2026-04-17",
@@ -742,16 +728,16 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-justin-los-angeles-california-05-09-2026/event/09006458ABC93908",
         "image": "https://s1.ticketm.net/dam/a/945/b02be5ca-1cb7-46d4-baf0-68d2f390c945_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour",
+        "date": "2026-09-17",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/john-cameron-mitchell-hedwig-25th-anniversary-los-angeles-california-09-17-2026/event/0900647307F81446",
+        "image": "https://s1.ticketm.net/dam/a/890/ba987058-54c4-443a-b1f3-261c51477890_RECOMENDATION_16_9.jpg"
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
-      {
-        "name": "The Stinky Cheese Man & Other Fairly Stoopid Tales",
-        "date": "2026-03-29",
-        "time": "13:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q6J9",
-        "image": null
-      },
       {
         "name": "Mean Girls (Touring)",
         "date": "2026-04-11",
@@ -799,6 +785,13 @@
         "date": "2026-04-18",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jg",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-19",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jM",
         "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -938,13 +931,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Cory Henry Presents: The Church Experience",
-        "date": "2026-03-29",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/cory-henry-presents-the-church-experience-inglewood-california-03-29-2026/event/0B006453ABF15A8A",
-        "image": "https://s1.ticketm.net/dam/a/a1f/21111ac8-9609-4d6e-bd4f-775267c9fa1f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Cult Classics Cinema Presents Brown Sugar",
         "date": "2026-04-04",
         "time": "17:00:00",
@@ -992,6 +978,13 @@
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
         "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tre Floyd's Black Girl Therapy",
+        "date": "2026-09-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18C2FF7",
+        "image": "https://s1.ticketm.net/dam/e/546/e34ffbf4-4851-479a-9054-7aa709ed5546_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
