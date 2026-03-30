@@ -1,13 +1,6 @@
 {
-  "generated": "2026-03-29T15:29:35.623Z",
+  "generated": "2026-03-30T16:04:34.953Z",
   "events": [
-    {
-      "name": "Microwave \"Much Love\" 10 Year Anniversary Tour",
-      "date": "2026-03-29",
-      "time": "18:00:00",
-      "url": "https://www.ticketmaster.com/microwave-much-love-10-year-anniversary-los-angeles-california-03-29-2026/event/09006382D64CA8B9",
-      "image": "https://s1.ticketm.net/dam/a/344/bb49816d-0760-4ea6-8181-b9fb2a55d344_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Ricky Montgomery's Montgomery Ricky 10 Year Anniversary Tour",
       "date": "2026-04-01",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/humbe-los-angeles-california-04-09-2026/event/09006384F67BF05B",
       "image": "https://s1.ticketm.net/dam/a/39e/84f7f505-ad5e-43a9-862f-c5cc1f28839e_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Akaash Singh: Generational Triumph Tour",
+      "date": "2026-04-10",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/akaash-singh-generational-triumph-tour-los-angeles-california-04-10-2026/event/09006330A5D3261D",
+      "image": "https://s1.ticketm.net/dam/a/da7/275a8a4a-e7d6-4ac2-a027-2f4d1ab55da7_RECOMENDATION_16_9.jpg"
     }
   ]
 }
