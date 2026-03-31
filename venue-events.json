@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-30T16:51:19.669Z",
+  "generated": "2026-03-31T16:53:01.199Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -134,18 +134,25 @@
         "image": "https://s1.ticketm.net/dam/a/6a7/c54bf914-a724-4fda-aa92-e1a68aebc6a7_46321_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Flashback: A 2010s EDM Tribute Party",
+        "date": "2026-04-10",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/flashback-a-2010s-edm-tribute-avalon-hollywood-tickets/14822473",
+        "image": "https://i.ticketweb.com/i/00/13/42/28/23_Edp.jpg?v=4"
+      },
+      {
         "name": "Factor B + Lostly",
         "date": "2026-04-11",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/factor-b-lostly-avalon-hollywood-tickets/14006814",
-        "image": "https://i.ticketweb.com/i/00/12/75/67/24_Edp.jpg?v=10"
+        "image": "https://i.ticketweb.com/i/00/12/75/67/24_Edp.jpg?v=11"
       },
       {
         "name": "Sub Zero Project",
         "date": "2026-04-17",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/sub-zero-project-avalon-hollywood-tickets/14078754",
-        "image": "https://i.ticketweb.com/i/00/12/80/58/54_Edp.jpg?v=13"
+        "image": "https://i.ticketweb.com/i/00/12/80/58/54_Edp.jpg?v=14"
       },
       {
         "name": "Lady Faith",
