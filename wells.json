@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-08T16:54:10.065Z",
+  "generated": "2026-04-01T19:58:48.750Z",
   "wells": [
     {
       "lat": 34.00231,
@@ -9,8 +9,7 @@
       "field": "Bandini",
       "type": "Oil & Gas",
       "api": "0403700805",
-      "blvd": "Washington Boulevard",
-      "photo": null
+      "blvd": "Washington Boulevard"
     },
     {
       "lat": 34.00234,
@@ -20,8 +19,7 @@
       "field": "Bandini",
       "type": "Oil & Gas",
       "api": "0403700806",
-      "blvd": "Washington Boulevard",
-      "photo": null
+      "blvd": "Washington Boulevard"
     },
     {
       "lat": 34.00237,
@@ -31,8 +29,7 @@
       "field": "Bandini",
       "type": "Oil & Gas",
       "api": "0403700807",
-      "blvd": "Washington Boulevard",
-      "photo": null
+      "blvd": "Washington Boulevard"
     },
     {
       "lat": 34.00235,
@@ -42,8 +39,7 @@
       "field": "Bandini",
       "type": "Oil & Gas",
       "api": "0403700808",
-      "blvd": "Washington Boulevard",
-      "photo": null
+      "blvd": "Washington Boulevard"
     },
     {
       "lat": 34.00233,
@@ -53,8 +49,7 @@
       "field": "Bandini",
       "type": "Oil & Gas",
       "api": "0403700809",
-      "blvd": "Washington Boulevard",
-      "photo": null
+      "blvd": "Washington Boulevard"
     },
     {
       "lat": 34.00231,
@@ -64,19 +59,7 @@
       "field": "Bandini",
       "type": "Oil & Gas",
       "api": "0403700810",
-      "blvd": "Washington Boulevard",
-      "photo": null
-    },
-    {
-      "lat": 34.05547,
-      "lon": -118.39021,
-      "status": "Active",
-      "operator": "Pacific Coast Energy Company LP",
-      "field": "Beverly Hills",
-      "type": "Oil & Gas",
-      "api": "0403720971",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Washington Boulevard"
     },
     {
       "lat": 34.05554,
@@ -86,8 +69,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700995",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05065,
@@ -97,8 +79,17 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403701052",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
+    },
+    {
+      "lat": 34.05547,
+      "lon": -118.39021,
+      "status": "Active",
+      "operator": "Pacific Coast Energy Company LP",
+      "field": "Beverly Hills",
+      "type": "Oil & Gas",
+      "api": "0403720971",
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -108,8 +99,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720073",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05547,
@@ -119,8 +109,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721994",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -130,8 +119,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720105",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -141,8 +129,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720146",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -152,8 +139,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720189",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -163,8 +149,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720212",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -174,8 +159,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720252",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -185,8 +169,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720382",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -196,8 +179,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720434",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -207,8 +189,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720510",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -218,8 +199,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700996",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -229,8 +209,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720552",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -240,8 +219,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720554",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -251,8 +229,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720822",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -262,8 +239,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720886",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -273,8 +249,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720895",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -284,8 +259,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720950",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -295,8 +269,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721006",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -306,8 +279,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721019",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05547,
@@ -317,8 +289,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721113",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -328,8 +299,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700997",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -339,8 +309,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721050",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -350,8 +319,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721061",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -361,8 +329,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721068",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -372,8 +339,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721087",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -383,8 +349,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721121",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -394,8 +359,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721169",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -405,8 +369,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721188",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -416,8 +379,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721239",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -427,8 +389,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721273",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -438,8 +399,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700998",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.0507,
@@ -449,8 +409,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700110",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05547,
@@ -460,8 +419,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721145",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05071,
@@ -471,8 +429,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403701053",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -482,8 +439,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721284",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -493,8 +449,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721324",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05555,
@@ -504,8 +459,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721392",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -515,19 +469,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721996",
-      "blvd": "Pico Boulevard",
-      "photo": null
-    },
-    {
-      "lat": 34.05547,
-      "lon": -118.39035,
-      "status": "Active",
-      "operator": "Pacific Coast Energy Company LP",
-      "field": "Beverly Hills",
-      "type": "Oil & Gas",
-      "api": "0403721133",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -537,8 +479,17 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700999",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
+    },
+    {
+      "lat": 34.05547,
+      "lon": -118.39035,
+      "status": "Active",
+      "operator": "Pacific Coast Energy Company LP",
+      "field": "Beverly Hills",
+      "type": "Oil & Gas",
+      "api": "0403721133",
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05072,
@@ -548,8 +499,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700111",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05069,
@@ -559,8 +509,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700108",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05547,
@@ -570,8 +519,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403726615",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05547,
@@ -581,8 +529,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403727133",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -592,8 +539,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403701051",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05547,
@@ -603,8 +549,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721160",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05071,
@@ -614,8 +559,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700109",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05554,
@@ -625,8 +569,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700107",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05547,
@@ -636,8 +579,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721211",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -647,8 +589,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720013",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05556,
@@ -658,8 +599,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720040",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05547,
@@ -669,8 +609,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721235",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05124,
@@ -680,8 +619,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403700029",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05111,
@@ -691,8 +629,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720196",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05111,
@@ -702,8 +639,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720323",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05125,
@@ -713,8 +649,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720234",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.0511,
@@ -724,8 +659,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720232",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05109,
@@ -735,8 +669,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720268",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05111,
@@ -746,8 +679,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720293",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05108,
@@ -757,8 +689,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720365",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05125,
@@ -768,8 +699,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720360",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05126,
@@ -779,8 +709,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720363",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05108,
@@ -790,8 +719,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720477",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05123,
@@ -801,8 +729,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720429",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.0511,
@@ -812,8 +739,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720441",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05109,
@@ -823,8 +749,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720643",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05108,
@@ -834,8 +759,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720624",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05122,
@@ -845,8 +769,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720688",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05123,
@@ -856,8 +779,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720512",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05126,
@@ -867,8 +789,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720553",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05108,
@@ -878,8 +799,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720562",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05109,
@@ -889,8 +809,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720603",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05121,
@@ -900,8 +819,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721114",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05123,
@@ -911,8 +829,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720664",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05108,
@@ -922,8 +839,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720916",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.0511,
@@ -933,8 +849,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720729",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.0511,
@@ -944,8 +859,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720769",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05123,
@@ -955,8 +869,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720055",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05109,
@@ -966,8 +879,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720790",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05119,
@@ -977,8 +889,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720936",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05107,
@@ -988,8 +899,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720831",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05105,
@@ -999,8 +909,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720896",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05121,
@@ -1010,8 +919,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720904",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05124,
@@ -1021,8 +929,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720915",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05119,
@@ -1032,8 +939,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720779",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05112,
@@ -1043,8 +949,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720946",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05107,
@@ -1054,8 +959,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720044",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05123,
@@ -1065,8 +969,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403723490",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05106,
@@ -1076,8 +979,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720672",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.07521,
@@ -1087,8 +989,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720666",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07511,
@@ -1098,8 +999,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721011",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07505,
@@ -1109,8 +1009,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721157",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.0748,
@@ -1120,8 +1019,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403720742",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07485,
@@ -1131,8 +1029,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721190",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07491,
@@ -1142,8 +1039,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721177",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07479,
@@ -1153,8 +1049,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721215",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1003812613774666"
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07518,
@@ -1164,8 +1059,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721310",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.0754,
@@ -1175,8 +1069,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721386",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07541,
@@ -1186,8 +1079,7 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721493",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.04565,
@@ -1197,8 +1089,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717586",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.04563,
@@ -1208,8 +1099,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717594",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.04553,
@@ -1219,8 +1109,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717599",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05067,
@@ -1230,8 +1119,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717600",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05069,
@@ -1241,8 +1129,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717976",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.04556,
@@ -1252,8 +1139,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403700149",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.04557,
@@ -1263,8 +1149,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717587",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05066,
@@ -1274,8 +1159,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717980",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.04558,
@@ -1285,8 +1169,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717589",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.04559,
@@ -1296,8 +1179,7 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717590",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 33.91675,
@@ -1307,8 +1189,7 @@
       "field": "El Segundo",
       "type": "Oil & Gas",
       "api": "0403707203",
-      "blvd": "Vista Del Mar Boulevard",
-      "photo": null
+      "blvd": "Vista Del Mar Boulevard"
     },
     {
       "lat": 33.92364,
@@ -1318,8 +1199,7 @@
       "field": "Howard Townsite",
       "type": "Oil & Gas",
       "api": "0403706485",
-      "blvd": "Harvard Boulevard",
-      "photo": "1056676833153178"
+      "blvd": "Harvard Boulevard"
     },
     {
       "lat": 34.01092,
@@ -1329,8 +1209,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725338",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.01255,
@@ -1340,8 +1219,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725342",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.01258,
@@ -1351,8 +1229,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725375",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00675,
@@ -1362,8 +1239,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726541",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00671,
@@ -1373,8 +1249,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726538",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00909,
@@ -1384,8 +1259,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726548",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00776,
@@ -1395,8 +1269,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726540",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00777,
@@ -1406,8 +1279,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726554",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00751,
@@ -1417,8 +1289,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726627",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.0098,
@@ -1428,8 +1299,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707785",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00142,
@@ -1439,8 +1309,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708041",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0046,
@@ -1450,8 +1319,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708042",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00996,
@@ -1461,8 +1329,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707798",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00381,
@@ -1472,8 +1339,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708048",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99932,
@@ -1483,8 +1349,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708050",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0076,
@@ -1494,8 +1359,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403706499",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0068,
@@ -1505,8 +1369,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708278",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01064,
@@ -1516,8 +1379,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708756",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.0035,
@@ -1527,8 +1389,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403713509",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00769,
@@ -1538,8 +1399,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708292",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99751,
@@ -1549,8 +1409,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403713510",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0067,
@@ -1560,8 +1419,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708296",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00476,
@@ -1571,8 +1429,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708151",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00481,
@@ -1582,8 +1439,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708153",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00559,
@@ -1593,8 +1449,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708154",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1021664281983848"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99543,
@@ -1604,8 +1459,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708158",
-      "blvd": "La Cienega Boulevard",
-      "photo": "111868824294324"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00725,
@@ -1615,8 +1469,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707396",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00825,
@@ -1626,8 +1479,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707404",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1062754037596894"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00751,
@@ -1637,8 +1489,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707410",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0043,
@@ -1648,8 +1499,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708168",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00111,
@@ -1659,8 +1509,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708171",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0044,
@@ -1670,8 +1519,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708179",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00189,
@@ -1681,8 +1529,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708187",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00607,
@@ -1692,8 +1539,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726287",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00616,
@@ -1703,8 +1549,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726284",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.9921,
@@ -1714,8 +1559,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708189",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99567,
@@ -1725,8 +1569,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708198",
-      "blvd": "La Cienega Boulevard",
-      "photo": "111868824294324"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00446,
@@ -1736,8 +1579,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707801",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.9912,
@@ -1747,8 +1589,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707803",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01182,
@@ -1758,8 +1599,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708764",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00784,
@@ -1769,8 +1609,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403722267",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1113583245836279"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00148,
@@ -1780,8 +1619,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403700224",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00764,
@@ -1791,8 +1629,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403723057",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00702,
@@ -1802,8 +1639,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725019",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1272541739930969"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01347,
@@ -1813,8 +1649,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707472",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00633,
@@ -1824,8 +1659,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403723457",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00635,
@@ -1835,8 +1669,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403723458",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0014,
@@ -1846,8 +1679,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707824",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1005928330235611"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00772,
@@ -1857,8 +1689,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403723751",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1062754037596894"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00643,
@@ -1868,8 +1699,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403723754",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00821,
@@ -1879,8 +1709,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725004",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1062754037596894"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00177,
@@ -1890,8 +1719,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403705652",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01001,
@@ -1901,8 +1729,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725005",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01063,
@@ -1912,8 +1739,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725083",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01056,
@@ -1923,8 +1749,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725085",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00721,
@@ -1934,8 +1759,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708285",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1114684425681588"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00714,
@@ -1945,8 +1769,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725088",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99895,
@@ -1956,8 +1779,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707837",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01308,
@@ -1967,8 +1789,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707475",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00109,
@@ -1978,8 +1799,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707845",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1086496511881748"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00348,
@@ -1989,8 +1809,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707851",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1086496511881748"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99902,
@@ -2000,8 +1819,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708138",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1186773598489523"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01178,
@@ -2011,8 +1829,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707873",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 33.9997,
@@ -2022,8 +1839,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708090",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1015823865653571"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00621,
@@ -2033,8 +1849,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726803",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00695,
@@ -2044,8 +1859,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403706500",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99885,
@@ -2055,8 +1869,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707745",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1236725193392444"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00507,
@@ -2066,8 +1879,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707860",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00815,
@@ -2077,8 +1889,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708281",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1017411392367753"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00717,
@@ -2088,8 +1899,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708288",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00354,
@@ -2099,8 +1909,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403720453",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1086496511881748"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99866,
@@ -2110,8 +1919,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708093",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1186773598489523"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00837,
@@ -2121,8 +1929,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727240",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00384,
@@ -2132,8 +1939,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403722423",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00346,
@@ -2143,8 +1949,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403722417",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00526,
@@ -2154,8 +1959,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708231",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1021664281983848"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00418,
@@ -2165,8 +1969,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708248",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00513,
@@ -2176,8 +1979,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403722979",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00525,
@@ -2187,8 +1989,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403723238",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00653,
@@ -2198,8 +1999,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707406",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00624,
@@ -2209,8 +2009,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707413",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00624,
@@ -2220,8 +2019,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727110",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00267,
@@ -2231,8 +2029,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403723479",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1000176117481014"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00492,
@@ -2242,8 +2039,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725008",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00329,
@@ -2253,8 +2049,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725071",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1003716237117488"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00517,
@@ -2264,8 +2059,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725072",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00282,
@@ -2275,8 +2069,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725073",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00211,
@@ -2286,8 +2079,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725227",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00225,
@@ -2297,8 +2089,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725229",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99578,
@@ -2308,8 +2099,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725303",
-      "blvd": "La Cienega Boulevard",
-      "photo": "111868824294324"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00399,
@@ -2319,8 +2109,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727172",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00079,
@@ -2330,8 +2119,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726285",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0034,
@@ -2341,8 +2129,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726273",
-      "blvd": "La Cienega Boulevard",
-      "photo": "145330761056492"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00344,
@@ -2352,8 +2139,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726274",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00276,
@@ -2363,8 +2149,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725399",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00273,
@@ -2374,8 +2159,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726271",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00264,
@@ -2385,8 +2169,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726272",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1000176117481014"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00577,
@@ -2396,8 +2179,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726279",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99887,
@@ -2407,8 +2189,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725337",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1186773598489523"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99909,
@@ -2418,8 +2199,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725336",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1186773598489523"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00188,
@@ -2429,8 +2209,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726401",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1016928659132940"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00014,
@@ -2440,8 +2219,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726403",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99999,
@@ -2451,8 +2229,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726490",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99737,
@@ -2462,8 +2239,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726495",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.9963,
@@ -2473,8 +2249,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726501",
-      "blvd": "La Cienega Boulevard",
-      "photo": "111868824294324"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00018,
@@ -2484,8 +2259,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726500",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00068,
@@ -2495,8 +2269,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726497",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99994,
@@ -2506,8 +2279,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726496",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0006,
@@ -2517,8 +2289,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726498",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00997,
@@ -2528,8 +2299,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727111",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99881,
@@ -2539,8 +2309,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726585",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99877,
@@ -2550,8 +2319,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726587",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99678,
@@ -2561,8 +2329,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726576",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99678,
@@ -2572,8 +2339,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726582",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99667,
@@ -2583,8 +2349,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726589",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1015238689229250"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99662,
@@ -2594,8 +2359,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726591",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1015238689229250"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99885,
@@ -2605,8 +2369,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726584",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00388,
@@ -2616,8 +2379,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726583",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1086496511881748"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99439,
@@ -2627,8 +2389,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726568",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1202713646849731"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99596,
@@ -2638,8 +2399,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726569",
-      "blvd": "La Cienega Boulevard",
-      "photo": "111868824294324"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99779,
@@ -2649,8 +2409,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725329",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99602,
@@ -2660,8 +2419,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726570",
-      "blvd": "La Cienega Boulevard",
-      "photo": "111868824294324"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0023,
@@ -2671,8 +2429,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726676",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99885,
@@ -2682,8 +2439,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725335",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99908,
@@ -2693,8 +2449,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726672",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1186773598489523"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99904,
@@ -2704,8 +2459,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726673",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1186773598489523"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00174,
@@ -2715,8 +2469,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726736",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1015621598977727"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00438,
@@ -2726,8 +2479,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726738",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00385,
@@ -2737,8 +2489,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403729998",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00164,
@@ -2748,8 +2499,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727468",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00391,
@@ -2759,8 +2509,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403730207",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1086496511881748"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99904,
@@ -2770,8 +2519,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727171",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1186773598489523"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00078,
@@ -2781,8 +2529,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727026",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00183,
@@ -2792,8 +2539,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727169",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00584,
@@ -2803,8 +2549,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727157",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00274,
@@ -2814,8 +2559,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727162",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1000176117481014"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00891,
@@ -2825,8 +2569,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726611",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1203392383472434"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00624,
@@ -2836,8 +2579,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727112",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1203392383472434"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01313,
@@ -2847,8 +2589,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403709139",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00256,
@@ -2858,8 +2599,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403730239",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00207,
@@ -2869,8 +2609,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403730211",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00349,
@@ -2880,8 +2619,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727238",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00265,
@@ -2891,8 +2629,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727088",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1000176117481014"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00061,
@@ -2902,8 +2639,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727213",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34,
@@ -2913,8 +2649,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403730208",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99908,
@@ -2924,8 +2659,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403727170",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1186773598489523"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99753,
@@ -2935,8 +2669,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403730117",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00232,
@@ -2946,8 +2679,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708222",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00266,
@@ -2957,8 +2689,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726408",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1021664281983848"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00842,
@@ -2968,8 +2699,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403700250",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.01143,
@@ -2979,8 +2709,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708746",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.01365,
@@ -2990,8 +2719,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403707881",
-      "blvd": "Jefferson Boulevard",
-      "photo": "112111700942038"
+      "blvd": "Jefferson Boulevard"
     },
     {
       "lat": 34.00544,
@@ -3001,8 +2729,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708228",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1021664281983848"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 33.99792,
@@ -3012,8 +2739,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726633",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00886,
@@ -3023,8 +2749,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726609",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1203392383472434"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01084,
@@ -3034,8 +2759,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403700254",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.01217,
@@ -3045,8 +2769,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403709147",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00521,
@@ -3056,8 +2779,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708232",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00536,
@@ -3067,8 +2789,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708233",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00514,
@@ -3078,8 +2799,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708236",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.0079,
@@ -3089,8 +2809,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726637",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1113583245836279"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00906,
@@ -3100,8 +2819,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726507",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00906,
@@ -3111,8 +2829,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726493",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.0039,
@@ -3122,8 +2839,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726435",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00674,
@@ -3133,8 +2849,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726667",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00688,
@@ -3144,8 +2859,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726612",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1272541739930969"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00906,
@@ -3155,8 +2869,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726506",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 34.00352,
@@ -3166,8 +2879,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708718",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00682,
@@ -3177,8 +2889,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726451",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.00175,
@@ -3188,8 +2899,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726528",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.01107,
@@ -3199,8 +2909,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403725339",
-      "blvd": "College Boulevard",
-      "photo": null
+      "blvd": "College Boulevard"
     },
     {
       "lat": 33.99529,
@@ -3210,8 +2919,7 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403730270",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1000273534145808"
+      "blvd": "South La Cienega Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3221,8 +2929,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700369",
-      "blvd": "Adams Boulevard",
-      "photo": "1015729135629101"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3232,8 +2939,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700378",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3243,8 +2949,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700379",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3254,8 +2959,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700380",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03227,
@@ -3265,8 +2969,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700381",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3276,8 +2979,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700383",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3287,8 +2989,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700384",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3298,8 +2999,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700322",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3309,8 +3009,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403721072",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3320,8 +3019,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403720967",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3331,8 +3029,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403721221",
-      "blvd": "Adams Boulevard",
-      "photo": "1015729135629101"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3342,8 +3039,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403721223",
-      "blvd": "Adams Boulevard",
-      "photo": "1015729135629101"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03227,
@@ -3353,8 +3049,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403726956",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3364,8 +3059,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700371",
-      "blvd": "Adams Boulevard",
-      "photo": "1015729135629101"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.0323,
@@ -3375,8 +3069,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403727007",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.0323,
@@ -3386,8 +3079,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403730170",
-      "blvd": "Adams Boulevard",
-      "photo": "1080115812511403"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3397,8 +3089,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700372",
-      "blvd": "Adams Boulevard",
-      "photo": "1015729135629101"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3408,8 +3099,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700373",
-      "blvd": "Adams Boulevard",
-      "photo": "1015729135629101"
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3419,8 +3109,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700374",
-      "blvd": "Adams Boulevard",
-      "photo": null
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 34.03226,
@@ -3430,107 +3119,7 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700375",
-      "blvd": "Adams Boulevard",
-      "photo": null
-    },
-    {
-      "lat": 33.81317,
-      "lon": -118.1875,
-      "status": "Active",
-      "operator": "S & C Oil Co., Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403710380",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
-    },
-    {
-      "lat": 33.81558,
-      "lon": -118.18761,
-      "status": "Active",
-      "operator": "Herley-Kelley LLC",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403709964",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
-    },
-    {
-      "lat": 33.81724,
-      "lon": -118.18794,
-      "status": "Active",
-      "operator": "Signal Hill Petroleum, Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403711808",
-      "blvd": "Long Beach Boulevard",
-      "photo": "1001201290413673"
-    },
-    {
-      "lat": 33.81743,
-      "lon": -118.18642,
-      "status": "Active",
-      "operator": "Arrowhead Operating, Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403709575",
-      "blvd": "Long Beach Boulevard",
-      "photo": "1000345520369657"
-    },
-    {
-      "lat": 33.81935,
-      "lon": -118.18767,
-      "status": "Active",
-      "operator": "Arrowhead Operating, Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403709579",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
-    },
-    {
-      "lat": 33.81783,
-      "lon": -118.18642,
-      "status": "Active",
-      "operator": "TJ Scott Family Investments, LLC",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403709658",
-      "blvd": "Long Beach Boulevard",
-      "photo": "1001669783700772"
-    },
-    {
-      "lat": 33.81736,
-      "lon": -118.18747,
-      "status": "Active",
-      "operator": "Signal Hill Petroleum, Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403711806",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
-    },
-    {
-      "lat": 33.81217,
-      "lon": -118.18646,
-      "status": "Active",
-      "operator": "Signal Hill Petroleum, Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403711813",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
-    },
-    {
-      "lat": 33.81929,
-      "lon": -118.19022,
-      "status": "Active",
-      "operator": "Arrowhead Operating, Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403709885",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
+      "blvd": "Adams Boulevard"
     },
     {
       "lat": 33.81657,
@@ -3540,8 +3129,97 @@
       "field": "Long Beach",
       "type": "Oil & Gas",
       "api": "0403709947",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81929,
+      "lon": -118.19022,
+      "status": "Active",
+      "operator": "Arrowhead Operating, Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403709885",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81743,
+      "lon": -118.18642,
+      "status": "Active",
+      "operator": "Arrowhead Operating, Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403709575",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81558,
+      "lon": -118.18761,
+      "status": "Active",
+      "operator": "Herley-Kelley LLC",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403709964",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81783,
+      "lon": -118.18642,
+      "status": "Active",
+      "operator": "TJ Scott Family Investments, LLC",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403709658",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81317,
+      "lon": -118.1875,
+      "status": "Active",
+      "operator": "S & C Oil Co., Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403710380",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81736,
+      "lon": -118.18747,
+      "status": "Active",
+      "operator": "Signal Hill Petroleum, Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403711806",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81724,
+      "lon": -118.18794,
+      "status": "Active",
+      "operator": "Signal Hill Petroleum, Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403711808",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81935,
+      "lon": -118.18767,
+      "status": "Active",
+      "operator": "Arrowhead Operating, Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403709579",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81217,
+      "lon": -118.18646,
+      "status": "Active",
+      "operator": "Signal Hill Petroleum, Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403711813",
+      "blvd": "Long Beach Boulevard"
     },
     {
       "lat": 33.81816,
@@ -3551,8 +3229,7 @@
       "field": "Long Beach",
       "type": "Oil & Gas",
       "api": "0403711809",
-      "blvd": "Long Beach Boulevard",
-      "photo": "1006485113423861"
+      "blvd": "Long Beach Boulevard"
     },
     {
       "lat": 33.81601,
@@ -3562,8 +3239,7 @@
       "field": "Long Beach",
       "type": "Oil & Gas",
       "api": "0403709722",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
+      "blvd": "Long Beach Boulevard"
     },
     {
       "lat": 33.8146,
@@ -3573,8 +3249,7 @@
       "field": "Long Beach",
       "type": "Oil & Gas",
       "api": "0403711341",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
+      "blvd": "Long Beach Boulevard"
     },
     {
       "lat": 33.81278,
@@ -3584,8 +3259,7 @@
       "field": "Long Beach",
       "type": "Oil & Gas",
       "api": "0403716555",
-      "blvd": "Long Beach Boulevard",
-      "photo": null
+      "blvd": "Long Beach Boulevard"
     },
     {
       "lat": 33.80285,
@@ -3595,8 +3269,7 @@
       "field": "Long Beach",
       "type": "Oil & Gas",
       "api": "0403706377",
-      "blvd": "Sunrise Boulevard",
-      "photo": null
+      "blvd": "Sunrise Boulevard"
     },
     {
       "lat": 34.06408,
@@ -3606,8 +3279,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403719008",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06422,
@@ -3617,8 +3289,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403716578",
-      "blvd": "Beverly Boulevard",
-      "photo": null
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06402,
@@ -3628,8 +3299,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403723040",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06399,
@@ -3639,8 +3309,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403723041",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06404,
@@ -3650,8 +3319,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403719009",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06393,
@@ -3661,8 +3329,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403719010",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06401,
@@ -3672,8 +3339,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403722861",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06413,
@@ -3683,8 +3349,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403723036",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06411,
@@ -3694,8 +3359,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403723037",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06409,
@@ -3705,8 +3369,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403723038",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.06407,
@@ -3716,8 +3379,7 @@
       "field": "Los Angeles City",
       "type": "Oil & Gas",
       "api": "0403723039",
-      "blvd": "Beverly Boulevard",
-      "photo": "1000425747160410"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.03677,
@@ -3727,8 +3389,7 @@
       "field": "Los Angeles Downtown",
       "type": "Oil & Gas",
       "api": "0403720204",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.03667,
@@ -3738,8 +3399,7 @@
       "field": "Los Angeles Downtown",
       "type": "Oil & Gas",
       "api": "0403700466",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.03675,
@@ -3749,8 +3409,7 @@
       "field": "Los Angeles Downtown",
       "type": "Oil & Gas",
       "api": "0403700463",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.0368,
@@ -3760,8 +3419,7 @@
       "field": "Los Angeles Downtown",
       "type": "Oil & Gas",
       "api": "0403720118",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.03675,
@@ -3771,8 +3429,7 @@
       "field": "Los Angeles Downtown",
       "type": "Oil & Gas",
       "api": "0403711873",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.03679,
@@ -3782,8 +3439,7 @@
       "field": "Los Angeles Downtown",
       "type": "Oil & Gas",
       "api": "0403711868",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.03682,
@@ -3793,8 +3449,7 @@
       "field": "Los Angeles Downtown",
       "type": "Oil & Gas",
       "api": "0403720833",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.03668,
@@ -3804,8 +3459,7 @@
       "field": "Los Angeles Downtown",
       "type": "Oil & Gas",
       "api": "0403720923",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.03372,
@@ -3815,8 +3469,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725276",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.02895,
@@ -3826,8 +3479,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403712366",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.03393,
@@ -3837,8 +3489,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403710874",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.03254,
@@ -3848,8 +3499,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403711882",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.02757,
@@ -3859,8 +3509,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403711885",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.03253,
@@ -3870,8 +3519,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725041",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.02739,
@@ -3881,8 +3529,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725357",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.03244,
@@ -3892,8 +3539,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725095",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.02731,
@@ -3903,8 +3549,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725361",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.03049,
@@ -3914,8 +3559,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403711935",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.02844,
@@ -3925,8 +3569,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725368",
-      "blvd": "Montebello Boulevard",
-      "photo": "154620913294101"
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.02839,
@@ -3936,8 +3579,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725369",
-      "blvd": "Montebello Boulevard",
-      "photo": "154620913294101"
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.02865,
@@ -3947,8 +3589,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725126",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.02849,
@@ -3958,8 +3599,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725127",
-      "blvd": "Montebello Boulevard",
-      "photo": "154620913294101"
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.02711,
@@ -3969,8 +3609,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725365",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.03187,
@@ -3980,8 +3619,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725291",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.03179,
@@ -3991,8 +3629,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725292",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.0335,
@@ -4002,8 +3639,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725268",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.02717,
@@ -4013,8 +3649,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725299",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.03242,
@@ -4024,8 +3659,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725359",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.03089,
@@ -4035,8 +3669,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725104",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.03176,
@@ -4046,8 +3679,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403725311",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.03432,
@@ -4057,8 +3689,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403712063",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.03353,
@@ -4068,8 +3699,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403712065",
-      "blvd": "Montebello Boulevard",
-      "photo": null
+      "blvd": "Montebello Boulevard"
     },
     {
       "lat": 34.03151,
@@ -4079,8 +3709,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403726937",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.03163,
@@ -4090,8 +3719,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403727107",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.03159,
@@ -4101,8 +3729,7 @@
       "field": "Montebello",
       "type": "Oil & Gas",
       "api": "0403730299",
-      "blvd": "San Gabriel Boulevard",
-      "photo": null
+      "blvd": "San Gabriel Boulevard"
     },
     {
       "lat": 34.37933,
@@ -4112,8 +3739,7 @@
       "field": "Placerita",
       "type": "Oil & Gas",
       "api": "0403730318",
-      "blvd": "Placeritos Boulevard",
-      "photo": null
+      "blvd": "Placeritos Boulevard"
     },
     {
       "lat": 34.38272,
@@ -4123,8 +3749,7 @@
       "field": "Placerita",
       "type": "Oil & Gas",
       "api": "0403723505",
-      "blvd": "Placeritos Boulevard",
-      "photo": null
+      "blvd": "Placeritos Boulevard"
     },
     {
       "lat": 33.91874,
@@ -4134,8 +3759,7 @@
       "field": "Rosecrans",
       "type": "Oil & Gas",
       "api": "0403714392",
-      "blvd": "Laconia Boulevard",
-      "photo": null
+      "blvd": "Laconia Boulevard"
     },
     {
       "lat": 33.89228,
@@ -4145,19 +3769,7 @@
       "field": "Rosecrans, South",
       "type": "Oil & Gas",
       "api": "0403714591",
-      "blvd": "Redondo Beach Boulevard",
-      "photo": null
-    },
-    {
-      "lat": 33.89113,
-      "lon": -118.26923,
-      "status": "Active",
-      "operator": "Bridgeland Resources, LLC",
-      "field": "Rosecrans, South",
-      "type": "Oil & Gas",
-      "api": "0403714590",
-      "blvd": "Redondo Beach Boulevard",
-      "photo": "1006294254195584"
+      "blvd": "Redondo Beach Boulevard"
     },
     {
       "lat": 33.8909,
@@ -4167,8 +3779,17 @@
       "field": "Rosecrans, South",
       "type": "Oil & Gas",
       "api": "0403714568",
-      "blvd": "Redondo Beach Boulevard",
-      "photo": "1015015537183406"
+      "blvd": "Redondo Beach Boulevard"
+    },
+    {
+      "lat": 33.89113,
+      "lon": -118.26923,
+      "status": "Active",
+      "operator": "Bridgeland Resources, LLC",
+      "field": "Rosecrans, South",
+      "type": "Oil & Gas",
+      "api": "0403714590",
+      "blvd": "Redondo Beach Boulevard"
     },
     {
       "lat": 33.89107,
@@ -4178,8 +3799,7 @@
       "field": "Rosecrans, South",
       "type": "Oil & Gas",
       "api": "0403714569",
-      "blvd": "Redondo Beach Boulevard",
-      "photo": "1008920464527657"
+      "blvd": "Redondo Beach Boulevard"
     },
     {
       "lat": 34.07477,
@@ -4189,8 +3809,7 @@
       "field": "Salt Lake",
       "type": "Oil & Gas",
       "api": "0403714609",
-      "blvd": "San Vicente Boulevard",
-      "photo": "1002781433792419"
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07478,
@@ -4200,8 +3819,7 @@
       "field": "Salt Lake",
       "type": "Oil & Gas",
       "api": "0403714616",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07543,
@@ -4211,8 +3829,7 @@
       "field": "Salt Lake",
       "type": "Oil & Gas",
       "api": "0403721449",
-      "blvd": "La Cienega Boulevard",
-      "photo": "800459440596637"
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07539,
@@ -4222,8 +3839,7 @@
       "field": "Salt Lake",
       "type": "Oil & Gas",
       "api": "0403721426",
-      "blvd": "La Cienega Boulevard",
-      "photo": "800459440596637"
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07539,
@@ -4233,8 +3849,7 @@
       "field": "Salt Lake",
       "type": "Oil & Gas",
       "api": "0403721479",
-      "blvd": "Beverly Boulevard",
-      "photo": null
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.07502,
@@ -4244,8 +3859,7 @@
       "field": "Salt Lake",
       "type": "Oil & Gas",
       "api": "0403725238",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07502,
@@ -4255,8 +3869,7 @@
       "field": "Salt Lake",
       "type": "Oil & Gas",
       "api": "0403725244",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.0512,
@@ -4266,8 +3879,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721117",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05119,
@@ -4277,8 +3889,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721056",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05122,
@@ -4288,8 +3899,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721125",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05121,
@@ -4299,8 +3909,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721132",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05121,
@@ -4310,8 +3919,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721135",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05123,
@@ -4321,8 +3929,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721144",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05124,
@@ -4332,8 +3939,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721172",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05125,
@@ -4343,8 +3949,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721210",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05124,
@@ -4354,8 +3959,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721192",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.0512,
@@ -4365,8 +3969,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721414",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.0512,
@@ -4376,8 +3979,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721422",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05107,
@@ -4387,8 +3989,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721437",
-      "blvd": "Pico Boulevard",
-      "photo": "1007719846429191"
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05123,
@@ -4398,8 +3999,7 @@
       "field": "Salt Lake, South",
       "type": "Oil & Gas",
       "api": "0403721448",
-      "blvd": "Pico Boulevard",
-      "photo": null
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.07512,
@@ -4409,8 +4009,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720778",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07505,
@@ -4420,8 +4019,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403706480",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07502,
@@ -4431,8 +4029,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720834",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07495,
@@ -4442,8 +4039,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720832",
-      "blvd": "San Vicente Boulevard",
-      "photo": "1002781433792419"
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07484,
@@ -4453,8 +4049,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720889",
-      "blvd": "San Vicente Boulevard",
-      "photo": "1002781433792419"
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.0755,
@@ -4464,8 +4059,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721062",
-      "blvd": "Beverly Boulevard",
-      "photo": null
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.07477,
@@ -4475,8 +4069,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720914",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07472,
@@ -4486,8 +4079,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720891",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07473,
@@ -4497,8 +4089,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720933",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1093846837764549"
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07468,
@@ -4508,8 +4099,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720996",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07465,
@@ -4519,8 +4109,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720943",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1093846837764549"
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07495,
@@ -4530,8 +4119,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720956",
-      "blvd": "San Vicente Boulevard",
-      "photo": "1002781433792419"
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07516,
@@ -4541,8 +4129,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720963",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07483,
@@ -4552,8 +4139,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720974",
-      "blvd": "San Vicente Boulevard",
-      "photo": "1002781433792419"
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07475,
@@ -4563,8 +4149,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721096",
-      "blvd": "San Vicente Boulevard",
-      "photo": "1002781433792419"
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07464,
@@ -4574,8 +4159,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720148",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07475,
@@ -4585,8 +4169,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721023",
-      "blvd": "La Cienega Boulevard",
-      "photo": "1093846837764549"
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07483,
@@ -4596,8 +4179,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721055",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07489,
@@ -4607,8 +4189,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721045",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07496,
@@ -4618,8 +4199,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721063",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07499,
@@ -4629,8 +4209,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721136",
-      "blvd": "San Vicente Boulevard",
-      "photo": "1002781433792419"
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07547,
@@ -4640,8 +4219,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720723",
-      "blvd": "Beverly Boulevard",
-      "photo": "800459440596637"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.07507,
@@ -4651,8 +4229,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721130",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.0752,
@@ -4662,8 +4239,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721200",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07501,
@@ -4673,8 +4249,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721265",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07512,
@@ -4684,8 +4259,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721315",
-      "blvd": "La Cienega Boulevard",
-      "photo": null
+      "blvd": "North La Cienega Boulevard"
     },
     {
       "lat": 34.07521,
@@ -4695,8 +4269,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721334",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07527,
@@ -4706,8 +4279,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721346",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07527,
@@ -4717,8 +4289,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721385",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07537,
@@ -4728,8 +4299,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403720772",
-      "blvd": "Beverly Boulevard",
-      "photo": null
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.07533,
@@ -4739,8 +4309,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721382",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07546,
@@ -4750,8 +4319,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403721415",
-      "blvd": "Beverly Boulevard",
-      "photo": "800459440596637"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.07536,
@@ -4761,8 +4329,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403722009",
-      "blvd": "Beverly Boulevard",
-      "photo": "800459440596637"
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.07504,
@@ -4772,8 +4339,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403722000",
-      "blvd": "San Vicente Boulevard",
-      "photo": null
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 34.07499,
@@ -4783,8 +4349,7 @@
       "field": "San Vicente",
       "type": "Oil & Gas",
       "api": "0403722008",
-      "blvd": "San Vicente Boulevard",
-      "photo": "1002781433792419"
+      "blvd": "South San Vicente Boulevard"
     },
     {
       "lat": 33.95776,
@@ -4794,8 +4359,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715318",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95788,
@@ -4805,8 +4369,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715327",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95798,
@@ -4816,8 +4379,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715328",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95807,
@@ -4827,8 +4389,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715332",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95774,
@@ -4838,8 +4399,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715333",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95771,
@@ -4849,8 +4409,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715334",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.9581,
@@ -4860,8 +4419,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715319",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95763,
@@ -4871,8 +4429,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715337",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95762,
@@ -4882,8 +4439,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715338",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.9576,
@@ -4893,8 +4449,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715339",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95791,
@@ -4904,8 +4459,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715340",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95798,
@@ -4915,8 +4469,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715341",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95758,
@@ -4926,8 +4479,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715342",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95811,
@@ -4937,8 +4489,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715343",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95761,
@@ -4948,8 +4499,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715344",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.9577,
@@ -4959,8 +4509,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715345",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95768,
@@ -4970,8 +4519,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715346",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95779,
@@ -4981,8 +4529,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715320",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95765,
@@ -4992,8 +4539,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715347",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95786,
@@ -5003,8 +4549,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715321",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95781,
@@ -5014,8 +4559,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715323",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95793,
@@ -5025,8 +4569,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715324",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95795,
@@ -5036,8 +4579,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715325",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.95784,
@@ -5047,8 +4589,7 @@
       "field": "Sansinena",
       "type": "Oil & Gas",
       "api": "0403715326",
-      "blvd": "Harbor Boulevard",
-      "photo": null
+      "blvd": "Harbor Boulevard"
     },
     {
       "lat": 33.94675,
@@ -5058,8 +4599,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403715840",
-      "blvd": "Norwalk Boulevard",
-      "photo": null
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 33.9449,
@@ -5069,8 +4609,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403715946",
-      "blvd": "Norwalk Boulevard",
-      "photo": null
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 33.9448,
@@ -5080,8 +4619,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403715945",
-      "blvd": "Norwalk Boulevard",
-      "photo": null
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 33.94507,
@@ -5091,8 +4629,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403715947",
-      "blvd": "Norwalk Boulevard",
-      "photo": null
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 33.94511,
@@ -5102,8 +4639,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403726502",
-      "blvd": "Norwalk Boulevard",
-      "photo": null
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 33.9451,
@@ -5113,8 +4649,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403726503",
-      "blvd": "Norwalk Boulevard",
-      "photo": null
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 33.94507,
@@ -5124,8 +4659,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403727072",
-      "blvd": "Norwalk Boulevard",
-      "photo": null
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 33.94397,
@@ -5135,8 +4669,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403716426",
-      "blvd": "Pioneer Boulevard",
-      "photo": null
+      "blvd": "Pioneer Boulevard"
     },
     {
       "lat": 33.9437,
@@ -5146,8 +4679,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403716427",
-      "blvd": "Pioneer Boulevard",
-      "photo": null
+      "blvd": "Pioneer Boulevard"
     },
     {
       "lat": 33.94139,
@@ -5157,8 +4689,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403714746",
-      "blvd": "Norwalk Boulevard",
-      "photo": null
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 33.94165,
@@ -5168,8 +4699,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403715816",
-      "blvd": "Norwalk Boulevard",
-      "photo": null
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 33.94371,
@@ -5179,8 +4709,7 @@
       "field": "Santa Fe Springs",
       "type": "Oil & Gas",
       "api": "0403715818",
-      "blvd": "Norwalk Boulevard",
-      "photo": "1174557020244313"
+      "blvd": "Norwalk Boulevard"
     },
     {
       "lat": 34.05932,
@@ -5190,8 +4719,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403720358",
-      "blvd": "Sepulveda Boulevard",
-      "photo": "1168342456979783"
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05926,
@@ -5201,8 +4729,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403720479",
-      "blvd": "Sepulveda Boulevard",
-      "photo": "1168342456979783"
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05934,
@@ -5212,8 +4739,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403720756",
-      "blvd": "Sepulveda Boulevard",
-      "photo": null
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05906,
@@ -5223,8 +4749,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403720887",
-      "blvd": "Sepulveda Boulevard",
-      "photo": null
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05888,
@@ -5234,8 +4759,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403723796",
-      "blvd": "Sepulveda Boulevard",
-      "photo": null
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05883,
@@ -5245,8 +4769,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403725331",
-      "blvd": "Sepulveda Boulevard",
-      "photo": null
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05886,
@@ -5256,8 +4779,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403723797",
-      "blvd": "Sepulveda Boulevard",
-      "photo": null
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05928,
@@ -5267,8 +4789,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403716756",
-      "blvd": "Sepulveda Boulevard",
-      "photo": "1168342456979783"
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05903,
@@ -5278,8 +4799,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403716758",
-      "blvd": "Sepulveda Boulevard",
-      "photo": null
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05906,
@@ -5289,8 +4809,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403700114",
-      "blvd": "Sepulveda Boulevard",
-      "photo": null
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.0593,
@@ -5300,8 +4819,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403700126",
-      "blvd": "Sepulveda Boulevard",
-      "photo": "1168342456979783"
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 34.05904,
@@ -5311,8 +4829,7 @@
       "field": "Sawtelle",
       "type": "Oil & Gas",
       "api": "0403720018",
-      "blvd": "Sepulveda Boulevard",
-      "photo": null
+      "blvd": "Sepulveda Boulevard"
     },
     {
       "lat": 33.79557,
@@ -5322,8 +4839,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403706498",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79977,
@@ -5333,8 +4849,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403717088",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.84763,
@@ -5344,8 +4859,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716804",
-      "blvd": "Del Amo Boulevard",
-      "photo": "10077020762326032"
+      "blvd": "Del Amo Boulevard"
     },
     {
       "lat": 33.79612,
@@ -5355,8 +4869,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716597",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79173,
@@ -5366,8 +4879,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716604",
-      "blvd": "Wilmington Boulevard",
-      "photo": null
+      "blvd": "Wilmington Boulevard"
     },
     {
       "lat": 33.79105,
@@ -5377,8 +4889,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716608",
-      "blvd": "Wilmington Boulevard",
-      "photo": null
+      "blvd": "Wilmington Boulevard"
     },
     {
       "lat": 33.84764,
@@ -5388,8 +4899,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716805",
-      "blvd": "Del Amo Boulevard",
-      "photo": null
+      "blvd": "Del Amo Boulevard"
     },
     {
       "lat": 33.7921,
@@ -5399,8 +4909,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716605",
-      "blvd": "Wilmington Boulevard",
-      "photo": null
+      "blvd": "Wilmington Boulevard"
     },
     {
       "lat": 33.84772,
@@ -5410,8 +4919,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403702096",
-      "blvd": "Del Amo Boulevard",
-      "photo": "1004342091634025"
+      "blvd": "Del Amo Boulevard"
     },
     {
       "lat": 33.79269,
@@ -5421,8 +4929,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716600",
-      "blvd": "Wilmington Boulevard",
-      "photo": null
+      "blvd": "Wilmington Boulevard"
     },
     {
       "lat": 33.84775,
@@ -5432,8 +4939,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403702097",
-      "blvd": "Del Amo Boulevard",
-      "photo": null
+      "blvd": "Del Amo Boulevard"
     },
     {
       "lat": 33.81967,
@@ -5443,8 +4949,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403717913",
-      "blvd": "Crenshaw Boulevard",
-      "photo": "1064378294302706"
+      "blvd": "Crenshaw Boulevard"
     },
     {
       "lat": 33.79266,
@@ -5454,8 +4959,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716601",
-      "blvd": "Wilmington Boulevard",
-      "photo": null
+      "blvd": "Wilmington Boulevard"
     },
     {
       "lat": 33.79547,
@@ -5465,8 +4969,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403717532",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79609,
@@ -5476,8 +4979,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403717533",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79609,
@@ -5487,8 +4989,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403717538",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79479,
@@ -5498,8 +4999,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403717542",
-      "blvd": "Wilmington Boulevard",
-      "photo": null
+      "blvd": "Wilmington Boulevard"
     },
     {
       "lat": 33.7987,
@@ -5509,8 +5009,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403721785",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79716,
@@ -5520,8 +5019,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403718036",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79715,
@@ -5531,8 +5029,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403718038",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.7958,
@@ -5542,8 +5039,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403718041",
-      "blvd": "Lomita Boulevard",
-      "photo": "1026022951264797"
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.8,
@@ -5553,8 +5049,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716935",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.80001,
@@ -5564,8 +5059,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716936",
-      "blvd": "Lomita Boulevard",
-      "photo": "1059911309691383"
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79826,
@@ -5575,8 +5069,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716945",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79701,
@@ -5586,8 +5079,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403718026",
-      "blvd": "Lomita Boulevard",
-      "photo": "2180669938736598"
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79845,
@@ -5597,8 +5089,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716927",
-      "blvd": "Lomita Boulevard",
-      "photo": "154561016678524"
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79998,
@@ -5608,8 +5099,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716928",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79715,
@@ -5619,8 +5109,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403722550",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79842,
@@ -5630,8 +5119,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403716932",
-      "blvd": "Lomita Boulevard",
-      "photo": "1063588460832869"
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79377,
@@ -5641,8 +5129,7 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403717624",
-      "blvd": "Wilmington Boulevard",
-      "photo": null
+      "blvd": "Wilmington Boulevard"
     },
     {
       "lat": 33.76301,
@@ -5652,8 +5139,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727266",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75893,
@@ -5663,8 +5149,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727188",
-      "blvd": "Seaside Boulevard",
-      "photo": "2659727537661091"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76303,
@@ -5674,8 +5159,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727268",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76308,
@@ -5685,8 +5169,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727269",
-      "blvd": "Seaside Boulevard",
-      "photo": "1213508389080462"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75893,
@@ -5696,8 +5179,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727189",
-      "blvd": "Seaside Boulevard",
-      "photo": "2659727537661091"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76311,
@@ -5707,8 +5189,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727264",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75879,
@@ -5718,8 +5199,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727259",
-      "blvd": "Seaside Boulevard",
-      "photo": "164233455537829"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76299,
@@ -5729,8 +5209,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727302",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75877,
@@ -5740,8 +5219,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727295",
-      "blvd": "Seaside Boulevard",
-      "photo": "164233455537829"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75876,
@@ -5751,8 +5229,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727274",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75872,
@@ -5762,8 +5239,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727402",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75867,
@@ -5773,8 +5249,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727296",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75867,
@@ -5784,8 +5259,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727374",
-      "blvd": "Seaside Boulevard",
-      "photo": "1247659027508173"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75848,
@@ -5795,8 +5269,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727256",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75848,
@@ -5806,8 +5279,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727260",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75861,
@@ -5817,8 +5289,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730385",
-      "blvd": "Seaside Boulevard",
-      "photo": "129299205894373"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75844,
@@ -5828,8 +5299,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727294",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75897,
@@ -5839,8 +5309,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727405",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75924,
@@ -5850,8 +5319,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727283",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75923,
@@ -5861,8 +5329,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730073",
-      "blvd": "Seaside Boulevard",
-      "photo": "1135817791889947"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75914,
@@ -5872,8 +5339,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727389",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75914,
@@ -5883,8 +5349,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730100",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75909,
@@ -5894,8 +5359,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730269",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75907,
@@ -5905,8 +5369,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727451",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75891,
@@ -5916,8 +5379,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727420",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75889,
@@ -5927,8 +5389,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727419",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75844,
@@ -5938,8 +5399,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730196",
-      "blvd": "Seaside Boulevard",
-      "photo": "838673783525834"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75841,
@@ -5949,8 +5409,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730197",
-      "blvd": "Seaside Boulevard",
-      "photo": "838673783525834"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75841,
@@ -5960,8 +5419,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730198",
-      "blvd": "Seaside Boulevard",
-      "photo": "838673783525834"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.7584,
@@ -5971,8 +5429,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730199",
-      "blvd": "Seaside Boulevard",
-      "photo": "838673783525834"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75842,
@@ -5982,8 +5439,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730200",
-      "blvd": "Seaside Boulevard",
-      "photo": "838673783525834"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.7584,
@@ -5993,8 +5449,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730202",
-      "blvd": "Seaside Boulevard",
-      "photo": "838673783525834"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75835,
@@ -6004,8 +5459,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730203",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.80009,
@@ -6015,8 +5469,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403705053",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.77681,
@@ -6026,8 +5479,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403703834",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78179,
@@ -6037,8 +5489,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730525",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.7818,
@@ -6048,8 +5499,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727006",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78183,
@@ -6059,8 +5509,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730523",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.7819,
@@ -6070,8 +5519,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727005",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78196,
@@ -6081,8 +5529,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730522",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78195,
@@ -6092,8 +5539,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726564",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78196,
@@ -6103,8 +5549,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730521",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78201,
@@ -6114,8 +5559,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730520",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78203,
@@ -6125,8 +5569,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726535",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78208,
@@ -6136,8 +5579,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730518",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78211,
@@ -6147,8 +5589,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403725183",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78215,
@@ -6158,8 +5599,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730519",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78216,
@@ -6169,8 +5609,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730298",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78218,
@@ -6180,8 +5619,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730280",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78228,
@@ -6191,8 +5629,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726616",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78234,
@@ -6202,8 +5639,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730423",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78239,
@@ -6213,8 +5649,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726967",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78241,
@@ -6224,8 +5659,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730265",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78246,
@@ -6235,8 +5669,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727391",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78247,
@@ -6246,8 +5679,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727184",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78254,
@@ -6257,8 +5689,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727187",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78257,
@@ -6268,8 +5699,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727130",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78259,
@@ -6279,8 +5709,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727125",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78264,
@@ -6290,8 +5719,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727127",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78266,
@@ -6301,8 +5729,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727128",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78267,
@@ -6312,8 +5739,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726987",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.7827,
@@ -6323,8 +5749,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726988",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78275,
@@ -6334,8 +5759,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727117",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78181,
@@ -6345,8 +5769,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727002",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78199,
@@ -6356,8 +5779,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726544",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78218,
@@ -6367,8 +5789,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403725177",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78214,
@@ -6378,8 +5799,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730406",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78217,
@@ -6389,8 +5809,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730427",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78218,
@@ -6400,8 +5819,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730310",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78222,
@@ -6411,8 +5829,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730331",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78227,
@@ -6422,8 +5839,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730264",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.7823,
@@ -6433,8 +5849,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727272",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78232,
@@ -6444,8 +5859,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726663",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78233,
@@ -6455,8 +5869,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727262",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78235,
@@ -6466,8 +5879,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727270",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78238,
@@ -6477,8 +5889,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730293",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.7824,
@@ -6488,8 +5899,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726559",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78242,
@@ -6499,8 +5909,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727307",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78243,
@@ -6510,8 +5919,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727311",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78245,
@@ -6521,8 +5929,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727304",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78247,
@@ -6532,8 +5939,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727325",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78252,
@@ -6543,8 +5949,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727222",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78253,
@@ -6554,8 +5959,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727223",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78256,
@@ -6565,8 +5969,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726703",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78258,
@@ -6576,8 +5979,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727345",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.7826,
@@ -6587,8 +5989,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727372",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78263,
@@ -6598,8 +5999,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730341",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78946,
@@ -6609,8 +6009,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727354",
-      "blvd": "Avalon Boulevard",
-      "photo": null
+      "blvd": "Avalon Boulevard"
     },
     {
       "lat": 33.7827,
@@ -6620,8 +6019,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727344",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78273,
@@ -6631,8 +6029,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726965",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78275,
@@ -6642,8 +6039,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726964",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78276,
@@ -6653,8 +6049,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726745",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78174,
@@ -6664,8 +6059,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726920",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78175,
@@ -6675,8 +6069,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726990",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78179,
@@ -6686,8 +6079,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727261",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78185,
@@ -6697,8 +6089,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726557",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78189,
@@ -6708,8 +6099,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727263",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78205,
@@ -6719,8 +6109,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727415",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78202,
@@ -6730,8 +6119,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726537",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78205,
@@ -6741,8 +6129,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727407",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78334,
@@ -6752,8 +6139,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727438",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.7821,
@@ -6763,8 +6149,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726546",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78231,
@@ -6774,8 +6159,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730149",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78246,
@@ -6785,8 +6169,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730151",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78254,
@@ -6796,8 +6179,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730138",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78268,
@@ -6807,8 +6189,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726782",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78183,
@@ -6818,8 +6199,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726978",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78189,
@@ -6829,8 +6209,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726624",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78196,
@@ -6840,8 +6219,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727412",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78201,
@@ -6851,8 +6229,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727015",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78202,
@@ -6862,8 +6239,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727014",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78204,
@@ -6873,8 +6249,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727012",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78206,
@@ -6884,8 +6259,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726617",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78207,
@@ -6895,8 +6269,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727011",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78209,
@@ -6906,8 +6279,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727008",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78211,
@@ -6917,8 +6289,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726963",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78222,
@@ -6928,8 +6299,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726618",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.7823,
@@ -6939,8 +6309,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726747",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78239,
@@ -6950,8 +6319,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726752",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78249,
@@ -6961,8 +6329,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730122",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78254,
@@ -6972,8 +6339,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403730087",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.7826,
@@ -6983,8 +6349,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726783",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78275,
@@ -6994,8 +6359,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726786",
-      "blvd": "Banning Boulevard",
-      "photo": null
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78051,
@@ -7005,8 +6369,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726961",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78066,
@@ -7016,8 +6379,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726769",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78073,
@@ -7027,8 +6389,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726770",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78086,
@@ -7038,8 +6399,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726792",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78099,
@@ -7049,8 +6409,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726801",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78132,
@@ -7060,8 +6419,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726871",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78056,
@@ -7071,8 +6429,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726771",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78062,
@@ -7082,8 +6439,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726772",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78082,
@@ -7093,8 +6449,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726872",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78088,
@@ -7104,8 +6459,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726791",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78095,
@@ -7115,8 +6469,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726911",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78101,
@@ -7126,8 +6479,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726912",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78108,
@@ -7137,8 +6489,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726913",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78115,
@@ -7148,8 +6499,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726914",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78121,
@@ -7159,8 +6509,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726779",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78128,
@@ -7170,8 +6519,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726784",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.78141,
@@ -7181,8 +6529,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726904",
-      "blvd": "Banning Boulevard",
-      "photo": "166144255438960"
+      "blvd": "Banning Boulevard"
     },
     {
       "lat": 33.79996,
@@ -7192,8 +6539,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403705055",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79994,
@@ -7203,8 +6549,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403722886",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.80066,
@@ -7214,8 +6559,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403723092",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79996,
@@ -7225,8 +6569,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403722884",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79997,
@@ -7236,8 +6579,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403722885",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.8,
@@ -7247,8 +6589,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403722874",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.80004,
@@ -7258,8 +6599,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403722865",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.80005,
@@ -7269,8 +6609,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403722815",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.80056,
@@ -7280,8 +6619,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403723151",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79796,
@@ -7291,8 +6629,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403722984",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.77,
@@ -7302,8 +6639,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403703789",
-      "blvd": "Harry Bridges Boulevard",
-      "photo": "375604637029658"
+      "blvd": "Harry Bridges Boulevard"
     },
     {
       "lat": 33.79802,
@@ -7313,8 +6649,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403722487",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79803,
@@ -7324,8 +6659,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403723078",
-      "blvd": "Lomita Boulevard",
-      "photo": null
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.76345,
@@ -7335,8 +6669,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403704048",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76777,
@@ -7346,8 +6679,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403703396",
-      "blvd": "Ocean Boulevard",
-      "photo": "118276850311414"
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.7631,
@@ -7357,8 +6689,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403704095",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76307,
@@ -7368,8 +6699,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403704096",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76842,
@@ -7379,8 +6709,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727463",
-      "blvd": "Ocean Boulevard",
-      "photo": null
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76851,
@@ -7390,8 +6719,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727398",
-      "blvd": "Ocean Boulevard",
-      "photo": "1135051300359800"
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76856,
@@ -7401,8 +6729,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727399",
-      "blvd": "Ocean Boulevard",
-      "photo": "1135051300359800"
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76861,
@@ -7412,8 +6739,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727400",
-      "blvd": "Ocean Boulevard",
-      "photo": null
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.7687,
@@ -7423,8 +6749,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727401",
-      "blvd": "Ocean Boulevard",
-      "photo": "1135051300359800"
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76873,
@@ -7434,8 +6759,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727394",
-      "blvd": "Ocean Boulevard",
-      "photo": "1135051300359800"
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76879,
@@ -7445,8 +6769,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403727392",
-      "blvd": "Ocean Boulevard",
-      "photo": "1135051300359800"
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76882,
@@ -7456,8 +6779,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726870",
-      "blvd": "Ocean Boulevard",
-      "photo": "1135051300359800"
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76679,
@@ -7467,8 +6789,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403702260",
-      "blvd": "Ocean Boulevard",
-      "photo": null
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76743,
@@ -7478,8 +6799,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403702263",
-      "blvd": "Ocean Boulevard",
-      "photo": "183728773615582"
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.7683,
@@ -7489,8 +6809,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403702265",
-      "blvd": "Ocean Boulevard",
-      "photo": null
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76337,
@@ -7500,8 +6819,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726760",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76373,
@@ -7511,8 +6829,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403703648",
-      "blvd": "Seaside Boulevard",
-      "photo": "1305272289868603"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76275,
@@ -7522,8 +6839,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726931",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76237,
@@ -7533,8 +6849,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403725293",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.7633,
@@ -7544,8 +6859,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726441",
-      "blvd": "Seaside Boulevard",
-      "photo": "1062466106096109"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76343,
@@ -7555,8 +6869,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726757",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76267,
@@ -7566,8 +6879,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726778",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.76262,
@@ -7577,8 +6889,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726430",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75986,
@@ -7588,8 +6899,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403702592",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75964,
@@ -7599,8 +6909,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403702646",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75811,
@@ -7610,8 +6919,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403702568",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.75954,
@@ -7621,8 +6929,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403725252",
-      "blvd": "Seaside Boulevard",
-      "photo": null
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.758,
@@ -7632,8 +6939,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403726433",
-      "blvd": "Seaside Boulevard",
-      "photo": "1367736330255150"
+      "blvd": "Seaside Boulevard"
     },
     {
       "lat": 33.7648,
@@ -7643,8 +6949,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403702931",
-      "blvd": "Ocean Boulevard",
-      "photo": "1142307476244090"
+      "blvd": "Ocean Boulevard"
     },
     {
       "lat": 33.76461,
@@ -7654,8 +6959,7 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403702980",
-      "blvd": "Ocean Boulevard",
-      "photo": "1000541507149637"
+      "blvd": "Ocean Boulevard"
     }
   ]
 }
