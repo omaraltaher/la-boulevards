@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-31T16:53:01.199Z",
+  "generated": "2026-04-01T16:47:48.443Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Sarah Kinsley w/ girlpuppy",
-        "date": "2026-03-31",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OAuS",
-        "image": null
-      },
-      {
         "name": "Aries",
         "date": "2026-04-01",
         "time": "20:00:00",
@@ -116,6 +109,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-kuI",
         "image": "https://s1.ticketm.net/dam/a/4e8/400720bc-af79-49b6-8b56-63f72ace44e8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Maro",
+        "date": "2026-04-30",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q3qo",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
@@ -155,6 +155,13 @@
         "image": "https://i.ticketweb.com/i/00/12/80/58/54_Edp.jpg?v=14"
       },
       {
+        "name": "Gasolina",
+        "date": "2026-04-24",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/14823813",
+        "image": "https://s1.ticketm.net/dam/a/10a/c26128f4-c3b4-409c-94bb-cd81f5a0d10a_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Lady Faith",
         "date": "2026-05-22",
         "time": "22:00:00",
@@ -167,13 +174,6 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/eli-fur-avalon-hollywood-tickets/14773473",
         "image": "https://s1.ticketm.net/dam/a/4bb/602ee3d0-a0e7-4ffb-acf0-bdef5402d4bb_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "VTSS",
-        "date": "2026-06-12",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/vtss-avalon-hollywood-tickets/14188444",
-        "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -351,13 +351,6 @@
       }
     ],
     "Alex Theatre": [
-      {
-        "name": "The Ravi Shankar Ensemble",
-        "date": "2026-03-31",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/the-ravi-shankar-ensemble-glendale-california-03-31-2026/event/0B0062DAD02929E1",
-        "image": "https://s1.ticketm.net/dam/a/45f/1140969a-ce24-4daf-83a2-477dc7fb245f_1282021_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Trio Los Panchos",
         "date": "2026-04-10",
@@ -945,6 +938,13 @@
         "image": "https://s1.ticketm.net/dam/e/3ac/bbe0878f-0f17-4d62-bb28-5f91d1bf53ac_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "South Side Sessions: Season 2 - The Khristian Foreman Quartet",
+        "date": "2026-04-09",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/south-side-sessions-season-2-the-inglewood-california-04-09-2026/event/0B00647FF80670FE",
+        "image": "https://s1.ticketm.net/dam/e/527/8c29a7e1-4866-4bd2-a80f-b2a56fbcd527_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "LOVE ON RETREAT",
         "date": "2026-04-11",
         "time": "19:00:00",
@@ -966,32 +966,25 @@
         "image": "https://s1.ticketm.net/dam/e/2b4/9ae830dd-4420-4912-8cc0-4447e1c5b2b4_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Kevin Ross 2026 Experience ",
-        "date": "2026-06-06",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/kevin-ross-2026-experience-inglewood-california-06-06-2026/event/0B0064672A0C71B0",
-        "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
+        "name": "South Side Sessions: Season 2- with Kenneth Brown II",
+        "date": "2026-04-16",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/south-side-sessions-season-2-with-inglewood-california-04-16-2026/event/0B00647FFB0A7206",
+        "image": "https://s1.ticketm.net/dam/e/1f5/c99f5061-1095-4d35-b3d4-cc6c29c5a1f5_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Kevin Ross 2026 Experience ",
-        "date": "2026-06-06",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/kevin-ross-2026-experience-inglewood-california-06-06-2026/event/0B0064672A0E71B2",
-        "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
+        "name": "South Side Sessions: Season 2 - with Chris Powe",
+        "date": "2026-04-23",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/south-side-sessions-season-2-with-inglewood-california-04-23-2026/event/0B00647FFB0C7208",
+        "image": null
       },
       {
-        "name": "Tre Floyd's Black Girl Therapy",
-        "date": "2026-09-19",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
-        "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tre Floyd's Black Girl Therapy",
-        "date": "2026-09-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18C2FF7",
-        "image": "https://s1.ticketm.net/dam/e/546/e34ffbf4-4851-479a-9054-7aa709ed5546_RECOMENDATION_16_9.jpg"
+        "name": "Cult Classics Cinema Presents Lemonade",
+        "date": "2026-04-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-lemonade-inglewood-california-04-24-2026/event/0B00647FB14054F0",
+        "image": "https://s1.ticketm.net/dam/e/1d7/c4315476-f7c0-4303-9b41-150cc07b31d7_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
