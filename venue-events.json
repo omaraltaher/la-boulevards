@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-01T16:47:48.443Z",
+  "generated": "2026-04-02T16:52:51.095Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Aries",
-        "date": "2026-04-01",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OA3K",
-        "image": "https://s1.ticketm.net/dam/a/04e/c528df0d-ff70-4ebf-afe9-7926c518e04e_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Benee w/ BAYLi",
         "date": "2026-04-03",
         "time": "20:30:00",
@@ -116,6 +109,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q3qo",
         "image": null
+      },
+      {
+        "name": "Starjunk 95",
+        "date": "2026-05-01",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OUeb",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
@@ -152,7 +152,7 @@
         "date": "2026-04-17",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/sub-zero-project-avalon-hollywood-tickets/14078754",
-        "image": "https://i.ticketweb.com/i/00/12/80/58/54_Edp.jpg?v=14"
+        "image": "https://s1.ticketm.net/dam/a/2f8/ff015278-aa8d-4ae6-b0e4-fb9fdbb622f8_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Gasolina",
@@ -166,7 +166,7 @@
         "date": "2026-05-22",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/lady-faith-avalon-hollywood-tickets/14807943",
-        "image": "https://i.ticketweb.com/i/00/13/40/91/33_Edp.jpg?v=6"
+        "image": "https://s1.ticketm.net/dam/a/c17/0e0342ee-08af-463c-a03e-a945c73d6c17_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Eli & Fur",
@@ -402,6 +402,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O6ft",
         "image": null
+      },
+      {
+        "name": "NieR: Orchestra Concert",
+        "date": "2026-11-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe1A",
+        "image": "https://s1.ticketm.net/dam/a/92a/dbc1ee3a-5189-4e0a-a9cb-d6577596b92a_1178411_RECOMENDATION_16_9.jpg"
       }
     ],
     "Orpheum Theatre": [
@@ -578,13 +585,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-04-01",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7o",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-04-02",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox73",
@@ -630,6 +630,13 @@
         "date": "2026-04-08",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPb",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-04-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7b",
         "image": null
       }
     ],
