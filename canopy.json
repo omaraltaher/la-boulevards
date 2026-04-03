@@ -1,0 +1,1030 @@
+{
+  "generated": "2026-04-03T02:25:23.067Z",
+  "canopy": {
+    "Barack Obama Boulevard": {
+      "count": 19,
+      "topSpecies": [
+        "Canary Island Pine",
+        "Jacaranda",
+        "Yew Pine"
+      ]
+    },
+    "9620 Airport Boulevard": {
+      "count": 14,
+      "topSpecies": [
+        "Southern Magnolia",
+        "Vacant - Ok To Plant",
+        "Mexican Fan Palm"
+      ]
+    },
+    "Residence Inn Los Angeles LAX/Century Boulevard": {
+      "count": 44,
+      "topSpecies": [
+        "Scarlet Bottlebrush",
+        "Mexican Fan Palm",
+        "Kaffirboom Coral Tree"
+      ]
+    },
+    "Hoover Boulevard": {
+      "count": 1,
+      "topSpecies": [
+        "Southern Magnolia"
+      ]
+    },
+    "10100 Santa Monica Boulevard": {
+      "count": 24,
+      "topSpecies": [
+        "Live Oak",
+        "Indian Laurel Fig",
+        "Other"
+      ]
+    },
+    "Courtyard Los Angeles LAX/Century Boulevard": {
+      "count": 21,
+      "topSpecies": [
+        "African Fern Pine",
+        "Vacant - Ok To Plant",
+        "American Sweetgum"
+      ]
+    },
+    "Sorth Robertson Boulevard": {
+      "count": 52,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Scarlet Bottlebrush",
+        "Jacaranda"
+      ]
+    },
+    "Southwest Boulevard": {
+      "count": 17,
+      "topSpecies": [
+        "Mock Orange",
+        "Scarlet Bottlebrush",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "South San Vicente Boulevard": {
+      "count": 55,
+      "topSpecies": [
+        "Tipu",
+        "Indian Laurel Fig",
+        "Jacaranda"
+      ]
+    },
+    "Schrader Boulevard": {
+      "count": 57,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Mexican Fan Palm",
+        "Jacaranda"
+      ]
+    },
+    "Westmoreland Boulevard": {
+      "count": 38,
+      "topSpecies": [
+        "Gold Medallion Tree",
+        "Vacant - Ok To Plant",
+        "Jacaranda"
+      ]
+    },
+    "Asilomar Boulevard": {
+      "count": 25,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Red Flowering Gum",
+        "Cajeput Tree"
+      ]
+    },
+    "Side Boulevard": {
+      "count": 63,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Vacant - Ok To Plant",
+        "Weeping Fig"
+      ]
+    },
+    "Universal Studios Boulevard": {
+      "count": 31,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Lavender Trumpet Tree",
+        "Horsetail Tree"
+      ]
+    },
+    "Grosvenor Boulevard": {
+      "count": 17,
+      "topSpecies": [
+        "Canary Island Pine",
+        "Bradford Pear",
+        "Brisbane Box"
+      ]
+    },
+    "Firth Boulevard": {
+      "count": 36,
+      "topSpecies": [
+        "Scarlet Bottlebrush",
+        "Vacant - Ok To Plant",
+        "London Plane"
+      ]
+    },
+    "Bowman Boulevard": {
+      "count": 90,
+      "topSpecies": [
+        "Vacant - Ok To Plant",
+        "Chinese Evergreen Elm",
+        "Jacaranda"
+      ]
+    },
+    "Constellation Boulevard": {
+      "count": 92,
+      "topSpecies": [
+        "London Plane",
+        "Indian Laurel Fig",
+        "Chinese Elm"
+      ]
+    },
+    "The Boulevard": {
+      "count": 19,
+      "topSpecies": [
+        "Crape Myrtle"
+      ]
+    },
+    "Grand Boulevard": {
+      "count": 253,
+      "topSpecies": [
+        "California Sycamore",
+        "California Fan Palm",
+        "Italian Stone Pine"
+      ]
+    },
+    "Cabrillo Boulevard": {
+      "count": 85,
+      "topSpecies": [
+        "Chinese Evergreen Elm",
+        "Shamel Ash",
+        "Santa Cruz Island Ironwood"
+      ]
+    },
+    "West Los Feliz Boulevard": {
+      "count": 22,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "American Sweetgum",
+        "Red Ironbark"
+      ]
+    },
+    "Laconia Boulevard": {
+      "count": 31,
+      "topSpecies": [
+        "Brazilian Pepper",
+        "Vacant - Ok To Plant",
+        "Indian Laurel Fig"
+      ]
+    },
+    "Lombardy Boulevard": {
+      "count": 106,
+      "topSpecies": [
+        "Vacant - Ok To Plant",
+        "Carrotwood",
+        "Tipu"
+      ]
+    },
+    "Jetway Boulevard": {
+      "count": 53,
+      "topSpecies": [
+        "Bradford Pear",
+        "Vacant Planting Well",
+        "Evergreen Pear"
+      ]
+    },
+    "McConnell Boulevard": {
+      "count": 21,
+      "topSpecies": [
+        "Southern Magnolia",
+        "Vacant - Ok To Plant",
+        "Carrotwood"
+      ]
+    },
+    "Pampas Ricas Boulevard": {
+      "count": 62,
+      "topSpecies": [
+        "Red Flowering Gum",
+        "Mexican Fan Palm",
+        "Southern Magnolia"
+      ]
+    },
+    "Mecca Avenue / Reseda Boulevard": {
+      "count": 69,
+      "topSpecies": [
+        "Live Oak",
+        "Crape Myrtle",
+        "Siberian Elm"
+      ]
+    },
+    "Glenfeliz Boulevard": {
+      "count": 123,
+      "topSpecies": [
+        "London Plane",
+        "American Sweetgum",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Gateway Boulevard": {
+      "count": 105,
+      "topSpecies": [
+        "Southern Magnolia",
+        "New Zealand Christmas Tree",
+        "Jacaranda"
+      ]
+    },
+    "South La Tijera Boulevard": {
+      "count": 23,
+      "topSpecies": [
+        "Modesto Ash",
+        "Vacant - Ok To Plant",
+        "California Fan Palm"
+      ]
+    },
+    "Bestor Boulevard": {
+      "count": 123,
+      "topSpecies": [
+        "American Sweetgum",
+        "Red Flowering Gum",
+        "Jacaranda"
+      ]
+    },
+    "Carlota Boulevard": {
+      "count": 38,
+      "topSpecies": [
+        "Vacant - Ok To Plant",
+        "Other",
+        "California Sycamore"
+      ]
+    },
+    "Warner Boulevard": {
+      "count": 17,
+      "topSpecies": [
+        "Southern Magnolia",
+        "Jacaranda",
+        "Crape Myrtle"
+      ]
+    },
+    "Winona Boulevard": {
+      "count": 104,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Brazilian Pepper",
+        "Deodar Cedar"
+      ]
+    },
+    "Vista Del Mar Boulevard": {
+      "count": 7,
+      "topSpecies": [
+        "Other",
+        "Red Flowering Gum"
+      ]
+    },
+    "Crane Boulevard": {
+      "count": 138,
+      "topSpecies": [
+        "Italian Cypress",
+        "So. California Black Walnut",
+        "Aleppo Pine"
+      ]
+    },
+    "Loyola Boulevard": {
+      "count": 143,
+      "topSpecies": [
+        "Carrotwood",
+        "Indian Laurel Fig",
+        "Southern Magnolia"
+      ]
+    },
+    "Lorraine Boulevard": {
+      "count": 127,
+      "topSpecies": [
+        "Camphor Tree",
+        "Canary Island Date Palm",
+        "Deodar Cedar"
+      ]
+    },
+    "Athens Boulevard": {
+      "count": 83,
+      "topSpecies": [
+        "Chinese Fan Palm",
+        "London Plane",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Larchmont Boulevard": {
+      "count": 232,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Tulip Tree",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Leimert Boulevard": {
+      "count": 153,
+      "topSpecies": [
+        "Canary Island Pine",
+        "Scarlet Bottlebrush",
+        "Chitalpa"
+      ]
+    },
+    "Poplar Boulevard": {
+      "count": 62,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Jacaranda",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Browning Boulevard": {
+      "count": 111,
+      "topSpecies": [
+        "Vacant - Ok To Plant",
+        "Canary Island Date Palm",
+        "Queen Palm"
+      ]
+    },
+    "John S Gibson Boulevard": {
+      "count": 199,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Mexican Fan Palm",
+        "New Zealand Christmas Tree"
+      ]
+    },
+    "Barham Boulevard": {
+      "count": 98,
+      "topSpecies": [
+        "Jacaranda",
+        "Victorian Box",
+        "Canary Island Pine"
+      ]
+    },
+    "Degnan Boulevard": {
+      "count": 173,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Canary Island Pine",
+        "California Fan Palm"
+      ]
+    },
+    "Abbot Kinney Boulevard": {
+      "count": 263,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Queen Palm",
+        "Indian Laurel Fig"
+      ]
+    },
+    "North San Vicente Boulevard": {
+      "count": 60,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Weeping Fig",
+        "Cajeput Tree"
+      ]
+    },
+    "Arden Boulevard": {
+      "count": 231,
+      "topSpecies": [
+        "Southern Magnolia",
+        "Queen Palm",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Irving Boulevard": {
+      "count": 225,
+      "topSpecies": [
+        "Southern Magnolia",
+        "Canary Island Date Palm",
+        "Queen Palm"
+      ]
+    },
+    "Alley s/o Victory Boulevard": {
+      "count": 13,
+      "topSpecies": [
+        "Camphor Tree",
+        "Indian Laurel Fig",
+        "Siberian Elm"
+      ]
+    },
+    "Harry Bridges Boulevard": {
+      "count": 208,
+      "topSpecies": [
+        "Hong Kong Orchid Tree",
+        "Camphor Tree",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Alta Vista Boulevard": {
+      "count": 196,
+      "topSpecies": [
+        "Canary Island Date Palm",
+        "Indian Laurel Fig",
+        "Southern Magnolia"
+      ]
+    },
+    "Alley n/o Chandler Boulevard": {
+      "count": 6,
+      "topSpecies": [
+        "Goldenrain Tree",
+        "Gold Medallion Tree",
+        "Carrotwood"
+      ]
+    },
+    "Glen Oaks Boulevard": {
+      "count": 45,
+      "topSpecies": [
+        "Canary Island Pine",
+        "Carolina Laurel Cherry",
+        "Evergreen Pear"
+      ]
+    },
+    "Alley s/o Chandler Boulevard": {
+      "count": 1,
+      "topSpecies": [
+        "Crape Myrtle"
+      ]
+    },
+    "Rampart Boulevard": {
+      "count": 20,
+      "topSpecies": [
+        "Vacant - Ok To Plant",
+        "Camphor Tree",
+        "Queen Palm"
+      ]
+    },
+    "Wilmington Boulevard": {
+      "count": 136,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Southern Magnolia",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Angeles Vista Boulevard": {
+      "count": 18,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Mexican Fan Palm",
+        "Yew Pine"
+      ]
+    },
+    "Santa Ana Boulevard": {
+      "count": 46,
+      "topSpecies": [
+        "Scarlet Bottlebrush",
+        "Weeping Bottle Brush",
+        "Jacaranda"
+      ]
+    },
+    "North La Cienega Boulevard": {
+      "count": 149,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Mexican Fan Palm",
+        "Cunningham Beefwood"
+      ]
+    },
+    "Miramonte Boulevard": {
+      "count": 4,
+      "topSpecies": [
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Airport Boulevard": {
+      "count": 222,
+      "topSpecies": [
+        "Southern Magnolia",
+        "Scarlet Bottlebrush",
+        "Vacant Planting Well"
+      ]
+    },
+    "Fairview Boulevard": {
+      "count": 13,
+      "topSpecies": [
+        "Scarlet Bottlebrush",
+        "Indian Laurel Fig",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Griffith Park Boulevard": {
+      "count": 125,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Canary Island Pine",
+        "Live Oak"
+      ]
+    },
+    "Occidental Boulevard": {
+      "count": 23,
+      "topSpecies": [
+        "Canary Island Date Palm",
+        "Canary Island Pine",
+        "Camphor Tree"
+      ]
+    },
+    "Banning Boulevard": {
+      "count": 94,
+      "topSpecies": [
+        "Camphor Tree",
+        "Indian Laurel Fig",
+        "Carob"
+      ]
+    },
+    "Grand View Boulevard": {
+      "count": 64,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Mexican Fan Palm",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Chautauqua Boulevard": {
+      "count": 158,
+      "topSpecies": [
+        "Camphor Tree",
+        "Red Flowering Gum",
+        "Mexican Fan Palm"
+      ]
+    },
+    "La Tijera Boulevard": {
+      "count": 116,
+      "topSpecies": [
+        "Scarlet Bottlebrush",
+        "Mexican Fan Palm",
+        "Carrotwood"
+      ]
+    },
+    "Alley s/o Magnolia Boulevard": {
+      "count": 25,
+      "topSpecies": [
+        "Brisbane Box",
+        "Other",
+        "Crape Myrtle"
+      ]
+    },
+    "Mona Boulevard": {
+      "count": 10,
+      "topSpecies": []
+    },
+    "Plymouth Boulevard": {
+      "count": 27,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "London Plane",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Lucerne Boulevard": {
+      "count": 13,
+      "topSpecies": [
+        "African Fern Pine",
+        "Silk-floss Tree",
+        "Fern Pine"
+      ]
+    },
+    "Windsor Boulevard": {
+      "count": 87,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Deodar Cedar",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Gardena Boulevard": {
+      "count": 33,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Scarlet Bottlebrush",
+        "Carrotwood"
+      ]
+    },
+    "Los Feliz Boulevard": {
+      "count": 204,
+      "topSpecies": [
+        "Deodar Cedar",
+        "Indian Laurel Fig",
+        "Canary Island Date Palm"
+      ]
+    },
+    "Alley n/o Magnolia Boulevard": {
+      "count": 15,
+      "topSpecies": [
+        "Crape Myrtle",
+        "Bottle Tree",
+        "Siberian Elm"
+      ]
+    },
+    "North San Fernando Boulevard": {
+      "count": 5,
+      "topSpecies": [
+        "Crape Myrtle"
+      ]
+    },
+    "Ocean Park Boulevard": {
+      "count": 85,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Canary Island Pine",
+        "Jacaranda"
+      ]
+    },
+    "Inglewood Boulevard": {
+      "count": 27,
+      "topSpecies": [
+        "American Sweetgum",
+        "Canary Island Pine",
+        "Southern Magnolia"
+      ]
+    },
+    "Hauser Boulevard": {
+      "count": 18,
+      "topSpecies": [
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Silver Lake Boulevard": {
+      "count": 12,
+      "topSpecies": [
+        "Italian Cypress",
+        "Southern Magnolia"
+      ]
+    },
+    "Tujunga Canyon Boulevard": {
+      "count": 146,
+      "topSpecies": [
+        "Evergreen Pear",
+        "California Pepper",
+        "Aleppo Pine"
+      ]
+    },
+    "Hyde Park Boulevard": {
+      "count": 24,
+      "topSpecies": [
+        "Vacant - Ok To Plant",
+        "Chinese Evergreen Elm",
+        "Queensland Pittosporum"
+      ]
+    },
+    "York Boulevard": {
+      "count": 196,
+      "topSpecies": [
+        "Crape Myrtle",
+        "Vacant - Ok To Plant",
+        "Mexican Fan Palm"
+      ]
+    },
+    "Westwood Boulevard": {
+      "count": 127,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Oleander",
+        "Other"
+      ]
+    },
+    "Robertson Boulevard": {
+      "count": 60,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Queen Palm",
+        "Scarlet Bottlebrush"
+      ]
+    },
+    "Obama Boulevard": {
+      "count": 103,
+      "topSpecies": [
+        "Brazilian Pepper",
+        "Carob",
+        "Jacaranda"
+      ]
+    },
+    "Rimpau Boulevard": {
+      "count": 33,
+      "topSpecies": [
+        "Shamel Ash",
+        "Vacant - Ok To Plant",
+        "Carrotwood"
+      ]
+    },
+    "Eagle Rock Boulevard": {
+      "count": 221,
+      "topSpecies": [
+        "Bradford Pear",
+        "Indian Laurel Fig",
+        "Ornamental Pear"
+      ]
+    },
+    "National Boulevard": {
+      "count": 44,
+      "topSpecies": [
+        "American Sweetgum",
+        "Southern Magnolia",
+        "Indian Laurel Fig"
+      ]
+    },
+    "Glendale Boulevard": {
+      "count": 116,
+      "topSpecies": [
+        "African Fern Pine",
+        "Evergreen Pear",
+        "Canary Island Date Palm"
+      ]
+    },
+    "Palms Boulevard": {
+      "count": 12,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Southern Magnolia",
+        "Victorian Box"
+      ]
+    },
+    "Manchester Boulevard": {
+      "count": 8,
+      "topSpecies": [
+        "Vacant - Ok To Plant",
+        "Oak Species"
+      ]
+    },
+    "Crescent Heights Boulevard": {
+      "count": 130,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Mexican Fan Palm",
+        "Victorian Box"
+      ]
+    },
+    "Sunland Boulevard": {
+      "count": 47,
+      "topSpecies": [
+        "Crape Myrtle",
+        "Glossy Privet",
+        "Evergreen Pear"
+      ]
+    },
+    "Valley Vista Boulevard": {
+      "count": 123,
+      "topSpecies": [
+        "American Sweetgum",
+        "Southern Magnolia",
+        "Crape Myrtle"
+      ]
+    },
+    "Sesnon Boulevard": {
+      "count": 338,
+      "topSpecies": [
+        "Australian Willow",
+        "Bottlebrush",
+        "Evergreen Pear"
+      ]
+    },
+    "Sawtelle Boulevard": {
+      "count": 69,
+      "topSpecies": [
+        "Southern Magnolia",
+        "Indian Laurel Fig",
+        "Canary Island Pine"
+      ]
+    },
+    "Redondo Beach Boulevard": {
+      "count": 13,
+      "topSpecies": [
+        "Scarlet Bottlebrush",
+        "American Sweetgum",
+        "Mexican Fan Palm"
+      ]
+    },
+    "Hollywood Boulevard": {
+      "count": 331,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Indian Laurel Fig",
+        "Red Flowering Gum"
+      ]
+    },
+    "San Fernando Mission Boulevard": {
+      "count": 52,
+      "topSpecies": [
+        "Aleppo Pine",
+        "Sawtooth Zelkova",
+        "Modesto Ash"
+      ]
+    },
+    "West El Segundo Boulevard": {
+      "count": 9,
+      "topSpecies": [
+        "Vacant - Ok To Plant",
+        "Purple-leaf Plum",
+        "Victorian Box"
+      ]
+    },
+    "Aviation Boulevard": {
+      "count": 78,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Vacant - Ok To Plant",
+        "Indian Laurel Fig"
+      ]
+    },
+    "Beverly Glen Boulevard": {
+      "count": 25,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Chinese Elm",
+        "London Plane"
+      ]
+    },
+    "Torrance Boulevard": {
+      "count": 53,
+      "topSpecies": [
+        "Carrotwood",
+        "Vacant - Ok To Plant",
+        "Southern Magnolia"
+      ]
+    },
+    "Valley Circle Boulevard": {
+      "count": 104,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Crape Myrtle",
+        "Live Oak"
+      ]
+    },
+    "Chandler Boulevard": {
+      "count": 56,
+      "topSpecies": [
+        "Other",
+        "Deodar Cedar",
+        "Fern Pine"
+      ]
+    },
+    "Hobart Boulevard": {
+      "count": 24,
+      "topSpecies": [
+        "Southern Magnolia",
+        "Glossy Privet",
+        "Indian Laurel Fig"
+      ]
+    },
+    "Exposition Boulevard": {
+      "count": 47,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Carrotwood",
+        "Southern Magnolia"
+      ]
+    },
+    "Reseda Boulevard": {
+      "count": 87,
+      "topSpecies": [
+        "Crape Myrtle",
+        "Bottlebrush",
+        "Canary Island Pine"
+      ]
+    },
+    "Van Nuys Boulevard": {
+      "count": 188,
+      "topSpecies": [
+        "Crape Myrtle",
+        "Yew Pine",
+        "Ornamental Pear"
+      ]
+    },
+    "Magnolia Boulevard": {
+      "count": 8,
+      "topSpecies": [
+        "Crape Myrtle",
+        "Southern Magnolia",
+        "Vacant/inadequate Spacing"
+      ]
+    },
+    "Harvard Boulevard": {
+      "count": 80,
+      "topSpecies": [
+        "Chinese Evergreen Elm",
+        "Carrotwood",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "South La Cienega Boulevard": {
+      "count": 76,
+      "topSpecies": [
+        "American Sweetgum",
+        "Southern Magnolia",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Balboa Boulevard": {
+      "count": 178,
+      "topSpecies": [
+        "Crape Myrtle",
+        "American Sweetgum",
+        "Vacant Planting Well"
+      ]
+    },
+    "Beverly Boulevard": {
+      "count": 44,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Lavender Trumpet Tree",
+        "Tipu"
+      ]
+    },
+    "Roscoe Boulevard": {
+      "count": 166,
+      "topSpecies": [
+        "Crape Myrtle",
+        "Sawtooth Zelkova",
+        "Vacant Planting Well"
+      ]
+    },
+    "Ventura Boulevard": {
+      "count": 89,
+      "topSpecies": [
+        "Pink Crape Myrtle",
+        "Vacant Planting Well",
+        "Evergreen Pear"
+      ]
+    },
+    "Whittier Boulevard": {
+      "count": 101,
+      "topSpecies": [
+        "Indian Laurel Fig",
+        "Eucalyptus Species",
+        "Vacant Planting Well"
+      ]
+    },
+    "Burbank Boulevard": {
+      "count": 54,
+      "topSpecies": [
+        "Pink Crape Myrtle",
+        "American Sweetgum",
+        "Modesto Ash"
+      ]
+    },
+    "Topanga Canyon Boulevard": {
+      "count": 54,
+      "topSpecies": [
+        "Crape Myrtle",
+        "Evergreen Pear",
+        "Vacant Planting Well"
+      ]
+    },
+    "Del Amo Boulevard": {
+      "count": 10,
+      "topSpecies": [
+        "Desert Gum"
+      ]
+    },
+    "Avalon Boulevard": {
+      "count": 182,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Modesto Ash",
+        "Vacant - Ok To Plant"
+      ]
+    },
+    "Alondra Boulevard": {
+      "count": 87,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Vacant - Ok To Plant",
+        "Brazilian Pepper"
+      ]
+    },
+    "Victory Boulevard": {
+      "count": 151,
+      "topSpecies": [
+        "London Plane",
+        "Pink Crape Myrtle",
+        "Crape Myrtle"
+      ]
+    },
+    "Sunset Boulevard": {
+      "count": 168,
+      "topSpecies": [
+        "Mexican Fan Palm",
+        "Southern Magnolia",
+        "Camphor Tree"
+      ]
+    },
+    "Valley Boulevard": {
+      "count": 6,
+      "topSpecies": [
+        "Indian Laurel Fig"
+      ]
+    },
+    "Foothill Boulevard": {
+      "count": 136,
+      "topSpecies": [
+        "Glossy Privet",
+        "Date Palm",
+        "Spanish Dagger"
+      ]
+    }
+  }
+}
