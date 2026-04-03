@@ -1,14 +1,7 @@
 {
-  "generated": "2026-04-02T16:52:51.095Z",
+  "generated": "2026-04-03T16:34:21.398Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Slaughter To Prevail: North America 2026 with Whitechapel & Attila",
-        "date": "2026-04-02",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/slaughter-to-prevail-north-america-2026-hollywood-california-04-02-2026/event/09006385B0C7A7C6",
-        "image": "https://s1.ticketm.net/dam/a/33b/84a91251-6cd7-450c-9499-c987189ec33b_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Dave",
         "date": "2026-04-03",
@@ -56,6 +49,13 @@
         "date": "2026-04-12",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/city-pop-waves-masayoshi-takanaka-super-hollywood-california-04-12-2026/event/0900636A9E5C9D93",
+        "image": "https://s1.ticketm.net/dam/a/1e5/44d43c88-8f2d-48f4-b2d3-21b10d70e1e5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "City Pop Waves: Masayoshi Takanaka SUPER TAKANAKA WORLD LIVE 2026",
+        "date": "2026-04-13",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/city-pop-waves-masayoshi-takanaka-super-hollywood-california-04-13-2026/event/0900636C7F9C79FE",
         "image": "https://s1.ticketm.net/dam/a/1e5/44d43c88-8f2d-48f4-b2d3-21b10d70e1e5_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -303,7 +303,7 @@
       {
         "name": "Eliza McLamb: Good Story Tour",
         "date": "2026-04-04",
-        "time": "18:00:00",
+        "time": "19:00:00",
         "url": "https://www.ticketmaster.com/eliza-mclamb-good-story-tour-los-angeles-california-04-04-2026/event/0900630C86330E75",
         "image": "https://s1.ticketm.net/dam/e/cb5/dd5bd65a-5cb1-4ee3-8cce-e3bc5bcf9cb5_RECOMENDATION_16_9.jpg"
       },
@@ -585,13 +585,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-04-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox73",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-04-03",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7K",
@@ -637,6 +630,13 @@
         "date": "2026-04-09",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7b",
+        "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-04-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpP_",
         "image": null
       }
     ],
