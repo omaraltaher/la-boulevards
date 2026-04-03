@@ -1,0 +1,4549 @@
+{
+  "generated": "2026-04-03T06:17:38.802Z",
+  "plants": [
+    {
+      "lat": 34.2768,
+      "lon": -118.1716,
+      "species": "Toyon",
+      "date": "2026-04-01",
+      "photo": "https://static.inaturalist.org/photos/632502384/small.jpg",
+      "url": "https://www.inaturalist.org/observations/346942120"
+    },
+    {
+      "lat": 34.0906,
+      "lon": -117.7908,
+      "species": "Toyon",
+      "date": "2026-03-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631555729/small.jpg",
+      "url": "https://www.inaturalist.org/observations/346464356"
+    },
+    {
+      "lat": 34.0467,
+      "lon": -117.8732,
+      "species": "Toyon",
+      "date": "2026-03-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631238252/small.jpg",
+      "url": "https://www.inaturalist.org/observations/346301743"
+    },
+    {
+      "lat": 33.8936,
+      "lon": -118.182,
+      "species": "Toyon",
+      "date": "2026-03-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628986274/small.jpg",
+      "url": "https://www.inaturalist.org/observations/345162475"
+    },
+    {
+      "lat": 34.1236,
+      "lon": -118.41,
+      "species": "Toyon",
+      "date": "2026-03-25",
+      "photo": "https://static.inaturalist.org/photos/629052251/small.jpg",
+      "url": "https://www.inaturalist.org/observations/345218418"
+    },
+    {
+      "lat": 33.9998,
+      "lon": -118.4519,
+      "species": "Toyon",
+      "date": "2026-03-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627250173/small.jpg",
+      "url": "https://www.inaturalist.org/observations/344267733"
+    },
+    {
+      "lat": 34.0272,
+      "lon": -118.2184,
+      "species": "Toyon",
+      "date": "2026-03-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/626261570/small.jpg",
+      "url": "https://www.inaturalist.org/observations/343760426"
+    },
+    {
+      "lat": 34.2682,
+      "lon": -118.6485,
+      "species": "Toyon",
+      "date": "2026-03-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/623353672/small.jpg",
+      "url": "https://www.inaturalist.org/observations/342319538"
+    },
+    {
+      "lat": 34.2223,
+      "lon": -118.0355,
+      "species": "Toyon",
+      "date": "2026-03-09",
+      "photo": "https://static.inaturalist.org/photos/623491383/small.jpg",
+      "url": "https://www.inaturalist.org/observations/342384015"
+    },
+    {
+      "lat": 33.8175,
+      "lon": -117.6527,
+      "species": "Toyon",
+      "date": "2026-03-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621577669/small.jpg",
+      "url": "https://www.inaturalist.org/observations/341441527"
+    },
+    {
+      "lat": 34.098,
+      "lon": -118.7296,
+      "species": "Toyon",
+      "date": "2026-03-01",
+      "photo": "https://static.inaturalist.org/photos/620787934/small.jpg",
+      "url": "https://www.inaturalist.org/observations/341058317"
+    },
+    {
+      "lat": 34.1987,
+      "lon": -118.9383,
+      "species": "Toyon",
+      "date": "2026-02-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/618196775/small.jpg",
+      "url": "https://www.inaturalist.org/observations/339789321"
+    },
+    {
+      "lat": 34.2196,
+      "lon": -118.9056,
+      "species": "Toyon",
+      "date": "2026-02-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/618196573/small.jpg",
+      "url": "https://www.inaturalist.org/observations/339789194"
+    },
+    {
+      "lat": 34.3269,
+      "lon": -118.0058,
+      "species": "Toyon",
+      "date": "2026-02-14",
+      "photo": "https://static.inaturalist.org/photos/615898004/small.jpg",
+      "url": "https://www.inaturalist.org/observations/338650103"
+    },
+    {
+      "lat": 34.1996,
+      "lon": -118.2089,
+      "species": "Toyon",
+      "date": "2026-02-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/626905118/small.jpg",
+      "url": "https://www.inaturalist.org/observations/344089221"
+    },
+    {
+      "lat": 34.2208,
+      "lon": -118.2395,
+      "species": "Toyon",
+      "date": "2026-02-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621837420/small.jpg",
+      "url": "https://www.inaturalist.org/observations/341568655"
+    },
+    {
+      "lat": 34.6157,
+      "lon": -117.8923,
+      "species": "Toyon",
+      "date": "2026-02-04",
+      "photo": "https://static.inaturalist.org/photos/613331650/small.jpg",
+      "url": "https://www.inaturalist.org/observations/337396374"
+    },
+    {
+      "lat": 34.0739,
+      "lon": -118.4549,
+      "species": "Toyon",
+      "date": "2026-02-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/612840008/small.jpg",
+      "url": "https://www.inaturalist.org/observations/337155817"
+    },
+    {
+      "lat": 33.7781,
+      "lon": -117.7184,
+      "species": "Toyon",
+      "date": "2026-01-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/613422095/small.jpg",
+      "url": "https://www.inaturalist.org/observations/337438441"
+    },
+    {
+      "lat": 34.2709,
+      "lon": -118.3214,
+      "species": "Toyon",
+      "date": "2026-01-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/610746717/small.jpg",
+      "url": "https://www.inaturalist.org/observations/336122996"
+    },
+    {
+      "lat": 34.1296,
+      "lon": -118.8144,
+      "species": "Toyon",
+      "date": "2026-01-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/610278222/small.jpg",
+      "url": "https://www.inaturalist.org/observations/335886801"
+    },
+    {
+      "lat": 34.0911,
+      "lon": -118.4935,
+      "species": "Toyon",
+      "date": "2026-01-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/610068081/small.jpg",
+      "url": "https://www.inaturalist.org/observations/335783259"
+    },
+    {
+      "lat": 33.7705,
+      "lon": -117.7644,
+      "species": "Toyon",
+      "date": "2026-01-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/609558246/small.jpg",
+      "url": "https://www.inaturalist.org/observations/335531399"
+    },
+    {
+      "lat": 34.4564,
+      "lon": -117.8787,
+      "species": "Toyon",
+      "date": "2026-01-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/609046704/small.jpg",
+      "url": "https://www.inaturalist.org/observations/335278017"
+    },
+    {
+      "lat": 34.3782,
+      "lon": -118.4673,
+      "species": "Toyon",
+      "date": "2026-01-16",
+      "photo": "https://static.inaturalist.org/photos/608528085/small.jpg",
+      "url": "https://www.inaturalist.org/observations/335019969"
+    },
+    {
+      "lat": 34.2036,
+      "lon": -118.1663,
+      "species": "Toyon",
+      "date": "2026-01-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/608239371/small.jpg",
+      "url": "https://www.inaturalist.org/observations/334878732"
+    },
+    {
+      "lat": 34.2654,
+      "lon": -118.6541,
+      "species": "Toyon",
+      "date": "2026-01-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/607783594/small.jpg",
+      "url": "https://www.inaturalist.org/observations/334657625"
+    },
+    {
+      "lat": 34.2376,
+      "lon": -118.279,
+      "species": "Toyon",
+      "date": "2026-01-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/607284686/small.jpg",
+      "url": "https://www.inaturalist.org/observations/334411436"
+    },
+    {
+      "lat": 34.138,
+      "lon": -117.7632,
+      "species": "Toyon",
+      "date": "2026-01-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/607547346/small.jpg",
+      "url": "https://www.inaturalist.org/observations/334540287"
+    },
+    {
+      "lat": 34.2569,
+      "lon": -118.6219,
+      "species": "Toyon",
+      "date": "2026-01-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/607216954/small.jpg",
+      "url": "https://www.inaturalist.org/observations/334377490"
+    },
+    {
+      "lat": 33.8208,
+      "lon": -118.129,
+      "species": "Toyon",
+      "date": "2026-01-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/606181687/small.jpg",
+      "url": "https://www.inaturalist.org/observations/333869974"
+    },
+    {
+      "lat": 34.2025,
+      "lon": -118.8741,
+      "species": "Toyon",
+      "date": "2026-01-04",
+      "photo": "https://static.inaturalist.org/photos/605492658/small.jpg",
+      "url": "https://www.inaturalist.org/observations/333506471"
+    },
+    {
+      "lat": 34.4865,
+      "lon": -118.3186,
+      "species": "Toyon",
+      "date": "2025-12-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603207867/small.jpg",
+      "url": "https://www.inaturalist.org/observations/332386934"
+    },
+    {
+      "lat": 34.083,
+      "lon": -117.7953,
+      "species": "Toyon",
+      "date": "2025-12-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/601671618/small.jpg",
+      "url": "https://www.inaturalist.org/observations/331639390"
+    },
+    {
+      "lat": 34.7125,
+      "lon": -117.6683,
+      "species": "Toyon",
+      "date": "2025-12-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/600454025/small.jpg",
+      "url": "https://www.inaturalist.org/observations/331046872"
+    },
+    {
+      "lat": 34.7607,
+      "lon": -117.7138,
+      "species": "Toyon",
+      "date": "2025-12-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/600607181/small.jpg",
+      "url": "https://www.inaturalist.org/observations/331120862"
+    },
+    {
+      "lat": 33.9677,
+      "lon": -118.2656,
+      "species": "Toyon",
+      "date": "2025-12-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/600636634/small.jpg",
+      "url": "https://www.inaturalist.org/observations/331135124"
+    },
+    {
+      "lat": 34.2142,
+      "lon": -118.6634,
+      "species": "Toyon",
+      "date": "2025-12-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/598635975/small.jpg",
+      "url": "https://www.inaturalist.org/observations/330163417"
+    },
+    {
+      "lat": 34.192,
+      "lon": -118.5789,
+      "species": "Toyon",
+      "date": "2025-12-09",
+      "photo": "https://static.inaturalist.org/photos/598634288/small.jpg",
+      "url": "https://www.inaturalist.org/observations/330162518"
+    },
+    {
+      "lat": 34.1938,
+      "lon": -118.2362,
+      "species": "Toyon",
+      "date": "2025-12-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/598605511/small.jpg",
+      "url": "https://www.inaturalist.org/observations/330148229"
+    },
+    {
+      "lat": 34.4175,
+      "lon": -118.5902,
+      "species": "Toyon",
+      "date": "2025-12-02",
+      "photo": "https://static.inaturalist.org/photos/596752830/small.jpg",
+      "url": "https://www.inaturalist.org/observations/329234447"
+    },
+    {
+      "lat": 34.4152,
+      "lon": -118.5886,
+      "species": "Toyon",
+      "date": "2025-12-02",
+      "photo": "https://static.inaturalist.org/photos/596779811/small.jpg",
+      "url": "https://www.inaturalist.org/observations/329248289"
+    },
+    {
+      "lat": 34.0812,
+      "lon": -118.5034,
+      "species": "Toyon",
+      "date": "2025-12-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/596551019/small.jpg",
+      "url": "https://www.inaturalist.org/observations/329133080"
+    },
+    {
+      "lat": 34.1463,
+      "lon": -118.6716,
+      "species": "Toyon",
+      "date": "2025-11-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/595407808/small.jpg",
+      "url": "https://www.inaturalist.org/observations/328563218"
+    },
+    {
+      "lat": 34.3971,
+      "lon": -118.5694,
+      "species": "Toyon",
+      "date": "2025-11-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/594481433/small.jpg",
+      "url": "https://www.inaturalist.org/observations/328104517"
+    },
+    {
+      "lat": 34.2574,
+      "lon": -118.198,
+      "species": "Toyon",
+      "date": "2025-11-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/615872012/small.jpg",
+      "url": "https://www.inaturalist.org/observations/338637098"
+    },
+    {
+      "lat": 34.1063,
+      "lon": -117.9821,
+      "species": "Toyon",
+      "date": "2025-11-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/592044743/small.jpg",
+      "url": "https://www.inaturalist.org/observations/326853035"
+    },
+    {
+      "lat": 34.1989,
+      "lon": -118.2128,
+      "species": "Toyon",
+      "date": "2025-11-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/590868276/small.jpg",
+      "url": "https://www.inaturalist.org/observations/326263056"
+    },
+    {
+      "lat": 34.1087,
+      "lon": -117.7139,
+      "species": "Toyon",
+      "date": "2025-11-05",
+      "photo": "https://static.inaturalist.org/photos/588453807/small.jpg",
+      "url": "https://www.inaturalist.org/observations/325049903"
+    },
+    {
+      "lat": 34.1105,
+      "lon": -117.7128,
+      "species": "Toyon",
+      "date": "2025-11-04",
+      "photo": "https://static.inaturalist.org/photos/588221875/small.jpg",
+      "url": "https://www.inaturalist.org/observations/324932083"
+    },
+    {
+      "lat": 34.1181,
+      "lon": -117.9448,
+      "species": "Toyon",
+      "date": "2025-10-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/587008920/small.jpg",
+      "url": "https://www.inaturalist.org/observations/324333685"
+    },
+    {
+      "lat": 34.2739,
+      "lon": -118.6143,
+      "species": "Toyon",
+      "date": "2025-10-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/586879317/small.jpg",
+      "url": "https://www.inaturalist.org/observations/324266943"
+    },
+    {
+      "lat": 34.4722,
+      "lon": -118.6427,
+      "species": "Toyon",
+      "date": "2025-10-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/589615570/small.jpg",
+      "url": "https://www.inaturalist.org/observations/325633917"
+    },
+    {
+      "lat": 33.7175,
+      "lon": -117.8311,
+      "species": "Toyon",
+      "date": "2025-10-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/586164226/small.jpg",
+      "url": "https://www.inaturalist.org/observations/323908450"
+    },
+    {
+      "lat": 34.092,
+      "lon": -118.2658,
+      "species": "Toyon",
+      "date": "2025-10-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/582431400/small.jpg",
+      "url": "https://www.inaturalist.org/observations/322003391"
+    },
+    {
+      "lat": 34.2027,
+      "lon": -118.1216,
+      "species": "Toyon",
+      "date": "2025-10-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/581955553/small.jpg",
+      "url": "https://www.inaturalist.org/observations/321766143"
+    },
+    {
+      "lat": 34.0707,
+      "lon": -117.7619,
+      "species": "Toyon",
+      "date": "2025-10-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/581395584/small.jpg",
+      "url": "https://www.inaturalist.org/observations/321473229"
+    },
+    {
+      "lat": 34.607,
+      "lon": -118.3536,
+      "species": "Toyon",
+      "date": "2025-10-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621672235/small.jpg",
+      "url": "https://www.inaturalist.org/observations/341485632"
+    },
+    {
+      "lat": 34.4004,
+      "lon": -118.5226,
+      "species": "Toyon",
+      "date": "2025-10-11",
+      "photo": "https://static.inaturalist.org/photos/579035738/small.jpg",
+      "url": "https://www.inaturalist.org/observations/320272140"
+    },
+    {
+      "lat": 34.1769,
+      "lon": -117.9897,
+      "species": "Toyon",
+      "date": "2025-10-11",
+      "photo": "https://static.inaturalist.org/photos/578940143/small.jpg",
+      "url": "https://www.inaturalist.org/observations/320222339"
+    },
+    {
+      "lat": 33.7513,
+      "lon": -117.7542,
+      "species": "Toyon",
+      "date": "2025-10-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/576899396/small.jpg",
+      "url": "https://www.inaturalist.org/observations/319158620"
+    },
+    {
+      "lat": 34.252,
+      "lon": -118.2477,
+      "species": "Toyon",
+      "date": "2025-09-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/574520912/small.jpg",
+      "url": "https://www.inaturalist.org/observations/317915302"
+    },
+    {
+      "lat": 33.8008,
+      "lon": -118.1604,
+      "species": "Toyon",
+      "date": "2025-09-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/574104499/small.jpg",
+      "url": "https://www.inaturalist.org/observations/317696674"
+    },
+    {
+      "lat": 34.2116,
+      "lon": -118.0196,
+      "species": "Toyon",
+      "date": "2025-09-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/573064983/small.jpg",
+      "url": "https://www.inaturalist.org/observations/317152517"
+    },
+    {
+      "lat": 34.0782,
+      "lon": -118.593,
+      "species": "Toyon",
+      "date": "2025-09-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/573018099/small.jpg",
+      "url": "https://www.inaturalist.org/observations/317128098"
+    },
+    {
+      "lat": 34.1262,
+      "lon": -118.7074,
+      "species": "Toyon",
+      "date": "2025-09-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/572349957/small.jpg",
+      "url": "https://www.inaturalist.org/observations/316774094"
+    },
+    {
+      "lat": 34.3003,
+      "lon": -118.831,
+      "species": "Toyon",
+      "date": "2025-09-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/598202222/small.jpg",
+      "url": "https://www.inaturalist.org/observations/329949984"
+    },
+    {
+      "lat": 34.1117,
+      "lon": -118.2631,
+      "species": "Toyon",
+      "date": "2025-09-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/568464653/small.jpg",
+      "url": "https://www.inaturalist.org/observations/314721913"
+    },
+    {
+      "lat": 34.1272,
+      "lon": -118.305,
+      "species": "Toyon",
+      "date": "2025-09-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/568322566/small.jpg",
+      "url": "https://www.inaturalist.org/observations/314651138"
+    },
+    {
+      "lat": 34.072,
+      "lon": -118.4443,
+      "species": "Toyon",
+      "date": "2025-09-10",
+      "photo": "https://static.inaturalist.org/photos/565047014/small.jpg",
+      "url": "https://www.inaturalist.org/observations/312927001"
+    },
+    {
+      "lat": 33.7399,
+      "lon": -118.1062,
+      "species": "Toyon",
+      "date": "2025-09-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/562564421/small.jpg",
+      "url": "https://www.inaturalist.org/observations/311625044"
+    },
+    {
+      "lat": 34.1216,
+      "lon": -118.3754,
+      "species": "Toyon",
+      "date": "2025-08-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/554057317/small.jpg",
+      "url": "https://www.inaturalist.org/observations/307193144"
+    },
+    {
+      "lat": 34.2785,
+      "lon": -118.5617,
+      "species": "Toyon",
+      "date": "2025-08-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/552466203/small.jpg",
+      "url": "https://www.inaturalist.org/observations/306356232"
+    },
+    {
+      "lat": 34.3421,
+      "lon": -118.1234,
+      "species": "Toyon",
+      "date": "2025-08-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/551999401/small.jpg",
+      "url": "https://www.inaturalist.org/observations/306112782"
+    },
+    {
+      "lat": 34.207,
+      "lon": -118.0181,
+      "species": "Toyon",
+      "date": "2025-08-07",
+      "photo": "https://static.inaturalist.org/photos/549180541/small.jpg",
+      "url": "https://www.inaturalist.org/observations/304625373"
+    },
+    {
+      "lat": 34.0651,
+      "lon": -118.4417,
+      "species": "Toyon",
+      "date": "2025-08-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/550725158/small.jpg",
+      "url": "https://www.inaturalist.org/observations/305442764"
+    },
+    {
+      "lat": 34.2073,
+      "lon": -118.032,
+      "species": "Toyon",
+      "date": "2025-08-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/548162794/small.jpg",
+      "url": "https://www.inaturalist.org/observations/304093937"
+    },
+    {
+      "lat": 34.2665,
+      "lon": -118.1432,
+      "species": "Toyon",
+      "date": "2025-08-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/549206956/small.jpg",
+      "url": "https://www.inaturalist.org/observations/304638625"
+    },
+    {
+      "lat": 34.1831,
+      "lon": -118.015,
+      "species": "Toyon",
+      "date": "2025-08-04",
+      "photo": "https://static.inaturalist.org/photos/547571747/small.jpg",
+      "url": "https://www.inaturalist.org/observations/303782818"
+    },
+    {
+      "lat": 34.1351,
+      "lon": -118.43,
+      "species": "Toyon",
+      "date": "2025-08-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/547794080/small.jpg",
+      "url": "https://www.inaturalist.org/observations/303899241"
+    },
+    {
+      "lat": 34.1727,
+      "lon": -118.4605,
+      "species": "Toyon",
+      "date": "2025-08-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/546386227/small.jpg",
+      "url": "https://www.inaturalist.org/observations/303155405"
+    },
+    {
+      "lat": 34.3673,
+      "lon": -118.4827,
+      "species": "Toyon",
+      "date": "2025-07-26",
+      "photo": "https://static.inaturalist.org/photos/543140904/small.jpg",
+      "url": "https://www.inaturalist.org/observations/301413170"
+    },
+    {
+      "lat": 34.3784,
+      "lon": -118.5827,
+      "species": "Toyon",
+      "date": "2025-07-20",
+      "photo": "https://static.inaturalist.org/photos/539761115/small.jpg",
+      "url": "https://www.inaturalist.org/observations/299601181"
+    },
+    {
+      "lat": 33.8847,
+      "lon": -117.7065,
+      "species": "Toyon",
+      "date": "2025-07-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/541572165/small.jpg",
+      "url": "https://www.inaturalist.org/observations/300566765"
+    },
+    {
+      "lat": 34.1632,
+      "lon": -118.014,
+      "species": "Toyon",
+      "date": "2025-07-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/535621561/small.jpg",
+      "url": "https://www.inaturalist.org/observations/297412853"
+    },
+    {
+      "lat": 34.1303,
+      "lon": -117.7943,
+      "species": "Toyon",
+      "date": "2025-07-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/535707892/small.jpg",
+      "url": "https://www.inaturalist.org/observations/297449339"
+    },
+    {
+      "lat": 34.2861,
+      "lon": -118.3744,
+      "species": "Toyon",
+      "date": "2025-07-10",
+      "photo": "https://static.inaturalist.org/photos/534422187/small.jpg",
+      "url": "https://www.inaturalist.org/observations/296772350"
+    },
+    {
+      "lat": 34.0922,
+      "lon": -118.6543,
+      "species": "Toyon",
+      "date": "2025-07-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/534261376/small.jpg",
+      "url": "https://www.inaturalist.org/observations/296693785"
+    },
+    {
+      "lat": 33.7945,
+      "lon": -117.7532,
+      "species": "Toyon",
+      "date": "2025-07-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/570749869/small.jpg",
+      "url": "https://www.inaturalist.org/observations/315927850"
+    },
+    {
+      "lat": 34.3417,
+      "lon": -118.5488,
+      "species": "Toyon",
+      "date": "2025-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/529047799/small.jpg",
+      "url": "https://www.inaturalist.org/observations/293946474"
+    },
+    {
+      "lat": 34.0169,
+      "lon": -118.3841,
+      "species": "Toyon",
+      "date": "2025-06-24",
+      "photo": "https://static.inaturalist.org/photos/526445520/small.jpg",
+      "url": "https://www.inaturalist.org/observations/292534272"
+    },
+    {
+      "lat": 33.8313,
+      "lon": -118.1024,
+      "species": "Toyon",
+      "date": "2025-06-22",
+      "photo": "https://static.inaturalist.org/photos/525435354/small.jpg",
+      "url": "https://www.inaturalist.org/observations/292006099"
+    },
+    {
+      "lat": 34.1289,
+      "lon": -117.9507,
+      "species": "Toyon",
+      "date": "2025-06-20",
+      "photo": "https://static.inaturalist.org/photos/524289441/small.jpg",
+      "url": "https://www.inaturalist.org/observations/291397507"
+    },
+    {
+      "lat": 34.259,
+      "lon": -118.7118,
+      "species": "Toyon",
+      "date": "2025-06-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/524783512/small.jpg",
+      "url": "https://www.inaturalist.org/observations/291664330"
+    },
+    {
+      "lat": 34.0861,
+      "lon": -118.2396,
+      "species": "Toyon",
+      "date": "2025-06-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/523201617/small.jpg",
+      "url": "https://www.inaturalist.org/observations/290821443"
+    },
+    {
+      "lat": 34.1316,
+      "lon": -117.7235,
+      "species": "Toyon",
+      "date": "2025-06-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/525282424/small.jpg",
+      "url": "https://www.inaturalist.org/observations/291927667"
+    },
+    {
+      "lat": 34.1432,
+      "lon": -118.7159,
+      "species": "Toyon",
+      "date": "2025-06-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/525769499/small.jpg",
+      "url": "https://www.inaturalist.org/observations/292180112"
+    },
+    {
+      "lat": 33.739,
+      "lon": -118.3937,
+      "species": "Toyon",
+      "date": "2025-06-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/517280878/small.jpg",
+      "url": "https://www.inaturalist.org/observations/287681860"
+    },
+    {
+      "lat": 34.154,
+      "lon": -118.4318,
+      "species": "Toyon",
+      "date": "2025-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/516589974/small.jpg",
+      "url": "https://www.inaturalist.org/observations/287308024"
+    },
+    {
+      "lat": 34.1613,
+      "lon": -117.8234,
+      "species": "Toyon",
+      "date": "2025-06-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/516565260/small.jpg",
+      "url": "https://www.inaturalist.org/observations/287294124"
+    },
+    {
+      "lat": 34.0645,
+      "lon": -118.9091,
+      "species": "Toyon",
+      "date": "2025-06-02",
+      "photo": "https://static.inaturalist.org/photos/514775495/small.jpg",
+      "url": "https://www.inaturalist.org/observations/286349610"
+    },
+    {
+      "lat": 34.1228,
+      "lon": -118.6638,
+      "species": "Toyon",
+      "date": "2025-05-27",
+      "photo": "https://static.inaturalist.org/photos/511438718/small.jpg",
+      "url": "https://www.inaturalist.org/observations/284571753"
+    },
+    {
+      "lat": 34.3907,
+      "lon": -118.1174,
+      "species": "Toyon",
+      "date": "2025-05-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/511775158/small.jpg",
+      "url": "https://www.inaturalist.org/observations/284746794"
+    },
+    {
+      "lat": 34.5631,
+      "lon": -118.2851,
+      "species": "Toyon",
+      "date": "2025-05-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/510584155/small.jpg",
+      "url": "https://www.inaturalist.org/observations/284123080"
+    },
+    {
+      "lat": 34.428,
+      "lon": -118.5348,
+      "species": "Toyon",
+      "date": "2025-05-22",
+      "photo": "https://static.inaturalist.org/photos/508880086/small.jpg",
+      "url": "https://www.inaturalist.org/observations/283217869"
+    },
+    {
+      "lat": 34.1183,
+      "lon": -117.758,
+      "species": "Toyon",
+      "date": "2025-05-20",
+      "photo": "https://static.inaturalist.org/photos/566300889/small.jpg",
+      "url": "https://www.inaturalist.org/observations/282795744"
+    },
+    {
+      "lat": 34.2228,
+      "lon": -118.179,
+      "species": "Toyon",
+      "date": "2025-05-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/512179310/small.jpg",
+      "url": "https://www.inaturalist.org/observations/284965115"
+    },
+    {
+      "lat": 34.1002,
+      "lon": -118.0121,
+      "species": "Toyon",
+      "date": "2025-05-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/507001787/small.jpg",
+      "url": "https://www.inaturalist.org/observations/282207269"
+    },
+    {
+      "lat": 34.6903,
+      "lon": -118.2974,
+      "species": "Toyon",
+      "date": "2025-05-16",
+      "photo": "https://static.inaturalist.org/photos/505696103/small.jpg",
+      "url": "https://www.inaturalist.org/observations/281506602"
+    },
+    {
+      "lat": 34.3781,
+      "lon": -118.5303,
+      "species": "Toyon",
+      "date": "2025-05-15",
+      "photo": "https://static.inaturalist.org/photos/505527688/small.jpg",
+      "url": "https://www.inaturalist.org/observations/281410680"
+    },
+    {
+      "lat": 33.7929,
+      "lon": -117.6583,
+      "species": "Toyon",
+      "date": "2025-05-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/507161602/small.jpg",
+      "url": "https://www.inaturalist.org/observations/282289876"
+    },
+    {
+      "lat": 34.095,
+      "lon": -118.4637,
+      "species": "Toyon",
+      "date": "2025-05-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/504458429/small.jpg",
+      "url": "https://www.inaturalist.org/observations/280852090"
+    },
+    {
+      "lat": 33.9203,
+      "lon": -117.8269,
+      "species": "Toyon",
+      "date": "2025-05-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/502365370/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/279742568"
+    },
+    {
+      "lat": 33.7437,
+      "lon": -118.3814,
+      "species": "Toyon",
+      "date": "2025-05-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/501267854/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/279154147"
+    },
+    {
+      "lat": 33.8843,
+      "lon": -118.0967,
+      "species": "Toyon",
+      "date": "2025-05-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/501126727/small.jpg",
+      "url": "https://www.inaturalist.org/observations/279077128"
+    },
+    {
+      "lat": 33.7482,
+      "lon": -118.4117,
+      "species": "Toyon",
+      "date": "2025-05-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/500825380/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/278913461"
+    },
+    {
+      "lat": 34.2234,
+      "lon": -118.0633,
+      "species": "Toyon",
+      "date": "2025-05-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/499649024/small.jpg",
+      "url": "https://www.inaturalist.org/observations/278266671"
+    },
+    {
+      "lat": 34.1868,
+      "lon": -118.1781,
+      "species": "Toyon",
+      "date": "2025-04-28",
+      "photo": "https://static.inaturalist.org/photos/496130062/small.jpg",
+      "url": "https://www.inaturalist.org/observations/276243198"
+    },
+    {
+      "lat": 34.7772,
+      "lon": -118.4503,
+      "species": "Toyon",
+      "date": "2025-04-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/495652967/small.jpg",
+      "url": "https://www.inaturalist.org/observations/275929574"
+    },
+    {
+      "lat": 34.1755,
+      "lon": -118.0997,
+      "species": "Toyon",
+      "date": "2025-04-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/490421622/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/272593888"
+    },
+    {
+      "lat": 34.1565,
+      "lon": -117.9785,
+      "species": "Toyon",
+      "date": "2025-04-21",
+      "photo": "https://static.inaturalist.org/photos/489537876/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/272114220"
+    },
+    {
+      "lat": 34.376,
+      "lon": -118.4473,
+      "species": "Toyon",
+      "date": "2025-04-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/489448063/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/272068651"
+    },
+    {
+      "lat": 34.1557,
+      "lon": -118.85,
+      "species": "Toyon",
+      "date": "2025-04-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/536308047/small.jpg",
+      "url": "https://www.inaturalist.org/observations/272007269"
+    },
+    {
+      "lat": 34.1951,
+      "lon": -118.1767,
+      "species": "Toyon",
+      "date": "2025-04-19",
+      "photo": "https://static.inaturalist.org/photos/488537023/small.jpg",
+      "url": "https://www.inaturalist.org/observations/271588034"
+    },
+    {
+      "lat": 33.71,
+      "lon": -118.0584,
+      "species": "Toyon",
+      "date": "2025-04-12",
+      "photo": "https://static.inaturalist.org/photos/485550374/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/270015525"
+    },
+    {
+      "lat": 34.1447,
+      "lon": -117.7084,
+      "species": "Toyon",
+      "date": "2025-04-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/484965955/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/269706828"
+    },
+    {
+      "lat": 34.1576,
+      "lon": -117.8306,
+      "species": "Toyon",
+      "date": "2025-04-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/484248007/small.jpg",
+      "url": "https://www.inaturalist.org/observations/269331854"
+    },
+    {
+      "lat": 34.627,
+      "lon": -118.8369,
+      "species": "Toyon",
+      "date": "2025-04-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/484933918/small.jpg",
+      "url": "https://www.inaturalist.org/observations/269689908"
+    },
+    {
+      "lat": 34.173,
+      "lon": -118.001,
+      "species": "Toyon",
+      "date": "2025-04-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/483335943/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/268864505"
+    },
+    {
+      "lat": 34.2302,
+      "lon": -118.7037,
+      "species": "Toyon",
+      "date": "2025-04-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/482914089/small.jpg",
+      "url": "https://www.inaturalist.org/observations/268644743"
+    },
+    {
+      "lat": 34.1327,
+      "lon": -117.7385,
+      "species": "Toyon",
+      "date": "2025-04-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/482105958/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/268223422"
+    },
+    {
+      "lat": 34.1734,
+      "lon": -118.2361,
+      "species": "Toyon",
+      "date": "2025-04-01",
+      "photo": "https://static.inaturalist.org/photos/482014151/small.jpg",
+      "url": "https://www.inaturalist.org/observations/268173800"
+    },
+    {
+      "lat": 34.2803,
+      "lon": -118.7503,
+      "species": "Toyon",
+      "date": "2025-03-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/482001213/small.jpg",
+      "url": "https://www.inaturalist.org/observations/268167288"
+    },
+    {
+      "lat": 34.2213,
+      "lon": -118.7071,
+      "species": "Toyon",
+      "date": "2025-03-29",
+      "photo": "https://static.inaturalist.org/photos/481304363/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/267802089"
+    },
+    {
+      "lat": 34.1856,
+      "lon": -118.7648,
+      "species": "Toyon",
+      "date": "2025-03-29",
+      "photo": "https://static.inaturalist.org/photos/480962934/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/267622885"
+    },
+    {
+      "lat": 34.0538,
+      "lon": -118.6177,
+      "species": "Toyon",
+      "date": "2025-03-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/480606690/small.jpg",
+      "url": "https://www.inaturalist.org/observations/267436835"
+    },
+    {
+      "lat": 34.0469,
+      "lon": -118.8337,
+      "species": "Toyon",
+      "date": "2025-03-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/481351196/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/267829076"
+    },
+    {
+      "lat": 34.7596,
+      "lon": -118.5021,
+      "species": "Toyon",
+      "date": "2025-03-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/480050531/small.jpg",
+      "url": "https://www.inaturalist.org/observations/267145771"
+    },
+    {
+      "lat": 34.2452,
+      "lon": -118.4807,
+      "species": "Toyon",
+      "date": "2025-03-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/479767425/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/266999309"
+    },
+    {
+      "lat": 34.3944,
+      "lon": -118.885,
+      "species": "Toyon",
+      "date": "2025-03-24",
+      "photo": "https://static.inaturalist.org/photos/479327477/small.jpg",
+      "url": "https://www.inaturalist.org/observations/266770607"
+    },
+    {
+      "lat": 34.3749,
+      "lon": -118.5267,
+      "species": "Toyon",
+      "date": "2025-03-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/476890126/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/265492512"
+    },
+    {
+      "lat": 34.37,
+      "lon": -118.5292,
+      "species": "Toyon",
+      "date": "2025-03-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/476856838/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/265476298"
+    },
+    {
+      "lat": 34.4338,
+      "lon": -118.3642,
+      "species": "Toyon",
+      "date": "2025-03-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/477255092/small.jpg",
+      "url": "https://www.inaturalist.org/observations/265679625"
+    },
+    {
+      "lat": 34.0422,
+      "lon": -117.8451,
+      "species": "Toyon",
+      "date": "2025-02-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/473256519/small.jpg",
+      "url": "https://www.inaturalist.org/observations/263435245"
+    },
+    {
+      "lat": 34.8193,
+      "lon": -118.882,
+      "species": "Toyon",
+      "date": "2025-02-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/473029615/small.jpg",
+      "url": "https://www.inaturalist.org/observations/263320352"
+    },
+    {
+      "lat": 33.799,
+      "lon": -117.7956,
+      "species": "Toyon",
+      "date": "2025-02-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/594257471/small.jpg",
+      "url": "https://www.inaturalist.org/observations/327989430"
+    },
+    {
+      "lat": 34.1084,
+      "lon": -118.8073,
+      "species": "Toyon",
+      "date": "2025-02-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/472467995/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/263036364"
+    },
+    {
+      "lat": 34.0174,
+      "lon": -118.3649,
+      "species": "Toyon",
+      "date": "2025-02-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/472446407/small.jpg",
+      "url": "https://www.inaturalist.org/observations/263026583"
+    },
+    {
+      "lat": 33.8364,
+      "lon": -117.7555,
+      "species": "Toyon",
+      "date": "2025-02-20",
+      "photo": "https://static.inaturalist.org/photos/473090031/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/263350570"
+    },
+    {
+      "lat": 34.1098,
+      "lon": -118.2265,
+      "species": "Toyon",
+      "date": "2025-02-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/471025251/small.jpg",
+      "url": "https://www.inaturalist.org/observations/262143309"
+    },
+    {
+      "lat": 34.0979,
+      "lon": -118.8116,
+      "species": "Toyon",
+      "date": "2025-02-16",
+      "photo": "https://static.inaturalist.org/photos/470609108/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/261899218"
+    },
+    {
+      "lat": 34.0371,
+      "lon": -118.4239,
+      "species": "Toyon",
+      "date": "2025-02-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/468519948/small.jpg",
+      "url": "https://www.inaturalist.org/observations/260851818"
+    },
+    {
+      "lat": 33.7362,
+      "lon": -117.6839,
+      "species": "Toyon",
+      "date": "2025-02-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/467696078/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/260433208"
+    },
+    {
+      "lat": 34.3409,
+      "lon": -117.9734,
+      "species": "Toyon",
+      "date": "2025-02-02",
+      "photo": "https://static.inaturalist.org/photos/467710516/small.jpg",
+      "url": "https://www.inaturalist.org/observations/260440659"
+    },
+    {
+      "lat": 33.7574,
+      "lon": -117.7016,
+      "species": "Toyon",
+      "date": "2025-02-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/467463807/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/260314958"
+    },
+    {
+      "lat": 34.1084,
+      "lon": -118.4479,
+      "species": "Toyon",
+      "date": "2025-01-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/475099171/small.jpg",
+      "url": "https://www.inaturalist.org/observations/264578462"
+    },
+    {
+      "lat": 33.8198,
+      "lon": -117.7724,
+      "species": "Toyon",
+      "date": "2025-01-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/473542969/small.jpg",
+      "url": "https://www.inaturalist.org/observations/263581284"
+    },
+    {
+      "lat": 34.147,
+      "lon": -118.3044,
+      "species": "Toyon",
+      "date": "2025-01-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/464981478/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/259076064"
+    },
+    {
+      "lat": 34.271,
+      "lon": -118.6816,
+      "species": "Toyon",
+      "date": "2025-01-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/463061713/small.jpg",
+      "url": "https://www.inaturalist.org/observations/258122338"
+    },
+    {
+      "lat": 34.1302,
+      "lon": -118.3866,
+      "species": "Toyon",
+      "date": "2025-01-02",
+      "photo": "https://static.inaturalist.org/photos/461665870/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/257366183"
+    },
+    {
+      "lat": 34.1247,
+      "lon": -118.167,
+      "species": "Toyon",
+      "date": "2025-01-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/461011630/small.jpg",
+      "url": "https://www.inaturalist.org/observations/257040678"
+    },
+    {
+      "lat": 33.7154,
+      "lon": -118.0646,
+      "species": "Toyon",
+      "date": "2024-12-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/460286440/small.jpg",
+      "url": "https://www.inaturalist.org/observations/256687103"
+    },
+    {
+      "lat": 34.042,
+      "lon": -118.7284,
+      "species": "Toyon",
+      "date": "2024-12-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/460793675/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/256937311"
+    },
+    {
+      "lat": 34.0618,
+      "lon": -118.6719,
+      "species": "Toyon",
+      "date": "2024-12-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/460793685/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/256937315"
+    },
+    {
+      "lat": 34.2257,
+      "lon": -117.7762,
+      "species": "Toyon",
+      "date": "2024-12-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/458134510/small.jpg",
+      "url": "https://www.inaturalist.org/observations/255624335"
+    },
+    {
+      "lat": 34.3645,
+      "lon": -118.568,
+      "species": "Toyon",
+      "date": "2024-12-03",
+      "photo": "https://static.inaturalist.org/photos/454968672/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/254048659"
+    },
+    {
+      "lat": 34.0785,
+      "lon": -118.5801,
+      "species": "Toyon",
+      "date": "2024-11-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/454282296/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/253685102"
+    },
+    {
+      "lat": 34.068,
+      "lon": -118.1997,
+      "species": "Toyon",
+      "date": "2024-11-23",
+      "photo": "https://static.inaturalist.org/photos/453228667/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/253149018"
+    },
+    {
+      "lat": 34.1574,
+      "lon": -118.0005,
+      "species": "Toyon",
+      "date": "2024-11-22",
+      "photo": "https://static.inaturalist.org/photos/538547979/small.jpg",
+      "url": "https://www.inaturalist.org/observations/298950562"
+    },
+    {
+      "lat": 34.0973,
+      "lon": -118.6987,
+      "species": "Toyon",
+      "date": "2024-11-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/451691867/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/252328169"
+    },
+    {
+      "lat": 33.7541,
+      "lon": -117.6751,
+      "species": "Toyon",
+      "date": "2024-11-18",
+      "photo": "https://static.inaturalist.org/photos/453889848/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/253485778"
+    },
+    {
+      "lat": 34.6589,
+      "lon": -118.3979,
+      "species": "Toyon",
+      "date": "2024-11-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/451162751/small.jpg",
+      "url": "https://www.inaturalist.org/observations/252072993"
+    },
+    {
+      "lat": 34.0458,
+      "lon": -118.5226,
+      "species": "Toyon",
+      "date": "2024-11-12",
+      "photo": "https://static.inaturalist.org/photos/450246713/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/251615634"
+    },
+    {
+      "lat": 34.0329,
+      "lon": -118.5729,
+      "species": "Toyon",
+      "date": "2024-11-09",
+      "photo": "https://static.inaturalist.org/photos/449196259/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/251087637"
+    },
+    {
+      "lat": 34.1746,
+      "lon": -118.7484,
+      "species": "Toyon",
+      "date": "2024-11-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/449013057/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/250994357"
+    },
+    {
+      "lat": 34.1265,
+      "lon": -117.8532,
+      "species": "Toyon",
+      "date": "2024-11-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/448527471/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/250748683"
+    },
+    {
+      "lat": 33.799,
+      "lon": -118.2,
+      "species": "Toyon",
+      "date": "2024-11-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/447450310/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/250217104"
+    },
+    {
+      "lat": 34.2421,
+      "lon": -117.8775,
+      "species": "Toyon",
+      "date": "2024-11-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/454367738/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/253728061"
+    },
+    {
+      "lat": 34.1525,
+      "lon": -117.8549,
+      "species": "Toyon",
+      "date": "2024-10-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/446207960/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/249595861"
+    },
+    {
+      "lat": 34.1373,
+      "lon": -118.7081,
+      "species": "Toyon",
+      "date": "2024-10-23",
+      "photo": "https://static.inaturalist.org/photos/444612330/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/248789919"
+    },
+    {
+      "lat": 34.3233,
+      "lon": -118.3123,
+      "species": "Toyon",
+      "date": "2024-10-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/442976647/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/247968608"
+    },
+    {
+      "lat": 34.6242,
+      "lon": -118.0969,
+      "species": "Toyon",
+      "date": "2024-10-09",
+      "photo": "https://static.inaturalist.org/photos/440036053/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/246481355"
+    },
+    {
+      "lat": 34.1678,
+      "lon": -118.6435,
+      "species": "Toyon",
+      "date": "2024-10-05",
+      "photo": "https://static.inaturalist.org/photos/438788220/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/245853287"
+    },
+    {
+      "lat": 34.351,
+      "lon": -117.7397,
+      "species": "Toyon",
+      "date": "2024-10-03",
+      "photo": "https://static.inaturalist.org/photos/438143396/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/245522603"
+    },
+    {
+      "lat": 33.9148,
+      "lon": -117.8354,
+      "species": "Toyon",
+      "date": "2024-09-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/437112895/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/244997984"
+    },
+    {
+      "lat": 34.2221,
+      "lon": -118.2602,
+      "species": "Toyon",
+      "date": "2024-09-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/435138601/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/243981151"
+    },
+    {
+      "lat": 34.1003,
+      "lon": -118.8833,
+      "species": "Toyon",
+      "date": "2024-09-20",
+      "photo": "https://static.inaturalist.org/photos/433689131/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/243228987"
+    },
+    {
+      "lat": 34.1269,
+      "lon": -117.7363,
+      "species": "Toyon",
+      "date": "2024-09-16",
+      "photo": "https://static.inaturalist.org/photos/431791110/small.png",
+      "url": "https://www.inaturalist.org/observations/242211993"
+    },
+    {
+      "lat": 34.0776,
+      "lon": -118.6169,
+      "species": "Toyon",
+      "date": "2024-09-14",
+      "photo": "https://static.inaturalist.org/photos/431004926/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/241804862"
+    },
+    {
+      "lat": 34.0944,
+      "lon": -118.6478,
+      "species": "Toyon",
+      "date": "2024-09-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/431179532/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/241898762"
+    },
+    {
+      "lat": 34.0968,
+      "lon": -118.1996,
+      "species": "Toyon",
+      "date": "2024-09-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/434119868/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/243458072"
+    },
+    {
+      "lat": 34.0656,
+      "lon": -118.262,
+      "species": "Toyon",
+      "date": "2024-09-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/426410047/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/239418188"
+    },
+    {
+      "lat": 34.1297,
+      "lon": -118.2854,
+      "species": "Toyon",
+      "date": "2024-09-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/426412053/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/239350112"
+    },
+    {
+      "lat": 33.7167,
+      "lon": -118.3144,
+      "species": "Toyon",
+      "date": "2024-08-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/438497651/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/245701548"
+    },
+    {
+      "lat": 33.7879,
+      "lon": -117.8553,
+      "species": "Toyon",
+      "date": "2024-08-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/425372893/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/238889104"
+    },
+    {
+      "lat": 34.058,
+      "lon": -118.4948,
+      "species": "Toyon",
+      "date": "2024-08-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/429749860/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/241153978"
+    },
+    {
+      "lat": 34.1368,
+      "lon": -118.8433,
+      "species": "Toyon",
+      "date": "2024-08-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/424654205/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/238519448"
+    },
+    {
+      "lat": 34.2641,
+      "lon": -118.1523,
+      "species": "Toyon",
+      "date": "2024-08-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/425142000/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/238769189"
+    },
+    {
+      "lat": 34.1657,
+      "lon": -118.2073,
+      "species": "Toyon",
+      "date": "2024-08-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/423545721/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/237946299"
+    },
+    {
+      "lat": 34.4305,
+      "lon": -117.9716,
+      "species": "Toyon",
+      "date": "2024-08-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/440528509/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/246730979"
+    },
+    {
+      "lat": 34.2757,
+      "lon": -118.0626,
+      "species": "Toyon",
+      "date": "2024-08-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/420155263/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/236184236"
+    },
+    {
+      "lat": 34.2526,
+      "lon": -117.8355,
+      "species": "Toyon",
+      "date": "2024-08-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/423697999/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/238023465"
+    },
+    {
+      "lat": 34.2108,
+      "lon": -118.1223,
+      "species": "Toyon",
+      "date": "2024-08-15",
+      "photo": "https://static.inaturalist.org/photos/419886531/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/236044823"
+    },
+    {
+      "lat": 33.8574,
+      "lon": -117.6883,
+      "species": "Toyon",
+      "date": "2024-08-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/419861412/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/236032314"
+    },
+    {
+      "lat": 34.3609,
+      "lon": -118.3179,
+      "species": "Toyon",
+      "date": "2024-08-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/417768634/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/234952056"
+    },
+    {
+      "lat": 34.0524,
+      "lon": -118.9338,
+      "species": "Toyon",
+      "date": "2024-08-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/416605229/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/234354230"
+    },
+    {
+      "lat": 34.0342,
+      "lon": -118.2178,
+      "species": "Toyon",
+      "date": "2024-07-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/413290019/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/232616943"
+    },
+    {
+      "lat": 34.2109,
+      "lon": -118.1617,
+      "species": "Toyon",
+      "date": "2024-07-29",
+      "photo": "https://static.inaturalist.org/photos/413055143/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/232492344"
+    },
+    {
+      "lat": 34.2151,
+      "lon": -118.1459,
+      "species": "Toyon",
+      "date": "2024-07-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/412858165/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/232397787"
+    },
+    {
+      "lat": 34.2063,
+      "lon": -118.1497,
+      "species": "Toyon",
+      "date": "2024-07-25",
+      "photo": "https://static.inaturalist.org/photos/411623659/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/231736911"
+    },
+    {
+      "lat": 34.5174,
+      "lon": -118.5168,
+      "species": "Toyon",
+      "date": "2024-07-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/411098121/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/231461210"
+    },
+    {
+      "lat": 34.4141,
+      "lon": -118.5206,
+      "species": "Toyon",
+      "date": "2024-07-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/411053106/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/231437518"
+    },
+    {
+      "lat": 34.4742,
+      "lon": -118.6211,
+      "species": "Toyon",
+      "date": "2024-07-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/409126907/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/230413863"
+    },
+    {
+      "lat": 33.7158,
+      "lon": -117.6538,
+      "species": "Toyon",
+      "date": "2024-07-17",
+      "photo": "https://static.inaturalist.org/photos/408417387/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/230041264"
+    },
+    {
+      "lat": 34.6181,
+      "lon": -118.416,
+      "species": "Toyon",
+      "date": "2024-07-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/408365056/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/230015579"
+    },
+    {
+      "lat": 34.5574,
+      "lon": -118.4918,
+      "species": "Toyon",
+      "date": "2024-07-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/408344834/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/230005544"
+    },
+    {
+      "lat": 34.0271,
+      "lon": -118.447,
+      "species": "Toyon",
+      "date": "2024-07-01",
+      "photo": "https://static.inaturalist.org/photos/401889224/small.jpg",
+      "url": "https://www.inaturalist.org/observations/226593723"
+    },
+    {
+      "lat": 34.3505,
+      "lon": -117.9083,
+      "species": "Toyon",
+      "date": "2024-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/401139814/small.jpg",
+      "url": "https://www.inaturalist.org/observations/226201907"
+    },
+    {
+      "lat": 33.7937,
+      "lon": -117.7493,
+      "species": "Toyon",
+      "date": "2024-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/401143462/small.jpg",
+      "url": "https://www.inaturalist.org/observations/226036597"
+    },
+    {
+      "lat": 34.3943,
+      "lon": -118.62,
+      "species": "Toyon",
+      "date": "2024-06-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/399697583/small.jpg",
+      "url": "https://www.inaturalist.org/observations/225439179"
+    },
+    {
+      "lat": 34.0017,
+      "lon": -118.0316,
+      "species": "Toyon",
+      "date": "2024-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/396682928/small.jpg",
+      "url": "https://www.inaturalist.org/observations/223857719"
+    },
+    {
+      "lat": 33.8752,
+      "lon": -117.6743,
+      "species": "Toyon",
+      "date": "2024-06-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/398016660/small.jpg",
+      "url": "https://www.inaturalist.org/observations/224556410"
+    },
+    {
+      "lat": 34.0363,
+      "lon": -118.8651,
+      "species": "Toyon",
+      "date": "2024-06-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/395110848/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/223015615"
+    },
+    {
+      "lat": 34.1299,
+      "lon": -118.174,
+      "species": "Toyon",
+      "date": "2024-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/395568365/small.jpg",
+      "url": "https://www.inaturalist.org/observations/223261823"
+    },
+    {
+      "lat": 34.0422,
+      "lon": -118.7941,
+      "species": "Toyon",
+      "date": "2024-06-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/433282492/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/243012926"
+    },
+    {
+      "lat": 34.4124,
+      "lon": -118.727,
+      "species": "Toyon",
+      "date": "2024-06-13",
+      "photo": "https://static.inaturalist.org/photos/394468256/small.jpg",
+      "url": "https://www.inaturalist.org/observations/222532209"
+    },
+    {
+      "lat": 34.1819,
+      "lon": -118.0462,
+      "species": "Toyon",
+      "date": "2024-06-09",
+      "photo": "https://static.inaturalist.org/photos/396945277/small.jpg",
+      "url": "https://www.inaturalist.org/observations/221895808"
+    },
+    {
+      "lat": 34.1946,
+      "lon": -118.0879,
+      "species": "Toyon",
+      "date": "2024-06-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/391742270/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/221331547"
+    },
+    {
+      "lat": 33.9772,
+      "lon": -117.7618,
+      "species": "Toyon",
+      "date": "2024-06-03",
+      "photo": "https://static.inaturalist.org/photos/390055503/small.jpg",
+      "url": "https://www.inaturalist.org/observations/220317368"
+    },
+    {
+      "lat": 34.7711,
+      "lon": -117.9563,
+      "species": "Toyon",
+      "date": "2024-06-02",
+      "photo": "https://static.inaturalist.org/photos/390823077/small.jpg",
+      "url": "https://www.inaturalist.org/observations/220732437"
+    },
+    {
+      "lat": 34.2276,
+      "lon": -118.8879,
+      "species": "Toyon",
+      "date": "2024-05-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/388436165/small.jpg",
+      "url": "https://www.inaturalist.org/observations/219450382"
+    },
+    {
+      "lat": 34.2845,
+      "lon": -118.1902,
+      "species": "Toyon",
+      "date": "2024-05-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/388057657/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/219249851"
+    },
+    {
+      "lat": 34.1317,
+      "lon": -117.9758,
+      "species": "Toyon",
+      "date": "2024-05-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/386803318/small.jpg",
+      "url": "https://www.inaturalist.org/observations/218579014"
+    },
+    {
+      "lat": 34.2105,
+      "lon": -118.827,
+      "species": "Toyon",
+      "date": "2024-05-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/384691828/small.jpg",
+      "url": "https://www.inaturalist.org/observations/217412005"
+    },
+    {
+      "lat": 34.6483,
+      "lon": -118.1047,
+      "species": "Toyon",
+      "date": "2024-05-20",
+      "photo": "https://static.inaturalist.org/photos/383981060/small.jpg",
+      "url": "https://www.inaturalist.org/observations/217077906"
+    },
+    {
+      "lat": 34.4045,
+      "lon": -118.6724,
+      "species": "Toyon",
+      "date": "2024-05-19",
+      "photo": "https://static.inaturalist.org/photos/383597207/small.jpg",
+      "url": "https://www.inaturalist.org/observations/216875724"
+    },
+    {
+      "lat": 33.8005,
+      "lon": -118.2662,
+      "species": "Toyon",
+      "date": "2024-05-18",
+      "photo": "https://static.inaturalist.org/photos/383313715/small.jpg",
+      "url": "https://www.inaturalist.org/observations/216719816"
+    },
+    {
+      "lat": 34.1316,
+      "lon": -118.5463,
+      "species": "Toyon",
+      "date": "2024-05-14",
+      "photo": "https://static.inaturalist.org/photos/381523367/small.jpg",
+      "url": "https://www.inaturalist.org/observations/215742135"
+    },
+    {
+      "lat": 34.1388,
+      "lon": -118.5732,
+      "species": "Toyon",
+      "date": "2024-05-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/380683718/small.jpg",
+      "url": "https://www.inaturalist.org/observations/215327613"
+    },
+    {
+      "lat": 34.4877,
+      "lon": -117.7482,
+      "species": "Toyon",
+      "date": "2024-05-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/377804655/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/213770571"
+    },
+    {
+      "lat": 34.1019,
+      "lon": -118.7329,
+      "species": "Toyon",
+      "date": "2024-04-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/375867628/small.jpg",
+      "url": "https://www.inaturalist.org/observations/212694473"
+    },
+    {
+      "lat": 34.279,
+      "lon": -118.5273,
+      "species": "Toyon",
+      "date": "2024-04-27",
+      "photo": "https://static.inaturalist.org/photos/390212553/small.jpg",
+      "url": "https://www.inaturalist.org/observations/220398741"
+    },
+    {
+      "lat": 34.1335,
+      "lon": -118.2803,
+      "species": "Toyon",
+      "date": "2024-04-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/370366393/small.jpg",
+      "url": "https://www.inaturalist.org/observations/209286954"
+    },
+    {
+      "lat": 34.6407,
+      "lon": -118.2304,
+      "species": "Toyon",
+      "date": "2024-04-23",
+      "photo": "https://static.inaturalist.org/photos/370151158/small.jpg",
+      "url": "https://www.inaturalist.org/observations/209173028"
+    },
+    {
+      "lat": 34.7915,
+      "lon": -118.2858,
+      "species": "Toyon",
+      "date": "2024-04-23",
+      "photo": "https://static.inaturalist.org/photos/370151143/small.jpg",
+      "url": "https://www.inaturalist.org/observations/209173027"
+    },
+    {
+      "lat": 34.6855,
+      "lon": -118.365,
+      "species": "Toyon",
+      "date": "2024-04-23",
+      "photo": "https://static.inaturalist.org/photos/370151110/small.jpg",
+      "url": "https://www.inaturalist.org/observations/209173026"
+    },
+    {
+      "lat": 34.224,
+      "lon": -118.7964,
+      "species": "Toyon",
+      "date": "2024-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/370429182/small.jpg",
+      "url": "https://www.inaturalist.org/observations/209321940"
+    },
+    {
+      "lat": 34.0919,
+      "lon": -118.5266,
+      "species": "Toyon",
+      "date": "2024-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/368024128/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/208027423"
+    },
+    {
+      "lat": 33.9328,
+      "lon": -117.7097,
+      "species": "Toyon",
+      "date": "2024-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/366529755/small.jpg",
+      "url": "https://www.inaturalist.org/observations/207229859"
+    },
+    {
+      "lat": 34.3354,
+      "lon": -118.736,
+      "species": "Toyon",
+      "date": "2024-04-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/366281799/small.jpg",
+      "url": "https://www.inaturalist.org/observations/207096019"
+    },
+    {
+      "lat": 34.2185,
+      "lon": -118.7207,
+      "species": "Toyon",
+      "date": "2024-04-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/366278391/small.jpg",
+      "url": "https://www.inaturalist.org/observations/207094228"
+    },
+    {
+      "lat": 34.1839,
+      "lon": -118.657,
+      "species": "Toyon",
+      "date": "2024-04-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/365930379/small.jpg",
+      "url": "https://www.inaturalist.org/observations/206907253"
+    },
+    {
+      "lat": 34.7009,
+      "lon": -118.8137,
+      "species": "Toyon",
+      "date": "2024-04-10",
+      "photo": "https://static.inaturalist.org/photos/365173119/small.jpg",
+      "url": "https://www.inaturalist.org/observations/206472795"
+    },
+    {
+      "lat": 34.2435,
+      "lon": -117.9095,
+      "species": "Toyon",
+      "date": "2024-04-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/364935288/small.jpg",
+      "url": "https://www.inaturalist.org/observations/206335802"
+    },
+    {
+      "lat": 34.3272,
+      "lon": -118.9082,
+      "species": "Toyon",
+      "date": "2024-04-08",
+      "photo": "https://static.inaturalist.org/photos/364983456/small.jpg",
+      "url": "https://www.inaturalist.org/observations/206375281"
+    },
+    {
+      "lat": 34.073,
+      "lon": -118.9096,
+      "species": "Toyon",
+      "date": "2024-04-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/364473935/small.jpg",
+      "url": "https://www.inaturalist.org/observations/206095329"
+    },
+    {
+      "lat": 34.6218,
+      "lon": -118.0772,
+      "species": "Toyon",
+      "date": "2024-04-04",
+      "photo": "https://static.inaturalist.org/photos/363212450/small.jpg",
+      "url": "https://www.inaturalist.org/observations/205417148"
+    },
+    {
+      "lat": 34.1889,
+      "lon": -118.2742,
+      "species": "Toyon",
+      "date": "2024-04-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/363059101/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/205334210"
+    },
+    {
+      "lat": 33.9867,
+      "lon": -118.0119,
+      "species": "Toyon",
+      "date": "2024-04-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/362928267/small.jpg",
+      "url": "https://www.inaturalist.org/observations/205267847"
+    },
+    {
+      "lat": 34.1453,
+      "lon": -118.7332,
+      "species": "Toyon",
+      "date": "2024-03-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/362183166/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/204876819"
+    },
+    {
+      "lat": 34.1185,
+      "lon": -118.4874,
+      "species": "Toyon",
+      "date": "2024-03-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/361713223/small.jpg",
+      "url": "https://www.inaturalist.org/observations/204631626"
+    },
+    {
+      "lat": 34.702,
+      "lon": -118.3104,
+      "species": "Toyon",
+      "date": "2024-03-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/360917279/small.jpg",
+      "url": "https://www.inaturalist.org/observations/204209682"
+    },
+    {
+      "lat": 34.2629,
+      "lon": -118.6772,
+      "species": "Toyon",
+      "date": "2024-03-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/360423163/small.jpg",
+      "url": "https://www.inaturalist.org/observations/203953053"
+    },
+    {
+      "lat": 34.0485,
+      "lon": -118.5668,
+      "species": "Toyon",
+      "date": "2024-03-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/360489211/small.jpg",
+      "url": "https://www.inaturalist.org/observations/203986932"
+    },
+    {
+      "lat": 34.1524,
+      "lon": -118.3043,
+      "species": "Toyon",
+      "date": "2024-03-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/360219576/small.jpg",
+      "url": "https://www.inaturalist.org/observations/203848838"
+    },
+    {
+      "lat": 34.1997,
+      "lon": -118.9009,
+      "species": "Toyon",
+      "date": "2024-03-22",
+      "photo": "https://static.inaturalist.org/photos/359818052/small.jpg",
+      "url": "https://www.inaturalist.org/observations/203638399"
+    },
+    {
+      "lat": 34.2375,
+      "lon": -118.3599,
+      "species": "Toyon",
+      "date": "2024-03-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/359361446/small.jpg",
+      "url": "https://www.inaturalist.org/observations/203399130"
+    },
+    {
+      "lat": 34.1282,
+      "lon": -117.7029,
+      "species": "Toyon",
+      "date": "2024-03-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/359297416/small.jpg",
+      "url": "https://www.inaturalist.org/observations/203364173"
+    },
+    {
+      "lat": 33.8888,
+      "lon": -117.8266,
+      "species": "Toyon",
+      "date": "2024-03-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/378780433/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/214303572"
+    },
+    {
+      "lat": 34.2211,
+      "lon": -118.93,
+      "species": "Toyon",
+      "date": "2024-03-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/358062742/small.jpg",
+      "url": "https://www.inaturalist.org/observations/202721022"
+    },
+    {
+      "lat": 34.1894,
+      "lon": -118.0877,
+      "species": "Toyon",
+      "date": "2024-03-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/358450659/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/202924750"
+    },
+    {
+      "lat": 34.2149,
+      "lon": -118.0087,
+      "species": "Toyon",
+      "date": "2024-03-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/357160237/small.jpg",
+      "url": "https://www.inaturalist.org/observations/202246575"
+    },
+    {
+      "lat": 34.7324,
+      "lon": -118.3953,
+      "species": "Toyon",
+      "date": "2024-03-12",
+      "photo": "https://static.inaturalist.org/photos/357158295/small.jpg",
+      "url": "https://www.inaturalist.org/observations/202245746"
+    },
+    {
+      "lat": 34.1303,
+      "lon": -118.6012,
+      "species": "Toyon",
+      "date": "2024-03-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/356894354/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/202111887"
+    },
+    {
+      "lat": 34.158,
+      "lon": -118.6837,
+      "species": "Toyon",
+      "date": "2024-03-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/356714194/small.jpg",
+      "url": "https://www.inaturalist.org/observations/202019761"
+    },
+    {
+      "lat": 34.1934,
+      "lon": -118.5006,
+      "species": "Toyon",
+      "date": "2024-03-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/356711702/small.jpg",
+      "url": "https://www.inaturalist.org/observations/202019071"
+    },
+    {
+      "lat": 34.1377,
+      "lon": -118.4519,
+      "species": "Toyon",
+      "date": "2024-03-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/356711667/small.jpg",
+      "url": "https://www.inaturalist.org/observations/202019066"
+    },
+    {
+      "lat": 34.4989,
+      "lon": -117.7599,
+      "species": "Toyon",
+      "date": "2024-03-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/356342223/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/201829008"
+    },
+    {
+      "lat": 34.002,
+      "lon": -118.8952,
+      "species": "Toyon",
+      "date": "2024-03-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/356690440/small.jpg",
+      "url": "https://www.inaturalist.org/observations/202010279"
+    },
+    {
+      "lat": 34.2655,
+      "lon": -118.7318,
+      "species": "Toyon",
+      "date": "2024-03-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/356216909/small.jpg",
+      "url": "https://www.inaturalist.org/observations/201763387"
+    },
+    {
+      "lat": 34.0141,
+      "lon": -118.43,
+      "species": "Toyon",
+      "date": "2024-03-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/355517510/small.jpg",
+      "url": "https://www.inaturalist.org/observations/201400623"
+    },
+    {
+      "lat": 33.7501,
+      "lon": -118.3846,
+      "species": "Toyon",
+      "date": "2024-02-29",
+      "photo": "https://static.inaturalist.org/photos/354490076/small.jpg",
+      "url": "https://www.inaturalist.org/observations/200833606"
+    },
+    {
+      "lat": 34.3005,
+      "lon": -118.6802,
+      "species": "Toyon",
+      "date": "2024-02-18",
+      "photo": "https://static.inaturalist.org/photos/352296785/small.jpg",
+      "url": "https://www.inaturalist.org/observations/199741864"
+    },
+    {
+      "lat": 34.1684,
+      "lon": -117.8912,
+      "species": "Toyon",
+      "date": "2024-02-11",
+      "photo": "https://static.inaturalist.org/photos/351013481/small.jpg",
+      "url": "https://www.inaturalist.org/observations/199078998"
+    },
+    {
+      "lat": 34.4029,
+      "lon": -118.4911,
+      "species": "Toyon",
+      "date": "2024-02-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/350731640/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/198937638"
+    },
+    {
+      "lat": 34.0646,
+      "lon": -118.7247,
+      "species": "Toyon",
+      "date": "2024-02-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/350699180/small.jpg",
+      "url": "https://www.inaturalist.org/observations/198920026"
+    },
+    {
+      "lat": 34.4772,
+      "lon": -117.6659,
+      "species": "Toyon",
+      "date": "2024-02-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/349563421/small.jpg",
+      "url": "https://www.inaturalist.org/observations/198342967"
+    },
+    {
+      "lat": 34.1811,
+      "lon": -118.8796,
+      "species": "Toyon",
+      "date": "2024-01-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/348742674/small.jpg",
+      "url": "https://www.inaturalist.org/observations/197933621"
+    },
+    {
+      "lat": 33.8326,
+      "lon": -117.7754,
+      "species": "Toyon",
+      "date": "2024-01-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/347697185/small.jpg",
+      "url": "https://www.inaturalist.org/observations/197415482"
+    },
+    {
+      "lat": 34.1443,
+      "lon": -118.7661,
+      "species": "Toyon",
+      "date": "2024-01-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/347423122/small.jpg",
+      "url": "https://www.inaturalist.org/observations/197280622"
+    },
+    {
+      "lat": 34.2724,
+      "lon": -118.8605,
+      "species": "Toyon",
+      "date": "2024-01-19",
+      "photo": "https://static.inaturalist.org/photos/347102100/small.jpg",
+      "url": "https://www.inaturalist.org/observations/197121340"
+    },
+    {
+      "lat": 33.82,
+      "lon": -117.7618,
+      "species": "Toyon",
+      "date": "2024-01-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/346776041/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/196960274"
+    },
+    {
+      "lat": 33.8809,
+      "lon": -117.7428,
+      "species": "Toyon",
+      "date": "2024-01-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/346473562/small.jpg",
+      "url": "https://www.inaturalist.org/observations/196817516"
+    },
+    {
+      "lat": 34.3225,
+      "lon": -118.2818,
+      "species": "Toyon",
+      "date": "2024-01-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/346457339/small.jpg",
+      "url": "https://www.inaturalist.org/observations/196803434"
+    },
+    {
+      "lat": 34.1498,
+      "lon": -118.1171,
+      "species": "Toyon",
+      "date": "2024-01-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/346645051/small.jpg",
+      "url": "https://www.inaturalist.org/observations/196896301"
+    },
+    {
+      "lat": 34.0935,
+      "lon": -118.5889,
+      "species": "Toyon",
+      "date": "2024-01-08",
+      "photo": "https://static.inaturalist.org/photos/345580879/small.jpg",
+      "url": "https://www.inaturalist.org/observations/196310197"
+    },
+    {
+      "lat": 34.0948,
+      "lon": -118.5916,
+      "species": "Toyon",
+      "date": "2024-01-07",
+      "photo": "https://static.inaturalist.org/photos/345055545/small.jpg",
+      "url": "https://www.inaturalist.org/observations/196048001"
+    },
+    {
+      "lat": 34.1329,
+      "lon": -118.3365,
+      "species": "Toyon",
+      "date": "2024-01-05",
+      "photo": "https://static.inaturalist.org/photos/344969217/small.jpg",
+      "url": "https://www.inaturalist.org/observations/196003440"
+    },
+    {
+      "lat": 34.0869,
+      "lon": -118.2071,
+      "species": "Toyon",
+      "date": "2024-01-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/344658128/small.jpg",
+      "url": "https://www.inaturalist.org/observations/195849677"
+    },
+    {
+      "lat": 33.8947,
+      "lon": -117.6729,
+      "species": "Toyon",
+      "date": "2024-01-01",
+      "photo": "https://static.inaturalist.org/photos/346002416/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/196536051"
+    },
+    {
+      "lat": 34.0945,
+      "lon": -118.8697,
+      "species": "Toyon",
+      "date": "2023-12-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/342994720/small.jpg",
+      "url": "https://www.inaturalist.org/observations/195030939"
+    },
+    {
+      "lat": 34.1296,
+      "lon": -118.1116,
+      "species": "Toyon",
+      "date": "2023-12-23",
+      "photo": "https://static.inaturalist.org/photos/342445744/small.jpg",
+      "url": "https://www.inaturalist.org/observations/194765294"
+    },
+    {
+      "lat": 34.45,
+      "lon": -118.3332,
+      "species": "Toyon",
+      "date": "2023-12-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/341625317/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/194360072"
+    },
+    {
+      "lat": 34.2312,
+      "lon": -118.0653,
+      "species": "Toyon",
+      "date": "2023-12-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/341470364/small.jpg",
+      "url": "https://www.inaturalist.org/observations/194285384"
+    },
+    {
+      "lat": 34.02,
+      "lon": -118.3927,
+      "species": "Toyon",
+      "date": "2023-12-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/340992460/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/194049855"
+    },
+    {
+      "lat": 34.1863,
+      "lon": -118.5793,
+      "species": "Toyon",
+      "date": "2023-12-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/339659060/small.jpg",
+      "url": "https://www.inaturalist.org/observations/193357207"
+    },
+    {
+      "lat": 34.1269,
+      "lon": -118.8549,
+      "species": "Toyon",
+      "date": "2023-12-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/339642175/small.jpg",
+      "url": "https://www.inaturalist.org/observations/193349073"
+    },
+    {
+      "lat": 34.2144,
+      "lon": -118.9106,
+      "species": "Toyon",
+      "date": "2023-12-06",
+      "photo": "https://static.inaturalist.org/photos/339506614/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/193277814"
+    },
+    {
+      "lat": 33.7832,
+      "lon": -118.1142,
+      "species": "Toyon",
+      "date": "2023-11-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/335415558/small.jpg",
+      "url": "https://www.inaturalist.org/observations/191224402"
+    },
+    {
+      "lat": 34.1047,
+      "lon": -118.2382,
+      "species": "Toyon",
+      "date": "2023-11-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/334180170/small.jpg",
+      "url": "https://www.inaturalist.org/observations/190606897"
+    },
+    {
+      "lat": 34.4301,
+      "lon": -118.3829,
+      "species": "Toyon",
+      "date": "2023-11-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/333514000/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/190258776"
+    },
+    {
+      "lat": 34.4426,
+      "lon": -118.4561,
+      "species": "Toyon",
+      "date": "2023-11-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/358483198/small.jpg",
+      "url": "https://www.inaturalist.org/observations/202937800"
+    },
+    {
+      "lat": 34.0882,
+      "lon": -118.5506,
+      "species": "Toyon",
+      "date": "2023-11-05",
+      "photo": "https://static.inaturalist.org/photos/333283800/small.jpg",
+      "url": "https://www.inaturalist.org/observations/190155215"
+    },
+    {
+      "lat": 34.2692,
+      "lon": -118.7887,
+      "species": "Toyon",
+      "date": "2023-11-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/338467826/small.jpg",
+      "url": "https://www.inaturalist.org/observations/192763526"
+    },
+    {
+      "lat": 34.3923,
+      "lon": -118.6673,
+      "species": "Toyon",
+      "date": "2023-11-03",
+      "photo": "https://static.inaturalist.org/photos/332762077/small.jpg",
+      "url": "https://www.inaturalist.org/observations/189889564"
+    },
+    {
+      "lat": 34.4428,
+      "lon": -118.2305,
+      "species": "Toyon",
+      "date": "2023-10-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/331590761/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/189309543"
+    },
+    {
+      "lat": 34.1277,
+      "lon": -118.6116,
+      "species": "Toyon",
+      "date": "2023-10-18",
+      "photo": "https://static.inaturalist.org/photos/329478981/small.jpg",
+      "url": "https://www.inaturalist.org/observations/188276896"
+    },
+    {
+      "lat": 34.4249,
+      "lon": -118.5654,
+      "species": "Toyon",
+      "date": "2023-10-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/356124251/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/201717243"
+    },
+    {
+      "lat": 34.2292,
+      "lon": -118.6463,
+      "species": "Toyon",
+      "date": "2023-10-14",
+      "photo": "https://static.inaturalist.org/photos/371282750/small.jpg",
+      "url": "https://www.inaturalist.org/observations/209853009"
+    },
+    {
+      "lat": 33.7078,
+      "lon": -118.0463,
+      "species": "Toyon",
+      "date": "2023-10-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/327445138/small.jpg",
+      "url": "https://www.inaturalist.org/observations/187263681"
+    },
+    {
+      "lat": 34.2376,
+      "lon": -118.2909,
+      "species": "Toyon",
+      "date": "2023-10-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/324948006/small.jpg",
+      "url": "https://www.inaturalist.org/observations/185997250"
+    },
+    {
+      "lat": 34.1708,
+      "lon": -118.674,
+      "species": "Toyon",
+      "date": "2023-09-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/321243202/small.jpg",
+      "url": "https://www.inaturalist.org/observations/184068964"
+    },
+    {
+      "lat": 34.3299,
+      "lon": -118.4498,
+      "species": "Toyon",
+      "date": "2023-09-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/320356171/small.jpg",
+      "url": "https://www.inaturalist.org/observations/183609088"
+    },
+    {
+      "lat": 33.8213,
+      "lon": -117.6979,
+      "species": "Toyon",
+      "date": "2023-09-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/316853794/small.jpg",
+      "url": "https://www.inaturalist.org/observations/181799058"
+    },
+    {
+      "lat": 34.4425,
+      "lon": -118.6348,
+      "species": "Toyon",
+      "date": "2023-08-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/315525571/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/181073280"
+    },
+    {
+      "lat": 34.1267,
+      "lon": -118.11,
+      "species": "Toyon",
+      "date": "2023-08-26",
+      "photo": "https://static.inaturalist.org/photos/314221763/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/180392985"
+    },
+    {
+      "lat": 34.0045,
+      "lon": -118.3481,
+      "species": "Toyon",
+      "date": "2023-08-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/313979415/small.jpg",
+      "url": "https://www.inaturalist.org/observations/180266900"
+    },
+    {
+      "lat": 33.9996,
+      "lon": -118.3559,
+      "species": "Toyon",
+      "date": "2023-08-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/312774846/small.jpg",
+      "url": "https://www.inaturalist.org/observations/179636273"
+    },
+    {
+      "lat": 34.0258,
+      "lon": -118.7947,
+      "species": "Toyon",
+      "date": "2023-08-18",
+      "photo": "https://static.inaturalist.org/photos/312291046/small.jpg",
+      "url": "https://www.inaturalist.org/observations/179386182"
+    },
+    {
+      "lat": 34.1236,
+      "lon": -117.8495,
+      "species": "Toyon",
+      "date": "2023-08-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/308636321/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/177453769"
+    },
+    {
+      "lat": 34.6893,
+      "lon": -118.3073,
+      "species": "Toyon",
+      "date": "2023-07-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/305730498/small.jpg",
+      "url": "https://www.inaturalist.org/observations/175891107"
+    },
+    {
+      "lat": 34.1697,
+      "lon": -118.7863,
+      "species": "Toyon",
+      "date": "2023-07-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/304290883/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/175109950"
+    },
+    {
+      "lat": 34.3144,
+      "lon": -118.6431,
+      "species": "Toyon",
+      "date": "2023-07-19",
+      "photo": "https://static.inaturalist.org/photos/304696456/small.jpg",
+      "url": "https://www.inaturalist.org/observations/175330743"
+    },
+    {
+      "lat": 34.1339,
+      "lon": -118.3994,
+      "species": "Toyon",
+      "date": "2023-07-09",
+      "photo": "https://static.inaturalist.org/photos/298663661/small.jpg",
+      "url": "https://www.inaturalist.org/observations/172073586"
+    },
+    {
+      "lat": 34.0857,
+      "lon": -118.2549,
+      "species": "Toyon",
+      "date": "2023-07-02",
+      "photo": "https://static.inaturalist.org/photos/296253872/small.jpg",
+      "url": "https://www.inaturalist.org/observations/170777196"
+    },
+    {
+      "lat": 33.7648,
+      "lon": -118.1925,
+      "species": "Toyon",
+      "date": "2023-06-21",
+      "photo": "https://static.inaturalist.org/photos/292513110/small.jpg",
+      "url": "https://www.inaturalist.org/observations/168759961"
+    },
+    {
+      "lat": 34.0886,
+      "lon": -118.478,
+      "species": "Toyon",
+      "date": "2023-06-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/290328692/small.jpg",
+      "url": "https://www.inaturalist.org/observations/167586090"
+    },
+    {
+      "lat": 34.2529,
+      "lon": -118.3893,
+      "species": "Toyon",
+      "date": "2023-06-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/288667363/small.jpg",
+      "url": "https://www.inaturalist.org/observations/166684730"
+    },
+    {
+      "lat": 33.7068,
+      "lon": -118.2895,
+      "species": "Toyon",
+      "date": "2023-06-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/286218129/small.jpg",
+      "url": "https://www.inaturalist.org/observations/165352737"
+    },
+    {
+      "lat": 34.052,
+      "lon": -118.5239,
+      "species": "Toyon",
+      "date": "2023-05-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/285429681/small.jpg",
+      "url": "https://www.inaturalist.org/observations/164927816"
+    },
+    {
+      "lat": 34.1306,
+      "lon": -118.8293,
+      "species": "Toyon",
+      "date": "2023-05-30",
+      "photo": "https://static.inaturalist.org/photos/285293611/small.jpg",
+      "url": "https://www.inaturalist.org/observations/164856338"
+    },
+    {
+      "lat": 33.921,
+      "lon": -117.7586,
+      "species": "Toyon",
+      "date": "2023-05-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/610099971/small.jpg",
+      "url": "https://www.inaturalist.org/observations/335798764"
+    },
+    {
+      "lat": 34.6764,
+      "lon": -118.7799,
+      "species": "Toyon",
+      "date": "2023-05-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/284321272/small.jpg",
+      "url": "https://www.inaturalist.org/observations/164333307"
+    },
+    {
+      "lat": 34.1247,
+      "lon": -118.5848,
+      "species": "Toyon",
+      "date": "2023-05-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/277905849/small.jpg",
+      "url": "https://www.inaturalist.org/observations/160808029"
+    },
+    {
+      "lat": 34.1974,
+      "lon": -118.6694,
+      "species": "Toyon",
+      "date": "2023-04-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/273534875/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/158260316"
+    },
+    {
+      "lat": 34.1262,
+      "lon": -118.6023,
+      "species": "Toyon",
+      "date": "2023-04-26",
+      "photo": "https://static.inaturalist.org/photos/271099131/small.jpg",
+      "url": "https://www.inaturalist.org/observations/156761069"
+    },
+    {
+      "lat": 34.4693,
+      "lon": -118.1908,
+      "species": "Toyon",
+      "date": "2023-04-23",
+      "photo": "https://static.inaturalist.org/photos/270347616/small.jpg",
+      "url": "https://www.inaturalist.org/observations/156355787"
+    },
+    {
+      "lat": 34.1788,
+      "lon": -118.4204,
+      "species": "Toyon",
+      "date": "2023-04-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/271526189/small.jpg",
+      "url": "https://www.inaturalist.org/observations/157003480"
+    },
+    {
+      "lat": 34.1757,
+      "lon": -118.4737,
+      "species": "Toyon",
+      "date": "2023-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/269847476/small.jpg",
+      "url": "https://www.inaturalist.org/observations/156077527"
+    },
+    {
+      "lat": 34.141,
+      "lon": -118.3508,
+      "species": "Toyon",
+      "date": "2023-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/268838941/small.jpg",
+      "url": "https://www.inaturalist.org/observations/155520503"
+    },
+    {
+      "lat": 34.5539,
+      "lon": -118.515,
+      "species": "Toyon",
+      "date": "2023-04-15",
+      "photo": "https://static.inaturalist.org/photos/267933342/small.jpg",
+      "url": "https://www.inaturalist.org/observations/155032021"
+    },
+    {
+      "lat": 34.6752,
+      "lon": -117.7991,
+      "species": "Toyon",
+      "date": "2023-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/267714156/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/154921220"
+    },
+    {
+      "lat": 34.068,
+      "lon": -118.5356,
+      "species": "Toyon",
+      "date": "2023-04-07",
+      "photo": "https://static.inaturalist.org/photos/265823190/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/153876811"
+    },
+    {
+      "lat": 34.0232,
+      "lon": -118.7718,
+      "species": "Toyon",
+      "date": "2023-04-02",
+      "photo": "https://static.inaturalist.org/photos/267846226/small.jpg",
+      "url": "https://www.inaturalist.org/observations/154983039"
+    },
+    {
+      "lat": 34.3893,
+      "lon": -118.8877,
+      "species": "Toyon",
+      "date": "2023-03-23",
+      "photo": "https://static.inaturalist.org/photos/265388169/small.jpg",
+      "url": "https://www.inaturalist.org/observations/152279805"
+    },
+    {
+      "lat": 34.2336,
+      "lon": -118.8004,
+      "species": "Toyon",
+      "date": "2023-03-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/312473594/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/179477494"
+    },
+    {
+      "lat": 34.3619,
+      "lon": -118.5335,
+      "species": "Toyon",
+      "date": "2023-03-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/261401294/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/151494205"
+    },
+    {
+      "lat": 33.7584,
+      "lon": -117.8365,
+      "species": "Toyon",
+      "date": "2023-03-11",
+      "photo": "https://static.inaturalist.org/photos/260219099/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/150866239"
+    },
+    {
+      "lat": 33.9237,
+      "lon": -117.6705,
+      "species": "Toyon",
+      "date": "2023-03-07",
+      "photo": "https://static.inaturalist.org/photos/259783741/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/150635216"
+    },
+    {
+      "lat": 34.1436,
+      "lon": -118.1677,
+      "species": "Toyon",
+      "date": "2023-02-22",
+      "photo": "https://static.inaturalist.org/photos/257477518/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/149422769"
+    },
+    {
+      "lat": 34.235,
+      "lon": -118.7851,
+      "species": "Toyon",
+      "date": "2023-02-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/303406104/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/174632486"
+    },
+    {
+      "lat": 34.5548,
+      "lon": -118.5341,
+      "species": "Toyon",
+      "date": "2023-02-06",
+      "photo": "https://static.inaturalist.org/photos/255153372/small.jpg",
+      "url": "https://www.inaturalist.org/observations/148195721"
+    },
+    {
+      "lat": 34.4182,
+      "lon": -117.8581,
+      "species": "Toyon",
+      "date": "2023-01-31",
+      "photo": "https://static.inaturalist.org/photos/254397851/small.jpg",
+      "url": "https://www.inaturalist.org/observations/147805049"
+    },
+    {
+      "lat": 33.7887,
+      "lon": -117.7768,
+      "species": "Toyon",
+      "date": "2023-01-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/265314294/small.jpg",
+      "url": "https://www.inaturalist.org/observations/153602095"
+    },
+    {
+      "lat": 34.1281,
+      "lon": -118.2077,
+      "species": "Toyon",
+      "date": "2023-01-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/253667490/small.jpg",
+      "url": "https://www.inaturalist.org/observations/147419716"
+    },
+    {
+      "lat": 34.3953,
+      "lon": -118.0568,
+      "species": "Toyon",
+      "date": "2023-01-24",
+      "photo": "https://static.inaturalist.org/photos/253470022/small.jpg",
+      "url": "https://www.inaturalist.org/observations/147314978"
+    },
+    {
+      "lat": 34.1945,
+      "lon": -117.7509,
+      "species": "Toyon",
+      "date": "2023-01-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/252114991/small.jpg",
+      "url": "https://www.inaturalist.org/observations/146619732"
+    },
+    {
+      "lat": 34.0852,
+      "lon": -118.7094,
+      "species": "Toyon",
+      "date": "2022-12-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/250798925/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/145943335"
+    },
+    {
+      "lat": 34.0977,
+      "lon": -118.2803,
+      "species": "Toyon",
+      "date": "2022-12-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/250355817/small.jpg",
+      "url": "https://www.inaturalist.org/observations/145717114"
+    },
+    {
+      "lat": 34.3313,
+      "lon": -118.365,
+      "species": "Toyon",
+      "date": "2022-12-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/247460601/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/144207482"
+    },
+    {
+      "lat": 34.2765,
+      "lon": -118.2407,
+      "species": "Toyon",
+      "date": "2022-12-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/247220314/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/144083026"
+    },
+    {
+      "lat": 33.8373,
+      "lon": -118.2027,
+      "species": "Toyon",
+      "date": "2022-12-09",
+      "photo": "https://static.inaturalist.org/photos/247150199/small.jpg",
+      "url": "https://www.inaturalist.org/observations/144046184"
+    },
+    {
+      "lat": 34.0034,
+      "lon": -118.3917,
+      "species": "Toyon",
+      "date": "2022-11-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/245222773/small.jpg",
+      "url": "https://www.inaturalist.org/observations/142995490"
+    },
+    {
+      "lat": 34.1816,
+      "lon": -118.5395,
+      "species": "Toyon",
+      "date": "2022-11-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/244672625/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/142687403"
+    },
+    {
+      "lat": 34.0665,
+      "lon": -117.6536,
+      "species": "Toyon",
+      "date": "2022-11-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/241479305/small.jpg",
+      "url": "https://www.inaturalist.org/observations/141016256"
+    },
+    {
+      "lat": 34.3992,
+      "lon": -118.9182,
+      "species": "Toyon",
+      "date": "2022-11-01",
+      "photo": "https://static.inaturalist.org/photos/241068833/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/140799310"
+    },
+    {
+      "lat": 34.0352,
+      "lon": -118.605,
+      "species": "Toyon",
+      "date": "2022-10-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/237822186/small.jpg",
+      "url": "https://www.inaturalist.org/observations/139085094"
+    },
+    {
+      "lat": 34.1702,
+      "lon": -118.606,
+      "species": "Toyon",
+      "date": "2022-09-28",
+      "photo": "https://static.inaturalist.org/photos/243308043/small.jpg",
+      "url": "https://www.inaturalist.org/observations/141961424"
+    },
+    {
+      "lat": 34.3671,
+      "lon": -118.4944,
+      "species": "Toyon",
+      "date": "2022-09-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/233487508/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/136775937"
+    },
+    {
+      "lat": 34.6187,
+      "lon": -118.6381,
+      "species": "Toyon",
+      "date": "2022-09-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/230337984/small.jpg",
+      "url": "https://www.inaturalist.org/observations/135074640"
+    },
+    {
+      "lat": 34.3178,
+      "lon": -118.0838,
+      "species": "Toyon",
+      "date": "2022-09-01",
+      "photo": "https://static.inaturalist.org/photos/226830514/small.jpg",
+      "url": "https://www.inaturalist.org/observations/133189616"
+    },
+    {
+      "lat": 33.8822,
+      "lon": -117.8832,
+      "species": "Toyon",
+      "date": "2022-08-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/225594016/small.jpg",
+      "url": "https://www.inaturalist.org/observations/132477763"
+    },
+    {
+      "lat": 34.7929,
+      "lon": -118.8522,
+      "species": "Toyon",
+      "date": "2022-08-14",
+      "photo": "https://static.inaturalist.org/photos/222497244/small.jpg",
+      "url": "https://www.inaturalist.org/observations/130800748"
+    },
+    {
+      "lat": 34.1233,
+      "lon": -118.3151,
+      "species": "Toyon",
+      "date": "2022-08-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/219469557/small.jpg",
+      "url": "https://www.inaturalist.org/observations/129166248"
+    },
+    {
+      "lat": 34.185,
+      "lon": -118.2668,
+      "species": "Toyon",
+      "date": "2022-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/238593719/small.jpg",
+      "url": "https://www.inaturalist.org/observations/127220332"
+    },
+    {
+      "lat": 34.0812,
+      "lon": -117.788,
+      "species": "Toyon",
+      "date": "2022-05-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/195246811/small.jpg",
+      "url": "https://www.inaturalist.org/observations/115682894"
+    },
+    {
+      "lat": 33.9063,
+      "lon": -118.4236,
+      "species": "Toyon",
+      "date": "2022-05-01",
+      "photo": "https://static.inaturalist.org/photos/193334209/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/114492894"
+    },
+    {
+      "lat": 34.1246,
+      "lon": -118.4111,
+      "species": "Toyon",
+      "date": "2022-04-30",
+      "photo": "https://static.inaturalist.org/photos/192436292/small.jpg",
+      "url": "https://www.inaturalist.org/observations/113932311"
+    },
+    {
+      "lat": 34.1815,
+      "lon": -118.2165,
+      "species": "Toyon",
+      "date": "2022-04-28",
+      "photo": "https://static.inaturalist.org/photos/191431293/small.jpg",
+      "url": "https://www.inaturalist.org/observations/113292994"
+    },
+    {
+      "lat": 34.0215,
+      "lon": -118.0813,
+      "species": "Toyon",
+      "date": "2022-04-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/190275938/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/112642258"
+    },
+    {
+      "lat": 33.7789,
+      "lon": -118.3622,
+      "species": "Toyon",
+      "date": "2022-04-21",
+      "photo": "https://static.inaturalist.org/photos/190235816/small.jpg",
+      "url": "https://www.inaturalist.org/observations/112621479"
+    },
+    {
+      "lat": 34.1305,
+      "lon": -118.6468,
+      "species": "Toyon",
+      "date": "2022-04-18",
+      "photo": "https://static.inaturalist.org/photos/189084732/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/111969966"
+    },
+    {
+      "lat": 33.8094,
+      "lon": -117.7716,
+      "species": "Toyon",
+      "date": "2022-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/190745400/small.jpg",
+      "url": "https://www.inaturalist.org/observations/112905639"
+    },
+    {
+      "lat": 33.7273,
+      "lon": -117.7468,
+      "species": "Toyon",
+      "date": "2022-04-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/192776228/small.jpg",
+      "url": "https://www.inaturalist.org/observations/114138617"
+    },
+    {
+      "lat": 33.768,
+      "lon": -117.7251,
+      "species": "Toyon",
+      "date": "2022-04-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/187407484/small.jpg",
+      "url": "https://www.inaturalist.org/observations/111045594"
+    },
+    {
+      "lat": 34.0082,
+      "lon": -118.6046,
+      "species": "Toyon",
+      "date": "2022-03-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/184272808/small.jpg",
+      "url": "https://www.inaturalist.org/observations/109343249"
+    },
+    {
+      "lat": 34.6342,
+      "lon": -118.3896,
+      "species": "Toyon",
+      "date": "2022-02-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/180505071/small.jpg",
+      "url": "https://www.inaturalist.org/observations/107336744"
+    },
+    {
+      "lat": 34.0308,
+      "lon": -118.812,
+      "species": "Toyon",
+      "date": "2022-01-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/176162912/small.jpg",
+      "url": "https://www.inaturalist.org/observations/105047770"
+    },
+    {
+      "lat": 34.166,
+      "lon": -118.1364,
+      "species": "Toyon",
+      "date": "2022-01-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/176351538/small.jpg",
+      "url": "https://www.inaturalist.org/observations/105145159"
+    },
+    {
+      "lat": 34.4941,
+      "lon": -118.2739,
+      "species": "Toyon",
+      "date": "2022-01-06",
+      "photo": "https://static.inaturalist.org/photos/175195431/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/104544048"
+    },
+    {
+      "lat": 33.8149,
+      "lon": -117.7955,
+      "species": "Toyon",
+      "date": "2022-01-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/176742050/small.jpg",
+      "url": "https://www.inaturalist.org/observations/105349389"
+    },
+    {
+      "lat": 34.0562,
+      "lon": -118.8285,
+      "species": "Toyon",
+      "date": "2021-12-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/173688065/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/103735599"
+    },
+    {
+      "lat": 33.7048,
+      "lon": -117.7181,
+      "species": "Toyon",
+      "date": "2021-12-20",
+      "photo": "https://static.inaturalist.org/photos/173028375/small.jpg",
+      "url": "https://www.inaturalist.org/observations/103391382"
+    },
+    {
+      "lat": 34.1427,
+      "lon": -118.2551,
+      "species": "Toyon",
+      "date": "2021-12-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/171224888/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/102432693"
+    },
+    {
+      "lat": 34.4216,
+      "lon": -118.7829,
+      "species": "Toyon",
+      "date": "2021-11-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/168170615/small.jpg",
+      "url": "https://www.inaturalist.org/observations/100742870"
+    },
+    {
+      "lat": 34.2815,
+      "lon": -118.8999,
+      "species": "Toyon",
+      "date": "2021-10-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/163613815/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/98278445"
+    },
+    {
+      "lat": 33.8287,
+      "lon": -117.8696,
+      "species": "Toyon",
+      "date": "2021-10-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/196204679/small.jpg",
+      "url": "https://www.inaturalist.org/observations/116243700"
+    },
+    {
+      "lat": 34.2399,
+      "lon": -118.2635,
+      "species": "Toyon",
+      "date": "2021-08-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/155010609/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/93519725"
+    },
+    {
+      "lat": 33.918,
+      "lon": -117.7245,
+      "species": "Toyon",
+      "date": "2021-08-22",
+      "photo": "https://static.inaturalist.org/photos/171874079/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/102775153"
+    },
+    {
+      "lat": 34.1464,
+      "lon": -118.1338,
+      "species": "Toyon",
+      "date": "2021-08-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/150203883/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/90857119"
+    },
+    {
+      "lat": 33.8769,
+      "lon": -117.8479,
+      "species": "Toyon",
+      "date": "2021-08-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/159478021/small.jpg",
+      "url": "https://www.inaturalist.org/observations/96023721"
+    },
+    {
+      "lat": 34.0672,
+      "lon": -118.1121,
+      "species": "Toyon",
+      "date": "2021-07-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/147556655/small.jpg",
+      "url": "https://www.inaturalist.org/observations/89360537"
+    },
+    {
+      "lat": 34.4794,
+      "lon": -118.153,
+      "species": "Toyon",
+      "date": "2021-07-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/140821093/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/85574054"
+    },
+    {
+      "lat": 33.7174,
+      "lon": -118.1205,
+      "species": "Toyon",
+      "date": "2021-06-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/135130722/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/82339842"
+    },
+    {
+      "lat": 34.1167,
+      "lon": -118.756,
+      "species": "Toyon",
+      "date": "2021-05-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/131797454/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/80415419"
+    },
+    {
+      "lat": 34.1733,
+      "lon": -118.1991,
+      "species": "Toyon",
+      "date": "2021-05-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/129098366/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/78855195"
+    },
+    {
+      "lat": 34.4653,
+      "lon": -118.5268,
+      "species": "Toyon",
+      "date": "2021-05-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/128336560/small.jpg",
+      "url": "https://www.inaturalist.org/observations/78419730"
+    },
+    {
+      "lat": 34.5,
+      "lon": -118.3182,
+      "species": "Toyon",
+      "date": "2021-05-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/127847671/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/78144137"
+    },
+    {
+      "lat": 34.5693,
+      "lon": -118.3185,
+      "species": "Toyon",
+      "date": "2021-04-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/123534788/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/75502808"
+    },
+    {
+      "lat": 34.1279,
+      "lon": -118.5018,
+      "species": "Toyon",
+      "date": "2021-04-26",
+      "photo": "https://static.inaturalist.org/photos/123294372/small.jpg",
+      "url": "https://www.inaturalist.org/observations/75368775"
+    },
+    {
+      "lat": 34.2375,
+      "lon": -118.6852,
+      "species": "Toyon",
+      "date": "2021-04-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/122086089/small.jpg",
+      "url": "https://www.inaturalist.org/observations/74661132"
+    },
+    {
+      "lat": 34.2378,
+      "lon": -118.5973,
+      "species": "Toyon",
+      "date": "2021-04-20",
+      "photo": "https://static.inaturalist.org/photos/122024337/small.jpg",
+      "url": "https://www.inaturalist.org/observations/74645512"
+    },
+    {
+      "lat": 34.1071,
+      "lon": -118.4156,
+      "species": "Toyon",
+      "date": "2021-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/121748258/small.jpg",
+      "url": "https://www.inaturalist.org/observations/74488750"
+    },
+    {
+      "lat": 34.0889,
+      "lon": -117.8607,
+      "species": "Toyon",
+      "date": "2021-04-14",
+      "photo": "https://static.inaturalist.org/photos/120811069/small.jpg",
+      "url": "https://www.inaturalist.org/observations/73954113"
+    },
+    {
+      "lat": 34.0255,
+      "lon": -118.6783,
+      "species": "Toyon",
+      "date": "2021-04-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/119021449/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/72946975"
+    },
+    {
+      "lat": 34.0621,
+      "lon": -118.4813,
+      "species": "Toyon",
+      "date": "2021-04-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/118633355/small.jpg",
+      "url": "https://www.inaturalist.org/observations/72731911"
+    },
+    {
+      "lat": 34.3332,
+      "lon": -118.8697,
+      "species": "Toyon",
+      "date": "2021-03-29",
+      "photo": "https://static.inaturalist.org/photos/118191420/small.jpg",
+      "url": "https://www.inaturalist.org/observations/72487737"
+    },
+    {
+      "lat": 34.3289,
+      "lon": -118.8691,
+      "species": "Toyon",
+      "date": "2021-03-29",
+      "photo": "https://static.inaturalist.org/photos/118063720/small.jpg",
+      "url": "https://www.inaturalist.org/observations/72416095"
+    },
+    {
+      "lat": 34.4853,
+      "lon": -118.5668,
+      "species": "Toyon",
+      "date": "2021-03-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/528913545/small.jpg",
+      "url": "https://www.inaturalist.org/observations/293876410"
+    },
+    {
+      "lat": 34.395,
+      "lon": -118.7641,
+      "species": "Toyon",
+      "date": "2021-03-02",
+      "photo": "https://static.inaturalist.org/photos/114544320/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/70455505"
+    },
+    {
+      "lat": 34.1983,
+      "lon": -118.8117,
+      "species": "Toyon",
+      "date": "2021-02-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/114390151/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/70375121"
+    },
+    {
+      "lat": 34.1423,
+      "lon": -117.9457,
+      "species": "Toyon",
+      "date": "2021-02-25",
+      "photo": "https://static.inaturalist.org/photos/114034381/small.jpg",
+      "url": "https://www.inaturalist.org/observations/70177313"
+    },
+    {
+      "lat": 34.0656,
+      "lon": -118.5866,
+      "species": "Toyon",
+      "date": "2021-02-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/113657580/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/70002603"
+    },
+    {
+      "lat": 34.042,
+      "lon": -118.8983,
+      "species": "Toyon",
+      "date": "2021-02-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/112364883/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/69268592"
+    },
+    {
+      "lat": 34.5037,
+      "lon": -118.5426,
+      "species": "Toyon",
+      "date": "2021-02-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/112099837/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/69126557"
+    },
+    {
+      "lat": 34.0509,
+      "lon": -118.6382,
+      "species": "Toyon",
+      "date": "2021-02-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/111898093/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/69018007"
+    },
+    {
+      "lat": 34.1387,
+      "lon": -118.8535,
+      "species": "Toyon",
+      "date": "2021-01-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/110874187/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/68469780"
+    },
+    {
+      "lat": 34.1869,
+      "lon": -118.8351,
+      "species": "Toyon",
+      "date": "2021-01-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/110333021/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/68181086"
+    },
+    {
+      "lat": 34.0804,
+      "lon": -118.8509,
+      "species": "Toyon",
+      "date": "2021-01-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/110332768/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/68181079"
+    },
+    {
+      "lat": 33.9795,
+      "lon": -118.3354,
+      "species": "Toyon",
+      "date": "2021-01-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/109412678/small.jpg",
+      "url": "https://www.inaturalist.org/observations/67681244"
+    },
+    {
+      "lat": 34.0155,
+      "lon": -118.8244,
+      "species": "Toyon",
+      "date": "2021-01-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/109036148/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/67482183"
+    },
+    {
+      "lat": 34.0343,
+      "lon": -118.9335,
+      "species": "Toyon",
+      "date": "2021-01-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/109035778/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/67482177"
+    },
+    {
+      "lat": 34.4799,
+      "lon": -118.3862,
+      "species": "Toyon",
+      "date": "2020-12-14",
+      "photo": "https://static.inaturalist.org/photos/107411443/small.jpg",
+      "url": "https://www.inaturalist.org/observations/66605980"
+    },
+    {
+      "lat": 34.5117,
+      "lon": -118.7626,
+      "species": "Toyon",
+      "date": "2020-12-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/106567386/small.jpg",
+      "url": "https://www.inaturalist.org/observations/66145297"
+    },
+    {
+      "lat": 34.4437,
+      "lon": -118.5505,
+      "species": "Toyon",
+      "date": "2020-11-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/453658583/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/253371629"
+    },
+    {
+      "lat": 34.1503,
+      "lon": -118.7529,
+      "species": "Toyon",
+      "date": "2020-11-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/104253286/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/64809330"
+    },
+    {
+      "lat": 33.7457,
+      "lon": -117.656,
+      "species": "Toyon",
+      "date": "2020-11-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/103971621/small.png",
+      "url": "https://www.inaturalist.org/observations/64653059"
+    },
+    {
+      "lat": 34.208,
+      "lon": -118.9136,
+      "species": "Toyon",
+      "date": "2020-10-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/102887414/small.jpg",
+      "url": "https://www.inaturalist.org/observations/63990670"
+    },
+    {
+      "lat": 34.5595,
+      "lon": -118.1115,
+      "species": "Toyon",
+      "date": "2020-10-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/99402410/small.jpg",
+      "url": "https://www.inaturalist.org/observations/62069672"
+    },
+    {
+      "lat": 34.3979,
+      "lon": -118.7942,
+      "species": "Toyon",
+      "date": "2020-09-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/96169431/small.jpg",
+      "url": "https://www.inaturalist.org/observations/60156874"
+    },
+    {
+      "lat": 34.4585,
+      "lon": -118.1639,
+      "species": "Toyon",
+      "date": "2020-08-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/91411071/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/57314580"
+    },
+    {
+      "lat": 34.5259,
+      "lon": -118.2975,
+      "species": "Toyon",
+      "date": "2020-08-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/91009105/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/57075068"
+    },
+    {
+      "lat": 34.077,
+      "lon": -117.8104,
+      "species": "Toyon",
+      "date": "2020-08-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/89851061/small.png",
+      "url": "https://www.inaturalist.org/observations/56382827"
+    },
+    {
+      "lat": 33.7517,
+      "lon": -118.0994,
+      "species": "Toyon",
+      "date": "2020-07-23",
+      "photo": "https://static.inaturalist.org/photos/86063008/small.jpg",
+      "url": "https://www.inaturalist.org/observations/54101383"
+    },
+    {
+      "lat": 34.2322,
+      "lon": -118.4526,
+      "species": "Toyon",
+      "date": "2020-07-20",
+      "photo": "https://static.inaturalist.org/photos/85715921/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/53884588"
+    },
+    {
+      "lat": 33.7459,
+      "lon": -117.7875,
+      "species": "Toyon",
+      "date": "2020-07-15",
+      "photo": "https://static.inaturalist.org/photos/84593324/small.jpg",
+      "url": "https://www.inaturalist.org/observations/53195095"
+    },
+    {
+      "lat": 34.2009,
+      "lon": -118.8444,
+      "species": "Toyon",
+      "date": "2020-07-13",
+      "photo": "https://static.inaturalist.org/photos/84301723/small.jpg",
+      "url": "https://www.inaturalist.org/observations/53013283"
+    },
+    {
+      "lat": 33.7259,
+      "lon": -117.7767,
+      "species": "Toyon",
+      "date": "2020-07-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/369315632/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/208718741"
+    },
+    {
+      "lat": 33.7165,
+      "lon": -117.8827,
+      "species": "Toyon",
+      "date": "2020-07-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/82819100/small.jpg",
+      "url": "https://www.inaturalist.org/observations/52110315"
+    },
+    {
+      "lat": 34.5854,
+      "lon": -118.3174,
+      "species": "Toyon",
+      "date": "2020-07-02",
+      "photo": "https://static.inaturalist.org/photos/82594435/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/51969616"
+    },
+    {
+      "lat": 33.9277,
+      "lon": -117.6999,
+      "species": "Toyon",
+      "date": "2020-07-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/82673234/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/52018725"
+    },
+    {
+      "lat": 33.7316,
+      "lon": -118.3264,
+      "species": "Toyon",
+      "date": "2020-06-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/159911793/small.jpg",
+      "url": "https://www.inaturalist.org/observations/96270696"
+    },
+    {
+      "lat": 34.3756,
+      "lon": -117.721,
+      "species": "Toyon",
+      "date": "2020-06-20",
+      "photo": "https://static.inaturalist.org/photos/79985662/small.jpg",
+      "url": "https://www.inaturalist.org/observations/50371068"
+    },
+    {
+      "lat": 33.9042,
+      "lon": -117.7653,
+      "species": "Toyon",
+      "date": "2020-06-18",
+      "photo": "https://static.inaturalist.org/photos/79587932/small.jpg",
+      "url": "https://www.inaturalist.org/observations/50121050"
+    },
+    {
+      "lat": 34.3183,
+      "lon": -118.7162,
+      "species": "Toyon",
+      "date": "2020-06-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/79596196/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/50126332"
+    },
+    {
+      "lat": 34.6163,
+      "lon": -118.7001,
+      "species": "Toyon",
+      "date": "2020-06-18",
+      "photo": "https://static.inaturalist.org/photos/80581528/small.jpg",
+      "url": "https://www.inaturalist.org/observations/50735490"
+    },
+    {
+      "lat": 34.1235,
+      "lon": -118.6359,
+      "species": "Toyon",
+      "date": "2020-06-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/78951150/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/49730476"
+    },
+    {
+      "lat": 34.0847,
+      "lon": -118.831,
+      "species": "Toyon",
+      "date": "2020-06-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/78637342/small.jpg",
+      "url": "https://www.inaturalist.org/observations/49534794"
+    },
+    {
+      "lat": 34.4514,
+      "lon": -118.9067,
+      "species": "Toyon",
+      "date": "2020-06-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/78881472/small.jpg",
+      "url": "https://www.inaturalist.org/observations/49686277"
+    },
+    {
+      "lat": 33.8486,
+      "lon": -117.6849,
+      "species": "Toyon",
+      "date": "2020-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/77297790/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/48711767"
+    },
+    {
+      "lat": 33.9254,
+      "lon": -117.868,
+      "species": "Toyon",
+      "date": "2020-05-17",
+      "photo": "https://static.inaturalist.org/photos/73465101/small.jpg",
+      "url": "https://www.inaturalist.org/observations/46321079"
+    },
+    {
+      "lat": 34.0536,
+      "lon": -117.8036,
+      "species": "Toyon",
+      "date": "2020-05-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/72516852/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/45725258"
+    },
+    {
+      "lat": 33.9013,
+      "lon": -117.9569,
+      "species": "Toyon",
+      "date": "2020-05-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/72022873/small.jpg",
+      "url": "https://www.inaturalist.org/observations/45421784"
+    },
+    {
+      "lat": 34.559,
+      "lon": -118.489,
+      "species": "Toyon",
+      "date": "2020-05-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/71381245/small.jpg",
+      "url": "https://www.inaturalist.org/observations/45023749"
+    },
+    {
+      "lat": 34.1504,
+      "lon": -118.3339,
+      "species": "Toyon",
+      "date": "2020-05-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/70826930/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/44674960"
+    },
+    {
+      "lat": 34.6723,
+      "lon": -118.3951,
+      "species": "Toyon",
+      "date": "2020-05-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/70830782/small.jpg",
+      "url": "https://www.inaturalist.org/observations/44676442"
+    },
+    {
+      "lat": 34.0134,
+      "lon": -118.8529,
+      "species": "Toyon",
+      "date": "2020-05-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/70565650/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/44512111"
+    },
+    {
+      "lat": 34.0044,
+      "lon": -118.8633,
+      "species": "Toyon",
+      "date": "2020-05-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/70564740/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/44512028"
+    },
+    {
+      "lat": 34.1649,
+      "lon": -118.9189,
+      "species": "Toyon",
+      "date": "2020-05-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/70564195/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/44511972"
+    },
+    {
+      "lat": 33.8536,
+      "lon": -118.134,
+      "species": "Toyon",
+      "date": "2020-04-27",
+      "photo": "https://static.inaturalist.org/photos/69824836/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/44037314"
+    },
+    {
+      "lat": 34.4123,
+      "lon": -118.9143,
+      "species": "Toyon",
+      "date": "2020-04-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/68379537/small.jpg",
+      "url": "https://www.inaturalist.org/observations/43067921"
+    },
+    {
+      "lat": 34.3185,
+      "lon": -118.3334,
+      "species": "Toyon",
+      "date": "2020-04-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/68290651/small.jpg",
+      "url": "https://www.inaturalist.org/observations/43009506"
+    },
+    {
+      "lat": 34.0461,
+      "lon": -118.8812,
+      "species": "Toyon",
+      "date": "2020-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/66972479/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/42192393"
+    },
+    {
+      "lat": 34.0853,
+      "lon": -118.9402,
+      "species": "Toyon",
+      "date": "2020-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/66972178/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/42192366"
+    },
+    {
+      "lat": 34.3745,
+      "lon": -118.6033,
+      "species": "Toyon",
+      "date": "2020-04-10",
+      "photo": "https://static.inaturalist.org/photos/66458910/small.jpg",
+      "url": "https://www.inaturalist.org/observations/41880817"
+    },
+    {
+      "lat": 33.7836,
+      "lon": -118.3476,
+      "species": "Toyon",
+      "date": "2020-03-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/65004993/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/40995756"
+    },
+    {
+      "lat": 34.2789,
+      "lon": -118.3044,
+      "species": "Toyon",
+      "date": "2020-03-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/102466908/small.jpg",
+      "url": "https://www.inaturalist.org/observations/63805546"
+    },
+    {
+      "lat": 34.1661,
+      "lon": -118.8101,
+      "species": "Toyon",
+      "date": "2020-03-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/64873299/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/40918552"
+    },
+    {
+      "lat": 34.157,
+      "lon": -118.8042,
+      "species": "Toyon",
+      "date": "2020-03-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/64885338/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/40929400"
+    },
+    {
+      "lat": 34.1019,
+      "lon": -118.3095,
+      "species": "Toyon",
+      "date": "2020-02-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/62779899/small.jpg",
+      "url": "https://www.inaturalist.org/observations/39563617"
+    },
+    {
+      "lat": 34.5349,
+      "lon": -118.637,
+      "species": "Toyon",
+      "date": "2020-01-03",
+      "photo": "https://static.inaturalist.org/photos/59791740/small.jpg",
+      "url": "https://www.inaturalist.org/observations/37340795"
+    },
+    {
+      "lat": 34.0338,
+      "lon": -118.6849,
+      "species": "Toyon",
+      "date": "2019-11-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/56899654/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/36029420"
+    },
+    {
+      "lat": 34.6342,
+      "lon": -118.3549,
+      "species": "Toyon",
+      "date": "2019-11-21",
+      "photo": "https://static.inaturalist.org/photos/56797796/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/35972295"
+    },
+    {
+      "lat": 34.0739,
+      "lon": -118.2903,
+      "species": "Toyon",
+      "date": "2019-11-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/56306427/small.jpg",
+      "url": "https://www.inaturalist.org/observations/35689041"
+    },
+    {
+      "lat": 34.272,
+      "lon": -118.5968,
+      "species": "Toyon",
+      "date": "2019-11-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/55565942/small.jpg",
+      "url": "https://www.inaturalist.org/observations/35250435"
+    },
+    {
+      "lat": 34.0967,
+      "lon": -118.1468,
+      "species": "Toyon",
+      "date": "2019-10-21",
+      "photo": "https://static.inaturalist.org/photos/54685398/small.jpg",
+      "url": "https://www.inaturalist.org/observations/34724522"
+    },
+    {
+      "lat": 34.2208,
+      "lon": -118.8519,
+      "species": "Toyon",
+      "date": "2019-09-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/63438372/small.jpg",
+      "url": "https://www.inaturalist.org/observations/39951292"
+    },
+    {
+      "lat": 33.8663,
+      "lon": -117.7616,
+      "species": "Toyon",
+      "date": "2019-09-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/52815223/small.jpg",
+      "url": "https://www.inaturalist.org/observations/33617743"
+    },
+    {
+      "lat": 34.0549,
+      "lon": -118.2726,
+      "species": "Toyon",
+      "date": "2019-09-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/50678781/small.jpg",
+      "url": "https://www.inaturalist.org/observations/32319001"
+    },
+    {
+      "lat": 34.0448,
+      "lon": -118.1531,
+      "species": "Toyon",
+      "date": "2019-08-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/61169397/small.jpg",
+      "url": "https://www.inaturalist.org/observations/38485322"
+    },
+    {
+      "lat": 34.2253,
+      "lon": -118.5634,
+      "species": "Toyon",
+      "date": "2019-08-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/47474676/small.jpg",
+      "url": "https://www.inaturalist.org/observations/30387423"
+    },
+    {
+      "lat": 34.3207,
+      "lon": -118.2282,
+      "species": "Toyon",
+      "date": "2019-07-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/44969827/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/28832305"
+    },
+    {
+      "lat": 34.1218,
+      "lon": -118.7124,
+      "species": "Toyon",
+      "date": "2019-05-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/381811959/small.jpg",
+      "url": "https://www.inaturalist.org/observations/215924100"
+    },
+    {
+      "lat": 33.7347,
+      "lon": -117.7498,
+      "species": "Toyon",
+      "date": "2019-05-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/39114422/small.jpg",
+      "url": "https://www.inaturalist.org/observations/25264838"
+    },
+    {
+      "lat": 34.3463,
+      "lon": -118.4545,
+      "species": "Toyon",
+      "date": "2019-05-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/38204914/small.jpg",
+      "url": "https://www.inaturalist.org/observations/24705030"
+    },
+    {
+      "lat": 34.1328,
+      "lon": -118.1706,
+      "species": "Toyon",
+      "date": "2019-05-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/37620166/small.jpg",
+      "url": "https://www.inaturalist.org/observations/24329980"
+    },
+    {
+      "lat": 34.4591,
+      "lon": -117.9278,
+      "species": "Toyon",
+      "date": "2019-04-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/36929148/small.jpg",
+      "url": "https://www.inaturalist.org/observations/23865745"
+    },
+    {
+      "lat": 34.1109,
+      "lon": -118.5641,
+      "species": "Toyon",
+      "date": "2019-04-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/37655077/small.jpg",
+      "url": "https://www.inaturalist.org/observations/24351007"
+    },
+    {
+      "lat": 34.4662,
+      "lon": -118.4065,
+      "species": "Toyon",
+      "date": "2019-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/35508715/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/22909115"
+    },
+    {
+      "lat": 33.9228,
+      "lon": -117.9961,
+      "species": "Toyon",
+      "date": "2019-04-15",
+      "photo": "https://static.inaturalist.org/photos/34909249/small.jpg",
+      "url": "https://www.inaturalist.org/observations/22532333"
+    },
+    {
+      "lat": 34.0223,
+      "lon": -117.7665,
+      "species": "Toyon",
+      "date": "2019-03-12",
+      "photo": "https://static.inaturalist.org/photos/33081716/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/21385359"
+    },
+    {
+      "lat": 34.2837,
+      "lon": -118.8105,
+      "species": "Toyon",
+      "date": "2019-03-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/32692932/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/21148564"
+    },
+    {
+      "lat": 34.5342,
+      "lon": -118.5214,
+      "species": "Toyon",
+      "date": "2019-02-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/55307509/small.jpg",
+      "url": "https://www.inaturalist.org/observations/35087768"
+    },
+    {
+      "lat": 34.3958,
+      "lon": -118.6066,
+      "species": "Toyon",
+      "date": "2019-01-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/31435042/small.jpg",
+      "url": "https://www.inaturalist.org/observations/20356740"
+    },
+    {
+      "lat": 34.2024,
+      "lon": -118.8507,
+      "species": "Toyon",
+      "date": "2019-01-11",
+      "photo": "https://static.inaturalist.org/photos/30424714/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/19745823"
+    },
+    {
+      "lat": 34.5006,
+      "lon": -118.4529,
+      "species": "Toyon",
+      "date": "2018-12-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/29666370/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/19299172"
+    },
+    {
+      "lat": 34.0189,
+      "lon": -118.8995,
+      "species": "Toyon",
+      "date": "2018-11-20",
+      "photo": "https://static.inaturalist.org/photos/60565035/small.jpg",
+      "url": "https://www.inaturalist.org/observations/38134636"
+    },
+    {
+      "lat": 33.9805,
+      "lon": -117.8178,
+      "species": "Toyon",
+      "date": "2018-11-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/28273922/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/18489246"
+    },
+    {
+      "lat": 34.1665,
+      "lon": -118.6992,
+      "species": "Toyon",
+      "date": "2018-11-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/28367186/small.jpg",
+      "url": "https://www.inaturalist.org/observations/18542980"
+    },
+    {
+      "lat": 34.0297,
+      "lon": -118.2708,
+      "species": "Toyon",
+      "date": "2018-11-01",
+      "photo": "https://static.inaturalist.org/photos/27536895/small.jpg",
+      "url": "https://www.inaturalist.org/observations/18012376"
+    },
+    {
+      "lat": 34.1921,
+      "lon": -118.1034,
+      "species": "Toyon",
+      "date": "2018-10-20",
+      "photo": "https://static.inaturalist.org/photos/26980004/small.jpg",
+      "url": "https://www.inaturalist.org/observations/17700675"
+    },
+    {
+      "lat": 33.7638,
+      "lon": -117.9103,
+      "species": "Toyon",
+      "date": "2018-09-06",
+      "photo": "https://static.inaturalist.org/photos/24414147/small.jpg",
+      "url": "https://www.inaturalist.org/observations/16260985"
+    },
+    {
+      "lat": 34.0075,
+      "lon": -117.806,
+      "species": "Toyon",
+      "date": "2018-07-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/20750767/small.jpg",
+      "url": "https://www.inaturalist.org/observations/14034814"
+    },
+    {
+      "lat": 34.0977,
+      "lon": -118.561,
+      "species": "Toyon",
+      "date": "2018-06-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/20484573/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/13875021"
+    },
+    {
+      "lat": 34.4013,
+      "lon": -118.7,
+      "species": "Toyon",
+      "date": "2018-06-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/165239725/small.jpg",
+      "url": "https://www.inaturalist.org/observations/99158382"
+    },
+    {
+      "lat": 34.0876,
+      "lon": -118.6579,
+      "species": "Toyon",
+      "date": "2018-06-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/20439220/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/13848775"
+    },
+    {
+      "lat": 34.037,
+      "lon": -118.0589,
+      "species": "Toyon",
+      "date": "2018-06-07",
+      "photo": "https://static.inaturalist.org/photos/19329355/small.jpg",
+      "url": "https://www.inaturalist.org/observations/13217906"
+    },
+    {
+      "lat": 34.1451,
+      "lon": -118.4375,
+      "species": "Toyon",
+      "date": "2018-05-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/18785918/small.jpg",
+      "url": "https://www.inaturalist.org/observations/12929455"
+    },
+    {
+      "lat": 34.1061,
+      "lon": -118.5454,
+      "species": "Toyon",
+      "date": "2018-05-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/18645088/small.jpg",
+      "url": "https://www.inaturalist.org/observations/12849074"
+    },
+    {
+      "lat": 34.4556,
+      "lon": -118.8468,
+      "species": "Toyon",
+      "date": "2018-05-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/334201515/small.jpg",
+      "url": "https://www.inaturalist.org/observations/190617649"
+    },
+    {
+      "lat": 33.9846,
+      "lon": -117.9299,
+      "species": "Toyon",
+      "date": "2018-04-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/17249067/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/12033326"
+    },
+    {
+      "lat": 34.159,
+      "lon": -118.2512,
+      "species": "Toyon",
+      "date": "2018-04-29",
+      "photo": "https://static.inaturalist.org/photos/16921214/small.jpg",
+      "url": "https://www.inaturalist.org/observations/11826875"
+    },
+    {
+      "lat": 34.0637,
+      "lon": -118.3555,
+      "species": "Toyon",
+      "date": "2018-04-27",
+      "photo": "https://static.inaturalist.org/photos/16456913/small.jpg",
+      "url": "https://www.inaturalist.org/observations/11527511"
+    },
+    {
+      "lat": 34.1633,
+      "lon": -118.1543,
+      "species": "Toyon",
+      "date": "2018-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/16649490/small.jpg",
+      "url": "https://www.inaturalist.org/observations/11464359"
+    },
+    {
+      "lat": 34.4833,
+      "lon": -118.0698,
+      "species": "Toyon",
+      "date": "2018-04-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/15055620/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/10766585"
+    },
+    {
+      "lat": 34.4241,
+      "lon": -118.616,
+      "species": "Toyon",
+      "date": "2018-02-02",
+      "photo": "https://static.inaturalist.org/photos/13409780/small.jpg",
+      "url": "https://www.inaturalist.org/observations/9799765"
+    },
+    {
+      "lat": 33.9593,
+      "lon": -117.6671,
+      "species": "Toyon",
+      "date": "2018-01-28",
+      "photo": "https://static.inaturalist.org/photos/13270602/small.jpg",
+      "url": "https://www.inaturalist.org/observations/9702859"
+    },
+    {
+      "lat": 34.1121,
+      "lon": -118.2236,
+      "species": "Toyon",
+      "date": "2018-01-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/13436586/small.jpg",
+      "url": "https://www.inaturalist.org/observations/9606506"
+    },
+    {
+      "lat": 34.1397,
+      "lon": -118.6288,
+      "species": "Toyon",
+      "date": "2017-12-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/12275842/small.jpg",
+      "url": "https://www.inaturalist.org/observations/9089009"
+    },
+    {
+      "lat": 34.1475,
+      "lon": -117.8272,
+      "species": "Toyon",
+      "date": "2017-08-11",
+      "photo": "https://static.inaturalist.org/photos/9700228/small.jpg",
+      "url": "https://www.inaturalist.org/observations/7454580"
+    },
+    {
+      "lat": 34.139,
+      "lon": -118.8857,
+      "species": "Toyon",
+      "date": "2017-07-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/9081907/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/7072060"
+    },
+    {
+      "lat": 34.1532,
+      "lon": -118.906,
+      "species": "Toyon",
+      "date": "2017-07-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/9060734/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/7058192"
+    },
+    {
+      "lat": 34.2152,
+      "lon": -118.3094,
+      "species": "Toyon",
+      "date": "2017-06-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/8417095/small.jpg",
+      "url": "https://www.inaturalist.org/observations/6627061"
+    },
+    {
+      "lat": 34.1747,
+      "lon": -118.3353,
+      "species": "Toyon",
+      "date": "2017-04-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/7550407/small.jpg",
+      "url": "https://www.inaturalist.org/observations/6030976"
+    },
+    {
+      "lat": 34.3751,
+      "lon": -118.0086,
+      "species": "Toyon",
+      "date": "2017-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/7447236/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/5963780"
+    },
+    {
+      "lat": 34.0314,
+      "lon": -118.4615,
+      "species": "Toyon",
+      "date": "2017-04-21",
+      "photo": "https://static.inaturalist.org/photos/7342141/small.jpg",
+      "url": "https://www.inaturalist.org/observations/5890393"
+    },
+    {
+      "lat": 34.1616,
+      "lon": -118.4184,
+      "species": "Toyon",
+      "date": "2017-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/7295081/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/5859101"
+    },
+    {
+      "lat": 34.0423,
+      "lon": -118.4085,
+      "species": "Toyon",
+      "date": "2017-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/7292762/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/5858603"
+    },
+    {
+      "lat": 34.4871,
+      "lon": -118.9054,
+      "species": "Toyon",
+      "date": "2017-04-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/96888859/small.jpg",
+      "url": "https://www.inaturalist.org/observations/60584201"
+    },
+    {
+      "lat": 34.1787,
+      "lon": -118.7946,
+      "species": "Toyon",
+      "date": "2017-01-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/5978595/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/4911055"
+    },
+    {
+      "lat": 34.1518,
+      "lon": -118.0814,
+      "species": "Toyon",
+      "date": "2016-12-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/5710749/small.jpeg",
+      "url": "http://www.inaturalist.org/observations/4723174"
+    },
+    {
+      "lat": 34.6499,
+      "lon": -118.0406,
+      "species": "Toyon",
+      "date": "2016-11-12",
+      "photo": "https://static.inaturalist.org/photos/5517380/small.jpg",
+      "url": "http://www.inaturalist.org/observations/4571090"
+    },
+    {
+      "lat": 34.1814,
+      "lon": -118.8158,
+      "species": "Toyon",
+      "date": "2016-09-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/5008038/small.jpeg",
+      "url": "http://www.inaturalist.org/observations/4201871"
+    },
+    {
+      "lat": 34.3876,
+      "lon": -118.4892,
+      "species": "Toyon",
+      "date": "2016-04-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/3514216/small.jpg",
+      "url": "http://www.inaturalist.org/observations/3050998"
+    },
+    {
+      "lat": 33.8455,
+      "lon": -118.39,
+      "species": "Toyon",
+      "date": "2016-03-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/3110416/small.JPG",
+      "url": "http://www.inaturalist.org/observations/2751539"
+    },
+    {
+      "lat": 33.9781,
+      "lon": -118.1909,
+      "species": "Toyon",
+      "date": "2015-10-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/2527130/small.jpg",
+      "url": "http://www.inaturalist.org/observations/2115060"
+    },
+    {
+      "lat": 34.0481,
+      "lon": -118.2513,
+      "species": "Toyon",
+      "date": "2015-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/2551572/small.JPG",
+      "url": "http://www.inaturalist.org/observations/2245652"
+    },
+    {
+      "lat": 34.2406,
+      "lon": -118.6231,
+      "species": "Toyon",
+      "date": "2015-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/1720286/small.JPG",
+      "url": "http://www.inaturalist.org/observations/1391474"
+    },
+    {
+      "lat": 34.0666,
+      "lon": -117.9965,
+      "species": "Toyon",
+      "date": "2015-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/1716767/small.jpg",
+      "url": "http://www.inaturalist.org/observations/1388937"
+    },
+    {
+      "lat": 34.69,
+      "lon": -117.9528,
+      "species": "Toyon",
+      "date": "2015-04-04",
+      "photo": "https://static.inaturalist.org/photos/61048641/small.jpg",
+      "url": "https://www.inaturalist.org/observations/38415203"
+    },
+    {
+      "lat": 34.0047,
+      "lon": -117.7611,
+      "species": "Toyon",
+      "date": "2013-03-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/357334553/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/202337964"
+    },
+    {
+      "lat": 34.2675,
+      "lon": -118.9395,
+      "species": "Toyon",
+      "date": "2013-02-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/262241/small.JPG",
+      "url": "http://www.inaturalist.org/observations/206665"
+    },
+    {
+      "lat": 34.0736,
+      "lon": -118.4004,
+      "species": "Toyon",
+      "date": "2011-06-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/5954096/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/4895242"
+    },
+    {
+      "lat": 34.0965,
+      "lon": -118.8963,
+      "species": "Toyon",
+      "date": "2006-11-14",
+      "photo": "https://static.inaturalist.org/photos/91000942/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/57076431"
+    },
+    {
+      "lat": 33.9164,
+      "lon": -117.9003,
+      "species": "Toyon",
+      "date": null,
+      "photo": "https://static.inaturalist.org/photos/430143134/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/241358012"
+    },
+    {
+      "lat": 34.3245,
+      "lon": -118.4107,
+      "species": "Toyon",
+      "date": null,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/407965173/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/229805571"
+    },
+    {
+      "lat": 34.1108,
+      "lon": -118.3367,
+      "species": "Ceanothus",
+      "date": "2025-08-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/552310270/small.jpg",
+      "url": "https://www.inaturalist.org/observations/306276260"
+    },
+    {
+      "lat": 34.1368,
+      "lon": -118.1672,
+      "species": "Ceanothus",
+      "date": "2021-09-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/156415945/small.jpg",
+      "url": "https://www.inaturalist.org/observations/94300349"
+    }
+  ]
+}

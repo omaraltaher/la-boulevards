@@ -113,7 +113,9 @@ html, body {
 #parrot-toggle.off { opacity:0.35; text-decoration:line-through; }
 #well-toggle.off   { opacity:0.35; text-decoration:line-through; }
 #lion-toggle.off   { opacity:0.35; text-decoration:line-through; }
-#coyote-toggle.off { opacity:0.35; text-decoration:line-through; }
+#coyote-toggle.off     { opacity:0.35; text-decoration:line-through; }
+#butterfly-toggle.off  { opacity:0.35; text-decoration:line-through; }
+#nativeplant-toggle.off { opacity:0.35; text-decoration:line-through; }
 .legend-group + .legend-group { border-top:1px solid rgba(255,255,255,0.06); margin-top:6px; padding-top:6px; }
 .legend-group-header { display:flex; justify-content:flex-start; gap:8px; align-items:center; font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:#4b5563; cursor:pointer; user-select:none; padding:2px 0 6px; }
 .legend-group-header:hover { color:#6b7280; }
@@ -395,6 +397,10 @@ path.leaflet-interactive:focus { outline:none; }
 #info-lions-title { font-size:11px; color:rgba(245,158,11,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-coyotes-title { font-size:11px; color:rgba(160,120,56,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-parrots-list, #info-lions-list, #info-coyotes-list { display:flex; flex-wrap:wrap; gap:8px; }
+#info-butterflies, #info-nativeplants { display:none; margin-top:16px; }
+#info-butterflies-title { font-size:11px; color:rgba(251,191,36,0.9); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+#info-nativeplants-title { font-size:11px; color:rgba(249,115,22,0.9); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
+#info-butterflies-list { display:flex; flex-wrap:wrap; gap:8px; }
 #info-cameras { display:none; margin-top:16px; }
 #info-cameras-title { font-size:11px; color:rgba(103,232,249,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-cameras-list { display:flex; flex-wrap:wrap; gap:8px; }
@@ -648,6 +654,22 @@ path.leaflet-interactive:focus { outline:none; }
 }
 .tree-popup .leaflet-popup-tip-container { display:none; }
 .tree-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.butterfly-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(251,191,36,0.2) !important;
+  border-radius:8px !important; box-shadow:none !important;
+  padding:0 !important; overflow:hidden;
+}
+.butterfly-popup .leaflet-popup-tip-container { display:none; }
+.butterfly-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
+.nativeplant-popup .leaflet-popup-content-wrapper {
+  background:rgba(15,17,35,0.97) !important;
+  border:1px solid rgba(249,115,22,0.2) !important;
+  border-radius:8px !important; box-shadow:none !important;
+  padding:0 !important; overflow:hidden;
+}
+.nativeplant-popup .leaflet-popup-tip-container { display:none; }
+.nativeplant-popup .leaflet-popup-content { margin:0 !important; width:auto !important; }
 
 /* ── Sunset spot markers ── */
 .sunset-spot-dot {
@@ -822,6 +844,8 @@ path.leaflet-interactive:focus { outline:none; }
         <div class="marker-row" id="coyote-toggle" style="cursor:pointer;user-select:none;" title="Toggle coyote layer"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 22 22" style="flex-shrink:0;opacity:0.9"><ellipse cx="11" cy="15.5" rx="5.5" ry="4" fill="none" stroke="#a07838" stroke-width="1.2"/><ellipse cx="4.5" cy="10" rx="2.3" ry="2.8" fill="none" stroke="#a07838" stroke-width="1.2"/><ellipse cx="8.5" cy="7" rx="2.3" ry="2.8" fill="none" stroke="#a07838" stroke-width="1.2"/><ellipse cx="13.5" cy="7" rx="2.3" ry="2.8" fill="none" stroke="#a07838" stroke-width="1.2"/><ellipse cx="17.5" cy="10" rx="2.3" ry="2.8" fill="none" stroke="#a07838" stroke-width="1.2"/></svg><span>Coyotes</span></div>
         <div class="marker-row" id="lion-toggle" style="cursor:pointer;user-select:none;" title="Toggle mountain lion layer"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewBox="0 0 28 15" style="flex-shrink:0;opacity:0.9"><path d="M5,10 C9,9.5 16,8.5 20,8 C22,7.5 23,7 24,6.5" fill="none" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/><circle cx="25.5" cy="7" r="2.5" fill="none" stroke="#f59e0b" stroke-width="1.2"/><path d="M24.5,4.5 L24,3 L26,4" fill="none" stroke="#f59e0b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M7,12 C11,11.5 18,11 22,10.5" fill="none" stroke="#f59e0b" stroke-width="1.0" stroke-linecap="round"/><line x1="22" y1="10.5" x2="27" y2="15" stroke="#f59e0b" stroke-width="1.1" stroke-linecap="round"/><line x1="20.5" y1="11" x2="24.5" y2="15" stroke="#f59e0b" stroke-width="1.1" stroke-linecap="round"/><line x1="6" y1="10.5" x2="2" y2="15" stroke="#f59e0b" stroke-width="1.1" stroke-linecap="round"/><line x1="8" y1="11" x2="5" y2="15" stroke="#f59e0b" stroke-width="1.1" stroke-linecap="round"/><path d="M5,10 C3,8 4,5 2,2" fill="none" stroke="#f59e0b" stroke-width="1.1" stroke-linecap="round"/></svg><span>Mountain lions</span></div>
         <div class="marker-row" id="tree-toggle" style="cursor:pointer;user-select:none;" title="Toggle iconic trees layer"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" style="flex-shrink:0;opacity:0.9"><circle cx="7" cy="6" r="5" fill="none" stroke="#8b5cf6" stroke-width="1.1"/><circle cx="5.5" cy="4.5" r="1.1" fill="#8b5cf6" opacity="0.8"/><circle cx="9" cy="5.5" r="1.1" fill="#f97316" opacity="0.8"/><circle cx="7" cy="8.5" r="1.1" fill="#22c55e" opacity="0.8"/><line x1="7" y1="11" x2="7" y2="17" stroke="#8b5cf6" stroke-width="1.4" stroke-linecap="round"/></svg><span>Iconic Trees</span></div>
+        <div class="marker-row" id="butterfly-toggle" style="cursor:pointer;user-select:none;" title="Toggle butterfly layer"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" style="flex-shrink:0;opacity:0.9"><path d="M9,7 C7,2 1,1 1,4.5 C1,7 5,7.5 9,7Z" fill="#fbbf24" opacity="0.85"/><path d="M9,7 C11,2 17,1 17,4.5 C17,7 13,7.5 9,7Z" fill="#fbbf24" opacity="0.85"/><path d="M9,7 C6,8 2,11 3,12.5 C5,13.5 8,10 9,8Z" fill="#f59e0b" opacity="0.75"/><path d="M9,7 C12,8 16,11 15,12.5 C13,13.5 10,10 9,8Z" fill="#f59e0b" opacity="0.75"/><ellipse cx="9" cy="7" rx="0.8" ry="4" fill="#92400e" opacity="0.8"/></svg><span>Butterflies</span></div>
+        <div class="marker-row" id="nativeplant-toggle" style="cursor:pointer;user-select:none;" title="Toggle native plant layer"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" style="flex-shrink:0;opacity:0.9"><circle cx="7" cy="2" r="2.2" fill="#f97316" opacity="0.75"/><circle cx="12" cy="7" r="2.2" fill="#8b5cf6" opacity="0.75"/><circle cx="7" cy="12" r="2.2" fill="#ef4444" opacity="0.75"/><circle cx="2" cy="7" r="2.2" fill="#f97316" opacity="0.75"/><circle cx="7" cy="7" r="2" fill="#fbbf24"/></svg><span>Native Plants</span></div>
       </div>
     </div>
     <div class="legend-group">
@@ -843,6 +867,8 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="src-row"><b>Oil Wells 🛢️</b> — <a href="https://www.conservation.ca.gov/calgem" target="_blank" rel="noopener">CalGEM, CA Dept. of Conservation</a></div>
       <div class="src-row"><b>Mountain Lions 🦁</b> — <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist / NPS Puma Project</a></div>
       <div class="src-row"><b>Coyotes 🐺</b> — <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist (30-day sightings)</a></div>
+      <div class="src-row"><b>Butterflies 🦋</b> — <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist (90-day sightings)</a></div>
+      <div class="src-row"><b>Native Plants 🌸</b> — <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist</a></div>
       <div class="src-row"><b>Iconic Trees 🌳</b> — <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist</a> · <a href="https://geohub.lacity.org/datasets/266c6255b1fc4ae8b8f100d8696e1fa4_0" target="_blank" rel="noopener">StreetsLA Tree Inventory</a></div>
 <div class="src-row"><b>Ghost Railway 🚋</b> — OpenStreetMap (abandoned &amp; razed railway ways)</div>
       <div class="src-row"><b>Editorial</b> — Jonathan Gold, LA Weekly</div>
@@ -890,9 +916,17 @@ path.leaflet-interactive:focus { outline:none; }
         <div id="info-coyotes-title">Coyote Sightings</div>
         <div id="info-coyotes-list"></div>
       </div>
+      <div id="info-butterflies">
+        <div id="info-butterflies-title">Butterflies</div>
+        <div id="info-butterflies-list"></div>
+      </div>
       <div id="info-trees">
         <div id="info-trees-title">Iconic Trees</div>
         <div id="info-trees-list"></div>
+      </div>
+      <div id="info-nativeplants">
+        <div id="info-nativeplants-title">Native Plants</div>
+        <div id="info-nativeplants-list"></div>
       </div>
       <div id="info-theatres">
         <div id="info-theatres-title">Theatres</div>
@@ -1201,6 +1235,17 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     _openWildlifePopup(t, sys.pinnedSet, sys.reclusterFn,
       { color, label: t.species + seasonNote, species: item => item.species, verb: 'Observed', popupClass: 'tree-popup', photoStyle: 'height:auto;max-height:260px;' });
   };
+  window._openButterflyFromPanel = idx => {
+    const b = butterflyData[idx]; if (!b) return;
+    _openWildlifePopup(b, pinnedButterflies, reclusterButterflies,
+      { color: 'rgba(251,191,36,0.9)', label: 'Butterfly 🦋', species: item => item.species, verb: 'Observed', popupClass: 'butterfly-popup', photoStyle: 'height:auto;max-height:220px;' });
+  };
+  window._openNativePlantFromPanel = idx => {
+    const p = nativePlantData[idx]; if (!p) return;
+    const color = PLANT_COLORS[p.species] || '#f97316';
+    _openWildlifePopup(p, new Set(), () => {},
+      { color, label: p.species, species: item => item.species, verb: 'Observed', popupClass: 'nativeplant-popup', photoStyle: 'height:auto;max-height:240px;' });
+  };
 
   function updateOverlayMarkers(blvd) {
     if (!blvd) history.replaceState(null, '', location.pathname);
@@ -1488,8 +1533,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const secCoyotesList = document.getElementById('info-coyotes-list');
   const secCameras   = document.getElementById('info-cameras');
   const secCamerasList = document.getElementById('info-cameras-list');
-  const secTrees     = document.getElementById('info-trees');
-  const secTreesList = document.getElementById('info-trees-list');
+  const secTrees          = document.getElementById('info-trees');
+  const secTreesList      = document.getElementById('info-trees-list');
+  const secButterflies    = document.getElementById('info-butterflies');
+  const secButterfliesList = document.getElementById('info-butterflies-list');
+  const secNativePlants   = document.getElementById('info-nativeplants');
+  const secNativePlantsList = document.getElementById('info-nativeplants-list');
   const infoCanopySpecies = document.getElementById('info-canopy-species');
 
   // ── Mobile bottom-sheet ──────────────────────────────────
@@ -1830,8 +1879,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const nearWells    = wellData.length    ? filterNearBlvd(wellData,    blvd, 0.15) : [];
     const nearParrots  = parrotData.length  ? filterNearBlvd(parrotData,  blvd, 0.15) : [];
     const nearLions    = lionData.length    ? filterNearBlvd(lionData,    blvd, 0.25) : [];
-    const nearCoyotes  = coyoteData.length  ? filterNearBlvd(coyoteData,  blvd, 0.25) : [];
-    const nearTrees    = treeData.length    ? filterNearBlvd(treeData,    blvd, 0.30) : [];
+    const nearCoyotes     = coyoteData.length     ? filterNearBlvd(coyoteData,     blvd, 0.25) : [];
+    const nearButterflies = butterflyData.length  ? filterNearBlvd(butterflyData,  blvd, 0.25) : [];
+    const nearTrees       = treeData.length       ? filterNearBlvd(treeData,       blvd, 0.30) : [];
+    const nearNativePlants = nativePlantData.length ? filterNearBlvd(nativePlantData, blvd, 0.25) : [];
     const wellCount    = nearWells.length;
     const parrotCount  = nearParrots.length;
     const lionCount    = nearLions.length;
@@ -1844,7 +1895,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (wellCount)    stats.push(`🛢️ ${wellCount} oil well${wellCount !== 1 ? 's' : ''}`);
     if (parrotCount)  stats.push(`🦜 ${parrotCount} parrot${parrotCount !== 1 ? 's' : ''}`);
     if (lionCount)    stats.push(`🦁 ${lionCount} mountain lion${lionCount !== 1 ? 's' : ''}`);
-    if (coyoteCount)  stats.push(`🐺 ${coyoteCount} coyote${coyoteCount !== 1 ? 's' : ''}`);
+    if (coyoteCount)       stats.push(`🐺 ${coyoteCount} coyote${coyoteCount !== 1 ? 's' : ''}`);
+    const butterflyCount   = nearButterflies.length;
+    const nativePlantCount = nearNativePlants.length;
+    if (butterflyCount)    stats.push(`🦋 ${butterflyCount} butterfly sighting${butterflyCount !== 1 ? 's' : ''}`);
+    if (nativePlantCount)  stats.push(`🌸 ${nativePlantCount} native plant${nativePlantCount !== 1 ? 's' : ''}`);
     if (camCount)     stats.push(`📷 ${camCount} live camera${camCount !== 1 ? 's' : ''}`);
     if (canopy?.count) stats.push(`🌳 ${canopy.count.toLocaleString()} street tree${canopy.count !== 1 ? 's' : ''}`);
     infoStats.innerHTML = stats.map(s => `<span class="info-stat">${s}</span>`).join('');
@@ -1891,8 +1946,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     secLionsList.innerHTML = '';
     secCoyotes.style.display = 'none';
     secCoyotesList.innerHTML = '';
+    secButterflies.style.display = 'none';
+    secButterfliesList.innerHTML = '';
     secTrees.style.display = 'none';
     secTreesList.innerHTML = '';
+    secNativePlants.style.display = 'none';
+    secNativePlantsList.innerHTML = '';
     secCameras.style.display = 'none';
     secCamerasList.innerHTML = '';
 
@@ -1942,7 +2001,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     populateParrotSection(nearParrots);
     populateLionSection(nearLions);
     populateCoyoteSection(nearCoyotes);
+    populateButterflySection(nearButterflies);
     populateTreeSection(nearTrees);
+    populateNativePlantSection(nearNativePlants);
     populateTheatreSection(blvd);
     populateArtSection(blvd);
     populateWellSection(nearWells);
@@ -2032,7 +2093,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoWiki.style.display = 'inline';
     photosStrip.innerHTML = '';
     photosStrip.style.display = 'none';
-    [secArt, secTheatres, secWells, secParrots, secCoyotes, secTrees, secCameras].forEach(el =>
+    [secArt, secTheatres, secWells, secParrots, secCoyotes, secButterflies, secTrees, secNativePlants, secCameras].forEach(el =>
       el.style.display = 'none');
     infoCanopySpecies.textContent = ''; infoCanopySpecies.style.display = 'none';
 
@@ -2096,7 +2157,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoShare.classList.remove('visible');
     infoShare.innerHTML = '';
     photosStrip.innerHTML = ''; photosStrip.style.display = 'none';
-    [secArt, secTheatres, secWells, secParrots, secCoyotes, secTrees, secCameras, secLions].forEach(el =>
+    [secArt, secTheatres, secWells, secParrots, secCoyotes, secButterflies, secTrees, secNativePlants, secCameras, secLions].forEach(el =>
       el.style.display = 'none');
     infoCanopySpecies.textContent = ''; infoCanopySpecies.style.display = 'none';
 
@@ -2831,6 +2892,180 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       reclusterCoyotes();
     } catch (e) {
       console.warn('Coyote load failed:', e);
+    }
+  })();
+
+  // ── Butterflies ──────────────────────────────────────────────────
+  let butterflyData = [];
+  const butterflyRenderGroup = L.layerGroup().addTo(map);
+  let butterfliesOn = true;
+  document.getElementById('butterfly-toggle').addEventListener('click', () => {
+    butterfliesOn = !butterfliesOn;
+    butterfliesOn ? butterflyRenderGroup.addTo(map) : butterflyRenderGroup.remove();
+    document.getElementById('butterfly-toggle').classList.toggle('off', !butterfliesOn);
+  });
+
+  function butterflySvgHtml(w, h) {
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 18 14">` +
+      `<path d="M9,7 C7,2 1,1 1,4.5 C1,7 5,7.5 9,7Z" fill="#fbbf24" opacity="0.8"/>` +
+      `<path d="M9,7 C11,2 17,1 17,4.5 C17,7 13,7.5 9,7Z" fill="#fbbf24" opacity="0.8"/>` +
+      `<path d="M9,7 C6,8 2,11 3,12.5 C5,13.5 8,10 9,8Z" fill="#f59e0b" opacity="0.7"/>` +
+      `<path d="M9,7 C12,8 16,11 15,12.5 C13,13.5 10,10 9,8Z" fill="#f59e0b" opacity="0.7"/>` +
+      `<ellipse cx="9" cy="7" rx="0.8" ry="4" fill="#92400e" opacity="0.8"/>` +
+      `</svg>`;
+  }
+  function makeButterflyClusterIcon(n) {
+    return L.divIcon({
+      html: `<div style="position:relative;width:18px;height:14px;">${butterflySvgHtml(18, 14)}<div style="position:absolute;top:-6px;right:-8px;background:#f59e0b;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;line-height:1;">${n}</div></div>`,
+      className: '', iconSize: [18, 14], iconAnchor: [9, 7]
+    });
+  }
+  const butterflyIcon = L.divIcon({ className: '', html: butterflySvgHtml(18, 14), iconSize: [18, 14], iconAnchor: [9, 7] });
+
+  function bindButterflyClick(marker, b) {
+    marker.on('click', e => {
+      L.DomEvent.stopPropagation(e.originalEvent);
+      const dateStr = b.date ? new Date(b.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'}) : '';
+      const html =
+        `<div style="padding:12px 14px;width:220px;">` +
+        `<div style="font-size:11px;color:rgba(251,191,36,0.9);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Butterfly 🦋</div>` +
+        `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${b.species}</div>` +
+        (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">Observed ${dateStr}</div>` : '') +
+        (b.photo ? `<img src="${b.photo}" style="width:100%;height:auto;max-height:220px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
+        `<a href="${b.url}" target="_blank" rel="noopener" style="font-size:12px;color:rgba(251,191,36,0.8);text-decoration:none;">iNaturalist →</a>` +
+        `</div>`;
+      L.popup({ className: 'butterfly-popup', closeButton: true, maxWidth: 260, autoPan: true })
+        .setLatLng([b.lat, b.lon]).setContent(html).openOn(map);
+    });
+  }
+
+  const { pinned: pinnedButterflies, recluster: reclusterButterflies } = makeClusterSystem({
+    renderGroup: butterflyRenderGroup, getData: () => butterflyData, isOn: () => butterfliesOn,
+    icon: butterflyIcon, clusterIcon: makeButterflyClusterIcon, bindClick: bindButterflyClick,
+    R: 35, MIN: 3
+  });
+
+  function populateButterflySection(items) {
+    if (!items.length) { secButterflies.style.display = 'none'; return; }
+    secButterfliesList.innerHTML = items.slice(0, 8).map(b => {
+      const idx = b._idx;
+      const label = b.species + (b.date ? ' · ' + new Date(b.date + 'T12:00:00').toLocaleDateString('en-US', { month:'short', year:'numeric' }) : '');
+      return `<div class="cam-thumb-item portrait" onclick="_openButterflyFromPanel(${idx})">` +
+        (b.photo ? `<img src="${b.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` : '') +
+        `<div class="cam-thumb-item-name">${label}</div></div>`;
+    }).join('');
+    if (items.length > 8) secButterfliesList.innerHTML += `<div style="font-size:12px;color:#6b7280;padding-top:6px;">+${items.length - 8} more nearby</div>`;
+    secButterflies.style.display = 'block';
+  }
+
+  (async function loadButterflies() {
+    try {
+      const res = await fetch('butterflies.json');
+      if (!res.ok) return;
+      const { butterflies } = await res.json();
+      butterflyData = butterflies.map((b, i) => ({ ...b, _idx: i }));
+      reclusterButterflies();
+    } catch (e) {
+      console.warn('Butterfly load failed:', e);
+    }
+  })();
+
+  // ── Native Plants ─────────────────────────────────────────────────
+  const PLANT_COLORS = {
+    'California Poppy': '#f97316',
+    'Toyon':            '#ef4444',
+    'Ceanothus':        '#8b5cf6',
+  };
+  let nativePlantData = [];
+  const poppyRenderGroup    = L.layerGroup().addTo(map);
+  const toyonRenderGroup    = L.layerGroup().addTo(map);
+  const ceanothusRenderGroup = L.layerGroup().addTo(map);
+  let plantsOn = true;
+  document.getElementById('nativeplant-toggle').addEventListener('click', () => {
+    plantsOn = !plantsOn;
+    [poppyRenderGroup, toyonRenderGroup, ceanothusRenderGroup]
+      .forEach(g => plantsOn ? g.addTo(map) : g.remove());
+    document.getElementById('nativeplant-toggle').classList.toggle('off', !plantsOn);
+  });
+
+  function makeFlowerSvgHtml(w, h, color) {
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 10 10">` +
+      `<circle cx="5" cy="1.5" r="1.8" fill="${color}" opacity="0.7"/>` +
+      `<circle cx="8.5" cy="5" r="1.8" fill="${color}" opacity="0.7"/>` +
+      `<circle cx="5" cy="8.5" r="1.8" fill="${color}" opacity="0.7"/>` +
+      `<circle cx="1.5" cy="5" r="1.8" fill="${color}" opacity="0.7"/>` +
+      `<circle cx="5" cy="5" r="2" fill="${color}"/>` +
+      `</svg>`;
+  }
+  const poppyIcon     = L.divIcon({ className: '', html: makeFlowerSvgHtml(10, 10, PLANT_COLORS['California Poppy']), iconSize: [10, 10], iconAnchor: [5, 5] });
+  const toyonIcon     = L.divIcon({ className: '', html: makeFlowerSvgHtml(10, 10, PLANT_COLORS['Toyon']),            iconSize: [10, 10], iconAnchor: [5, 5] });
+  const ceanothusIcon = L.divIcon({ className: '', html: makeFlowerSvgHtml(10, 10, PLANT_COLORS['Ceanothus']),        iconSize: [10, 10], iconAnchor: [5, 5] });
+
+  function bindPlantClick(marker, p) {
+    marker.on('click', e => {
+      L.DomEvent.stopPropagation(e.originalEvent);
+      const color = PLANT_COLORS[p.species] || '#f97316';
+      const dateStr = p.date ? new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'}) : '';
+      const html =
+        `<div style="padding:12px 14px;width:220px;">` +
+        `<div style="font-size:11px;color:${color};text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Native Plant 🌸</div>` +
+        `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${p.species}</div>` +
+        (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">Observed ${dateStr}</div>` : '') +
+        (p.photo ? `<img src="${p.photo}" style="width:100%;height:auto;max-height:240px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
+        `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:12px;color:${color};opacity:0.8;text-decoration:none;">iNaturalist →</a>` +
+        `</div>`;
+      L.popup({ className: 'nativeplant-popup', closeButton: true, maxWidth: 260, autoPan: true })
+        .setLatLng([p.lat, p.lon]).setContent(html).openOn(map);
+    });
+  }
+
+  function renderPlantsDirect() {
+    [poppyRenderGroup, toyonRenderGroup, ceanothusRenderGroup].forEach(g => g.clearLayers());
+    if (!plantsOn) return;
+    const ICONS   = { 'California Poppy': poppyIcon, 'Toyon': toyonIcon, 'Ceanothus': ceanothusIcon };
+    const GROUPS  = { 'California Poppy': poppyRenderGroup, 'Toyon': toyonRenderGroup, 'Ceanothus': ceanothusRenderGroup };
+    nativePlantData.forEach(p => {
+      const icon = ICONS[p.species], group = GROUPS[p.species];
+      if (!icon || !group) return;
+      const m = L.marker([p.lat, p.lon], { icon });
+      bindPlantClick(m, p);
+      group.addLayer(m);
+    });
+  }
+
+  function populateNativePlantSection(items) {
+    if (!items.length) { secNativePlants.style.display = 'none'; return; }
+    const bySpecies = {};
+    items.forEach(p => { (bySpecies[p.species] = bySpecies[p.species] || []).push(p); });
+    let html = '';
+    for (const [sp, spItems] of Object.entries(bySpecies)) {
+      const color = PLANT_COLORS[sp] || '#f97316';
+      html += `<div style="margin-bottom:8px;">` +
+        `<div style="font-size:11px;font-weight:600;color:${color};margin-bottom:3px;">${sp}</div>` +
+        `<div style="display:flex;flex-wrap:wrap;gap:6px;">` +
+        spItems.slice(0, 6).map(p => {
+          const label = p.date ? new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', {month:'short', year:'numeric'}) : sp;
+          return `<div class="cam-thumb-item portrait" onclick="_openNativePlantFromPanel(${p._idx})">` +
+            (p.photo ? `<img src="${p.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` : '') +
+            `<div class="cam-thumb-item-name">${label}</div></div>`;
+        }).join('') +
+        `</div>` +
+        (spItems.length > 6 ? `<div style="font-size:12px;color:#6b7280;padding-top:4px;">+${spItems.length - 6} more nearby</div>` : '') +
+        `</div>`;
+    }
+    secNativePlantsList.innerHTML = html;
+    secNativePlants.style.display = 'block';
+  }
+
+  (async function loadNativePlants() {
+    try {
+      const res = await fetch('nativeplants.json');
+      if (!res.ok) return;
+      const { plants } = await res.json();
+      nativePlantData = plants.map((p, i) => ({ ...p, _idx: i }));
+      renderPlantsDirect();
+    } catch (e) {
+      console.warn('Native plants load failed:', e);
     }
   })();
 
