@@ -400,7 +400,10 @@ path.leaflet-interactive:focus { outline:none; }
 #info-cameras-list { display:flex; flex-wrap:wrap; gap:8px; }
 .cam-thumb-item { cursor:pointer; width:120px; }
 .cam-thumb-item img { width:120px; height:68px; object-fit:cover; border-radius:3px; display:block; }
+.cam-thumb-item.portrait { width:80px; }
+.cam-thumb-item.portrait img { width:80px; height:107px; }
 .cam-thumb-item-name { font-size:11px; color:#9ca3af; margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:120px; }
+.cam-thumb-item.portrait .cam-thumb-item-name { max-width:80px; }
 .info-item { padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-size:14px; }
 .info-item:last-child { border-bottom:none; }
 .info-item-name { font-weight:500; }
@@ -3056,18 +3059,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     document.getElementById('tree-toggle').classList.toggle('off', !treesOn);
   });
 
-  function makeTreeSvgHtml(w, h, color) {
-    return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 12 14" opacity="0.9">` +
-      `<circle cx="6" cy="5" r="4" fill="none" stroke="${color}" stroke-width="1.4"/>` +
-      `<line x1="6" y1="9" x2="6" y2="13" stroke="${color}" stroke-width="1.4" stroke-linecap="round"/>` +
+  function makeLeafSvgHtml(w, h, color) {
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 10 12">` +
+      `<path d="M5,0 C9,2 10,5 5,12 C0,5 1,2 5,0Z" fill="${color}" opacity="0.85"/>` +
+      `<line x1="5" y1="1" x2="5" y2="11" stroke="rgba(255,255,255,0.35)" stroke-width="0.5"/>` +
       `</svg>`;
-  }
-
-  function makeTreeClusterIcon(n, color) {
-    return L.divIcon({
-      html: `<div style="position:relative;width:12px;height:14px;">${makeTreeSvgHtml(12, 14, color)}<div style="position:absolute;top:-6px;right:-8px;background:${color};border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;line-height:1;">${n}</div></div>`,
-      className: '', iconSize: [12, 14], iconAnchor: [6, 14]
-    });
   }
 
   function bindTreeClick(marker, t) {
@@ -3092,30 +3088,25 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   }
 
-  const { pinned: pinnedJacaranda, recluster: reclusterJacaranda } = makeClusterSystem({
-    renderGroup: jacarandaRenderGroup,
-    getData: () => treeData.filter(t => t.species === 'Jacaranda'),
-    isOn: () => treesOn,
-    icon: L.divIcon({ className: '', html: makeTreeSvgHtml(12, 14, TREE_COLORS['Jacaranda']),       iconSize: [12, 14], iconAnchor: [6, 14] }),
-    clusterIcon: n => makeTreeClusterIcon(n, TREE_COLORS['Jacaranda']),
-    bindClick: bindTreeClick, R: 30, MIN: 3
-  });
-  const { pinned: pinnedCoral, recluster: reclusterCoral } = makeClusterSystem({
-    renderGroup: coralRenderGroup,
-    getData: () => treeData.filter(t => t.species === 'Coral Tree'),
-    isOn: () => treesOn,
-    icon: L.divIcon({ className: '', html: makeTreeSvgHtml(12, 14, TREE_COLORS['Coral Tree']),      iconSize: [12, 14], iconAnchor: [6, 14] }),
-    clusterIcon: n => makeTreeClusterIcon(n, TREE_COLORS['Coral Tree']),
-    bindClick: bindTreeClick, R: 30, MIN: 3
-  });
-  const { pinned: pinnedPalm, recluster: reclusterPalm } = makeClusterSystem({
-    renderGroup: palmRenderGroup,
-    getData: () => treeData.filter(t => t.species === 'Washington Palm'),
-    isOn: () => treesOn,
-    icon: L.divIcon({ className: '', html: makeTreeSvgHtml(12, 14, TREE_COLORS['Washington Palm']), iconSize: [12, 14], iconAnchor: [6, 14] }),
-    clusterIcon: n => makeTreeClusterIcon(n, TREE_COLORS['Washington Palm']),
-    bindClick: bindTreeClick, R: 30, MIN: 3
-  });
+  const jacarandaIcon = L.divIcon({ className: '', html: makeLeafSvgHtml(8, 10, TREE_COLORS['Jacaranda']),       iconSize: [8, 10], iconAnchor: [4, 10] });
+  const coralIcon     = L.divIcon({ className: '', html: makeLeafSvgHtml(8, 10, TREE_COLORS['Coral Tree']),      iconSize: [8, 10], iconAnchor: [4, 10] });
+  const palmIcon      = L.divIcon({ className: '', html: makeLeafSvgHtml(8, 10, TREE_COLORS['Washington Palm']), iconSize: [8, 10], iconAnchor: [4, 10] });
+  const pinnedJacaranda = new Set(), pinnedCoral = new Set(), pinnedPalm = new Set();
+  const reclusterJacaranda = () => {}, reclusterCoral = () => {}, reclusterPalm = () => {};
+
+  function renderTreesDirect() {
+    [jacarandaRenderGroup, coralRenderGroup, palmRenderGroup].forEach(g => g.clearLayers());
+    if (!treesOn) return;
+    const ICONS   = { 'Jacaranda': jacarandaIcon, 'Coral Tree': coralIcon, 'Washington Palm': palmIcon };
+    const GROUPS  = { 'Jacaranda': jacarandaRenderGroup, 'Coral Tree': coralRenderGroup, 'Washington Palm': palmRenderGroup };
+    treeData.forEach(t => {
+      const icon = ICONS[t.species], group = GROUPS[t.species];
+      if (!icon || !group) return;
+      const m = L.marker([t.lat, t.lon], { icon });
+      bindTreeClick(m, t);
+      group.addLayer(m);
+    });
+  }
 
   const TREE_SYSTEMS = {
     'Jacaranda':       { pinnedSet: pinnedJacaranda, reclusterFn: reclusterJacaranda },
@@ -3136,7 +3127,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         `<div style="font-size:11px;font-weight:600;color:${color};margin-bottom:3px;">${sp} <span style="color:#6b7280;font-weight:normal;">${seasonLabel}</span></div>` +
         spItems.slice(0, 6).map(t => {
           const label = t.date ? new Date(t.date + 'T12:00:00').toLocaleDateString('en-US', {month:'short', year:'numeric'}) : sp;
-          return `<div class="cam-thumb-item" onclick="_openTreeFromPanel(${t._idx})">` +
+          return `<div class="cam-thumb-item portrait" onclick="_openTreeFromPanel(${t._idx})">` +
             (t.photo ? `<img src="${t.photo}" onerror="this.closest('.cam-thumb-item').style.display='none'"/>` : '') +
             `<div class="cam-thumb-item-name">${label}</div></div>`;
         }).join('') +
@@ -3153,7 +3144,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (!res.ok) return;
       const { trees } = await res.json();
       treeData = trees.map((t, i) => ({ ...t, _idx: i }));
-      reclusterJacaranda(); reclusterCoral(); reclusterPalm();
+      renderTreesDirect();
     } catch (e) {
       console.warn('Iconic trees load failed:', e);
     }
@@ -3366,9 +3357,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     pinnedWells.clear();
     pinnedLions.clear();
     pinnedCoyotes.clear();
-    pinnedJacaranda.clear(); pinnedCoral.clear(); pinnedPalm.clear();
     clearTimeout(_reclusterTimer);
-    _reclusterTimer = setTimeout(() => { reclusterParrots(); reclusterWells(); reclusterLions(); reclusterCoyotes(); reclusterJacaranda(); reclusterCoral(); reclusterPalm(); }, 200);
+    _reclusterTimer = setTimeout(() => { reclusterParrots(); reclusterWells(); reclusterLions(); reclusterCoyotes(); }, 200);
   });
 
   (async function loadWells() {
