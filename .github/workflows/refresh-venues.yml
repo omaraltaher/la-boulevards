@@ -22,7 +22,11 @@ jobs:
           node-version: '20'
 
       - name: Fetch upcoming venue events
-        run: node check-venues.mjs
+        run: |
+          for attempt in 1 2 3; do
+            node check-venues.mjs && break
+            [ $attempt -lt 3 ] && echo "Attempt $attempt failed, retrying in 60s..." && sleep 60
+          done
         env:
           TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}

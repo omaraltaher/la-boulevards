@@ -21,7 +21,11 @@ jobs:
           node-version: '20'
 
       - name: Fetch theatres from OpenStreetMap
-        run: node check-theatres.mjs
+        run: |
+          for attempt in 1 2 3; do
+            node check-theatres.mjs && break
+            [ $attempt -lt 3 ] && echo "Attempt $attempt failed, retrying in 60s..." && sleep 60
+          done
 
       - name: Commit updated theatres.json
         run: |

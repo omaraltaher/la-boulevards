@@ -22,7 +22,11 @@ jobs:
           node-version: '20'
 
       - name: Check camera availability
-        run: node check-cameras.mjs
+        run: |
+          for attempt in 1 2 3; do
+            node check-cameras.mjs && break
+            [ $attempt -lt 3 ] && echo "Attempt $attempt failed, retrying in 60s..." && sleep 60
+          done
 
       - name: Commit updated cameras-live.json
         run: |

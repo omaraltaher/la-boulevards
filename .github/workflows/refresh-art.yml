@@ -21,7 +21,11 @@ jobs:
           node-version: '20'
 
       - name: Fetch public art from LA City Open Data
-        run: node check-art.mjs
+        run: |
+          for attempt in 1 2 3; do
+            node check-art.mjs && break
+            [ $attempt -lt 3 ] && echo "Attempt $attempt failed, retrying in 60s..." && sleep 60
+          done
 
       - name: Commit updated art.json
         run: |

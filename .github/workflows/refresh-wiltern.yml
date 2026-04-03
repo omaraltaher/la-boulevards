@@ -22,7 +22,11 @@ jobs:
           node-version: '20'
 
       - name: Fetch upcoming Wiltern events
-        run: node check-wiltern.mjs
+        run: |
+          for attempt in 1 2 3; do
+            node check-wiltern.mjs && break
+            [ $attempt -lt 3 ] && echo "Attempt $attempt failed, retrying in 60s..." && sleep 60
+          done
         env:
           TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
 

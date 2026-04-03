@@ -21,7 +21,11 @@ jobs:
           node-version: '20'
 
       - name: Fetch parrot observations from iNaturalist
-        run: node check-parrots.mjs
+        run: |
+          for attempt in 1 2 3; do
+            node check-parrots.mjs && break
+            [ $attempt -lt 3 ] && echo "Attempt $attempt failed, retrying in 60s..." && sleep 60
+          done
 
       - name: Commit updated parrots.json
         run: |
