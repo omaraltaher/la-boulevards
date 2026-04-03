@@ -1161,7 +1161,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       `<div style="font-size:11px;color:${cfg.color};text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">${cfg.label}</div>` +
       `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:${dateStr ? '4px' : '8px'};">${cfg.species(item)}</div>` +
       (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">${cfg.verb} ${dateStr}</div>` : '') +
-      (item.photo ? `<img src="${item.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
+      (item.photo ? `<img src="${item.photo}" style="width:100%;${cfg.photoStyle || 'height:100px;'}object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
       `<a href="${item.url}" target="_blank" rel="noopener" style="font-size:12px;color:${cfg.color};opacity:0.8;text-decoration:none;">iNaturalist →</a>` +
       `</div>`;
     const openPopup = () =>
@@ -1199,7 +1199,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const inSeason = isTreeInSeason(t.species);
     const seasonNote = t.species === 'Washington Palm' ? '' : (inSeason ? ' 🌸' : '');
     _openWildlifePopup(t, sys.pinnedSet, sys.reclusterFn,
-      { color, label: t.species + seasonNote, species: item => item.species, verb: 'Observed', popupClass: 'tree-popup' });
+      { color, label: t.species + seasonNote, species: item => item.species, verb: 'Observed', popupClass: 'tree-popup', photoStyle: 'height:auto;max-height:260px;' });
   };
 
   function updateOverlayMarkers(blvd) {
@@ -3080,7 +3080,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         `<div style="font-size:14px;font-weight:600;color:#f9fafb;margin-bottom:4px;">${t.species}</div>` +
         seasonHtml +
         (dateStr ? `<div style="font-size:12px;color:#6b7280;margin-bottom:8px;">Observed ${dateStr}</div>` : '') +
-        (t.photo ? `<img src="${t.photo}" style="width:100%;height:100px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
+        (t.photo ? `<img src="${t.photo}" style="width:100%;height:auto;max-height:260px;object-fit:cover;border-radius:4px;margin-bottom:8px;" loading="lazy" onerror="this.style.display='none'"/>` : '') +
         `<a href="${t.url}" target="_blank" rel="noopener" style="font-size:12px;color:${color};opacity:0.8;text-decoration:none;">iNaturalist →</a>` +
         `</div>`;
       L.popup({ className: 'tree-popup', closeButton: true, maxWidth: 260, autoPan: true })
