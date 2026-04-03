@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-08T16:39:36.637Z",
+  "generated": "2026-04-03T00:37:01.932Z",
   "theatres": [
     {
       "name": "Odyssey Theatre",
@@ -41,7 +41,7 @@
       "name": "Coronet Theater",
       "lat": 34.0776752,
       "lon": -118.3762668,
-      "blvd": "La Cienega Boulevard",
+      "blvd": "North La Cienega Boulevard",
       "wikipedia": null,
       "website": null,
       "address": null
@@ -168,7 +168,7 @@
       "lat": 34.0427183,
       "lon": -118.2553893,
       "blvd": "Olympic Boulevard",
-      "wikipedia": null,
+      "wikipedia": "en:Orpheum Theatre (Los Angeles)",
       "website": "https://www.laorpheum.com/",
       "address": null
     },
@@ -347,7 +347,7 @@
       "name": "Old Town Music Hall",
       "lat": 33.9176277,
       "lon": -118.4170326,
-      "blvd": "El Segundo Boulevard",
+      "blvd": "East El Segundo Boulevard",
       "wikipedia": null,
       "website": "https://oldtownmusichall.org/",
       "address": "140 Richmond Street"
@@ -491,7 +491,7 @@
       "name": "Westchester Playhouse",
       "lat": 33.9634369,
       "lon": -118.3738105,
-      "blvd": "La Cienega Boulevard",
+      "blvd": "South La Cienega Boulevard",
       "wikipedia": null,
       "website": null,
       "address": null
@@ -567,6 +567,15 @@
       "wikipedia": null,
       "website": "https://parsonsnose.com/",
       "address": "95 North Marengo Avenue"
+    },
+    {
+      "name": "The United Theater on Broadway",
+      "lat": 34.0417299,
+      "lon": -118.2569231,
+      "blvd": "Olympic Boulevard",
+      "wikipedia": "en:United Artists Theatre (Los Angeles)",
+      "website": "https://cap.ucla.edu/united-theater-broadway",
+      "address": null
     },
     {
       "name": "Santa Monica Civic Auditorium",
@@ -893,12 +902,12 @@
       "address": "777 Chick Hearn Court"
     },
     {
-      "name": "The Belasco Theater",
-      "lat": 34.0402603,
-      "lon": -118.2592624,
+      "name": "The Belasco",
+      "lat": 34.0402587,
+      "lon": -118.2592642,
       "blvd": "Olympic Boulevard",
-      "wikipedia": null,
-      "website": null,
+      "wikipedia": "en:Belasco Theater (Los Angeles)",
+      "website": "https://www.thebelasco.com/",
       "address": null
     },
     {
@@ -945,6 +954,15 @@
       "wikipedia": null,
       "website": "https://classactmusicaltheatre.com",
       "address": "5345 Wilhelmina Avenue"
+    },
+    {
+      "name": "The Comedy Chateau",
+      "lat": 34.1543828,
+      "lon": -118.368589,
+      "blvd": "Lankershim Boulevard",
+      "wikipedia": null,
+      "website": "https://www.thecomedychateau.com",
+      "address": "4615 Lankershim Boulevard"
     },
     {
       "name": "Bredlow Pavilion",
