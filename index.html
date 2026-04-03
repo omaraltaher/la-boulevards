@@ -3060,7 +3060,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   });
 
   function makeLeafSvgHtml(w, h, color) {
-    return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 10 12">` +
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 10 12" style="transform:rotate(45deg);transform-origin:center;">` +
       `<path d="M5,0 C9,2 10,5 5,12 C0,5 1,2 5,0Z" fill="${color}" opacity="0.5"/>` +
       `<line x1="5" y1="1" x2="5" y2="11" stroke="rgba(255,255,255,0.35)" stroke-width="0.5"/>` +
       `</svg>`;
