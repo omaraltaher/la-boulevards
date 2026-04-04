@@ -1,14 +1,7 @@
 {
-  "generated": "2026-04-03T16:34:21.398Z",
+  "generated": "2026-04-04T16:29:13.954Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Dave",
-        "date": "2026-04-03",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/dave-hollywood-california-04-03-2026/event/090063759A6A9FB5",
-        "image": "https://s1.ticketm.net/dam/a/cca/590ce208-57f6-4be7-9bb8-ee9ed2f6dcca_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Ruel - Kicking My Feet Tour ",
         "date": "2026-04-08",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/city-pop-waves-masayoshi-takanaka-super-hollywood-california-04-13-2026/event/0900636C7F9C79FE",
         "image": "https://s1.ticketm.net/dam/a/1e5/44d43c88-8f2d-48f4-b2d3-21b10d70e1e5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Bilmuri - Kinda Hard Tour",
+        "date": "2026-04-20",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/bilmuri-kinda-hard-tour-hollywood-california-04-20-2026/event/09006385A1A5983D",
+        "image": "https://s1.ticketm.net/dam/a/4f6/59d763b4-53ac-4ffd-be3f-a33345d7f4f6_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Benee w/ BAYLi",
-        "date": "2026-04-03",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qyb7",
-        "image": "https://s1.ticketm.net/dam/a/6ef/7bf94ee4-25c8-4cd0-b6ea-5050712536ef_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Rich Amiri",
         "date": "2026-04-04",
@@ -116,16 +109,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OUeb",
         "image": null
+      },
+      {
+        "name": "Starjunk 95",
+        "date": "2026-05-02",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_v",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Emo Nite",
-        "date": "2026-04-03",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14133174",
-        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Danny Avila",
         "date": "2026-04-04",
@@ -174,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/eli-fur-avalon-hollywood-tickets/14773473",
         "image": "https://s1.ticketm.net/dam/a/4bb/602ee3d0-a0e7-4ffb-acf0-bdef5402d4bb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "VTSS",
+        "date": "2026-06-12",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/vtss-avalon-hollywood-tickets/14188444",
+        "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "KCRW Presents: Ratboys: When the Sun Explodes Tour 2026",
-        "date": "2026-04-03",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/kcrw-presents-ratboys-when-the-sun-los-angeles-california-04-03-2026/event/09006333BAEE4334",
-        "image": "https://s1.ticketm.net/dam/a/23d/8648d974-7543-47eb-be96-7827601ae23d_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Eliza McLamb: Good Story Tour",
         "date": "2026-04-04",
         "time": "19:00:00",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/zebra-50th-anniversary-tour-hosted-by-los-angeles-california-04-25-2026/event/0900637201A24ABA",
         "image": "https://s1.ticketm.net/dam/a/af4/2af70d10-23dd-42a7-9d0d-0b6c00438af4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Happy Landing",
+        "date": "2026-05-02",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/happy-landing-los-angeles-california-05-02-2026/event/0900642CF08BC269",
+        "image": "https://s1.ticketm.net/dam/a/433/9c786d46-9999-4461-974c-8d39dbf4e433_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -585,13 +585,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-04-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7K",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-04-04",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox74",
@@ -637,6 +630,13 @@
         "date": "2026-04-09",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpP_",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-04-10",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7_",
         "image": null
       }
     ],
