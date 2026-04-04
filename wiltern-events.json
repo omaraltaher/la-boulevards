@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-03T15:37:44.689Z",
+  "generated": "2026-04-04T15:29:43.556Z",
   "events": [
-    {
-      "name": "Calum Scott - The Avenoir Tour 2026",
-      "date": "2026-04-03",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/calum-scott-the-avenoir-tour-2026-los-angeles-california-04-03-2026/event/09006284E3E0615A",
-      "image": "https://s1.ticketm.net/dam/a/044/7fb786a0-98eb-4cd2-8abe-3cdd31469044_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Hail the Sun",
       "date": "2026-04-04",
@@ -56,6 +49,13 @@
       "time": "18:30:00",
       "url": "https://www.ticketmaster.com/amplified-alpine-presents-emperor-the-emperial-los-angeles-california-04-12-2026/event/0900637197008D2A",
       "image": "https://s1.ticketm.net/dam/a/75c/c94c87a9-b08b-4084-973a-4e42e051d75c_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Naomi Watanabe: From Tokyo ",
+      "date": "2026-04-17",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/naomi-watanabe-from-tokyo-los-angeles-california-04-17-2026/event/0900637D974B85BF",
+      "image": "https://s1.ticketm.net/dam/a/79e/33783030-df68-4080-ae9b-3c2bb486079e_RECOMENDATION_16_9.jpg"
     }
   ]
 }
