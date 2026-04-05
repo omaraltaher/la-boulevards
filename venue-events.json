@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-04T16:29:13.954Z",
+  "generated": "2026-04-05T16:30:28.127Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Rich Amiri",
-        "date": "2026-04-04",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Os-b",
-        "image": null
-      },
-      {
         "name": "French Police",
         "date": "2026-04-09",
         "time": "21:00:00",
@@ -116,16 +109,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_v",
         "image": null
+      },
+      {
+        "name": "Boulet Brothes' Dragula",
+        "date": "2026-05-03",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O48P",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Danny Avila",
-        "date": "2026-04-04",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/danny-avila-avalon-hollywood-tickets/14731163",
-        "image": "https://s1.ticketm.net/dam/a/6a7/c54bf914-a724-4fda-aa92-e1a68aebc6a7_46321_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Flashback: A 2010s EDM Tribute Party",
         "date": "2026-04-10",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/vtss-avalon-hollywood-tickets/14188444",
         "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Aly & Fila",
+        "date": "2026-06-20",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/aly-fila-avalon-hollywood-tickets/14826973",
+        "image": "https://i.ticketweb.com/i/00/13/42/70/83_Edp.jpg?v=7"
       }
     ],
     "The Novo": [
-      {
-        "name": "Kun",
-        "date": "2026-04-04",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-6ox",
-        "image": null
-      },
       {
         "name": "Aries Spears",
         "date": "2026-04-10",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-EPs",
         "image": null
+      },
+      {
+        "name": "John Milton",
+        "date": "2026-04-26",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-g-s",
+        "image": "https://s1.ticketm.net/dam/a/17c/47dbffe6-0d4c-4590-9418-9025d9ff417c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Eliza McLamb: Good Story Tour",
-        "date": "2026-04-04",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/eliza-mclamb-good-story-tour-los-angeles-california-04-04-2026/event/0900630C86330E75",
-        "image": "https://s1.ticketm.net/dam/e/cb5/dd5bd65a-5cb1-4ee3-8cce-e3bc5bcf9cb5_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Thursday presents: Full City Devolucion w/ special guest Chris Conley",
         "date": "2026-04-10",
         "time": "18:30:00",
@@ -348,6 +341,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/happy-landing-los-angeles-california-05-02-2026/event/0900642CF08BC269",
         "image": "https://s1.ticketm.net/dam/a/433/9c786d46-9999-4461-974c-8d39dbf4e433_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Saults",
+        "date": "2026-05-06",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/saults-los-angeles-california-05-06-2026/event/09006388BCBCA874",
+        "image": "https://s1.ticketm.net/dam/e/c3f/764de0a4-227c-4227-aaa3-c79b664dcc3f_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -526,13 +526,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "PaleyFest LA: Pluribus",
-        "date": "2026-04-04",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/paleyfest-la-pluribus-hollywood-california-04-04-2026/event/09006431CE4CF1DC",
-        "image": "https://s1.ticketm.net/dam/e/7cd/547034b5-1b4b-4443-8856-f1313d66a7cd_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "PaleyFest LA: Charlie's Angels: 50th Anniversary Celebration",
         "date": "2026-04-06",
         "time": "19:30:00",
@@ -580,23 +573,16 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/paleyfest-la-the-pitt-hollywood-california-04-12-2026/event/09006431CE70F22D",
         "image": "https://s1.ticketm.net/dam/e/27d/c5f9840f-f02c-47d1-b734-ae6241c2827d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Dancing With The Stars: Live! - 2026 Tour",
+        "date": "2026-04-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2026-hollywood-california-04-25-2026/event/0900633BE65D776A",
+        "image": "https://s1.ticketm.net/dam/a/f26/a3b73864-daf0-4569-bbc6-dac32787af26_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Dragon Mama",
-        "date": "2026-04-04",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox74",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
-        "date": "2026-04-04",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7f",
-        "image": null
-      },
       {
         "name": "Dragon Mama",
         "date": "2026-04-05",
@@ -637,6 +623,20 @@
         "date": "2026-04-10",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7_",
+        "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-04-10",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPO",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-04-11",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7-",
         "image": null
       }
     ],
@@ -938,13 +938,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Cult Classics Cinema Presents Brown Sugar",
-        "date": "2026-04-04",
-        "time": "17:00:00",
-        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-brown-sugar-inglewood-california-04-04-2026/event/0B00646EA05C38B9",
-        "image": "https://s1.ticketm.net/dam/e/3ac/bbe0878f-0f17-4d62-bb28-5f91d1bf53ac_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "South Side Sessions: Season 2 - The Khristian Foreman Quartet",
         "date": "2026-04-09",
         "time": "20:00:00",
@@ -992,6 +985,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-lemonade-inglewood-california-04-24-2026/event/0B00647FB14054F0",
         "image": "https://s1.ticketm.net/dam/e/1d7/c4315476-f7c0-4303-9b41-150cc07b31d7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Cory Henry Presents: THE CHURCH EXPERIENCE",
+        "date": "2026-04-26",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/cory-henry-presents-the-church-experience-inglewood-california-04-26-2026/event/0B00647FF51C700F",
+        "image": "https://s1.ticketm.net/dam/a/a1f/21111ac8-9609-4d6e-bd4f-775267c9fa1f_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
