@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-04T15:29:43.556Z",
+  "generated": "2026-04-05T15:30:44.020Z",
   "events": [
-    {
-      "name": "Hail the Sun",
-      "date": "2026-04-04",
-      "time": "17:45:00",
-      "url": "https://www.ticketmaster.com/hail-the-sun-los-angeles-california-04-04-2026/event/09006385D28AC95E",
-      "image": "https://s1.ticketm.net/dam/a/2d9/96b2eb70-b495-49a2-b04a-b33efb1942d9_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Verka Serduchka",
       "date": "2026-04-05",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/naomi-watanabe-from-tokyo-los-angeles-california-04-17-2026/event/0900637D974B85BF",
       "image": "https://s1.ticketm.net/dam/a/79e/33783030-df68-4080-ae9b-3c2bb486079e_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Dr. Mary Claire Haver Live",
+      "date": "2026-04-18",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/dr-mary-claire-haver-live-los-angeles-california-04-18-2026/event/09006459D649C996",
+      "image": "https://s1.ticketm.net/dam/a/f8f/85efcef2-6dd1-439c-b2b5-c0bafe225f8f_RECOMENDATION_16_9.jpg"
     }
   ]
 }
