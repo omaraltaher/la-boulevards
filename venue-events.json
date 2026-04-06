@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-05T16:30:28.127Z",
+  "generated": "2026-04-06T16:40:23.278Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -472,23 +472,11 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "THEE SACRED SOULS at THE GREEK",
-        "date": "2026-04-22",
-        "time": "19:00:00",
-        "image": null
-      },
-      {
         "name": "KCRW Presents Thee Sacred Souls",
         "date": "2026-04-22",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/kcrw-presents-thee-sacred-souls-los-angeles-california-04-22-2026/event/090064348C4F5D15",
         "image": "https://s1.ticketm.net/dam/a/a17/414bf0b5-8d65-4637-a157-b11d82250a17_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "THEE SACRED SOULS at THE GREEK",
-        "date": "2026-04-23",
-        "time": "19:00:00",
-        "image": null
       },
       {
         "name": "KCRW Presents Thee Sacred Souls",
@@ -505,12 +493,6 @@
         "image": "https://s1.ticketm.net/dam/a/be5/0e98e455-57cf-4747-a398-de1dcb552be5_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "PEE-WEE's PLAYHOUSE at THE GREEK",
-        "date": "2026-05-04",
-        "time": "20:00:00",
-        "image": null
-      },
-      {
         "name": "Netflix Is A Joke Presents:  Pee-wee's Playhouse 40th Anniversary",
         "date": "2026-05-04",
         "time": "20:00:00",
@@ -518,10 +500,32 @@
         "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "JERRY SEINFELD at THE GREEK",
+        "name": "Netflix Is A Joke Presents: Jerry Seinfeld",
         "date": "2026-05-05",
         "time": "20:00:00",
-        "image": null
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-jerry-los-angeles-california-05-05-2026/event/09006431C336DA6F",
+        "image": "https://s1.ticketm.net/dam/a/9d2/5f0ebea2-3344-4065-8ea3-1a9f6412b9d2_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Seth Goes Greek",
+        "date": "2026-05-06",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-seth-los-angeles-california-05-06-2026/event/0900642EEEA66D51",
+        "image": "https://s1.ticketm.net/dam/a/f05/daef8349-0059-4be6-9858-c26dedbb7f05_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Lizzo: A Night of Comedy and Music",
+        "date": "2026-05-07",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-lizzo-los-angeles-california-05-07-2026/event/09006429CECFBADE",
+        "image": "https://s1.ticketm.net/dam/a/6c3/b05598ea-c564-4f13-8d4d-595a5d31f6c3_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Beautifully Broken Comedy with Jelly Roll",
+        "date": "2026-05-08",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-beautifully-los-angeles-california-05-08-2026/event/090064338FC951FA",
+        "image": "https://s1.ticketm.net/dam/a/dc9/af7da73f-35c1-4386-8ff6-47b8aab24dc9_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -585,13 +589,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-04-05",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7p",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-04-08",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox79",
@@ -637,6 +634,13 @@
         "date": "2026-04-11",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7-",
+        "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-04-11",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPx",
         "image": null
       }
     ],
