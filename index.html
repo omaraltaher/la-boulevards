@@ -1269,6 +1269,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
     renderTreesDirect(blvd && treeData.length ? filterNearBlvd(treeData, blvd, 0.30) : []);
     renderButterflyDirect(blvd && butterflyData.length ? filterNearBlvd(butterflyData, blvd, 0.25) : []);
+    renderPlantsDirect(blvd && nativePlantData.length ? filterNearBlvd(nativePlantData, blvd, 0.25) : []);
   }
 
   function applyHighlight(blvd, fromClick = false) {
@@ -2982,15 +2983,15 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     'Ceanothus':        '#8b5cf6',
   };
   let nativePlantData = [];
-  const poppyRenderGroup    = L.layerGroup().addTo(map);
-  const toyonRenderGroup    = L.layerGroup().addTo(map);
-  const ceanothusRenderGroup = L.layerGroup().addTo(map);
+  const poppyRenderGroup    = L.layerGroup();
+  const toyonRenderGroup    = L.layerGroup();
+  const ceanothusRenderGroup = L.layerGroup();
   let plantsOn = true;
   document.getElementById('nativeplant-toggle').addEventListener('click', () => {
     plantsOn = !plantsOn;
-    [poppyRenderGroup, toyonRenderGroup, ceanothusRenderGroup]
-      .forEach(g => plantsOn ? g.addTo(map) : g.remove());
     document.getElementById('nativeplant-toggle').classList.toggle('off', !plantsOn);
+    const items = plantsOn && selectedBlvd ? filterNearBlvd(nativePlantData, selectedBlvd, 0.25) : [];
+    renderPlantsDirect(items);
   });
 
   function makeFlowerSvgHtml(w, h, color) {
@@ -3024,18 +3025,19 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   }
 
-  function renderPlantsDirect() {
-    [poppyRenderGroup, toyonRenderGroup, ceanothusRenderGroup].forEach(g => g.clearLayers());
-    if (!plantsOn) return;
+  function renderPlantsDirect(items) {
+    [poppyRenderGroup, toyonRenderGroup, ceanothusRenderGroup].forEach(g => { g.clearLayers(); g.remove(); });
+    if (!plantsOn || !items || !items.length) return;
     const ICONS   = { 'California Poppy': poppyIcon, 'Toyon': toyonIcon, 'Ceanothus': ceanothusIcon };
     const GROUPS  = { 'California Poppy': poppyRenderGroup, 'Toyon': toyonRenderGroup, 'Ceanothus': ceanothusRenderGroup };
-    nativePlantData.forEach(p => {
+    items.forEach(p => {
       const icon = ICONS[p.species], group = GROUPS[p.species];
       if (!icon || !group) return;
       const m = L.marker([p.lat, p.lon], { icon });
       bindPlantClick(m, p);
       group.addLayer(m);
     });
+    [poppyRenderGroup, toyonRenderGroup, ceanothusRenderGroup].forEach(g => { if (g.getLayers().length) g.addTo(map); });
   }
 
   function populateNativePlantSection(items) {
@@ -3068,7 +3070,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (!res.ok) return;
       const { plants } = await res.json();
       nativePlantData = plants.map((p, i) => ({ ...p, _idx: i }));
-      renderPlantsDirect();
+      if (selectedBlvd) renderPlantsDirect(filterNearBlvd(nativePlantData, selectedBlvd, 0.25));
     } catch (e) {
       console.warn('Native plants load failed:', e);
     }
