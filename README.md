@@ -27,6 +27,9 @@ An interactive map of every boulevard in Los Angeles County — the streets, the
 | Wallis Annenberg Wildlife Crossing | green arch bridge SVG | with mountain lions toggle |
 | Public art | magenta dot | when boulevard selected |
 | Theatres | purple dot | when boulevard selected — 36 venues show upcoming shows (Ticketmaster + Eventbrite) |
+| Street trees | leaf SVG (purple/orange/green) | when boulevard selected — iconic trees (jacaranda, coral tree, Washington palm) + StreetsLA/BH/SM inventory |
+| Butterflies | butterfly SVG | when boulevard selected — iNaturalist Papilionoidea, 90-day window |
+| Native plants | flower dot (yellow/red/purple) | when boulevard selected — CA Poppy, Toyon, Ceanothus from iNaturalist |
 | Jonathan Gold restaurants | gold dot | when Pico selected |
 | Sunset Strip landmarks | gradient star | when Sunset selected |
 | Wild parrots | green parrot SVG | toggleable |
@@ -63,6 +66,10 @@ All data is pre-baked at build time and refreshed on a schedule. Every workflow 
 | `refresh-parrots.yml` | `parrots.json` | Monthly 1st, 9am PT | — |
 | `refresh-art.yml` | `art.json` | Monthly 1st, 10am PT | — |
 | `refresh-wells.yml` | `wells.json` | Monthly 1st, 11am PT | — |
+| `refresh-iconic-trees.yml` | `iconic-trees.json` | Monthly 1st, 4am PT | — |
+| `refresh-butterflies.yml` | `butterflies.json` | Monthly 1st, 3am PT | — |
+| `refresh-nativeplants.yml` | `nativeplants.json` | Monthly 1st, 4am PT | — |
+| `refresh-canopy.yml` | `canopy.json` | Yearly Jan 1, 10am UTC | — |
 | `refresh-railway.yml` | `railway.json` | Yearly Jan 1, 11am UTC | — |
 | `refresh-faults.yml` | `faults.json` | Yearly Jan 1, 9am UTC | — |
 | `refresh-tacos.yml` | `tacos.json` | Yearly Jan 1, 8am UTC | — |
@@ -116,6 +123,10 @@ Requires Node 18+.
 - Parrots: iNaturalist / Occidental College Moore Lab of Zoology
 - Mountain lions: iNaturalist (Puma concolor, taxon 42007)
 - Coyotes: iNaturalist (Canis latrans, taxon 42051)
+- Butterflies: iNaturalist (Papilionoidea, taxon 47157) — 90-day window, research-grade
+- Native plants: iNaturalist — California Poppy (taxon 48225), Toyon (taxon 53405), Ceanothus (taxon 49674)
+- Iconic trees: iNaturalist — Jacaranda (taxon 77541), Coral Tree (taxon 1588191), Washington Palm (taxon 50185)
+- Street tree inventory: StreetsLA ArcGIS FeatureServer (LA City), City of Beverly Hills GeoHub, City of Santa Monica Open Data (Socrata), OpenStreetMap Overpass (fallback)
 - Ghost railway: OpenStreetMap contributors (`railway=abandoned/razed`, `old_railway_operator=Pacific Electric Railway`)
 - Active PE corridors: OpenStreetMap (Metro E Line, A Line, West Santa Ana Branch)
 - Railway images: Wikimedia Commons via Wikipedia imageinfo API (pre-baked at build time)
