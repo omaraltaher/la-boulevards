@@ -1267,6 +1267,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (name && blvdName === name) marker.addTo(map);
       else marker.remove();
     });
+    renderTreesDirect(blvd && treeData.length ? filterNearBlvd(treeData, blvd, 0.30) : []);
+    renderButterflyDirect(blvd && butterflyData.length ? filterNearBlvd(butterflyData, blvd, 0.25) : []);
   }
 
   function applyHighlight(blvd, fromClick = false) {
@@ -2897,12 +2899,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // ── Butterflies ──────────────────────────────────────────────────
   let butterflyData = [];
-  const butterflyRenderGroup = L.layerGroup().addTo(map);
+  const butterflyRenderGroup = L.layerGroup();
   let butterfliesOn = true;
   document.getElementById('butterfly-toggle').addEventListener('click', () => {
     butterfliesOn = !butterfliesOn;
-    butterfliesOn ? butterflyRenderGroup.addTo(map) : butterflyRenderGroup.remove();
     document.getElementById('butterfly-toggle').classList.toggle('off', !butterfliesOn);
+    const items = butterfliesOn && selectedBlvd ? filterNearBlvd(butterflyData, selectedBlvd, 0.25) : [];
+    renderButterflyDirect(items);
   });
 
   function butterflySvgHtml(w, h) {
@@ -2913,12 +2916,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       `<path d="M9,7 C12,8 16,11 15,12.5 C13,13.5 10,10 9,8Z" fill="#f59e0b" opacity="0.7"/>` +
       `<ellipse cx="9" cy="7" rx="0.8" ry="4" fill="#92400e" opacity="0.8"/>` +
       `</svg>`;
-  }
-  function makeButterflyClusterIcon(n) {
-    return L.divIcon({
-      html: `<div style="position:relative;width:18px;height:14px;">${butterflySvgHtml(18, 14)}<div style="position:absolute;top:-6px;right:-8px;background:#f59e0b;border-radius:50%;min-width:16px;height:16px;padding:0 3px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;line-height:1;">${n}</div></div>`,
-      className: '', iconSize: [18, 14], iconAnchor: [9, 7]
-    });
   }
   const butterflyIcon = L.divIcon({ className: '', html: butterflySvgHtml(18, 14), iconSize: [18, 14], iconAnchor: [9, 7] });
 
@@ -2939,11 +2936,20 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
   }
 
-  const { pinned: pinnedButterflies, recluster: reclusterButterflies } = makeClusterSystem({
-    renderGroup: butterflyRenderGroup, getData: () => butterflyData, isOn: () => butterfliesOn,
-    icon: butterflyIcon, clusterIcon: makeButterflyClusterIcon, bindClick: bindButterflyClick,
-    R: 35, MIN: 3
-  });
+  const pinnedButterflies = new Set();
+  const reclusterButterflies = () => {};
+
+  function renderButterflyDirect(items) {
+    butterflyRenderGroup.clearLayers();
+    butterflyRenderGroup.remove();
+    if (!butterfliesOn || !items || !items.length) return;
+    items.forEach(b => {
+      const m = L.marker([b.lat, b.lon], { icon: butterflyIcon });
+      bindButterflyClick(m, b);
+      butterflyRenderGroup.addLayer(m);
+    });
+    if (butterflyRenderGroup.getLayers().length) butterflyRenderGroup.addTo(map);
+  }
 
   function populateButterflySection(items) {
     if (!items.length) { secButterflies.style.display = 'none'; return; }
@@ -2964,7 +2970,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (!res.ok) return;
       const { butterflies } = await res.json();
       butterflyData = butterflies.map((b, i) => ({ ...b, _idx: i }));
-      reclusterButterflies();
     } catch (e) {
       console.warn('Butterfly load failed:', e);
     }
@@ -3283,15 +3288,15 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   let treeData = [];
-  const jacarandaRenderGroup = L.layerGroup().addTo(map);
-  const coralRenderGroup     = L.layerGroup().addTo(map);
-  const palmRenderGroup      = L.layerGroup().addTo(map);
+  const jacarandaRenderGroup = L.layerGroup();
+  const coralRenderGroup     = L.layerGroup();
+  const palmRenderGroup      = L.layerGroup();
   let treesOn = true;
   document.getElementById('tree-toggle').addEventListener('click', () => {
     treesOn = !treesOn;
-    [jacarandaRenderGroup, coralRenderGroup, palmRenderGroup]
-      .forEach(g => treesOn ? g.addTo(map) : g.remove());
     document.getElementById('tree-toggle').classList.toggle('off', !treesOn);
+    const items = treesOn && selectedBlvd ? filterNearBlvd(treeData, selectedBlvd, 0.30) : [];
+    renderTreesDirect(items);
   });
 
   function makeLeafSvgHtml(w, h, color) {
@@ -3329,18 +3334,19 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const pinnedJacaranda = new Set(), pinnedCoral = new Set(), pinnedPalm = new Set();
   const reclusterJacaranda = () => {}, reclusterCoral = () => {}, reclusterPalm = () => {};
 
-  function renderTreesDirect() {
-    [jacarandaRenderGroup, coralRenderGroup, palmRenderGroup].forEach(g => g.clearLayers());
-    if (!treesOn) return;
+  function renderTreesDirect(items) {
+    [jacarandaRenderGroup, coralRenderGroup, palmRenderGroup].forEach(g => { g.clearLayers(); g.remove(); });
+    if (!treesOn || !items || !items.length) return;
     const ICONS   = { 'Jacaranda': jacarandaIcon, 'Coral Tree': coralIcon, 'Washington Palm': palmIcon };
     const GROUPS  = { 'Jacaranda': jacarandaRenderGroup, 'Coral Tree': coralRenderGroup, 'Washington Palm': palmRenderGroup };
-    treeData.forEach(t => {
+    items.forEach(t => {
       const icon = ICONS[t.species], group = GROUPS[t.species];
       if (!icon || !group) return;
       const m = L.marker([t.lat, t.lon], { icon });
       bindTreeClick(m, t);
       group.addLayer(m);
     });
+    [jacarandaRenderGroup, coralRenderGroup, palmRenderGroup].forEach(g => { if (g.getLayers().length) g.addTo(map); });
   }
 
   const TREE_SYSTEMS = {
@@ -3381,7 +3387,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (!res.ok) return;
       const { trees } = await res.json();
       treeData = trees.map((t, i) => ({ ...t, _idx: i }));
-      renderTreesDirect();
     } catch (e) {
       console.warn('Iconic trees load failed:', e);
     }
