@@ -318,6 +318,25 @@ path.leaflet-interactive:focus { outline:none; }
 }
 .theatre-popup .leaflet-popup-close-button:hover { color:#e0e4ef !important; }
 
+/* ── On Stage show labels ── */
+.show-label-tooltip.leaflet-tooltip {
+  background: rgba(15,17,35,0.95) !important;
+  border: 1px solid rgba(168,85,247,0.35) !important;
+  border-radius: 6px !important;
+  padding: 0 !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5) !important;
+  color: #e0e4ef !important;
+  pointer-events: none;
+}
+.show-label-tooltip.leaflet-tooltip::before { display:none !important; }
+.show-label-inner { padding: 7px 10px; max-width: 190px; }
+.show-label-venue { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:rgba(192,132,252,0.65); margin-bottom:5px; }
+.show-label-row { margin-bottom:4px; }
+.show-label-row:last-child { margin-bottom:0; }
+.show-label-name { font-size:12px; color:#e0e4ef; display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.show-label-time { font-size:10px; color:rgba(192,132,252,0.55); display:block; margin-top:1px; }
+.show-label-row.tonight .show-label-time { color:rgba(192,132,252,0.85); }
+
 /* ── Jonathan Gold restaurant markers ── */
 .gold-dot {
   width:11px; height:11px;
@@ -1289,7 +1308,66 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       { color, label: p.species, species: item => item.species, verb: 'Observed', popupClass: 'nativeplant-popup', photoStyle: 'height:auto;max-height:240px;' });
   };
 
+  function clearTheatreLabels() {
+    theatreMarkerList.forEach(({ marker }) => { if (marker.getTooltip()) marker.unbindTooltip(); });
+  }
+
+  function showTheatreLabels() {
+    const _tLA = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+    const today = _tLA.toLocaleDateString('en-CA');
+    const _tmLA = new Date(_tLA); _tmLA.setDate(_tmLA.getDate() + 1);
+    const tomorrow = _tmLA.toLocaleDateString('en-CA');
+
+    // Only venues with shows in the window
+    const active = theatreMarkerList.filter(({ name }) =>
+      (venueEvents[name] || []).some(e => e.date === today || e.date === tomorrow)
+    ).sort((a, b) => b.lat - a.lat);
+
+    // Assign tooltip directions to minimise overlap:
+    // Start from position relative to LA centre, then flip for nearby neighbours
+    const LAT_C = 34.05, LON_C = -118.25, THRESH = 0.045;
+    const DIRS = ['right', 'left', 'top', 'bottom'];
+    const assigned = new Map();
+    active.forEach((v, i) => {
+      const nearby = active.slice(0, i).filter(u =>
+        Math.abs(u.lat - v.lat) < THRESH && Math.abs(u.lon - v.lon) < THRESH
+      );
+      if (!nearby.length) {
+        assigned.set(v.name, v.lon > LON_C ? 'right' : 'left');
+      } else {
+        const used = nearby.map(u => assigned.get(u.name));
+        assigned.set(v.name, DIRS.find(d => !used.includes(d)) || 'right');
+      }
+    });
+
+    active.forEach(({ marker, name }) => {
+      const evs = (venueEvents[name] || []).filter(e => e.date === today || e.date === tomorrow);
+      const dir = assigned.get(name) || 'right';
+      const offset = { right:[10,0], left:[-10,0], top:[0,-10], bottom:[0,10] }[dir];
+
+      const rows = evs.map(ev => {
+        const isTonight = ev.date === today;
+        let timeStr = '';
+        if (ev.time) {
+          const [h, m] = ev.time.split(':');
+          const hr = parseInt(h);
+          timeStr = `${hr > 12 ? hr - 12 : hr || 12}:${m} ${hr >= 12 ? 'PM' : 'AM'}`;
+        }
+        return `<div class="show-label-row${isTonight ? ' tonight' : ''}">` +
+          `<span class="show-label-name">${ev.name}</span>` +
+          (timeStr ? `<span class="show-label-time">${timeStr}</span>` : '') +
+          `</div>`;
+      }).join('');
+
+      marker.bindTooltip(
+        `<div class="show-label-inner"><div class="show-label-venue">${name}</div>${rows}</div>`,
+        { permanent: true, direction: dir, className: 'show-label-tooltip', offset }
+      ).openTooltip();
+    });
+  }
+
   function updateOverlayMarkers(blvd) {
+    clearTheatreLabels();
     if (!blvd) history.replaceState(null, '', location.pathname);
     const name = blvd ? blvd.name : null;
     artMarkerList.forEach(({ marker, blvdName }) => {
@@ -1316,6 +1394,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     renderTreesDirect(blvd && treeData.length ? filterNearBlvd(treeData, blvd, 0.30) : []);
     renderButterflyDirect(blvd && butterflyData.length ? filterNearBlvd(butterflyData, blvd, 0.25) : []);
     renderPlantsDirect(blvd && nativePlantData.length ? filterNearBlvd(nativePlantData, blvd, 0.25) : []);
+    if (onNowSelected) showTheatreLabels();
   }
 
   function applyHighlight(blvd, fromClick = false) {
