@@ -13,9 +13,9 @@ const SWLAT = 33.70, SWLNG = -118.95, NELAT = 34.82, NELNG = -117.65;
 const PER_PAGE = 200;
 
 const SPECIES = [
-  { taxonId: 48213,  name: 'California Poppy' },
-  { taxonId: 55986,  name: 'Toyon'             },
-  { taxonId: 52695,  name: 'Ceanothus'         },
+  { taxonId: 48225,  name: 'California Poppy' },
+  { taxonId: 53405,  name: 'Toyon'             },
+  { taxonId: 49674,  name: 'Ceanothus'         },
 ];
 
 async function fetchPage(taxonId, page) {
