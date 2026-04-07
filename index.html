@@ -516,6 +516,9 @@ path.leaflet-interactive:focus { outline:none; }
   border-color:rgba(254,240,138,0.4);
   box-shadow:0 0 24px rgba(254,240,138,0.08);
 }
+#info-panel.onnow { border-color:rgba(168,85,247,0.45); box-shadow:0 0 24px rgba(168,85,247,0.1); }
+#onnow-toggle { cursor:pointer; user-select:none; }
+#onnow-toggle:hover { opacity:0.8; }
 #legend .sunset-legend-line {
   background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7);
 }
@@ -835,6 +838,16 @@ path.leaflet-interactive:focus { outline:none; }
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 20 14" style="flex-shrink:0;opacity:0.9"><rect x="1" y="3" width="11" height="8" rx="1.5" fill="none" stroke="#67e8f9" stroke-width="1.2" stroke-linecap="round"/><circle cx="6.5" cy="7" r="2.3" fill="none" stroke="#67e8f9" stroke-width="1.0"/><circle cx="6.5" cy="7" r="0.8" fill="#67e8f9"/><path d="M12,5 L18,3.5 L18,10.5 L12,9" fill="none" stroke="#67e8f9" stroke-width="1.0" stroke-linejoin="round"/></svg><span>Traffic camera</span></div>
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><circle cx="7" cy="3" r="2" fill="none" stroke="#e879f9" stroke-width="1.2"/><path d="M5.5,5 Q4.5,7.5 5,10.5 L9,10.5 Q9.5,7.5 8.5,5 Z" fill="none" stroke="#e879f9" stroke-width="1.1"/><line x1="5.5" y1="5.5" x2="2" y2="2" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="8.5" y1="6" x2="12" y2="7.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="6" y1="10.5" x2="5" y2="13.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="8" y1="10.5" x2="9" y2="13.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><rect x="3" y="13.5" width="8" height="4.5" rx="0.5" fill="none" stroke="#e879f9" stroke-width="1.1"/><line x1="2" y1="19.5" x2="12" y2="19.5" stroke="#e879f9" stroke-width="1.2" stroke-linecap="round"/></svg><span>Public art</span></div>
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 16 20" style="flex-shrink:0;opacity:0.9"><path d="M1,1 Q8,4.5 15,1" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M8,1 Q8.5,4 8,7" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M1,1 L1,17 Q4.5,13 4.5,9 Q4.5,5 1,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><path d="M15,1 L15,17 Q11.5,13 11.5,9 Q11.5,5 15,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="1" y1="10.5" x2="5" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="15" y1="10.5" x2="11" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="1" y1="19" x2="15" y2="19" stroke="#c084fc" stroke-width="1.2" stroke-linecap="round"/></svg><span>Theatre</span></div>
+        <div class="marker-row" id="onnow-toggle" title="See all upcoming shows">
+          <svg width="14" height="14" viewBox="0 0 14 14" style="flex-shrink:0;opacity:0.9">
+            <rect x="1" y="3" width="12" height="8" rx="1.5" fill="none" stroke="rgba(192,132,252,0.8)" stroke-width="1.2"/>
+            <line x1="4" y1="3" x2="4" y2="11" stroke="rgba(192,132,252,0.5)" stroke-width="0.8"/>
+            <line x1="10" y1="3" x2="10" y2="11" stroke="rgba(192,132,252,0.5)" stroke-width="0.8"/>
+            <circle cx="7" cy="7" r="1.2" fill="rgba(192,132,252,0.8)"/>
+          </svg>
+          <span>On Now</span>
+          <span id="onnow-count" style="margin-left:auto;font-size:10px;color:rgba(192,132,252,0.6);"></span>
+        </div>
       </div>
     </div>
     <div class="legend-group">
@@ -1167,6 +1180,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let selectedBlvd = null;
   let p22RouteSelected = false;
   let railwaySelected = false;
+  let onNowSelected = false;
   let _skipNextMapClick = false;
   const artMarkerList = [];    // { marker, blvdName }
   const theatreMarkerList = []; // { marker, blvdName, isWiltern }
@@ -1603,6 +1617,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     selectedBlvd = null;
     p22RouteSelected = false;
     railwaySelected = false;
+    onNowSelected = false;
+    infoPanel.classList.remove('onnow');
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
     else resetProximity();
@@ -1859,7 +1875,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function showInfo(blvd) {
     p22RouteSelected = false;
     railwaySelected = false;
-    infoPanel.classList.remove('railway');
+    onNowSelected = false;
+    infoPanel.classList.remove('railway', 'onnow');
     infoPanel.classList.add('open');
     if (isMobile()) {
       sheetPanelH = infoPanel.offsetHeight;
@@ -2023,11 +2040,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function showP22Info(obsBounds) {
     p22RouteSelected = true;
+    onNowSelected = false;
     selectedBlvd = null;
     // Dim all boulevard lines
     updateOverlayMarkers(null);
     dimAllBoulevards();
-    infoPanel.classList.remove('pico', 'sunset');
+    infoPanel.classList.remove('pico', 'sunset', 'onnow');
     infoPanel.classList.add('open', 'p22');
     if (isMobile()) {
       sheetPanelH = infoPanel.offsetHeight;
@@ -2132,10 +2150,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function showRailwayInfo(status, lineName) {
     railwaySelected = true;
     p22RouteSelected = false;
+    onNowSelected = false;
     selectedBlvd = null;
     updateOverlayMarkers(null);
     dimAllBoulevards();
-    infoPanel.classList.remove('pico', 'sunset', 'p22');
+    infoPanel.classList.remove('pico', 'sunset', 'p22', 'onnow');
     infoPanel.classList.add('open', 'railway');
     if (isMobile()) {
       sheetPanelH = infoPanel.offsetHeight;
@@ -2227,11 +2246,91 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   }
 
+  function showOnNowPanel() {
+    onNowSelected = true;
+    p22RouteSelected = false;
+    railwaySelected = false;
+    selectedBlvd = null;
+    updateOverlayMarkers(null);
+    dimAllBoulevards();
+    infoPanel.classList.remove('pico', 'sunset', 'p22', 'railway');
+    infoPanel.classList.add('open', 'onnow');
+
+    infoImg.style.display = 'none';
+    infoMeta.textContent = '';
+    infoStats.innerHTML = '';
+    infoEditorial.innerHTML = '';
+    infoEditorial.style.display = 'none';
+    infoShare.classList.remove('visible');
+    infoShare.innerHTML = '';
+    photosStrip.innerHTML = '';
+    photosStrip.style.display = 'none';
+    infoWiki.style.display = 'none';
+    document.getElementById('gold-tribute').style.display = 'none';
+    infoCanopySpecies.textContent = ''; infoCanopySpecies.style.display = 'none';
+    [secArt, secTheatres, secWells, secParrots, secCoyotes, secButterflies, secTrees, secNativePlants, secCameras, secLions].forEach(el =>
+      el.style.display = 'none');
+
+    infoName.textContent = 'On Now';
+
+    const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+    const rows = [];
+    for (const [venue, events] of Object.entries(venueEvents)) {
+      for (const ev of events) {
+        if (ev.date >= today) rows.push({ venue, ...ev });
+      }
+    }
+    rows.sort((a, b) => {
+      const d = a.date.localeCompare(b.date);
+      return d !== 0 ? d : (a.time || '').localeCompare(b.time || '');
+    });
+
+    const byDate = {};
+    for (const row of rows) (byDate[row.date] = byDate[row.date] || []).push(row);
+
+    let html = '';
+    for (const [date, items] of Object.entries(byDate)) {
+      const isTonight = date === today;
+      const label = isTonight ? 'Tonight' :
+        new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric' });
+      html += `<div style="margin-bottom:16px;">` +
+        `<div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;` +
+        `color:${isTonight ? 'rgba(192,132,252,0.9)' : '#4b5563'};` +
+        `margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.06);">${label}</div>`;
+      for (const ev of items) {
+        const timeStr = ev.time ? (() => {
+          const [h, m] = ev.time.split(':');
+          const hr = parseInt(h);
+          return ` · ${hr > 12 ? hr - 12 : (hr || 12)}:${m} ${hr >= 12 ? 'PM' : 'AM'}`;
+        })() : '';
+        html += `<div style="display:flex;gap:10px;align-items:flex-start;margin-bottom:10px;">` +
+          (ev.image
+            ? `<img src="${ev.image}" style="width:44px;height:44px;object-fit:cover;border-radius:4px;flex-shrink:0;" loading="lazy"/>`
+            : `<div style="width:44px;height:44px;border-radius:4px;background:rgba(168,85,247,0.1);flex-shrink:0;"></div>`) +
+          `<div style="min-width:0;">` +
+          `<div style="font-size:10px;color:#6b7280;margin-bottom:1px;">${ev.venue}${timeStr}</div>` +
+          `<div style="font-size:13px;color:#e0e4ef;line-height:1.3;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${ev.name}</div>` +
+          `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;">Tickets →</a>` +
+          `</div></div>`;
+      }
+      html += `</div>`;
+    }
+    if (!html) html = `<div style="color:#6b7280;font-size:13px;">No upcoming events found.</div>`;
+
+    infoExtract.innerHTML = html;
+    infoExtract.style.display = 'block';
+
+    if (isMobile()) openSheetHalf();
+  }
+
+  document.getElementById('onnow-toggle').addEventListener('click', showOnNowPanel);
+
   document.getElementById('info-close').addEventListener('click', () => {
     p22RouteSelected = false;
     railwaySelected = false;
+    onNowSelected = false;
     if (isMobile()) { closeSheet(); return; }
-    infoPanel.classList.remove('open', 'p22', 'railway');
+    infoPanel.classList.remove('open', 'p22', 'railway', 'onnow');
     selectedBlvd = null;
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
@@ -2253,6 +2352,15 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       railwaySelected = false;
       if (isMobile()) { closeSheet(); return; }
       infoPanel.classList.remove('open', 'railway');
+      updateOverlayMarkers(null);
+      if (pinLat !== null) applyProximity(pinLat, pinLon);
+      else resetProximity();
+      return;
+    }
+    if (onNowSelected) {
+      onNowSelected = false;
+      if (isMobile()) { closeSheet(); return; }
+      infoPanel.classList.remove('open', 'onnow');
       updateOverlayMarkers(null);
       if (pinLat !== null) applyProximity(pinLat, pinLon);
       else resetProximity();
@@ -3692,6 +3800,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const [venueRes, wilternRes] = await Promise.all([fetch('venue-events.json'), fetch('wiltern-events.json')]);
       if (venueRes.ok) { const { venues } = await venueRes.json(); venueEvents = venues || {}; }
       if (wilternRes.ok) { const { events } = await wilternRes.json(); if (events?.length) venueEvents['The Wiltern'] = events; }
+      const total = Object.values(venueEvents).reduce((s, evs) => s + evs.length, 0);
+      const el = document.getElementById('onnow-count');
+      if (el && total) el.textContent = total;
     } catch(e) { console.warn('Venue events load failed:', e); }
   })();
 
