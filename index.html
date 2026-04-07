@@ -2277,27 +2277,15 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const rows = [];
     for (const [venue, events] of Object.entries(venueEvents)) {
       for (const ev of events) {
-        if (ev.date >= today) rows.push({ venue, ...ev });
+        if (ev.date === today) rows.push({ venue, ...ev });
       }
     }
-    rows.sort((a, b) => {
-      const d = a.date.localeCompare(b.date);
-      return d !== 0 ? d : (a.time || '').localeCompare(b.time || '');
-    });
-
-    const byDate = {};
-    for (const row of rows) (byDate[row.date] = byDate[row.date] || []).push(row);
+    rows.sort((a, b) => (a.time || '').localeCompare(b.time || ''));
 
     let html = '';
-    for (const [date, items] of Object.entries(byDate)) {
-      const isTonight = date === today;
-      const label = isTonight ? 'Tonight' :
-        new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric' });
-      html += `<div style="margin-bottom:16px;">` +
-        `<div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;` +
-        `color:${isTonight ? 'rgba(192,132,252,0.9)' : '#4b5563'};` +
-        `margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.06);">${label}</div>`;
-      for (const ev of items) {
+    if (rows.length) {
+      html += `<div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:rgba(192,132,252,0.9);margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.06);">Tonight</div>`;
+      for (const ev of rows) {
         const timeStr = ev.time ? (() => {
           const [h, m] = ev.time.split(':');
           const hr = parseInt(h);
@@ -2315,7 +2303,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       }
       html += `</div>`;
     }
-    if (!html) html = `<div style="color:#6b7280;font-size:13px;">No upcoming events found.</div>`;
+    if (!html) html = `<div style="color:#6b7280;font-size:13px;">No shows tonight.</div>`;
 
     infoExtract.innerHTML = html;
     infoExtract.style.display = 'block';
@@ -3800,7 +3788,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const [venueRes, wilternRes] = await Promise.all([fetch('venue-events.json'), fetch('wiltern-events.json')]);
       if (venueRes.ok) { const { venues } = await venueRes.json(); venueEvents = venues || {}; }
       if (wilternRes.ok) { const { events } = await wilternRes.json(); if (events?.length) venueEvents['The Wiltern'] = events; }
-      const total = Object.values(venueEvents).reduce((s, evs) => s + evs.length, 0);
+      const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+      const total = Object.values(venueEvents).reduce((s, evs) => s + evs.filter(e => e.date === todayStr).length, 0);
       const el = document.getElementById('onnow-count');
       if (el && total) el.textContent = total;
     } catch(e) { console.warn('Venue events load failed:', e); }
