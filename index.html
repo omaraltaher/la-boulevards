@@ -1316,62 +1316,83 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   function showTheatreLabels() {
+    if (isMobile()) return; // mobile uses the sheet panel instead
     const _tLA = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
     const today = _tLA.toLocaleDateString('en-CA');
     const _tmLA = new Date(_tLA); _tmLA.setDate(_tmLA.getDate() + 1);
     const tomorrow = _tmLA.toLocaleDateString('en-CA');
 
+    // Enrich each active venue with its screen-space pixel position
     const active = theatreMarkerList
       .filter(({ name }) => (venueEvents[name] || []).some(e => e.date === today || e.date === tomorrow))
-      .sort((a, b) => b.lat - a.lat);
+      .map(t => ({
+        ...t,
+        evs: (venueEvents[t.name] || []).filter(e => e.date === today || e.date === tomorrow),
+        px:  map.latLngToContainerPoint([t.lat, t.lon]),
+      }));
 
-    // Label size estimates (px)
     const GAP = 14, LW = 200, LH_BASE = 30, LH_ROW = 44;
     const mapSz = map.getSize();
 
-    const rectOverlap = (a, b) =>
-      a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y;
-
-    const labelRect = (px, dir, h) => ({
-      right:  { x: px.x + GAP,         y: px.y - h / 2, w: LW, h },
-      left:   { x: px.x - GAP - LW,    y: px.y - h / 2, w: LW, h },
-      top:    { x: px.x - LW / 2,      y: px.y - GAP - h, w: LW, h },
-      bottom: { x: px.x - LW / 2,      y: px.y + GAP,  w: LW, h },
-    }[dir]);
-
+    // Area of intersection between two rects (0 if none)
+    const overlapArea = (a, b) => {
+      const ox = Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x);
+      const oy = Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y);
+      return (ox > 0 && oy > 0) ? ox * oy : 0;
+    };
     const offscreen = r => r.x < 0 || r.y < 0 || r.x + r.w > mapSz.x || r.y + r.h > mapSz.y;
 
-    // Direction preference: start with left/right based on screen position,
-    // then try all four in preference order
-    const DIRS = ['right', 'left', 'top', 'bottom'];
-    const placed = []; // { rect } of already-placed labels
+    // 4 directions × 5 alignment shifts = 20 candidates per marker.
+    // For right/left the shift slides the label up/down; for top/bottom it slides left/right.
+    const SHIFTS = [-0.5, -0.25, 0, 0.25, 0.5];
+    const genCandidates = (px, h) => {
+      const out = [];
+      for (const sh of SHIFTS) {
+        out.push({ dir: 'right',  sh, r: { x: px.x + GAP,          y: px.y - h/2 + sh*h, w: LW, h } });
+        out.push({ dir: 'left',   sh, r: { x: px.x - GAP - LW,     y: px.y - h/2 + sh*h, w: LW, h } });
+        out.push({ dir: 'top',    sh, r: { x: px.x - LW/2 + sh*LW, y: px.y - GAP - h,    w: LW, h } });
+        out.push({ dir: 'bottom', sh, r: { x: px.x - LW/2 + sh*LW, y: px.y + GAP,         w: LW, h } });
+      }
+      return out;
+    };
 
-    active.forEach(({ marker, name, lat, lon }) => {
-      const evs = (venueEvents[name] || []).filter(e => e.date === today || e.date === tomorrow);
-      const px = map.latLngToContainerPoint([lat, lon]);
+    // Process the most-crowded markers first so they get first pick of clear positions
+    const CROWD_R = 150; // px — radius for counting nearby markers
+    const crowdScore = t => active.filter(x => x !== t && Math.hypot(x.px.x - t.px.x, x.px.y - t.px.y) < CROWD_R).length;
+    active.sort((a, b) => crowdScore(b) - crowdScore(a));
+
+    const placed = [];
+
+    for (const { marker, name, px, evs } of active) {
       const h = LH_BASE + evs.length * LH_ROW;
+      const cands = genCandidates(px, h);
 
-      // Prefer the side with more room; penalise off-screen and overlaps
-      const preferred = px.x < mapSz.x / 2 ? ['right','left','bottom','top'] : ['left','right','bottom','top'];
-      let bestDir = preferred[0], bestScore = Infinity;
-      for (const dir of preferred) {
-        const r = labelRect(px, dir, h);
-        const overlaps = placed.filter(p => rectOverlap(r, p.rect)).length;
-        const score = overlaps * 100 + (offscreen(r) ? 50 : 0);
-        if (score < bestScore) { bestScore = score; bestDir = dir; }
+      // Score each candidate by total overlap area with already-placed labels + heavy penalty for off-screen
+      let best = cands[0], bestScore = Infinity;
+      for (const cand of cands) {
+        let score = placed.reduce((s, p) => s + overlapArea(cand.r, p.rect), 0);
+        if (offscreen(cand.r)) score += 1e6;
+        if (score < bestScore) { bestScore = score; best = cand; }
+        if (score === 0) break; // perfect placement — stop early
       }
 
-      const rect = labelRect(px, bestDir, h);
-      placed.push({ rect });
+      placed.push({ rect: best.r });
 
-      const offset = { right:[10,0], left:[-10,0], top:[0,-10], bottom:[0,10] }[bestDir];
+      // Leaflet tooltip offset: shift from the default anchor in that direction
+      const offset = {
+        right:  [GAP,       best.sh * h],
+        left:   [-GAP,      best.sh * h],
+        top:    [best.sh * LW, -GAP],
+        bottom: [best.sh * LW,  GAP],
+      }[best.dir];
+
       const rows = evs.map(ev => {
         const isTonight = ev.date === today;
         let timeStr = '';
         if (ev.time) {
-          const [h, m] = ev.time.split(':');
-          const hr = parseInt(h);
-          timeStr = `${hr > 12 ? hr - 12 : hr || 12}:${m} ${hr >= 12 ? 'PM' : 'AM'}`;
+          const [hh, mm] = ev.time.split(':');
+          const hr = parseInt(hh);
+          timeStr = `${hr > 12 ? hr - 12 : hr || 12}:${mm} ${hr >= 12 ? 'PM' : 'AM'}`;
         }
         return `<div class="show-label-row${isTonight ? ' tonight' : ''}">` +
           `<span class="show-label-name">${ev.name}</span>` +
@@ -1382,9 +1403,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
       marker.bindTooltip(
         `<div class="show-label-inner"><div class="show-label-venue">${name}</div>${rows}</div>`,
-        { permanent: true, interactive: true, direction: bestDir, className: 'show-label-tooltip', offset }
+        { permanent: true, interactive: true, direction: best.dir, className: 'show-label-tooltip', offset }
       ).openTooltip();
-    });
+    }
   }
 
   function updateOverlayMarkers(blvd) {
@@ -1749,6 +1770,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     selectedBlvd = null;
     p22RouteSelected = false;
     railwaySelected = false;
+    if (onNowSelected) {
+      onNowSelected = false;
+      document.getElementById('onnow-btn').classList.remove('active');
+      clearTheatreLabels();
+      theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
+    }
+    infoPanel.classList.remove('open', 'onnow');
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
     else resetProximity();
@@ -2375,15 +2403,114 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   }
 
+  function _openOnNowSheet() {
+    const _tLA = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+    const today = _tLA.toLocaleDateString('en-CA');
+    const _tmLA = new Date(_tLA); _tmLA.setDate(_tmLA.getDate() + 1);
+    const tomorrow = _tmLA.toLocaleDateString('en-CA');
+
+    infoPanel.classList.remove('pico', 'sunset', 'p22', 'railway');
+    infoPanel.classList.add('open', 'onnow');
+    infoImg.style.display = 'none';
+    infoName.textContent = 'On Stage';
+    infoMeta.textContent = 'Tonight & Tomorrow';
+    infoStats.textContent = '';
+    infoEditorial.style.display = 'none';
+    photosStrip.innerHTML = '';
+    infoWiki.style.display = 'none';
+    infoShare.innerHTML = '';
+    [secCameras, secParrots, secLions, secCoyotes, secTrees, secNativePlants,
+     secTheatres, secArt, secWells, secButterflies].forEach(s => { if (s) s.style.display = 'none'; });
+
+    const active = theatreMarkerList
+      .filter(({ name }) => (venueEvents[name] || []).some(e => e.date === today || e.date === tomorrow))
+      .sort((a, b) => a.name.localeCompare(b.name));
+
+    let html = '';
+    for (const t of active) {
+      const evs = (venueEvents[t.name] || []).filter(e => e.date === today || e.date === tomorrow);
+      html += `<div style="margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.06);">` +
+        `<div style="display:flex;align-items:center;margin-bottom:8px;">` +
+        `<span style="font-size:14px;font-weight:600;color:#e0e4ef;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${t.name}</span>` +
+        `<button class="onstage-map-link" data-name="${encodeURIComponent(t.name)}" data-lat="${t.lat}" data-lon="${t.lon}" ` +
+        `style="font-size:11px;color:rgba(192,132,252,0.7);background:none;border:none;cursor:pointer;padding:0;margin-left:10px;white-space:nowrap;flex-shrink:0;">📍 Map</button>` +
+        `</div>`;
+      for (const ev of evs) {
+        const isTonight = ev.date === today;
+        let timeStr = '';
+        if (ev.time) {
+          const [hh, mm] = ev.time.split(':');
+          const hr = parseInt(hh);
+          timeStr = `${hr > 12 ? hr - 12 : hr || 12}:${mm} ${hr >= 12 ? 'PM' : 'AM'}`;
+        }
+        html += `<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:8px;">` +
+          `<div style="min-width:0;flex:1;">` +
+          `<div style="font-size:13px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#9ca3af'};overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${ev.name}</div>` +
+          (timeStr ? `<div style="font-size:11px;color:#6b7280;">${timeStr}</div>` : '') +
+          `</div>` +
+          (ev.url ? `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;flex-shrink:0;padding-top:2px;">Tickets →</a>` : '') +
+          `</div>`;
+      }
+      html += `</div>`;
+    }
+    if (!html) html = `<div style="color:#6b7280;font-size:13px;padding:8px 0;">No shows tonight or tomorrow.</div>`;
+
+    infoExtract.innerHTML = html;
+    infoExtract.style.display = 'block';
+
+    infoPanel.style.transition = 'none';
+    infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
+    requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
+  }
+
+  // "📍 Map" tap — peek sheet, fly to theatre, open popup with shows
+  infoExtract.addEventListener('click', e => {
+    const btn = e.target.closest('.onstage-map-link');
+    if (!btn) return;
+    const name = decodeURIComponent(btn.dataset.name);
+    const lat  = parseFloat(btn.dataset.lat);
+    const lon  = parseFloat(btn.dataset.lon);
+
+    setSheetState('peek');
+    map.flyTo([lat, lon], Math.max(map.getZoom(), 15));
+
+    const _tLA = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+    const today = _tLA.toLocaleDateString('en-CA');
+    const _tmLA = new Date(_tLA); _tmLA.setDate(_tmLA.getDate() + 1);
+    const tomorrow = _tmLA.toLocaleDateString('en-CA');
+    const evs = (venueEvents[name] || []).filter(ev => ev.date === today || ev.date === tomorrow);
+
+    let popHtml = `<div style="font-size:13px;font-weight:600;color:#e0e4ef;margin-bottom:8px;">${name}</div>`;
+    for (const ev of evs) {
+      const isTonight = ev.date === today;
+      let timeStr = '';
+      if (ev.time) {
+        const [hh, mm] = ev.time.split(':');
+        const hr = parseInt(hh);
+        timeStr = ` · ${hr > 12 ? hr - 12 : hr || 12}:${mm} ${hr >= 12 ? 'PM' : 'AM'}`;
+      }
+      popHtml += `<div style="margin-bottom:6px;">` +
+        `<div style="font-size:12px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#9ca3af'};overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${ev.name}${timeStr}</div>` +
+        (ev.url ? `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;">Tickets →</a>` : '') +
+        `</div>`;
+    }
+
+    setTimeout(() => {
+      L.popup({ maxWidth: 240 }).setLatLng([lat, lon]).setContent(popHtml).openOn(map);
+    }, 350);
+  });
+
   function showOnNowPanel() {
     onNowSelected = !onNowSelected;
     document.getElementById('onnow-btn').classList.toggle('active', onNowSelected);
     if (onNowSelected) {
       dimAllBoulevards();
-      updateOverlayMarkers(null); // shows markers + labels
+      updateOverlayMarkers(null); // desktop: shows markers + callout labels
+      if (isMobile()) _openOnNowSheet();
     } else {
       clearTheatreLabels();
       theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
+      if (isMobile()) { infoPanel.classList.remove('open', 'onnow'); setSheetState('closed'); }
       if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
     }
   }

@@ -53,7 +53,10 @@ const VENUES = [
   // — comedy ———————————————————————————————————————————————————
   { id: 'Z7r9jZaA9x',    name: 'The Groundlings' },
   { id: 'KovZ917AmI0',   name: 'Upright Citizens Brigade' },
-  { id: 'Z7r9jZa7M2',    name: 'The Comedy Store' },
+  // Comedy Store has 3 separately-ticketed rooms — merge under one name
+  { ids: ['KovZpZAAtavA', 'KovZ917AVCb', 'KovZ917AVCK'], name: 'The Comedy Store' },
+  { id: 'KovZ917ANZX',   name: 'Laugh Factory' },
+  { ids: ['KovZpZAkl1FA', 'KovZpZAkl16A'], name: 'Hollywood Improv' },
 ];
 
 function sleep(ms) {
@@ -61,32 +64,38 @@ function sleep(ms) {
 }
 
 async function fetchVenueEvents(venue) {
-  const url = `https://app.ticketmaster.com/discovery/v2/events.json` +
-    `?venueId=${venue.id}&size=8&sort=date%2Casc&apikey=${key}`;
+  const ids = venue.ids || [venue.id];
+  const allEvents = [];
 
-  console.log(`Fetching events for ${venue.name}…`);
-  const res = await fetch(url);
-  if (!res.ok) {
-    console.warn(`  Ticketmaster API error for ${venue.name}: ${res.status}`);
-    return [];
+  for (let i = 0; i < ids.length; i++) {
+    const url = `https://app.ticketmaster.com/discovery/v2/events.json` +
+      `?venueId=${ids[i]}&size=8&sort=date%2Casc&apikey=${key}`;
+
+    console.log(`Fetching events for ${venue.name}${ids.length > 1 ? ` (room ${i + 1}/${ids.length})` : ''}…`);
+    const res = await fetch(url);
+    if (!res.ok) {
+      console.warn(`  Ticketmaster API error for ${venue.name} [${ids[i]}]: ${res.status}`);
+      continue;
+    }
+    const data = await res.json();
+    const raw = data._embedded?.events || [];
+
+    for (const ev of raw) {
+      const img = (ev.images || [])
+        .filter(i => !i.fallback)
+        .sort((a, b) => a.width - b.width)[0]?.url || null;
+      allEvents.push({ name: ev.name, date: ev.dates.start.localDate,
+                       time: ev.dates.start.localTime || null, url: ev.url, image: img });
+    }
+
+    if (i < ids.length - 1) await sleep(300);
   }
-  const data = await res.json();
-  const raw = data._embedded?.events || [];
 
-  const events = raw.map(ev => {
-    // Pick smallest non-fallback image for fast loading
-    const img = (ev.images || [])
-      .filter(i => !i.fallback)
-      .sort((a, b) => a.width - b.width)[0]?.url || null;
-
-    return {
-      name: ev.name,
-      date: ev.dates.start.localDate,
-      time: ev.dates.start.localTime || null,
-      url:  ev.url,
-      image: img
-    };
-  });
+  // Deduplicate by name+date (multiple rooms may share the same show)
+  const seen = new Set();
+  const events = allEvents
+    .filter(e => { const k = `${e.name}|${e.date}`; if (seen.has(k)) return false; seen.add(k); return true; })
+    .sort((a, b) => (a.date + (a.time || '')).localeCompare(b.date + (b.time || '')));
 
   console.log(`  ${events.length} events found for ${venue.name}`);
   return events;

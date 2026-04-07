@@ -560,7 +560,7 @@
       "address": null
     },
     {
-      "name": "Parson’s Nose Theater",
+      "name": "Parson\u2019s Nose Theater",
       "lat": 34.1478169,
       "lon": -118.1463084,
       "blvd": "Colorado Boulevard",
@@ -1049,7 +1049,7 @@
       "name": "Auditorium Building",
       "lat": 34.1665872,
       "lon": -118.2295444,
-      "blvd": "Cañada Boulevard",
+      "blvd": "Ca\u00f1ada Boulevard",
       "wikipedia": null,
       "website": null,
       "address": null
@@ -1152,6 +1152,24 @@
       "wikipedia": null,
       "website": "https://www.longbeachcc.com/facilities/theaters/beverly-oneill-theater/",
       "address": "300 East Ocean Boulevard"
+    },
+    {
+      "name": "Laugh Factory",
+      "lat": 34.09819,
+      "lon": -118.36445,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": "https://laughfactory.com",
+      "address": "8001 Sunset Blvd"
+    },
+    {
+      "name": "Hollywood Improv",
+      "lat": 34.08342,
+      "lon": -118.36728,
+      "blvd": "Melrose Avenue",
+      "wikipedia": null,
+      "website": "https://improv.com/hollywood",
+      "address": "8162 Melrose Ave"
     }
   ]
 }
