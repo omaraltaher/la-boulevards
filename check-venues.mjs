@@ -129,7 +129,8 @@ const EB_VENUES = [
   { name: 'Barnsdall Gallery Theatre',              type: 'venue', id: '160868339' },
   { name: 'Levitt Pavilion',                        type: 'org',   id: '29531385721' },
   { name: 'Bob Baker Marionette Theater',           type: 'org',   id: '31080469933' },
-  // Beverly O'Neill, Bootleg, Ivar, Groundlings — not on Eventbrite
+  { name: 'Laugh Factory',                          type: 'org',   id: '18525142576' },
+  // Beverly O'Neill, Bootleg, Ivar, Groundlings, Hollywood Improv — not on Eventbrite
 ];
 
 if (ebToken) {
@@ -151,9 +152,14 @@ if (ebToken) {
         url:   ev.url,
         image: ev.logo?.url || null,
       }));
-      venues[venue.name] = events;
-      totalEvents += events.length;
-      console.log(`  ${events.length ? `✓ ${events.length} events` : '— no events'}: ${venue.name}`);
+      // Only use EB events when TM returned nothing (EB is a fallback, not a replacement)
+      if (events.length && !(venues[venue.name] || []).length) {
+        venues[venue.name] = events;
+        totalEvents += events.length;
+        console.log(`  ✓ ${events.length} events (Eventbrite): ${venue.name}`);
+      } else {
+        console.log(`  ${events.length ? `— skipped (TM already has data)` : '— no events'}: ${venue.name}`);
+      }
     } catch (e) {
       console.warn(`  EB fetch failed for ${venue.name}:`, e.message);
     }
