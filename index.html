@@ -2273,37 +2273,53 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
     infoName.textContent = 'On Now';
 
-    const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
-    const rows = [];
+    const todayLA = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+    const today = todayLA.toLocaleDateString('en-CA');
+    const tomorrowLA = new Date(todayLA); tomorrowLA.setDate(tomorrowLA.getDate() + 1);
+    const tomorrow = tomorrowLA.toLocaleDateString('en-CA');
+
+    const allRows = [];
     for (const [venue, events] of Object.entries(venueEvents)) {
       for (const ev of events) {
-        if (ev.date === today) rows.push({ venue, ...ev });
+        if (ev.date === today || ev.date === tomorrow) allRows.push({ venue, ...ev });
       }
     }
-    rows.sort((a, b) => (a.time || '').localeCompare(b.time || ''));
+    allRows.sort((a, b) => a.date.localeCompare(b.date) || (a.time || '').localeCompare(b.time || ''));
+
+    const eventRow = ev => {
+      const timeStr = ev.time ? (() => {
+        const [h, m] = ev.time.split(':');
+        const hr = parseInt(h);
+        return ` · ${hr > 12 ? hr - 12 : (hr || 12)}:${m} ${hr >= 12 ? 'PM' : 'AM'}`;
+      })() : '';
+      return `<div style="display:flex;gap:10px;align-items:flex-start;margin-bottom:10px;">` +
+        (ev.image
+          ? `<img src="${ev.image}" style="width:44px;height:44px;object-fit:cover;border-radius:4px;flex-shrink:0;" loading="lazy"/>`
+          : `<div style="width:44px;height:44px;border-radius:4px;background:rgba(168,85,247,0.1);flex-shrink:0;"></div>`) +
+        `<div style="min-width:0;">` +
+        `<div style="font-size:10px;color:#6b7280;margin-bottom:1px;">${ev.venue}${timeStr}</div>` +
+        `<div style="font-size:13px;color:#e0e4ef;line-height:1.3;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${ev.name}</div>` +
+        `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;">Tickets →</a>` +
+        `</div></div>`;
+    };
+
+    const sectionHeader = (label, purple) =>
+      `<div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;` +
+      `color:${purple ? 'rgba(192,132,252,0.9)' : '#4b5563'};` +
+      `margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.06);">${label}</div>`;
+
+    const todayRows = allRows.filter(e => e.date === today);
+    const tomorrowRows = allRows.filter(e => e.date === tomorrow);
+    const tomorrowLabel = tomorrowLA.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
 
     let html = '';
-    if (rows.length) {
-      html += `<div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:rgba(192,132,252,0.9);margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.06);">Tonight</div>`;
-      for (const ev of rows) {
-        const timeStr = ev.time ? (() => {
-          const [h, m] = ev.time.split(':');
-          const hr = parseInt(h);
-          return ` · ${hr > 12 ? hr - 12 : (hr || 12)}:${m} ${hr >= 12 ? 'PM' : 'AM'}`;
-        })() : '';
-        html += `<div style="display:flex;gap:10px;align-items:flex-start;margin-bottom:10px;">` +
-          (ev.image
-            ? `<img src="${ev.image}" style="width:44px;height:44px;object-fit:cover;border-radius:4px;flex-shrink:0;" loading="lazy"/>`
-            : `<div style="width:44px;height:44px;border-radius:4px;background:rgba(168,85,247,0.1);flex-shrink:0;"></div>`) +
-          `<div style="min-width:0;">` +
-          `<div style="font-size:10px;color:#6b7280;margin-bottom:1px;">${ev.venue}${timeStr}</div>` +
-          `<div style="font-size:13px;color:#e0e4ef;line-height:1.3;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${ev.name}</div>` +
-          `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;">Tickets →</a>` +
-          `</div></div>`;
-      }
-      html += `</div>`;
+    if (todayRows.length) {
+      html += `<div style="margin-bottom:16px;">${sectionHeader('Tonight', true)}${todayRows.map(eventRow).join('')}</div>`;
     }
-    if (!html) html = `<div style="color:#6b7280;font-size:13px;">No shows tonight.</div>`;
+    if (tomorrowRows.length) {
+      html += `<div style="margin-bottom:16px;">${sectionHeader(tomorrowLabel, false)}${tomorrowRows.map(eventRow).join('')}</div>`;
+    }
+    if (!html) html = `<div style="color:#6b7280;font-size:13px;">No shows tonight or tomorrow.</div>`;
 
     infoExtract.innerHTML = html;
     infoExtract.style.display = 'block';
@@ -3788,8 +3804,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const [venueRes, wilternRes] = await Promise.all([fetch('venue-events.json'), fetch('wiltern-events.json')]);
       if (venueRes.ok) { const { venues } = await venueRes.json(); venueEvents = venues || {}; }
       if (wilternRes.ok) { const { events } = await wilternRes.json(); if (events?.length) venueEvents['The Wiltern'] = events; }
-      const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
-      const total = Object.values(venueEvents).reduce((s, evs) => s + evs.filter(e => e.date === todayStr).length, 0);
+      const _tLA = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+      const _todayStr = _tLA.toLocaleDateString('en-CA');
+      const _tmLA = new Date(_tLA); _tmLA.setDate(_tmLA.getDate() + 1);
+      const _tmStr = _tmLA.toLocaleDateString('en-CA');
+      const total = Object.values(venueEvents).reduce((s, evs) => s + evs.filter(e => e.date === _todayStr || e.date === _tmStr).length, 0);
       const el = document.getElementById('onnow-count');
       if (el && total) el.textContent = total;
     } catch(e) { console.warn('Venue events load failed:', e); }
