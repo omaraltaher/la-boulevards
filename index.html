@@ -859,7 +859,7 @@ path.leaflet-interactive:focus { outline:none; }
       <line x1="10" y1="3" x2="10" y2="11" stroke="rgba(192,132,252,0.5)" stroke-width="0.8"/>
       <circle cx="7" cy="7" r="1.2" fill="rgba(192,132,252,0.8)"/>
     </svg>
-    On Now
+    On Stage
     <span id="onnow-count"></span>
   </div>
 
@@ -2299,7 +2299,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     [secArt, secTheatres, secWells, secParrots, secCoyotes, secButterflies, secTrees, secNativePlants, secCameras, secLions].forEach(el =>
       el.style.display = 'none');
 
-    infoName.textContent = 'On Now';
+    infoName.textContent = 'On Stage';
 
     const todayLA = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
     const today = todayLA.toLocaleDateString('en-CA');
