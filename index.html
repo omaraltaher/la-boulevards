@@ -1296,7 +1296,19 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (name && blvdName === name) marker.addTo(map);
       else marker.remove();
     });
-    theatreMarkerList.forEach(({ marker }) => marker.addTo(map));
+    theatreMarkerList.forEach(({ marker, isWiltern, name }) => {
+      if (isWiltern) { marker.addTo(map); return; }
+      if (onNowSelected) {
+        const _tLA = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+        const _tod = _tLA.toLocaleDateString('en-CA');
+        const _tmLA = new Date(_tLA); _tmLA.setDate(_tmLA.getDate() + 1);
+        const _tom = _tmLA.toLocaleDateString('en-CA');
+        const hasShows = (venueEvents[name] || []).some(e => e.date === _tod || e.date === _tom);
+        hasShows ? marker.addTo(map) : marker.remove();
+      } else {
+        marker.remove();
+      }
+    });
     camMarkerList.forEach(({ marker, blvdName }) => {
       if (name && blvdName === name) marker.addTo(map);
       else marker.remove();
@@ -2756,7 +2768,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         });
 
         const marker = L.marker([lat, lon], { icon, zIndexOffset: isWiltern ? 300 : 120 });
-        marker.addTo(map);
+        if (isWiltern) marker.addTo(map);
         theatreMarkerList.push({ marker, blvdName: t.blvd, isWiltern, name, lat, lon, wikipedia: t.wikipedia, website: t.website, address: t.address });
 
         marker.on('click', (e) => {
