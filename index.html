@@ -517,8 +517,22 @@ path.leaflet-interactive:focus { outline:none; }
   box-shadow:0 0 24px rgba(254,240,138,0.08);
 }
 #info-panel.onnow { border-color:rgba(168,85,247,0.45); box-shadow:0 0 24px rgba(168,85,247,0.1); }
-#onnow-toggle { cursor:pointer; user-select:none; }
-#onnow-toggle:hover { opacity:0.8; }
+#onnow-btn {
+  position:absolute;
+  bottom:60px; left:50%; transform:translateX(-50%);
+  display:flex; align-items:center; gap:7px;
+  background:rgba(15,17,35,0.93);
+  border:1px solid rgba(168,85,247,0.4);
+  border-radius:20px;
+  padding:7px 14px;
+  color:rgba(192,132,252,0.9);
+  font-size:13px;
+  cursor:pointer; user-select:none;
+  pointer-events:auto;
+  white-space:nowrap;
+}
+#onnow-btn:hover { border-color:rgba(168,85,247,0.7); color:#c084fc; }
+#onnow-count { font-size:11px; color:rgba(192,132,252,0.55); }
 #legend .sunset-legend-line {
   background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7);
 }
@@ -824,6 +838,16 @@ path.leaflet-interactive:focus { outline:none; }
   </div>
   <div id="search-error"></div>
 
+  <div id="onnow-btn" title="See tonight's shows">
+    <svg width="14" height="14" viewBox="0 0 14 14">
+      <rect x="1" y="3" width="12" height="8" rx="1.5" fill="none" stroke="rgba(192,132,252,0.8)" stroke-width="1.2"/>
+      <line x1="4" y1="3" x2="4" y2="11" stroke="rgba(192,132,252,0.5)" stroke-width="0.8"/>
+      <line x1="10" y1="3" x2="10" y2="11" stroke="rgba(192,132,252,0.5)" stroke-width="0.8"/>
+      <circle cx="7" cy="7" r="1.2" fill="rgba(192,132,252,0.8)"/>
+    </svg>
+    On Now
+    <span id="onnow-count"></span>
+  </div>
 
   <div id="legend" class="panel">
     <div id="legend-collapse-btn" title="Toggle labels">‹</div>
@@ -838,16 +862,7 @@ path.leaflet-interactive:focus { outline:none; }
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 20 14" style="flex-shrink:0;opacity:0.9"><rect x="1" y="3" width="11" height="8" rx="1.5" fill="none" stroke="#67e8f9" stroke-width="1.2" stroke-linecap="round"/><circle cx="6.5" cy="7" r="2.3" fill="none" stroke="#67e8f9" stroke-width="1.0"/><circle cx="6.5" cy="7" r="0.8" fill="#67e8f9"/><path d="M12,5 L18,3.5 L18,10.5 L12,9" fill="none" stroke="#67e8f9" stroke-width="1.0" stroke-linejoin="round"/></svg><span>Traffic camera</span></div>
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 14 20" style="flex-shrink:0;opacity:0.9"><circle cx="7" cy="3" r="2" fill="none" stroke="#e879f9" stroke-width="1.2"/><path d="M5.5,5 Q4.5,7.5 5,10.5 L9,10.5 Q9.5,7.5 8.5,5 Z" fill="none" stroke="#e879f9" stroke-width="1.1"/><line x1="5.5" y1="5.5" x2="2" y2="2" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="8.5" y1="6" x2="12" y2="7.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="6" y1="10.5" x2="5" y2="13.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><line x1="8" y1="10.5" x2="9" y2="13.5" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/><rect x="3" y="13.5" width="8" height="4.5" rx="0.5" fill="none" stroke="#e879f9" stroke-width="1.1"/><line x1="2" y1="19.5" x2="12" y2="19.5" stroke="#e879f9" stroke-width="1.2" stroke-linecap="round"/></svg><span>Public art</span></div>
         <div class="marker-row"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 16 20" style="flex-shrink:0;opacity:0.9"><path d="M1,1 Q8,4.5 15,1" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M8,1 Q8.5,4 8,7" fill="none" stroke="#c084fc" stroke-width="1.0" stroke-linecap="round"/><path d="M1,1 L1,17 Q4.5,13 4.5,9 Q4.5,5 1,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><path d="M15,1 L15,17 Q11.5,13 11.5,9 Q11.5,5 15,2" fill="none" stroke="#c084fc" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/><line x1="1" y1="10.5" x2="5" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="15" y1="10.5" x2="11" y2="10.5" stroke="#c084fc" stroke-width="0.9" stroke-linecap="round"/><line x1="1" y1="19" x2="15" y2="19" stroke="#c084fc" stroke-width="1.2" stroke-linecap="round"/></svg><span>Theatre</span></div>
-        <div class="marker-row" id="onnow-toggle" title="See all upcoming shows">
-          <svg width="14" height="14" viewBox="0 0 14 14" style="flex-shrink:0;opacity:0.9">
-            <rect x="1" y="3" width="12" height="8" rx="1.5" fill="none" stroke="rgba(192,132,252,0.8)" stroke-width="1.2"/>
-            <line x1="4" y1="3" x2="4" y2="11" stroke="rgba(192,132,252,0.5)" stroke-width="0.8"/>
-            <line x1="10" y1="3" x2="10" y2="11" stroke="rgba(192,132,252,0.5)" stroke-width="0.8"/>
-            <circle cx="7" cy="7" r="1.2" fill="rgba(192,132,252,0.8)"/>
-          </svg>
-          <span>On Now</span>
-          <span id="onnow-count" style="margin-left:auto;font-size:10px;color:rgba(192,132,252,0.6);"></span>
-        </div>
+
       </div>
     </div>
     <div class="legend-group">
@@ -2327,7 +2342,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (isMobile()) openSheetHalf();
   }
 
-  document.getElementById('onnow-toggle').addEventListener('click', showOnNowPanel);
+  document.getElementById('onnow-btn').addEventListener('click', showOnNowPanel);
 
   document.getElementById('info-close').addEventListener('click', () => {
     p22RouteSelected = false;
