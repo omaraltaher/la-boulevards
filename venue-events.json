@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-06T16:40:23.278Z",
+  "generated": "2026-04-07T16:51:37.988Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -83,6 +83,13 @@
         "image": "https://s1.ticketm.net/dam/a/1ff/72e7f434-ba2b-481f-923d-21e63fa7a1ff_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Maisie Peters",
+        "date": "2026-04-22",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OzF8",
+        "image": "https://s1.ticketm.net/dam/a/275/4ddd7c1b-73b9-4f5e-aab3-de5c894b9275_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Raf-Saperra",
         "date": "2026-04-24",
         "time": "21:00:00",
@@ -108,13 +115,6 @@
         "date": "2026-05-02",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_v",
-        "image": null
-      },
-      {
-        "name": "Boulet Brothes' Dragula",
-        "date": "2026-05-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O48P",
         "image": null
       }
     ],
@@ -155,6 +155,13 @@
         "image": "https://s1.ticketm.net/dam/a/c17/0e0342ee-08af-463c-a03e-a945c73d6c17_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Andrew Rayel: Find Your Harmony 5",
+        "date": "2026-05-30",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/andrew-rayel-find-your-harmony-avalon-hollywood-tickets/14836683",
+        "image": "https://s1.ticketm.net/dam/a/91e/67310450-8a6f-4117-89b4-cec5b2afc91e_302921_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Eli & Fur",
         "date": "2026-06-06",
         "time": "22:00:00",
@@ -167,13 +174,6 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/vtss-avalon-hollywood-tickets/14188444",
         "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Aly & Fila",
-        "date": "2026-06-20",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/aly-fila-avalon-hollywood-tickets/14826973",
-        "image": "https://i.ticketweb.com/i/00/13/42/70/83_Edp.jpg?v=7"
       }
     ],
     "The Novo": [
@@ -530,13 +530,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "PaleyFest LA: Charlie's Angels: 50th Anniversary Celebration",
-        "date": "2026-04-06",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/paleyfest-la-charlies-angels-50th-anniversary-hollywood-california-04-06-2026/event/09006431CE52F1E6",
-        "image": "https://s1.ticketm.net/dam/e/151/54eacefa-b74a-4fbd-ac70-11de28434151_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "PaleyFest LA: Shrinking",
         "date": "2026-04-07",
         "time": "19:30:00",
@@ -583,6 +576,13 @@
         "date": "2026-04-25",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2026-hollywood-california-04-25-2026/event/0900633BE65D776A",
+        "image": "https://s1.ticketm.net/dam/a/f26/a3b73864-daf0-4569-bbc6-dac32787af26_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Dancing With The Stars: Live! - 2026 Tour",
+        "date": "2026-04-26",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2026-hollywood-california-04-26-2026/event/09006347BEDA4898",
         "image": "https://s1.ticketm.net/dam/a/f26/a3b73864-daf0-4569-bbc6-dac32787af26_RECOMENDATION_16_9.jpg"
       }
     ],
