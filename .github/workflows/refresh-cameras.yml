@@ -2,7 +2,8 @@ name: Refresh camera status
 
 on:
   schedule:
-    - cron: '0 14 * * *'   # 6am PT (UTC-8) every day
+    - cron: '0 13 * * *'   # 6am PDT (UTC-7) — covers daylight saving
+    - cron: '0 14 * * *'   # 6am PST (UTC-8) — no-op duplicate commit on non-DST days
   workflow_dispatch:        # allow manual trigger from GitHub Actions tab
 
 concurrency:
@@ -12,6 +13,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
       contents: write
     steps:
@@ -22,10 +24,16 @@ jobs:
           node-version: '20'
 
       - name: Check camera availability
+        id: camera_check
+        continue-on-error: true   # keep yesterday's data if Caltrans is down
         run: |
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
             node check-cameras.mjs && break
-            [ $attempt -lt 3 ] && echo "Attempt $attempt failed, retrying in 60s..." && sleep 60
+            if [ $attempt -lt 5 ]; then
+              delay=$(( 30 * (2 ** (attempt - 1)) ))  # 30 60 120 240s
+              echo "Attempt $attempt failed, retrying in ${delay}s..."
+              sleep $delay
+            fi
           done
 
       - name: Commit updated cameras-live.json
@@ -33,6 +41,10 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add cameras-live.json
-          git diff --cached --quiet || git commit -m "chore: refresh camera status [skip ci]"
+          git diff --cached --quiet && echo "No changes." && exit 0
+          git commit -m "chore: refresh camera status [skip ci]"
           git pull --rebase
-          git push
+          for push_attempt in 1 2 3; do
+            git push && break
+            [ $push_attempt -lt 3 ] && echo "Push failed, retrying..." && sleep 10
+          done
