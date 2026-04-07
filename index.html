@@ -1296,15 +1296,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (name && blvdName === name) marker.addTo(map);
       else marker.remove();
     });
-    theatreMarkerList.forEach(({ marker, blvdName, isWiltern }) => {
-      if (isWiltern) {
-        const wilternVisible = !name || name === 'Wilshire Boulevard' || name === 'Western Avenue';
-        wilternVisible ? marker.addTo(map) : marker.remove();
-        return;
-      }
-      if (name && blvdName === name) marker.addTo(map);
-      else marker.remove();
-    });
+    theatreMarkerList.forEach(({ marker }) => marker.addTo(map));
     camMarkerList.forEach(({ marker, blvdName }) => {
       if (name && blvdName === name) marker.addTo(map);
       else marker.remove();
@@ -2764,10 +2756,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         });
 
         const marker = L.marker([lat, lon], { icon, zIndexOffset: isWiltern ? 300 : 120 });
-        if (isWiltern) marker.addTo(map);
+        marker.addTo(map);
         theatreMarkerList.push({ marker, blvdName: t.blvd, isWiltern, name, lat, lon, wikipedia: t.wikipedia, website: t.website, address: t.address });
 
-        marker.on('click', () => {
+        marker.on('click', (e) => {
+          L.DomEvent.stopPropagation(e.originalEvent);
           if (nearestBlvd) {
             selectedBlvd = nearestBlvd;
             applyHighlight(nearestBlvd, true);
