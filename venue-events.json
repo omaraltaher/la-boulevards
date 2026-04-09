@@ -1,14 +1,7 @@
 {
-  "generated": "2026-04-08T16:56:21.565Z",
+  "generated": "2026-04-09T17:01:57.803Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Ruel - Kicking My Feet Tour ",
-        "date": "2026-04-08",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/ruel-kicking-my-feet-tour-hollywood-california-04-08-2026/event/09006364E0EFD6B4",
-        "image": "https://s1.ticketm.net/dam/a/0dd/c67002cd-0986-4810-baeb-d4525695d0dd_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Sticky Fingers - Live in North America",
         "date": "2026-04-09",
@@ -57,6 +50,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/bilmuri-kinda-hard-tour-hollywood-california-04-20-2026/event/09006385A1A5983D",
         "image": "https://s1.ticketm.net/dam/a/4f6/59d763b4-53ac-4ffd-be3f-a33345d7f4f6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Bring Me The Horizon",
+        "date": "2026-04-23",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/bring-me-the-horizon-hollywood-california-04-23-2026/event/09006469C89DB49B",
+        "image": "https://s1.ticketm.net/dam/a/eb9/f4390ebb-27a6-491a-9bf9-fef37f76deb9_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -407,13 +407,6 @@
     "Orpheum Theatre": [
       {
         "name": "Taiwan Campus Folk Music 2026 USA Tour",
-        "date": "2026-04-08",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/taiwan-campus-folk-music-2026-usa-los-angeles-california-04-08-2026/event/0900642B1888C65F",
-        "image": "https://s1.ticketm.net/dam/e/c1c/3b0d1d79-6c85-4958-aa8f-495f81cf8c1c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Taiwan Campus Folk Music 2026 USA Tour",
         "date": "2026-04-09",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/taiwan-campus-folk-music-2026-usa-los-angeles-california-04-09-2026/event/0900642B188AC662",
@@ -523,13 +516,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "PaleyFest LA: Nobody Wants This",
-        "date": "2026-04-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/paleyfest-la-nobody-wants-this-hollywood-california-04-08-2026/event/09006431CE5CF1FC",
-        "image": "https://s1.ticketm.net/dam/e/717/d56e8da2-3fa6-4d20-b2d1-28a2f1d3b717_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "PaleyFest LA: Emily in Paris",
         "date": "2026-04-10",
         "time": "19:30:00",
@@ -577,23 +563,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/hoyofair-fan-concert-hollywood-california-05-01-2026/event/09006375B5A2BFEC",
         "image": "https://s1.ticketm.net/dam/a/e07/b3c43d5f-e4e3-448f-aa05-ce070b391e07_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Jim Gaffigan: Everything is Wonderful!",
+        "date": "2026-05-05",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-jim-hollywood-california-05-05-2026/event/0900636E05AEDBAD",
+        "image": "https://s1.ticketm.net/dam/a/838/aabe1f75-fe3d-4040-b17b-7f53ded6d838_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Dragon Mama",
-        "date": "2026-04-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox79",
-        "image": null
-      },
-      {
-        "name": "Master Harold...And the Boys",
-        "date": "2026-04-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPb",
-        "image": null
-      },
       {
         "name": "Dragon Mama",
         "date": "2026-04-09",
@@ -901,7 +880,7 @@
         "date": "2026-05-06",
         "time": "19:00:00",
         "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-lucas-zelnick---crowdwork-only-show",
-        "image": "https://s1.ticketm.net/dam/a/121/d159fec3-07af-41d8-94fd-1d1e884be121_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/e7e/959efa20-49d2-4e93-87dd-782ff057de7e_RECOMENDATION_16_9.jpg"
       }
     ],
     "Bob Baker Marionette Theater": [],
@@ -1195,6 +1174,13 @@
     ],
     "Laugh Factory": [
       {
+        "name": "Netflix Is A Joke Presents: Laughs on the Spectrum",
+        "date": "2026-05-04",
+        "time": "17:15:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-laugh-on-the-spectrum-an-autism-awareness-show-tickets-1984908836763?aff=oddtdtcreator",
+        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Netflix Is A Joke Presents: Aida Rodriguez Presents: The Remix",
         "date": "2026-05-04",
         "time": "19:00:00",
@@ -1209,6 +1195,20 @@
         "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Netflix Is A Joke Presents:  Best of Chicago: Hosted By Jeremy Piven",
+        "date": "2026-05-05",
+        "time": "18:30:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-best-of-chicago-hosted-by-jeremy-piven-tickets-1984907483716?aff=oddtdtcreator",
+        "image": "https://s1.ticketm.net/dam/a/3b6/fa94833f-55f4-47f8-b5b4-b9e262c0e3b6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Rubee Tuesdays",
+        "date": "2026-05-05",
+        "time": "20:00:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-rubee-tuesdays-tickets-1984907631157?aff=oddtdtcreator",
+        "image": "https://s1.ticketm.net/dam/a/08c/ef64f9ca-3d07-41f7-8f75-a8249e18308c_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Netflix Is A Joke Presents: Nate Jackson",
         "date": "2026-05-05",
         "time": "22:00:00",
@@ -1221,44 +1221,9 @@
         "time": "22:00:00",
         "url": "https://www.eventbrite.com/e/1980892802697?aff=oddtdtcreator",
         "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Lavell Crawford",
-        "date": "2026-05-07",
-        "time": "19:00:00",
-        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-lavell-crawford-at-laugh-factory-tickets-1984928287942?aff=oddtdtcreator",
-        "image": "https://s1.ticketm.net/dam/a/466/3f59eaa9-7387-4c1f-8553-e3099702f466_352711_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Nate Jackson",
-        "date": "2026-05-07",
-        "time": "22:00:00",
-        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-nate-jackson-at-laugh-factory-tickets-1980892859868?aff=oddtdtcreator",
-        "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Lab Work!",
-        "date": "2026-04-08",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14808763",
-        "image": "https://i.ticketweb.com/i/00/13/41/00/03_Edp.jpg?v=2"
-      },
-      {
-        "name": "Tonight at the Improv ft. Drew Lynch, Damon Wayans Jr., Laura Peek, Alex Edelman, Jay Washington and more TBA!",
-        "date": "2026-04-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14808743",
-        "image": "https://s1.ticketm.net/dam/a/6af/f2ef5814-a121-4b38-9eb3-5261dd9606af_1545521_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Clown Medicine ft. Sarah Lawrence, Wrenn Woods, Eleanor Kerrigan, Michael Lenoci and more TBA",
-        "date": "2026-04-08",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/clown-medicine-ft-sarah-lawrence-hollywood-improv-the-lab-tickets/14179494",
-        "image": "https://s1.ticketm.net/dam/a/553/3b7689d1-558e-487e-9deb-c9e4b568b553_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Amir K",
         "date": "2026-04-09",
@@ -1288,7 +1253,7 @@
         "image": "https://i.ticketweb.com/i/00/13/37/77/43_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. The Sklar Brothers, Alex Edelman, Rachel Scanlon, Craig Conant",
+        "name": "Tonight at the Improv ft. The Sklar Brothers, Alex Edelman, Rachel Scanlon, Craig Conant, Jesus Trejo, Nikki Bon and more",
         "date": "2026-04-10",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759533",
@@ -1302,21 +1267,21 @@
         "image": "https://i.ticketweb.com/i/00/12/89/75/14_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft. Greg Fitzsimmons, Orny Adams, Kelly Ryan and More TBA",
+        "name": "Tonight at the Improv ft. Greg Fitzsimmons, Orny Adams, Kelly Ryan, Al Madrigal, Owen Smith, Rick Ingraham and More TBA",
         "date": "2026-04-11",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14808643",
         "image": "https://s1.ticketm.net/dam/a/c3f/720f5f8a-a718-4c06-8cb5-f22765fcbc3f_56721_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab! ft. Bruce Gray, Saul Trujillo, Josef Anolin, Janet McNamara, Jeanne Whitney, Cid Williams, and More TBA!",
+        "name": "Tonight at the Lab ft. Bruce Gray, Saul Trujillo, Josef Anolin, Janet McNamara, Jeanne Whitney, Cid Williams, and More TBA",
         "date": "2026-04-11",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14794743",
-        "image": "https://i.ticketweb.com/i/00/13/39/72/93_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/39/72/93_Edp.jpg?v=7"
       },
       {
-        "name": "Tonight at the Improv ft. Alex Edelman, Amir K, Debra Digiovanni, Kirk Fox, Bruce Gray, and More TBA",
+        "name": "Tonight at the Improv ft. Alex Edelman, Amir K, Debra Digiovanni, Kirk Fox, Pablo Francisco, Chris Estrada, Bruce Gray, and More TBA",
         "date": "2026-04-11",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14808653",
@@ -1349,6 +1314,27 @@
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14182324",
         "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Basshole Stand-Up Comedy ft. Doug Bass, Pete Giovine, Ahmed Bharoocha, Rich Chassler, Rob DaRocha, Liz Zagone, Sarah Halstead, Josh Edelman, Reid Brackenbury, Hermie Castillo, Devyn Perry, Teresa Lo",
+        "date": "2026-04-12",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/basshole-stand-up-comedy-ft-hollywood-improv-the-lab-tickets/14107324",
+        "image": "https://i.ticketweb.com/i/00/12/83/07/34_Edp.jpg?v=7"
+      },
+      {
+        "name": "Tonight at the Improv ft. Cristela Alonzo, Larry Wilmore, Gary Cannon and more TBA",
+        "date": "2026-04-13",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14771893",
+        "image": "https://s1.ticketm.net/dam/a/032/9b9b4e28-ea74-43e5-bf77-12b1ae0f2032_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-04-13",
+        "time": "20:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14790443",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       }
     ]
   }
