@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-08T16:13:31.446Z",
+  "generated": "2026-04-09T16:16:38.693Z",
   "events": [
-    {
-      "name": "Maddox Batson: Live Worldwide Tour",
-      "date": "2026-04-08",
-      "time": "18:00:00",
-      "url": "https://www.ticketmaster.com/maddox-batson-live-worldwide-tour-los-angeles-california-04-08-2026/event/090063640608FCDA",
-      "image": "https://s1.ticketm.net/dam/a/54f/b81a0792-67bd-491d-8804-674ffc61c54f_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Humbe",
       "date": "2026-04-09",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/she-wants-revenge-los-angeles-california-04-23-2026/event/09006443ECA9A1D8",
       "image": "https://s1.ticketm.net/dam/a/96e/e35f0e89-9ce1-4730-b36e-cc2b60d3996e_1801311_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Alice Phoebe Lou: Oblivion Tour",
+      "date": "2026-04-24",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/alice-phoebe-lou-oblivion-tour-los-angeles-california-04-24-2026/event/090063541EF07FE3",
+      "image": "https://s1.ticketm.net/dam/a/ab4/410d411b-fa1b-4b67-838e-1bb3098f6ab4_RECOMENDATION_16_9.jpg"
     }
   ]
 }
