@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-09T16:16:38.693Z",
+  "generated": "2026-04-10T15:52:02.413Z",
   "events": [
-    {
-      "name": "Humbe",
-      "date": "2026-04-09",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/humbe-los-angeles-california-04-09-2026/event/09006384F67BF05B",
-      "image": "https://s1.ticketm.net/dam/a/39e/84f7f505-ad5e-43a9-862f-c5cc1f28839e_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Akaash Singh: Generational Triumph Tour",
       "date": "2026-04-10",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/alice-phoebe-lou-oblivion-tour-los-angeles-california-04-24-2026/event/090063541EF07FE3",
       "image": "https://s1.ticketm.net/dam/a/ab4/410d411b-fa1b-4b67-838e-1bb3098f6ab4_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "KCRW Presents Cory Wong - Lost in the Wonder",
+      "date": "2026-04-25",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/kcrw-presents-cory-wong-lost-in-los-angeles-california-04-25-2026/event/0900636EA1B0C79C",
+      "image": "https://s1.ticketm.net/dam/a/c1d/b8437df8-8dc6-4f08-bd91-9e617e91ac1d_RECOMENDATION_16_9.jpg"
     }
   ]
 }
