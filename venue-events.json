@@ -1,14 +1,7 @@
 {
-  "generated": "2026-04-09T17:01:57.803Z",
+  "generated": "2026-04-10T16:44:21.642Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Sticky Fingers - Live in North America",
-        "date": "2026-04-09",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/sticky-fingers-live-in-north-america-hollywood-california-04-09-2026/event/09006351E31778D4",
-        "image": "https://s1.ticketm.net/dam/a/5d4/28f2a38c-9020-4735-88a7-24af82c335d4_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "2 DAY PASS - SVDDEN DEATH",
         "date": "2026-04-10",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/bring-me-the-horizon-hollywood-california-04-23-2026/event/09006469C89DB49B",
         "image": "https://s1.ticketm.net/dam/a/eb9/f4390ebb-27a6-491a-9bf9-fef37f76deb9_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Insomniac Presents - Electrik Seoul: K-POP X EDM",
+        "date": "2026-04-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/insomniac-presents-electrik-seoul-kpop-x-hollywood-california-04-24-2026/event/09006462ABA3972F",
+        "image": "https://s1.ticketm.net/dam/a/138/f695ee79-aca7-4f24-b0f2-8a121b620138_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "French Police",
-        "date": "2026-04-09",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3qd",
-        "image": "https://s1.ticketm.net/dam/a/7a5/34a7e05e-14e4-4bad-b35f-d802aefc17a5_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Lykke Li",
         "date": "2026-04-14",
@@ -115,6 +108,13 @@
         "date": "2026-05-02",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_v",
+        "image": null
+      },
+      {
+        "name": "Boulet Brothes' Dragula",
+        "date": "2026-05-03",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O48P",
         "image": null
       }
     ],
@@ -406,13 +406,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Taiwan Campus Folk Music 2026 USA Tour",
-        "date": "2026-04-09",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/taiwan-campus-folk-music-2026-usa-los-angeles-california-04-09-2026/event/0900642B188AC662",
-        "image": "https://s1.ticketm.net/dam/e/758/73e97320-79d7-4d0e-b92f-d8c993c1e758_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "The Moth Mainstage",
         "date": "2026-04-15",
         "time": "19:30:00",
@@ -453,6 +446,13 @@
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/when-a-womans-fed-up-los-angeles-california-05-02-2026/event/090064658E907F05",
         "image": "https://s1.ticketm.net/dam/a/f8d/7883c2ea-a5c1-4463-8271-ab83bc74cf8d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Ralph Barbosa",
+        "date": "2026-05-04",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-ralph-los-angeles-california-05-04-2026/event/0900638F8E8A6AC5",
+        "image": "https://s1.ticketm.net/dam/a/cbe/d45a6e3e-b85a-4a7e-bbc1-adf74ae41cbe_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -575,20 +575,6 @@
     "Geffen Playhouse": [
       {
         "name": "Dragon Mama",
-        "date": "2026-04-09",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7b",
-        "image": null
-      },
-      {
-        "name": "Master Harold...And the Boys",
-        "date": "2026-04-09",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpP_",
-        "image": null
-      },
-      {
-        "name": "Dragon Mama",
         "date": "2026-04-10",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7_",
@@ -613,6 +599,20 @@
         "date": "2026-04-11",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPx",
+        "image": null
+      },
+      {
+        "name": "Dragon Mama",
+        "date": "2026-04-12",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox7x",
+        "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-04-12",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPN",
         "image": null
       }
     ],
@@ -886,13 +886,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "South Side Sessions: Season 2 - The Khristian Foreman Quartet",
-        "date": "2026-04-09",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/south-side-sessions-season-2-the-inglewood-california-04-09-2026/event/0B00647FF80670FE",
-        "image": "https://s1.ticketm.net/dam/e/527/8c29a7e1-4866-4bd2-a80f-b2a56fbcd527_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "LOVE ON RETREAT",
         "date": "2026-04-11",
         "time": "19:00:00",
@@ -940,6 +933,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/cory-henry-presents-the-church-experience-inglewood-california-04-26-2026/event/0B00647FF51C700F",
         "image": "https://s1.ticketm.net/dam/a/a1f/21111ac8-9609-4d6e-bd4f-775267c9fa1f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "South Side Sessions: Season 2 - with Joshua Christian Childress",
+        "date": "2026-04-30",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/south-side-sessions-season-2-with-inglewood-california-04-30-2026/event/0B00647FFB0D720A",
+        "image": null
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -1225,25 +1225,11 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Amir K",
-        "date": "2026-04-09",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/amir-k-hollywood-improv-the-main-room-tickets/14156934",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-04-09",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14750843",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Orny Adams, Charles Fleischer, Dan Mintz, Mary Lynn Rajskub, Brittany Ross and Very Special Guests",
+        "name": "Tonight at the Improv ft. Donnell Rawlings, Orny Adams, Charles Fleischer, Dan Mintz, Brittany Ross and Very Special Guests",
         "date": "2026-04-10",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14157004",
-        "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Poor Little Rich Girl ft. Tori Piskin",
@@ -1253,7 +1239,7 @@
         "image": "https://i.ticketweb.com/i/00/13/37/77/43_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. The Sklar Brothers, Alex Edelman, Rachel Scanlon, Craig Conant, Jesus Trejo, Nikki Bon and more",
+        "name": "Tonight at the Improv ft. The Sklar Brothers, Caroline Rhea, Alex Edelman, Rachel Scanlon, Craig Conant, Jesus Trejo, Nikki Bon and more",
         "date": "2026-04-10",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759533",
@@ -1267,18 +1253,18 @@
         "image": "https://i.ticketweb.com/i/00/12/89/75/14_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft. Greg Fitzsimmons, Orny Adams, Kelly Ryan, Al Madrigal, Owen Smith, Rick Ingraham and More TBA",
+        "name": "Tonight at the Improv ft. Greg Fitzsimmons, Orny Adams, Al Madrigal, Owen Smith, Rick Ingraham, Kelly Ryan and More TBA",
         "date": "2026-04-11",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14808643",
         "image": "https://s1.ticketm.net/dam/a/c3f/720f5f8a-a718-4c06-8cb5-f22765fcbc3f_56721_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Bruce Gray, Saul Trujillo, Josef Anolin, Janet McNamara, Jeanne Whitney, Cid Williams, and More TBA",
+        "name": "Tonight at the Lab ft. Bruce Gray, Saul Trujillo, Josef Anolin, Janet McNamara, Rob Smallwood, Jeanne Whitney, Cid Williams, and More TBA",
         "date": "2026-04-11",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14794743",
-        "image": "https://i.ticketweb.com/i/00/13/39/72/93_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/13/39/72/93_Edp.jpg?v=8"
       },
       {
         "name": "Tonight at the Improv ft. Alex Edelman, Amir K, Debra Digiovanni, Kirk Fox, Pablo Francisco, Chris Estrada, Bruce Gray, and More TBA",
@@ -1309,11 +1295,11 @@
         "image": "https://i.ticketweb.com/i/00/12/83/70/64_Edp.jpg?v=7"
       },
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Caroline Rhea, Jimmy Shin, Nikki Bon and more TBA",
+        "name": "Tonight at the Improv ft. Tim Dillon, Craig Robinson, Caroline Rhea, Paul Rodriguez, Mary Lynn Rajskub, Jimmy Shin, Nikki Bon and more TBA",
         "date": "2026-04-12",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14182324",
-        "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Basshole Stand-Up Comedy ft. Doug Bass, Pete Giovine, Ahmed Bharoocha, Rich Chassler, Rob DaRocha, Liz Zagone, Sarah Halstead, Josh Edelman, Reid Brackenbury, Hermie Castillo, Devyn Perry, Teresa Lo",
@@ -1335,6 +1321,20 @@
         "time": "20:00:00",
         "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14790443",
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-04-13",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14759803",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Shaw-some Show ft. Forrest Shaw, Bria Hiebert, Maronzio Vance, Laurie Kilmartin, Ben Gonzalez, James Davis!",
+        "date": "2026-04-14",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/the-shaw-some-show-ft-hollywood-improv-the-lab-tickets/14818903",
+        "image": "https://s1.ticketm.net/dam/a/93a/7595caed-f1b2-49c9-a3b8-8216ca01d93a_RECOMENDATION_16_9.jpg"
       }
     ]
   }
