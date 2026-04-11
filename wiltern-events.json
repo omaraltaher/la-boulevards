@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-10T15:52:02.413Z",
+  "generated": "2026-04-11T15:32:10.125Z",
   "events": [
-    {
-      "name": "Akaash Singh: Generational Triumph Tour",
-      "date": "2026-04-10",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/akaash-singh-generational-triumph-tour-los-angeles-california-04-10-2026/event/09006330A5D3261D",
-      "image": "https://s1.ticketm.net/dam/a/da7/275a8a4a-e7d6-4ac2-a027-2f4d1ab55da7_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Humbe",
       "date": "2026-04-11",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/kcrw-presents-cory-wong-lost-in-los-angeles-california-04-25-2026/event/0900636EA1B0C79C",
       "image": "https://s1.ticketm.net/dam/a/c1d/b8437df8-8dc6-4f08-bd91-9e617e91ac1d_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Bethel Music 2026 Tour",
+      "date": "2026-04-26",
+      "time": "18:00:00",
+      "url": "https://www.ticketmaster.com/bethel-music-2026-tour-los-angeles-california-04-26-2026/event/0900638AA34995F9",
+      "image": "https://s1.ticketm.net/dam/a/b8d/29977ca4-0692-41f1-8bf2-4f5c97623b8d_RECOMENDATION_16_9.jpg"
     }
   ]
 }
