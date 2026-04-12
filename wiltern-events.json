@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-11T15:32:10.125Z",
+  "generated": "2026-04-12T15:34:24.809Z",
   "events": [
-    {
-      "name": "Humbe",
-      "date": "2026-04-11",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/humbe-los-angeles-california-04-11-2026/event/0900638B3358A56F",
-      "image": "https://s1.ticketm.net/dam/a/39e/84f7f505-ad5e-43a9-862f-c5cc1f28839e_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Amplified Alpine Presents Emperor: The Emperial Wrath Tour",
       "date": "2026-04-12",
@@ -56,6 +49,13 @@
       "time": "18:00:00",
       "url": "https://www.ticketmaster.com/bethel-music-2026-tour-los-angeles-california-04-26-2026/event/0900638AA34995F9",
       "image": "https://s1.ticketm.net/dam/a/b8d/29977ca4-0692-41f1-8bf2-4f5c97623b8d_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Be Like Blippi Tour!",
+      "date": "2026-04-27",
+      "time": "17:00:00",
+      "url": "https://www.ticketmaster.com/be-like-blippi-tour-los-angeles-california-04-27-2026/event/09006371F8D01C10",
+      "image": "https://s1.ticketm.net/dam/a/999/f6f8d59e-d776-4d59-aae8-be2f00016999_RECOMENDATION_16_9.jpg"
     }
   ]
 }
