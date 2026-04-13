@@ -320,30 +320,33 @@ path.leaflet-interactive:focus { outline:none; }
 
 /* ── On Stage show labels ── */
 .show-label-tooltip.leaflet-tooltip {
-  background: rgba(15,17,35,0.95) !important;
-  border: 1px solid rgba(168,85,247,0.35) !important;
-  border-radius: 6px !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
   padding: 0 !important;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.5) !important;
+  box-shadow: none !important;
   color: #e0e4ef !important;
   pointer-events: auto;
-  overflow: hidden !important;
 }
 .show-label-tooltip.leaflet-tooltip::before { display:none !important; }
 .show-label-inner {
+  background: rgba(15,17,35,0.95);
+  border: 1px solid rgba(168,85,247,0.35);
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
   padding: 7px 0 7px 10px;
   max-width: 220px;
   max-height: 260px;
   overflow-y: scroll;
   overscroll-behavior: contain;
   scrollbar-width: auto;
-  scrollbar-color: rgba(168,85,247,0.8) rgba(255,255,255,0.1);
+  scrollbar-color: rgba(168,85,247,0.9) rgba(255,255,255,0.12);
 }
 .show-label-inner::-webkit-scrollbar { width: 8px; }
-.show-label-inner::-webkit-scrollbar-track { background: rgba(255,255,255,0.1); }
-.show-label-inner::-webkit-scrollbar-thumb { background: rgba(168,85,247,0.8); border-radius: 4px; }
+.show-label-inner::-webkit-scrollbar-track { background: rgba(255,255,255,0.12); border-radius: 0 6px 6px 0; }
+.show-label-inner::-webkit-scrollbar-thumb { background: rgba(168,85,247,0.9); border-radius: 4px; }
 .show-label-inner::-webkit-scrollbar-thumb:hover { background: #c084fc; }
-.show-label-inner > * { padding-right: 10px; }
+.show-label-venue, .show-label-row { padding-right: 10px; }
 .show-label-venue { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:rgba(192,132,252,0.65); margin-bottom:5px; }
 .show-label-row { margin-bottom:6px; }
 .show-label-row:last-child { margin-bottom:0; }
