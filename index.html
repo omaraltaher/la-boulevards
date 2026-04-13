@@ -1422,15 +1422,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         { permanent: true, interactive: true, direction: best.dir, className: 'show-label-tooltip', offset }
       ).openTooltip();
 
-      // Enforce height + persistent scrollbar via CSS class — Leaflet measures natural
-      // height before CSS kicks in, and ::-webkit-scrollbar only works with CSS overflow
-      requestAnimationFrame(() => {
-        const inner = marker.getTooltip()?.getElement()?.querySelector('.show-label-inner');
-        if (inner && inner.scrollHeight > 260) {
-          inner.style.height = '260px';
-          inner.classList.add('is-scrollable');
-        }
-      });
+      // Apply scroll constraint after Leaflet finishes layout.
+      // rAF is too early; setTimeout(0) gives Leaflet time to fully mount the tooltip.
+      if (evs.length > 4) {
+        setTimeout(() => {
+          const inner = marker.getTooltip()?.getElement()?.querySelector('.show-label-inner');
+          if (inner) { inner.style.height = '260px'; inner.classList.add('is-scrollable'); }
+        }, 0);
+      }
     }
   }
 
