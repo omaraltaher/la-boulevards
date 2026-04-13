@@ -340,10 +340,11 @@ path.leaflet-interactive:focus { outline:none; }
   scrollbar-width: auto;
   scrollbar-color: rgba(168,85,247,0.9) rgba(255,255,255,0.12);
 }
-.show-label-inner::-webkit-scrollbar { width: 8px; }
-.show-label-inner::-webkit-scrollbar-track { background: rgba(255,255,255,0.12); border-radius: 0 6px 6px 0; }
-.show-label-inner::-webkit-scrollbar-thumb { background: rgba(168,85,247,0.9); border-radius: 4px; }
-.show-label-inner::-webkit-scrollbar-thumb:hover { background: #c084fc; }
+.show-label-inner.is-scrollable { overflow-y: scroll !important; }
+.show-label-inner.is-scrollable::-webkit-scrollbar { width: 8px; display: block; }
+.show-label-inner.is-scrollable::-webkit-scrollbar-track { background: rgba(255,255,255,0.15); border-radius: 0 6px 6px 0; }
+.show-label-inner.is-scrollable::-webkit-scrollbar-thumb { background: rgba(168,85,247,0.9); border-radius: 4px; min-height: 30px; }
+.show-label-inner.is-scrollable::-webkit-scrollbar-thumb:hover { background: #c084fc; }
 .show-label-venue, .show-label-row { padding-right: 10px; }
 .show-label-venue { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:rgba(192,132,252,0.65); margin-bottom:5px; }
 .show-label-row { margin-bottom:6px; }
@@ -1421,12 +1422,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         { permanent: true, interactive: true, direction: best.dir, className: 'show-label-tooltip', offset }
       ).openTooltip();
 
-      // Enforce max-height via JS — Leaflet measures natural height before CSS kicks in
+      // Enforce height + persistent scrollbar via CSS class — Leaflet measures natural
+      // height before CSS kicks in, and ::-webkit-scrollbar only works with CSS overflow
       requestAnimationFrame(() => {
         const inner = marker.getTooltip()?.getElement()?.querySelector('.show-label-inner');
         if (inner && inner.scrollHeight > 260) {
           inner.style.height = '260px';
-          inner.style.overflowY = 'scroll';
+          inner.classList.add('is-scrollable');
         }
       });
     }
