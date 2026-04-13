@@ -329,7 +329,10 @@ path.leaflet-interactive:focus { outline:none; }
   pointer-events: auto;
 }
 .show-label-tooltip.leaflet-tooltip::before { display:none !important; }
-.show-label-inner { padding: 7px 10px; max-width: 220px; }
+.show-label-inner { padding: 7px 10px; max-width: 220px; max-height: 260px; overflow-y: auto; overscroll-behavior: contain; }
+.show-label-inner::-webkit-scrollbar { width: 3px; }
+.show-label-inner::-webkit-scrollbar-track { background: transparent; }
+.show-label-inner::-webkit-scrollbar-thumb { background: rgba(168,85,247,0.4); border-radius: 2px; }
 .show-label-venue { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:rgba(192,132,252,0.65); margin-bottom:5px; }
 .show-label-row { margin-bottom:6px; }
 .show-label-row:last-child { margin-bottom:0; }
@@ -1364,7 +1367,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     const placed = [];
 
     for (const { marker, name, px, evs } of active) {
-      const h = LH_BASE + evs.length * LH_ROW;
+      const h = Math.min(LH_BASE + evs.length * LH_ROW, 280); // capped at scroll height
       const cands = genCandidates(px, h);
 
       // Score each candidate by total overlap area with already-placed labels + heavy penalty for off-screen
