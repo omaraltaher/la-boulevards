@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-13T16:59:09.044Z",
+  "generated": "2026-04-13T23:33:42.281Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -1160,6 +1160,20 @@
     ],
     "Laugh Factory": [
       {
+        "name": "Laugh Through The Heartbreak",
+        "date": "2026-04-23",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/laugh-through-the-heartbreak-tickets-1978661094598",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181225332%2F2986605123498%2F1%2Foriginal.20260401-184950?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=21fddf5cf12a77de3735ce7f17915d83"
+      },
+      {
+        "name": "Spectrum Laboratory Presents: Neurodiversity Night of Laughs",
+        "date": "2026-04-25",
+        "time": "16:30",
+        "url": "https://www.eventbrite.com/e/spectrum-laboratory-presents-neurodiversity-night-of-laughs-tickets-1980141199632",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179443837%2F2990051982791%2F1%2Foriginal.20260310-003157?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.513&fp-y=0.478&s=d2290319b98bba10c3ea404089d28b91"
+      },
+      {
         "name": "Netflix Is A Joke Presents: Laughs on the Spectrum",
         "date": "2026-05-04",
         "time": "17:15:00",
@@ -1172,6 +1186,13 @@
         "time": "19:00:00",
         "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-aida-rodriguez-presents-the-remix-tickets-1984928222747?aff=oddtdtcreator",
         "image": "https://s1.ticketm.net/dam/a/15b/8aa47481-de5f-4fd9-97fa-95b0fd18515b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Nate Jackson at Laugh Factory",
+        "date": "2026-05-04",
+        "time": "22:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-nate-jackson-at-laugh-factory-tickets-1980738312613",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181339041%2F2990051982791%2F1%2Foriginal.20260402-230934?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.845&fp-y=0.515&s=07aff59b77deeaf19b1b5489ea21477b"
       },
       {
         "name": "Netflix Is A Joke Presents: Nate Jackson",
@@ -1195,6 +1216,13 @@
         "image": "https://s1.ticketm.net/dam/a/08c/ef64f9ca-3d07-41f7-8f75-a8249e18308c_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Netflix Is A Joke Presents: Nate Jackson at Laugh Factory",
+        "date": "2026-05-05",
+        "time": "22:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-nate-jackson-at-laugh-factory-tickets-1980892585046",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181339128%2F2990051982791%2F1%2Foriginal.20260402-231122?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.843&fp-y=0.501&s=3bc9e2a7cb507767c5ecbcf0294c7a5d"
+      },
+      {
         "name": "Netflix Is A Joke Presents: Nate Jackson",
         "date": "2026-05-05",
         "time": "22:00:00",
@@ -1202,11 +1230,39 @@
         "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Netflix Is A Joke Presents: Nate Jackson at Laugh Factory",
+        "date": "2026-05-06",
+        "time": "22:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-nate-jackson-at-laugh-factory-tickets-1980892802697",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181339234%2F2990051982791%2F1%2Foriginal.20260402-231318?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.864&fp-y=0.469&s=64479fafd38eda34a4fc88fd7a21ac8f"
+      },
+      {
         "name": "Netflix Is A Joke Presents: Nate Jackson",
         "date": "2026-05-06",
         "time": "22:00:00",
         "url": "https://www.eventbrite.com/e/1980892802697?aff=oddtdtcreator",
         "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Nate Jackson at Laugh Factory",
+        "date": "2026-05-07",
+        "time": "22:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-nate-jackson-at-laugh-factory-tickets-1980892859868",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181339370%2F2990051982791%2F1%2Foriginal.20260402-231516?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.838&fp-y=0.511&s=9fb3b0e9dacb5366fcdbebf6be332c19"
+      },
+      {
+        "name": "No Fs Given 7:30PM",
+        "date": "2026-06-19",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/no-fs-given-730pm-tickets-1982320290351",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177430992%2F2987014365277%2F1%2Foriginal.20260213-002821?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ccdb153a442d72dec648488410d6653d"
+      },
+      {
+        "name": "Alex Kominek Live! 7:30PM",
+        "date": "2026-10-01",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/alex-kominek-live-730pm-tickets-1981045471333",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179819470%2F2987014365277%2F1%2Foriginal.20260313-224118?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ef1d87fa52ebd7a75720a3760000568"
       }
     ],
     "Hollywood Improv": [
@@ -1281,7 +1337,7 @@
         "image": "https://s1.ticketm.net/dam/a/e8f/b8e2de92-a81c-43cb-8336-8b2dbe790e8f_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Damon Wayans, Tommy Brennan, Brian Monarch and Very Special Guests",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Damon Wayans, Melissa Villasenor, Tommy Brennan, Brian Monarch and more!",
         "date": "2026-04-16",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759753",
