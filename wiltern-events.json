@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-12T15:34:24.809Z",
+  "generated": "2026-04-13T16:11:01.723Z",
   "events": [
-    {
-      "name": "Amplified Alpine Presents Emperor: The Emperial Wrath Tour",
-      "date": "2026-04-12",
-      "time": "18:30:00",
-      "url": "https://www.ticketmaster.com/amplified-alpine-presents-emperor-the-emperial-los-angeles-california-04-12-2026/event/0900637197008D2A",
-      "image": "https://s1.ticketm.net/dam/a/75c/c94c87a9-b08b-4084-973a-4e42e051d75c_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Naomi Watanabe: From Tokyo ",
       "date": "2026-04-17",
@@ -56,6 +49,13 @@
       "time": "17:00:00",
       "url": "https://www.ticketmaster.com/be-like-blippi-tour-los-angeles-california-04-27-2026/event/09006371F8D01C10",
       "image": "https://s1.ticketm.net/dam/a/999/f6f8d59e-d776-4d59-aae8-be2f00016999_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Oh Wonder",
+      "date": "2026-04-28",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/oh-wonder-los-angeles-california-04-28-2026/event/09006429D790C472",
+      "image": "https://s1.ticketm.net/dam/a/456/94f44e1f-f1a2-46e5-8737-39fea7850456_RECOMENDATION_16_9.jpg"
     }
   ]
 }
