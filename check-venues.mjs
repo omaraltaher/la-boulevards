@@ -130,7 +130,8 @@ const EB_VENUES = [
   { name: 'Levitt Pavilion',                        type: 'org',   id: '29531385721' },
   { name: 'Bob Baker Marionette Theater',           type: 'org',   id: '31080469933' },
   { name: 'Laugh Factory',                          type: 'org',   id: '18525142576' },
-  // Beverly O'Neill, Bootleg, Ivar, Groundlings, Hollywood Improv — not on Eventbrite
+  { name: 'Hollywood Improv',                       type: 'venue', id: '295881868'   },
+  // Beverly O'Neill, Bootleg, Ivar, Groundlings — not on Eventbrite
 ];
 
 if (ebToken) {
@@ -152,13 +153,17 @@ if (ebToken) {
         url:   ev.url,
         image: ev.logo?.url || null,
       }));
-      // Only use EB events when TM returned nothing (EB is a fallback, not a replacement)
-      if (events.length && !(venues[venue.name] || []).length) {
-        venues[venue.name] = events;
-        totalEvents += events.length;
-        console.log(`  ✓ ${events.length} events (Eventbrite): ${venue.name}`);
+      // Merge EB events with TM events; deduplicate by name+date
+      if (events.length) {
+        const existing = venues[venue.name] || [];
+        const seen = new Set(existing.map(e => `${e.name}|${e.date}`));
+        const novel = events.filter(e => !seen.has(`${e.name}|${e.date}`));
+        venues[venue.name] = [...existing, ...novel]
+          .sort((a, b) => (a.date + (a.time || '')).localeCompare(b.date + (b.time || '')));
+        totalEvents += novel.length;
+        console.log(`  ✓ ${novel.length} new events from Eventbrite (${existing.length} already from TM): ${venue.name}`);
       } else {
-        console.log(`  ${events.length ? `— skipped (TM already has data)` : '— no events'}: ${venue.name}`);
+        console.log(`  — no Eventbrite events: ${venue.name}`);
       }
     } catch (e) {
       console.warn(`  EB fetch failed for ${venue.name}:`, e.message);
