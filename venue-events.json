@@ -1,14 +1,7 @@
 {
-  "generated": "2026-04-13T23:33:42.281Z",
+  "generated": "2026-04-14T17:00:37.878Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "City Pop Waves: Masayoshi Takanaka SUPER TAKANAKA WORLD LIVE 2026",
-        "date": "2026-04-13",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/city-pop-waves-masayoshi-takanaka-super-hollywood-california-04-13-2026/event/0900636C7F9C79FE",
-        "image": "https://s1.ticketm.net/dam/a/1e5/44d43c88-8f2d-48f4-b2d3-21b10d70e1e5_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Bilmuri - Kinda Hard Tour",
         "date": "2026-04-20",
@@ -57,6 +50,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-jeff-hollywood-california-05-06-2026/event/0900642FE493DF34",
         "image": "https://s1.ticketm.net/dam/a/bd0/458a1b9a-6b3b-47a7-b43d-596e29338bd0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Midnight: Time Machines",
+        "date": "2026-05-15",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/the-midnight-time-machines-hollywood-california-05-15-2026/event/0900633DC0276EBE",
+        "image": "https://s1.ticketm.net/dam/a/43e/134e47d2-477a-46d4-a3f1-926fce1cf43e_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -141,6 +141,13 @@
         "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Morgan Page",
+        "date": "2026-05-16",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/morgan-page-avalon-hollywood-tickets/14852073",
+        "image": "https://s1.ticketm.net/dam/a/d4a/f77a4598-a339-405b-adb0-31f62ef4cd4a_412871_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Lady Faith",
         "date": "2026-05-22",
         "time": "22:00:00",
@@ -167,13 +174,6 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/vtss-avalon-hollywood-tickets/14188444",
         "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Aly & Fila",
-        "date": "2026-06-20",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/aly-fila-avalon-hollywood-tickets/14826973",
-        "image": "https://i.ticketweb.com/i/00/13/42/70/83_Edp.jpg?v=7"
       }
     ],
     "The Novo": [
@@ -1267,27 +1267,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Adam Ray, Craig Robsinson, Andrea Jin, Larry Wilmore, Gary Cannon and more TBA",
-        "date": "2026-04-13",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14771893",
-        "image": "https://s1.ticketm.net/dam/a/8d6/a01d8edf-195c-4361-b3ce-7836d62f08d6_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-04-13",
-        "time": "20:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14790443",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis, G Thang, Jugo, Dannon Green, Gerald Kelly, Precious Hall & more",
-        "date": "2026-04-13",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14759803",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-04-14",
         "time": "17:15:00",
@@ -1365,6 +1344,13 @@
         "image": "https://i.ticketweb.com/i/00/12/88/99/84_Edp.jpg?v=6"
       },
       {
+        "name": "Tonight at the Improv",
+        "date": "2026-04-17",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14759503",
+        "image": "https://i.ticketweb.com/i/00/13/36/95/93_Edp.jpg?v=2"
+      },
+      {
         "name": "Deon Cole: Does This Work?",
         "date": "2026-04-17",
         "time": "21:45:00",
@@ -1372,11 +1358,25 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Jaime French",
+        "date": "2026-04-18",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/jaime-french-hollywood-improv-the-main-room-tickets/14779843",
+        "image": "https://i.ticketweb.com/i/00/13/38/41/53_Edp.jpg?v=6"
+      },
+      {
         "name": "Tonight at the Lab!",
         "date": "2026-04-18",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14783453",
         "image": "https://i.ticketweb.com/i/00/13/38/70/23_Edp.jpg?v=2"
+      },
+      {
+        "name": "Ego Death ft. Saul Trujillo, Bear Badeaux, Josef Anolin, Jeanne Whitney, Courtney Bee, Bilal Sharmoug, Lauren Michaels and more TBA!",
+        "date": "2026-04-18",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/ego-death-ft-saul-trujillo-hollywood-improv-the-lab-tickets/14097674",
+        "image": "https://i.ticketweb.com/i/00/12/82/39/14_Edp.jpg?v=8"
       }
     ]
   }
