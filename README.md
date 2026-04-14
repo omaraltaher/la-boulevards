@@ -126,8 +126,9 @@ Requires Node 18+.
 ## Sources
 
 - Street geometry & lengths: OpenStreetMap (ODbL) via Overpass API; major boulevard lengths from Wikipedia / Wikimedia Foundation
-- Map tiles: CARTO dark_nolabels / Esri satellite
-- Boulevard info: Wikipedia REST API, Wikimedia Commons, Wikidata SPARQL, MusicBrainz
+- Address search & geocoding: OpenStreetMap Nominatim
+- Map tiles: CARTO dark_nolabels / Esri World Imagery satellite
+- Boulevard info: Wikipedia REST API, Wikimedia Commons
 - Cameras: Caltrans District 7 CCTV feed
 - Public art: LA City Open Data (dataset ejf8-ekfc)
 - Theatres: OpenStreetMap
@@ -138,13 +139,14 @@ Requires Node 18+.
 - Native plants: iNaturalist — California Poppy (taxon 48225), Toyon (taxon 53405), Ceanothus (taxon 49674)
 - Iconic trees: iNaturalist — Jacaranda (taxon 77541), Coral Tree (taxon 1588191), Washington Palm (taxon 50185)
 - Street tree inventory: StreetsLA ArcGIS FeatureServer (LA City), City of Beverly Hills GeoHub, City of Santa Monica Open Data (Socrata), OpenStreetMap Overpass (fallback)
+- Ed Ruscha photos: Getty Conservation Institute Arches API — `tools.getty.edu/arches/ruscha` (~500 Sunset Blvd locations, 1965–2010, pre-baked)
 - Ghost railway: OpenStreetMap contributors (`railway=abandoned/razed`, `old_railway_operator=Pacific Electric Railway`)
 - Active PE corridors: OpenStreetMap (Metro E Line, A Line, West Santa Ana Branch)
 - Railway images: Wikimedia Commons via Wikipedia imageinfo API (pre-baked at build time)
 - Wallis Annenberg Wildlife Crossing: Wikipedia + NPS
 - Wiltern events: Ticketmaster Discovery API
 - Venue events: Ticketmaster Discovery API + Eventbrite API (36 venues — see `check-venues.mjs` for full list)
-- Oil wells: CalGEM (California Geologic Energy Management Division)
+- Oil wells: CalGEM (California Geologic Energy Management Division); street-level photos via Mapillary
 - P-22 photo: NPS public domain via Wikimedia Commons
 
 ## License
