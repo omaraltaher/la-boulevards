@@ -18,13 +18,24 @@ An interactive map of every boulevard in Los Angeles County — the streets, the
 - **Famous spots** — 15 landmarks from the Whisky a Go Go to Chateau Marmont
 - **Ed Ruscha photos** — ~500 locations where Ruscha pointed his camera between 1965 and 2010, sourced from the Getty's Arches archive
 
+### Map pills
+
+Four contextual overlays float above the map. Each pill activates a thematic mode — boulevards dim, an info panel opens, and relevant markers appear on the map. Pills are mutually exclusive; clicking one deactivates the others.
+
+| Pill | Color | What it shows |
+|---|---|---|
+| **On Stage** | purple | Tonight's live shows at 36 LA venues (Ticketmaster + Eventbrite). Thumbnail grid with upcoming dates; click any venue to open its popup. |
+| **In Bloom** | green | Jacaranda, coral tree, and CA poppy sightings from iNaturalist with photos, past 30 days. Full-screen collage available. |
+| **On the Prowl** | amber | Mountain lion (past 90 days) and coyote (past 30 days) sightings with photos from iNaturalist. Full-screen collage available. |
+| **Going Feral** | lime | Wild parrot sightings from iNaturalist with photos, past 30 days. LA's feral parrots are descendants of escaped pets — monk parakeets, Amazon parrots, and cherry-headed conures that have thrived in the urban canopy for decades. Full-screen collage available. |
+
 ### Overlay layers
 
 | Layer | Icon | Visibility |
 |---|---|---|
 | Caltrans traffic cameras | cyan dot | always |
 | The Wiltern | pulsing purple dot + crown | always |
-| Wallis Annenberg Wildlife Crossing | green arch bridge SVG | with mountain lions toggle |
+| Wallis Annenberg Wildlife Crossing | green arch bridge SVG | always (with mountain lions layer) |
 | Public art | magenta dot | when boulevard selected |
 | Theatres | purple dot | when boulevard selected — 36 venues show upcoming shows (Ticketmaster + Eventbrite) |
 | Street trees | leaf SVG (purple/orange/green) | when boulevard selected — iconic trees (jacaranda, coral tree, Washington palm) + StreetsLA/BH/SM inventory |
@@ -32,10 +43,10 @@ An interactive map of every boulevard in Los Angeles County — the streets, the
 | Native plants | flower dot (yellow/red/purple) | when boulevard selected — CA Poppy, Toyon, Ceanothus from iNaturalist |
 | Jonathan Gold restaurants | gold dot | when Pico selected |
 | Sunset Strip landmarks | gradient star | when Sunset selected |
-| Wild parrots | green parrot SVG | toggleable |
-| Hidden oil wells | brown derrick SVG | toggleable |
-| Mountain lions | amber cat SVG | toggleable |
-| Coyotes | brown coyote SVG | toggleable |
+| Wild parrots | green parrot SVG | toggleable (off by default) |
+| Hidden oil wells | brown derrick SVG | toggleable (off by default) |
+| Mountain lions | amber cat SVG | toggleable (off by default) |
+| Coyotes | brown coyote SVG | toggleable (off by default) |
 | Pacific Electric Ghost Railway | dashed yellow line | toggleable |
 | Pacific Electric Active Railway | solid yellow line | toggleable |
 
@@ -47,7 +58,7 @@ The amber cat icon in the Santa Monica Mountains is P-22. Click it to watch his 
 
 Yellow dashed lines trace the ghost of LA's former Red Car network — the 1,100-mile interurban system that connected 56 cities before shutting down in 1961. Solid yellow lines show the corridors that survived as Metro light rail (E Line, A Line, West Santa Ana Branch). Click any line to open a full info panel: ghost lines show the history, conspiracy theory (GM/National City Lines conviction), and a 99% Invisible audio episode; active lines show how each specific PE corridor was revived.
 
-The Wallis Annenberg Wildlife Crossing — the world's largest wildlife crossing, opened April 2025 over US-101 at Liberty Canyon — appears as a green bridge icon near Agoura Hills. It shows and hides with the mountain lions toggle, connecting P-22's legacy to its physical outcome.
+The Wallis Annenberg Wildlife Crossing — the world's largest wildlife crossing, opened April 2025 over US-101 at Liberty Canyon — appears as a green bridge icon near Agoura Hills. It connects P-22's legacy to its physical outcome.
 
 ---
 
@@ -121,8 +132,8 @@ Requires Node 18+.
 - Public art: LA City Open Data (dataset ejf8-ekfc)
 - Theatres: OpenStreetMap
 - Parrots: iNaturalist / Occidental College Moore Lab of Zoology
-- Mountain lions: iNaturalist (Puma concolor, taxon 42007)
-- Coyotes: iNaturalist (Canis latrans, taxon 42051)
+- Mountain lions: iNaturalist (Puma concolor, taxon 42007) — 90-day window
+- Coyotes: iNaturalist (Canis latrans, taxon 42051) — 30-day window
 - Butterflies: iNaturalist (Papilionoidea, taxon 47157) — 90-day window, research-grade
 - Native plants: iNaturalist — California Poppy (taxon 48225), Toyon (taxon 53405), Ceanothus (taxon 49674)
 - Iconic trees: iNaturalist — Jacaranda (taxon 77541), Coral Tree (taxon 1588191), Washington Palm (taxon 50185)
