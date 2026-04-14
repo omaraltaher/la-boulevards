@@ -144,6 +144,7 @@ html, body {
   font-size:13px;
   cursor:pointer; user-select:none;
   pointer-events:auto;
+  z-index:1001;
 }
 #refresh-btn:hover { color:#9ca3af; border-color:rgba(255,255,255,0.2); }
 .legend-sources-toggle { font-size:13px; color:#4b5563; cursor:pointer; user-select:none; pointer-events:auto; margin-top:8px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.06); }
@@ -572,7 +573,7 @@ path.leaflet-interactive:focus { outline:none; }
   display:flex; align-items:center; gap:8px;
   justify-content:center;
   overflow-x:auto; overflow-y:visible;
-  padding:0 12px;
+  padding:0 105px 0 12px;
   pointer-events:auto;
   scrollbar-width:none;
 }
@@ -874,6 +875,31 @@ path.leaflet-interactive:focus { outline:none; }
   .leaflet-popup      { max-width: calc(100vw - 20px) !important; }
   .leaflet-popup-content-wrapper { max-width: calc(100vw - 20px) !important; overflow-x: hidden; }
   .leaflet-popup-content > div   { max-width: calc(100vw - 52px) !important; box-sizing: border-box; }
+
+  /* Pills: 2×2 grid */
+  #map-pills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    left: 12px; right: 12px;
+    bottom: 92px;
+    padding: 0;
+    overflow: visible;
+    justify-content: unset;
+  }
+  #map-pills > div {
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  /* Refresh: centered row below pills */
+  #refresh-btn {
+    bottom: 55px;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1001;
+  }
 
   /* Legend and count: tuck in tighter */
   #legend { bottom: 24px; left: 12px; }
