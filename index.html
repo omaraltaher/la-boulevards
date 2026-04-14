@@ -877,6 +877,61 @@ path.leaflet-interactive:focus { outline:none; }
 .bm-btn:hover:not(.active) { color:#9ca3af; }
 #legend.legend-collapsed #basemap-switcher { border-bottom:none; margin-bottom:2px; padding-bottom:2px; }
 #legend.legend-collapsed .bm-btn { padding:3px 5px; font-size:10px; }
+
+/* ── Bloom Collage overlay ── */
+#bloom-collage {
+  position:fixed; inset:0; z-index:9500;
+  background:#000;
+  overflow-y:auto;
+  animation:bloomCollageIn 0.45s cubic-bezier(0.16,1,0.3,1) both;
+}
+@keyframes bloomCollageIn {
+  from { opacity:0; transform:scale(1.04); }
+  to   { opacity:1; transform:scale(1); }
+}
+#bloom-collage-header {
+  position:sticky; top:0; z-index:1;
+  display:flex; align-items:center; justify-content:space-between;
+  padding:22px 28px 16px;
+  background:linear-gradient(to bottom,rgba(0,0,0,0.97) 60%,transparent);
+  pointer-events:none;
+}
+#bloom-collage-title {
+  font-size:20px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+  color:rgba(134,239,172,0.92);
+}
+#bloom-collage-sub {
+  font-size:12px; color:rgba(134,239,172,0.45); margin-top:2px; letter-spacing:.06em;
+}
+#bloom-collage-close {
+  pointer-events:auto;
+  background:rgba(255,255,255,0.06);
+  border:1px solid rgba(255,255,255,0.18);
+  color:rgba(255,255,255,0.7);
+  font-size:24px; line-height:1;
+  width:42px; height:42px; border-radius:50%;
+  cursor:pointer; display:flex; align-items:center; justify-content:center;
+  transition:background 0.15s, border-color 0.15s;
+}
+#bloom-collage-close:hover { background:rgba(255,255,255,0.13); border-color:rgba(255,255,255,0.45); color:#fff; }
+#bloom-collage-grid {
+  columns:4 160px; column-gap:3px;
+  padding:0 3px 40px;
+}
+.bloom-col-item {
+  break-inside:avoid; margin-bottom:3px;
+  position:relative; overflow:hidden; cursor:pointer;
+}
+.bloom-col-item img { width:100%; display:block; }
+.bloom-col-item-label {
+  position:absolute; bottom:0; left:0; right:0;
+  padding:24px 8px 7px;
+  background:linear-gradient(to top,rgba(0,0,0,0.75),transparent);
+  font-size:11px; color:rgba(255,255,255,0.85); letter-spacing:.04em;
+  opacity:0; transition:opacity 0.18s;
+}
+.bloom-col-item:hover .bloom-col-item-label { opacity:1; }
+.bloom-col-item:hover img { transform:scale(1.025); transition:transform 0.3s ease; }
 </style>
 </head>
 <body>
@@ -2527,6 +2582,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // "📍 Map" tap — peek sheet, fly to theatre, open popup with shows
   infoExtract.addEventListener('click', e => {
+    if (e.target.closest('.bloom-collage-btn')) { showBloomCollage(); return; }
     const itImg = e.target.closest('img[data-itype]');
     if (itImg) {
       const idx = parseInt(itImg.dataset.idx);
@@ -2633,7 +2689,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       { species:'Ceanothus',        data:nativePlantData, isTree:false, color:PLANT_COLORS['Ceanothus']        },
       { species:'Toyon',            data:nativePlantData, isTree:false, color:PLANT_COLORS['Toyon']            },
     ];
-    let html = '';
+    let html = `<div style="margin-bottom:18px;">
+      <button class="bloom-collage-btn" style="width:100%;padding:9px 0;background:rgba(134,239,172,0.07);border:1px solid rgba(134,239,172,0.3);border-radius:20px;color:rgba(134,239,172,0.9);font-size:13px;letter-spacing:.06em;cursor:pointer;">✦ Collage</button>
+    </div>`;
     for (const { species, data, isTree, color } of ROWS) {
       const inSeason = isTree ? isTreeInSeason(species) : isPlantInSeason(species);
       const items = data.filter(x => x.species === species && isBloomFresh(x));
@@ -2718,6 +2776,43 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   }
 
   document.getElementById('inbloom-btn').addEventListener('click', showInBloomPanel);
+
+  function showBloomCollage() {
+    const items = [
+      ...treeData.filter(t => isBloomFresh(t) && isTreeInSeason(t.species) && t.species !== 'Washington Palm'),
+      ...nativePlantData.filter(p => isBloomFresh(p) && isPlantInSeason(p.species))
+    ].sort(() => Math.random() - 0.5);
+
+    const overlay = document.createElement('div');
+    overlay.id = 'bloom-collage';
+    overlay.innerHTML =
+      `<div id="bloom-collage-header">
+        <div><div id="bloom-collage-title">In Bloom · Los Angeles</div>
+          <div id="bloom-collage-sub">${items.length} observations · past 30 days</div></div>
+        <button id="bloom-collage-close" title="Close (Esc)">×</button>
+      </div>
+      <div id="bloom-collage-grid">${
+        items.map(p =>
+          `<div class="bloom-col-item">
+            <img src="${p.photo}" loading="lazy" onerror="this.closest('.bloom-col-item').style.display='none'"/>
+            <div class="bloom-col-item-label">${p.species}</div>
+          </div>`
+        ).join('')
+      }</div>`;
+    document.body.appendChild(overlay);
+
+    const close = () => {
+      overlay.style.animation = 'none';
+      overlay.style.transition = 'opacity 0.2s';
+      overlay.style.opacity = '0';
+      setTimeout(() => overlay.remove(), 200);
+    };
+    overlay.querySelector('#bloom-collage-close').addEventListener('click', close);
+    const escHandler = e => {
+      if (e.key === 'Escape') { close(); document.removeEventListener('keydown', escHandler); }
+    };
+    document.addEventListener('keydown', escHandler);
+  }
 
   // When the pointer is inside a scrollable theatre label, disable map scroll-zoom
   // so two-finger swipes scroll the list rather than zooming the map.
