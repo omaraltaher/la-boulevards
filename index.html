@@ -933,9 +933,9 @@ path.leaflet-interactive:focus { outline:none; }
   flex:1; min-height:0; overflow:hidden;
 }
 .bloom-col-item {
-  position:relative; overflow:hidden; cursor:pointer; min-height:0;
+  position:relative; overflow:visible; cursor:pointer; min-height:0; z-index:1;
 }
-.bloom-col-item img { width:100%; height:100%; object-fit:cover; display:block; }
+.bloom-col-item img { width:100%; height:100%; object-fit:cover; display:block; transition:transform 0.25s ease; }
 .bloom-col-item-label {
   position:absolute; bottom:0; left:0; right:0;
   padding:24px 8px 7px;
@@ -943,8 +943,9 @@ path.leaflet-interactive:focus { outline:none; }
   font-size:11px; color:rgba(255,255,255,0.85); letter-spacing:.04em;
   opacity:0; transition:opacity 0.18s;
 }
+.bloom-col-item:hover { z-index:10; }
 .bloom-col-item:hover .bloom-col-item-label { opacity:1; }
-.bloom-col-item:hover img { transform:scale(1.025); transition:transform 0.3s ease; }
+.bloom-col-item:hover img { transform:scale(1.3); }
 </style>
 </head>
 <body>
