@@ -1417,19 +1417,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           `</div>`;
       }).join('');
 
+      const overflows = evs.length > 4;
+      const innerAttrs = overflows ? ' class="show-label-inner is-scrollable" style="height:260px"' : ' class="show-label-inner"';
       marker.bindTooltip(
-        `<div class="show-label-inner"><div class="show-label-venue">${name}</div>${rows}</div>`,
+        `<div${innerAttrs}><div class="show-label-venue">${name}</div>${rows}</div>`,
         { permanent: true, interactive: true, direction: best.dir, className: 'show-label-tooltip', offset }
       ).openTooltip();
-
-      // Apply scroll constraint after Leaflet finishes layout.
-      // rAF is too early; setTimeout(0) gives Leaflet time to fully mount the tooltip.
-      if (evs.length > 4) {
-        setTimeout(() => {
-          const inner = marker.getTooltip()?.getElement()?.querySelector('.show-label-inner');
-          if (inner) { inner.style.height = '260px'; inner.classList.add('is-scrollable'); }
-        }, 0);
-      }
     }
   }
 
