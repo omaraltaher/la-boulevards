@@ -39,7 +39,6 @@ Four contextual overlays float above the map. Each pill activates a thematic mod
 | Public art | magenta dot | when boulevard selected |
 | Theatres | purple dot | when boulevard selected — 36 venues show upcoming shows (Ticketmaster + Eventbrite) |
 | Street trees | leaf SVG (purple/orange/green) | when boulevard selected — iconic trees (jacaranda, coral tree, Washington palm) + StreetsLA/BH/SM inventory |
-| Butterflies | butterfly SVG | when boulevard selected — iNaturalist Papilionoidea, 90-day window |
 | Native plants | flower dot (yellow/red/purple) | when boulevard selected — CA Poppy, Toyon, Ceanothus from iNaturalist |
 | Jonathan Gold restaurants | gold dot | when Pico selected |
 | Sunset Strip landmarks | gradient star | when Sunset selected |
@@ -78,7 +77,6 @@ All data is pre-baked at build time and refreshed on a schedule. Every workflow 
 | `refresh-art.yml` | `art.json` | Monthly 1st, 10am PT | — |
 | `refresh-wells.yml` | `wells.json` | Monthly 1st, 11am PT | — |
 | `refresh-iconic-trees.yml` | `iconic-trees.json` | Monthly 1st, 4am PT | — |
-| `refresh-butterflies.yml` | `butterflies.json` | Monthly 1st, 3am PT | — |
 | `refresh-nativeplants.yml` | `nativeplants.json` | Monthly 1st, 4am PT | — |
 | `refresh-canopy.yml` | `canopy.json` | Yearly Jan 1, 10am UTC | — |
 | `refresh-railway.yml` | `railway.json` | Yearly Jan 1, 11am UTC | — |
@@ -135,7 +133,6 @@ Requires Node 18+.
 - Parrots: iNaturalist / Occidental College Moore Lab of Zoology
 - Mountain lions: iNaturalist (Puma concolor, taxon 42007) — 90-day window
 - Coyotes: iNaturalist (Canis latrans, taxon 42051) — 30-day window
-- Butterflies: iNaturalist (Papilionoidea, taxon 47157) — 90-day window, research-grade
 - Native plants: iNaturalist — California Poppy (taxon 48225), Toyon (taxon 53405), Ceanothus (taxon 49674)
 - Iconic trees: iNaturalist — Jacaranda (taxon 77541), Coral Tree (taxon 1588191), Washington Palm (taxon 50185)
 - Street tree inventory: StreetsLA ArcGIS FeatureServer (LA City), City of Beverly Hills GeoHub, City of Santa Monica Open Data (Socrata), OpenStreetMap Overpass (fallback)
