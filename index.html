@@ -335,7 +335,7 @@ path.leaflet-interactive:focus { outline:none; }
   border-radius: 6px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.5);
   padding: 7px 0 7px 10px;
-  max-width: 220px;
+  max-width: 260px;
   overscroll-behavior: contain;
   scrollbar-width: auto;
   scrollbar-color: rgba(168,85,247,0.9) rgba(255,255,255,0.12);
@@ -583,6 +583,20 @@ path.leaflet-interactive:focus { outline:none; }
 #onnow-btn:hover { border-color:rgba(168,85,247,0.7); color:#c084fc; }
 #onnow-btn.active { border-color:rgba(168,85,247,0.8); background:rgba(168,85,247,0.12); color:#c084fc; }
 #onnow-count { font-size:11px; color:rgba(192,132,252,0.55); }
+#inbloom-btn {
+  position:absolute;
+  bottom:100px; left:50%; transform:translateX(-50%);
+  display:flex; align-items:center; gap:7px;
+  background:rgba(15,17,35,0.93);
+  border:1px solid rgba(134,239,172,0.35);
+  border-radius:6px; padding:8px 12px;
+  font-size:13px; cursor:pointer; user-select:none;
+  pointer-events:auto; white-space:nowrap;
+  color:#d1fae5;
+}
+#inbloom-btn:hover { border-color:rgba(134,239,172,0.65); }
+#inbloom-btn.active { border-color:rgba(134,239,172,0.8); background:rgba(134,239,172,0.10); }
+#info-panel.inbloom { border-color:rgba(134,239,172,0.35); box-shadow:0 0 24px rgba(134,239,172,0.07); }
 #legend .sunset-legend-line {
   background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7);
 }
@@ -899,6 +913,18 @@ path.leaflet-interactive:focus { outline:none; }
     </svg>
     On Stage
     <span id="onnow-count"></span>
+  </div>
+
+  <div id="inbloom-btn" title="See what's blooming across LA now">
+    <svg width="14" height="14" viewBox="0 0 14 14">
+      <circle cx="7" cy="7" r="2.2" fill="rgba(134,239,172,0.9)"/>
+      <circle cx="7" cy="2.5" r="1.6" fill="rgba(134,239,172,0.6)"/>
+      <circle cx="7" cy="11.5" r="1.6" fill="rgba(134,239,172,0.6)"/>
+      <circle cx="2.5" cy="7" r="1.6" fill="rgba(134,239,172,0.6)"/>
+      <circle cx="11.5" cy="7" r="1.6" fill="rgba(134,239,172,0.6)"/>
+    </svg>
+    In Bloom
+    <span id="inbloom-count" style="margin-left:2px;font-size:10px;color:rgba(134,239,172,0.5);"></span>
   </div>
 
   <div id="legend" class="panel">
@@ -1247,6 +1273,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let p22RouteSelected = false;
   let railwaySelected = false;
   let onNowSelected = false;
+  let inBloomSelected = false;
+  const inBloomGroup = L.layerGroup();
   let _skipNextMapClick = false;
   const artMarkerList = [];    // { marker, blvdName }
   const theatreMarkerList = []; // { marker, blvdName, isWiltern }
@@ -1347,7 +1375,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         px:  map.latLngToContainerPoint([t.lat, t.lon]),
       }));
 
-    const GAP = 14, LW = 220, LH_BASE = 30, LH_ROW = 52;
+    const GAP = 14, LW = 260, LH_BASE = 30, LH_ROW = 52;
     const mapSz = map.getSize();
 
     // Area of intersection between two rects (0 if none)
@@ -1559,6 +1587,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     pinLat = null; pinLon = null;
     infoPanel.classList.remove('open');
     selectedBlvd = null;
+    if (inBloomSelected) {
+      inBloomSelected = false;
+      document.getElementById('inbloom-btn').classList.remove('active');
+      inBloomGroup.clearLayers(); inBloomGroup.remove();
+      infoPanel.classList.remove('inbloom');
+    }
     resetProximity();
   }
 
@@ -1750,7 +1784,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (state === 'closed') {
       infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
       setTimeout(() => {
-        infoPanel.classList.remove('open', 'p22', 'railway');
+        infoPanel.classList.remove('open', 'p22', 'railway', 'inbloom');
         infoPanel.style.transform = '';
         infoPanel.style.transition = '';
       }, 350);
@@ -1794,7 +1828,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       clearTheatreLabels();
       theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
     }
-    infoPanel.classList.remove('open', 'onnow');
+    if (inBloomSelected) {
+      inBloomSelected = false;
+      document.getElementById('inbloom-btn').classList.remove('active');
+      inBloomGroup.clearLayers(); inBloomGroup.remove();
+    }
+    infoPanel.classList.remove('open', 'onnow', 'inbloom');
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
     else resetProximity();
@@ -2051,7 +2090,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function showInfo(blvd) {
     p22RouteSelected = false;
     railwaySelected = false;
-    infoPanel.classList.remove('railway');
+    if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); }
+    infoPanel.classList.remove('railway', 'inbloom');
     infoPanel.classList.add('open');
     if (isMobile()) {
       sheetPanelH = infoPanel.offsetHeight;
@@ -2216,6 +2256,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function showP22Info(obsBounds) {
     p22RouteSelected = true;
     if (onNowSelected) { onNowSelected = false; document.getElementById('onnow-btn').classList.remove('active'); }
+    if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
     selectedBlvd = null;
     // Dim all boulevard lines
     updateOverlayMarkers(null);
@@ -2326,6 +2367,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     railwaySelected = true;
     p22RouteSelected = false;
     if (onNowSelected) { onNowSelected = false; document.getElementById('onnow-btn').classList.remove('active'); }
+    if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
     selectedBlvd = null;
     updateOverlayMarkers(null);
     dimAllBoulevards();
@@ -2483,6 +2525,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // "📍 Map" tap — peek sheet, fly to theatre, open popup with shows
   infoExtract.addEventListener('click', e => {
+    const itImg = e.target.closest('img[data-itype]');
+    if (itImg) {
+      const idx = parseInt(itImg.dataset.idx);
+      if (itImg.dataset.itype === 'tree') window._openTreeFromPanel(idx);
+      else window._openNativePlantFromPanel(idx);
+      return;
+    }
     const btn = e.target.closest('.onstage-map-link');
     if (!btn) return;
     const name = decodeURIComponent(btn.dataset.name);
@@ -2535,11 +2584,161 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   document.getElementById('onnow-btn').addEventListener('click', showOnNowPanel);
 
+  // ── In Bloom ──────────────────────────────────────────────────────
+  const BLOOM_LIFESPAN_YEARS = {
+    'Jacaranda': 10, 'Coral Tree': 10, 'Washington Palm': 10,
+    'California Poppy': 1,
+    'Ceanothus': 5,
+    'Toyon': 7,
+  };
+  function isRecentEnough(item) {
+    if (!item.date) return true;
+    const years = BLOOM_LIFESPAN_YEARS[item.species] || 5;
+    const cutoff = new Date();
+    cutoff.setFullYear(cutoff.getFullYear() - years);
+    return new Date(item.date) >= cutoff;
+  }
+  function isPlantInSeason(species) {
+    const m = new Date().getMonth();
+    if (species === 'California Poppy') return [2, 3, 4].includes(m);
+    if (species === 'Ceanothus')        return [1, 2, 3, 4].includes(m);
+    if (species === 'Toyon')            return [5, 6, 7, 8, 9].includes(m);
+    return false;
+  }
+  const TREE_ICONS  = { 'Jacaranda': null, 'Coral Tree': null, 'Washington Palm': null };
+  const PLANT_ICONS = { 'California Poppy': null, 'Toyon': null, 'Ceanothus': null };
+  // Icons are populated after icon variables are defined (see loadIconicTrees block)
+
+  function renderInBloomMarkers() {
+    inBloomGroup.clearLayers();
+    treeData
+      .filter(t => isTreeInSeason(t.species) && t.species !== 'Washington Palm' && isRecentEnough(t))
+      .forEach(t => {
+        const icon = TREE_ICONS[t.species]; if (!icon) return;
+        const m = L.marker([t.lat, t.lon], { icon });
+        bindTreeClick(m, t);
+        inBloomGroup.addLayer(m);
+      });
+    nativePlantData
+      .filter(p => isPlantInSeason(p.species) && isRecentEnough(p))
+      .forEach(p => {
+        const icon = PLANT_ICONS[p.species]; if (!icon) return;
+        const m = L.marker([p.lat, p.lon], { icon });
+        bindPlantClick(m, p);
+        inBloomGroup.addLayer(m);
+      });
+    inBloomGroup.addTo(map);
+  }
+
+  function _buildInBloomHtml() {
+    const ROWS = [
+      { species:'Jacaranda',        data:treeData,        isTree:true,  color:TREE_COLORS['Jacaranda']         },
+      { species:'Coral Tree',       data:treeData,        isTree:true,  color:TREE_COLORS['Coral Tree']        },
+      { species:'California Poppy', data:nativePlantData, isTree:false, color:PLANT_COLORS['California Poppy'] },
+      { species:'Ceanothus',        data:nativePlantData, isTree:false, color:PLANT_COLORS['Ceanothus']        },
+      { species:'Toyon',            data:nativePlantData, isTree:false, color:PLANT_COLORS['Toyon']            },
+    ];
+    let html = '';
+    for (const { species, data, isTree, color } of ROWS) {
+      const inSeason = isTree ? isTreeInSeason(species) : isPlantInSeason(species);
+      const items = data.filter(x => x.species === species && isRecentEnough(x));
+      const badge = inSeason ? '🌸 Blooming now' : 'Not in season';
+      const badgeColor = inSeason ? 'rgba(134,239,172,0.9)' : '#4b5563';
+      const thumbs = items.filter(x => x.photo).slice(0, 6);
+      html += `<div style="margin-bottom:18px;">
+        <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:6px;">
+          <span style="font-size:11px;font-weight:600;color:${color};text-transform:uppercase;letter-spacing:.06em;">${species}</span>
+          <span style="font-size:10px;color:${badgeColor};">${badge}</span>
+          <span style="font-size:10px;color:#4b5563;margin-left:auto;">${items.length.toLocaleString()}</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:5px;">
+          ${thumbs.map(t =>
+            `<img src="${t.photo}" data-idx="${t._idx}" data-itype="${isTree?'tree':'plant'}"
+              style="width:54px;height:54px;object-fit:cover;border-radius:4px;cursor:pointer;
+                     border:1px solid rgba(255,255,255,0.08);" loading="lazy"/>`
+          ).join('')}
+        </div>
+      </div>`;
+    }
+    return html || `<div style="color:#6b7280;font-size:13px;">No blooming species this season.</div>`;
+  }
+
+  function updateInBloomCount() {
+    if (!treeData.length && !nativePlantData.length) return;
+    const n = treeData.filter(t => isTreeInSeason(t.species) && t.species !== 'Washington Palm' && isRecentEnough(t)).length
+            + nativePlantData.filter(p => isPlantInSeason(p.species) && isRecentEnough(p)).length;
+    const el = document.getElementById('inbloom-count');
+    if (el && n) el.textContent = n;
+  }
+
+  function showInBloomPanel() {
+    inBloomSelected = !inBloomSelected;
+    document.getElementById('inbloom-btn').classList.toggle('active', inBloomSelected);
+
+    if (inBloomSelected) {
+      // Deactivate other modes
+      onNowSelected = false;
+      document.getElementById('onnow-btn').classList.remove('active');
+      clearTheatreLabels();
+      theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
+      p22RouteSelected = false; railwaySelected = false;
+      selectedBlvd = null;
+      updateOverlayMarkers(null);
+      dimAllBoulevards();
+      renderInBloomMarkers();
+
+      if (isMobile()) {
+        infoPanel.classList.add('open', 'inbloom');
+        infoName.textContent = 'In Bloom';
+        infoImg.style.display = 'none';
+        [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
+         secTheatres,secArt,secWells,secButterflies].forEach(s => { if (s) s.style.display = 'none'; });
+        document.getElementById('info-extract').style.display = 'block';
+        document.getElementById('info-extract').innerHTML = _buildInBloomHtml();
+        infoPanel.style.transition = 'none';
+        infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
+        requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
+        return;
+      }
+
+      // Desktop
+      infoPanel.classList.add('open', 'inbloom');
+      infoName.textContent = 'In Bloom';
+      infoImg.style.display = 'none';
+      infoMeta.textContent = ''; infoStats.textContent = '';
+      infoEditorial.style.display = 'none';
+      photosStrip.innerHTML = '';
+      infoWiki.style.display = 'none';
+      infoShare.innerHTML = '';
+      [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
+       secTheatres,secArt,secWells,secButterflies].forEach(s => { if (s) s.style.display = 'none'; });
+      document.getElementById('info-extract').style.display = 'block';
+      document.getElementById('info-extract').innerHTML = _buildInBloomHtml();
+    } else {
+      inBloomGroup.clearLayers(); inBloomGroup.remove();
+      infoPanel.classList.remove('open', 'inbloom');
+      document.getElementById('info-extract').style.display = 'none';
+      if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
+    }
+  }
+
+  document.getElementById('inbloom-btn').addEventListener('click', showInBloomPanel);
+
+  // When scrolling inside a scrollable theatre label, don't let Leaflet zoom the map
+  map.getContainer().addEventListener('wheel', e => {
+    if (e.target.closest('.is-scrollable')) e.stopPropagation();
+  }, { capture: true });
+
   document.getElementById('info-close').addEventListener('click', () => {
     p22RouteSelected = false;
     railwaySelected = false;
     if (isMobile()) { closeSheet(); return; }
-    infoPanel.classList.remove('open', 'p22', 'railway');
+    if (inBloomSelected) {
+      inBloomSelected = false;
+      document.getElementById('inbloom-btn').classList.remove('active');
+      inBloomGroup.clearLayers(); inBloomGroup.remove();
+    }
+    infoPanel.classList.remove('open', 'p22', 'railway', 'inbloom');
     selectedBlvd = null;
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
@@ -2562,6 +2761,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (isMobile()) { closeSheet(); return; }
       infoPanel.classList.remove('open', 'railway');
       updateOverlayMarkers(null);
+      if (pinLat !== null) applyProximity(pinLat, pinLon);
+      else resetProximity();
+      return;
+    }
+    if (inBloomSelected) {
+      inBloomSelected = false;
+      document.getElementById('inbloom-btn').classList.remove('active');
+      inBloomGroup.clearLayers(); inBloomGroup.remove();
+      if (isMobile()) { closeSheet(); return; }
+      infoPanel.classList.remove('open', 'inbloom');
       if (pinLat !== null) applyProximity(pinLat, pinLon);
       else resetProximity();
       return;
@@ -3195,6 +3404,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const poppyIcon     = L.divIcon({ className: '', html: makeFlowerSvgHtml(10, 10, PLANT_COLORS['California Poppy']), iconSize: [10, 10], iconAnchor: [5, 5] });
   const toyonIcon     = L.divIcon({ className: '', html: makeFlowerSvgHtml(10, 10, PLANT_COLORS['Toyon']),            iconSize: [10, 10], iconAnchor: [5, 5] });
   const ceanothusIcon = L.divIcon({ className: '', html: makeFlowerSvgHtml(10, 10, PLANT_COLORS['Ceanothus']),        iconSize: [10, 10], iconAnchor: [5, 5] });
+  PLANT_ICONS['California Poppy'] = poppyIcon;
+  PLANT_ICONS['Toyon'] = toyonIcon;
+  PLANT_ICONS['Ceanothus'] = ceanothusIcon;
 
   function bindPlantClick(marker, p) {
     marker.on('click', e => {
@@ -3260,6 +3472,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const { plants } = await res.json();
       nativePlantData = plants.map((p, i) => ({ ...p, _idx: i }));
       if (selectedBlvd) renderPlantsDirect(filterNearBlvd(nativePlantData, selectedBlvd, 0.25));
+      updateInBloomCount();
     } catch (e) {
       console.warn('Native plants load failed:', e);
     }
@@ -3522,6 +3735,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const jacarandaIcon = L.divIcon({ className: '', html: makeLeafSvgHtml(9, 11, TREE_COLORS['Jacaranda']),       iconSize: [9, 11], iconAnchor: [4, 11] });
   const coralIcon     = L.divIcon({ className: '', html: makeLeafSvgHtml(9, 11, TREE_COLORS['Coral Tree']),      iconSize: [9, 11], iconAnchor: [4, 11] });
   const palmIcon      = L.divIcon({ className: '', html: makeLeafSvgHtml(9, 11, TREE_COLORS['Washington Palm']), iconSize: [9, 11], iconAnchor: [4, 11] });
+  TREE_ICONS['Jacaranda'] = jacarandaIcon;
+  TREE_ICONS['Coral Tree'] = coralIcon;
+  TREE_ICONS['Washington Palm'] = palmIcon;
   const pinnedJacaranda = new Set(), pinnedCoral = new Set(), pinnedPalm = new Set();
   const reclusterJacaranda = () => {}, reclusterCoral = () => {}, reclusterPalm = () => {};
 
@@ -3578,6 +3794,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       if (!res.ok) return;
       const { trees } = await res.json();
       treeData = trees.map((t, i) => ({ ...t, _idx: i }));
+      updateInBloomCount();
     } catch (e) {
       console.warn('Iconic trees load failed:', e);
     }
