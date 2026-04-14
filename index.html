@@ -2730,6 +2730,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     cutoff.setMonth(cutoff.getMonth() - 1);
     return new Date(item.date) >= cutoff;
   }
+  function isLionFresh(item) {
+    if (!item.photo || !item.date) return false;
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 90);
+    return new Date(item.date) >= cutoff;
+  }
   function isPlantInSeason(species) {
     const m = new Date().getMonth();
     if (species === 'California Poppy') return [2, 3, 4].includes(m);
@@ -2914,7 +2920,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // ── On the Prowl ──────────────────────────────────────────────────
   function _buildOnTheProwlHtml() {
-    const lions   = lionData.filter(l => isBloomFresh(l));
+    const lions   = lionData.filter(l => isLionFresh(l));
     const coyotes = coyoteData.filter(c => isBloomFresh(c));
     let html = `<div style="margin-bottom:18px;">
       <button class="prowl-collage-btn" style="width:100%;padding:9px 0;background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.3);border-radius:20px;color:rgba(245,158,11,0.9);font-size:13px;letter-spacing:.06em;cursor:pointer;">✦ Collage</button>
@@ -2941,7 +2947,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function updateProwlCount() {
     if (!lionData.length && !coyoteData.length) return;
-    const n = lionData.filter(l => isBloomFresh(l)).length
+    const n = lionData.filter(l => isLionFresh(l)).length
             + coyoteData.filter(c => isBloomFresh(c)).length;
     const el = document.getElementById('prowl-count');
     if (el && n) el.textContent = n;
@@ -2949,7 +2955,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function showProwlCollage() {
     const items = [
-      ...lionData.filter(l => isBloomFresh(l)).map(l => ({ ...l, _label: 'Mountain Lion' })),
+      ...lionData.filter(l => isLionFresh(l)).map(l => ({ ...l, _label: 'Mountain Lion' })),
       ...coyoteData.filter(c => isBloomFresh(c)).map(c => ({ ...c, _label: 'Coyote' })),
     ].sort(() => Math.random() - 0.5);
     const overlay = document.createElement('div');
