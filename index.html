@@ -3598,8 +3598,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // ── Wild Parrots ───────────────────────────────────────────────
   let parrotData = [];
-  const parrotRenderGroup = L.layerGroup().addTo(map);
-  let parrotsOn = true;
+  const parrotRenderGroup = L.layerGroup();
+  let parrotsOn = false;
+  document.getElementById('parrot-toggle').classList.add('off');
   document.getElementById('parrot-toggle').addEventListener('click', () => {
     parrotsOn = !parrotsOn;
     parrotsOn ? parrotRenderGroup.addTo(map) : parrotRenderGroup.remove();
@@ -3671,8 +3672,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // ── Coyotes ────────────────────────────────────────────────────
   let coyoteData = [];
-  const coyoteRenderGroup = L.layerGroup().addTo(map);
-  let coyotesOn = true;
+  const coyoteRenderGroup = L.layerGroup();
+  let coyotesOn = false;
+  document.getElementById('coyote-toggle').classList.add('off');
   document.getElementById('coyote-toggle').addEventListener('click', () => {
     coyotesOn = !coyotesOn;
     coyotesOn ? coyoteRenderGroup.addTo(map) : coyoteRenderGroup.remove();
@@ -3921,8 +3923,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // ── Hidden Oil Wells ────────────────────────────────────────────
   let wellData = [];
-  const wellRenderGroup = L.layerGroup().addTo(map);
-  let wellsOn = true;
+  const wellRenderGroup = L.layerGroup();
+  let wellsOn = false;
+  document.getElementById('well-toggle').classList.add('off');
   document.getElementById('well-toggle').addEventListener('click', () => {
     wellsOn = !wellsOn;
     wellsOn ? wellRenderGroup.addTo(map) : wellRenderGroup.remove();
@@ -3983,8 +3986,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let p22ObsDots = [];
   let crossingMarker = null;
   let _p22LastPhoto = null;
-  const lionRenderGroup = L.layerGroup().addTo(map);
-  let lionsOn = true;
+  const lionRenderGroup = L.layerGroup();
+  let lionsOn = false;
+  document.getElementById('lion-toggle').classList.add('off');
 
   // P-22's journey: Santa Monica Mtns → 405 crossing → Sepulveda Pass → 101 crossing → Griffith Park
   const P22_ROUTE = [
@@ -4028,7 +4032,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('lion-toggle').addEventListener('click', () => {
     lionsOn = !lionsOn;
     lionsOn ? lionRenderGroup.addTo(map) : lionRenderGroup.remove();
-    setP22RouteVisible(lionsOn);
     document.getElementById('lion-toggle').classList.toggle('off', !lionsOn);
   });
 
