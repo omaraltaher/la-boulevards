@@ -598,6 +598,18 @@ path.leaflet-interactive:focus { outline:none; }
 #inbloom-btn:hover { border-color:rgba(134,239,172,0.65); }
 #inbloom-btn.active { border-color:rgba(134,239,172,0.8); background:rgba(134,239,172,0.10); }
 #info-panel.inbloom { border-color:rgba(134,239,172,0.35); box-shadow:0 0 24px rgba(134,239,172,0.07); }
+#info-panel.ontheprowl { border-color:rgba(245,158,11,0.35); box-shadow:0 0 24px rgba(245,158,11,0.07); }
+#ontheprowl-btn {
+  display:flex; align-items:center; gap:7px;
+  background:rgba(15,17,35,0.93);
+  border:1px solid rgba(245,158,11,0.35);
+  border-radius:20px; padding:7px 14px;
+  color:rgba(245,158,11,0.9); font-size:13px;
+  cursor:pointer; user-select:none; white-space:nowrap;
+}
+#ontheprowl-btn:hover { border-color:rgba(245,158,11,0.65); }
+#ontheprowl-btn.active { border-color:rgba(245,158,11,0.8); background:rgba(245,158,11,0.10); }
+#prowl-count { font-size:11px; color:rgba(245,158,11,0.5); }
 #legend .sunset-legend-line {
   background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7);
 }
@@ -882,7 +894,8 @@ path.leaflet-interactive:focus { outline:none; }
 #bloom-collage {
   position:fixed; inset:0; z-index:9500;
   background:#000;
-  overflow-y:auto;
+  overflow:hidden;
+  display:flex; flex-direction:column;
   animation:bloomCollageIn 0.45s cubic-bezier(0.16,1,0.3,1) both;
 }
 @keyframes bloomCollageIn {
@@ -890,10 +903,10 @@ path.leaflet-interactive:focus { outline:none; }
   to   { opacity:1; transform:scale(1); }
 }
 #bloom-collage-header {
-  position:sticky; top:0; z-index:1;
+  flex-shrink:0;
   display:flex; align-items:center; justify-content:space-between;
   padding:22px 28px 16px;
-  background:linear-gradient(to bottom,rgba(0,0,0,0.97) 60%,transparent);
+  background:rgba(0,0,0,0.97);
   pointer-events:none;
 }
 #bloom-collage-title {
@@ -915,14 +928,14 @@ path.leaflet-interactive:focus { outline:none; }
 }
 #bloom-collage-close:hover { background:rgba(255,255,255,0.13); border-color:rgba(255,255,255,0.45); color:#fff; }
 #bloom-collage-grid {
-  columns:4 160px; column-gap:3px;
-  padding:0 3px 40px;
+  display:grid; gap:3px;
+  padding:0 3px 3px;
+  flex:1; min-height:0; overflow:hidden;
 }
 .bloom-col-item {
-  break-inside:avoid; margin-bottom:3px;
-  position:relative; overflow:hidden; cursor:pointer;
+  position:relative; overflow:hidden; cursor:pointer; min-height:0;
 }
-.bloom-col-item img { width:100%; display:block; }
+.bloom-col-item img { width:100%; height:100%; object-fit:cover; display:block; }
 .bloom-col-item-label {
   position:absolute; bottom:0; left:0; right:0;
   padding:24px 8px 7px;
@@ -981,6 +994,16 @@ path.leaflet-interactive:focus { outline:none; }
       </svg>
       In Bloom
       <span id="inbloom-count" style="margin-left:2px;font-size:10px;color:rgba(134,239,172,0.5);"></span>
+    </div>
+    <div id="ontheprowl-btn" title="Recent coyote and mountain lion sightings across LA">
+      <svg width="14" height="14" viewBox="0 0 14 14">
+        <circle cx="3.5" cy="3.5" r="1.5" fill="rgba(245,158,11,0.8)"/>
+        <circle cx="7"   cy="2.2" r="1.5" fill="rgba(245,158,11,0.8)"/>
+        <circle cx="10.5" cy="3.5" r="1.5" fill="rgba(245,158,11,0.8)"/>
+        <ellipse cx="7" cy="9" rx="3.2" ry="3.5" fill="rgba(245,158,11,0.75)"/>
+      </svg>
+      On the Prowl
+      <span id="prowl-count"></span>
     </div>
   </div>
 
@@ -1331,6 +1354,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let railwaySelected = false;
   let onNowSelected = false;
   let inBloomSelected = false;
+  let onTheProwlSelected = false;
   const inBloomGroup = L.layerGroup();
   let _skipNextMapClick = false;
   const artMarkerList = [];    // { marker, blvdName }
@@ -1650,6 +1674,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       inBloomGroup.clearLayers(); inBloomGroup.remove();
       infoPanel.classList.remove('inbloom');
     }
+    if (onTheProwlSelected) {
+      onTheProwlSelected = false;
+      document.getElementById('ontheprowl-btn').classList.remove('active');
+      infoPanel.classList.remove('ontheprowl');
+    }
     resetProximity();
   }
 
@@ -1841,7 +1870,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     if (state === 'closed') {
       infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
       setTimeout(() => {
-        infoPanel.classList.remove('open', 'p22', 'railway', 'inbloom');
+        infoPanel.classList.remove('open', 'p22', 'railway', 'inbloom', 'ontheprowl');
         infoPanel.style.transform = '';
         infoPanel.style.transition = '';
       }, 350);
@@ -1890,7 +1919,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       document.getElementById('inbloom-btn').classList.remove('active');
       inBloomGroup.clearLayers(); inBloomGroup.remove();
     }
-    infoPanel.classList.remove('open', 'onnow', 'inbloom');
+    if (onTheProwlSelected) {
+      onTheProwlSelected = false;
+      document.getElementById('ontheprowl-btn').classList.remove('active');
+    }
+    infoPanel.classList.remove('open', 'onnow', 'inbloom', 'ontheprowl');
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
     else resetProximity();
@@ -2148,6 +2181,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22RouteSelected = false;
     railwaySelected = false;
     if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); }
+    if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
     infoPanel.classList.remove('railway', 'inbloom');
     infoPanel.classList.add('open');
     if (isMobile()) {
@@ -2314,6 +2348,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22RouteSelected = true;
     if (onNowSelected) { onNowSelected = false; document.getElementById('onnow-btn').classList.remove('active'); }
     if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
+    if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
     selectedBlvd = null;
     // Dim all boulevard lines
     updateOverlayMarkers(null);
@@ -2425,6 +2460,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22RouteSelected = false;
     if (onNowSelected) { onNowSelected = false; document.getElementById('onnow-btn').classList.remove('active'); }
     if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
+    if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
     selectedBlvd = null;
     updateOverlayMarkers(null);
     dimAllBoulevards();
@@ -2582,11 +2618,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   // "📍 Map" tap — peek sheet, fly to theatre, open popup with shows
   infoExtract.addEventListener('click', e => {
+    if (e.target.closest('.prowl-collage-btn')) { showProwlCollage(); return; }
     if (e.target.closest('.bloom-collage-btn')) { showBloomCollage(); return; }
     const itImg = e.target.closest('img[data-itype]');
     if (itImg) {
       const idx = parseInt(itImg.dataset.idx);
-      if (itImg.dataset.itype === 'tree') window._openTreeFromPanel(idx);
+      if (itImg.dataset.itype === 'lion')   window._openLionFromPanel(idx);
+      else if (itImg.dataset.itype === 'coyote') window._openCoyoteFromPanel(idx);
+      else if (itImg.dataset.itype === 'tree') window._openTreeFromPanel(idx);
       else window._openNativePlantFromPanel(idx);
       return;
     }
@@ -2629,6 +2668,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     onNowSelected = !onNowSelected;
     document.getElementById('onnow-btn').classList.toggle('active', onNowSelected);
     if (onNowSelected) {
+      if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); document.getElementById('info-extract').style.display = 'none'; }
       dimAllBoulevards();
       updateOverlayMarkers(null); // desktop: shows markers + callout labels
       if (isMobile()) _openOnNowSheet();
@@ -2734,6 +2774,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       document.getElementById('onnow-btn').classList.remove('active');
       clearTheatreLabels();
       theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
+      if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
       p22RouteSelected = false; railwaySelected = false;
       selectedBlvd = null;
       updateOverlayMarkers(null);
@@ -2800,6 +2841,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         ).join('')
       }</div>`;
     document.body.appendChild(overlay);
+    requestAnimationFrame(() => _sizeCollageGrid(overlay, items.length));
 
     const close = () => {
       overlay.style.animation = 'none';
@@ -2813,6 +2855,134 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     };
     document.addEventListener('keydown', escHandler);
   }
+
+  function _sizeCollageGrid(overlay, n) {
+    const header = overlay.querySelector('#bloom-collage-header');
+    const grid   = overlay.querySelector('#bloom-collage-grid');
+    const availW = window.innerWidth  - 6;
+    const availH = window.innerHeight - header.offsetHeight - 6;
+    const aspect = availW / availH;
+    let cols = Math.max(1, Math.round(Math.sqrt(n * aspect)));
+    // nudge cols until rows fit without overflow
+    while (Math.ceil(n / cols) * (availW / cols) > availH && cols < n) cols++;
+    const rows = Math.ceil(n / cols);
+    grid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+    grid.style.gridTemplateRows    = `repeat(${rows}, 1fr)`;
+  }
+
+  // ── On the Prowl ──────────────────────────────────────────────────
+  function _buildOnTheProwlHtml() {
+    const lions   = lionData.filter(l => isBloomFresh(l));
+    const coyotes = coyoteData.filter(c => isBloomFresh(c));
+    let html = `<div style="margin-bottom:18px;">
+      <button class="prowl-collage-btn" style="width:100%;padding:9px 0;background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.3);border-radius:20px;color:rgba(245,158,11,0.9);font-size:13px;letter-spacing:.06em;cursor:pointer;">✦ Collage</button>
+    </div>`;
+    for (const { items, color, label, itype } of [
+      { items: lions,   color: 'rgba(245,158,11,0.8)',  label: 'Mountain Lion', itype: 'lion'   },
+      { items: coyotes, color: 'rgba(160,120,56,0.8)',  label: 'Coyote',        itype: 'coyote' },
+    ]) {
+      const thumbs = items.filter(x => x.photo).slice(0, 6);
+      html += `<div style="margin-bottom:18px;">
+        <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:6px;">
+          <span style="font-size:11px;font-weight:600;color:${color};text-transform:uppercase;letter-spacing:.06em;">${label}</span>
+          <span style="font-size:10px;color:#4b5563;margin-left:auto;">${items.length.toLocaleString()}</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:5px;">
+          ${thumbs.map(t => `<img src="${t.photo}" data-idx="${t._idx}" data-itype="${itype}"
+            style="width:54px;height:54px;object-fit:cover;border-radius:4px;cursor:pointer;
+                   border:1px solid rgba(255,255,255,0.08);" loading="lazy"/>`).join('')}
+        </div>
+      </div>`;
+    }
+    return html;
+  }
+
+  function updateProwlCount() {
+    if (!lionData.length && !coyoteData.length) return;
+    const n = lionData.filter(l => isBloomFresh(l)).length
+            + coyoteData.filter(c => isBloomFresh(c)).length;
+    const el = document.getElementById('prowl-count');
+    if (el && n) el.textContent = n;
+  }
+
+  function showProwlCollage() {
+    const items = [
+      ...lionData.filter(l => isBloomFresh(l)).map(l => ({ ...l, _label: 'Mountain Lion' })),
+      ...coyoteData.filter(c => isBloomFresh(c)).map(c => ({ ...c, _label: 'Coyote' })),
+    ].sort(() => Math.random() - 0.5);
+    const overlay = document.createElement('div');
+    overlay.id = 'bloom-collage';
+    overlay.innerHTML =
+      `<div id="bloom-collage-header">
+        <div><div id="bloom-collage-title" style="color:rgba(245,158,11,0.9);">On the Prowl · Los Angeles</div>
+          <div id="bloom-collage-sub">${items.length} sightings · past 30 days</div></div>
+        <button id="bloom-collage-close" title="Close (Esc)">×</button>
+      </div>
+      <div id="bloom-collage-grid">${
+        items.map(p => `<div class="bloom-col-item">
+          <img src="${p.photo}" loading="lazy" onerror="this.closest('.bloom-col-item').style.display='none'"/>
+          <div class="bloom-col-item-label">${p._label}</div>
+        </div>`).join('')
+      }</div>`;
+    document.body.appendChild(overlay);
+    requestAnimationFrame(() => _sizeCollageGrid(overlay, items.length));
+    const close = () => { overlay.style.animation = 'none'; overlay.style.transition = 'opacity 0.2s'; overlay.style.opacity = '0'; setTimeout(() => overlay.remove(), 200); };
+    overlay.querySelector('#bloom-collage-close').addEventListener('click', close);
+    const esc = e => { if (e.key === 'Escape') { close(); document.removeEventListener('keydown', esc); } };
+    document.addEventListener('keydown', esc);
+  }
+
+  function showOnTheProwlPanel() {
+    onTheProwlSelected = !onTheProwlSelected;
+    document.getElementById('ontheprowl-btn').classList.toggle('active', onTheProwlSelected);
+
+    if (onTheProwlSelected) {
+      // Deactivate other modes
+      onNowSelected = false;
+      document.getElementById('onnow-btn').classList.remove('active');
+      clearTheatreLabels();
+      theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
+      if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
+      p22RouteSelected = false; railwaySelected = false;
+      selectedBlvd = null;
+      updateOverlayMarkers(null);
+      dimAllBoulevards();
+
+      if (isMobile()) {
+        infoPanel.classList.add('open', 'ontheprowl');
+        infoName.textContent = 'On the Prowl';
+        infoImg.style.display = 'none';
+        [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
+         secTheatres,secArt,secWells,secButterflies].forEach(s => { if (s) s.style.display = 'none'; });
+        document.getElementById('info-extract').style.display = 'block';
+        document.getElementById('info-extract').innerHTML = _buildOnTheProwlHtml();
+        infoPanel.style.transition = 'none';
+        infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
+        requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
+        return;
+      }
+
+      // Desktop
+      infoPanel.classList.add('open', 'ontheprowl');
+      infoName.textContent = 'On the Prowl';
+      infoImg.style.display = 'none';
+      infoMeta.textContent = ''; infoStats.textContent = '';
+      infoEditorial.style.display = 'none';
+      photosStrip.innerHTML = '';
+      infoWiki.style.display = 'none';
+      infoShare.innerHTML = '';
+      [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
+       secTheatres,secArt,secWells,secButterflies].forEach(s => { if (s) s.style.display = 'none'; });
+      document.getElementById('info-extract').style.display = 'block';
+      document.getElementById('info-extract').innerHTML = _buildOnTheProwlHtml();
+    } else {
+      infoPanel.classList.remove('open', 'ontheprowl');
+      document.getElementById('info-extract').style.display = 'none';
+      if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
+    }
+  }
+
+  document.getElementById('ontheprowl-btn').addEventListener('click', showOnTheProwlPanel);
 
   // When the pointer is inside a scrollable theatre label, disable map scroll-zoom
   // so two-finger swipes scroll the list rather than zooming the map.
@@ -2834,7 +3004,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       document.getElementById('inbloom-btn').classList.remove('active');
       inBloomGroup.clearLayers(); inBloomGroup.remove();
     }
-    infoPanel.classList.remove('open', 'p22', 'railway', 'inbloom');
+    if (onTheProwlSelected) {
+      onTheProwlSelected = false;
+      document.getElementById('ontheprowl-btn').classList.remove('active');
+    }
+    infoPanel.classList.remove('open', 'p22', 'railway', 'inbloom', 'ontheprowl');
     selectedBlvd = null;
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
@@ -2867,6 +3041,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       inBloomGroup.clearLayers(); inBloomGroup.remove();
       if (isMobile()) { closeSheet(); return; }
       infoPanel.classList.remove('open', 'inbloom');
+      if (pinLat !== null) applyProximity(pinLat, pinLon);
+      else resetProximity();
+      return;
+    }
+    if (onTheProwlSelected) {
+      onTheProwlSelected = false;
+      document.getElementById('ontheprowl-btn').classList.remove('active');
+      if (isMobile()) { closeSheet(); return; }
+      infoPanel.classList.remove('open', 'ontheprowl');
+      document.getElementById('info-extract').style.display = 'none';
       if (pinLat !== null) applyProximity(pinLat, pinLon);
       else resetProximity();
       return;
@@ -3387,6 +3571,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const { coyotes } = await res.json();
       coyoteData = coyotes.map((c, i) => ({ ...c, _idx: i }));
       reclusterCoyotes();
+      updateProwlCount();
     } catch (e) {
       console.warn('Coyote load failed:', e);
     }
@@ -3768,6 +3953,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       p22SightingData = p22 || [];
 
       reclusterLions();
+      updateProwlCount();
     } catch (e) {
       console.warn('Lion load failed:', e);
     }
