@@ -445,15 +445,15 @@ path.leaflet-interactive:focus { outline:none; }
 #info-parrots-title { font-size:11px; color:rgba(34,197,94,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-lions-title { font-size:11px; color:rgba(245,158,11,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-coyotes-title { font-size:11px; color:rgba(160,120,56,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
-#info-parrots-list, #info-lions-list, #info-coyotes-list { display:flex; flex-wrap:nowrap; gap:8px; overflow-x:auto; }
+#info-parrots-list, #info-lions-list, #info-coyotes-list { display:flex; flex-wrap:wrap; gap:8px; }
 #info-butterflies, #info-nativeplants { display:none; margin-top:16px; }
 #info-butterflies-title { font-size:11px; color:rgba(251,191,36,0.9); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
 #info-nativeplants-title { font-size:11px; color:rgba(249,115,22,0.9); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
-#info-butterflies-list { display:flex; flex-wrap:nowrap; gap:8px; overflow-x:auto; }
+#info-butterflies-list { display:flex; flex-wrap:wrap; gap:8px; }
 #info-cameras { display:none; margin-top:16px; }
 #info-cameras-title { font-size:11px; color:rgba(103,232,249,0.85); text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; }
-#info-cameras-list { display:flex; flex-wrap:nowrap; gap:8px; overflow-x:auto; }
-.cam-thumb-item { cursor:pointer; width:120px; flex-shrink:0; }
+#info-cameras-list { display:flex; flex-wrap:wrap; gap:8px; }
+.cam-thumb-item { cursor:pointer; width:120px; }
 .cam-thumb-item img { width:120px; height:68px; object-fit:cover; border-radius:3px; display:block; }
 .cam-thumb-item.portrait { width:80px; }
 .cam-thumb-item.portrait img { width:80px; height:107px; }
@@ -2778,10 +2778,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           <span style="font-size:10px;color:${badgeColor};">${badge}</span>
           <span style="font-size:10px;color:#4b5563;margin-left:auto;">${items.length.toLocaleString()}</span>
         </div>
-        <div style="display:flex;flex-wrap:nowrap;gap:5px;overflow-x:auto;">
+        <div style="display:flex;flex-wrap:wrap;gap:5px;">
           ${thumbs.map(t =>
             `<img src="${t.photo}" data-idx="${t._idx}" data-itype="${isTree?'tree':'plant'}"
-              style="width:54px;height:54px;object-fit:cover;border-radius:4px;cursor:pointer;flex-shrink:0;
+              style="width:54px;height:54px;object-fit:cover;border-radius:4px;cursor:pointer;
                      border:1px solid rgba(255,255,255,0.08);" loading="lazy"/>`
           ).join('')}
         </div>
@@ -2922,9 +2922,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
           <span style="font-size:11px;font-weight:600;color:${color};text-transform:uppercase;letter-spacing:.06em;">${label}</span>
           <span style="font-size:10px;color:#4b5563;margin-left:auto;">${items.length.toLocaleString()}</span>
         </div>
-        <div style="display:flex;flex-wrap:nowrap;gap:5px;overflow-x:auto;">
+        <div style="display:flex;flex-wrap:wrap;gap:5px;">
           ${thumbs.map(t => `<img src="${t.photo}" data-idx="${t._idx}" data-itype="${itype}"
-            style="width:54px;height:54px;object-fit:cover;border-radius:4px;cursor:pointer;flex-shrink:0;
+            style="width:54px;height:54px;object-fit:cover;border-radius:4px;cursor:pointer;
                    border:1px solid rgba(255,255,255,0.08);" loading="lazy"/>`).join('')}
         </div>
       </div>`;
@@ -3052,9 +3052,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         <span style="font-size:11px;font-weight:600;color:rgba(163,230,53,0.9);text-transform:uppercase;letter-spacing:.06em;">Wild Parrot</span>
         <span style="font-size:10px;color:#4b5563;margin-left:auto;">${parrots.length.toLocaleString()}</span>
       </div>
-      <div style="display:flex;flex-wrap:nowrap;gap:5px;overflow-x:auto;">
+      <div style="display:flex;flex-wrap:wrap;gap:5px;">
         ${thumbs.map(t => `<img src="${t.photo}" data-idx="${t._idx}" data-itype="parrot"
-          style="width:54px;height:54px;object-fit:cover;border-radius:4px;cursor:pointer;flex-shrink:0;
+          style="width:54px;height:54px;object-fit:cover;border-radius:4px;cursor:pointer;
                  border:1px solid rgba(255,255,255,0.08);" loading="lazy"/>`).join('')}
       </div>
     </div>`;
@@ -3903,7 +3903,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       const color = PLANT_COLORS[sp] || '#f97316';
       html += `<div style="margin-bottom:8px;">` +
         `<div style="font-size:11px;font-weight:600;color:${color};margin-bottom:3px;">${sp}</div>` +
-        `<div style="display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;">` +
+        `<div style="display:flex;flex-wrap:wrap;gap:6px;">` +
         spItems.slice(0, 6).map(p => {
           const label = p.date ? new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', {month:'short', year:'numeric'}) : sp;
           return `<div class="cam-thumb-item portrait" onclick="_openNativePlantFromPanel(${p._idx})">` +
@@ -4230,7 +4230,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         (isTreeInSeason(sp) ? '🌸 Blooming now' : 'Not in season');
       html += `<div style="margin-bottom:8px;">` +
         `<div style="font-size:11px;font-weight:600;color:${color};margin-bottom:3px;">${sp} <span style="color:#6b7280;font-weight:normal;">${seasonLabel}</span></div>` +
-        `<div style="display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;">` +
+        `<div style="display:flex;flex-wrap:wrap;gap:6px;">` +
         spItems.slice(0, 6).map(t => {
           const label = t.date ? new Date(t.date + 'T12:00:00').toLocaleDateString('en-US', {month:'short', year:'numeric'}) : sp;
           return `<div class="cam-thumb-item portrait" onclick="_openTreeFromPanel(${t._idx})">` +
