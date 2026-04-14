@@ -1386,6 +1386,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   let inBloomSelected = false;
   let onTheProwlSelected = false;
   let goingFeralSelected = false;
+  let _prowlForcedCoyotes = false, _prowlForcedLions = false;
+  let _feralForcedParrots = false;
   const inBloomGroup = L.layerGroup();
   let _skipNextMapClick = false;
   const artMarkerList = [];    // { marker, blvdName }
@@ -1705,16 +1707,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       inBloomGroup.clearLayers(); inBloomGroup.remove();
       infoPanel.classList.remove('inbloom');
     }
-    if (onTheProwlSelected) {
-      onTheProwlSelected = false;
-      document.getElementById('ontheprowl-btn').classList.remove('active');
-      infoPanel.classList.remove('ontheprowl');
-    }
-    if (goingFeralSelected) {
-      goingFeralSelected = false;
-      document.getElementById('goingferal-btn').classList.remove('active');
-      infoPanel.classList.remove('goingferal');
-    }
+    _deactivateProwl(); _deactivateFeral();
     resetProximity();
   }
 
@@ -1955,14 +1948,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       document.getElementById('inbloom-btn').classList.remove('active');
       inBloomGroup.clearLayers(); inBloomGroup.remove();
     }
-    if (onTheProwlSelected) {
-      onTheProwlSelected = false;
-      document.getElementById('ontheprowl-btn').classList.remove('active');
-    }
-    if (goingFeralSelected) {
-      goingFeralSelected = false;
-      document.getElementById('goingferal-btn').classList.remove('active');
-    }
+    _deactivateProwl(); _deactivateFeral();
     infoPanel.classList.remove('open', 'onnow', 'inbloom', 'ontheprowl', 'goingferal');
     updateOverlayMarkers(null);
     if (pinLat !== null) applyProximity(pinLat, pinLon);
@@ -2221,8 +2207,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22RouteSelected = false;
     railwaySelected = false;
     if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); }
-    if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
-    if (goingFeralSelected) { goingFeralSelected = false; document.getElementById('goingferal-btn').classList.remove('active'); infoPanel.classList.remove('goingferal'); }
+    _deactivateProwl(); _deactivateFeral();
     infoPanel.classList.remove('railway', 'inbloom');
     infoPanel.classList.add('open');
     if (isMobile()) {
@@ -2389,8 +2374,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22RouteSelected = true;
     if (onNowSelected) { onNowSelected = false; document.getElementById('onnow-btn').classList.remove('active'); }
     if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
-    if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
-    if (goingFeralSelected) { goingFeralSelected = false; document.getElementById('goingferal-btn').classList.remove('active'); infoPanel.classList.remove('goingferal'); }
+    _deactivateProwl(); _deactivateFeral();
     selectedBlvd = null;
     // Dim all boulevard lines
     updateOverlayMarkers(null);
@@ -2502,8 +2486,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22RouteSelected = false;
     if (onNowSelected) { onNowSelected = false; document.getElementById('onnow-btn').classList.remove('active'); }
     if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
-    if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
-    if (goingFeralSelected) { goingFeralSelected = false; document.getElementById('goingferal-btn').classList.remove('active'); infoPanel.classList.remove('goingferal'); }
+    _deactivateProwl(); _deactivateFeral();
     selectedBlvd = null;
     updateOverlayMarkers(null);
     dimAllBoulevards();
@@ -2713,8 +2696,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     onNowSelected = !onNowSelected;
     document.getElementById('onnow-btn').classList.toggle('active', onNowSelected);
     if (onNowSelected) {
-      if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); document.getElementById('info-extract').style.display = 'none'; }
-      if (goingFeralSelected) { goingFeralSelected = false; document.getElementById('goingferal-btn').classList.remove('active'); infoPanel.classList.remove('goingferal'); document.getElementById('info-extract').style.display = 'none'; }
+      _deactivateProwl(); _deactivateFeral(); document.getElementById('info-extract').style.display = 'none';
       dimAllBoulevards();
       updateOverlayMarkers(null); // desktop: shows markers + callout labels
       if (isMobile()) _openOnNowSheet();
@@ -2985,6 +2967,20 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     document.addEventListener('keydown', esc);
   }
 
+  function _deactivateProwl() {
+    onTheProwlSelected = false;
+    document.getElementById('ontheprowl-btn').classList.remove('active');
+    infoPanel.classList.remove('ontheprowl');
+    if (_prowlForcedCoyotes) { coyotesOn = false; coyoteRenderGroup.remove(); _prowlForcedCoyotes = false; }
+    if (_prowlForcedLions)   { lionsOn   = false; lionRenderGroup.remove();   _prowlForcedLions   = false; }
+  }
+  function _deactivateFeral() {
+    goingFeralSelected = false;
+    document.getElementById('goingferal-btn').classList.remove('active');
+    infoPanel.classList.remove('goingferal');
+    if (_feralForcedParrots) { parrotsOn = false; parrotRenderGroup.remove(); _feralForcedParrots = false; }
+  }
+
   function showOnTheProwlPanel() {
     onTheProwlSelected = !onTheProwlSelected;
     document.getElementById('ontheprowl-btn').classList.toggle('active', onTheProwlSelected);
@@ -3000,6 +2996,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       selectedBlvd = null;
       updateOverlayMarkers(null);
       dimAllBoulevards();
+      _prowlForcedCoyotes = !coyotesOn;
+      if (!coyotesOn) { coyotesOn = true; reclusterCoyotes(); coyoteRenderGroup.addTo(map); }
+      _prowlForcedLions = !lionsOn;
+      if (!lionsOn) { lionsOn = true; reclusterLions(); lionRenderGroup.addTo(map); }
 
       if (isMobile()) {
         infoPanel.classList.add('open', 'ontheprowl');
@@ -3031,6 +3031,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     } else {
       infoPanel.classList.remove('open', 'ontheprowl');
       document.getElementById('info-extract').style.display = 'none';
+      if (_prowlForcedCoyotes) { coyotesOn = false; coyoteRenderGroup.remove(); _prowlForcedCoyotes = false; }
+      if (_prowlForcedLions)   { lionsOn   = false; lionRenderGroup.remove();   _prowlForcedLions   = false; }
       if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
     }
   }
@@ -3100,11 +3102,13 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       clearTheatreLabels();
       theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
       if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
-      if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
+      _deactivateProwl();
       p22RouteSelected = false; railwaySelected = false;
       selectedBlvd = null;
       updateOverlayMarkers(null);
       dimAllBoulevards();
+      _feralForcedParrots = !parrotsOn;
+      if (!parrotsOn) { parrotsOn = true; reclusterParrots(); parrotRenderGroup.addTo(map); }
 
       if (isMobile()) {
         infoPanel.classList.add('open', 'goingferal');
@@ -3135,6 +3139,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     } else {
       infoPanel.classList.remove('open', 'goingferal');
       document.getElementById('info-extract').style.display = 'none';
+      if (_feralForcedParrots) { parrotsOn = false; parrotRenderGroup.remove(); _feralForcedParrots = false; }
       if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
     }
   }
@@ -3161,14 +3166,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       document.getElementById('inbloom-btn').classList.remove('active');
       inBloomGroup.clearLayers(); inBloomGroup.remove();
     }
-    if (onTheProwlSelected) {
-      onTheProwlSelected = false;
-      document.getElementById('ontheprowl-btn').classList.remove('active');
-    }
-    if (goingFeralSelected) {
-      goingFeralSelected = false;
-      document.getElementById('goingferal-btn').classList.remove('active');
-    }
+    _deactivateProwl(); _deactivateFeral();
     infoPanel.classList.remove('open', 'p22', 'railway', 'inbloom', 'ontheprowl', 'goingferal');
     selectedBlvd = null;
     updateOverlayMarkers(null);
@@ -3207,20 +3205,18 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       return;
     }
     if (onTheProwlSelected) {
-      onTheProwlSelected = false;
-      document.getElementById('ontheprowl-btn').classList.remove('active');
+      _deactivateProwl();
       if (isMobile()) { closeSheet(); return; }
-      infoPanel.classList.remove('open', 'ontheprowl');
+      infoPanel.classList.remove('open');
       document.getElementById('info-extract').style.display = 'none';
       if (pinLat !== null) applyProximity(pinLat, pinLon);
       else resetProximity();
       return;
     }
     if (goingFeralSelected) {
-      goingFeralSelected = false;
-      document.getElementById('goingferal-btn').classList.remove('active');
+      _deactivateFeral();
       if (isMobile()) { closeSheet(); return; }
-      infoPanel.classList.remove('open', 'goingferal');
+      infoPanel.classList.remove('open');
       document.getElementById('info-extract').style.display = 'none';
       if (pinLat !== null) applyProximity(pinLat, pinLon);
       else resetProximity();
@@ -3616,6 +3612,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('parrot-toggle').addEventListener('click', () => {
     parrotsOn = !parrotsOn;
     parrotsOn ? parrotRenderGroup.addTo(map) : parrotRenderGroup.remove();
+    if (parrotsOn) reclusterParrots();
     document.getElementById('parrot-toggle').classList.toggle('off', !parrotsOn);
   });
 
@@ -3690,6 +3687,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('coyote-toggle').addEventListener('click', () => {
     coyotesOn = !coyotesOn;
     coyotesOn ? coyoteRenderGroup.addTo(map) : coyoteRenderGroup.remove();
+    if (coyotesOn) reclusterCoyotes();
     document.getElementById('coyote-toggle').classList.toggle('off', !coyotesOn);
   });
 
@@ -3941,6 +3939,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('well-toggle').addEventListener('click', () => {
     wellsOn = !wellsOn;
     wellsOn ? wellRenderGroup.addTo(map) : wellRenderGroup.remove();
+    if (wellsOn) reclusterWells();
     document.getElementById('well-toggle').classList.toggle('off', !wellsOn);
   });
 
@@ -4044,6 +4043,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('lion-toggle').addEventListener('click', () => {
     lionsOn = !lionsOn;
     lionsOn ? lionRenderGroup.addTo(map) : lionRenderGroup.remove();
+    if (lionsOn) reclusterLions();
     document.getElementById('lion-toggle').classList.toggle('off', !lionsOn);
   });
 
