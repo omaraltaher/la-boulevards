@@ -2585,17 +2585,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   document.getElementById('onnow-btn').addEventListener('click', showOnNowPanel);
 
   // ── In Bloom ──────────────────────────────────────────────────────
-  const BLOOM_LIFESPAN_YEARS = {
-    'Jacaranda': 10, 'Coral Tree': 10, 'Washington Palm': 10,
-    'California Poppy': 1,
-    'Ceanothus': 5,
-    'Toyon': 7,
-  };
-  function isRecentEnough(item) {
-    if (!item.date) return true;
-    const years = BLOOM_LIFESPAN_YEARS[item.species] || 5;
+  function isBloomFresh(item) {
+    if (!item.photo || !item.date) return false;
     const cutoff = new Date();
-    cutoff.setFullYear(cutoff.getFullYear() - years);
+    cutoff.setMonth(cutoff.getMonth() - 1);
     return new Date(item.date) >= cutoff;
   }
   function isPlantInSeason(species) {
@@ -2612,7 +2605,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function renderInBloomMarkers() {
     inBloomGroup.clearLayers();
     treeData
-      .filter(t => isTreeInSeason(t.species) && t.species !== 'Washington Palm' && isRecentEnough(t))
+      .filter(t => isTreeInSeason(t.species) && t.species !== 'Washington Palm' && isBloomFresh(t))
       .forEach(t => {
         const icon = TREE_ICONS[t.species]; if (!icon) return;
         const m = L.marker([t.lat, t.lon], { icon });
@@ -2620,7 +2613,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         inBloomGroup.addLayer(m);
       });
     nativePlantData
-      .filter(p => isPlantInSeason(p.species) && isRecentEnough(p))
+      .filter(p => isPlantInSeason(p.species) && isBloomFresh(p))
       .forEach(p => {
         const icon = PLANT_ICONS[p.species]; if (!icon) return;
         const m = L.marker([p.lat, p.lon], { icon });
@@ -2641,7 +2634,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     let html = '';
     for (const { species, data, isTree, color } of ROWS) {
       const inSeason = isTree ? isTreeInSeason(species) : isPlantInSeason(species);
-      const items = data.filter(x => x.species === species && isRecentEnough(x));
+      const items = data.filter(x => x.species === species && isBloomFresh(x));
       const badge = inSeason ? '🌸 Blooming now' : 'Not in season';
       const badgeColor = inSeason ? 'rgba(134,239,172,0.9)' : '#4b5563';
       const thumbs = items.filter(x => x.photo).slice(0, 6);
@@ -2665,8 +2658,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function updateInBloomCount() {
     if (!treeData.length && !nativePlantData.length) return;
-    const n = treeData.filter(t => isTreeInSeason(t.species) && t.species !== 'Washington Palm' && isRecentEnough(t)).length
-            + nativePlantData.filter(p => isPlantInSeason(p.species) && isRecentEnough(p)).length;
+    const n = treeData.filter(t => isTreeInSeason(t.species) && t.species !== 'Washington Palm' && isBloomFresh(t)).length
+            + nativePlantData.filter(p => isPlantInSeason(p.species) && isBloomFresh(p)).length;
     const el = document.getElementById('inbloom-count');
     if (el && n) el.textContent = n;
   }
