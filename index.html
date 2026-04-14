@@ -2724,10 +2724,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   document.getElementById('inbloom-btn').addEventListener('click', showInBloomPanel);
 
-  // When scrolling inside a scrollable theatre label, don't let Leaflet zoom the map
-  map.getContainer().addEventListener('wheel', e => {
-    if (e.target.closest('.is-scrollable')) e.stopPropagation();
-  }, { capture: true });
+  // When the pointer is inside a scrollable theatre label, disable map scroll-zoom
+  // so two-finger swipes scroll the list rather than zooming the map.
+  map.getContainer().addEventListener('mouseover', e => {
+    if (e.target.closest('.is-scrollable')) map.scrollWheelZoom.disable();
+  }, { passive: true });
+  map.getContainer().addEventListener('mouseout', e => {
+    if (e.target.closest('.is-scrollable') && !e.relatedTarget?.closest('.is-scrollable')) {
+      map.scrollWheelZoom.enable();
+    }
+  }, { passive: true });
 
   document.getElementById('info-close').addEventListener('click', () => {
     p22RouteSelected = false;
