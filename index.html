@@ -4388,10 +4388,10 @@ const legendEl = document.getElementById('legend');
 const legendBtn = document.getElementById('legend-collapse-btn');
 legendBtn.addEventListener('click', () => {
   const collapsed = legendEl.classList.toggle('legend-collapsed');
-  legendBtn.textContent = collapsed ? '›' : '‹';
+  legendBtn.textContent = collapsed ? '‹' : '›';
 });
 legendEl.classList.add('legend-collapsed');
-legendBtn.textContent = '›';
+legendBtn.textContent = '‹';
 
 document.getElementById('sources-toggle').addEventListener('click', () => {
   document.getElementById('sources-panel').classList.toggle('open');
