@@ -36,7 +36,6 @@ Four contextual overlays float above the map. Each pill activates a thematic mod
 | Caltrans traffic cameras | cyan dot | always |
 | The Wiltern | pulsing purple dot + crown | always |
 | Wallis Annenberg Wildlife Crossing | green arch bridge SVG | always (with mountain lions layer) |
-| Public art | magenta dot | when boulevard selected |
 | Theatres | purple dot | when boulevard selected — 36 venues show upcoming shows (Ticketmaster + Eventbrite) |
 | Street trees | leaf SVG (purple/orange/green) | when boulevard selected — iconic trees (jacaranda, coral tree, Washington palm) + StreetsLA/BH/SM inventory |
 | Native plants | flower dot (yellow/red/purple) | when boulevard selected — CA Poppy, Toyon, Ceanothus from iNaturalist |
@@ -74,7 +73,6 @@ All data is pre-baked at build time and refreshed on a schedule. Every workflow 
 | `refresh-coyotes.yml` | `coyotes.json` | Monthly 1st, 2am PT | — |
 | `refresh-theatres.yml` | `theatres.json` | Monthly 1st, 8am PT | — |
 | `refresh-parrots.yml` | `parrots.json` | Monthly 1st, 9am PT | — |
-| `refresh-art.yml` | `art.json` | Monthly 1st, 10am PT | — |
 | `refresh-wells.yml` | `wells.json` | Monthly 1st, 11am PT | — |
 | `refresh-iconic-trees.yml` | `iconic-trees.json` | Monthly 1st, 4am PT | — |
 | `refresh-nativeplants.yml` | `nativeplants.json` | Monthly 1st, 4am PT | — |
@@ -128,7 +126,6 @@ Requires Node 18+.
 - Map tiles: CARTO dark_nolabels / Esri World Imagery satellite
 - Boulevard info: Wikipedia REST API, Wikimedia Commons
 - Cameras: Caltrans District 7 CCTV feed
-- Public art: LA City Open Data (dataset ejf8-ekfc)
 - Theatres: OpenStreetMap
 - Parrots: iNaturalist / Occidental College Moore Lab of Zoology
 - Mountain lions: iNaturalist (Puma concolor, taxon 42007) — 90-day window
