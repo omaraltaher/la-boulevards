@@ -853,6 +853,11 @@ path.leaflet-interactive:focus { outline:none; }
   .title-bullets { display: none; }
 }
 
+/* Mobile landscape: keep legend on the right */
+@media (max-height: 500px) and (orientation: landscape) {
+  #legend { left: auto; right: 12px; bottom: 90px; }
+}
+
 /* ── Story card stats ── */
 #info-stats { display:flex; flex-wrap:wrap; gap:4px 12px; margin:5px 0 2px; font-size:12px; color:#6b7280; }
 .info-stat { white-space:nowrap; }
