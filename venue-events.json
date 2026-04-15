@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-14T17:00:37.878Z",
+  "generated": "2026-04-15T16:57:42.563Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Lykke Li",
-        "date": "2026-04-14",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-4up",
-        "image": "https://s1.ticketm.net/dam/a/759/9418fc95-dfcf-4ba8-a39d-1c947ec86759_1645331_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Joost Klein",
         "date": "2026-04-15",
         "time": "20:00:00",
@@ -116,6 +109,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O48P",
         "image": null
+      },
+      {
+        "name": "Fcukers",
+        "date": "2026-05-08",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xA8U",
+        "image": "https://s1.ticketm.net/dam/a/dc8/a0378719-71f6-441d-81eb-0aefda86fdc8_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -1267,34 +1267,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-04-14",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14818703",
-        "image": "https://i.ticketweb.com/i/00/13/41/85/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Chelsea Handler, Anthony Jeselnik, Kira Soltanovich, Brian Monarch, Alex T and a very special Guest!",
-        "date": "2026-04-14",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759773",
-        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Shaw-some Show ft. Forrest Shaw, Bria Hiebert, Maronzio Vance, Laurie Kilmartin, Ben Gonzalez, James Davis!",
-        "date": "2026-04-14",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/the-shaw-some-show-ft-hollywood-improv-the-lab-tickets/14818903",
-        "image": "https://s1.ticketm.net/dam/a/93a/7595caed-f1b2-49c9-a3b8-8216ca01d93a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Craig Robinson, Jeff Dye, Craig Conant, DoKnow, Brittany Furlan, Mark Hayes and more TBA",
-        "date": "2026-04-14",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14832483",
-        "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lab Work!",
         "date": "2026-04-15",
         "time": "18:15:00",
@@ -1344,11 +1316,11 @@
         "image": "https://i.ticketweb.com/i/00/12/88/99/84_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jeff Ross, Erik Griffin, Caitlin Peluffo, Denny Love, Dave Nihill and more TBA",
         "date": "2026-04-17",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14759503",
-        "image": "https://i.ticketweb.com/i/00/13/36/95/93_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759503",
+        "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -1365,6 +1337,13 @@
         "image": "https://i.ticketweb.com/i/00/13/38/41/53_Edp.jpg?v=6"
       },
       {
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Tim Dillon, Melissa Villasenor, Frazer Smith and more TBA",
+        "date": "2026-04-18",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759543",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Tonight at the Lab!",
         "date": "2026-04-18",
         "time": "19:30:00",
@@ -1372,11 +1351,32 @@
         "image": "https://i.ticketweb.com/i/00/13/38/70/23_Edp.jpg?v=2"
       },
       {
+        "name": "Tonight at the Improv",
+        "date": "2026-04-18",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14759493",
+        "image": "https://i.ticketweb.com/i/00/13/36/95/53_Edp.jpg?v=4"
+      },
+      {
         "name": "Ego Death ft. Saul Trujillo, Bear Badeaux, Josef Anolin, Jeanne Whitney, Courtney Bee, Bilal Sharmoug, Lauren Michaels and more TBA!",
         "date": "2026-04-18",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/ego-death-ft-saul-trujillo-hollywood-improv-the-lab-tickets/14097674",
         "image": "https://i.ticketweb.com/i/00/12/82/39/14_Edp.jpg?v=8"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-04-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14837643",
+        "image": "https://i.ticketweb.com/i/00/13/43/76/33_Edp.jpg?v=2"
+      },
+      {
+        "name": "The OTHER Show ft. Adam Barnhardt, Lizzie Rose, Sean Grant, Kristen Cook, Papp Johnson, Courtney Davis, Paul Blomeyer, Erica Estrada, Nishy Acsell and more TBA",
+        "date": "2026-04-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/the-other-show-ft-adam-hollywood-improv-the-lab-tickets/14787863",
+        "image": "https://i.ticketweb.com/i/00/13/39/07/03_Edp.jpg?v=7"
       }
     ]
   }
