@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-15T16:57:42.563Z",
+  "generated": "2026-04-16T17:08:57.047Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Joost Klein",
-        "date": "2026-04-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--Ff",
-        "image": "https://s1.ticketm.net/dam/a/1ff/72e7f434-ba2b-481f-923d-21e63fa7a1ff_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Maisie Peters",
         "date": "2026-04-22",
         "time": "20:30:00",
@@ -116,6 +109,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xA8U",
         "image": "https://s1.ticketm.net/dam/a/dc8/a0378719-71f6-441d-81eb-0aefda86fdc8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sleaford Mods",
+        "date": "2026-05-14",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OEqN",
+        "image": "https://s1.ticketm.net/dam/a/9c1/7b44e340-e6d8-4721-892f-b05ce4d7a9c1_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "Swae Lee",
-        "date": "2026-04-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3qo",
-        "image": null
-      },
-      {
         "name": "Avatar w/ Fleshgod Apocalypse",
         "date": "2026-04-17",
         "time": "19:30:00",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OF7b",
         "image": "https://s1.ticketm.net/dam/a/932/28974f5f-66a8-4700-abfd-f23053375932_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Le Youth",
+        "date": "2026-05-02",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O_oN",
+        "image": "https://s1.ticketm.net/dam/a/87e/254fd29c-97e4-4005-9435-f9e5ffa3487e_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -392,13 +392,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "The Moth Mainstage",
-        "date": "2026-04-15",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/the-moth-mainstage-los-angeles-california-04-15-2026/event/0900643889EC9208",
-        "image": "https://s1.ticketm.net/dam/e/7ef/ca1236d4-5c43-4bb7-be42-11d6f3a387ef_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Ara Malikian - Intruso World Tour",
         "date": "2026-04-17",
         "time": "20:00:00",
@@ -439,6 +432,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-ralph-los-angeles-california-05-04-2026/event/0900638F8E8A6AC5",
         "image": "https://s1.ticketm.net/dam/a/cbe/d45a6e3e-b85a-4a7e-bbc1-adf74ae41cbe_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Ilana Glazer & Ramy Youssef",
+        "date": "2026-05-05",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-ilana-los-angeles-california-05-05-2026/event/0900638AE28ED158",
+        "image": "https://s1.ticketm.net/dam/a/f77/86ff3f6c-5a81-4c89-a149-0da887652f77_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -561,13 +561,6 @@
     "Geffen Playhouse": [
       {
         "name": "Master Harold...And the Boys",
-        "date": "2026-04-15",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPP",
-        "image": null
-      },
-      {
-        "name": "Master Harold...And the Boys",
         "date": "2026-04-17",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPE",
@@ -599,6 +592,13 @@
         "date": "2026-04-23",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPS",
+        "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-04-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPV",
         "image": null
       }
     ],
@@ -872,13 +872,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
-        "date": "2026-04-15",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-04-15-2026/event/0B006476D34D48F6",
-        "image": "https://s1.ticketm.net/dam/e/2b4/9ae830dd-4420-4912-8cc0-4447e1c5b2b4_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "South Side Sessions: Season 2- with Kenneth Brown II",
         "date": "2026-04-16",
         "time": "20:00:00",
@@ -925,6 +918,13 @@
         "date": "2026-05-21",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/paff-presents-laugh-till-it-hurts-inglewood-california-05-21-2026/event/0B006481B9BE58A6",
+        "image": null
+      },
+      {
+        "name": "Zo Williams and Nsight.Me Presents Relationship Healing BootCamp",
+        "date": "2026-05-23",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/zo-williams-and-nsightme-presents-relationship-inglewood-california-05-23-2026/event/0B00648EE71559C4",
         "image": null
       }
     ],
@@ -989,13 +989,6 @@
       }
     ],
     "The Comedy Store": [
-      {
-        "name": "Chelcie Lynn",
-        "date": "2026-04-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-67z",
-        "image": "https://s1.ticketm.net/dam/a/ccc/3ec56389-0983-4b6c-87d1-987442fb2ccc_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Netflix Is A Joke Presents: Potluck Open Mic",
         "date": "2026-05-04",
@@ -1156,6 +1149,13 @@
         "time": "19:30:00",
         "url": "https://www.showclix.com/event/suots-2026-may",
         "image": "https://s1.ticketm.net/dam/a/726/0ffae3f3-97fe-4fd9-9ac2-69d4ce428726_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Ari Shaffir's Renamed Storytelling Show",
+        "date": "2026-05-07",
+        "time": "22:00:00",
+        "url": "https://www.showclix.com/event/ari-shaffir-2026",
+        "image": "https://s1.ticketm.net/dam/a/f92/497ebc85-bc09-4f72-a11a-10bba6182f92_RECOMENDATION_16_9.jpg"
       }
     ],
     "Laugh Factory": [
@@ -1267,28 +1267,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work!",
-        "date": "2026-04-15",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14818723",
-        "image": "https://i.ticketweb.com/i/00/13/41/85/63_Edp.jpg?v=3"
-      },
-      {
-        "name": "*JUST ADDED ADAM RAY* COMEDY CRUSH ft. DAVID SPADE, ILIZA SHLESINGER, ANTHONY JESELNIK, JUSTINE MARINO and AVERY PEARSON!",
-        "date": "2026-04-15",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-adam-ray-comedy-hollywood-improv-the-main-room-tickets/14786523",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Polly Wolly & Friends ft. Ian Edwards, Tehran",
-        "date": "2026-04-15",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/polly-wolly-friends-ft-hollywood-improv-the-lab-tickets/14813003",
-        "image": "https://s1.ticketm.net/dam/a/e8f/b8e2de92-a81c-43cb-8336-8b2dbe790e8f_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Damon Wayans, Melissa Villasenor, Tommy Brennan, Brian Monarch and more!",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Damon Wayans, Whitney Cummings, Melissa Villasenor, Tommy Brennan, Brian Monarch, Jen Murphy and more!",
         "date": "2026-04-16",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759753",
@@ -1302,7 +1281,7 @@
         "image": "https://s1.ticketm.net/dam/a/c35/6d53309b-09ed-4099-98db-652af9847c35_1526471_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Superstar Comedy ft. Tim Dillon, Ron Funches, Gary Cannon and Very Special Guests",
+        "name": "Superstar Comedy ft. Tim Dillon, Ron Funches, Amir K, Gary Cannon and Very Special Guests",
         "date": "2026-04-17",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/superstar-comedy-ft-tim-dillon-hollywood-improv-the-main-room-tickets/14829293",
@@ -1316,11 +1295,11 @@
         "image": "https://i.ticketweb.com/i/00/12/88/99/84_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft. Jeff Ross, Erik Griffin, Caitlin Peluffo, Denny Love, Dave Nihill and more TBA",
+        "name": "Tonight at the Improv ft. Erik Griffin, Caitlin Peluffo, Denny Love, Dave Nihill and more TBA",
         "date": "2026-04-17",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759503",
-        "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/ee5/b55d695d-1f26-4213-96c7-ed3719b87ee5_1002051_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -1337,25 +1316,25 @@
         "image": "https://i.ticketweb.com/i/00/13/38/41/53_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Tim Dillon, Melissa Villasenor, Frazer Smith and more TBA",
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Tim Dillon, Melissa Villasenor, Cristela Alonzo, Frazer Smith and more TBA",
         "date": "2026-04-18",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759543",
         "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab!",
+        "name": "Tonight at the Lab ft. Saul Trujillo, Torio Van Grol, J.F. Harris, Fizaa Dosani, Daniel Alvarez, Julian Fernandez, and More TBA",
         "date": "2026-04-18",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14783453",
-        "image": "https://i.ticketweb.com/i/00/13/38/70/23_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14783453",
+        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jeff Ross, Amir K, Zainab Johnson, Owen Smith, John Hastings",
         "date": "2026-04-18",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14759493",
-        "image": "https://i.ticketweb.com/i/00/13/36/95/53_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759493",
+        "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Ego Death ft. Saul Trujillo, Bear Badeaux, Josef Anolin, Jeanne Whitney, Courtney Bee, Bilal Sharmoug, Lauren Michaels and more TBA!",
@@ -1365,11 +1344,11 @@
         "image": "https://i.ticketweb.com/i/00/12/82/39/14_Edp.jpg?v=8"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Torio Van Grol, and More TBA!",
         "date": "2026-04-19",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14837643",
-        "image": "https://i.ticketweb.com/i/00/13/43/76/33_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14837643",
+        "image": "https://s1.ticketm.net/dam/a/ed3/b467d7a6-6103-4e2a-8b20-6e4dbbcd6ed3_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "The OTHER Show ft. Adam Barnhardt, Lizzie Rose, Sean Grant, Kristen Cook, Papp Johnson, Courtney Davis, Paul Blomeyer, Erica Estrada, Nishy Acsell and more TBA",
@@ -1377,6 +1356,27 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/the-other-show-ft-adam-hollywood-improv-the-lab-tickets/14787863",
         "image": "https://i.ticketweb.com/i/00/13/39/07/03_Edp.jpg?v=7"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-04-19",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14790593",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Cristela Alonzo, Kev Adams, Chris Millhouse and more TBA",
+        "date": "2026-04-20",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14771873",
+        "image": "https://s1.ticketm.net/dam/a/ed3/b467d7a6-6103-4e2a-8b20-6e4dbbcd6ed3_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mark Hayes and Friends",
+        "date": "2026-04-20",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/mark-hayes-and-friends-hollywood-improv-the-lab-tickets/14832473",
+        "image": "https://i.ticketweb.com/i/00/13/43/18/13_Edp.jpg?v=2"
       }
     ]
   }
