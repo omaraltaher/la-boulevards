@@ -2564,6 +2564,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoExtract.innerHTML = html;
     infoExtract.style.display = 'block';
 
+    sheetPanelH = infoPanel.offsetHeight;
     infoPanel.style.transition = 'none';
     infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
     requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
@@ -2751,6 +2752,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
          secTheatres,secWells].forEach(s => { if (s) s.style.display = 'none'; });
         document.getElementById('info-extract').style.display = 'block';
         document.getElementById('info-extract').innerHTML = _buildInBloomHtml();
+        sheetPanelH = infoPanel.offsetHeight;
         infoPanel.style.transition = 'none';
         infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
         requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
@@ -2772,7 +2774,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       document.getElementById('info-extract').innerHTML = _buildInBloomHtml();
     } else {
       inBloomGroup.clearLayers(); inBloomGroup.remove();
-      infoPanel.classList.remove('open', 'inbloom');
+      if (isMobile()) setSheetState('closed'); else infoPanel.classList.remove('open', 'inbloom');
       document.getElementById('info-extract').style.display = 'none';
       if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
     }
@@ -2936,6 +2938,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
          secTheatres,secWells].forEach(s => { if (s) s.style.display = 'none'; });
         document.getElementById('info-extract').style.display = 'block';
         document.getElementById('info-extract').innerHTML = _buildOnTheProwlHtml();
+        sheetPanelH = infoPanel.offsetHeight;
         infoPanel.style.transition = 'none';
         infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
         requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
@@ -2956,7 +2959,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       document.getElementById('info-extract').style.display = 'block';
       document.getElementById('info-extract').innerHTML = _buildOnTheProwlHtml();
     } else {
-      infoPanel.classList.remove('open', 'ontheprowl');
+      if (isMobile()) setSheetState('closed'); else infoPanel.classList.remove('open', 'ontheprowl');
       document.getElementById('info-extract').style.display = 'none';
       if (_prowlForcedCoyotes) { coyotesOn = false; coyoteRenderGroup.remove(); _prowlForcedCoyotes = false; }
       if (_prowlForcedLions)   { lionsOn   = false; lionRenderGroup.remove();   _prowlForcedLions   = false; }
@@ -3045,6 +3048,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
          secTheatres,secWells].forEach(s => { if (s) s.style.display = 'none'; });
         document.getElementById('info-extract').style.display = 'block';
         document.getElementById('info-extract').innerHTML = _buildGoingFeralHtml();
+        sheetPanelH = infoPanel.offsetHeight;
         infoPanel.style.transition = 'none';
         infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
         requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
@@ -3064,7 +3068,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       document.getElementById('info-extract').style.display = 'block';
       document.getElementById('info-extract').innerHTML = _buildGoingFeralHtml();
     } else {
-      infoPanel.classList.remove('open', 'goingferal');
+      if (isMobile()) setSheetState('closed'); else infoPanel.classList.remove('open', 'goingferal');
       document.getElementById('info-extract').style.display = 'none';
       if (_feralForcedParrots) { parrotsOn = false; parrotRenderGroup.remove(); _feralForcedParrots = false; }
       if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
