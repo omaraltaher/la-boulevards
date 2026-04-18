@@ -45,6 +45,7 @@ html, body {
 /* ── Title ── */
 #title { position:absolute; top:20px; left:20px; }
 #title h1 { font-size:clamp(20px, 5.5vw, 32px); font-weight:600; letter-spacing:.03em; white-space:nowrap; background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; -webkit-text-stroke:0.5px rgba(0,0,0,0.8); paint-order:stroke fill; }
+body.sat-mode #title h1 { background:none; -webkit-background-clip:unset; background-clip:unset; -webkit-text-fill-color:#fff; }
 #title p  { font-size:13px; margin-top:3px; color:#fff; -webkit-text-stroke:0.5px rgba(0,0,0,0.8); paint-order:stroke fill; }
 .title-bullets { list-style:none; margin:8px 0 0; padding:0; font-size:13px; color:#6b7280; line-height:1.8; }
 .title-bullets li::before { content:'·  '; color:#4b5563; }
@@ -4404,9 +4405,11 @@ document.querySelectorAll('.bm-btn').forEach(btn => {
     currentTileLayer = TILE_LAYERS[btn.dataset.bm].addTo(map);
     currentTileLayer.bringToBack();
     document.querySelectorAll('.bm-btn').forEach(b => b.classList.toggle('active', b === btn));
+    document.body.classList.toggle('sat-mode', btn.dataset.bm === 'sat');
     localStorage.setItem('blvd-basemap', btn.dataset.bm);
   });
 });
+if (_savedBm === 'sat') document.body.classList.add('sat-mode');
 
 </script>
 </body>
