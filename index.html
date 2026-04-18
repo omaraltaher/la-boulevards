@@ -44,8 +44,9 @@ html, body {
 
 /* ── Title ── */
 #title { position:absolute; top:20px; left:20px; }
-#title h1 { font-size:clamp(20px, 5.5vw, 32px); font-weight:600; letter-spacing:.03em; white-space:nowrap; background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
-#title p  { font-size:13px; margin-top:3px; background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+#title h1, #title p { background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+#title h1 { font-size:clamp(20px, 5.5vw, 32px); font-weight:600; letter-spacing:.03em; white-space:nowrap; }
+#title p  { font-size:13px; margin-top:3px; }
 .title-bullets { list-style:none; margin:8px 0 0; padding:0; font-size:13px; color:#6b7280; line-height:1.8; }
 .title-bullets li::before { content:'·  '; color:#4b5563; }
 
@@ -1660,12 +1661,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     pinLat = null; pinLon = null;
     infoPanel.classList.remove('open');
     selectedBlvd = null;
-    if (inBloomSelected) {
-      inBloomSelected = false;
-      document.getElementById('inbloom-btn').classList.remove('active');
-      inBloomGroup.clearLayers(); inBloomGroup.remove();
-      infoPanel.classList.remove('inbloom');
-    }
+    _deactivateInBloom();
     _deactivateProwl(); _deactivateFeral();
     resetProximity();
   }
@@ -1809,7 +1805,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const infoImg     = document.getElementById('info-img');
   const infoName    = document.getElementById('info-name');
   const infoMeta    = document.getElementById('info-meta');
-  const infoExtract = document.getElementById('info-extract');
+  const infoExtract = infoExtract;
   const infoWiki    = document.getElementById('info-wiki');
   const infoStats    = document.getElementById('info-stats');
   const infoEditorial = document.getElementById('info-editorial');
@@ -1832,6 +1828,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   const secNativePlants   = document.getElementById('info-nativeplants');
   const secNativePlantsList = document.getElementById('info-nativeplants-list');
   const infoCanopySpecies = document.getElementById('info-canopy-species');
+  const onnowBtn       = document.getElementById('onnow-btn');
+  const inbloomBtn     = document.getElementById('inbloom-btn');
+  const ontheprowlBtn  = document.getElementById('ontheprowl-btn');
+  const goingferalBtn  = document.getElementById('goingferal-btn');
+  function hideAllInfoSections() {
+    [secCameras, secParrots, secLions, secCoyotes, secTrees, secNativePlants, secTheatres, secWells]
+      .forEach(s => { s.style.display = 'none'; });
+  }
 
   // ── Mobile bottom-sheet ──────────────────────────────────
   const PEEK_H = 120; // px: handle + name + meta + stats visible in peek state
@@ -1894,15 +1898,11 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     railwaySelected = false;
     if (onNowSelected) {
       onNowSelected = false;
-      document.getElementById('onnow-btn').classList.remove('active');
+      onnowBtn.classList.remove('active');
       clearTheatreLabels();
       theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
     }
-    if (inBloomSelected) {
-      inBloomSelected = false;
-      document.getElementById('inbloom-btn').classList.remove('active');
-      inBloomGroup.clearLayers(); inBloomGroup.remove();
-    }
+    _deactivateInBloom();
     _deactivateProwl(); _deactivateFeral();
     infoPanel.classList.remove('open', 'onnow', 'inbloom', 'ontheprowl', 'goingferal');
     updateOverlayMarkers(null);
@@ -2144,7 +2144,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function showInfo(blvd) {
     p22RouteSelected = false;
     railwaySelected = false;
-    if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); }
+    _deactivateInBloom();
     _deactivateProwl(); _deactivateFeral();
     infoPanel.classList.remove('railway', 'inbloom');
     infoPanel.classList.add('open');
@@ -2299,8 +2299,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function showP22Info(obsBounds) {
     p22RouteSelected = true;
-    if (onNowSelected) { onNowSelected = false; document.getElementById('onnow-btn').classList.remove('active'); }
-    if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
+    if (onNowSelected) { onNowSelected = false; onnowBtn.classList.remove('active'); }
+    _deactivateInBloom();
     _deactivateProwl(); _deactivateFeral();
     selectedBlvd = null;
     // Dim all boulevard lines
@@ -2411,8 +2411,8 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
   function showRailwayInfo(status, lineName) {
     railwaySelected = true;
     p22RouteSelected = false;
-    if (onNowSelected) { onNowSelected = false; document.getElementById('onnow-btn').classList.remove('active'); }
-    if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
+    if (onNowSelected) { onNowSelected = false; onnowBtn.classList.remove('active'); }
+    _deactivateInBloom();
     _deactivateProwl(); _deactivateFeral();
     selectedBlvd = null;
     updateOverlayMarkers(null);
@@ -2564,10 +2564,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoExtract.innerHTML = html;
     infoExtract.style.display = 'block';
 
-    sheetPanelH = infoPanel.offsetHeight;
-    infoPanel.style.transition = 'none';
-    infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
-    requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
+    _openHalfSheet();
   }
 
   // "📍 Map" tap — peek sheet, fly to theatre, open popup with shows
@@ -2622,9 +2619,9 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function showOnNowPanel() {
     onNowSelected = !onNowSelected;
-    document.getElementById('onnow-btn').classList.toggle('active', onNowSelected);
+    onnowBtn.classList.toggle('active', onNowSelected);
     if (onNowSelected) {
-      _deactivateProwl(); _deactivateFeral(); document.getElementById('info-extract').style.display = 'none';
+      _deactivateProwl(); _deactivateFeral(); infoExtract.style.display = 'none';
       dimAllBoulevards();
       updateOverlayMarkers(null); // desktop: shows markers + callout labels
       if (isMobile()) _openOnNowSheet();
@@ -2636,7 +2633,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
   }
 
-  document.getElementById('onnow-btn').addEventListener('click', showOnNowPanel);
+  onnowBtn.addEventListener('click', showOnNowPanel);
 
   // ── In Bloom ──────────────────────────────────────────────────────
   function isBloomFresh(item) {
@@ -2728,16 +2725,16 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function showInBloomPanel() {
     inBloomSelected = !inBloomSelected;
-    document.getElementById('inbloom-btn').classList.toggle('active', inBloomSelected);
+    inbloomBtn.classList.toggle('active', inBloomSelected);
 
     if (inBloomSelected) {
       // Deactivate other modes
       onNowSelected = false;
-      document.getElementById('onnow-btn').classList.remove('active');
+      onnowBtn.classList.remove('active');
       clearTheatreLabels();
       theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
-      if (onTheProwlSelected) { onTheProwlSelected = false; document.getElementById('ontheprowl-btn').classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
-      if (goingFeralSelected) { goingFeralSelected = false; document.getElementById('goingferal-btn').classList.remove('active'); infoPanel.classList.remove('goingferal'); }
+      if (onTheProwlSelected) { onTheProwlSelected = false; ontheprowlBtn.classList.remove('active'); infoPanel.classList.remove('ontheprowl'); }
+      if (goingFeralSelected) { goingFeralSelected = false; goingferalBtn.classList.remove('active'); infoPanel.classList.remove('goingferal'); }
       p22RouteSelected = false; railwaySelected = false;
       selectedBlvd = null;
       updateOverlayMarkers(null);
@@ -2748,14 +2745,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         infoPanel.classList.add('open', 'inbloom');
         infoName.textContent = 'In Bloom';
         infoImg.style.display = 'none';
-        [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
-         secTheatres,secWells].forEach(s => { if (s) s.style.display = 'none'; });
-        document.getElementById('info-extract').style.display = 'block';
-        document.getElementById('info-extract').innerHTML = _buildInBloomHtml();
-        sheetPanelH = infoPanel.offsetHeight;
-        infoPanel.style.transition = 'none';
-        infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
-        requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
+        hideAllInfoSections();
+        infoExtract.style.display = 'block';
+        infoExtract.innerHTML = _buildInBloomHtml();
+        _openHalfSheet();
         return;
       }
 
@@ -2768,19 +2761,18 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       photosStrip.innerHTML = '';
       infoWiki.style.display = 'none';
       infoShare.innerHTML = '';
-      [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
-       secTheatres,secWells].forEach(s => { if (s) s.style.display = 'none'; });
-      document.getElementById('info-extract').style.display = 'block';
-      document.getElementById('info-extract').innerHTML = _buildInBloomHtml();
+      hideAllInfoSections();
+      infoExtract.style.display = 'block';
+      infoExtract.innerHTML = _buildInBloomHtml();
     } else {
       inBloomGroup.clearLayers(); inBloomGroup.remove();
       if (isMobile()) setSheetState('closed'); else infoPanel.classList.remove('open', 'inbloom');
-      document.getElementById('info-extract').style.display = 'none';
+      infoExtract.style.display = 'none';
       if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
     }
   }
 
-  document.getElementById('inbloom-btn').addEventListener('click', showInBloomPanel);
+  inbloomBtn.addEventListener('click', showInBloomPanel);
 
   function showBloomCollage() {
     const items = [
@@ -2898,29 +2890,42 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function _deactivateProwl() {
     onTheProwlSelected = false;
-    document.getElementById('ontheprowl-btn').classList.remove('active');
+    ontheprowlBtn.classList.remove('active');
     infoPanel.classList.remove('ontheprowl');
     if (_prowlForcedCoyotes) { coyotesOn = false; coyoteRenderGroup.remove(); _prowlForcedCoyotes = false; }
     if (_prowlForcedLions)   { lionsOn   = false; lionRenderGroup.remove();   _prowlForcedLions   = false; }
   }
   function _deactivateFeral() {
     goingFeralSelected = false;
-    document.getElementById('goingferal-btn').classList.remove('active');
+    goingferalBtn.classList.remove('active');
     infoPanel.classList.remove('goingferal');
     if (_feralForcedParrots) { parrotsOn = false; parrotRenderGroup.remove(); _feralForcedParrots = false; }
+  }
+  function _deactivateInBloom() {
+    if (!inBloomSelected) return;
+    inBloomSelected = false;
+    inbloomBtn.classList.remove('active');
+    inBloomGroup.clearLayers(); inBloomGroup.remove();
+    infoPanel.classList.remove('inbloom');
+  }
+  function _openHalfSheet() {
+    sheetPanelH = infoPanel.offsetHeight;
+    infoPanel.style.transition = 'none';
+    infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
+    requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
   }
 
   function showOnTheProwlPanel() {
     onTheProwlSelected = !onTheProwlSelected;
-    document.getElementById('ontheprowl-btn').classList.toggle('active', onTheProwlSelected);
+    ontheprowlBtn.classList.toggle('active', onTheProwlSelected);
 
     if (onTheProwlSelected) {
       // Deactivate other modes
       onNowSelected = false;
-      document.getElementById('onnow-btn').classList.remove('active');
+      onnowBtn.classList.remove('active');
       clearTheatreLabels();
       theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
-      if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
+      _deactivateInBloom();
       p22RouteSelected = false; railwaySelected = false;
       selectedBlvd = null;
       updateOverlayMarkers(null);
@@ -2934,14 +2939,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         infoPanel.classList.add('open', 'ontheprowl');
         infoName.textContent = 'On the Prowl';
         infoImg.style.display = 'none';
-        [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
-         secTheatres,secWells].forEach(s => { if (s) s.style.display = 'none'; });
-        document.getElementById('info-extract').style.display = 'block';
-        document.getElementById('info-extract').innerHTML = _buildOnTheProwlHtml();
-        sheetPanelH = infoPanel.offsetHeight;
-        infoPanel.style.transition = 'none';
-        infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
-        requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
+        hideAllInfoSections();
+        infoExtract.style.display = 'block';
+        infoExtract.innerHTML = _buildOnTheProwlHtml();
+        _openHalfSheet();
         return;
       }
 
@@ -2954,20 +2955,19 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       photosStrip.innerHTML = '';
       infoWiki.style.display = 'none';
       infoShare.innerHTML = '';
-      [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
-       secTheatres,secWells].forEach(s => { if (s) s.style.display = 'none'; });
-      document.getElementById('info-extract').style.display = 'block';
-      document.getElementById('info-extract').innerHTML = _buildOnTheProwlHtml();
+      hideAllInfoSections();
+      infoExtract.style.display = 'block';
+      infoExtract.innerHTML = _buildOnTheProwlHtml();
     } else {
       if (isMobile()) setSheetState('closed'); else infoPanel.classList.remove('open', 'ontheprowl');
-      document.getElementById('info-extract').style.display = 'none';
+      infoExtract.style.display = 'none';
       if (_prowlForcedCoyotes) { coyotesOn = false; coyoteRenderGroup.remove(); _prowlForcedCoyotes = false; }
       if (_prowlForcedLions)   { lionsOn   = false; lionRenderGroup.remove();   _prowlForcedLions   = false; }
       if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
     }
   }
 
-  document.getElementById('ontheprowl-btn').addEventListener('click', showOnTheProwlPanel);
+  ontheprowlBtn.addEventListener('click', showOnTheProwlPanel);
 
   // ── Going Feral ───────────────────────────────────────────────────
   function _buildGoingFeralHtml() {
@@ -3024,14 +3024,14 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
 
   function showGoingFeralPanel() {
     goingFeralSelected = !goingFeralSelected;
-    document.getElementById('goingferal-btn').classList.toggle('active', goingFeralSelected);
+    goingferalBtn.classList.toggle('active', goingFeralSelected);
 
     if (goingFeralSelected) {
       onNowSelected = false;
-      document.getElementById('onnow-btn').classList.remove('active');
+      onnowBtn.classList.remove('active');
       clearTheatreLabels();
       theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
-      if (inBloomSelected) { inBloomSelected = false; document.getElementById('inbloom-btn').classList.remove('active'); inBloomGroup.clearLayers(); inBloomGroup.remove(); infoPanel.classList.remove('inbloom'); }
+      _deactivateInBloom();
       _deactivateProwl();
       p22RouteSelected = false; railwaySelected = false;
       selectedBlvd = null;
@@ -3044,14 +3044,10 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         infoPanel.classList.add('open', 'goingferal');
         infoName.textContent = 'Going Feral';
         infoImg.style.display = 'none';
-        [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
-         secTheatres,secWells].forEach(s => { if (s) s.style.display = 'none'; });
-        document.getElementById('info-extract').style.display = 'block';
-        document.getElementById('info-extract').innerHTML = _buildGoingFeralHtml();
-        sheetPanelH = infoPanel.offsetHeight;
-        infoPanel.style.transition = 'none';
-        infoPanel.style.transform = `translateY(${sheetPanelH}px)`;
-        requestAnimationFrame(() => requestAnimationFrame(() => setSheetState('half')));
+        hideAllInfoSections();
+        infoExtract.style.display = 'block';
+        infoExtract.innerHTML = _buildGoingFeralHtml();
+        _openHalfSheet();
         return;
       }
 
@@ -3063,19 +3059,18 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       photosStrip.innerHTML = '';
       infoWiki.style.display = 'none';
       infoShare.innerHTML = '';
-      [secCameras,secParrots,secLions,secCoyotes,secTrees,secNativePlants,
-       secTheatres,secWells].forEach(s => { if (s) s.style.display = 'none'; });
-      document.getElementById('info-extract').style.display = 'block';
-      document.getElementById('info-extract').innerHTML = _buildGoingFeralHtml();
+      hideAllInfoSections();
+      infoExtract.style.display = 'block';
+      infoExtract.innerHTML = _buildGoingFeralHtml();
     } else {
       if (isMobile()) setSheetState('closed'); else infoPanel.classList.remove('open', 'goingferal');
-      document.getElementById('info-extract').style.display = 'none';
+      infoExtract.style.display = 'none';
       if (_feralForcedParrots) { parrotsOn = false; parrotRenderGroup.remove(); _feralForcedParrots = false; }
       if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
     }
   }
 
-  document.getElementById('goingferal-btn').addEventListener('click', showGoingFeralPanel);
+  goingferalBtn.addEventListener('click', showGoingFeralPanel);
 
   // When the pointer is inside a scrollable theatre label, disable map scroll-zoom
   // so two-finger swipes scroll the list rather than zooming the map.
@@ -3092,11 +3087,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     p22RouteSelected = false;
     railwaySelected = false;
     if (isMobile()) { closeSheet(); return; }
-    if (inBloomSelected) {
-      inBloomSelected = false;
-      document.getElementById('inbloom-btn').classList.remove('active');
-      inBloomGroup.clearLayers(); inBloomGroup.remove();
-    }
+    _deactivateInBloom();
     _deactivateProwl(); _deactivateFeral();
     infoPanel.classList.remove('open', 'p22', 'railway', 'inbloom', 'ontheprowl', 'goingferal');
     selectedBlvd = null;
@@ -3127,7 +3118,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     }
     if (inBloomSelected) {
       inBloomSelected = false;
-      document.getElementById('inbloom-btn').classList.remove('active');
+      inbloomBtn.classList.remove('active');
       inBloomGroup.clearLayers(); inBloomGroup.remove();
       if (isMobile()) { closeSheet(); return; }
       infoPanel.classList.remove('open', 'inbloom');
@@ -3139,7 +3130,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       _deactivateProwl();
       if (isMobile()) { closeSheet(); return; }
       infoPanel.classList.remove('open');
-      document.getElementById('info-extract').style.display = 'none';
+      infoExtract.style.display = 'none';
       if (pinLat !== null) applyProximity(pinLat, pinLon);
       else resetProximity();
       return;
@@ -3148,7 +3139,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       _deactivateFeral();
       if (isMobile()) { closeSheet(); return; }
       infoPanel.classList.remove('open');
-      document.getElementById('info-extract').style.display = 'none';
+      infoExtract.style.display = 'none';
       if (pinLat !== null) applyProximity(pinLat, pinLon);
       else resetProximity();
       return;
