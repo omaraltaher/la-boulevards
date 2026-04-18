@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-17T15:59:10.393Z",
+  "generated": "2026-04-18T15:35:42.150Z",
   "events": [
-    {
-      "name": "Naomi Watanabe: From Tokyo ",
-      "date": "2026-04-17",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/naomi-watanabe-from-tokyo-los-angeles-california-04-17-2026/event/0900637D974B85BF",
-      "image": "https://s1.ticketm.net/dam/a/79e/33783030-df68-4080-ae9b-3c2bb486079e_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Dr. Mary Claire Haver Live",
       "date": "2026-04-18",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/oh-wonder-los-angeles-california-04-28-2026/event/09006429D790C472",
       "image": "https://s1.ticketm.net/dam/a/456/94f44e1f-f1a2-46e5-8737-39fea7850456_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Gabrielle Bernstein: Time to Trust",
+      "date": "2026-04-29",
+      "time": "19:30:00",
+      "url": "https://www.ticketmaster.com/gabrielle-bernstein-time-to-trust-los-angeles-california-04-29-2026/event/09006446B7498782",
+      "image": "https://s1.ticketm.net/dam/a/c2f/081cde70-52a7-4a1b-b6ca-043954c0cc2f_RECOMENDATION_16_9.jpg"
     }
   ]
 }
