@@ -45,7 +45,7 @@ html, body {
 /* ── Title ── */
 #title { position:absolute; top:20px; left:20px; }
 #title h1, #title p { background:linear-gradient(to right, #a855f7, #ec4899, #f97316, #ec4899, #a855f7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
-#title h1 { font-size:clamp(20px, 5.5vw, 32px); font-weight:600; letter-spacing:.03em; white-space:nowrap; }
+#title h1 { font-size:clamp(20px, 5.5vw, 32px); font-weight:600; letter-spacing:.03em; white-space:nowrap; -webkit-text-stroke:0.5px rgba(0,0,0,0.8); paint-order:stroke fill; }
 #title p  { font-size:13px; margin-top:3px; }
 .title-bullets { list-style:none; margin:8px 0 0; padding:0; font-size:13px; color:#6b7280; line-height:1.8; }
 .title-bullets li::before { content:'·  '; color:#4b5563; }
