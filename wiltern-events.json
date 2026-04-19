@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-18T15:35:42.150Z",
+  "generated": "2026-04-19T15:35:49.052Z",
   "events": [
-    {
-      "name": "Dr. Mary Claire Haver Live",
-      "date": "2026-04-18",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/dr-mary-claire-haver-live-los-angeles-california-04-18-2026/event/09006459D649C996",
-      "image": "https://s1.ticketm.net/dam/a/f8f/85efcef2-6dd1-439c-b2b5-c0bafe225f8f_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "She Wants Revenge",
       "date": "2026-04-23",
@@ -56,6 +49,13 @@
       "time": "19:30:00",
       "url": "https://www.ticketmaster.com/gabrielle-bernstein-time-to-trust-los-angeles-california-04-29-2026/event/09006446B7498782",
       "image": "https://s1.ticketm.net/dam/a/c2f/081cde70-52a7-4a1b-b6ca-043954c0cc2f_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Snail Mail",
+      "date": "2026-05-01",
+      "time": "18:30:00",
+      "url": "https://www.ticketmaster.com/snail-mail-los-angeles-california-05-01-2026/event/0900642D063A0A59",
+      "image": "https://s1.ticketm.net/dam/a/fc3/ca589b67-7d2a-4b5b-a03a-1b58e0d61fc3_RECOMENDATION_16_9.jpg"
     }
   ]
 }
