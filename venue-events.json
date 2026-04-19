@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-18T16:34:03.703Z",
+  "generated": "2026-04-19T16:34:08.895Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "Insane Clown Posse",
-        "date": "2026-04-18",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-fJp",
-        "image": "https://s1.ticketm.net/dam/a/5d2/98da185a-7dcb-4b43-bef0-844ed85165d2_1174191_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Face to Face w/ Unwritten Law",
         "date": "2026-04-24",
         "time": "20:00:00",
@@ -232,16 +225,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OaG8",
         "image": "https://s1.ticketm.net/dam/a/fe9/99fb919f-e5c7-45e7-8658-f85f2dc34fe9_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Snow Tha Product",
+        "date": "2026-05-08",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OACe",
+        "image": "https://s1.ticketm.net/dam/a/73c/fac21d2b-6666-4630-95b3-9716331e973c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "Il Volo",
-        "date": "2026-04-18",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O7e_",
-        "image": "https://s1.ticketm.net/dam/a/1ef/60081544-6ebc-4d21-b14e-273e3a1ea1ef_1160901_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Hatsune Miku",
         "date": "2026-04-25",
@@ -283,16 +276,16 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xKQZ",
         "image": null
+      },
+      {
+        "name": "Los Fabulosos Cadillacs",
+        "date": "2026-05-27",
+        "time": "20:00:00",
+        "url": "https://www.axs.com/events/1261314/los-fabulosos-cadillacs-tickets?skin=peacock",
+        "image": "https://s1.ticketm.net/dam/a/108/8f1317f2-ecbe-43f8-ba2e-d34843304108_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "My Life With The Thrill Kill Kult w/ Light Asylum, Die Sexual & more!",
-        "date": "2026-04-18",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/my-life-with-the-thrill-kill-los-angeles-california-04-18-2026/event/0900638405E119B0",
-        "image": "https://s1.ticketm.net/dam/a/f1b/132b4c2d-0330-4499-a524-eb52c6eeaf1b_1093821_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Throwing Muses: Moonlight Concessions",
         "date": "2026-04-21",
@@ -341,6 +334,13 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/fishbone-in-your-face-40th-anniversary-los-angeles-california-05-08-2026/event/09006393E3A4DE46",
         "image": "https://s1.ticketm.net/dam/e/c1d/37ca7db9-7a46-44bb-9c78-acfb4acb3c1d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Glixen + trauma ray with KEEP and Money",
+        "date": "2026-05-09",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/glixen-trauma-ray-with-keep-and-los-angeles-california-05-09-2026/event/0900642E2284EBF3",
+        "image": "https://s1.ticketm.net/dam/e/e2a/28498be6-16d8-4196-a6f7-089399210e2a_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -568,13 +568,6 @@
     "Geffen Playhouse": [
       {
         "name": "Master Harold...And the Boys",
-        "date": "2026-04-18",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPt",
-        "image": null
-      },
-      {
-        "name": "Master Harold...And the Boys",
         "date": "2026-04-19",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPY",
@@ -606,6 +599,13 @@
         "date": "2026-04-25",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPU",
+        "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-04-26",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPM",
         "image": null
       }
     ],
@@ -709,13 +709,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "Mean Girls (Touring)",
-        "date": "2026-04-18",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jU",
-        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Mean Girls (Touring)",
         "date": "2026-04-19",
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jM",
@@ -740,6 +733,13 @@
         "date": "2026-04-25",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qe",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-26",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qd",
         "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -921,10 +921,10 @@
         "image": null
       },
       {
-        "name": "Zo Williams and Nsight.Me Presents Relationship Healing BootCamp",
+        "name": "THE HEALING BOX EXPERIENCE",
         "date": "2026-05-23",
         "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/zo-williams-and-nsightme-presents-relationship-inglewood-california-05-23-2026/event/0B00648EE71559C4",
+        "url": "https://www.ticketmaster.com/the-healing-box-experience-inglewood-california-05-23-2026/event/0B00648EE71559C4",
         "image": null
       }
     ],
@@ -1267,34 +1267,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Eddie Pepitone, Cristela Alonzo, Francisco Ramos, Dan Levy, Suli McCullough, Frazer Smith and more TBA",
-        "date": "2026-04-18",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759543",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Saul Trujillo, J.F. Harris, Justine Marino, Torio Van Grol, Fizaa Dosani, Daniel Alvarez, Josh Potter, Julian Fernandez, and More TBA",
-        "date": "2026-04-18",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14783453",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Amir K, Asif Ali, Zainab Johnson, Owen Smith, Nate Craig, Steve Furey, John Hastings",
-        "date": "2026-04-18",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759493",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Ego Death ft. Saul Trujillo, Bear Badeaux, Josef Anolin, Jeanne Whitney, Erin Cholakian, Bilal Sharmoug, Lauren Michaels and more TBA!",
-        "date": "2026-04-18",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/ego-death-ft-saul-trujillo-hollywood-improv-the-lab-tickets/14097674",
-        "image": "https://i.ticketweb.com/i/00/12/82/39/14_Edp.jpg?v=9"
-      },
-      {
         "name": "Tonight at the Improv ft. Anthony Jeselnik, Kev Adams, Rachel Scanlon, Dan Levy, Mike Estime, Torio Van Grol, Denny Love and More TBA",
         "date": "2026-04-19",
         "time": "19:00:00",
@@ -1330,7 +1302,7 @@
         "image": "https://i.ticketweb.com/i/00/13/43/18/13_Edp.jpg?v=2"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Haha Herby, Chinedu Unaka, Maronzio Vance, Screwroy Rice, Tahir Moore and more",
         "date": "2026-04-20",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14759813",
@@ -1358,11 +1330,11 @@
         "image": "https://i.ticketweb.com/i/00/12/88/90/34_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Faysal Lawrence and more TBA",
+        "name": "Tonight at the Improv ft. Godfrey, Craig Robinson, Craig Conant, Faysal Lawrence, Marco Del Vecchio, Nishant Mehta",
         "date": "2026-04-21",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14780693",
-        "image": "https://i.ticketweb.com/i/00/13/38/44/33_Edp.jpg?v=2"
+        "image": "https://s1.ticketm.net/dam/a/5cc/4c227195-7b94-4072-b9f5-9d3e9d1535cc_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "John Campanelli & Special Guests! ft. Jessimae Peluso, Ashley Colleen, Scott Stewart, Mark Fuhrer, Jennie Mintz and more TBA",
@@ -1377,6 +1349,34 @@
         "time": "18:15:00",
         "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14818743",
         "image": "https://i.ticketweb.com/i/00/13/41/85/63_Edp.jpg?v=3"
+      },
+      {
+        "name": "Legends ft. Jay Leno, George Wallace, Greg Baldwin and more TBA",
+        "date": "2026-04-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-george-hollywood-improv-the-main-room-tickets/14182344",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-04-22",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14848443",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Jeff Ross, George Wallace, Brian Monarch and Very Special Guests",
+        "date": "2026-04-23",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759763",
+        "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Cult Comedy!",
+        "date": "2026-04-23",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/cult-comedy-hollywood-improv-the-lab-tickets/14783463",
+        "image": "https://i.ticketweb.com/i/00/13/38/70/33_Edp.jpg?v=2"
       }
     ]
   }
