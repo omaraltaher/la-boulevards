@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-19T16:34:08.895Z",
+  "generated": "2026-04-20T17:00:14.015Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -568,13 +568,6 @@
     "Geffen Playhouse": [
       {
         "name": "Master Harold...And the Boys",
-        "date": "2026-04-19",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPY",
-        "image": null
-      },
-      {
-        "name": "Master Harold...And the Boys",
         "date": "2026-04-22",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPw",
@@ -606,6 +599,13 @@
         "date": "2026-04-26",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPM",
+        "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-04-29",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPy",
         "image": null
       }
     ],
@@ -709,13 +709,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "Mean Girls (Touring)",
-        "date": "2026-04-19",
-        "time": "13:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jM",
-        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Mean Girls (Touring)",
         "date": "2026-04-23",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3jy",
@@ -740,6 +733,20 @@
         "date": "2026-04-26",
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qd",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-04-30",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qA",
+        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mean Girls (Touring)",
+        "date": "2026-05-01",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qk",
         "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -1267,27 +1274,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Kev Adams, Rachel Scanlon, Dan Levy, Mike Estime, Torio Van Grol, Denny Love and More TBA",
-        "date": "2026-04-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14837643",
-        "image": "https://s1.ticketm.net/dam/a/ed3/b467d7a6-6103-4e2a-8b20-6e4dbbcd6ed3_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The OTHER Show ft. Adam Barnhardt, Lizzie Rose, Sean Grant, Kristen Cook, Papp Johnson, Courtney Davis, Paul Blomeyer, Erica Estrada, Nishy Acsell and more TBA",
-        "date": "2026-04-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/the-other-show-ft-adam-hollywood-improv-the-lab-tickets/14787863",
-        "image": "https://i.ticketweb.com/i/00/13/39/07/03_Edp.jpg?v=7"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-04-19",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14790593",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Anthony Jeselnik, Godfrey, Kev Adams, Laura Peek, Chris Millhouse and more TBA",
         "date": "2026-04-20",
         "time": "19:15:00",
@@ -1295,11 +1281,11 @@
         "image": "https://s1.ticketm.net/dam/a/ed3/b467d7a6-6103-4e2a-8b20-6e4dbbcd6ed3_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Mark Hayes and Friends",
+        "name": "Mark Hayes and Friends ft. Zainab Johnson, Kev Adams, Crystal Marie, Myles Murphy and more TBA!",
         "date": "2026-04-20",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/mark-hayes-and-friends-hollywood-improv-the-lab-tickets/14832473",
-        "image": "https://i.ticketweb.com/i/00/13/43/18/13_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/mark-hayes-and-friends-ft-hollywood-improv-the-lab-tickets/14832473",
+        "image": "https://i.ticketweb.com/i/00/13/43/18/13_Edp.jpg?v=4"
       },
       {
         "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Haha Herby, Chinedu Unaka, Maronzio Vance, Screwroy Rice, Tahir Moore and more",
@@ -1316,11 +1302,11 @@
         "image": "https://i.ticketweb.com/i/00/13/41/85/53_Edp.jpg?v=4"
       },
       {
-        "name": "Craig Robinson, Alfred Robles, Brian Monarch and Very Special Guests",
+        "name": "Patton Oswalt, Craig Robinson, Alfred Robles, Brian Monarch and Very Special Guests",
         "date": "2026-04-21",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/craig-robinson-alfred-robles-brian-hollywood-improv-the-main-room-tickets/14759743",
-        "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
+        "url": "https://www.ticketweb.com/event/patton-oswalt-craig-robinson-alfred-hollywood-improv-the-main-room-tickets/14759743",
+        "image": "https://s1.ticketm.net/dam/a/bf2/d8cf0bcf-6ebf-4532-9e1d-bda77e33abf2_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Elle Orlando",
@@ -1351,10 +1337,10 @@
         "image": "https://i.ticketweb.com/i/00/13/41/85/63_Edp.jpg?v=3"
       },
       {
-        "name": "Legends ft. Jay Leno, George Wallace, Greg Baldwin and more TBA",
+        "name": "Legends ft. Jay Leno, Howie Mandel, George Wallace, Greg Baldwin and more TBA",
         "date": "2026-04-22",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-george-hollywood-improv-the-main-room-tickets/14182344",
+        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-howie-hollywood-improv-the-main-room-tickets/14182344",
         "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
       },
       {
@@ -1377,6 +1363,27 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/cult-comedy-hollywood-improv-the-lab-tickets/14783463",
         "image": "https://i.ticketweb.com/i/00/13/38/70/33_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv ft. Mark Hayes and more TBA",
+        "date": "2026-04-23",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14832493",
+        "image": "https://i.ticketweb.com/i/00/13/43/18/23_Edp.jpg?v=7"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-04-23",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14790613",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Low and Inside",
+        "date": "2026-04-24",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/low-and-inside-hollywood-improv-the-lab-tickets/14794753",
+        "image": "https://i.ticketweb.com/i/00/13/39/73/03_Edp.jpg?v=2"
       }
     ]
   }
