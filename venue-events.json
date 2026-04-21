@@ -1,14 +1,7 @@
 {
-  "generated": "2026-04-20T17:00:14.015Z",
+  "generated": "2026-04-21T16:54:37.748Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Bilmuri - Kinda Hard Tour",
-        "date": "2026-04-20",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/bilmuri-kinda-hard-tour-hollywood-california-04-20-2026/event/09006385A1A5983D",
-        "image": "https://s1.ticketm.net/dam/a/4f6/59d763b4-53ac-4ffd-be3f-a33345d7f4f6_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Bring Me The Horizon",
         "date": "2026-04-23",
@@ -57,6 +50,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/the-midnight-time-machines-hollywood-california-05-15-2026/event/0900633DC0276EBE",
         "image": "https://s1.ticketm.net/dam/a/43e/134e47d2-477a-46d4-a3f1-926fce1cf43e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Touché Amoré: Stage Four 10 Year Anniversary",
+        "date": "2026-05-16",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/touche-amore-stage-four-10-year-hollywood-california-05-16-2026/event/09006344389F8953",
+        "image": "https://s1.ticketm.net/dam/a/976/d36eb64d-05cd-49c8-86c6-6f6703d9c976_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -67,6 +67,13 @@
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OzF8",
         "image": "https://s1.ticketm.net/dam/a/275/4ddd7c1b-73b9-4f5e-aab3-de5c894b9275_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Baby J",
+        "date": "2026-04-23",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4Ap",
+        "image": null
       },
       {
         "name": "Raf-Saperra",
@@ -109,13 +116,6 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xA8U",
         "image": "https://s1.ticketm.net/dam/a/dc8/a0378719-71f6-441d-81eb-0aefda86fdc8_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Sleaford Mods",
-        "date": "2026-05-14",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OEqN",
-        "image": "https://s1.ticketm.net/dam/a/9c1/7b44e340-e6d8-4721-892f-b05ce4d7a9c1_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -1274,27 +1274,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Godfrey, Kev Adams, Laura Peek, Chris Millhouse and more TBA",
-        "date": "2026-04-20",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14771873",
-        "image": "https://s1.ticketm.net/dam/a/ed3/b467d7a6-6103-4e2a-8b20-6e4dbbcd6ed3_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Mark Hayes and Friends ft. Zainab Johnson, Kev Adams, Crystal Marie, Myles Murphy and more TBA!",
-        "date": "2026-04-20",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/mark-hayes-and-friends-ft-hollywood-improv-the-lab-tickets/14832473",
-        "image": "https://i.ticketweb.com/i/00/13/43/18/13_Edp.jpg?v=4"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Haha Herby, Chinedu Unaka, Maronzio Vance, Screwroy Rice, Tahir Moore and more",
-        "date": "2026-04-20",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14759813",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-04-21",
         "time": "17:15:00",
@@ -1302,7 +1281,7 @@
         "image": "https://i.ticketweb.com/i/00/13/41/85/53_Edp.jpg?v=4"
       },
       {
-        "name": "Patton Oswalt, Craig Robinson, Alfred Robles, Brian Monarch and Very Special Guests",
+        "name": "Patton Oswalt, Craig Robinson, Alfred Robles, Jason Cheny, Brian Monarch, Brittany Ross and Very Special Guests",
         "date": "2026-04-21",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/patton-oswalt-craig-robinson-alfred-hollywood-improv-the-main-room-tickets/14759743",
@@ -1313,7 +1292,7 @@
         "date": "2026-04-21",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/elle-orlando-hollywood-improv-the-lab-tickets/14171164",
-        "image": "https://i.ticketweb.com/i/00/12/88/90/34_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/12/88/90/34_Edp.jpg?v=5"
       },
       {
         "name": "Tonight at the Improv ft. Godfrey, Craig Robinson, Craig Conant, Faysal Lawrence, Marco Del Vecchio, Nishant Mehta",
@@ -1351,25 +1330,25 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Jeff Ross, George Wallace, Brian Monarch and Very Special Guests",
+        "name": "Tonight at the Improv ft. Jeff Ross, Whitney Cummings, George Wallace, Brian Monarch, Kim McVicar and Very Special Guests",
         "date": "2026-04-23",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759763",
         "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Cult Comedy!",
+        "name": "Tonight at the Lab",
         "date": "2026-04-23",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/cult-comedy-hollywood-improv-the-lab-tickets/14783463",
-        "image": "https://i.ticketweb.com/i/00/13/38/70/33_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14866793",
+        "image": "https://i.ticketweb.com/i/00/13/46/62/13_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv ft. Mark Hayes and more TBA",
+        "name": "Tonight at the Improv ft. Erik Griffin, Godfrey, Brittany Furlan, Amir K, Mark Hayes and more TBA",
         "date": "2026-04-23",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14832493",
-        "image": "https://i.ticketweb.com/i/00/13/43/18/23_Edp.jpg?v=7"
+        "image": "https://s1.ticketm.net/dam/a/ee5/b55d695d-1f26-4213-96c7-ed3719b87ee5_1002051_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -1379,11 +1358,25 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Low and Inside",
+        "name": "Tonight at the Improv",
         "date": "2026-04-24",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/low-and-inside-hollywood-improv-the-lab-tickets/14794753",
-        "image": "https://i.ticketweb.com/i/00/13/39/73/03_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14759523",
+        "image": "https://i.ticketweb.com/i/00/13/36/95/53_Edp.jpg?v=4"
+      },
+      {
+        "name": "Low and Inside ft. Radu Bondar, Aaron Brooks, Gabby Lamb, Billy Wayne Davis, Sean Dolan, Nick Vatterott, Martin Urbano, Brian Bogart, Luke Binkow, Gino Pagani, Mackenzie Ray, Shaena Rabbani",
+        "date": "2026-04-24",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/low-and-inside-ft-radu-hollywood-improv-the-lab-tickets/14794753",
+        "image": "https://i.ticketweb.com/i/00/13/39/73/03_Edp.jpg?v=4"
+      },
+      {
+        "name": "Historical Roast ft. Matt McCarthy, Julian Fernandez, Jay Light, Jeremy Scippio, Chelsé Greaux, Eddie Furth, Ryan Pigg",
+        "date": "2026-04-24",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/historical-roast-ft-matt-mccarthy-hollywood-improv-the-lab-tickets/14808783",
+        "image": "https://i.ticketweb.com/i/00/13/41/00/23_Edp.jpg?v=8"
       }
     ]
   }
