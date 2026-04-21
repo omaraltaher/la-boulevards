@@ -879,6 +879,11 @@ path.leaflet-interactive:focus { outline:none; }
 .bm-btn { font-size:11px; padding:3px 8px; background:transparent; border:none; color:#4b5563; cursor:pointer; border-radius:3px; white-space:nowrap; }
 .bm-btn.active { color:#e5e7eb; background:rgba(255,255,255,0.1); }
 .bm-btn:hover:not(.active) { color:#9ca3af; }
+#year-sub-row { display:none; margin-top:4px; padding-top:4px; border-top:1px solid rgba(255,255,255,0.06); flex-wrap:wrap; gap:2px; }
+#year-sub-row.visible { display:flex; }
+.yr-btn { font-size:10px; padding:2px 6px; background:transparent; border:none; color:#4b5563; cursor:pointer; border-radius:3px; white-space:nowrap; }
+.yr-btn.active { color:#e5e7eb; background:rgba(255,255,255,0.1); }
+.yr-btn:hover:not(.active) { color:#9ca3af; }
 #legend.legend-collapsed #basemap-switcher { border-bottom:none; margin-bottom:2px; padding-bottom:2px; }
 #legend.legend-collapsed .bm-btn { padding:3px 5px; font-size:10px; }
 
@@ -1017,6 +1022,13 @@ path.leaflet-interactive:focus { outline:none; }
     <div id="basemap-switcher">
       <button class="bm-btn active" data-bm="dark">Dark</button>
       <button class="bm-btn" data-bm="sat">Sat</button>
+      <div id="year-sub-row">
+        <button class="yr-btn" data-yr="2002">2002</button>
+        <button class="yr-btn" data-yr="2006">2006</button>
+        <button class="yr-btn" data-yr="2011">2011</button>
+        <button class="yr-btn" data-yr="2014">2014</button>
+        <button class="yr-btn active" data-yr="now">Now</button>
+      </div>
     </div>
     <div class="legend-group">
       <div class="legend-group-header">Explore <span class="lg-chevron">▾</span></div>
@@ -1047,6 +1059,8 @@ path.leaflet-interactive:focus { outline:none; }
     </div>
     <div id="sources-toggle" class="legend-sources-toggle">Data Sources ℹ️</div>
     <div id="sources-panel" class="legend-sources-panel">
+      <div class="src-row"><b>Basemap (Dark)</b> — <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a></div>
+      <div class="src-row"><b>Basemap (Satellite)</b> — <a href="https://www.esri.com/en-us/legal/copyright-trademarks" target="_blank" rel="noopener">Esri World Imagery</a></div>
       <div class="src-row"><b>Boulevards</b> — <a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap</a> (ODbL); lengths from <a href="https://en.wikipedia.org/wiki/Wikipedia:About" target="_blank" rel="noopener">Wikipedia</a></div>
       <div class="src-row"><b>Search</b> — <a href="https://nominatim.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap Nominatim</a></div>
       <div class="src-row"><b>Boulevard Info</b> — <a href="https://en.wikipedia.org/wiki/Wikipedia:About" target="_blank" rel="noopener">Wikipedia REST API</a> · <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a></div>
@@ -1060,6 +1074,7 @@ path.leaflet-interactive:focus { outline:none; }
       <div class="src-row"><b>Oil Wells 🛢️</b> — <a href="https://www.conservation.ca.gov/calgem" target="_blank" rel="noopener">CalGEM</a> · street photos via <a href="https://www.mapillary.com" target="_blank" rel="noopener">Mapillary</a></div>
       <div class="src-row"><b>Ghost Railway 🚋</b> — <a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap</a> (abandoned &amp; razed railway ways)</div>
       <div class="src-row"><b>Ruscha Photos</b> — <a href="https://tools.getty.edu/arches/ruscha" target="_blank" rel="noopener">Getty Conservation Institute Arches</a></div>
+      <div class="src-row"><b>Historic Aerials</b> — <a href="https://egis3.lacounty.gov/dataportal/lariac/" target="_blank" rel="noopener">LA County GIS / LARIAC</a></div>
       <div class="src-row"><b>Editorial</b> — Jonathan Gold, LA Weekly</div>
       <div class="src-row src-gh"><a href="https://github.com/omaraltaher/la-boulevards" target="_blank" rel="noopener">Open source on GitHub →</a></div>
     </div>
@@ -1151,6 +1166,12 @@ map.zoomControl.setPosition('bottomright');
 const TILE_LAYERS = {
   dark:  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', { attribution:'© <a href="https://carto.com/">CARTO</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>', subdomains:'abcd', maxZoom:19, updateWhenIdle: true, keepBuffer: 1 }),
   sat:   L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution:'© Esri', maxZoom:19, updateWhenIdle: true, keepBuffer: 1 })
+};
+const HIST_TILE_LAYERS = {
+  '2002': L.tileLayer('https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Aerial_2002/MapServer/tile/{z}/{y}/{x}', { attribution:'© LA County GIS', maxZoom:19, updateWhenIdle:true, keepBuffer:1 }),
+  '2006': L.tileLayer('https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Aerial_2006/MapServer/tile/{z}/{y}/{x}', { attribution:'© LA County GIS', maxZoom:19, updateWhenIdle:true, keepBuffer:1 }),
+  '2011': L.tileLayer('https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Aerial_2011/MapServer/tile/{z}/{y}/{x}', { attribution:'© LA County GIS', maxZoom:19, updateWhenIdle:true, keepBuffer:1 }),
+  '2014': L.tileLayer('https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Aerial_2014/MapServer/tile/{z}/{y}/{x}', { attribution:'© LA County GIS', maxZoom:19, updateWhenIdle:true, keepBuffer:1 }),
 };
 const _savedBm = localStorage.getItem('blvd-basemap') || 'dark';
 let currentTileLayer = (TILE_LAYERS[_savedBm] || TILE_LAYERS.dark).addTo(map);
@@ -4398,18 +4419,38 @@ document.getElementById('sources-toggle').addEventListener('click', () => {
 });
 
 // ── Basemap switcher ──────────────────────────────────────────
+const yearSubRow = document.getElementById('year-sub-row');
+
 document.querySelectorAll('.bm-btn').forEach(btn => {
   btn.classList.toggle('active', btn.dataset.bm === _savedBm);
   btn.addEventListener('click', () => {
     map.removeLayer(currentTileLayer);
-    currentTileLayer = TILE_LAYERS[btn.dataset.bm].addTo(map);
+    if (btn.dataset.bm === 'sat') {
+      currentTileLayer = TILE_LAYERS.sat.addTo(map);
+      yearSubRow.classList.add('visible');
+    } else {
+      currentTileLayer = TILE_LAYERS[btn.dataset.bm].addTo(map);
+      // Reset year selection to "now"
+      document.querySelectorAll('.yr-btn').forEach(b => b.classList.toggle('active', b.dataset.yr === 'now'));
+      yearSubRow.classList.remove('visible');
+    }
     currentTileLayer.bringToBack();
     document.querySelectorAll('.bm-btn').forEach(b => b.classList.toggle('active', b === btn));
     document.body.classList.toggle('sat-mode', btn.dataset.bm === 'sat');
     localStorage.setItem('blvd-basemap', btn.dataset.bm);
   });
 });
-if (_savedBm === 'sat') document.body.classList.add('sat-mode');
+
+document.querySelectorAll('.yr-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    map.removeLayer(currentTileLayer);
+    currentTileLayer = (btn.dataset.yr === 'now' ? TILE_LAYERS.sat : HIST_TILE_LAYERS[btn.dataset.yr]).addTo(map);
+    currentTileLayer.bringToBack();
+    document.querySelectorAll('.yr-btn').forEach(b => b.classList.toggle('active', b === btn));
+  });
+});
+
+if (_savedBm === 'sat') { yearSubRow.classList.add('visible'); document.body.classList.add('sat-mode'); }
 
 </script>
 </body>
