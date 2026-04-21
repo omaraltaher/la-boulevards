@@ -879,11 +879,9 @@ path.leaflet-interactive:focus { outline:none; }
 .bm-btn { font-size:11px; padding:3px 8px; background:transparent; border:none; color:#4b5563; cursor:pointer; border-radius:3px; white-space:nowrap; }
 .bm-btn.active { color:#e5e7eb; background:rgba(255,255,255,0.1); }
 .bm-btn:hover:not(.active) { color:#9ca3af; }
-#year-sub-row { display:none; margin-top:4px; padding-top:4px; border-top:1px solid rgba(255,255,255,0.06); flex-wrap:wrap; gap:2px; }
-#year-sub-row.visible { display:flex; }
-.yr-btn { font-size:10px; padding:2px 6px; background:transparent; border:none; color:#4b5563; cursor:pointer; border-radius:3px; white-space:nowrap; }
-.yr-btn.active { color:#e5e7eb; background:rgba(255,255,255,0.1); }
-.yr-btn:hover:not(.active) { color:#9ca3af; }
+#year-sub-row { display:none; margin-top:4px; padding-top:4px; border-top:1px solid rgba(255,255,255,0.06); }
+#year-sub-row.visible { display:block; }
+#year-select { font-size:10px; width:100%; background:#1f2937; border:1px solid rgba(255,255,255,0.1); color:#e5e7eb; border-radius:3px; padding:2px 4px; cursor:pointer; }
 #legend.legend-collapsed #basemap-switcher { border-bottom:none; margin-bottom:2px; padding-bottom:2px; }
 #legend.legend-collapsed .bm-btn { padding:3px 5px; font-size:10px; }
 
@@ -1023,11 +1021,13 @@ path.leaflet-interactive:focus { outline:none; }
       <button class="bm-btn active" data-bm="dark">Dark</button>
       <button class="bm-btn" data-bm="sat">Sat</button>
       <div id="year-sub-row">
-        <button class="yr-btn" data-yr="2002">2002</button>
-        <button class="yr-btn" data-yr="2006">2006</button>
-        <button class="yr-btn" data-yr="2011">2011</button>
-        <button class="yr-btn" data-yr="2014">2014</button>
-        <button class="yr-btn active" data-yr="now">Now</button>
+        <select id="year-select">
+          <option value="now">Now</option>
+          <option value="2014">2014</option>
+          <option value="2011">2011</option>
+          <option value="2006">2006</option>
+          <option value="2002">2002</option>
+        </select>
       </div>
     </div>
     <div class="legend-group">
@@ -4431,7 +4431,7 @@ document.querySelectorAll('.bm-btn').forEach(btn => {
     } else {
       currentTileLayer = TILE_LAYERS[btn.dataset.bm].addTo(map);
       // Reset year selection to "now"
-      document.querySelectorAll('.yr-btn').forEach(b => b.classList.toggle('active', b.dataset.yr === 'now'));
+      document.getElementById('year-select').value = 'now';
       yearSubRow.classList.remove('visible');
     }
     currentTileLayer.bringToBack();
@@ -4441,13 +4441,10 @@ document.querySelectorAll('.bm-btn').forEach(btn => {
   });
 });
 
-document.querySelectorAll('.yr-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    map.removeLayer(currentTileLayer);
-    currentTileLayer = (btn.dataset.yr === 'now' ? TILE_LAYERS.sat : HIST_TILE_LAYERS[btn.dataset.yr]).addTo(map);
-    currentTileLayer.bringToBack();
-    document.querySelectorAll('.yr-btn').forEach(b => b.classList.toggle('active', b === btn));
-  });
+document.getElementById('year-select').addEventListener('change', function() {
+  map.removeLayer(currentTileLayer);
+  currentTileLayer = (this.value === 'now' ? TILE_LAYERS.sat : HIST_TILE_LAYERS[this.value]).addTo(map);
+  currentTileLayer.bringToBack();
 });
 
 if (_savedBm === 'sat') { yearSubRow.classList.add('visible'); document.body.classList.add('sat-mode'); }
