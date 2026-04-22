@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-21T16:54:37.748Z",
+  "generated": "2026-04-22T16:54:11.168Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -10,10 +10,10 @@
         "image": "https://s1.ticketm.net/dam/a/eb9/f4390ebb-27a6-491a-9bf9-fef37f76deb9_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Insomniac Presents - Electrik Seoul: K-POP X EDM",
+        "name": "Electrik Seoul: K-POP X EDM ",
         "date": "2026-04-24",
         "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/insomniac-presents-electrik-seoul-kpop-x-hollywood-california-04-24-2026/event/09006462ABA3972F",
+        "url": "https://www.ticketmaster.com/electrik-seoul-kpop-x-edm-hollywood-california-04-24-2026/event/09006462ABA3972F",
         "image": "https://s1.ticketm.net/dam/a/138/f695ee79-aca7-4f24-b0f2-8a121b620138_RECOMENDATION_16_9.jpg"
       },
       {
@@ -287,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Throwing Muses: Moonlight Concessions",
-        "date": "2026-04-21",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/throwing-muses-moonlight-concessions-los-angeles-california-04-21-2026/event/09006435AEB813CF",
-        "image": "https://s1.ticketm.net/dam/e/10f/c1d9c132-12b5-4b42-ba4c-545ffc5f010f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Ashes Remain \"What I've become 15 year anniversary\" ft Stephen Stanley",
         "date": "2026-04-22",
         "time": "18:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/glixen-trauma-ray-with-keep-and-los-angeles-california-05-09-2026/event/0900642E2284EBF3",
         "image": "https://s1.ticketm.net/dam/e/e2a/28498be6-16d8-4196-a6f7-089399210e2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The New Pornographers: The Former Site Of Tour",
+        "date": "2026-05-12",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/the-new-pornographers-the-former-site-los-angeles-california-05-12-2026/event/0900636AF6E41A79",
+        "image": "https://s1.ticketm.net/dam/e/b65/f33dd813-8773-46fd-9024-2663198f1b65_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -1274,41 +1274,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-04-21",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14818693",
-        "image": "https://i.ticketweb.com/i/00/13/41/85/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "Patton Oswalt, Craig Robinson, Alfred Robles, Jason Cheny, Brian Monarch, Brittany Ross and Very Special Guests",
-        "date": "2026-04-21",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/patton-oswalt-craig-robinson-alfred-hollywood-improv-the-main-room-tickets/14759743",
-        "image": "https://s1.ticketm.net/dam/a/bf2/d8cf0bcf-6ebf-4532-9e1d-bda77e33abf2_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Elle Orlando",
-        "date": "2026-04-21",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/elle-orlando-hollywood-improv-the-lab-tickets/14171164",
-        "image": "https://i.ticketweb.com/i/00/12/88/90/34_Edp.jpg?v=5"
-      },
-      {
-        "name": "Tonight at the Improv ft. Godfrey, Craig Robinson, Craig Conant, Faysal Lawrence, Marco Del Vecchio, Nishant Mehta",
-        "date": "2026-04-21",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14780693",
-        "image": "https://s1.ticketm.net/dam/a/5cc/4c227195-7b94-4072-b9f5-9d3e9d1535cc_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "John Campanelli & Special Guests! ft. Jessimae Peluso, Ashley Colleen, Scott Stewart, Mark Fuhrer, Jennie Mintz and more TBA",
-        "date": "2026-04-21",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14153894",
-        "image": "https://s1.ticketm.net/dam/a/99a/a2ee0b1f-ec0d-43a8-a652-18e9b567d99a_1483431_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lab Work!",
         "date": "2026-04-22",
         "time": "18:15:00",
@@ -1330,21 +1295,21 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Jeff Ross, Whitney Cummings, George Wallace, Brian Monarch, Kim McVicar and Very Special Guests",
+        "name": "Tonight at the Improv ft. Jeff Ross, Whitney Cummings, Howie Mandel, George Wallace, Brian Monarch, Kim McVicar and Very Special Guests",
         "date": "2026-04-23",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759763",
         "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab",
+        "name": "Tonight at the Lab ft. Omid Singh, Erica Rhodes, Willie Simon, Janesh Rahlan, Ryan Clark, Freddy Lockhart, Valerie Tosi & more TBA",
         "date": "2026-04-23",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14866793",
-        "image": "https://i.ticketweb.com/i/00/13/46/62/13_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14866793",
+        "image": "https://s1.ticketm.net/dam/a/50b/5fc583a4-8c08-4db8-9afa-5a8c608bc50b_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Erik Griffin, Godfrey, Brittany Furlan, Amir K, Mark Hayes and more TBA",
+        "name": "Tonight at the Improv ft. Erik Griffin, Godfrey, Brittany Furlan, Amir K, Mark Hayes, Myles Murphy and more TBA",
         "date": "2026-04-23",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14832493",
@@ -1377,6 +1342,41 @@
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/historical-roast-ft-matt-mccarthy-hollywood-improv-the-lab-tickets/14808783",
         "image": "https://i.ticketweb.com/i/00/13/41/00/23_Edp.jpg?v=8"
+      },
+      {
+        "name": "Tonight at the Improv ft. Jeff Ross, Ian Bagg, Sarah Tiana, Al Madrigal and more TBA",
+        "date": "2026-04-25",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759563",
+        "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab ft. Juno Birch, Jihan Sabir, Gena B. Jones & more TBA",
+        "date": "2026-04-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14783473",
+        "image": "https://s1.ticketm.net/dam/a/64c/75b865c9-0bd6-4eca-b52c-ba1a2af4764c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Zainab Johnson, Jason Cheny, Chris Estrada, Chris Millhouse and more TBA",
+        "date": "2026-04-25",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759513",
+        "image": "https://s1.ticketm.net/dam/a/597/a6675b28-8ab7-4b56-956e-e83dbfd4c597_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LA vs. Transplants ft. Danielle Perez, Samantha Hale, Kayla Hardy, Andraiah Lugo, Jason Horton, Antjuan Tobias, Bethany Michaels, Amber Easton, Torrance Hill",
+        "date": "2026-04-25",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-danielle-hollywood-improv-the-lab-tickets/14808803",
+        "image": "https://i.ticketweb.com/i/00/13/41/00/43_Edp.jpg?v=6"
+      },
+      {
+        "name": "Laughing Matters 2 - A Comedy Fundraiser for Parkinson's ft. Carol Ann Leif, Lachlan Patterson, James Adomian, Jimmy Burns, Laura House, Keith Michael Ashton, Jann Karam, Jeremy Moody, Rui Montilla",
+        "date": "2026-04-26",
+        "time": "15:30:00",
+        "url": "https://www.ticketweb.com/event/laughing-matters-2-hollywood-improv-the-main-room-tickets/14790313",
+        "image": "https://s1.ticketm.net/dam/a/70c/65963463-5b0e-42e2-99cf-3b36b46f970c_181651_RECOMENDATION_16_9.jpg"
       }
     ]
   }
