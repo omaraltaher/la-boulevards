@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-22T16:54:11.168Z",
+  "generated": "2026-04-23T17:15:08.946Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Maisie Peters",
-        "date": "2026-04-22",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OzF8",
-        "image": "https://s1.ticketm.net/dam/a/275/4ddd7c1b-73b9-4f5e-aab3-de5c894b9275_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Baby J",
         "date": "2026-04-23",
         "time": "20:00:00",
@@ -116,6 +109,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xA8U",
         "image": "https://s1.ticketm.net/dam/a/dc8/a0378719-71f6-441d-81eb-0aefda86fdc8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sleaford Mods",
+        "date": "2026-05-14",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OEqN",
+        "image": "https://s1.ticketm.net/dam/a/9c1/7b44e340-e6d8-4721-892f-b05ce4d7a9c1_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -139,6 +139,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/goldfish-avalon-hollywood-tickets/14856783",
         "image": "https://s1.ticketm.net/dam/a/2f0/3bb920c8-6122-4fbd-a0e5-4192489de2f0_58621_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Reggaeton Rave",
+        "date": "2026-05-09",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/reggaeton-rave-avalon-hollywood-tickets/14872613",
+        "image": "https://s1.ticketm.net/dam/a/bf7/69698309-be3e-43a5-95ac-c161f19a7bf7_1499091_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Morgan Page",
@@ -167,13 +174,6 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/eli-fur-avalon-hollywood-tickets/14773473",
         "image": "https://s1.ticketm.net/dam/a/4bb/602ee3d0-a0e7-4ffb-acf0-bdef5402d4bb_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "VTSS",
-        "date": "2026-06-12",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/vtss-avalon-hollywood-tickets/14188444",
-        "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -287,17 +287,10 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Ashes Remain \"What I've become 15 year anniversary\" ft Stephen Stanley",
-        "date": "2026-04-22",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/ashes-remain-what-ive-become-15-los-angeles-california-04-22-2026/event/09006442169CBA3F",
-        "image": "https://s1.ticketm.net/dam/e/e72/e9180b85-e3d4-4ad5-a775-c0ea80990e72_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Zebra: 50th Anniversary Tour - Hosted By Eddie Trunk",
+        "name": "ZEBRA: 50th Anniversary Tour",
         "date": "2026-04-25",
         "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/zebra-50th-anniversary-tour-hosted-by-los-angeles-california-04-25-2026/event/0900637201A24ABA",
+        "url": "https://www.ticketmaster.com/zebra-50th-anniversary-tour-los-angeles-california-04-25-2026/event/0900637201A24ABA",
         "image": "https://s1.ticketm.net/dam/a/af4/2af70d10-23dd-42a7-9d0d-0b6c00438af4_RECOMENDATION_16_9.jpg"
       },
       {
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/the-new-pornographers-the-former-site-los-angeles-california-05-12-2026/event/0900636AF6E41A79",
         "image": "https://s1.ticketm.net/dam/e/b65/f33dd813-8773-46fd-9024-2663198f1b65_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "UADA and Mortiis with Rome and Wraith Knight",
+        "date": "2026-05-13",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/uada-and-mortiis-with-rome-and-los-angeles-california-05-13-2026/event/09006389BEC4B019",
+        "image": "https://s1.ticketm.net/dam/e/043/9e7cf0dd-5ae4-40da-9efb-c5ceeada7043_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -452,13 +452,6 @@
     "Greek Theatre": [
       {
         "name": "KCRW Presents Thee Sacred Souls",
-        "date": "2026-04-22",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/kcrw-presents-thee-sacred-souls-los-angeles-california-04-22-2026/event/090064348C4F5D15",
-        "image": "https://s1.ticketm.net/dam/a/a17/414bf0b5-8d65-4637-a157-b11d82250a17_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "KCRW Presents Thee Sacred Souls",
         "date": "2026-04-23",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/kcrw-presents-thee-sacred-souls-los-angeles-california-04-23-2026/event/0900642F8321584F",
@@ -505,6 +498,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-beautifully-los-angeles-california-05-08-2026/event/090064338FC951FA",
         "image": "https://s1.ticketm.net/dam/a/dc9/af7da73f-35c1-4386-8ff6-47b8aab24dc9_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Flight Of The Conchords",
+        "date": "2026-05-09",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-flight-los-angeles-california-05-09-2026/event/09006429D47DC0F3",
+        "image": "https://s1.ticketm.net/dam/a/669/52b722ad-8796-4a2c-980a-68ec15382669_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -568,13 +568,6 @@
     "Geffen Playhouse": [
       {
         "name": "Master Harold...And the Boys",
-        "date": "2026-04-22",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPw",
-        "image": null
-      },
-      {
-        "name": "Master Harold...And the Boys",
         "date": "2026-04-23",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPS",
@@ -607,17 +600,17 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPy",
         "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-04-30",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpJZ",
+        "image": null
       }
     ],
     "Pasadena Playhouse": [],
     "Ricardo Montalban Theatre": [
-      {
-        "name": "Comedy Gives Back Presents: Alt Comedy All-Stars 2026",
-        "date": "2026-04-22",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/comedy-gives-back-presents-alt-comedy-hollywood-california-04-22-2026/event/0B006465B7FF438C",
-        "image": "https://s1.ticketm.net/dam/e/6fd/e8902a8d-15ce-4bfa-9f91-bd7453d426fd_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Netflix Is A Joke Presents: This Better Be Funny with David Letterman",
         "date": "2026-05-05",
@@ -1274,27 +1267,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work!",
-        "date": "2026-04-22",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14818743",
-        "image": "https://i.ticketweb.com/i/00/13/41/85/63_Edp.jpg?v=3"
-      },
-      {
-        "name": "Legends ft. Jay Leno, Howie Mandel, George Wallace, Greg Baldwin and more TBA",
-        "date": "2026-04-22",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-howie-hollywood-improv-the-main-room-tickets/14182344",
-        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-04-22",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14848443",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Jeff Ross, Whitney Cummings, Howie Mandel, George Wallace, Brian Monarch, Kim McVicar and Very Special Guests",
         "date": "2026-04-23",
         "time": "19:30:00",
@@ -1309,11 +1281,11 @@
         "image": "https://s1.ticketm.net/dam/a/50b/5fc583a4-8c08-4db8-9afa-5a8c608bc50b_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Erik Griffin, Godfrey, Brittany Furlan, Amir K, Mark Hayes, Myles Murphy and more TBA",
+        "name": "Tonight at the Improv ft. Godfrey, Ian Bagg, Brittany Furlan, Amir K, David Nihill, Mark Hayes, Myles Murphy and more TBA",
         "date": "2026-04-23",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14832493",
-        "image": "https://s1.ticketm.net/dam/a/ee5/b55d695d-1f26-4213-96c7-ed3719b87ee5_1002051_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/d82/9d001b40-7e64-4207-a674-05e15cadfd82_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -1323,11 +1295,11 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jeff Ross, Amir K, Eleanor Kerrigan, Rick Ingraham, Mike Falzone and more TBA",
         "date": "2026-04-24",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14759523",
-        "image": "https://i.ticketweb.com/i/00/13/36/95/53_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759523",
+        "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Low and Inside ft. Radu Bondar, Aaron Brooks, Gabby Lamb, Billy Wayne Davis, Sean Dolan, Nick Vatterott, Martin Urbano, Brian Bogart, Luke Binkow, Gino Pagani, Mackenzie Ray, Shaena Rabbani",
@@ -1337,6 +1309,13 @@
         "image": "https://i.ticketweb.com/i/00/13/39/73/03_Edp.jpg?v=4"
       },
       {
+        "name": "Tonight at the Improv ft. Shapel Lacey, Darren Carter, Ian Bagg and more TBA",
+        "date": "2026-04-24",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759553",
+        "image": "https://i.ticketweb.com/i/00/13/36/96/13_Edp.jpg?v=5"
+      },
+      {
         "name": "Historical Roast ft. Matt McCarthy, Julian Fernandez, Jay Light, Jeremy Scippio, Chelsé Greaux, Eddie Furth, Ryan Pigg",
         "date": "2026-04-24",
         "time": "21:45:00",
@@ -1344,21 +1323,21 @@
         "image": "https://i.ticketweb.com/i/00/13/41/00/23_Edp.jpg?v=8"
       },
       {
-        "name": "Tonight at the Improv ft. Jeff Ross, Ian Bagg, Sarah Tiana, Al Madrigal and more TBA",
+        "name": "Tonight at the Improv ft. Jeff Ross, Ian Bagg, Sarah Tiana, Al Madrigal, Justine Marino and more TBA",
         "date": "2026-04-25",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759563",
         "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Juno Birch, Jihan Sabir, Gena B. Jones & more TBA",
+        "name": "Tonight at the Lab ft. Juno Birch, Willie Simon, Jihan Sabir, Gena B. Jones,  & more TBA",
         "date": "2026-04-25",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14783473",
         "image": "https://s1.ticketm.net/dam/a/64c/75b865c9-0bd6-4eca-b52c-ba1a2af4764c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Zainab Johnson, Jason Cheny, Chris Estrada, Chris Millhouse and more TBA",
+        "name": "Tonight at the Improv ft. Zainab Johnson, Jason Cheny, Asif Ali, Chris Estrada, Chris Millhouse and more TBA",
         "date": "2026-04-25",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759513",
@@ -1377,6 +1356,27 @@
         "time": "15:30:00",
         "url": "https://www.ticketweb.com/event/laughing-matters-2-hollywood-improv-the-main-room-tickets/14790313",
         "image": "https://s1.ticketm.net/dam/a/70c/65963463-5b0e-42e2-99cf-3b36b46f970c_181651_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Craig Robinson, Mary Lynn Rajskub, Jimmy Shin and more TBA",
+        "date": "2026-04-26",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14182414",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Never Ending Comedy ft. Devyn Perry. Avry Ross, Greg Hoffman, Peter Murphy, Leonard Smith Jr, Laurie Kilmartin, Courtney Bee, and more TBA!",
+        "date": "2026-04-26",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/never-ending-comedy-ft-devyn-hollywood-improv-the-lab-tickets/14135564",
+        "image": "https://s1.ticketm.net/dam/a/bb0/cc2070b0-b388-45ab-9a54-13bf193bfbb0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-04-26",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14790603",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       }
     ]
   }
