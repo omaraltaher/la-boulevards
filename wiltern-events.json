@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-23T16:27:15.566Z",
+  "generated": "2026-04-24T16:03:16.309Z",
   "events": [
-    {
-      "name": "She Wants Revenge",
-      "date": "2026-04-23",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/she-wants-revenge-los-angeles-california-04-23-2026/event/09006443ECA9A1D8",
-      "image": "https://s1.ticketm.net/dam/a/96e/e35f0e89-9ce1-4730-b36e-cc2b60d3996e_1801311_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Alice Phoebe Lou: Oblivion Tour",
       "date": "2026-04-24",
@@ -56,6 +49,13 @@
       "time": "18:30:00",
       "url": "https://www.ticketmaster.com/snail-mail-los-angeles-california-05-01-2026/event/0900642D063A0A59",
       "image": "https://s1.ticketm.net/dam/a/fc3/ca589b67-7d2a-4b5b-a03a-1b58e0d61fc3_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Moonchild: Waves Tour",
+      "date": "2026-05-02",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/moonchild-waves-tour-los-angeles-california-05-02-2026/event/0900635025D9C93F",
+      "image": "https://s1.ticketm.net/dam/a/d45/73a89392-c44f-44ba-afa4-a99074714d45_RECOMENDATION_16_9.jpg"
     }
   ]
 }
