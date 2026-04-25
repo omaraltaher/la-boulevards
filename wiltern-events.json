@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-24T16:03:16.309Z",
+  "generated": "2026-04-25T15:37:50.630Z",
   "events": [
-    {
-      "name": "Alice Phoebe Lou: Oblivion Tour",
-      "date": "2026-04-24",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/alice-phoebe-lou-oblivion-tour-los-angeles-california-04-24-2026/event/090063541EF07FE3",
-      "image": "https://s1.ticketm.net/dam/a/ab4/410d411b-fa1b-4b67-838e-1bb3098f6ab4_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "KCRW Presents Cory Wong - Lost in the Wonder",
       "date": "2026-04-25",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/moonchild-waves-tour-los-angeles-california-05-02-2026/event/0900635025D9C93F",
       "image": "https://s1.ticketm.net/dam/a/d45/73a89392-c44f-44ba-afa4-a99074714d45_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: Handsome LIVE & Special Guests",
+      "date": "2026-05-04",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-handsome-los-angeles-california-05-04-2026/event/0900642CE31BB7C3",
+      "image": "https://s1.ticketm.net/dam/a/5d6/b860efff-f908-472d-8209-144d3b86d5d6_RECOMENDATION_16_9.jpg"
     }
   ]
 }
