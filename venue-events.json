@@ -1,14 +1,7 @@
 {
-  "generated": "2026-04-24T16:50:28.888Z",
+  "generated": "2026-04-25T16:35:32.620Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Electrik Seoul: K-POP X EDM ",
-        "date": "2026-04-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/electrik-seoul-kpop-x-edm-hollywood-california-04-24-2026/event/09006462ABA3972F",
-        "image": "https://s1.ticketm.net/dam/a/138/f695ee79-aca7-4f24-b0f2-8a121b620138_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "NGHTMRE Presents: MINDFULL",
         "date": "2026-04-25",
@@ -57,17 +50,17 @@
         "time": "17:30:00",
         "url": "https://www.ticketmaster.com/behemoth-the-godless-iv-2026-hollywood-california-05-21-2026/event/09006428DFB7C461",
         "image": "https://s1.ticketm.net/dam/a/077/e023f73d-5179-42e6-917e-9297e52a4077_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Dethklok",
+        "date": "2026-05-22",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/dethklok-hollywood-california-05-22-2026/event/0900644D618E4246",
+        "image": "https://s1.ticketm.net/dam/a/e40/465904bd-9c4b-4a7c-b50a-39c992d37e40_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Raf-Saperra",
-        "date": "2026-04-24",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-kuI",
-        "image": "https://s1.ticketm.net/dam/a/4e8/400720bc-af79-49b6-8b56-63f72ace44e8_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Maro",
         "date": "2026-04-30",
@@ -116,16 +109,16 @@
         "time": "21:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OAfK",
         "image": "https://s1.ticketm.net/dam/a/c7f/3ce9444f-d684-4505-b3a7-cf04033cac7f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Josiah & the Bonnevilles",
+        "date": "2026-05-21",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-8eb",
+        "image": "https://s1.ticketm.net/dam/a/d06/ea248167-4931-4905-8064-be4873f54d06_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Gasolina",
-        "date": "2026-04-24",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/14823813",
-        "image": "https://s1.ticketm.net/dam/a/10a/c26128f4-c3b4-409c-94bb-cd81f5a0d10a_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Emo Nite",
         "date": "2026-05-01",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/andrew-rayel-find-your-harmony-avalon-hollywood-tickets/14836683",
         "image": "https://s1.ticketm.net/dam/a/91e/67310450-8a6f-4117-89b4-cec5b2afc91e_302921_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Eli & Fur",
+        "date": "2026-06-06",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/eli-fur-avalon-hollywood-tickets/14773473",
+        "image": "https://s1.ticketm.net/dam/a/4bb/602ee3d0-a0e7-4ffb-acf0-bdef5402d4bb_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "Face to Face w/ Unwritten Law",
-        "date": "2026-04-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0Z0",
-        "image": "https://s1.ticketm.net/dam/a/d29/73c8ef4b-58a2-4cdb-9c1a-612b81fb8d29_1118641_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Everglow",
         "date": "2026-04-25",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OACe",
         "image": "https://s1.ticketm.net/dam/a/73c/fac21d2b-6666-4630-95b3-9716331e973c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Prodigy",
+        "date": "2026-05-13",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rK_0",
+        "image": "https://s1.ticketm.net/dam/a/652/868502f4-0eaa-4b89-a48f-c98299b4b652_964551_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -301,13 +301,6 @@
         "image": "https://s1.ticketm.net/dam/a/433/9c786d46-9999-4461-974c-8d39dbf4e433_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Saults",
-        "date": "2026-05-06",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/saults-los-angeles-california-05-06-2026/event/09006388BCBCA874",
-        "image": "https://s1.ticketm.net/dam/e/c78/e668ecbd-e7e8-43f8-84ee-ae1b7eb4cc78_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Grace Ives",
         "date": "2026-05-07",
         "time": "19:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/uada-and-mortiis-with-rome-and-los-angeles-california-05-13-2026/event/09006389BEC4B019",
         "image": "https://s1.ticketm.net/dam/e/043/9e7cf0dd-5ae4-40da-9efb-c5ceeada7043_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Texas Is the Reason",
+        "date": "2026-05-14",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/texas-is-the-reason-los-angeles-california-05-14-2026/event/09006469A0CB8395",
+        "image": "https://s1.ticketm.net/dam/a/6ad/bf61e971-6598-41f8-a405-8646170ab6ad_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -568,13 +568,6 @@
     "Geffen Playhouse": [
       {
         "name": "Master Harold...And the Boys",
-        "date": "2026-04-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPV",
-        "image": null
-      },
-      {
-        "name": "Master Harold...And the Boys",
         "date": "2026-04-25",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPU",
@@ -606,6 +599,13 @@
         "date": "2026-05-01",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpJv",
+        "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-05-02",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpJd",
         "image": null
       }
     ],
@@ -700,13 +700,6 @@
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
-      {
-        "name": "Mean Girls (Touring)",
-        "date": "2026-04-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qZ",
-        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Mean Girls (Touring)",
         "date": "2026-04-25",
@@ -872,13 +865,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Cult Classics Cinema Presents Lemonade",
-        "date": "2026-04-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-lemonade-inglewood-california-04-24-2026/event/0B00647FB14054F0",
-        "image": "https://s1.ticketm.net/dam/e/1d7/c4315476-f7c0-4303-9b41-150cc07b31d7_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Cory Henry Presents: THE CHURCH EXPERIENCE",
         "date": "2026-04-26",
         "time": "19:30:00",
@@ -919,6 +905,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/kevin-ross-2026-experience-inglewood-california-06-06-2026/event/0B0064672A0C71B0",
         "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Cult Classics Cinema Presents DREAMGIRLS",
+        "date": "2026-06-13",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-dreamgirls-inglewood-california-06-13-2026/event/0B00648AD16A641C",
+        "image": "https://s1.ticketm.net/dam/e/662/3be7fb33-b316-486f-b5ce-dc04446c2662_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -1223,18 +1216,18 @@
         "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Netflix Is A Joke Presents: Tiffany Haddish Charity Show",
+        "date": "2026-05-06",
+        "time": "19:00:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-tiffany-haddish-charity-show-tickets-1986280627827?aff=ebdsoporgprofile",
+        "image": "https://s1.ticketm.net/dam/a/bd6/2772e461-01b2-4777-bafc-f19577f9dbd6_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Netflix Is A Joke Presents: Nate Jackson at Laugh Factory",
         "date": "2026-05-06",
         "time": "22:00",
         "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-nate-jackson-at-laugh-factory-tickets-1980892802697",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181339234%2F2990051982791%2F1%2Foriginal.20260402-231318?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.864&fp-y=0.469&s=64479fafd38eda34a4fc88fd7a21ac8f"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Nate Jackson",
-        "date": "2026-05-06",
-        "time": "22:00:00",
-        "url": "https://www.eventbrite.com/e/1980892802697?aff=oddtdtcreator",
-        "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Netflix Is A Joke Presents: Nate Jackson at Laugh Factory",
@@ -1260,34 +1253,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Jeff Ross, Amir K, Eleanor Kerrigan, Rick Ingraham, Mike Falzone and more TBA",
-        "date": "2026-04-24",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759523",
-        "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Low and Inside ft. Radu Bondar, Aaron Brooks, Gabby Lamb, Billy Wayne Davis, Sean Dolan, Nick Vatterott, Martin Urbano, Brian Bogart, Luke Binkow, Gino Pagani, Mackenzie Ray, Shaena Rabbani",
-        "date": "2026-04-24",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/low-and-inside-ft-radu-hollywood-improv-the-lab-tickets/14794753",
-        "image": "https://i.ticketweb.com/i/00/13/39/73/03_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Shapel Lacey, Darren Carter, Omid Singh, Ian Bagg, Owen Smith, Kelly Ryan, Nikki Bon and more TBA",
-        "date": "2026-04-24",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759553",
-        "image": "https://i.ticketweb.com/i/00/13/36/96/13_Edp.jpg?v=11"
-      },
-      {
-        "name": "Historical Roast ft. Matt McCarthy, Julian Fernandez, Jay Light, Jeremy Scippio, Chelsé Greaux, Eddie Furth, Ryan Pigg",
-        "date": "2026-04-24",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/historical-roast-ft-matt-mccarthy-hollywood-improv-the-lab-tickets/14808783",
-        "image": "https://i.ticketweb.com/i/00/13/41/00/23_Edp.jpg?v=8"
-      },
-      {
         "name": "Tonight at the Improv ft. Jeff Ross, Ian Bagg, Charles Fleischer, Doug Benson, Sarah Tiana, Al Madrigal, Justine Marino and more TBA",
         "date": "2026-04-25",
         "time": "19:00:00",
@@ -1295,7 +1260,7 @@
         "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Sophie Buddle, Juno Birch, Willie Simon, Jihan Sabir, Freddy Lockhart, Gena B. Jones,  & more TBA",
+        "name": "Tonight at the Lab ft. Sophie Buddle, Juno Birch, J.F. Harris, Willie Simon, Jihan Sabir, Freddy Lockhart, Gena B. Jones, Chip Nicholson & more TBA",
         "date": "2026-04-25",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14783473",
@@ -1330,7 +1295,7 @@
         "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Never Ending Comedy ft. Devyn Perry. Avry Ross, Greg Hoffman, Peter Murphy, Leonard Smith Jr, Laurie Kilmartin, Courtney Bee, and more TBA!",
+        "name": "Never Ending Comedy ft. Devyn Perry. Avry Ross, Greg Hoffman, Peter Murphy, Leonard Smith Jr, Laurie Kilmartin, Courtney Bee, Sam Piro and more TBA!",
         "date": "2026-04-26",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/never-ending-comedy-ft-devyn-hollywood-improv-the-lab-tickets/14135564",
@@ -1344,25 +1309,32 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Late for Work ft. Zainab Johnson, Mateen Stewart and more TBA",
+        "name": "Late for Work ft. Craig Robinson, Zainab Johnson, Mateen Stewart and more TBA",
         "date": "2026-04-26",
         "time": "21:15:00",
-        "url": "https://www.ticketweb.com/event/late-for-work-ft-zainab-hollywood-improv-the-main-room-tickets/14756013",
-        "image": "https://i.ticketweb.com/i/00/13/36/61/53_Edp.jpg?v=5"
+        "url": "https://www.ticketweb.com/event/late-for-work-ft-craig-hollywood-improv-the-main-room-tickets/14756013",
+        "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Alfred Robles, Cristela Alonzo, Kev Adams, Chris Millhouse  and more TBA",
+        "name": "Tonight at the Improv ft. Alfred Robles, Cristela Alonzo, Dustin Ybarra, Kev Adams, Chris Millhouse  and more TBA",
         "date": "2026-04-27",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14771883",
         "image": "https://s1.ticketm.net/dam/a/1da/59f86268-e95d-401d-a46d-4bac1eaca1da_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Deon Cole: Does This Work?",
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
         "date": "2026-04-27",
-        "time": "20:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14790463",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14759793",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-04-28",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14818713",
+        "image": "https://i.ticketweb.com/i/00/13/41/85/53_Edp.jpg?v=4"
       },
       {
         "name": "Just For Laughs Showcase",
@@ -1370,6 +1342,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/just-for-laughs-showcase-hollywood-improv-the-lab-tickets/14829343",
         "image": "https://s1.ticketm.net/dam/a/708/ff8b0c59-bb2a-42b5-8ab1-ed1ad1896708_111631_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lab Work!",
+        "date": "2026-04-29",
+        "time": "18:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14818733",
+        "image": "https://i.ticketweb.com/i/00/13/44/08/13_Edp.jpg?v=1"
+      },
+      {
+        "name": "Reid the Room ft. Reid Brackenbury and more TBA!",
+        "date": "2026-04-30",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14157024",
+        "image": "https://i.ticketweb.com/i/00/12/87/65/84_Edp.jpg?v=3"
       }
     ]
   }
