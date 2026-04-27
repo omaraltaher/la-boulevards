@@ -1576,7 +1576,6 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     });
     renderTreesDirect(blvd && treeData.length ? filterNearBlvd(treeData, blvd, 0.30) : []);
     renderPlantsDirect(blvd && nativePlantData.length ? filterNearBlvd(nativePlantData, blvd, 0.25) : []);
-    if (onNowSelected) showTheatreLabels();
   }
 
   function applyHighlight(blvd, fromClick = false) {
@@ -2571,7 +2570,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         }
         html += `<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:8px;">` +
           `<div style="min-width:0;flex:1;">` +
-          `<div style="font-size:13px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#9ca3af'};overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${ev.name}</div>` +
+          `<div style="font-size:13px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#9ca3af'};line-height:1.4;">${ev.name}</div>` +
           (timeStr ? `<div style="font-size:11px;color:#6b7280;">${timeStr}</div>` : '') +
           `</div>` +
           (ev.url ? `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;flex-shrink:0;padding-top:2px;">Tickets →</a>` : '') +
