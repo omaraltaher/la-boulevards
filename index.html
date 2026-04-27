@@ -2627,7 +2627,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
         timeStr = ` · ${hr > 12 ? hr - 12 : hr || 12}:${mm} ${hr >= 12 ? 'PM' : 'AM'}`;
       }
       popHtml += `<div style="margin-bottom:6px;">` +
-        `<div style="font-size:12px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#9ca3af'};overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${ev.name}${timeStr}</div>` +
+        `<div style="font-size:12px;color:${isTonight ? 'rgba(192,132,252,0.9)' : '#9ca3af'};line-height:1.4;">${ev.name}${timeStr}</div>` +
         (ev.url ? `<a href="${ev.url}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(192,132,252,0.7);text-decoration:none;">Tickets →</a>` : '') +
         `</div>`;
     }
