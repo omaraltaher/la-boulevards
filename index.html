@@ -2584,7 +2584,7 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
     infoExtract.innerHTML = html;
     infoExtract.style.display = 'block';
 
-    _openHalfSheet();
+    if (isMobile()) _openHalfSheet();
   }
 
   // "📍 Map" tap — peek sheet, fly to theatre, open popup with shows
@@ -2644,11 +2644,12 @@ fetch('boulevards.json').then(r => r.json()).then(data => {
       _deactivateProwl(); _deactivateFeral(); infoExtract.style.display = 'none';
       dimAllBoulevards();
       updateOverlayMarkers(null); // desktop: shows markers + callout labels
-      if (isMobile()) _openOnNowSheet();
+      _openOnNowSheet();
     } else {
       clearTheatreLabels();
       theatreMarkerList.forEach(({ marker, isWiltern }) => { if (!isWiltern) marker.remove(); });
-      if (isMobile()) { infoPanel.classList.remove('open', 'onnow'); setSheetState('closed'); }
+      infoPanel.classList.remove('open', 'onnow');
+      if (isMobile()) setSheetState('closed');
       if (pinLat !== null) applyProximity(pinLat, pinLon); else resetProximity();
     }
   }
