@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-26T16:37:05.390Z",
+  "generated": "2026-04-27T17:17:23.571Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "John Milton",
-        "date": "2026-04-26",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-g-s",
-        "image": "https://s1.ticketm.net/dam/a/17c/47dbffe6-0d4c-4590-9418-9025d9ff417c_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Chet Faker",
         "date": "2026-04-30",
         "time": "20:00:00",
@@ -232,16 +225,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rK_V",
         "image": "https://s1.ticketm.net/dam/a/652/868502f4-0eaa-4b89-a48f-c98299b4b652_964551_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Floetry",
+        "date": "2026-05-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-puU",
+        "image": "https://s1.ticketm.net/dam/a/129/d206d44a-fec0-4227-844e-2badea4f5129_59741_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "Hatsune Miku",
-        "date": "2026-04-26",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qYxF",
-        "image": "https://s1.ticketm.net/dam/a/5f0/997858a4-dcc7-4096-95b3-0e1b23fe15f0_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "BLESSD - EL MEJOR HOMBRE DEL MUNDO TOUR - LA",
         "date": "2026-05-01",
@@ -276,6 +269,13 @@
         "time": "20:00:00",
         "url": "https://www.axs.com/events/1261314/los-fabulosos-cadillacs-tickets?skin=peacock",
         "image": "https://s1.ticketm.net/dam/a/108/8f1317f2-ecbe-43f8-ba2e-d34843304108_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Laura Pausini",
+        "date": "2026-05-28",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jopp",
+        "image": "https://s1.ticketm.net/dam/a/cfc/61fcb7f2-fcac-4bab-b204-5f796c908cfc_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
@@ -392,13 +392,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Lily Allen Performs West End Girl",
-        "date": "2026-04-26",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/lily-allen-performs-west-end-girl-los-angeles-california-04-26-2026/event/09006382D931A9FC",
-        "image": "https://s1.ticketm.net/dam/a/78b/e73d29f4-b17c-497d-ac4a-0a8c7503c78b_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Hiromis SonicWonder",
         "date": "2026-05-01",
         "time": "20:00:00",
@@ -439,6 +432,13 @@
         "time": "21:30:00",
         "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-smosh-los-angeles-california-05-06-2026/event/0900642E1B60E08F",
         "image": "https://s1.ticketm.net/dam/a/80c/be3e1618-db03-4d15-96a3-1e65b521b80c_1192171_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Mo Amer",
+        "date": "2026-05-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-mo-los-angeles-california-05-07-2026/event/09006431EAE48B44",
+        "image": "https://s1.ticketm.net/dam/a/407/e2afafee-20b2-4067-b289-cb171ea40407_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -502,13 +502,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "Dancing With The Stars: Live! - 2026 Tour",
-        "date": "2026-04-26",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2026-hollywood-california-04-26-2026/event/09006347BEDA4898",
-        "image": "https://s1.ticketm.net/dam/a/f26/a3b73864-daf0-4569-bbc6-dac32787af26_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "HoYoFair Fan Concert",
         "date": "2026-05-01",
         "time": "20:00:00",
@@ -549,16 +542,16 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-hasan-hollywood-california-05-09-2026/event/09006383CCC4B06F",
         "image": "https://s1.ticketm.net/dam/a/24d/238d2158-cd25-4542-aef0-2e2e6510624d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PaleyLive LA: Outlander: A Celebration",
+        "date": "2026-05-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/paleylive-la-outlander-a-celebration-hollywood-california-05-13-2026/event/09006491A82E97E0",
+        "image": "https://s1.ticketm.net/dam/e/c82/5398b5e7-34aa-441b-8382-227487dbfc82_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Master Harold...And the Boys",
-        "date": "2026-04-26",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpPM",
-        "image": null
-      },
       {
         "name": "Master Harold...And the Boys",
         "date": "2026-04-29",
@@ -592,6 +585,13 @@
         "date": "2026-05-03",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpJ7",
+        "image": null
+      },
+      {
+        "name": "Master Harold...And the Boys",
+        "date": "2026-05-06",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpJk",
         "image": null
       }
     ],
@@ -688,13 +688,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "Mean Girls (Touring)",
-        "date": "2026-04-26",
-        "time": "13:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qd",
-        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Mean Girls (Touring)",
         "date": "2026-04-30",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qA",
@@ -720,6 +713,20 @@
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qa",
         "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sheena Easton",
+        "date": "2026-05-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7reo6",
+        "image": "https://s1.ticketm.net/dam/a/e92/0e3a1f45-82fc-409e-8a99-abcc0720ee92_1057201_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mama I'm a Big Girl Now",
+        "date": "2026-05-29",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q6_6",
+        "image": null
       }
     ],
     "Downey Civic Theatre": [],
@@ -851,13 +858,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Cory Henry Presents: THE CHURCH EXPERIENCE",
-        "date": "2026-04-26",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/cory-henry-presents-the-church-experience-inglewood-california-04-26-2026/event/0B00647FF51C700F",
-        "image": "https://s1.ticketm.net/dam/a/a1f/21111ac8-9609-4d6e-bd4f-775267c9fa1f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "South Side Sessions: Season 2 - with Joshua Christian Childress",
         "date": "2026-04-30",
         "time": "20:00:00",
@@ -898,6 +898,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-dreamgirls-inglewood-california-06-13-2026/event/0B00648AD16A641C",
         "image": "https://s1.ticketm.net/dam/e/662/3be7fb33-b316-486f-b5ce-dc04446c2662_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Cult Classics Cinema Presents BLACK PANTHER",
+        "date": "2026-07-18",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-black-panther-inglewood-california-07-18-2026/event/0B00648AD0B26304",
+        "image": "https://s1.ticketm.net/dam/e/c99/5c85fc8d-8b44-48ec-bc15-6397d9d37c99_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -1132,18 +1139,18 @@
     ],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00 PM",
-        "date": "2026-04-26",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700-pm-tickets-1982931965889",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+        "name": "SPECIAL LAUNCH EVENT: EPOCH x Laugh Factory Comedian Trading Cards 7:45PM",
+        "date": "2026-04-27",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/special-launch-event-epoch-x-laugh-factory-comedian-trading-cards-745pm-tickets-1983002131757",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182443576%2F2987014365277%2F1%2Foriginal.20260417-215601?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c65d141fa8d5f23060abf8a32acaf003"
       },
       {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-04-26",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1982932999982",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+        "name": "Hollywood All-stars 7:30 PM",
+        "date": "2026-04-29",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/hollywood-all-stars-730-pm-tickets-1983031889764",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182081446%2F2987014365277%2F1%2Foriginal.20260413-213945?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=06dc4f9878cfd8dc1928d1bfe86db81d"
       },
       {
         "name": "Netflix Is A Joke Presents: Laughs on the Spectrum",
@@ -1239,34 +1246,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Laughing Matters 2 - A Comedy Fundraiser for Parkinson's ft. Carol Ann Leif, Lachlan Patterson, James Adomian, Jimmy Burns, Laura House, Keith Michael Ashton, Jann Karam, Jeremy Moody, Rui Montilla",
-        "date": "2026-04-26",
-        "time": "15:30:00",
-        "url": "https://www.ticketweb.com/event/laughing-matters-2-hollywood-improv-the-main-room-tickets/14790313",
-        "image": "https://s1.ticketm.net/dam/a/70c/65963463-5b0e-42e2-99cf-3b36b46f970c_181651_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Craig Robinson, Orny Adams, Mary Lynn Rajskub, Brenton Biddlecombe, Jimmy Shin, Professor H",
-        "date": "2026-04-26",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14182414",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Never Ending Comedy ft. Devyn Perry. Avry Ross, Greg Hoffman, Peter Murphy, Leonard Smith Jr, Laurie Kilmartin, Courtney Bee, Sam Piro and more TBA!",
-        "date": "2026-04-26",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/never-ending-comedy-ft-devyn-hollywood-improv-the-lab-tickets/14135564",
-        "image": "https://s1.ticketm.net/dam/a/bb0/cc2070b0-b388-45ab-9a54-13bf193bfbb0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-04-26",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14790603",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Alfred Robles, Cristela Alonzo, Dustin Ybarra, Kev Adams, Chris Millhouse  and more TBA",
         "date": "2026-04-27",
         "time": "19:15:00",
@@ -1278,7 +1257,7 @@
         "date": "2026-04-27",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-g-hollywood-improv-the-main-room-tickets/14759793",
-        "image": "https://i.ticketweb.com/i/00/13/36/97/13_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/13/36/97/13_Edp.jpg?v=4"
       },
       {
         "name": "Happy Hour Open Mic",
@@ -1306,7 +1285,7 @@
         "date": "2026-04-28",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/set-me-up-ft-vinny-hollywood-improv-the-main-room-tickets/14822843",
-        "image": "https://i.ticketweb.com/i/00/13/42/32/13_Edp.jpg?v=12"
+        "image": "https://i.ticketweb.com/i/00/13/42/32/13_Edp.jpg?v=13"
       },
       {
         "name": "Lab Work!",
@@ -1330,6 +1309,13 @@
         "image": "https://i.ticketweb.com/i/00/12/87/65/84_Edp.jpg?v=3"
       },
       {
+        "name": "Tonight at the Improv ft. Craig Conant, Craig Robinson, Crystal Marie, Mark Hayes and more TBA",
+        "date": "2026-04-30",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14855003",
+        "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Deon Cole: Does This Work?",
         "date": "2026-04-30",
         "time": "21:30:00",
@@ -1337,11 +1323,25 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv",
+        "date": "2026-05-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14774683",
+        "image": "https://i.ticketweb.com/i/00/13/38/05/23_Edp.jpg?v=2"
+      },
+      {
         "name": "Just For Laughs Showcase",
         "date": "2026-05-01",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/just-for-laughs-showcase-hollywood-improv-the-lab-tickets/14829433",
         "image": "https://s1.ticketm.net/dam/a/708/ff8b0c59-bb2a-42b5-8ab1-ed1ad1896708_111631_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Next Generation Comedy",
+        "date": "2026-05-02",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/next-generation-comedy-hollywood-improv-the-lab-tickets/14189344",
+        "image": "https://i.ticketweb.com/i/00/12/90/62/84_Edp.jpg?v=2"
       }
     ]
   }
