@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-26T15:39:56.332Z",
+  "generated": "2026-04-27T16:24:39.295Z",
   "events": [
-    {
-      "name": "Bethel Music 2026 Tour",
-      "date": "2026-04-26",
-      "time": "18:00:00",
-      "url": "https://www.ticketmaster.com/bethel-music-2026-tour-los-angeles-california-04-26-2026/event/0900638AA34995F9",
-      "image": "https://s1.ticketm.net/dam/a/b8d/29977ca4-0692-41f1-8bf2-4f5c97623b8d_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Be Like Blippi Tour!",
       "date": "2026-04-27",
@@ -56,6 +49,13 @@
       "time": "21:45:00",
       "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-drink-los-angeles-california-05-04-2026/event/09006431BDB4D047",
       "image": "https://s1.ticketm.net/dam/a/8f4/0859ab41-1503-4031-a1b4-fb8c0d6898f4_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: This Past Weekend with Theo Von",
+      "date": "2026-05-05",
+      "time": "19:30:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-this-los-angeles-california-05-05-2026/event/0900648AB708ADC0",
+      "image": "https://s1.ticketm.net/dam/a/866/6a2ac081-e24a-4c73-afba-827fbe231866_RECOMENDATION_16_9.jpg"
     }
   ]
 }
