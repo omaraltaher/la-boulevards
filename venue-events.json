@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-27T17:17:23.571Z",
+  "generated": "2026-04-28T17:43:37.076Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -24,6 +24,27 @@
         "image": "https://s1.ticketm.net/dam/a/bd0/458a1b9a-6b3b-47a7-b43d-596e29338bd0_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Netflix Is A Joke Presents: Dave Chappelle",
+        "date": "2026-05-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-dave-hollywood-california-05-07-2026/event/090064989DF1BC63",
+        "image": "https://s1.ticketm.net/dam/a/97b/a189e855-8635-4738-afa2-28a9e416d97b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Dave Chappelle",
+        "date": "2026-05-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-dave-hollywood-california-05-08-2026/event/090064981BFC4892",
+        "image": "https://s1.ticketm.net/dam/a/97b/a189e855-8635-4738-afa2-28a9e416d97b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Dave Chappelle",
+        "date": "2026-05-09",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-dave-hollywood-california-05-09-2026/event/090064981C0B48E2",
+        "image": "https://s1.ticketm.net/dam/a/97b/a189e855-8635-4738-afa2-28a9e416d97b_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "The Midnight: Time Machines",
         "date": "2026-05-15",
         "time": "19:00:00",
@@ -36,27 +57,6 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/touche-amore-stage-four-10-year-hollywood-california-05-16-2026/event/09006344389F8953",
         "image": "https://s1.ticketm.net/dam/a/976/d36eb64d-05cd-49c8-86c6-6f6703d9c976_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Behemoth: The Godless IV 2026 ",
-        "date": "2026-05-21",
-        "time": "17:30:00",
-        "url": "https://www.ticketmaster.com/behemoth-the-godless-iv-2026-hollywood-california-05-21-2026/event/09006428DFB7C461",
-        "image": "https://s1.ticketm.net/dam/a/077/e023f73d-5179-42e6-917e-9297e52a4077_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Dethklok",
-        "date": "2026-05-22",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/dethklok-hollywood-california-05-22-2026/event/0900644D618E4246",
-        "image": "https://s1.ticketm.net/dam/a/e40/465904bd-9c4b-4a7c-b50a-39c992d37e40_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Insomniac Presents: KSHMR",
-        "date": "2026-05-23",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/insomniac-presents-kshmr-hollywood-california-05-23-2026/event/0900642DD39DC581",
-        "image": "https://s1.ticketm.net/dam/a/bb1/c999070e-7bdc-4e29-9963-2e9fb3824bb1_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -900,11 +900,11 @@
         "image": "https://s1.ticketm.net/dam/e/662/3be7fb33-b316-486f-b5ce-dc04446c2662_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Cult Classics Cinema Presents BLACK PANTHER",
-        "date": "2026-07-18",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-black-panther-inglewood-california-07-18-2026/event/0B00648AD0B26304",
-        "image": "https://s1.ticketm.net/dam/e/c99/5c85fc8d-8b44-48ec-bc15-6397d9d37c99_RECOMENDATION_16_9.jpg"
+        "name": "Kobie Dozier: N'namdi in Concert",
+        "date": "2026-06-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/kobie-dozier-nnamdi-in-concert-inglewood-california-06-21-2026/event/0B00649C80A63421",
+        "image": null
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -1130,27 +1130,27 @@
         "image": "https://s1.ticketm.net/dam/a/726/0ffae3f3-97fe-4fd9-9ac2-69d4ce428726_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Netflix Is A Joke Presents: Ari Shaffir's Renamed Storytelling Show",
+        "name": "Netflix Is A Joke Presents: Story Warz",
         "date": "2026-05-07",
-        "time": "22:00:00",
-        "url": "https://www.showclix.com/event/ari-shaffir-2026",
-        "image": "https://s1.ticketm.net/dam/a/f92/497ebc85-bc09-4f72-a11a-10bba6182f92_RECOMENDATION_16_9.jpg"
+        "time": "23:59:00",
+        "url": "https://www.showclix.com/event/story-warz-2026-netflix3",
+        "image": null
       }
     ],
     "Laugh Factory": [
-      {
-        "name": "SPECIAL LAUNCH EVENT: EPOCH x Laugh Factory Comedian Trading Cards 7:45PM",
-        "date": "2026-04-27",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/special-launch-event-epoch-x-laugh-factory-comedian-trading-cards-745pm-tickets-1983002131757",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182443576%2F2987014365277%2F1%2Foriginal.20260417-215601?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c65d141fa8d5f23060abf8a32acaf003"
-      },
       {
         "name": "Hollywood All-stars 7:30 PM",
         "date": "2026-04-29",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/hollywood-all-stars-730-pm-tickets-1983031889764",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182081446%2F2987014365277%2F1%2Foriginal.20260413-213945?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=06dc4f9878cfd8dc1928d1bfe86db81d"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183162181%2F2987014365277%2F1%2Foriginal.20260427-201705?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fa1b841148b5049c6eadf0ba67ab9303"
+      },
+      {
+        "name": "Hollywood All-Stars 9:45PM",
+        "date": "2026-04-29",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/hollywood-all-stars-945pm-tickets-1983034748314",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183164123%2F2987014365277%2F1%2Foriginal.20260427-203525?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=396ddbd577c67723f176e7194f644cbd"
       },
       {
         "name": "Netflix Is A Joke Presents: Laughs on the Spectrum",
@@ -1246,20 +1246,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Alfred Robles, Cristela Alonzo, Dustin Ybarra, Kev Adams, Chris Millhouse  and more TBA",
-        "date": "2026-04-27",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14771883",
-        "image": "https://s1.ticketm.net/dam/a/1da/59f86268-e95d-401d-a46d-4bac1eaca1da_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with G Thang, Adrian McCovy, Samson Crouppen, Brandon Broady, Kaydoll, & more",
-        "date": "2026-04-27",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-g-hollywood-improv-the-main-room-tickets/14759793",
-        "image": "https://i.ticketweb.com/i/00/13/36/97/13_Edp.jpg?v=4"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-04-28",
         "time": "17:15:00",
@@ -1285,7 +1271,7 @@
         "date": "2026-04-28",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/set-me-up-ft-vinny-hollywood-improv-the-main-room-tickets/14822843",
-        "image": "https://i.ticketweb.com/i/00/13/42/32/13_Edp.jpg?v=13"
+        "image": "https://i.ticketweb.com/i/00/13/42/32/13_Edp.jpg?v=16"
       },
       {
         "name": "Lab Work!",
@@ -1302,14 +1288,14 @@
         "image": "https://s1.ticketm.net/dam/a/562/9b4d6bc8-b9b8-4eae-9600-39045f190562_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Reid the Room ft. Reid Brackenbury and more TBA!",
+        "name": "Reid the Room ft. Reid Brackenbury, Brandi Denise, Ocean Glapion, Johana Coca, Simon Gibson, Sarah Lawrence and more TBA!",
         "date": "2026-04-30",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14157024",
-        "image": "https://i.ticketweb.com/i/00/12/87/65/84_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/12/87/65/84_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. Craig Conant, Craig Robinson, Crystal Marie, Mark Hayes and more TBA",
+        "name": "Tonight at the Improv ft. Craig Conant, Craig Robinson, Crystal Marie, Nick Colletti, Mark Hayes and more TBA",
         "date": "2026-04-30",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14855003",
@@ -1327,7 +1313,7 @@
         "date": "2026-05-01",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14774683",
-        "image": "https://i.ticketweb.com/i/00/13/38/05/23_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/13/38/05/23_Edp.jpg?v=4"
       },
       {
         "name": "Just For Laughs Showcase",
@@ -1342,6 +1328,13 @@
         "time": "16:00:00",
         "url": "https://www.ticketweb.com/event/next-generation-comedy-hollywood-improv-the-lab-tickets/14189344",
         "image": "https://i.ticketweb.com/i/00/12/90/62/84_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-05-02",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14774733",
+        "image": "https://i.ticketweb.com/i/00/13/38/05/73_Edp.jpg?v=2"
       }
     ]
   }
