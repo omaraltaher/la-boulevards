@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-27T16:24:39.295Z",
+  "generated": "2026-04-28T16:49:31.025Z",
   "events": [
-    {
-      "name": "Be Like Blippi Tour!",
-      "date": "2026-04-27",
-      "time": "17:00:00",
-      "url": "https://www.ticketmaster.com/be-like-blippi-tour-los-angeles-california-04-27-2026/event/09006371F8D01C10",
-      "image": "https://s1.ticketm.net/dam/a/999/f6f8d59e-d776-4d59-aae8-be2f00016999_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Oh Wonder",
       "date": "2026-04-28",
@@ -56,6 +49,13 @@
       "time": "19:30:00",
       "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-this-los-angeles-california-05-05-2026/event/0900648AB708ADC0",
       "image": "https://s1.ticketm.net/dam/a/866/6a2ac081-e24a-4c73-afba-827fbe231866_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: Just Trish & Special Guests",
+      "date": "2026-05-05",
+      "time": "21:45:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-just-los-angeles-california-05-05-2026/event/090064300265888A",
+      "image": "https://s1.ticketm.net/dam/a/98a/e6ce2a2f-07ec-42b2-b557-01a7a8a5e98a_RECOMENDATION_16_9.jpg"
     }
   ]
 }
