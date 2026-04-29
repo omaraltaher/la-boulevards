@@ -1,13 +1,6 @@
 {
-  "generated": "2026-04-28T16:49:31.025Z",
+  "generated": "2026-04-29T16:26:16.053Z",
   "events": [
-    {
-      "name": "Oh Wonder",
-      "date": "2026-04-28",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/oh-wonder-los-angeles-california-04-28-2026/event/09006429D790C472",
-      "image": "https://s1.ticketm.net/dam/a/456/94f44e1f-f1a2-46e5-8737-39fea7850456_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Gabrielle Bernstein: Time to Trust",
       "date": "2026-04-29",
@@ -56,6 +49,13 @@
       "time": "21:45:00",
       "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-just-los-angeles-california-05-05-2026/event/090064300265888A",
       "image": "https://s1.ticketm.net/dam/a/98a/e6ce2a2f-07ec-42b2-b557-01a7a8a5e98a_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: Bill Simmons with the Creators of Tires",
+      "date": "2026-05-06",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-bill-los-angeles-california-05-06-2026/event/09006431CC42ED43",
+      "image": "https://s1.ticketm.net/dam/a/8ca/9c48721b-3f39-45a6-b80b-ae942b0e38ca_RECOMENDATION_16_9.jpg"
     }
   ]
 }
