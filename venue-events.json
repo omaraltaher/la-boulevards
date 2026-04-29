@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T17:43:37.076Z",
+  "generated": "2026-04-29T17:23:06.484Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -366,7 +366,64 @@
         "image": "https://s1.ticketm.net/dam/a/e19/4ff116ef-1748-417c-85ec-e9559ebc1e19_RECOMENDATION_16_9.jpg"
       }
     ],
-    "Kirk Douglas Theatre": [],
+    "Kirk Douglas Theatre": [
+      {
+        "name": "GUAC",
+        "date": "2026-04-29",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ajp",
+        "image": null
+      },
+      {
+        "name": "GUAC",
+        "date": "2026-04-30",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Aj9",
+        "image": null
+      },
+      {
+        "name": "GUAC",
+        "date": "2026-05-01",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ajb",
+        "image": null
+      },
+      {
+        "name": "GUAC",
+        "date": "2026-05-02",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Aj_",
+        "image": null
+      },
+      {
+        "name": "GUAC",
+        "date": "2026-05-03",
+        "time": "13:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AjO",
+        "image": null
+      },
+      {
+        "name": "GUAC",
+        "date": "2026-05-05",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Aj-",
+        "image": null
+      },
+      {
+        "name": "GUAC",
+        "date": "2026-05-06",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ajx",
+        "image": null
+      },
+      {
+        "name": "GUAC",
+        "date": "2026-05-07",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Aj0",
+        "image": null
+      }
+    ],
     "Shrine Auditorium": [
       {
         "name": "The Music of SQUARE ENIX",
@@ -1246,34 +1303,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-04-28",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14818713",
-        "image": "https://i.ticketweb.com/i/00/13/41/85/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Chelsea Handler, Anthony Jeselnik, Nikki Glaser, Brian Monarch, Leah Knauer and Very Special Guests.",
-        "date": "2026-04-28",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14759723",
-        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Just For Laughs Showcase",
-        "date": "2026-04-28",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-for-laughs-showcase-hollywood-improv-the-lab-tickets/14829343",
-        "image": "https://s1.ticketm.net/dam/a/708/ff8b0c59-bb2a-42b5-8ab1-ed1ad1896708_111631_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Set Me Up ft. Vinny Fasline, Mitsy Sanderson, Erik Griffin, Drew Lynch, Paul Elia and more TBA",
-        "date": "2026-04-28",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/set-me-up-ft-vinny-hollywood-improv-the-main-room-tickets/14822843",
-        "image": "https://i.ticketweb.com/i/00/13/42/32/13_Edp.jpg?v=16"
-      },
-      {
         "name": "Lab Work!",
         "date": "2026-04-29",
         "time": "18:15:00",
@@ -1323,6 +1352,13 @@
         "image": "https://s1.ticketm.net/dam/a/708/ff8b0c59-bb2a-42b5-8ab1-ed1ad1896708_111631_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv ft. Jeff Ross, Jim Norton, Craig Conant, and More TBA!",
+        "date": "2026-05-01",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14774703",
+        "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Next Generation Comedy",
         "date": "2026-05-02",
         "time": "16:00:00",
@@ -1330,11 +1366,46 @@
         "image": "https://i.ticketweb.com/i/00/12/90/62/84_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jeff Ross, Jim Norton, Scott Thompson, Frazer Smith, and More TBA!",
         "date": "2026-05-02",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14774733",
-        "image": "https://i.ticketweb.com/i/00/13/38/05/73_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14774733",
+        "image": "https://s1.ticketm.net/dam/a/630/fe6f6e73-403c-42c2-9ae8-689ad32e5630_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab ft. Janesh Rahlan, Nika King, Freddy Lockhart, Josef Anolin, and More TBA!",
+        "date": "2026-05-02",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14853733",
+        "image": "https://i.ticketweb.com/i/00/13/45/36/63_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Audrey Stewart and More TBA!",
+        "date": "2026-05-02",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14774743",
+        "image": "https://i.ticketweb.com/i/00/13/38/05/83_Edp.jpg?v=3"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-05-02",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14878233",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Nikki Glaser, Charles Fleischer, Darren Carter, Jimmy Shin and more TBA",
+        "date": "2026-05-03",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14188944",
+        "image": "https://s1.ticketm.net/dam/a/562/9b4d6bc8-b9b8-4eae-9600-39045f190562_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Ron Funches: Funchadelic ft. Eddie Pepitone, Dylan Adler, Gary Simons",
+        "date": "2026-05-04",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-main-room-tickets/14173114",
+        "image": "https://s1.ticketm.net/dam/a/ca0/1f5b6d32-ff79-4568-be1b-08ae5b1e4ca0_RECOMENDATION_16_9.jpg"
       }
     ]
   }
