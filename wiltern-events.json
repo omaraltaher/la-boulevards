@@ -1,26 +1,12 @@
 {
-  "generated": "2026-04-29T16:26:16.053Z",
+  "generated": "2026-04-30T16:17:19.739Z",
   "events": [
-    {
-      "name": "Gabrielle Bernstein: Time to Trust",
-      "date": "2026-04-29",
-      "time": "19:30:00",
-      "url": "https://www.ticketmaster.com/gabrielle-bernstein-time-to-trust-los-angeles-california-04-29-2026/event/09006446B7498782",
-      "image": "https://s1.ticketm.net/dam/a/c2f/081cde70-52a7-4a1b-b6ca-043954c0cc2f_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Snail Mail",
       "date": "2026-05-01",
       "time": "18:30:00",
       "url": "https://www.ticketmaster.com/snail-mail-los-angeles-california-05-01-2026/event/0900642D063A0A59",
       "image": "https://s1.ticketm.net/dam/a/fc3/ca589b67-7d2a-4b5b-a03a-1b58e0d61fc3_RECOMENDATION_16_9.jpg"
-    },
-    {
-      "name": "Moonchild: Waves Tour",
-      "date": "2026-05-02",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/moonchild-waves-tour-los-angeles-california-05-02-2026/event/0900635025D9C93F",
-      "image": "https://s1.ticketm.net/dam/a/d45/73a89392-c44f-44ba-afa4-a99074714d45_RECOMENDATION_16_9.jpg"
     },
     {
       "name": "Netflix Is A Joke Presents: Handsome LIVE & Special Guests",
@@ -56,6 +42,20 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-bill-los-angeles-california-05-06-2026/event/09006431CC42ED43",
       "image": "https://s1.ticketm.net/dam/a/8ca/9c48721b-3f39-45a6-b80b-ae942b0e38ca_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: The Viall Files Live & Special Guests",
+      "date": "2026-05-06",
+      "time": "21:45:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-the-los-angeles-california-05-06-2026/event/0900642DF38DE3DB",
+      "image": "https://s1.ticketm.net/dam/a/fc8/65915837-bce8-4cf1-a568-997550189fc8_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: Giggly Squad & Special Guests",
+      "date": "2026-05-07",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-giggly-los-angeles-california-05-07-2026/event/09006430E75141EF",
+      "image": "https://s1.ticketm.net/dam/a/7bf/33db4483-4edf-497f-9b79-3844a8f207bf_RECOMENDATION_16_9.jpg"
     }
   ]
 }
