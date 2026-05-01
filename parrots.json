@@ -1,933 +1,1245 @@
 {
-  "generated": "2026-04-01T17:54:58.473Z",
+  "generated": "2026-05-01T18:03:40.558Z",
   "parrots": [
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0933,
+      "lon": -118.055,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650643955/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770152"
+    },
     {
       "species": "Wild Parrot",
       "lat": 34.1445,
       "lon": -118.146,
-      "date": "2026-03-31",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631674715/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346522830"
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650643957/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770151"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1737,
-      "lon": -118.0086,
-      "date": "2026-03-31",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631674869/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346522868"
+      "lat": 34.0742,
+      "lon": -118.0813,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644003/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770155"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.19,
-      "lon": -118.0032,
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631281687/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346323677"
+      "lat": 34.1966,
+      "lon": -118.0104,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650643981/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770154"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1605,
+      "lon": -118.0443,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644053/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770161"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1388,
+      "lon": -118.0905,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644046/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770162"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.186,
+      "lon": -118.0055,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644043/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770159"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1637,
+      "lon": -118.1507,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644028/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770158"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0912,
+      "lon": -118.0433,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644021/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770157"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0937,
+      "lon": -118.0057,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644091/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770169"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1601,
+      "lon": -118.0858,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644074/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770168"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0839,
+      "lon": -118.02,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644082/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770167"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0585,
+      "lon": -118.1635,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650644113/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356770174"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 33.7062,
+      "lon": -117.9413,
+      "date": "2026-04-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/651106422/small.jpg",
+      "url": "https://www.inaturalist.org/observations/357015702"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0754,
+      "lon": -118.1222,
+      "date": "2026-04-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650121085/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356499255"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1709,
+      "lon": -118.0928,
+      "date": "2026-04-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650121084/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356499258"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0094,
+      "lon": -118.0545,
+      "date": "2026-04-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650121304/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356499282"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1089,
+      "lon": -118.0164,
+      "date": "2026-04-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649107873/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355945332"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1244,
+      "lon": -118.027,
+      "date": "2026-04-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649107910/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355945346"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.014,
+      "lon": -118.0798,
+      "date": "2026-04-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649107942/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355945351"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1672,
+      "lon": -118.0081,
+      "date": "2026-04-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649108038/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355945364"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0463,
+      "lon": -118.1858,
+      "date": "2026-04-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649108149/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355945387"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0393,
+      "lon": -118.1667,
+      "date": "2026-04-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649108181/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355945395"
+    },
+    {
+      "species": "Yellow-chevroned Parakeet",
+      "lat": 33.9976,
+      "lon": -118.4242,
+      "date": "2026-04-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/648589391/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355654019"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0225,
+      "lon": -118.1587,
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647562114/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355008622"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1222,
+      "lon": -118.1354,
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647562116/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355008624"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1903,
+      "lon": -118.1702,
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647562154/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355008630"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1229,
+      "lon": -118.1968,
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647562153/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355008629"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0766,
+      "lon": -118.0996,
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647562238/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355008648"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0505,
+      "lon": -118.1337,
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647562209/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355008643"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1102,
+      "lon": -118.1101,
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647562323/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355008660"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.101,
+      "lon": -118.0794,
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647562331/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355008665"
+    },
+    {
+      "species": "Lilac-crowned Parrot",
+      "lat": 34.1588,
+      "lon": -118.4217,
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/648697777/small.jpg",
+      "url": "https://www.inaturalist.org/observations/355716150"
+    },
+    {
+      "species": "Nanday Parakeet",
+      "lat": 34.12,
+      "lon": -118.761,
+      "date": "2026-04-26",
+      "photo": "https://static.inaturalist.org/photos/646882273/small.jpg",
+      "url": "https://www.inaturalist.org/observations/354620911"
+    },
+    {
+      "species": "Wild Parrot",
+      "lat": 33.7268,
+      "lon": -117.9435,
+      "date": "2026-04-26",
+      "photo": "https://static.inaturalist.org/photos/646905459/small.jpg",
+      "url": "https://www.inaturalist.org/observations/354634714"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1725,
+      "lon": -118.064,
+      "date": "2026-04-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645987944/small.jpg",
+      "url": "https://www.inaturalist.org/observations/354078329"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0463,
+      "lon": -118.1422,
+      "date": "2026-04-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647066767/small.jpg",
+      "url": "https://www.inaturalist.org/observations/354727070"
+    },
+    {
+      "species": "Mitred Parakeet",
+      "lat": 34.1133,
+      "lon": -118.1883,
+      "date": "2026-04-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645693797/small.jpg",
+      "url": "https://www.inaturalist.org/observations/353916989"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0249,
+      "lon": -118.1751,
+      "date": "2026-04-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/644641501/small.jpg",
+      "url": "https://www.inaturalist.org/observations/353282086"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1455,
+      "lon": -118.0249,
+      "date": "2026-04-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/644641559/small.jpg",
+      "url": "https://www.inaturalist.org/observations/353282099"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0051,
+      "lon": -118.0795,
+      "date": "2026-04-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/644641603/small.jpg",
+      "url": "https://www.inaturalist.org/observations/353282107"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1979,
+      "lon": -118.1404,
+      "date": "2026-04-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/644641567/small.jpg",
+      "url": "https://www.inaturalist.org/observations/353282105"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0453,
+      "lon": -118.1985,
+      "date": "2026-04-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/644641637/small.jpg",
+      "url": "https://www.inaturalist.org/observations/353282117"
+    },
+    {
+      "species": "Wild Parrot",
+      "lat": 34.1889,
+      "lon": -118.1391,
+      "date": "2026-04-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/644641727/small.jpg",
+      "url": "https://www.inaturalist.org/observations/353282128"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0576,
+      "lon": -118.0671,
+      "date": "2026-04-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/643328869/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352472946"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.129,
+      "lon": -118.0379,
+      "date": "2026-04-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/643328909/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352472952"
+    },
+    {
+      "species": "Nanday Parakeet",
+      "lat": 34.1381,
+      "lon": -118.5447,
+      "date": "2026-04-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/643898394/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352850400"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 33.9795,
+      "lon": -117.8151,
+      "date": "2026-04-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642962144/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352277183"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1704,
+      "lon": -118.0726,
+      "date": "2026-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642772625/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352175427"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.081,
+      "lon": -118.1975,
+      "date": "2026-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642772622/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352175428"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1907,
+      "lon": -118.125,
+      "date": "2026-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642772641/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352175429"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1078,
+      "lon": -118.1396,
+      "date": "2026-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642772640/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352175430"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0503,
+      "lon": -118.1292,
+      "date": "2026-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642772658/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352175435"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0156,
+      "lon": -118.1492,
+      "date": "2026-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642772677/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352175439"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.053,
+      "lon": -118.0707,
+      "date": "2026-04-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642772733/small.jpg",
+      "url": "https://www.inaturalist.org/observations/352175453"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1565,
+      "lon": -118.014,
+      "date": "2026-04-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642256927/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351909561"
+    },
+    {
+      "species": "Wild Parrot",
+      "lat": 33.8138,
+      "lon": -117.921,
+      "date": "2026-04-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/646041061/small.jpg",
+      "url": "https://www.inaturalist.org/observations/354110965"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 33.9983,
+      "lon": -117.9274,
+      "date": "2026-04-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/646037938/small.jpg",
+      "url": "https://www.inaturalist.org/observations/354110963"
+    },
+    {
+      "species": "Lilac-crowned Parrot",
+      "lat": 34.1081,
+      "lon": -118.5921,
+      "date": "2026-04-21",
+      "photo": "https://static.inaturalist.org/photos/641962656/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351760603"
+    },
+    {
+      "species": "Wild Parrot",
+      "lat": 34.1494,
+      "lon": -117.8795,
+      "date": "2026-04-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642189598/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351876470"
+    },
+    {
+      "species": "Yellow-chevroned Parakeet",
+      "lat": 33.8854,
+      "lon": -118.0929,
+      "date": "2026-04-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641751168/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351651907"
+    },
+    {
+      "species": "Wild Parrot",
+      "lat": 33.8024,
+      "lon": -118.2199,
+      "date": "2026-04-20",
+      "photo": "https://static.inaturalist.org/photos/641520566/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351536063"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 33.8888,
+      "lon": -117.8524,
+      "date": "2026-04-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641391674/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351465861"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1136,
+      "lon": -118.1531,
+      "date": "2026-04-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641203516/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351372526"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1843,
+      "lon": -118.1883,
+      "date": "2026-04-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641203519/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351372525"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0005,
+      "lon": -118.0245,
+      "date": "2026-04-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641203534/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351372530"
     },
     {
       "species": "Red-crowned Parrot",
       "lat": 34.0317,
-      "lon": -118.089,
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631281694/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346323680"
+      "lon": -118.023,
+      "date": "2026-04-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641203563/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351372534"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0075,
-      "lon": -118.1049,
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631281693/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346323685"
+      "lat": 34.0108,
+      "lon": -118.0353,
+      "date": "2026-04-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641203566/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351372536"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0322,
-      "lon": -118.0295,
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631281695/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346323683"
+      "lat": 34.1705,
+      "lon": -118.0266,
+      "date": "2026-04-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641203607/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351372543"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0138,
-      "lon": -118.185,
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631281703/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346323684"
+      "lat": 34.0073,
+      "lon": -118.1983,
+      "date": "2026-04-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641203636/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351372548"
+    },
+    {
+      "species": "Lilac-crowned Parrot",
+      "lat": 34.1464,
+      "lon": -117.8624,
+      "date": "2026-04-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641225464/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351382825"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0703,
-      "lon": -118.0896,
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631226552/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346296078"
+      "lat": 34.1394,
+      "lon": -117.7788,
+      "date": "2026-04-19",
+      "photo": "https://static.inaturalist.org/photos/641048015/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351296554"
+    },
+    {
+      "species": "Wild Parrot",
+      "lat": 34.1714,
+      "lon": -117.9223,
+      "date": "2026-04-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641010824/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351277681"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0359,
-      "lon": -118.1821,
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631226507/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346296077"
+      "lat": 34.1416,
+      "lon": -118.1687,
+      "date": "2026-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/640551117/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351038384"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0052,
+      "lon": -118.1443,
+      "date": "2026-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/640551152/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351038393"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0583,
+      "lon": -118.0919,
+      "date": "2026-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/640551171/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351038392"
+    },
+    {
+      "species": "Lilac-crowned Parrot",
+      "lat": 34.1594,
+      "lon": -118.9497,
+      "date": "2026-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/640772145/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351155656"
+    },
+    {
+      "species": "Lilac-crowned Parrot",
+      "lat": 34.211,
+      "lon": -118.8733,
+      "date": "2026-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641728507/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351641804"
     },
     {
       "species": "Nanday Parakeet",
-      "lat": 34.0987,
-      "lon": -118.7234,
-      "date": "2026-03-29",
-      "photo": "https://static.inaturalist.org/photos/630583421/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345971725"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0115,
-      "lon": -118.1663,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630335557/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345845309"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0147,
-      "lon": -118.0323,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630335583/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345845325"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.168,
-      "lon": -118.1065,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630335587/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345845324"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1763,
-      "lon": -118.119,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630335595/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345845330"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0781,
-      "lon": -118.0665,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630335635/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345845339"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1226,
-      "lon": -118.0831,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630335642/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345845341"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1024,
-      "lon": -118.0093,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630259320/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345807837"
-    },
-    {
-      "species": "Nanday Parakeet",
-      "lat": 34.1018,
-      "lon": -118.7362,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630221564/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345788511"
-    },
-    {
-      "species": "Yellow-chevroned Parakeet",
-      "lat": 34.127,
-      "lon": -118.1102,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630634376/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345999254"
-    },
-    {
-      "species": "Yellow-chevroned Parakeet",
-      "lat": 34.1316,
-      "lon": -118.1129,
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630634337/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345999245"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1156,
-      "lon": -118.0988,
-      "date": "2026-03-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629866482/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345606264"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0877,
-      "lon": -118.1314,
-      "date": "2026-03-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629866519/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345606272"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0061,
-      "lon": -118.1507,
-      "date": "2026-03-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629866581/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345606289"
-    },
-    {
-      "species": "Yellow-chevroned Parakeet",
-      "lat": 33.7831,
-      "lon": -118.3477,
-      "date": "2026-03-27",
-      "photo": "https://static.inaturalist.org/photos/629797987/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345572472"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 33.8347,
-      "lon": -117.9171,
-      "date": "2026-03-27",
-      "photo": "https://static.inaturalist.org/photos/629661262/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345503835"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1426,
-      "lon": -118.1788,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481725/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410948"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0491,
-      "lon": -118.1614,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481710/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410946"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1824,
-      "lon": -118.0343,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481742/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410951"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.195,
-      "lon": -118.0514,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481730/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410950"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.083,
-      "lon": -118.1175,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481758/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410954"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1587,
-      "lon": -118.1606,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481744/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410952"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1567,
-      "lon": -118.121,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481761/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410955"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0173,
-      "lon": -118.1006,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481783/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410959"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.108,
-      "lon": -118.0567,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481816/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410965"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.144,
-      "lon": -118.0846,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481815/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410967"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1766,
-      "lon": -118.0531,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629481820/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345410972"
+      "lat": 34.0375,
+      "lon": -118.8142,
+      "date": "2026-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641465296/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351506196"
     },
     {
       "species": "Mitred Parakeet",
-      "lat": 34.1305,
-      "lon": -118.3231,
-      "date": "2026-03-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629435916/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345388714"
+      "lat": 33.761,
+      "lon": -118.1396,
+      "date": "2026-04-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/640500483/small.jpg",
+      "url": "https://www.inaturalist.org/observations/351014796"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0602,
-      "lon": -118.1638,
-      "date": "2026-03-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629111376/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345222750"
+      "lat": 34.0555,
+      "lon": -118.0334,
+      "date": "2026-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639954065/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350719898"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1367,
-      "lon": -118.1926,
-      "date": "2026-03-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629111452/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345222768"
+      "lat": 34.0949,
+      "lon": -118.0973,
+      "date": "2026-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639954063/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350719899"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1301,
-      "lon": -118.0969,
-      "date": "2026-03-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628752428/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345041252"
+      "lat": 34.0396,
+      "lon": -118.062,
+      "date": "2026-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639954064/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350719900"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0973,
-      "lon": -118.0277,
-      "date": "2026-03-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628752479/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345041268"
+      "lat": 34.1441,
+      "lon": -118.0497,
+      "date": "2026-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639954079/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350719902"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0222,
-      "lon": -118.0661,
-      "date": "2026-03-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628752495/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345041276"
+      "lat": 34.0586,
+      "lon": -118.0064,
+      "date": "2026-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639954100/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350719905"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1855,
-      "lon": -118.3425,
-      "date": "2026-03-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628606185/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344969068"
+      "lat": 34.0325,
+      "lon": -118.0714,
+      "date": "2026-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639954116/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350719909"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0668,
-      "lon": -118.0123,
-      "date": "2026-03-24",
-      "photo": "https://static.inaturalist.org/photos/628705741/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345018328"
+      "lat": 34.1676,
+      "lon": -118.1761,
+      "date": "2026-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639954128/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350719913"
+    },
+    {
+      "species": "Yellow-chevroned Parakeet",
+      "lat": 33.7869,
+      "lon": -118.0292,
+      "date": "2026-04-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639848320/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350666576"
+    },
+    {
+      "species": "Wild Parrot",
+      "lat": 34.2585,
+      "lon": -118.4437,
+      "date": "2026-04-16",
+      "photo": "https://static.inaturalist.org/photos/639448965/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350460531"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1162,
-      "lon": -118.1604,
-      "date": "2026-03-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628339487/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344831038"
+      "lat": 34.1173,
+      "lon": -117.9245,
+      "date": "2026-04-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639930443/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350708112"
+    },
+    {
+      "species": "Mitred Parakeet",
+      "lat": 34.072,
+      "lon": -118.363,
+      "date": "2026-04-15",
+      "photo": "https://static.inaturalist.org/photos/638822331/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350144079"
+    },
+    {
+      "species": "Wild Parrot",
+      "lat": 34.1765,
+      "lon": -118.1999,
+      "date": "2026-04-15",
+      "photo": "https://static.inaturalist.org/photos/639582927/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350531103"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0679,
-      "lon": -118.0781,
-      "date": "2026-03-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628134889/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344720860"
+      "lat": 34.0848,
+      "lon": -118.227,
+      "date": "2026-04-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639908338/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350696437"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0928,
-      "lon": -118.1525,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965702/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631861"
+      "lat": 34.0482,
+      "lon": -117.8056,
+      "date": "2026-04-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639834659/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350660172"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0066,
+      "lon": -118.1156,
+      "date": "2026-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638428925/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349942144"
     },
     {
       "species": "Red-crowned Parrot",
       "lat": 34.0089,
-      "lon": -118.0612,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965721/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631868"
+      "lon": -118.033,
+      "date": "2026-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638428965/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349942155"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1838,
-      "lon": -118.0956,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965711/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631865"
+      "lat": 34.0271,
+      "lon": -118.0207,
+      "date": "2026-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638428979/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349942157"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1125,
-      "lon": -118.0519,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965714/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631863"
+      "lat": 34.1674,
+      "lon": -118.0665,
+      "date": "2026-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638428980/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349942158"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0098,
-      "lon": -118.1757,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965723/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631871"
+      "lat": 34.0927,
+      "lon": -118.1767,
+      "date": "2026-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638428984/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349942159"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1801,
-      "lon": -118.1496,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965729/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631872"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1632,
-      "lon": -118.0415,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965728/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631877"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1748,
-      "lon": -118.1525,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965740/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631878"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0578,
-      "lon": -118.1866,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965741/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631881"
+      "lat": 34.0766,
+      "lon": -118.1381,
+      "date": "2026-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638429031/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349942170"
     },
     {
       "species": "Red-crowned Parrot",
       "lat": 34.0058,
-      "lon": -118.1994,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965752/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631885"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1613,
-      "lon": -118.18,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627965780/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344631891"
-    },
-    {
-      "species": "Mitred Parakeet",
-      "lat": 34.045,
-      "lon": -118.2808,
-      "date": "2026-03-22",
-      "photo": "https://static.inaturalist.org/photos/627788188/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344542476"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.3201,
-      "lon": -118.3067,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627848544/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344573909"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1308,
-      "lon": -117.8651,
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629704790/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345526177"
-    },
-    {
-      "species": "Mitred Parakeet",
-      "lat": 33.8454,
-      "lon": -118.3872,
-      "date": "2026-03-21",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628362309/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344841601"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 33.9293,
-      "lon": -118.1932,
-      "date": "2026-03-21",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627249387/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344267679"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0595,
-      "lon": -117.9982,
-      "date": "2026-03-21",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627411343/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344348098"
+      "lon": -118.1553,
+      "date": "2026-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638429059/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349942177"
     },
     {
       "species": "Nanday Parakeet",
-      "lat": 34.0962,
-      "lon": -118.5195,
-      "date": "2026-03-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631280545/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346322638"
+      "lat": 34.096,
+      "lon": -118.7171,
+      "date": "2026-04-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639812067/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350649514"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.051,
-      "lon": -118.2859,
-      "date": "2026-03-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/626796811/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344033762"
+      "lat": 34.1904,
+      "lon": -118.1589,
+      "date": "2026-04-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637961953/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349700750"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0391,
-      "lon": -118.2409,
-      "date": "2026-03-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628131875/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344719405"
+      "lat": 34.0169,
+      "lon": -118.124,
+      "date": "2026-04-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637962009/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349700765"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1873,
-      "lon": -118.3677,
-      "date": "2026-03-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/626894665/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344084008"
-    },
-    {
-      "species": "Mitred Parakeet",
-      "lat": 33.7677,
-      "lon": -118.1865,
-      "date": "2026-03-19",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627168214/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344226576"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.3507,
-      "lon": -118.3183,
-      "date": "2026-03-19",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/626512119/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343890134"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0562,
-      "lon": -118.0449,
-      "date": "2026-03-18",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/626225411/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343742679"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.3543,
-      "lon": -118.1385,
-      "date": "2026-03-18",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/626231347/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343745706"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0774,
-      "lon": -118.0342,
-      "date": "2026-03-17",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625903819/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343583517"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1694,
-      "lon": -118.1369,
-      "date": "2026-03-17",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625903849/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343583525"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0718,
-      "lon": -118.0227,
-      "date": "2026-03-17",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625903851/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343583526"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0844,
-      "lon": -118.1824,
-      "date": "2026-03-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625568202/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343418792"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1909,
-      "lon": -118.1282,
-      "date": "2026-03-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625568203/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343418791"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1778,
-      "lon": -118.1739,
-      "date": "2026-03-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625568206/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343418793"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1898,
-      "lon": -118.3298,
-      "date": "2026-03-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625366437/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343320670"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.3001,
-      "lon": -118.2012,
-      "date": "2026-03-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625457259/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343352812"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.175,
-      "lon": -118.1942,
-      "date": "2026-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625234757/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343256424"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1685,
-      "lon": -118.0072,
-      "date": "2026-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625234770/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343256426"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1278,
-      "lon": -118.0234,
-      "date": "2026-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625234799/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343256433"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0971,
-      "lon": -118.0424,
-      "date": "2026-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625234792/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343256432"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1899,
-      "lon": -118.0179,
-      "date": "2026-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625234837/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343256444"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1059,
-      "lon": -118.0802,
-      "date": "2026-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625234860/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343256460"
-    },
-    {
-      "species": "Wild Parrot",
-      "lat": 34.1317,
-      "lon": -118.1588,
-      "date": "2026-03-15",
-      "photo": "https://static.inaturalist.org/photos/626195207/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343728206"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1992,
-      "lon": -118.08,
-      "date": "2026-03-14",
-      "photo": "https://static.inaturalist.org/photos/625241205/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343259476"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1648,
-      "lon": -118.0779,
-      "date": "2026-03-14",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/624829245/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343056455"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0081,
-      "lon": -117.8058,
-      "date": "2026-03-14",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/624785513/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343035681"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1281,
-      "lon": -118.044,
-      "date": "2026-03-13",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/624424542/small.jpg",
-      "url": "https://www.inaturalist.org/observations/342855777"
-    },
-    {
-      "species": "Yellow-chevroned Parakeet",
-      "lat": 34.0173,
-      "lon": -118.2877,
-      "date": "2026-03-13",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/624284202/small.jpg",
-      "url": "https://www.inaturalist.org/observations/342786443"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0262,
-      "lon": -118.0089,
-      "date": "2026-03-13",
-      "photo": "https://static.inaturalist.org/photos/624289957/small.jpg",
-      "url": "https://www.inaturalist.org/observations/342789367"
+      "lat": 34.0496,
+      "lon": -118.0355,
+      "date": "2026-04-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637962035/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349700775"
     },
     {
       "species": "Lilac-crowned Parrot",
       "lat": 34.1647,
-      "lon": -118.3016,
-      "date": "2026-03-12",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/624366216/small.jpg",
-      "url": "https://www.inaturalist.org/observations/342827275"
+      "lon": -118.3012,
+      "date": "2026-04-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638766160/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350116856"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0565,
+      "lon": -118.297,
+      "date": "2026-04-13",
+      "photo": "https://static.inaturalist.org/photos/638682687/small.jpg",
+      "url": "https://www.inaturalist.org/observations/350073670"
     },
     {
       "species": "Mitred Parakeet",
-      "lat": 33.896,
-      "lon": -118.3947,
-      "date": "2026-03-12",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/624032769/small.jpg",
-      "url": "https://www.inaturalist.org/observations/342653776"
+      "lat": 33.7835,
+      "lon": -117.9847,
+      "date": "2026-04-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637912033/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349675651"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1283,
+      "lon": -118.0993,
+      "date": "2026-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637462262/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349446537"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0881,
+      "lon": -118.1531,
+      "date": "2026-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637462278/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349446541"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1281,
+      "lon": -118.004,
+      "date": "2026-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637462301/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349446546"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.013,
+      "lon": -118.0636,
+      "date": "2026-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637462314/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349446551"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0542,
+      "lon": -118.0244,
+      "date": "2026-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637462338/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349446558"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1345,
+      "lon": -118.1785,
+      "date": "2026-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637423466/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349427788"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 33.7078,
+      "lon": -117.754,
+      "date": "2026-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638260675/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349856730"
+    },
+    {
+      "species": "Nanday Parakeet",
+      "lat": 34.0826,
+      "lon": -118.3995,
+      "date": "2026-04-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637468360/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349449090"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0608,
+      "lon": -118.1878,
+      "date": "2026-04-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/636894703/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349158874"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1329,
+      "lon": -118.0543,
+      "date": "2026-04-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/636894818/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349158895"
     },
     {
       "species": "Mitred Parakeet",
-      "lat": 34.1137,
-      "lon": -118.3569,
-      "date": "2026-03-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/624817316/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343053676"
+      "lat": 33.8028,
+      "lon": -118.124,
+      "date": "2026-04-11",
+      "photo": "https://static.inaturalist.org/photos/649482196/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356152985"
     },
     {
       "species": "Nanday Parakeet",
-      "lat": 34.1155,
-      "lon": -118.7557,
-      "date": "2026-03-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/623472502/small.jpg",
-      "url": "https://www.inaturalist.org/observations/342376008"
-    },
-    {
-      "species": "Wild Parrot",
-      "lat": 34.141,
-      "lon": -118.0525,
-      "date": "2026-03-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622692083/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341990762"
-    },
-    {
-      "species": "Nanday Parakeet",
-      "lat": 34.0588,
-      "lon": -118.5145,
-      "date": "2026-03-08",
-      "photo": "https://static.inaturalist.org/photos/622645108/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341968330"
+      "lat": 34.0448,
+      "lon": -118.936,
+      "date": "2026-04-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/636708398/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349067878"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0634,
-      "lon": -117.934,
-      "date": "2026-03-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622603498/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341947561"
+      "lat": 34.1363,
+      "lon": -118.1987,
+      "date": "2026-04-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/636377632/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348892385"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0584,
-      "lon": -118.1456,
-      "date": "2026-03-07",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622342736/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341818322"
+      "lat": 34.1358,
+      "lon": -118.0819,
+      "date": "2026-04-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/636377705/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348892402"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.1113,
-      "lon": -118.1332,
-      "date": "2026-03-07",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622342733/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341818321"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0028,
-      "lon": -118.0762,
-      "date": "2026-03-07",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622342810/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341818334"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0535,
-      "lon": -118.1928,
-      "date": "2026-03-07",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622342837/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341818341"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1015,
-      "lon": -118.1356,
-      "date": "2026-03-06",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621940158/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341618163"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0523,
-      "lon": -118.0618,
-      "date": "2026-03-06",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621940189/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341618175"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0219,
-      "lon": -118.0154,
-      "date": "2026-03-06",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621940188/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341618176"
-    },
-    {
-      "species": "Wild Parrot",
-      "lat": 34.1368,
-      "lon": -118.2327,
-      "date": "2026-03-06",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621817772/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341559581"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.0472,
-      "lon": -118.0962,
-      "date": "2026-03-04",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621340923/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341326924"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.019,
-      "lon": -118.1272,
-      "date": "2026-03-04",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621340925/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341326925"
-    },
-    {
-      "species": "Red-crowned Parrot",
-      "lat": 34.1912,
-      "lon": -118.1477,
-      "date": "2026-03-04",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621340950/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341326931"
+      "lat": 34.1436,
+      "lon": -118.0065,
+      "date": "2026-04-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/635607788/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348508131"
     },
     {
       "species": "Red-crowned Parrot",
       "lat": 34.1928,
-      "lon": -118.106,
-      "date": "2026-03-04",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621340988/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341326943"
+      "lon": -118.055,
+      "date": "2026-04-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/635607857/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348508153"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0757,
-      "lon": -118.1515,
-      "date": "2026-03-03",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621053932/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341187312"
+      "lat": 34.1183,
+      "lon": -118.0597,
+      "date": "2026-04-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/635607884/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348508163"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0344,
-      "lon": -118.0091,
-      "date": "2026-03-03",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621053973/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341187322"
+      "lat": 34.1441,
+      "lon": -118.1142,
+      "date": "2026-04-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/635607958/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348508199"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0044,
-      "lon": -118.0196,
-      "date": "2026-03-03",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621053963/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341187321"
+      "lat": 34.1989,
+      "lon": -118.0795,
+      "date": "2026-04-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/635607970/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348508201"
+    },
+    {
+      "species": "Nanday Parakeet",
+      "lat": 34.0353,
+      "lon": -118.5112,
+      "date": "2026-04-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/635005323/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348201785"
+    },
+    {
+      "species": "Yellow-chevroned Parakeet",
+      "lat": 33.7833,
+      "lon": -118.3463,
+      "date": "2026-04-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634957124/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348178482"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.0155,
-      "lon": -118.0875,
-      "date": "2026-03-02",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/620716352/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341025221"
+      "lat": 34.1871,
+      "lon": -118.153,
+      "date": "2026-04-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634586149/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347989338"
     },
     {
       "species": "Red-crowned Parrot",
-      "lat": 34.123,
-      "lon": -118.1877,
-      "date": "2026-03-02",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/620714831/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341024554"
+      "lat": 34.0708,
+      "lon": -118.0431,
+      "date": "2026-04-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634586190/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347989347"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0106,
+      "lon": -118.0955,
+      "date": "2026-04-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634586212/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347989350"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1658,
+      "lon": -118.1121,
+      "date": "2026-04-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634586236/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347989357"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0923,
+      "lon": -118.1135,
+      "date": "2026-04-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634586256/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347989358"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.287,
+      "lon": -118.2927,
+      "date": "2026-04-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634586961/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347990264"
+    },
+    {
+      "species": "Mitred Parakeet",
+      "lat": 33.7852,
+      "lon": -118.1004,
+      "date": "2026-04-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634656138/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348024031"
+    },
+    {
+      "species": "Yellow-chevroned Parakeet",
+      "lat": 34.0722,
+      "lon": -118.4429,
+      "date": "2026-04-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634874333/small.jpg",
+      "url": "https://www.inaturalist.org/observations/348137385"
+    },
+    {
+      "species": "Mitred Parakeet",
+      "lat": 34.0704,
+      "lon": -118.3033,
+      "date": "2026-04-06",
+      "photo": "https://static.inaturalist.org/photos/634306011/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347849139"
+    },
+    {
+      "species": "Mitred Parakeet",
+      "lat": 33.7648,
+      "lon": -118.1669,
+      "date": "2026-04-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634328229/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347863348"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0062,
+      "lon": -118.0093,
+      "date": "2026-04-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634083698/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347736840"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1921,
+      "lon": -118.1988,
+      "date": "2026-04-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634083696/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347736841"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.037,
+      "lon": -118.0928,
+      "date": "2026-04-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/633508392/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347447346"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0786,
+      "lon": -118.1863,
+      "date": "2026-04-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/633508422/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347447353"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1546,
+      "lon": -118.1988,
+      "date": "2026-04-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/633508425/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347447354"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0132,
+      "lon": -117.9237,
+      "date": "2026-04-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/633351611/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347369787"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1428,
+      "lon": -117.8934,
+      "date": "2026-04-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/633131427/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347256533"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1695,
+      "lon": -118.1372,
+      "date": "2026-04-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/632963702/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347170403"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1826,
+      "lon": -118.0449,
+      "date": "2026-04-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/632963785/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347170423"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.075,
+      "lon": -118.0646,
+      "date": "2026-04-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/637799619/small.jpg",
+      "url": "https://www.inaturalist.org/observations/349618295"
+    },
+    {
+      "species": "Nanday Parakeet",
+      "lat": 34.116,
+      "lon": -118.72,
+      "date": "2026-04-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/633346545/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347367809"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.2321,
+      "lon": -118.2594,
+      "date": "2026-04-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/632640155/small.jpg",
+      "url": "https://www.inaturalist.org/observations/347010639"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1929,
+      "lon": -118.0086,
+      "date": "2026-04-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/632488732/small.jpg",
+      "url": "https://www.inaturalist.org/observations/346935985"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.0087,
+      "lon": -118.1856,
+      "date": "2026-04-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/632488791/small.jpg",
+      "url": "https://www.inaturalist.org/observations/346936004"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 33.7256,
+      "lon": -117.6585,
+      "date": "2026-04-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/632471459/small.jpg",
+      "url": "https://www.inaturalist.org/observations/346927235"
+    },
+    {
+      "species": "Red-crowned Parrot",
+      "lat": 34.1953,
+      "lon": -118.1018,
+      "date": "2026-04-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/632101809/small.jpg",
+      "url": "https://www.inaturalist.org/observations/346738957"
     }
   ]
 }
