@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-01T15:56:21.997Z",
+  "generated": "2026-05-02T15:43:08.420Z",
   "events": [
-    {
-      "name": "Snail Mail",
-      "date": "2026-05-01",
-      "time": "18:30:00",
-      "url": "https://www.ticketmaster.com/snail-mail-los-angeles-california-05-01-2026/event/0900642D063A0A59",
-      "image": "https://s1.ticketm.net/dam/a/fc3/ca589b67-7d2a-4b5b-a03a-1b58e0d61fc3_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Netflix Is A Joke Presents: Handsome LIVE & Special Guests",
       "date": "2026-05-04",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-giggly-los-angeles-california-05-07-2026/event/09006430E75141EF",
       "image": "https://s1.ticketm.net/dam/a/7bf/33db4483-4edf-497f-9b79-3844a8f207bf_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: Tim Dillon Show with Selling Sunset",
+      "date": "2026-05-07",
+      "time": "21:45:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-tim-los-angeles-california-05-07-2026/event/09006431DC573F9B",
+      "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
     }
   ]
 }
