@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T16:42:29.056Z",
+  "generated": "2026-05-04T17:26:28.494Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Boulet Brothes' Dragula",
-        "date": "2026-05-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O48P",
-        "image": null
-      },
-      {
         "name": "Fcukers",
         "date": "2026-05-08",
         "time": "21:00:00",
@@ -116,6 +109,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Nf8",
         "image": null
+      },
+      {
+        "name": "Yot Club",
+        "date": "2026-05-28",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OUv8",
+        "image": "https://s1.ticketm.net/dam/a/dbb/0fb4c2b1-891f-4eac-9af8-e844f989fdbb_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "Good Kid w/ INOHA",
-        "date": "2026-05-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OaG8",
-        "image": "https://s1.ticketm.net/dam/a/fe9/99fb919f-e5c7-45e7-8658-f85f2dc34fe9_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Snow Tha Product",
         "date": "2026-05-08",
         "time": "20:00:00",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y4A",
         "image": null
+      },
+      {
+        "name": "Eric Bellinger",
+        "date": "2026-05-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yee",
+        "image": "https://s1.ticketm.net/dam/a/c51/4fea1378-bd16-4cb3-a6c4-54909cb05c51_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -369,13 +369,6 @@
     "Kirk Douglas Theatre": [
       {
         "name": "GUAC",
-        "date": "2026-05-03",
-        "time": "13:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AjO",
-        "image": null
-      },
-      {
-        "name": "GUAC",
         "date": "2026-05-05",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Aj-",
@@ -421,6 +414,13 @@
         "date": "2026-05-12",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ajt",
+        "image": null
+      },
+      {
+        "name": "GUAC",
+        "date": "2026-05-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AjY",
         "image": null
       }
     ],
@@ -611,13 +611,6 @@
     "Geffen Playhouse": [
       {
         "name": "Master Harold...And the Boys",
-        "date": "2026-05-03",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpJ7",
-        "image": null
-      },
-      {
-        "name": "Master Harold...And the Boys",
         "date": "2026-05-06",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpJk",
@@ -649,6 +642,13 @@
         "date": "2026-05-10",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpJo",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-06-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9aw",
         "image": null
       }
     ],
@@ -744,13 +744,6 @@
     ],
     "La Mirada Theatre For The Performing Arts": [
       {
-        "name": "Mean Girls (Touring)",
-        "date": "2026-05-03",
-        "time": "13:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qa",
-        "image": "https://s1.ticketm.net/dam/a/f2a/0235db04-17df-477f-83f9-a9959e03ff2a_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Sheena Easton",
         "date": "2026-05-15",
         "time": "20:00:00",
@@ -783,6 +776,20 @@
         "date": "2026-06-11",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qt",
+        "image": null
+      },
+      {
+        "name": "Anastasia (Touring)",
+        "date": "2026-06-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qY",
+        "image": null
+      },
+      {
+        "name": "Anastasia (Touring)",
+        "date": "2026-06-13",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qs",
         "image": null
       }
     ],
@@ -1196,20 +1203,6 @@
     ],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-05-03",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1983400410018",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-05-03",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1983401004797",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
         "name": "Netflix Is A Joke Presents: Laughs on the Spectrum",
         "date": "2026-05-04",
         "time": "17:15:00",
@@ -1287,6 +1280,20 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181339370%2F2990051982791%2F1%2Foriginal.20260402-231516?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.838&fp-y=0.511&s=9fb3b0e9dacb5366fcdbebf6be332c19"
       },
       {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-05-17",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1983654473930",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
+        "name": "Halal Hilarity",
+        "date": "2026-06-04",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/halal-hilarity-tickets-1980668211940",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178458477%2F2990051982791%2F1%2Foriginal.20260225-220538?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.482&s=b5c0ff5523ca5b22f0af624f183c689f"
+      },
+      {
         "name": "No Fs Given 7:30PM",
         "date": "2026-06-19",
         "time": "19:30",
@@ -1302,20 +1309,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Nikki Glaser, Jeff Ross, Charles Fleischer, Darren Carter, Jimmy Shin, Caitlin Peluffo, and more TBA",
-        "date": "2026-05-03",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14188944",
-        "image": "https://s1.ticketm.net/dam/a/562/9b4d6bc8-b9b8-4eae-9600-39045f190562_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-05-03",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14878243",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Netflix Is A Joke Presents: Ron Funches: Funchadelic ft. Eddie Pepitone, Dylan Adler, Gary Simons",
         "date": "2026-05-04",
@@ -1408,11 +1401,25 @@
         "image": "https://i.ticketweb.com/i/00/12/89/10/54_Edp.jpg?v=3"
       },
       {
+        "name": "Netflix Is A Joke Presents: Absurdaverse ft. Patton Oswalt, Dan Soder, Annie Lederman, Steph Tolev, Yamaneika Saunders, Ari Matti",
+        "date": "2026-05-07",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-main-room-tickets/14190364",
+        "image": "https://s1.ticketm.net/dam/a/bf2/d8cf0bcf-6ebf-4532-9e1d-bda77e33abf2_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Netflix Is A Joke Presents: Chris O'Connor",
         "date": "2026-05-07",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-lab-tickets/14173254",
         "image": "https://i.ticketweb.com/i/00/12/89/10/84_Edp.jpg?v=5"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Surrounded with Mike Falzone ft. Morgan Jay, Ian Fidance, Kevin Sullivan, Grace O'Malley, BT Kingsley and more",
+        "date": "2026-05-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-lab-tickets/14176964",
+        "image": "https://s1.ticketm.net/dam/a/4ed/54c618b9-b02b-45ec-920d-2661ff6b24ed_RECOMENDATION_16_9.jpg"
       }
     ]
   }
