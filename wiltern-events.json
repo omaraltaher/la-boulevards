@@ -1,20 +1,6 @@
 {
-  "generated": "2026-05-04T16:44:12.690Z",
+  "generated": "2026-05-05T16:22:59.566Z",
   "events": [
-    {
-      "name": "Netflix Is A Joke Presents: Handsome LIVE & Special Guests",
-      "date": "2026-05-04",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-handsome-los-angeles-california-05-04-2026/event/0900642CE31BB7C3",
-      "image": "https://s1.ticketm.net/dam/a/5d6/b860efff-f908-472d-8209-144d3b86d5d6_RECOMENDATION_16_9.jpg"
-    },
-    {
-      "name": "Netflix Is A Joke Presents: Drink Champs w N.O.R.E. & DJ EFN & Friends",
-      "date": "2026-05-04",
-      "time": "21:45:00",
-      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-drink-los-angeles-california-05-04-2026/event/09006431BDB4D047",
-      "image": "https://s1.ticketm.net/dam/a/8f4/0859ab41-1503-4031-a1b4-fb8c0d6898f4_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Netflix Is A Joke Presents: This Past Weekend with Theo Von",
       "date": "2026-05-05",
@@ -56,6 +42,20 @@
       "time": "21:45:00",
       "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-tim-los-angeles-california-05-07-2026/event/09006431DC573F9B",
       "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: Tonight's Conversation w/ Beauty In Black",
+      "date": "2026-05-08",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-tonights-los-angeles-california-05-08-2026/event/09006478D3049F6A",
+      "image": "https://s1.ticketm.net/dam/a/41f/59da1aff-4f47-47bf-8997-3a2c3712641f_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: The Pete Davidson Show",
+      "date": "2026-05-09",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-the-los-angeles-california-05-09-2026/event/09006433AEC58520",
+      "image": "https://s1.ticketm.net/dam/a/51b/f110caf2-45f4-440e-9479-16cf2f9a151b_RECOMENDATION_16_9.jpg"
     }
   ]
 }
