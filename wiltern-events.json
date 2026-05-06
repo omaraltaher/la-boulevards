@@ -1,20 +1,6 @@
 {
-  "generated": "2026-05-05T16:22:59.566Z",
+  "generated": "2026-05-06T16:25:48.577Z",
   "events": [
-    {
-      "name": "Netflix Is A Joke Presents: This Past Weekend with Theo Von",
-      "date": "2026-05-05",
-      "time": "19:30:00",
-      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-this-los-angeles-california-05-05-2026/event/0900648AB708ADC0",
-      "image": "https://s1.ticketm.net/dam/a/866/6a2ac081-e24a-4c73-afba-827fbe231866_RECOMENDATION_16_9.jpg"
-    },
-    {
-      "name": "Netflix Is A Joke Presents: Just Trish & Special Guests",
-      "date": "2026-05-05",
-      "time": "21:45:00",
-      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-just-los-angeles-california-05-05-2026/event/090064300265888A",
-      "image": "https://s1.ticketm.net/dam/a/98a/e6ce2a2f-07ec-42b2-b557-01a7a8a5e98a_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Netflix Is A Joke Presents: Bill Simmons with the Creators of Tires",
       "date": "2026-05-06",
@@ -56,6 +42,20 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-the-los-angeles-california-05-09-2026/event/09006433AEC58520",
       "image": "https://s1.ticketm.net/dam/a/51b/f110caf2-45f4-440e-9479-16cf2f9a151b_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: The Pete Davidson Show (LATE SHOW)",
+      "date": "2026-05-09",
+      "time": "21:45:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-the-los-angeles-california-05-09-2026/event/0900643EF676132C",
+      "image": "https://s1.ticketm.net/dam/a/51b/f110caf2-45f4-440e-9479-16cf2f9a151b_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Netflix Is A Joke Presents: Lizzo & Friends at The Wiltern",
+      "date": "2026-05-10",
+      "time": "18:00:00",
+      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-lizzo-los-angeles-california-05-10-2026/event/0900649C391FC911",
+      "image": "https://s1.ticketm.net/dam/a/6c3/b05598ea-c564-4f13-8d4d-595a5d31f6c3_RECOMENDATION_16_9.jpg"
     }
   ]
 }
