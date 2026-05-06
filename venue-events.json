@@ -1,14 +1,7 @@
 {
-  "generated": "2026-05-05T17:19:11.500Z",
+  "generated": "2026-05-06T17:26:45.739Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Netflix Is A Joke Presents: Jeff Arcuri: Fresh Cut",
-        "date": "2026-05-05",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-jeff-hollywood-california-05-05-2026/event/0900642FE48FDF30",
-        "image": "https://s1.ticketm.net/dam/a/bd0/458a1b9a-6b3b-47a7-b43d-596e29338bd0_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Netflix Is A Joke Presents: Jeff Arcuri: Fresh Cut",
         "date": "2026-05-06",
@@ -57,6 +50,13 @@
         "time": "17:30:00",
         "url": "https://www.ticketmaster.com/behemoth-the-godless-iv-2026-hollywood-california-05-21-2026/event/09006428DFB7C461",
         "image": "https://s1.ticketm.net/dam/a/077/e023f73d-5179-42e6-917e-9297e52a4077_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Dethklok",
+        "date": "2026-05-22",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/dethklok-hollywood-california-05-22-2026/event/0900644D618E4246",
+        "image": "https://s1.ticketm.net/dam/a/e40/465904bd-9c4b-4a7c-b50a-39c992d37e40_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -169,11 +169,11 @@
         "image": "https://s1.ticketm.net/dam/a/91e/67310450-8a6f-4117-89b4-cec5b2afc91e_302921_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Eli & Fur",
-        "date": "2026-06-06",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/eli-fur-avalon-hollywood-tickets/14773473",
-        "image": "https://s1.ticketm.net/dam/a/4bb/602ee3d0-a0e7-4ffb-acf0-bdef5402d4bb_RECOMENDATION_16_9.jpg"
+        "name": "Emo Nite",
+        "date": "2026-06-05",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14848513",
+        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -278,10 +278,10 @@
         "image": "https://s1.ticketm.net/dam/a/e33/891636ce-0e1d-40df-bce1-a276c9befe33_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Lord of the Rings: Fellowship of the Ring Concert",
-        "date": "2026-07-16",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZP",
+        "name": "Black Myth: WUKONG Global Concert with Hollywood Film Orchestra",
+        "date": "2026-07-07",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70K8K",
         "image": null
       }
     ],
@@ -369,13 +369,6 @@
     "Kirk Douglas Theatre": [
       {
         "name": "GUAC",
-        "date": "2026-05-05",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Aj-",
-        "image": null
-      },
-      {
-        "name": "GUAC",
         "date": "2026-05-06",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ajx",
@@ -422,9 +415,30 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AjY",
         "image": null
+      },
+      {
+        "name": "GUAC",
+        "date": "2026-05-14",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ajs",
+        "image": null
       }
     ],
     "Shrine Auditorium": [
+      {
+        "name": "Serendipity - hololive English 4th Concert",
+        "date": "2026-07-03",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oPF",
+        "image": "https://s1.ticketm.net/dam/a/768/a9790052-8d57-47ad-a7a4-22ccc1350768_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Serendipity - hololive English 4th Concert",
+        "date": "2026-07-04",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oPa",
+        "image": "https://s1.ticketm.net/dam/a/768/a9790052-8d57-47ad-a7a4-22ccc1350768_RECOMENDATION_16_9.jpg"
+      },
       {
         "name": "Shreya Ghoshal",
         "date": "2026-09-27",
@@ -441,13 +455,6 @@
       }
     ],
     "Orpheum Theatre": [
-      {
-        "name": "Netflix Is A Joke Presents: Ilana Glazer & Ramy Youssef",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-ilana-los-angeles-california-05-05-2026/event/0900638AE28ED158",
-        "image": "https://s1.ticketm.net/dam/a/f77/86ff3f6c-5a81-4c89-a149-0da887652f77_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Netflix Is A Joke Presents: Fly On The Wall",
         "date": "2026-05-06",
@@ -496,17 +503,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-atsuko-los-angeles-california-05-09-2026/event/0900642CAF188781",
         "image": "https://s1.ticketm.net/dam/a/b13/13e23705-c0de-4181-bcbe-4b6034377b13_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "MIKA - SPINNING OUT TOUR NORTH AMERICA",
+        "date": "2026-05-13",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/mika-spinning-out-tour-north-america-los-angeles-california-05-13-2026/event/0900636BDE96F5B1",
+        "image": "https://s1.ticketm.net/dam/a/3f9/d67f4eab-1414-4739-926a-2a0bcc7343f9_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
-      {
-        "name": "Netflix Is A Joke Presents: Jerry Seinfeld",
-        "date": "2026-05-05",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-jerry-los-angeles-california-05-05-2026/event/09006431C336DA6F",
-        "image": "https://s1.ticketm.net/dam/a/9d2/5f0ebea2-3344-4065-8ea3-1a9f6412b9d2_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Netflix Is A Joke Presents: Seth Goes Greek",
         "date": "2026-05-06",
@@ -538,14 +545,14 @@
       {
         "name": "RAYE - THIS TOUR MAY CONTAIN NEW MUSIC",
         "date": "2026-05-12",
-        "time": "20:00:00",
+        "time": "19:00:00",
         "url": "https://www.ticketmaster.com/raye-this-tour-may-contain-new-los-angeles-california-05-12-2026/event/09006331EE3D5736",
         "image": "https://s1.ticketm.net/dam/a/c78/4efffd75-0b32-44b3-b094-3b4c1ac45c78_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "RAYE - THIS TOUR MAY CONTAIN NEW MUSIC",
         "date": "2026-05-13",
-        "time": "20:00:00",
+        "time": "19:00:00",
         "url": "https://www.ticketmaster.com/raye-this-tour-may-contain-new-los-angeles-california-05-13-2026/event/090063377EC3135D",
         "image": "https://s1.ticketm.net/dam/a/c78/4efffd75-0b32-44b3-b094-3b4c1ac45c78_RECOMENDATION_16_9.jpg"
       },
@@ -555,16 +562,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/puscifer-los-angeles-california-05-14-2026/event/09006350EFECB31A",
         "image": "https://s1.ticketm.net/dam/a/34d/10689b7b-b50d-4c90-a4dd-ac528858834d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Alejandro Sanz ¿Y Ahora Qué? US Tour",
+        "date": "2026-05-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/alejandro-sanz-y-ahora-que-us-los-angeles-california-05-15-2026/event/09006357D1B86CD4",
+        "image": "https://s1.ticketm.net/dam/a/385/59722b1c-b9e9-454e-9c1e-b00295a1e385_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
-      {
-        "name": "Netflix Is A Joke Presents: Jim Gaffigan: Everything is Wonderful!",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-jim-hollywood-california-05-05-2026/event/0900636E05AEDBAD",
-        "image": "https://s1.ticketm.net/dam/a/838/aabe1f75-fe3d-4040-b17b-7f53ded6d838_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Netflix Is A Joke Presents: Michelle Buteau",
         "date": "2026-05-06",
@@ -606,6 +613,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/nancy-ajram-hollywood-california-05-14-2026/event/09006471BB12985D",
         "image": "https://s1.ticketm.net/dam/a/b16/9b94788e-16fe-492e-a8a7-89b99984bb16_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "De Yun She 2026 World Tour 30th Anniversary",
+        "date": "2026-05-27",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/de-yun-she-2026-world-tour-hollywood-california-05-27-2026/event/0900646DB780BC34",
+        "image": "https://s1.ticketm.net/dam/e/6f5/3f15fe62-76ff-4f4f-a36a-49eda62896f5_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -656,13 +670,6 @@
     "Ricardo Montalban Theatre": [
       {
         "name": "Netflix Is A Joke Presents: This Better Be Funny with David Letterman",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-this-hollywood-california-05-05-2026/event/0B00642FBC163C98",
-        "image": "https://s1.ticketm.net/dam/a/4ee/36b49a74-167c-4c60-b5e9-c8738f7ec4ee_1308421_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: This Better Be Funny with David Letterman",
         "date": "2026-05-07",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-this-hollywood-california-05-07-2026/event/0B00642FBC123C96",
@@ -685,13 +692,6 @@
     ],
     "Ambassador Auditorium": [],
     "Wilshire Ebell Theater and Club": [
-      {
-        "name": "Netflix Is A Joke Presents: Tom Papa Live",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-tom-los-angeles-california-05-05-2026/event/09006430FA6477E0",
-        "image": "https://s1.ticketm.net/dam/a/298/e1da6737-7aa4-424d-8fb6-24c0700c8298_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Netflix Is A Joke Presents: MIKE BIRBIGLIA WORKING IT OUT WITH FRIENDS",
         "date": "2026-05-06",
@@ -863,27 +863,6 @@
     "Ivar Theatre": [],
     "Dynasty Typewriter At The Hayworth": [
       {
-        "name": "Netflix Is A Joke Presents: Nicole Byer (18+ Event)",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O0-Y",
-        "image": "https://s1.ticketm.net/dam/a/7b7/c1e10f3a-a215-4e13-8d25-555bf29bd7b7_1644311_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Nicole Byer",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-nicole-byer",
-        "image": "https://s1.ticketm.net/dam/a/7b7/c1e10f3a-a215-4e13-8d25-555bf29bd7b7_1644311_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: EDI PATTERSON: PLAYGIRL",
-        "date": "2026-05-05",
-        "time": "21:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OEp8",
-        "image": "https://s1.ticketm.net/dam/a/49e/bd148b14-1fe0-41a2-b804-d41d698d549e_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Netflix Is A Joke Presents: Lucas Zelnick - Crowdwork Only Show (16+ Event)",
         "date": "2026-05-06",
         "time": "19:00:00",
@@ -903,6 +882,34 @@
         "time": "21:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O00f",
         "image": "https://s1.ticketm.net/dam/a/5e4/c1b07b47-058d-4673-8a41-6d8028acf5e4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix is a Joke Presents: The Legend of Crystal Shell",
+        "date": "2026-05-07",
+        "time": "19:00:00",
+        "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-the-legend-of-crystalshell",
+        "image": "https://s1.ticketm.net/dam/a/cde/f789bf71-5348-4d4c-a623-923295844cde_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: A Dewayne Perkins Comedic Experience",
+        "date": "2026-05-07",
+        "time": "21:30:00",
+        "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-a-dewayne-perkins-comedic-experience",
+        "image": "https://s1.ticketm.net/dbimages/89390a.jpg"
+      },
+      {
+        "name": "Netflix is a Joke Presents: The Legend of Crystal Shell",
+        "date": "2026-05-08",
+        "time": "19:00:00",
+        "url": "https://www.squadup.com/events/netflix-is-a-joke-presents-the-legend-of-crystalshell-1",
+        "image": "https://s1.ticketm.net/dam/a/cde/f789bf71-5348-4d4c-a623-923295844cde_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: The Guano Guano Club",
+        "date": "2026-05-08",
+        "time": "21:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OPv8",
+        "image": null
       }
     ],
     "Bob Baker Marionette Theater": [],
@@ -961,27 +968,6 @@
     "The Groundlings": [],
     "Upright Citizens Brigade": [
       {
-        "name": "Netflix Is A Joke Presents: Four After Five",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-four-after-five/",
-        "image": "https://s1.ticketm.net/dam/a/45c/8ae02ec6-da2a-4608-a098-6fa49e47945c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: The Punch-up Open Mic with Beth Stelling",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-the-punch-up-with-beth-stelling/",
-        "image": "https://s1.ticketm.net/dam/a/f09/383ac4be-5cc9-498b-83e1-5ecc560cbf09_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Mohanad Elshieky",
-        "date": "2026-05-05",
-        "time": "21:30:00",
-        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-mohanad-elshieky/",
-        "image": "https://s1.ticketm.net/dam/a/7f4/b0755df1-4e49-44c1-bda7-a4af9af587f4_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Netflix Is A Joke Presents: Kerry Coddett: Mudhole",
         "date": "2026-05-06",
         "time": "19:00:00",
@@ -1015,58 +1001,30 @@
         "time": "19:00:00",
         "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-late-bloomers-with-ava-bunn/",
         "image": "https://s1.ticketm.net/dam/a/e94/4fd9b998-b12b-4544-a796-6f943f638e94_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix is a Joke Presents: Sarah Keyworth",
+        "date": "2026-05-08",
+        "time": "21:30:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-an-hour-of-crowd-work-with-sarah-keyworth/",
+        "image": "https://s1.ticketm.net/dam/a/b41/9b5bb833-9747-4da1-b454-80a2ce5d6b41_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Midnight Rumble",
+        "date": "2026-05-08",
+        "time": "23:59:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-the-midnight-rumble/",
+        "image": null
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Taboo Live!",
+        "date": "2026-05-09",
+        "time": "17:00:00",
+        "url": "https://ucbcomedy.com/show/netflix-is-a-joke-presents-taboo-live/",
+        "image": "https://s1.ticketm.net/dam/a/1f5/3fce8ab2-26fc-4883-932b-e8b0e8e101f5_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Comedy Store": [
-      {
-        "name": "Netflix Is A Joke Presents: Adam Ray is Bruce Robbins",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://www.showclix.com/event/adam-ray-2026-netflix",
-        "image": "https://s1.ticketm.net/dam/a/8d6/a01d8edf-195c-4361-b3ce-7836d62f08d6_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Pauly Shore & Friends",
-        "date": "2026-05-05",
-        "time": "19:00:00",
-        "url": "https://www.showclix.com/event/pauly-shore-2026-netflix",
-        "image": "https://s1.ticketm.net/dam/a/457/694b5962-fb12-449a-96ba-e0e6162e0457_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Jessie \"Jetski\" Johnson",
-        "date": "2026-05-05",
-        "time": "20:00:00",
-        "url": "https://www.showclix.com/event/jessie-jetski-johnson-2026",
-        "image": "https://s1.ticketm.net/dam/a/beb/7b9f8a8f-f073-4ab5-8b4a-6da61cba1beb_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Headliners of the OR - Mystery Lineup",
-        "date": "2026-05-05",
-        "time": "21:30:00",
-        "url": "https://www.showclix.com/event/headliners-2026-may5th",
-        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Jim Jeffries",
-        "date": "2026-05-05",
-        "time": "22:00:00",
-        "url": "https://www.showclix.com/event/jim-jefferies-2026-netflix",
-        "image": "https://s1.ticketm.net/dam/a/f37/dbbb9048-32c3-4c40-a5e8-7ab1548f7f37_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Roast Battle",
-        "date": "2026-05-05",
-        "time": "22:30:00",
-        "url": "https://www.showclix.com/event/roast-battle-2026-may5th",
-        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Story Warz",
-        "date": "2026-05-05",
-        "time": "23:59:00",
-        "url": "https://www.showclix.com/event/story-warz-2026-netflix1",
-        "image": null
-      },
       {
         "name": "Netflix Is A Joke Presents: Set Of The Night",
         "date": "2026-05-06",
@@ -1166,6 +1124,13 @@
         "image": null
       },
       {
+        "name": "Netflix Is A Joke Presents: Iliza Shelsinger and Friends",
+        "date": "2026-05-08",
+        "time": "19:00:00",
+        "url": "https://www.showclix.com/event/iliza-shlesinger-2026-netflix",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Netflix Is A Joke Presents: Joe Derosa",
         "date": "2026-05-08",
         "time": "19:00:00",
@@ -1185,37 +1150,51 @@
         "time": "21:30:00",
         "url": "https://www.showclix.com/event/headliners-2026-may8th",
         "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Bert and Shaq",
+        "date": "2026-05-08",
+        "time": "22:00:00",
+        "url": "https://www.showclix.com/event/bert-shaq-2026-netflix",
+        "image": "https://s1.ticketm.net/dam/a/cf0/0c6684d0-0915-47fe-bbf5-bac8133a4cf0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Live from the Belly Room",
+        "date": "2026-05-08",
+        "time": "22:00:00",
+        "url": "https://www.showclix.com/event/lftbr-2026-may8th",
+        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Story Warz",
+        "date": "2026-05-08",
+        "time": "23:59:00",
+        "url": "https://events.leapevents.com/event/story-warz-2026-netflix4",
+        "image": null
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Funkin' Funny Fridays w/ George Perez",
+        "date": "2026-05-08",
+        "time": "23:59:00",
+        "url": "https://www.showclix.com/event/joker-2026-may",
+        "image": null
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Names Night",
+        "date": "2026-05-09",
+        "time": "19:00:00",
+        "url": "https://www.showclix.com/event/names-night-2026-may9th",
+        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Headliners of the OR - Mystery Lineup",
+        "date": "2026-05-09",
+        "time": "21:30:00",
+        "url": "https://www.showclix.com/event/headliners-2026-may9th",
+        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
       }
     ],
     "Laugh Factory": [
-      {
-        "name": "Netflix Is A Joke Presents:  Best of Chicago: Hosted By Jeremy Piven",
-        "date": "2026-05-05",
-        "time": "18:30:00",
-        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-best-of-chicago-hosted-by-jeremy-piven-tickets-1984907483716?aff=oddtdtcreator",
-        "image": "https://s1.ticketm.net/dam/a/3b6/fa94833f-55f4-47f8-b5b4-b9e262c0e3b6_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Rubee Tuesdays",
-        "date": "2026-05-05",
-        "time": "20:00:00",
-        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-rubee-tuesdays-tickets-1984907631157?aff=oddtdtcreator",
-        "image": "https://s1.ticketm.net/dam/a/08c/ef64f9ca-3d07-41f7-8f75-a8249e18308c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Nate Jackson at Laugh Factory",
-        "date": "2026-05-05",
-        "time": "22:00",
-        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-nate-jackson-at-laugh-factory-tickets-1980892585046",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181339128%2F2990051982791%2F1%2Foriginal.20260402-231122?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.843&fp-y=0.501&s=3bc9e2a7cb507767c5ecbcf0294c7a5d"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Nate Jackson",
-        "date": "2026-05-05",
-        "time": "22:00:00",
-        "url": "https://www.eventbrite.com/e/1980892585046?aff=oddtdtcreator",
-        "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Netflix Is A Joke Presents: Tiffany Haddish Charity Show",
         "date": "2026-05-06",
@@ -1245,11 +1224,39 @@
         "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Netflix Is A Joke Presents: New Faces: Stars of Tomorrow",
+        "date": "2026-05-07",
+        "time": "18:00:00",
+        "url": "https://www.eventbrite.com/e/stars-of-tomorrow-600-pm-tickets-1984907768568?aff=ebdsoporgprofile",
+        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Lavell Crawford",
+        "date": "2026-05-07",
+        "time": "20:00:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-lavell-crawford-at-laugh-factory-tickets-1984928287942?aff=oddtdtcreator",
+        "image": "https://s1.ticketm.net/dam/a/466/3f59eaa9-7387-4c1f-8553-e3099702f466_352711_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Netflix Is A Joke Presents: Nate Jackson at Laugh Factory",
         "date": "2026-05-07",
         "time": "22:00",
         "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-nate-jackson-at-laugh-factory-tickets-1980892859868",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181339370%2F2990051982791%2F1%2Foriginal.20260402-231516?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.838&fp-y=0.511&s=9fb3b0e9dacb5366fcdbebf6be332c19"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Nate Jackson",
+        "date": "2026-05-07",
+        "time": "22:00:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-nate-jackson-at-laugh-factory-tickets-1980892859868?aff=oddtdtcreator",
+        "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Nerd Night Out by Los Angeles Comic Con",
+        "date": "2026-05-08",
+        "time": "18:00:00",
+        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-comic-con-presents-nerd-night-out-tickets-1984907825739?aff=oddtdtcreator",
+        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -1264,6 +1271,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1983655343531",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Chocolate Sundaes 7:00 PM",
+        "date": "2026-05-24",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700-pm-tickets-1983655813938",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
       },
       {
         "name": "Halal Hilarity",
@@ -1288,34 +1302,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Netflix Is A Joke Presents: Tuesdays With Stories ft. Mark Normand and Joe List",
-        "date": "2026-05-05",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-main-room-tickets/14172814",
-        "image": "https://s1.ticketm.net/dam/a/8c1/7a8f11c3-7869-4fcf-8216-924cad5328c1_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: Blair Socci ft. Paul Elia, Dave Merheje, Dave Merheje, Audrey Stewart",
-        "date": "2026-05-05",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-lab-tickets/14173154",
-        "image": "https://i.ticketweb.com/i/00/12/89/09/84_Edp.jpg?v=4"
-      },
-      {
-        "name": "Netflix is a Joke Presents Mo Gilligan: The Mo You Know",
-        "date": "2026-05-05",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-main-room-tickets/14081984",
-        "image": "https://s1.ticketm.net/dam/a/570/8bb30424-966d-4c2e-9ab8-4c7d0f8b1570_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Netflix Is A Joke Presents: SOPHIE BUDDLE & FRIENDS ft. Ali Macofsky, Dan Donohue, Lucas Zelnick and more TBA",
-        "date": "2026-05-05",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-lab-tickets/14187154",
-        "image": "https://i.ticketweb.com/i/00/12/90/39/94_Edp.jpg?v=5"
-      },
       {
         "name": "Netflix Is A Joke Presents: Calm Down with Erin Andrews & Charissa Thompson",
         "date": "2026-05-06",
@@ -1399,6 +1385,27 @@
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-lab-tickets/14176994",
         "image": "https://s1.ticketm.net/dam/a/c99/def9c37a-77e3-4bd1-9da5-369f62e62c99_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: Drew & Deison Afualo: Two Idiot Girls Live",
+        "date": "2026-05-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-main-room-tickets/14173034",
+        "image": "https://i.ticketweb.com/i/00/12/89/08/74_Edp.jpg?v=6"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: TODD GLASS: THE EVENT OF A LIFETIME",
+        "date": "2026-05-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presentstodd-hollywood-improv-the-lab-tickets/14005684",
+        "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Netflix Is A Joke Presents: James McCann",
+        "date": "2026-05-09",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/netflix-is-a-joke-presents-hollywood-improv-the-main-room-tickets/14173084",
+        "image": "https://i.ticketweb.com/i/00/12/89/09/24_Edp.jpg?v=5"
       }
     ]
   }
