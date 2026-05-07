@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-06T16:25:48.577Z",
+  "generated": "2026-05-07T16:48:16.833Z",
   "events": [
-    {
-      "name": "Netflix Is A Joke Presents: Bill Simmons with the Creators of Tires",
-      "date": "2026-05-06",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-bill-los-angeles-california-05-06-2026/event/09006431CC42ED43",
-      "image": "https://s1.ticketm.net/dam/a/8ca/9c48721b-3f39-45a6-b80b-ae942b0e38ca_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Netflix Is A Joke Presents: The Viall Files Live & Special Guests",
       "date": "2026-05-06",
@@ -56,6 +49,13 @@
       "time": "18:00:00",
       "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-lizzo-los-angeles-california-05-10-2026/event/0900649C391FC911",
       "image": "https://s1.ticketm.net/dam/a/6c3/b05598ea-c564-4f13-8d4d-595a5d31f6c3_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
+      "date": "2026-05-12",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-los-angeles-california-05-12-2026/event/09006367EBCA8911",
+      "image": "https://s1.ticketm.net/dam/a/dc6/55f55324-9481-423a-846a-a803f46ecdc6_RECOMENDATION_16_9.jpg"
     }
   ]
 }
