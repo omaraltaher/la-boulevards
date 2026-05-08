@@ -1,27 +1,6 @@
 {
-  "generated": "2026-05-07T16:48:16.833Z",
+  "generated": "2026-05-08T16:12:38.388Z",
   "events": [
-    {
-      "name": "Netflix Is A Joke Presents: The Viall Files Live & Special Guests",
-      "date": "2026-05-06",
-      "time": "21:45:00",
-      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-the-los-angeles-california-05-06-2026/event/0900642DF38DE3DB",
-      "image": "https://s1.ticketm.net/dam/a/fc8/65915837-bce8-4cf1-a568-997550189fc8_RECOMENDATION_16_9.jpg"
-    },
-    {
-      "name": "Netflix Is A Joke Presents: Giggly Squad & Special Guests",
-      "date": "2026-05-07",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-giggly-los-angeles-california-05-07-2026/event/09006430E75141EF",
-      "image": "https://s1.ticketm.net/dam/a/7bf/33db4483-4edf-497f-9b79-3844a8f207bf_RECOMENDATION_16_9.jpg"
-    },
-    {
-      "name": "Netflix Is A Joke Presents: Tim Dillon Show with Selling Sunset",
-      "date": "2026-05-07",
-      "time": "21:45:00",
-      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-tim-los-angeles-california-05-07-2026/event/09006431DC573F9B",
-      "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Netflix Is A Joke Presents: Tonight's Conversation w/ Beauty In Black",
       "date": "2026-05-08",
@@ -56,6 +35,27 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-los-angeles-california-05-12-2026/event/09006367EBCA8911",
       "image": "https://s1.ticketm.net/dam/a/dc6/55f55324-9481-423a-846a-a803f46ecdc6_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
+      "date": "2026-05-13",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-los-angeles-california-05-13-2026/event/09006367EBCC891A",
+      "image": "https://s1.ticketm.net/dam/a/dc6/55f55324-9481-423a-846a-a803f46ecdc6_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
+      "date": "2026-05-15",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-los-angeles-california-05-15-2026/event/09006367EC948AB1",
+      "image": "https://s1.ticketm.net/dam/a/dc6/55f55324-9481-423a-846a-a803f46ecdc6_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Lupe Fiasco - Food & Liquor 20th Anniversary Tour",
+      "date": "2026-05-16",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/lupe-fiasco-food-liquor-20th-anniversary-los-angeles-california-05-16-2026/event/09006446A84F7378",
+      "image": "https://s1.ticketm.net/dam/a/8b9/02aca183-1855-44d9-b7a8-f8a54a1a68b9_RECOMENDATION_16_9.jpg"
     }
   ]
 }
