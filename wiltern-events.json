@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-08T16:12:38.388Z",
+  "generated": "2026-05-09T15:50:33.323Z",
   "events": [
-    {
-      "name": "Netflix Is A Joke Presents: Tonight's Conversation w/ Beauty In Black",
-      "date": "2026-05-08",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-tonights-los-angeles-california-05-08-2026/event/09006478D3049F6A",
-      "image": "https://s1.ticketm.net/dam/a/41f/59da1aff-4f47-47bf-8997-3a2c3712641f_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Netflix Is A Joke Presents: The Pete Davidson Show",
       "date": "2026-05-09",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/lupe-fiasco-food-liquor-20th-anniversary-los-angeles-california-05-16-2026/event/09006446A84F7378",
       "image": "https://s1.ticketm.net/dam/a/8b9/02aca183-1855-44d9-b7a8-f8a54a1a68b9_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "City Pop Waves: ANRI LIVE 2026 U.S.A Timely!!",
+      "date": "2026-05-20",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/city-pop-waves-anri-live-2026-los-angeles-california-05-20-2026/event/0900635CFA0A890C",
+      "image": "https://s1.ticketm.net/dam/a/a68/3559f367-fcab-4cdf-8d2a-991f86ee9a68_RECOMENDATION_16_9.jpg"
     }
   ]
 }
