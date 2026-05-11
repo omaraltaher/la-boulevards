@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T16:19:42.089Z",
+  "generated": "2026-05-11T16:54:09.887Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -376,13 +376,6 @@
     "Kirk Douglas Theatre": [
       {
         "name": "GUAC",
-        "date": "2026-05-10",
-        "time": "13:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AjE",
-        "image": null
-      },
-      {
-        "name": "GUAC",
         "date": "2026-05-12",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ajt",
@@ -515,13 +508,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Netflix Is A Joke Presents: Flight Of The Conchords",
-        "date": "2026-05-10",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/netflix-is-a-joke-presents-flight-los-angeles-california-05-10-2026/event/0900642DA87E9439",
-        "image": "https://s1.ticketm.net/dam/a/669/52b722ad-8796-4a2c-980a-68ec15382669_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "RAYE - THIS TOUR MAY CONTAIN NEW MUSIC",
         "date": "2026-05-12",
         "time": "19:00:00",
@@ -569,6 +555,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/yungblud-idols-the-world-tour-los-angeles-california-05-22-2026/event/090063410D218D34",
         "image": "https://s1.ticketm.net/dam/a/5ce/474ba3bd-ed06-41b3-b712-0d0975dac5ce_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Jason Bonham's Led Zeppelin Evening",
+        "date": "2026-05-23",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/jason-bonhams-led-zeppelin-evening-los-angeles-california-05-23-2026/event/09006445EF12C383",
+        "image": "https://s1.ticketm.net/dam/a/2dd/442cd707-df65-4781-9aa8-eec39540d2dd_1619761_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -631,13 +624,6 @@
     ],
     "Geffen Playhouse": [
       {
-        "name": "Master Harold...And the Boys",
-        "date": "2026-05-10",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpJo",
-        "image": null
-      },
-      {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-06-10",
         "time": "19:30:00",
@@ -670,6 +656,13 @@
         "date": "2026-06-14",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9aM",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-06-17",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91v",
         "image": null
       }
     ],
@@ -807,10 +800,10 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
+        "name": "Elliott Brothers' COMEDY BLOCK PARTY w/ Chris Spencer & EARTHQUAKE",
         "date": "2026-05-20",
         "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-05-20-2026/event/0B0064917FD81FF5",
+        "url": "https://www.ticketmaster.com/elliott-brothers-comedy-block-party-w-inglewood-california-05-20-2026/event/0B0064917FD81FF5",
         "image": "https://s1.ticketm.net/dam/e/e62/99eacb0c-5244-4e45-b0be-2b30b49fde62_RECOMENDATION_16_9.jpg"
       },
       {
@@ -861,13 +854,6 @@
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
     "Laugh Factory": [
-      {
-        "name": "Netflix Is A Joke Presents: Musical Midnight Madness",
-        "date": "2026-05-10",
-        "time": null,
-        "url": "https://www.eventbrite.com/e/netflix-is-a-joke-presents-musical-midnight-madness-tickets-1984908571971?aff=oddtdtcreator",
-        "image": "https://s1.ticketm.net/dam/a/7c0/ae0741e9-4171-4434-88bb-7ae97f54d7c0_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Chocolate Sundaes 7:00PM",
         "date": "2026-05-17",
@@ -927,13 +913,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Monsters of Tokyo",
-        "date": "2026-05-10",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/monsters-of-tokyo-hollywood-improv-the-main-room-tickets/14160714",
-        "image": "https://i.ticketweb.com/i/00/12/88/01/44_Edp.jpg?v=7"
-      },
-      {
         "name": "Dan LaMorte",
         "date": "2026-05-11",
         "time": "19:30:00",
@@ -962,11 +941,11 @@
         "image": "https://s1.ticketm.net/dam/a/790/2e124d53-3f5e-48c4-ab26-11bc2213a790_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Kim McVicar & Friends ft. Dan Donohue, C.J. Price, Danny Dunn, Jenny Johnson, Erica Rhodes and more TBA",
+        "name": "Kim McVicar & Friends ft. Audrey Stewart, Nick Taravella, C.J. Price, Danny Dunn, Jenny Johnson, Erica Rhodes and more TBA",
         "date": "2026-05-12",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/kim-mcvicar-friends-ft-hollywood-improv-the-lab-tickets/14873093",
-        "image": "https://i.ticketweb.com/i/00/13/47/15/03_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/47/15/03_Edp.jpg?v=7"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -990,7 +969,7 @@
         "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Star F*ckers ft. Amy Silverberg, Brian Bahe, Langston Kerman, Steven Castillo, and Sophie Santos and more!",
+        "name": "Star F*ckers ft. Amy Silverberg, Brian Bahe, Langston Kerman, Steven Castillo, Sophie Santos, Sabrina Wu, Melissa Strype",
         "date": "2026-05-13",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/star-fckers-ft-amy-silverberg-hollywood-improv-the-lab-tickets/14865513",
@@ -1023,6 +1002,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14822873",
         "image": "https://i.ticketweb.com/i/00/13/42/32/43_Edp.jpg?v=4"
+      },
+      {
+        "name": "Horror Nerd ft. Sam Hale, Veronica Shea, Jason Horton, Aziza Stewart, Julie Golden, Jeremy Tinoco, Joseph Schles, Kayla Hardy, Hetty Pasquazzi, Emily Kirk, Morgan DiStefano, Rachel Walker",
+        "date": "2026-05-15",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/horror-nerd-ft-sam-hale-hollywood-improv-the-lab-tickets/14752213",
+        "image": "https://i.ticketweb.com/i/00/13/36/27/53_Edp.jpg?v=5"
+      },
+      {
+        "name": "The Extraordinary Card Magic of Jason Ladanye",
+        "date": "2026-05-16",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/the-extraordinary-card-magic-ofjasonladanye-hollywood-improv-the-main-room-tickets/14783233",
+        "image": "https://i.ticketweb.com/i/00/13/38/69/63_Edp.jpg?v=8"
       }
     ]
   }
