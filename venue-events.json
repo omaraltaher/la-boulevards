@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T16:54:09.887Z",
+  "generated": "2026-05-12T16:45:02.962Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -828,25 +828,25 @@
         "image": null
       },
       {
-        "name": "Kevin Ross 2026 Experience ",
+        "name": "ICEF Performing Arts presents Newsies",
+        "date": "2026-05-29",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/icef-performing-arts-presents-newsies-inglewood-california-05-29-2026/event/0B0064ABF536624F",
+        "image": null
+      },
+      {
+        "name": "ICEF Performing Arts presents Newsies",
+        "date": "2026-05-30",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/icef-performing-arts-presents-newsies-inglewood-california-05-30-2026/event/0B0064ABF5386251",
+        "image": null
+      },
+      {
+        "name": "SHOW CANCELLED - FIND 9PM LISTING",
         "date": "2026-06-06",
         "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/kevin-ross-2026-experience-inglewood-california-06-06-2026/event/0B0064672A0C71B0",
+        "url": "https://www.ticketmaster.com/show-cancelled-find-9pm-listing-inglewood-california-06-06-2026/event/0B0064672A0C71B0",
         "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Cult Classics Cinema Presents DREAMGIRLS",
-        "date": "2026-06-13",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-dreamgirls-inglewood-california-06-13-2026/event/0B00648AD16A641C",
-        "image": "https://s1.ticketm.net/dam/e/662/3be7fb33-b316-486f-b5ce-dc04446c2662_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Kobie Dozier: N'namdi in Concert",
-        "date": "2026-06-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/kobie-dozier-nnamdi-in-concert-inglewood-california-06-21-2026/event/0B00649C80A63421",
-        "image": null
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -913,20 +913,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Dan LaMorte",
-        "date": "2026-05-11",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/dan-lamorte-hollywood-improv-the-lab-tickets/14846403",
-        "image": "https://s1.ticketm.net/dam/a/cc9/c1c0e548-c067-4050-85ad-e6930dea2cc9_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
-        "date": "2026-05-11",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14857743",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-05-12",
         "time": "17:15:00",
@@ -934,18 +920,18 @@
         "image": "https://i.ticketweb.com/i/00/13/49/55/53_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. David Spade, Craig Robinson, Brian Monarch and Very Special Guest",
+        "name": "Tonight at the Improv ft. David Spade, Craig Robinson, Dan Levy, Kira Soltanovich, Brian Monarch, Jen Murphy, and More TBD!",
         "date": "2026-05-12",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838423",
         "image": "https://s1.ticketm.net/dam/a/790/2e124d53-3f5e-48c4-ab26-11bc2213a790_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Kim McVicar & Friends ft. Audrey Stewart, Nick Taravella, C.J. Price, Danny Dunn, Jenny Johnson, Erica Rhodes and more TBA",
+        "name": "Kim McVicar & Friends ft. Audrey Stewart, Nick Taravella, Danny Dunn, Jenny Johnson, Mike Falzone, Erica Rhodes and more TBA",
         "date": "2026-05-12",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/kim-mcvicar-friends-ft-hollywood-improv-the-lab-tickets/14873093",
-        "image": "https://i.ticketweb.com/i/00/13/47/15/03_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/13/47/15/03_Edp.jpg?v=8"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -962,11 +948,11 @@
         "image": "https://i.ticketweb.com/i/00/13/44/95/33_Edp.jpg?v=3"
       },
       {
-        "name": "*JUST ADDED ILIZA SHLESINGER* COMEDY CRUSH ft. AMIR K, JUSTINE MARINO, AVERY PEARSON & MORE HUGE GUESTS!",
+        "name": "COMEDY CRUSH ft. DOUG BENSON, AMIR K, JUSTINE MARINO, AVERY PEARSON & MORE HUGE GUESTS!",
         "date": "2026-05-13",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-iliza-shlesinger-comedy-hollywood-improv-the-main-room-tickets/14135264",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+        "url": "https://www.ticketweb.com/event/comedy-crush-ft-doug-benson-hollywood-improv-the-main-room-tickets/14135264",
+        "image": "https://s1.ticketm.net/dam/a/b62/69229ac0-c492-4089-9026-cc50c4261b62_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Star F*ckers ft. Amy Silverberg, Brian Bahe, Langston Kerman, Steven Castillo, Sophie Santos, Sabrina Wu, Melissa Strype",
@@ -976,11 +962,11 @@
         "image": "https://s1.ticketm.net/dam/a/e44/4bc29e77-29c3-4612-8a07-940b7c870e44_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Craig Robinson, Brian Monarch and Very Special Guest",
+        "name": "Tonight at the Improv ft. Chelsea Handler, Iliza, Whitney Cummings, Craig Robinson, Brian Monarch, Greg Wilson and More TBD",
         "date": "2026-05-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838443",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar & more!",
@@ -1011,11 +997,25 @@
         "image": "https://i.ticketweb.com/i/00/13/36/27/53_Edp.jpg?v=5"
       },
       {
+        "name": "Michael Lenoci & Friends ft. Michael Lenoci and more TBA",
+        "date": "2026-05-15",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/michael-lenoci-friends-ft-hollywood-improv-the-lab-tickets/14189724",
+        "image": "https://i.ticketweb.com/i/00/12/90/66/64_Edp.jpg?v=2"
+      },
+      {
         "name": "The Extraordinary Card Magic of Jason Ladanye",
         "date": "2026-05-16",
         "time": "16:00:00",
         "url": "https://www.ticketweb.com/event/the-extraordinary-card-magic-ofjasonladanye-hollywood-improv-the-main-room-tickets/14783233",
         "image": "https://i.ticketweb.com/i/00/13/38/69/63_Edp.jpg?v=8"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-05-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14822883",
+        "image": "https://i.ticketweb.com/i/00/13/42/32/43_Edp.jpg?v=4"
       }
     ]
   }
