@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-12T15:51:39.399Z",
+  "generated": "2026-05-13T15:54:02.356Z",
   "events": [
-    {
-      "name": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
-      "date": "2026-05-12",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-los-angeles-california-05-12-2026/event/09006367EBCA8911",
-      "image": "https://s1.ticketm.net/dam/a/dc6/55f55324-9481-423a-846a-a803f46ecdc6_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
       "date": "2026-05-13",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/american-football-with-mei-semones-los-angeles-california-05-23-2026/event/0900643ED11FD8FD",
       "image": "https://s1.ticketm.net/dam/a/46c/026025df-b007-4616-994d-6f06f9f9e46c_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "The Paper Kites - If You Go There, I Hope You Find It",
+      "date": "2026-05-26",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/the-paper-kites-if-you-go-los-angeles-california-05-26-2026/event/09006339E3616BAD",
+      "image": "https://s1.ticketm.net/dam/a/fad/4e6d1a58-7c24-4c6d-9e5d-9ae1890d7fad_RECOMENDATION_16_9.jpg"
     }
   ]
 }
