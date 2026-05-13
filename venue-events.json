@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T16:45:02.962Z",
+  "generated": "2026-05-13T16:47:32.803Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -287,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "The New Pornographers: The Former Site Of Tour",
-        "date": "2026-05-12",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/the-new-pornographers-the-former-site-los-angeles-california-05-12-2026/event/0900636AF6E41A79",
-        "image": "https://s1.ticketm.net/dam/e/b65/f33dd813-8773-46fd-9024-2663198f1b65_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "UADA and Mortiis with Rome and Wraith Knight",
         "date": "2026-05-13",
         "time": "19:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/pretty-but-wicked-presents-elias-rnnenfelt-los-angeles-california-05-21-2026/event/090064579A0AAADD",
         "image": "https://s1.ticketm.net/dam/e/2da/0b7903df-fd2d-45bf-abcc-2e4b74bff2da_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "A Decade of Double Vanity: Broncho",
+        "date": "2026-05-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/a-decade-of-double-vanity-broncho-los-angeles-california-05-22-2026/event/0900643C9A948940",
+        "image": "https://s1.ticketm.net/dam/e/b51/8803bf47-9c25-41e4-8040-8e3e18c01b51_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -374,13 +374,6 @@
       }
     ],
     "Kirk Douglas Theatre": [
-      {
-        "name": "GUAC",
-        "date": "2026-05-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ajt",
-        "image": null
-      },
       {
         "name": "GUAC",
         "date": "2026-05-13",
@@ -509,13 +502,6 @@
     "Greek Theatre": [
       {
         "name": "RAYE - THIS TOUR MAY CONTAIN NEW MUSIC",
-        "date": "2026-05-12",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/raye-this-tour-may-contain-new-los-angeles-california-05-12-2026/event/09006331EE3D5736",
-        "image": "https://s1.ticketm.net/dam/a/c78/4efffd75-0b32-44b3-b094-3b4c1ac45c78_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "RAYE - THIS TOUR MAY CONTAIN NEW MUSIC",
         "date": "2026-05-13",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/raye-this-tour-may-contain-new-los-angeles-california-05-13-2026/event/090063377EC3135D",
@@ -562,6 +548,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/jason-bonhams-led-zeppelin-evening-los-angeles-california-05-23-2026/event/09006445EF12C383",
         "image": "https://s1.ticketm.net/dam/a/2dd/442cd707-df65-4781-9aa8-eec39540d2dd_1619761_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LACHSApalooza",
+        "date": "2026-05-30",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/lachsapalooza-los-angeles-california-05-30-2026/event/0900646DDBB5F10D",
+        "image": "https://s1.ticketm.net/dbimages/752597a.png"
       }
     ],
     "Dolby Theatre": [
@@ -897,10 +890,10 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178458477%2F2990051982791%2F1%2Foriginal.20260225-220538?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.482&s=b5c0ff5523ca5b22f0af624f183c689f"
       },
       {
-        "name": "No Fs Given 7:30PM",
+        "name": "No Fs Given Juneteenth Celebration 7:30PM",
         "date": "2026-06-19",
         "time": "19:30",
-        "url": "https://www.eventbrite.com/e/no-fs-given-730pm-tickets-1982320290351",
+        "url": "https://www.eventbrite.com/e/no-fs-given-juneteenth-celebration-730pm-tickets-1982320290351",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177430992%2F2987014365277%2F1%2Foriginal.20260213-002821?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ccdb153a442d72dec648488410d6653d"
       },
       {
@@ -913,34 +906,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-05-12",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14899703",
-        "image": "https://i.ticketweb.com/i/00/13/49/55/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. David Spade, Craig Robinson, Dan Levy, Kira Soltanovich, Brian Monarch, Jen Murphy, and More TBD!",
-        "date": "2026-05-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838423",
-        "image": "https://s1.ticketm.net/dam/a/790/2e124d53-3f5e-48c4-ab26-11bc2213a790_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Kim McVicar & Friends ft. Audrey Stewart, Nick Taravella, Danny Dunn, Jenny Johnson, Mike Falzone, Erica Rhodes and more TBA",
-        "date": "2026-05-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/kim-mcvicar-friends-ft-hollywood-improv-the-lab-tickets/14873093",
-        "image": "https://i.ticketweb.com/i/00/13/47/15/03_Edp.jpg?v=8"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-05-12",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14878253",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lab Work!",
         "date": "2026-05-13",
         "time": "18:15:00",
@@ -948,11 +913,11 @@
         "image": "https://i.ticketweb.com/i/00/13/44/95/33_Edp.jpg?v=3"
       },
       {
-        "name": "COMEDY CRUSH ft. DOUG BENSON, AMIR K, JUSTINE MARINO, AVERY PEARSON & MORE HUGE GUESTS!",
+        "name": "*JUST ADDED HARLAND WILIAMS* COMEDY CRUSH ft. KATHERINE BLANFORD, DOUG BENSON, AMIR K, JUSTINE MARINO, AVERY PEARSON & SPECIAL GUEST",
         "date": "2026-05-13",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/comedy-crush-ft-doug-benson-hollywood-improv-the-main-room-tickets/14135264",
-        "image": "https://s1.ticketm.net/dam/a/b62/69229ac0-c492-4089-9026-cc50c4261b62_RECOMENDATION_16_9.jpg"
+        "url": "https://www.ticketweb.com/event/just-added-harland-wiliams-comedy-hollywood-improv-the-main-room-tickets/14135264",
+        "image": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Star F*ckers ft. Amy Silverberg, Brian Bahe, Langston Kerman, Steven Castillo, Sophie Santos, Sabrina Wu, Melissa Strype",
@@ -969,11 +934,11 @@
         "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar & more!",
+        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar, Aaron Branch, Precious Hall, Stephan Cha, Clarissa Smith",
         "date": "2026-05-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14823473",
-        "image": "https://i.ticketweb.com/i/00/13/42/36/93_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/42/36/93_Edp.jpg?v=5"
       },
       {
         "name": "Funny Mill ft. Aiko Tanaka, Rob Pugliese, Rishi Arya, Zeo Niu, Brian Wiora, Lulu Jovovich, Jaya Tewari, Adam Reinhardt",
@@ -997,6 +962,13 @@
         "image": "https://i.ticketweb.com/i/00/13/36/27/53_Edp.jpg?v=5"
       },
       {
+        "name": "Tonight at the Improv ft. Erik Griffin, Greg Fitzsimmons, Fahim Anwar, Eric Freedman, and more TBA!",
+        "date": "2026-05-15",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822963",
+        "image": "https://s1.ticketm.net/dam/a/ee5/b55d695d-1f26-4213-96c7-ed3719b87ee5_1002051_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Michael Lenoci & Friends ft. Michael Lenoci and more TBA",
         "date": "2026-05-15",
         "time": "21:45:00",
@@ -1008,7 +980,14 @@
         "date": "2026-05-16",
         "time": "16:00:00",
         "url": "https://www.ticketweb.com/event/the-extraordinary-card-magic-ofjasonladanye-hollywood-improv-the-main-room-tickets/14783233",
-        "image": "https://i.ticketweb.com/i/00/13/38/69/63_Edp.jpg?v=8"
+        "image": "https://i.ticketweb.com/i/00/13/38/69/63_Edp.jpg?v=14"
+      },
+      {
+        "name": "Jonathan Leigh Solomon's School for Stand Up",
+        "date": "2026-05-16",
+        "time": "16:15:00",
+        "url": "https://www.ticketweb.com/event/jonathan-leigh-solomons-school-for-hollywood-improv-the-lab-tickets/14189764",
+        "image": "https://i.ticketweb.com/i/00/12/90/67/04_Edp.jpg?v=6"
       },
       {
         "name": "Tonight at the Improv",
@@ -1016,6 +995,20 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14822883",
         "image": "https://i.ticketweb.com/i/00/13/42/32/43_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Lab ft. Chloe Radcliffe and More TBA!",
+        "date": "2026-05-16",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14837323",
+        "image": "https://i.ticketweb.com/i/00/13/51/51/73_Edp.jpg?v=2"
+      },
+      {
+        "name": "Maz Jobrani",
+        "date": "2026-05-17",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/maz-jobrani-hollywood-improv-the-main-room-tickets/14885243",
+        "image": "https://s1.ticketm.net/dam/a/4ea/cd004bac-3aba-452b-9815-b4f443c4a4ea_RECOMENDATION_16_9.jpg"
       }
     ]
   }
