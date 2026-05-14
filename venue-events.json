@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T16:47:32.803Z",
+  "generated": "2026-05-14T16:40:32.012Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -179,13 +179,6 @@
     "The Novo": [
       {
         "name": "The Prodigy",
-        "date": "2026-05-13",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rK_0",
-        "image": "https://s1.ticketm.net/dam/a/652/868502f4-0eaa-4b89-a48f-c98299b4b652_964551_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Prodigy",
         "date": "2026-05-14",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rK_V",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-a8S",
         "image": "https://s1.ticketm.net/dam/a/e84/565a362e-1609-4483-83f9-275e6c126e84_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ladytron",
+        "date": "2026-05-29",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OK8v",
+        "image": "https://s1.ticketm.net/dam/a/bc8/fa2d5bf5-cbb8-434c-b04b-640ab541abc8_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -287,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "UADA and Mortiis with Rome and Wraith Knight",
-        "date": "2026-05-13",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/uada-and-mortiis-with-rome-and-los-angeles-california-05-13-2026/event/09006389BEC4B019",
-        "image": "https://s1.ticketm.net/dam/e/043/9e7cf0dd-5ae4-40da-9efb-c5ceeada7043_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Texas Is the Reason",
         "date": "2026-05-14",
         "time": "19:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/a-decade-of-double-vanity-broncho-los-angeles-california-05-22-2026/event/0900643C9A948940",
         "image": "https://s1.ticketm.net/dam/e/b51/8803bf47-9c25-41e4-8040-8e3e18c01b51_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Colorblind + Windwaker + If Not For Me",
+        "date": "2026-05-23",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/colorblind-windwaker-if-not-for-me-los-angeles-california-05-23-2026/event/0900646303632970",
+        "image": "https://s1.ticketm.net/dam/e/f28/9fe1ee5f-91bc-4919-8588-4e210e250f28_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -374,13 +374,6 @@
       }
     ],
     "Kirk Douglas Theatre": [
-      {
-        "name": "GUAC",
-        "date": "2026-05-13",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AjY",
-        "image": null
-      },
       {
         "name": "GUAC",
         "date": "2026-05-14",
@@ -442,13 +435,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "MIKA - SPINNING OUT TOUR NORTH AMERICA",
-        "date": "2026-05-13",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/mika-spinning-out-tour-north-america-los-angeles-california-05-13-2026/event/0900636BDE96F5B1",
-        "image": "https://s1.ticketm.net/dam/a/3f9/d67f4eab-1414-4739-926a-2a0bcc7343f9_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "The Last Dinner Party: From The Pyre Tour",
         "date": "2026-05-29",
         "time": "19:30:00",
@@ -496,17 +482,17 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/widespread-panic-los-angeles-california-07-23-2026/event/0900646CA671921A",
         "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Widespread Panic",
+        "date": "2026-07-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/widespread-panic-los-angeles-california-07-24-2026/event/0900646CA6AD9272",
+        "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
-      {
-        "name": "RAYE - THIS TOUR MAY CONTAIN NEW MUSIC",
-        "date": "2026-05-13",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/raye-this-tour-may-contain-new-los-angeles-california-05-13-2026/event/090063377EC3135D",
-        "image": "https://s1.ticketm.net/dam/a/c78/4efffd75-0b32-44b3-b094-3b4c1ac45c78_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Puscifer",
         "date": "2026-05-14",
@@ -555,16 +541,16 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/lachsapalooza-los-angeles-california-05-30-2026/event/0900646DDBB5F10D",
         "image": "https://s1.ticketm.net/dbimages/752597a.png"
+      },
+      {
+        "name": "The Kid LAROI - A Perfect World Tour",
+        "date": "2026-06-06",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/the-kid-laroi-a-perfect-world-los-angeles-california-06-06-2026/event/0900644AD7E8B002",
+        "image": "https://s1.ticketm.net/dam/a/6a5/8b3251f3-211d-4a67-a5b9-3cf9017be6a5_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
-      {
-        "name": "PaleyLive LA: Outlander: A Celebration",
-        "date": "2026-05-13",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/paleylive-la-outlander-a-celebration-hollywood-california-05-13-2026/event/09006491A82E97E0",
-        "image": "https://s1.ticketm.net/dam/e/c82/5398b5e7-34aa-441b-8382-227487dbfc82_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Nancy Ajram",
         "date": "2026-05-14",
@@ -612,6 +598,13 @@
         "date": "2026-06-26",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/natalia-lafourcade-cancionera-tour-hollywood-california-06-26-2026/event/0900627CEA475AD3",
+        "image": "https://s1.ticketm.net/dam/a/5d4/21700809-2211-46d5-a314-4d29a6a3e5d4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Natalia Lafourcade - Cancionera Tour",
+        "date": "2026-06-27",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/natalia-lafourcade-cancionera-tour-hollywood-california-06-27-2026/event/0900627F9B7E2A64",
         "image": "https://s1.ticketm.net/dam/a/5d4/21700809-2211-46d5-a314-4d29a6a3e5d4_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -906,27 +899,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work!",
-        "date": "2026-05-13",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14849363",
-        "image": "https://i.ticketweb.com/i/00/13/44/95/33_Edp.jpg?v=3"
-      },
-      {
-        "name": "*JUST ADDED HARLAND WILIAMS* COMEDY CRUSH ft. KATHERINE BLANFORD, DOUG BENSON, AMIR K, JUSTINE MARINO, AVERY PEARSON & SPECIAL GUEST",
-        "date": "2026-05-13",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-harland-wiliams-comedy-hollywood-improv-the-main-room-tickets/14135264",
-        "image": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Star F*ckers ft. Amy Silverberg, Brian Bahe, Langston Kerman, Steven Castillo, Sophie Santos, Sabrina Wu, Melissa Strype",
-        "date": "2026-05-13",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/star-fckers-ft-amy-silverberg-hollywood-improv-the-lab-tickets/14865513",
-        "image": "https://s1.ticketm.net/dam/a/e44/4bc29e77-29c3-4612-8a07-940b7c870e44_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Chelsea Handler, Iliza, Whitney Cummings, Craig Robinson, Brian Monarch, Greg Wilson and More TBD",
         "date": "2026-05-14",
         "time": "19:30:00",
@@ -941,18 +913,18 @@
         "image": "https://i.ticketweb.com/i/00/13/42/36/93_Edp.jpg?v=5"
       },
       {
-        "name": "Funny Mill ft. Aiko Tanaka, Rob Pugliese, Rishi Arya, Zeo Niu, Brian Wiora, Lulu Jovovich, Jaya Tewari, Adam Reinhardt",
+        "name": "Funny Mill ft. Aiko Tanaka, Rob Pugliese, Rishi Arya, Zeo Niu, Brian Wiora, Lulu Jovovich, Adam Reinhardt, James Spero, Sophia Nino De Rivera, Herb Walker",
         "date": "2026-05-14",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/funny-mill-ft-aiko-tanaka-hollywood-improv-the-lab-tickets/14843383",
-        "image": "https://i.ticketweb.com/i/00/13/44/33/93_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/13/44/33/93_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Beth Stelling, Tom Rhodes, Julia Hladkowicz and more TBA",
         "date": "2026-05-15",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14822873",
-        "image": "https://i.ticketweb.com/i/00/13/42/32/43_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822873",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Horror Nerd ft. Sam Hale, Veronica Shea, Jason Horton, Aziza Stewart, Julie Golden, Jeremy Tinoco, Joseph Schles, Kayla Hardy, Hetty Pasquazzi, Emily Kirk, Morgan DiStefano, Rachel Walker",
@@ -962,18 +934,18 @@
         "image": "https://i.ticketweb.com/i/00/13/36/27/53_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. Erik Griffin, Greg Fitzsimmons, Fahim Anwar, Eric Freedman, and more TBA!",
+        "name": "Tonight at the Improv ft. Erik Griffin, Ali Macofsky, Greg Fitzsimmons, Fahim Anwar, Frankie Quinones, Johnny Pemberton, Eric Freedman, and more TBA",
         "date": "2026-05-15",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822963",
         "image": "https://s1.ticketm.net/dam/a/ee5/b55d695d-1f26-4213-96c7-ed3719b87ee5_1002051_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Michael Lenoci & Friends ft. Michael Lenoci and more TBA",
+        "name": "Michael Lenoci & Friends ft. Michael Lenoci, Matty Chymbor, Mandy Martino, Austin Locke, Aryan Azizian, Pete Giovine",
         "date": "2026-05-15",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/michael-lenoci-friends-ft-hollywood-improv-the-lab-tickets/14189724",
-        "image": "https://i.ticketweb.com/i/00/12/90/66/64_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/12/90/66/64_Edp.jpg?v=3"
       },
       {
         "name": "The Extraordinary Card Magic of Jason Ladanye",
@@ -990,25 +962,53 @@
         "image": "https://i.ticketweb.com/i/00/12/90/67/04_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Anthony Jeselnik, Chris Estrada, Orny Adams, and More TBA!",
         "date": "2026-05-16",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14822883",
-        "image": "https://i.ticketweb.com/i/00/13/42/32/43_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822883",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Chloe Radcliffe and More TBA!",
+        "name": "Tonight at the Lab ft. Chloe Radcliffe, Gavin Matts, Mike Glazer, Clay Newman, Julia Hladkowicz and More TBA!",
         "date": "2026-05-16",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14837323",
-        "image": "https://i.ticketweb.com/i/00/13/51/51/73_Edp.jpg?v=2"
+        "image": "https://s1.ticketm.net/dam/a/735/31bbcb7b-0a3a-4b19-bf31-738cb7374735_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Maz Jobrani",
+        "name": "Tonight at the Improv ft. Chris Spencer, Jessie \"Jetski\" Johnson, Jesus Trejo, John Hastings and more",
+        "date": "2026-05-16",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822903",
+        "image": "https://s1.ticketm.net/dam/a/4cb/7609a483-c84d-4ff2-ac08-6795018cd4cb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ego Death ft. Lauren Michaels, Malcolm Barrett, Dan Green, Martin Morrow, Tahir Moore, Leah Knauer, Jimil Linton and more TBA!",
+        "date": "2026-05-16",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/ego-death-ft-lauren-michaels-hollywood-improv-the-lab-tickets/14135974",
+        "image": "https://i.ticketweb.com/i/00/12/85/90/84_Edp.jpg?v=5"
+      },
+      {
+        "name": "Maz Jobrani ft. Tehran Von Ghasri & Crystal Marie Denha",
         "date": "2026-05-17",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/maz-jobrani-hollywood-improv-the-main-room-tickets/14885243",
+        "url": "https://www.ticketweb.com/event/maz-jobrani-ft-tehran-von-hollywood-improv-the-main-room-tickets/14885243",
         "image": "https://s1.ticketm.net/dam/a/4ea/cd004bac-3aba-452b-9815-b4f443c4a4ea_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The OTHER Show ft. Lizzie Rose, Adam Barnhardt, J. Snow, Willie Macc, Jennifer Gable, B. Will, Doc Opp, Ryan Clagg, Danielle Collins and more TBA",
+        "date": "2026-05-17",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/the-other-show-ft-lizzie-hollywood-improv-the-lab-tickets/14853763",
+        "image": "https://i.ticketweb.com/i/00/13/45/36/93_Edp.jpg?v=6"
+      },
+      {
+        "name": "Late for Work ft. Damon Wayans Jr., Katherine Blanford, Mateen Stewart, CP, Kevin Tate, and more TBA",
+        "date": "2026-05-17",
+        "time": "21:15:00",
+        "url": "https://www.ticketweb.com/event/late-for-work-ft-damon-hollywood-improv-the-main-room-tickets/14823443",
+        "image": "https://s1.ticketm.net/dam/a/629/d89d057d-3bbb-4539-be68-85d4c50e7629_137771_RECOMENDATION_16_9.jpg"
       }
     ]
   }
