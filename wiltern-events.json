@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-15T15:44:18.890Z",
+  "generated": "2026-05-16T15:24:06.849Z",
   "events": [
-    {
-      "name": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
-      "date": "2026-05-15",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-los-angeles-california-05-15-2026/event/09006367EC948AB1",
-      "image": "https://s1.ticketm.net/dam/a/dc6/55f55324-9481-423a-846a-a803f46ecdc6_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Lupe Fiasco - Food & Liquor 20th Anniversary Tour",
       "date": "2026-05-16",
@@ -56,6 +49,13 @@
       "time": "19:30:00",
       "url": "https://www.ticketmaster.com/prof-g-markets-with-scott-galloway-los-angeles-california-05-28-2026/event/0900648B165A5C67",
       "image": "https://s1.ticketm.net/dam/a/1ed/cc8a0b52-02da-4545-b73d-fae9c203f1ed_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Sepultura - Celebrating Life Through Death Final North American Tour",
+      "date": "2026-05-29",
+      "time": "17:30:00",
+      "url": "https://www.ticketmaster.com/sepultura-celebrating-life-through-death-final-los-angeles-california-05-29-2026/event/09006430B592D8F9",
+      "image": "https://s1.ticketm.net/dam/a/fc2/0cad0f29-81f5-40d0-88ec-48a83c5eafc2_RECOMENDATION_16_9.jpg"
     }
   ]
 }
