@@ -1,14 +1,7 @@
 {
-  "generated": "2026-05-15T16:35:58.480Z",
+  "generated": "2026-05-16T16:19:34.763Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "The Midnight: Time Machines",
-        "date": "2026-05-15",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/the-midnight-time-machines-hollywood-california-05-15-2026/event/0900633DC0276EBE",
-        "image": "https://s1.ticketm.net/dam/a/43e/134e47d2-477a-46d4-a3f1-926fce1cf43e_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Touché Amoré: Stage Four 10 Year Anniversary",
         "date": "2026-05-16",
@@ -52,6 +45,13 @@
         "image": "https://s1.ticketm.net/dam/a/af7/a830f5dd-001a-46b9-97a0-9f705c365af7_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "2 DAY PASS: Slide Away 2026 w/ Hum, Nothing, Chapterhouse & more",
+        "date": "2026-05-29",
+        "time": null,
+        "url": "https://www.ticketmaster.com/2-day-pass-slide-away-2026-hollywood-california-05-29-2026/event/090063390F3A787E",
+        "image": "https://s1.ticketm.net/dam/e/a6d/5f30c96b-bbc3-42a5-9cec-9aed7f148a6d_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Slide Away 2026 w/ Hum, Nothing, Chapterhouse & more",
         "date": "2026-05-29",
         "time": "17:00:00",
@@ -61,13 +61,6 @@
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "St. Lucia",
-        "date": "2026-05-15",
-        "time": "21:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OAfK",
-        "image": "https://s1.ticketm.net/dam/a/c7f/3ce9444f-d684-4505-b3a7-cf04033cac7f_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Josiah & the Bonnevilles",
         "date": "2026-05-21",
@@ -116,16 +109,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-A1f",
         "image": "https://s1.ticketm.net/dam/a/fb2/66303d90-c29c-4deb-bb46-d7a929f5bfb2_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "INJI",
+        "date": "2026-05-30",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rKq7",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Space Yacht: Big Bass Ting",
-        "date": "2026-05-15",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/space-yacht-big-bass-ting-avalon-hollywood-tickets/14876183",
-        "image": "https://i.ticketweb.com/i/00/13/47/40/33_Edp.jpg?v=4"
-      },
       {
         "name": "Morgan Page",
         "date": "2026-05-16",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/vtss-avalon-hollywood-tickets/14188444",
         "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mandy, Devin Wild, Keltek",
+        "date": "2026-06-19",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/mandy-devin-wild-keltek-avalon-hollywood-tickets/14839533",
+        "image": "https://i.ticketweb.com/i/00/13/43/94/33_Edp.jpg?v=6"
       }
     ],
     "The Novo": [
-      {
-        "name": "Floetry",
-        "date": "2026-05-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-puU",
-        "image": "https://s1.ticketm.net/dam/a/129/d206d44a-fec0-4227-844e-2badea4f5129_59741_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Smokedope2016 w/ GHOSTFACEKUSH",
         "date": "2026-05-16",
@@ -232,16 +225,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIZ4",
         "image": "https://s1.ticketm.net/dam/a/49b/e87e5cbd-b491-4900-9bcd-5d18a7e0c49b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Clara La San",
+        "date": "2026-06-05",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-fo_",
+        "image": "https://s1.ticketm.net/dam/a/ae3/a22eaa07-1a54-4a0c-9662-2bfa99c8bae3_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "October London w/ Eric Benet",
-        "date": "2026-05-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OVCb",
-        "image": "https://s1.ticketm.net/dam/a/a21/6bf4de36-f4a0-440e-956d-c25e56603a21_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Carlos Vives",
         "date": "2026-05-16",
@@ -283,16 +276,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70K8K",
         "image": null
+      },
+      {
+        "name": "Lord of the Rings: Fellowship of the Ring Concert",
+        "date": "2026-07-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZP",
+        "image": null
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Katywentmissing, Poolside at the Flamingo,  Scythe of Grim and more!",
-        "date": "2026-05-15",
-        "time": "17:00:00",
-        "url": "https://www.ticketmaster.com/katywentmissing-poolside-at-the-flamingo-scythe-los-angeles-california-05-15-2026/event/0900644ADC91B4AC",
-        "image": "https://s1.ticketm.net/dam/e/e26/8ad7d7ac-ad79-4181-97e8-a7d7f9590e26_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "KCRW Presents: Midnight Magic",
         "date": "2026-05-16",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/ivy-los-angeles-california-05-27-2026/event/0900635CC0B57553",
         "image": "https://s1.ticketm.net/dam/e/c1b/0c78bb96-30fb-429f-a63d-40b5e5a33c1b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Rave Jesus - Rave Revival Tour",
+        "date": "2026-05-30",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/rave-jesus-rave-revival-tour-los-angeles-california-05-30-2026/event/09006497AAA4125F",
+        "image": "https://s1.ticketm.net/dam/a/2b5/ea500b0f-252e-45c9-99a3-7763b66762b5_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -374,13 +374,6 @@
       }
     ],
     "Kirk Douglas Theatre": [
-      {
-        "name": "GUAC",
-        "date": "2026-05-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ajw",
-        "image": null
-      },
       {
         "name": "GUAC",
         "date": "2026-05-16",
@@ -487,13 +480,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Alejandro Sanz ¿Y Ahora Qué? US Tour",
-        "date": "2026-05-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/alejandro-sanz-y-ahora-que-us-los-angeles-california-05-15-2026/event/09006357D1B86CD4",
-        "image": "https://s1.ticketm.net/dam/a/385/59722b1c-b9e9-454e-9c1e-b00295a1e385_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Echo and the Bunnymen",
         "date": "2026-05-17",
         "time": "20:00:00",
@@ -541,6 +527,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/jose-maria-napoleon-hasta-siempre-tour-los-angeles-california-06-07-2026/event/0900643CE378E31A",
         "image": "https://s1.ticketm.net/dam/a/f2c/7c3ea5e0-1d83-4b41-906d-8dee8ff9ff2c_1582171_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "James Blake - Trying Times Tour",
+        "date": "2026-06-12",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/james-blake-trying-times-tour-los-angeles-california-06-12-2026/event/0900644BE53FED7D",
+        "image": "https://s1.ticketm.net/dam/a/994/09c0818d-e1c7-4eae-81b7-9102797ba994_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -708,13 +701,6 @@
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
-      {
-        "name": "Sheena Easton",
-        "date": "2026-05-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7reo6",
-        "image": "https://s1.ticketm.net/dam/a/e92/0e3a1f45-82fc-409e-8a99-abcc0720ee92_1057201_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Mama I'm a Big Girl Now",
         "date": "2026-05-29",
@@ -892,39 +878,11 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Beth Stelling, Tom Rhodes, Julia Hladkowicz and more TBA",
-        "date": "2026-05-15",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822873",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Horror Nerd ft. Sam Hale, Veronica Shea, Jason Horton, Aziza Stewart, Julie Golden, Jeremy Tinoco, Joseph Schles, Kayla Hardy, Hetty Pasquazzi, Emily Kirk, Morgan DiStefano, Rachel Walker",
-        "date": "2026-05-15",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/horror-nerd-ft-sam-hale-hollywood-improv-the-lab-tickets/14752213",
-        "image": "https://i.ticketweb.com/i/00/13/36/27/53_Edp.jpg?v=5"
-      },
-      {
-        "name": "Tonight at the Improv ft. Erik Griffin, Ali Macofsky, Greg Fitzsimmons, Fahim Anwar, Frankie Quinones, Johnny Pemberton, Eric Freedman, and more TBA",
-        "date": "2026-05-15",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822963",
-        "image": "https://s1.ticketm.net/dam/a/ee5/b55d695d-1f26-4213-96c7-ed3719b87ee5_1002051_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Michael Lenoci & Friends ft. Michael Lenoci, Matty Chymbor, Mandy Martino, Austin Locke, Aryan Azizian, Pete Giovine",
-        "date": "2026-05-15",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/michael-lenoci-friends-ft-hollywood-improv-the-lab-tickets/14189724",
-        "image": "https://i.ticketweb.com/i/00/12/90/66/64_Edp.jpg?v=3"
-      },
-      {
         "name": "The Extraordinary Card Magic of Jason Ladanye",
         "date": "2026-05-16",
         "time": "16:00:00",
         "url": "https://www.ticketweb.com/event/the-extraordinary-card-magic-ofjasonladanye-hollywood-improv-the-main-room-tickets/14783233",
-        "image": "https://i.ticketweb.com/i/00/13/38/69/63_Edp.jpg?v=14"
+        "image": "https://i.ticketweb.com/i/00/13/38/69/63_Edp.jpg?v=15"
       },
       {
         "name": "Jonathan Leigh Solomon's School for Stand Up",
@@ -934,7 +892,7 @@
         "image": "https://i.ticketweb.com/i/00/12/90/67/04_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Anthony Jeselnik, Debra DiGiovanni, Chris Estrada, Orny Adams, Justine Marino and More TBA!",
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Anthony Jeselnik, Debra DiGiovanni, Chris Estrada, Orny Adams, Mark Ellis, Justine Marino and More TBA!",
         "date": "2026-05-16",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822883",
@@ -983,11 +941,11 @@
         "image": "https://s1.ticketm.net/dam/a/629/d89d057d-3bbb-4539-be68-85d4c50e7629_137771_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Basshole ft. Doug Bass, Dana Weddle, Sasha Ottesen, Cid Williams, Josh Edelman, Sabine, Sara Mooney, William Louie, Damien Pruitt, Jake Bassi, Jessica Alaniz, and More TBA!",
+        "name": "Basshole ft. Doug Bass, Dana Weddle, Sasha Ottesen, Cid Williams, Josh Edelman, Sabine, Sara Mooney, William Loufik, Damien Pruitt, Jake Bassi, Jessica Alaniz, and More TBA!",
         "date": "2026-05-17",
         "time": "21:15:00",
         "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-dana-hollywood-improv-the-lab-tickets/14752223",
-        "image": "https://i.ticketweb.com/i/00/13/36/27/63_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/36/27/63_Edp.jpg?v=6"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -1002,6 +960,34 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14857753",
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-05-19",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14899723",
+        "image": "https://i.ticketweb.com/i/00/13/49/55/53_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Nikki Glaser, Anthony Jeselnik, Craig Robinson, Ron Funches, Brian Monarch, Dani Bowman and More TBA",
+        "date": "2026-05-19",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838433",
+        "image": "https://s1.ticketm.net/dam/a/562/9b4d6bc8-b9b8-4eae-9600-39045f190562_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Clown Medicine ft. Sarah Larence, Wrenn Woods, Francisco Ramos, Crystal Marie Denha and more TBA",
+        "date": "2026-05-19",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/clown-medicine-ft-sarah-larence-hollywood-improv-the-lab-tickets/14793613",
+        "image": "https://s1.ticketm.net/dam/a/c35/6d53309b-09ed-4099-98db-652af9847c35_1526471_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "John Campanelli & Special Guests! ft. Jennie Mintz, Amanda Destiche, JD Witherspoon, Queen Carter. and Ricky Hollywood",
+        "date": "2026-05-19",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14153944",
+        "image": "https://i.ticketweb.com/i/00/12/87/32/24_Edp.jpg?v=4"
       }
     ]
   }
