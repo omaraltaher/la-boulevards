@@ -1,14 +1,7 @@
 {
-  "generated": "2026-05-16T16:19:34.763Z",
+  "generated": "2026-05-17T16:21:38.622Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Touché Amoré: Stage Four 10 Year Anniversary",
-        "date": "2026-05-16",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/touche-amore-stage-four-10-year-hollywood-california-05-16-2026/event/09006344389F8953",
-        "image": "https://s1.ticketm.net/dam/a/976/d36eb64d-05cd-49c8-86c6-6f6703d9c976_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Mach-Hommy presents 5786 AM: Easy Listen- Vinyl Room",
         "date": "2026-05-20",
@@ -57,6 +50,13 @@
         "time": "17:00:00",
         "url": "https://www.ticketmaster.com/slide-away-2026-w-hum-nothing-hollywood-california-05-29-2026/event/090063390F2C786D",
         "image": "https://s1.ticketm.net/dam/e/3a9/d886c90a-5eaa-492d-9818-0c7fa23b03a9_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Slide Away 2026 w/ Hum, Nothing, Chapterhouse & more",
+        "date": "2026-05-30",
+        "time": "17:00:00",
+        "url": "https://www.ticketmaster.com/slide-away-2026-w-hum-nothing-hollywood-california-05-30-2026/event/090063390F337876",
+        "image": "https://s1.ticketm.net/dam/e/b4d/a503dcc2-3840-4602-904d-672de25e8b4d_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Morgan Page",
-        "date": "2026-05-16",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/morgan-page-avalon-hollywood-tickets/14852073",
-        "image": "https://s1.ticketm.net/dam/a/d4a/f77a4598-a339-405b-adb0-31f62ef4cd4a_412871_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lady Faith",
         "date": "2026-05-22",
         "time": "22:00:00",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/mandy-devin-wild-keltek-avalon-hollywood-tickets/14839533",
         "image": "https://i.ticketweb.com/i/00/13/43/94/33_Edp.jpg?v=6"
+      },
+      {
+        "name": "Aly & Fila",
+        "date": "2026-06-20",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/aly-fila-avalon-hollywood-tickets/14826973",
+        "image": "https://i.ticketweb.com/i/00/13/42/70/83_Edp.jpg?v=7"
       }
     ],
     "The Novo": [
-      {
-        "name": "Smokedope2016 w/ GHOSTFACEKUSH",
-        "date": "2026-05-16",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ-z",
-        "image": "https://s1.ticketm.net/dam/a/53f/0f43cd92-6327-4db6-80e9-1aab822d453f_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Bulwark",
         "date": "2026-05-21",
@@ -232,16 +225,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-fo_",
         "image": "https://s1.ticketm.net/dam/a/ae3/a22eaa07-1a54-4a0c-9662-2bfa99c8bae3_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Synthony",
+        "date": "2026-06-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O4y",
+        "image": null
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "Carlos Vives",
-        "date": "2026-05-16",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qzqM",
-        "image": "https://s1.ticketm.net/dam/a/131/8c1e739c-5c54-4917-9eec-7872b3a5b131_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "2026 K-EXPO USA K-POP CONCERT",
         "date": "2026-05-24",
@@ -283,16 +276,16 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZP",
         "image": null
+      },
+      {
+        "name": "Lord of the Rings: Fellowship of the Ring Concert",
+        "date": "2026-07-17",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZJ",
+        "image": null
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "KCRW Presents: Midnight Magic",
-        "date": "2026-05-16",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/kcrw-presents-midnight-magic-los-angeles-california-05-16-2026/event/0900643BE3D5F144",
-        "image": "https://s1.ticketm.net/dam/e/841/fbead1f0-cea9-439d-a967-259851d6c841_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Caroline Kingsbury: Shock Treatment Tour",
         "date": "2026-05-17",
@@ -341,6 +334,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/rave-jesus-rave-revival-tour-los-angeles-california-05-30-2026/event/09006497AAA4125F",
         "image": "https://s1.ticketm.net/dam/a/2b5/ea500b0f-252e-45c9-99a3-7763b66762b5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Samiam + Flatliners",
+        "date": "2026-05-31",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/samiam-flatliners-los-angeles-california-05-31-2026/event/09006449D4858C98",
+        "image": "https://s1.ticketm.net/dam/e/3cb/65a58546-b560-4a17-8259-04821c59c3cb_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -374,13 +374,6 @@
       }
     ],
     "Kirk Douglas Theatre": [
-      {
-        "name": "GUAC",
-        "date": "2026-05-16",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AjS",
-        "image": null
-      },
       {
         "name": "GUAC",
         "date": "2026-05-17",
@@ -878,48 +871,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "The Extraordinary Card Magic of Jason Ladanye",
-        "date": "2026-05-16",
-        "time": "16:00:00",
-        "url": "https://www.ticketweb.com/event/the-extraordinary-card-magic-ofjasonladanye-hollywood-improv-the-main-room-tickets/14783233",
-        "image": "https://i.ticketweb.com/i/00/13/38/69/63_Edp.jpg?v=15"
-      },
-      {
-        "name": "Jonathan Leigh Solomon's School for Stand Up",
-        "date": "2026-05-16",
-        "time": "16:15:00",
-        "url": "https://www.ticketweb.com/event/jonathan-leigh-solomons-school-for-hollywood-improv-the-lab-tickets/14189764",
-        "image": "https://i.ticketweb.com/i/00/12/90/67/04_Edp.jpg?v=6"
-      },
-      {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Anthony Jeselnik, Debra DiGiovanni, Chris Estrada, Orny Adams, Mark Ellis, Justine Marino and More TBA!",
-        "date": "2026-05-16",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822883",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Chloe Radcliffe, Gavin Matts, Mike Glazer, J.F. Harris, Clay Newman, Julia Hladkowicz and More TBA!",
-        "date": "2026-05-16",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14837323",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Chris Spencer, Jessie \"Jetski\" Johnson, Justin Martindale, Brent Morin, Jesus Trejo, Ian Edwards, John Hastings and more",
-        "date": "2026-05-16",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822903",
-        "image": "https://s1.ticketm.net/dam/a/4cb/7609a483-c84d-4ff2-ac08-6795018cd4cb_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Ego Death ft. Lauren Michaels, Malcolm Barrett, Dan Green, Martin Morrow, Tahir Moore, Leah Knauer, Jimil Linton and more TBA!",
-        "date": "2026-05-16",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/ego-death-ft-lauren-michaels-hollywood-improv-the-lab-tickets/14135974",
-        "image": "https://i.ticketweb.com/i/00/12/85/90/84_Edp.jpg?v=5"
-      },
-      {
         "name": "Maz Jobrani ft. Tehran Von Ghasri, Crystal Marie Denha, & Gary Cannon",
         "date": "2026-05-17",
         "time": "19:00:00",
@@ -983,11 +934,53 @@
         "image": "https://s1.ticketm.net/dam/a/c35/6d53309b-09ed-4099-98db-652af9847c35_1526471_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv ft. Nikki Glaser, Craig Robinson, Casey Frey, Maddy Smith, Learnmore Jonasi, Mark Hayes and more TBA",
+        "date": "2026-05-19",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14894413",
+        "image": "https://s1.ticketm.net/dam/a/562/9b4d6bc8-b9b8-4eae-9600-39045f190562_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "John Campanelli & Special Guests! ft. Jennie Mintz, Amanda Destiche, JD Witherspoon, Queen Carter. and Ricky Hollywood",
         "date": "2026-05-19",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14153944",
         "image": "https://i.ticketweb.com/i/00/12/87/32/24_Edp.jpg?v=4"
+      },
+      {
+        "name": "Lab Work!",
+        "date": "2026-05-20",
+        "time": "18:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14849373",
+        "image": "https://i.ticketweb.com/i/00/13/44/95/33_Edp.jpg?v=3"
+      },
+      {
+        "name": "Legends ft. Jay Leno, Arsenio Hall, Margaret Cho, Whitney Cummings, Greg Baldwin, Tara Cannistraci and special guests!",
+        "date": "2026-05-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-arsenio-hollywood-improv-the-main-room-tickets/14189074",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Shaw-some Show ft. Nick Guerra, Dwayne Perkins, Courtney Gilmour, Kaycee Conlee, Jeff Kane, Nitish Sakhujah, John Hastings, Forrest Shaw",
+        "date": "2026-05-20",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/the-shaw-some-show-ft-hollywood-improv-the-lab-tickets/14819013",
+        "image": "https://s1.ticketm.net/dbimages/189034a.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Nikki Glaser, Anthony Jeselnik, Brian Monarch and Very Special Guests",
+        "date": "2026-05-21",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838453",
+        "image": "https://s1.ticketm.net/dam/a/562/9b4d6bc8-b9b8-4eae-9600-39045f190562_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Cult Comedy ft. Sam Grody, Laurie Douglas & more TBA!",
+        "date": "2026-05-21",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/cult-comedy-ft-sam-grody-hollywood-improv-the-lab-tickets/14783463",
+        "image": "https://i.ticketweb.com/i/00/13/38/70/33_Edp.jpg?v=4"
       }
     ]
   }
