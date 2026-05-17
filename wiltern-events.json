@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-16T15:24:06.849Z",
+  "generated": "2026-05-17T15:24:45.500Z",
   "events": [
-    {
-      "name": "Lupe Fiasco - Food & Liquor 20th Anniversary Tour",
-      "date": "2026-05-16",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/lupe-fiasco-food-liquor-20th-anniversary-los-angeles-california-05-16-2026/event/09006446A84F7378",
-      "image": "https://s1.ticketm.net/dam/a/8b9/02aca183-1855-44d9-b7a8-f8a54a1a68b9_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "City Pop Waves: ANRI LIVE 2026 U.S.A Timely!!",
       "date": "2026-05-20",
@@ -56,6 +49,13 @@
       "time": "17:30:00",
       "url": "https://www.ticketmaster.com/sepultura-celebrating-life-through-death-final-los-angeles-california-05-29-2026/event/09006430B592D8F9",
       "image": "https://s1.ticketm.net/dam/a/fc2/0cad0f29-81f5-40d0-88ec-48a83c5eafc2_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "CHAOS & CARNAGE 2026",
+      "date": "2026-05-30",
+      "time": "16:00:00",
+      "url": "https://www.ticketmaster.com/chaos-carnage-2026-los-angeles-california-05-30-2026/event/0900638ACDE1BEED",
+      "image": "https://s1.ticketm.net/dam/a/c20/e951633f-6bea-427d-8084-8dfadea8bc20_RECOMENDATION_16_9.jpg"
     }
   ]
 }
