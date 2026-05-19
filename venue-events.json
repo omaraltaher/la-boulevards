@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T16:58:57.815Z",
+  "generated": "2026-05-19T16:59:23.069Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Josiah & the Bonnevilles",
-        "date": "2026-05-21",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-8eb",
-        "image": "https://s1.ticketm.net/dam/a/d06/ea248167-4931-4905-8064-be4873f54d06_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Drugdealer",
         "date": "2026-05-22",
         "time": "21:00:00",
@@ -116,6 +109,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rKq7",
         "image": null
+      },
+      {
+        "name": "The Cab",
+        "date": "2026-06-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-pGK",
+        "image": "https://s1.ticketm.net/dam/a/329/d3dbdd52-2081-4672-868c-fcdd14008329_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -572,11 +572,11 @@
         "image": "https://s1.ticketm.net/dam/a/5d4/21700809-2211-46d5-a314-4d29a6a3e5d4_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Derek Hough - Symphony of Dance: Encore",
-        "date": "2026-08-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/derek-hough-symphony-of-dance-encore-hollywood-california-08-15-2026/event/090063679F19B52A",
-        "image": "https://s1.ticketm.net/dam/a/ebe/eeecd753-f647-4379-853f-cc21bdee9ebe_RECOMENDATION_16_9.jpg"
+        "name": "2026 WOODZ WORLD TOUR ' Archive. 1 ' IN US",
+        "date": "2026-07-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/2026-woodz-world-tour-archive-1-hollywood-california-07-25-2026/event/090064AFE0549FCC",
+        "image": "https://s1.ticketm.net/dam/a/ebf/ef60ed60-e7c9-4ebd-8433-0d59eac35ebf_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -805,13 +805,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-05-18",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1983656317444",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184716812%2F2987014365277%2F1%2Foriginal.20260515-201641?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=c59a49e7fb489e5de0b6875c73c95f56"
-      },
-      {
         "name": "Chocolate Sundaes 7:00 PM",
         "date": "2026-05-24",
         "time": "19:00",
@@ -824,6 +817,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1983655942322",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-05-25",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1983656403702",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
       },
       {
         "name": "Chocolate Sundaes 7:00 PM",
@@ -863,27 +863,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-05-18",
-        "time": "20:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14918623",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS! ft. G Thang, West Side P, Sherwin Arrae, Brett Riley, James Davis and more",
-        "date": "2026-05-18",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-ft-g-hollywood-improv-the-main-room-tickets/14857753",
-        "image": "https://i.ticketweb.com/i/00/13/45/77/83_Edp.jpg?v=3"
-      },
-      {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-05-19",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14899723",
-        "image": "https://i.ticketweb.com/i/00/13/49/55/53_Edp.jpg?v=4"
-      },
-      {
         "name": "Tonight at the Improv ft. Nikki Glaser, Anthony Jeselnik, Craig Robinson, Ron Funches, Brian Monarch, Dani Bowman and More TBA",
         "date": "2026-05-19",
         "time": "19:30:00",
@@ -891,10 +870,10 @@
         "image": "https://s1.ticketm.net/dam/a/562/9b4d6bc8-b9b8-4eae-9600-39045f190562_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Clown Medicine ft. Sarah Larence, Wrenn Woods, Francisco Ramos, Crystal Marie Denha and more TBA",
+        "name": "Clown Medicine ft. Sarah Lawrence, Wrenn Woods, Francisco Ramos, Crystal Marie Denha and more TBA",
         "date": "2026-05-19",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/clown-medicine-ft-sarah-larence-hollywood-improv-the-lab-tickets/14793613",
+        "url": "https://www.ticketweb.com/event/clown-medicine-ft-sarah-lawrence-hollywood-improv-the-lab-tickets/14793613",
         "image": "https://s1.ticketm.net/dam/a/c35/6d53309b-09ed-4099-98db-652af9847c35_1526471_RECOMENDATION_16_9.jpg"
       },
       {
@@ -905,21 +884,14 @@
         "image": "https://s1.ticketm.net/dam/a/562/9b4d6bc8-b9b8-4eae-9600-39045f190562_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "John Campanelli & Special Guests! ft. Jennie Mintz, Amanda Destiche, JD Witherspoon, Dylan Woods, and Ricky Hollywood",
+        "name": "John Campanelli & Special Guests! ft. Jennie Mintz, Amanda Destiche, JD Witherspoon, Dylan Woods, Ricky Hollywood, Andraiah Lugo and more TBA",
         "date": "2026-05-19",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14153944",
-        "image": "https://i.ticketweb.com/i/00/12/87/32/24_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/12/87/32/24_Edp.jpg?v=6"
       },
       {
-        "name": "Lab Work!",
-        "date": "2026-05-20",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14849373",
-        "image": "https://i.ticketweb.com/i/00/13/44/95/33_Edp.jpg?v=3"
-      },
-      {
-        "name": "Legends ft. Jay Leno, Arsenio Hall, Margaret Cho, Whitney Cummings, Greg Baldwin, Tara Cannistraci and special guests!",
+        "name": "Legends ft. Jay Leno, Arsenio Hall, Margaret Cho, Whitney Cummings, Greg Baldwin, Tara Cannistraci, Kam Patterson, and special guests!",
         "date": "2026-05-20",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-arsenio-hollywood-improv-the-main-room-tickets/14189074",
@@ -947,11 +919,11 @@
         "image": "https://s1.ticketm.net/dam/a/562/9b4d6bc8-b9b8-4eae-9600-39045f190562_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "LA vs Transplants ft. Kayla Hardy, Amber Easton and more TBA",
+        "name": "LA vs Transplants ft. Kayla Hardy, Amber Easton, Dylan Adler, Ryan Clark, Melanie Silva, Chris Kidder, Kayla Hardy, Trinna Tracey, Sean Porter!",
         "date": "2026-05-21",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-kayla-hollywood-improv-the-lab-tickets/14891963",
-        "image": "https://i.ticketweb.com/i/00/13/48/74/23_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/13/48/74/23_Edp.jpg?v=6"
       },
       {
         "name": "Tonight at the Improv",
@@ -968,11 +940,39 @@
         "image": "https://s1.ticketm.net/dam/a/7b7/99698715-752c-46b3-9de6-62006cb907b7_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab!",
+        "name": "Tonight at the Improv ft. Steph Tolev, Craig Conant, Ray Lau, Quincy Weekley, and More TBA!",
+        "date": "2026-05-22",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822973",
+        "image": "https://i.ticketweb.com/i/00/13/42/33/03_Edp.jpg?v=4"
+      },
+      {
+        "name": "We Are Pat ft. Julia Sweeney",
+        "date": "2026-05-23",
+        "time": "15:45:00",
+        "url": "https://www.ticketweb.com/event/we-are-pat-ft-julia-hollywood-improv-the-main-room-tickets/14804353",
+        "image": "https://i.ticketweb.com/i/00/13/40/61/13_Edp.jpg?v=7"
+      },
+      {
+        "name": "Tonight at the Lab ft. Dvontre Coleman, Kevin Sullivan, Ketra Long, Andrew Woodhull, Chelse Greaux and more TBA",
         "date": "2026-05-23",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14849393",
-        "image": "https://i.ticketweb.com/i/00/13/44/95/43_Edp.jpg?v=3"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14849393",
+        "image": "https://i.ticketweb.com/i/00/13/44/95/43_Edp.jpg?v=5"
+      },
+      {
+        "name": "Mike & Kellen Self-Destruct ft. Mike Glazer, Kellen Schneider, Aidan Dunn",
+        "date": "2026-05-23",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/mike-kellen-self-destruct-hollywood-improv-the-lab-tickets/14907453",
+        "image": "https://i.ticketweb.com/i/00/13/50/32/13_Edp.jpg?v=2"
+      },
+      {
+        "name": "Reid the Room ft. Reid Brackenbury and more TBA!",
+        "date": "2026-05-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14924783",
+        "image": "https://i.ticketweb.com/i/00/13/52/02/73_Edp.jpg?v=3"
       }
     ]
   }
