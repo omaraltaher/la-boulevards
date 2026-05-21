@@ -1,14 +1,7 @@
 {
-  "generated": "2026-05-20T17:03:52.576Z",
+  "generated": "2026-05-21T16:54:03.020Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Mach-Hommy presents 5786 AM: Easy Listen- Vinyl Room",
-        "date": "2026-05-20",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/machhommy-presents-5786-am-easy-listen-hollywood-california-05-20-2026/event/090064A6021FF4AA",
-        "image": "https://s1.ticketm.net/dam/a/cbf/7d82b30a-64ea-433c-a5d4-dccff2323cbf_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Behemoth: The Godless IV 2026 ",
         "date": "2026-05-21",
@@ -57,6 +50,13 @@
         "time": "17:00:00",
         "url": "https://www.ticketmaster.com/slide-away-2026-w-hum-nothing-hollywood-california-05-30-2026/event/090063390F337876",
         "image": "https://s1.ticketm.net/dam/e/b4d/a503dcc2-3840-4602-904d-672de25e8b4d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "3BallMTY",
+        "date": "2026-06-03",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/3ballmty-hollywood-california-06-03-2026/event/090064574780680D",
+        "image": "https://s1.ticketm.net/dam/a/f06/48603ef9-a21d-4e79-9a55-5653d741cf06_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -465,13 +465,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Russell Dickerson",
-        "date": "2026-05-20",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/russell-dickerson-los-angeles-california-05-20-2026/event/09006365E2668E0F",
-        "image": "https://s1.ticketm.net/dam/a/b2f/ba4996d3-1587-41d3-80e9-1a0714260b2f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "YUNGBLUD: IDOLS - THE WORLD TOUR",
         "date": "2026-05-22",
         "time": "20:00:00",
@@ -519,6 +512,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/felipe-esparza-at-my-leisure-world-los-angeles-california-06-13-2026/event/090063638DBF76A1",
         "image": "https://s1.ticketm.net/dam/a/3c1/3a1b3c9a-2610-4199-9959-d1a88c56f3c1_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ringo Starr and His All Starr Band",
+        "date": "2026-06-14",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/ringo-starr-and-his-all-starr-los-angeles-california-06-14-2026/event/0900636ADA1CE17B",
+        "image": "https://s1.ticketm.net/dam/a/01b/d1e948ca-28a5-4b93-97a6-5861cd4f701b_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -757,13 +757,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Elliott Brothers' COMEDY BLOCK PARTY w/ Chris Spencer & EARTHQUAKE",
-        "date": "2026-05-20",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/elliott-brothers-comedy-block-party-w-inglewood-california-05-20-2026/event/0B0064917FD81FF5",
-        "image": "https://s1.ticketm.net/dam/e/e62/99eacb0c-5244-4e45-b0be-2b30b49fde62_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Paff Presents - Laugh Till it Hurts",
         "date": "2026-05-21",
         "time": "20:00:00",
@@ -803,6 +796,13 @@
         "date": "2026-06-06",
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/show-cancelled-find-9pm-listing-inglewood-california-06-06-2026/event/0B0064672A0C71B0",
+        "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Kevin Ross 2026 Experience ",
+        "date": "2026-06-06",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/kevin-ross-2026-experience-inglewood-california-06-06-2026/event/0B0064672A0E71B2",
         "image": "https://s1.ticketm.net/dam/a/c43/c822b373-c2ac-4f0f-9768-42ac29c16c43_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -870,20 +870,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Legends ft. Jay Leno, Arsenio Hall, Margaret Cho, Whitney Cummings, Greg Baldwin, Tara Cannistraci, Kam Patterson, and special guests!",
-        "date": "2026-05-20",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-arsenio-hollywood-improv-the-main-room-tickets/14189074",
-        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Shaw-some Show ft. Nick Guerra, Dwayne Perkins, Courtney Gilmour, Kaycee Conlee, Jeff Kane, Nitish Sakhujah, John Hastings, Forrest Shaw",
-        "date": "2026-05-20",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/the-shaw-some-show-ft-hollywood-improv-the-lab-tickets/14819013",
-        "image": "https://s1.ticketm.net/dbimages/189034a.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Nikki Glaser, Anthony Jeselnik, Brian Monarch and Very Special Guests",
         "date": "2026-05-21",
         "time": "19:30:00",
@@ -905,11 +891,11 @@
         "image": "https://i.ticketweb.com/i/00/13/48/74/23_Edp.jpg?v=8"
       },
       {
-        "name": "Tonight at the Improv ft. Larry Wilmore, Caroline Rhea, Amir K and more",
+        "name": "Tonight at the Improv ft. Whitney Cummings, Larry Wilmore, Caroline Rhea, Amir K, Jay Washington and more",
         "date": "2026-05-22",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822893",
-        "image": "https://s1.ticketm.net/dbimages/9160a.jpg"
+        "image": "https://s1.ticketm.net/dam/a/9dc/9bd9d5fa-a287-40b2-84e8-24101f82b9dc_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Shane Todd: Hold Me Back",
@@ -919,11 +905,11 @@
         "image": "https://s1.ticketm.net/dam/a/7b7/99698715-752c-46b3-9de6-62006cb907b7_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Steph Tolev, Craig Conant, Ray Lau, Quincy Weekley, Jackie Kashian and More TBA!",
+        "name": "Tonight at the Improv ft. Steph Tolev, Craig Conant, Greg Fitzsimmons, Ray Lau, Quincy Weekley, Jackie Kashian, and More TBA!",
         "date": "2026-05-22",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822973",
-        "image": "https://s1.ticketm.net/dam/a/247/694df156-67e4-43ed-a8d0-8aded28d3247_1240861_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/c3f/720f5f8a-a718-4c06-8cb5-f22765fcbc3f_56721_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "We Are Pat ft. Julia Sweeney",
@@ -933,25 +919,25 @@
         "image": "https://i.ticketweb.com/i/00/13/40/61/13_Edp.jpg?v=8"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Preacher Lawson, Will Burkart, Orny Adams and more",
+        "name": "Tonight at the Improv ft. Preacher Lawson, Jessica Michelle Singleton, Will Burkart, Orny Adams, Von Decarlo, and more",
         "date": "2026-05-23",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822943",
-        "image": "https://s1.ticketm.net/dam/a/ed3/b467d7a6-6103-4e2a-8b20-6e4dbbcd6ed3_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/bcb/bdca4383-77db-4732-874c-8f3ecea28bcb_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Dvontre Coleman, Kevin Sullivan, Ketra Long, Andrew Woodhull, Chelse Greaux and more TBA",
+        "name": "Tonight at the Lab ft. Dvontre Coleman, Kevin Sullivan, Ketra Long, Andrew Woodhull, Ramsey Badawi, Chelse Greaux and more TBA",
         "date": "2026-05-23",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14849393",
-        "image": "https://i.ticketweb.com/i/00/13/44/95/43_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/44/95/43_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Dana Gould, Rick Glassman, Dustin Nickerson, Sara Weinshenk, Danny Jolles, John Hastings and more TBA",
         "date": "2026-05-23",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14822953",
-        "image": "https://i.ticketweb.com/i/00/13/42/32/43_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822953",
+        "image": "https://s1.ticketm.net/dam/a/837/5a0be907-bf0e-4f14-aa40-d508d8556837_865321_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Mike & Kellen Self-Destruct ft. Mike Glazer, Kellen Schneider, Aidan Dunn",
@@ -961,11 +947,18 @@
         "image": "https://i.ticketweb.com/i/00/13/50/32/13_Edp.jpg?v=2"
       },
       {
-        "name": "Reid the Room ft. Reid Brackenbury, Mike Eshaq, Mav Viola, Steven Marcus Releford, Julian Fernandez, Kelly McInerney",
+        "name": "Tonight at the Improv ft. Craig Robinson, Trevor Wallace, Cristela Alonzo, Larry Wilmore, Jay Washington and more TBA",
+        "date": "2026-05-24",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14874263",
+        "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Reid the Room ft. Reid Brackenbury, Mike Eshaq, Mav Viola, Steven Marcus Releford, Julian Fernandez, Kelly McInerney, Misty Sanderson",
         "date": "2026-05-24",
         "time": "20:00:00",
         "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14924783",
-        "image": "https://i.ticketweb.com/i/00/13/52/02/73_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/52/02/73_Edp.jpg?v=6"
       },
       {
         "name": "Comedy N Chill ft. Maria Bruggere, Estaban Gast, Amy Miller, Libby Salemi, Kimberly Clark, Joe Marrese and more TBA",
@@ -975,11 +968,18 @@
         "image": "https://i.ticketweb.com/i/00/13/44/34/43_Edp.jpg?v=5"
       },
       {
-        "name": "John Campanelli & Special Guests!",
+        "name": "John Campanelli & Special Guests! ft. John Campanelli, Learnmore Jonasi, Jennie Mintz, Adam Reinhardt, Hannah Malone, Joshua Hopkins",
         "date": "2026-05-26",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14153954",
-        "image": "https://i.ticketweb.com/i/00/12/87/32/44_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/12/87/32/44_Edp.jpg?v=3"
+      },
+      {
+        "name": "Lab Work!",
+        "date": "2026-05-27",
+        "time": "18:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14849383",
+        "image": "https://i.ticketweb.com/i/00/13/44/95/33_Edp.jpg?v=3"
       }
     ]
   }
