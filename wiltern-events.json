@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-21T16:06:41.763Z",
+  "generated": "2026-05-22T15:55:04.876Z",
   "events": [
-    {
-      "name": "City Pop Waves: ANRI LIVE 2026 U.S.A Timely!!",
-      "date": "2026-05-21",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/city-pop-waves-anri-live-2026-los-angeles-california-05-21-2026/event/0900635D07E1983F",
-      "image": "https://s1.ticketm.net/dam/a/a68/3559f367-fcab-4cdf-8d2a-991f86ee9a68_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Kevin Morby",
       "date": "2026-05-22",
@@ -55,6 +48,13 @@
       "date": "2026-05-31",
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/elmiene-sounds-for-someone-tour-los-angeles-california-05-31-2026/event/09006437907B9456",
+      "image": "https://s1.ticketm.net/dam/a/a03/9430f116-c4a5-40bb-b49e-8dcfaaaf1a03_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Elmiene - Sounds for Someone Tour",
+      "date": "2026-06-02",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/elmiene-sounds-for-someone-tour-los-angeles-california-06-02-2026/event/0900645AE9FC6913",
       "image": "https://s1.ticketm.net/dam/a/a03/9430f116-c4a5-40bb-b49e-8dcfaaaf1a03_RECOMENDATION_16_9.jpg"
     }
   ]
