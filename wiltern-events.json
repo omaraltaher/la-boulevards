@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-22T15:55:04.876Z",
+  "generated": "2026-05-23T15:26:19.126Z",
   "events": [
-    {
-      "name": "Kevin Morby",
-      "date": "2026-05-22",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/kevin-morby-los-angeles-california-05-22-2026/event/09006445DAA2B0EC",
-      "image": "https://s1.ticketm.net/dam/a/4b0/39a79a1b-a36a-42e0-9b24-49e0dc9b74b0_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "American Football With Mei Semones",
       "date": "2026-05-23",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/elmiene-sounds-for-someone-tour-los-angeles-california-06-02-2026/event/0900645AE9FC6913",
       "image": "https://s1.ticketm.net/dam/a/a03/9430f116-c4a5-40bb-b49e-8dcfaaaf1a03_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "The HU and Apocalyptica with Special Guest The Rasmus",
+      "date": "2026-06-06",
+      "time": "18:00:00",
+      "url": "https://www.ticketmaster.com/the-hu-and-apocalyptica-with-special-los-angeles-california-06-06-2026/event/09006446C9419B7D",
+      "image": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_RECOMENDATION_16_9.jpg"
     }
   ]
 }
