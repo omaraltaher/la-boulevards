@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-23T15:26:19.126Z",
+  "generated": "2026-05-24T15:26:46.336Z",
   "events": [
-    {
-      "name": "American Football With Mei Semones",
-      "date": "2026-05-23",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/american-football-with-mei-semones-los-angeles-california-05-23-2026/event/0900643ED11FD8FD",
-      "image": "https://s1.ticketm.net/dam/a/46c/026025df-b007-4616-994d-6f06f9f9e46c_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "The Paper Kites - If You Go There, I Hope You Find It",
       "date": "2026-05-26",
@@ -56,6 +49,13 @@
       "time": "18:00:00",
       "url": "https://www.ticketmaster.com/the-hu-and-apocalyptica-with-special-los-angeles-california-06-06-2026/event/09006446C9419B7D",
       "image": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Orchestra Noir",
+      "date": "2026-06-13",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/orchestra-noir-los-angeles-california-06-13-2026/event/0900638DF383F666",
+      "image": "https://s1.ticketm.net/dam/a/47a/42d86e63-bdf1-46cf-ae21-8ede360b247a_RECOMENDATION_16_9.jpg"
     }
   ]
 }
