@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T16:22:17.023Z",
+  "generated": "2026-05-25T16:43:46.702Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "Eric Bellinger",
-        "date": "2026-05-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yee",
-        "image": "https://s1.ticketm.net/dam/a/c51/4fea1378-bd16-4cb3-a6c4-54909cb05c51_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Wale & Smino",
         "date": "2026-05-28",
         "time": "20:00:00",
@@ -232,16 +225,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8vU",
         "image": "https://s1.ticketm.net/dam/a/90d/3f2d0e43-342b-4a02-a8c9-ae2a8bb0990d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "BRESH",
+        "date": "2026-07-10",
+        "time": "22:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70k_Y",
+        "image": null
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "2026 K-EXPO USA K-POP CONCERT",
-        "date": "2026-05-24",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xKQZ",
-        "image": null
-      },
       {
         "name": "Los Fabulosos Cadillacs",
         "date": "2026-05-27",
@@ -282,6 +275,13 @@
         "date": "2026-07-17",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZJ",
+        "image": null
+      },
+      {
+        "name": "Lord of the Rings: Fellowship of the Ring Concert",
+        "date": "2026-07-18",
+        "time": "13:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZI",
         "image": null
       }
     ],
@@ -757,13 +757,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Liberación Collective: Cuba & Palestine",
-        "date": "2026-05-24",
-        "time": "16:00:00",
-        "url": "https://www.ticketmaster.com/liberacion-collective-cuba-palestine-inglewood-california-05-24-2026/event/0B00649ED51B7384",
-        "image": null
-      },
-      {
         "name": "ICEF Performing Arts presents Newsies",
         "date": "2026-05-29",
         "time": "18:00:00",
@@ -804,6 +797,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/kobie-dozier-nnamdi-in-concert-inglewood-california-06-21-2026/event/0B00649C80A63421",
         "image": null
+      },
+      {
+        "name": "Elliott Brothers' COMEDY BLOCK PARTY w/ Chris Spencer",
+        "date": "2026-06-24",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/elliott-brothers-comedy-block-party-w-inglewood-california-06-24-2026/event/0B0064AEA5B6472A",
+        "image": "https://s1.ticketm.net/dam/e/14b/ad13a89e-f6cf-4622-b1e5-9a673628614b_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -812,25 +812,25 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00 PM",
-        "date": "2026-05-24",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700-pm-tickets-1983655813938",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-05-24",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1983655942322",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
-        "name": "Memorial Day All-Stars 8:00PM",
+        "name": "Monday All-Stars 8:00PM",
         "date": "2026-05-25",
         "time": "20:00",
-        "url": "https://www.eventbrite.com/e/memorial-day-all-stars-800pm-tickets-1983656403702",
+        "url": "https://www.eventbrite.com/e/monday-all-stars-800pm-tickets-1983656403702",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185256998%2F2987014365277%2F1%2Foriginal.20260523-000448?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c299e8755472220785bb50cfcaa1ea64"
+      },
+      {
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-05-26",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1983656722656",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185336667%2F2989400506155%2F1%2Foriginal.20260525-004436?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=158991834e70c02ff7a90bff3f69c8a4"
+      },
+      {
+        "name": "Gianni and Friends 9:45PM",
+        "date": "2026-05-27",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/gianni-and-friends-945pm-tickets-1983832656880",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185258357%2F2987014365277%2F1%2Foriginal.20260523-004732?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f4d204c909e18a058ae9b98ac37e9772"
       },
       {
         "name": "Chocolate Sundaes 7:00 PM",
@@ -870,27 +870,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Trevor Wallace, Cristela Alonzo, Larry Wilmore, Jay Washington and more TBA",
-        "date": "2026-05-24",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14874263",
-        "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Reid the Room ft. Reid Brackenbury, Mike Eshaq, Mav Viola, Steven Marcus Releford, Julian Fernandez, Kelly McInerney, Misty Sanderson",
-        "date": "2026-05-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14924783",
-        "image": "https://i.ticketweb.com/i/00/13/52/02/73_Edp.jpg?v=6"
-      },
-      {
-        "name": "Rene Vaca & Friends",
-        "date": "2026-05-24",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/rene-vaca-friends-hollywood-improv-the-main-room-tickets/14942683",
-        "image": "https://i.ticketweb.com/i/00/13/55/18/23_Edp.jpg?v=9"
-      },
-      {
         "name": "Tonight at the Improv ft. Sheng Wang, The Sklar Brothers, Charles Fleischer, Katherine Blanford, Erica Rhodes, Johnny Pemberton, Saul Trujillo and more TBA",
         "date": "2026-05-25",
         "time": "19:15:00",
@@ -898,7 +877,7 @@
         "image": "https://s1.ticketm.net/dam/a/f1e/66259d51-20d2-4611-9571-8ba4c99f0f1e_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Adam Conover, Andrew Orolfo, Logan Guntzelman, Matty Chymbor, Hormoz Rashidi, Julian Fernandez and more",
+        "name": "Tonight at the Lab ft. Adam Conover, Andrew Orolfo, Logan Guntzelman, Matty Chymbor, Julian Fernandez and more",
         "date": "2026-05-25",
         "time": "20:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14940283",
@@ -968,6 +947,20 @@
         "image": "https://i.ticketweb.com/i/00/13/51/13/13_Edp.jpg?v=5"
       },
       {
+        "name": "The Two Man Show w/ DoKnow & Concrete",
+        "date": "2026-05-27",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/the-two-man-show-w-hollywood-improv-the-main-room-tickets/14892273",
+        "image": "https://s1.ticketm.net/dam/a/f91/2f6ac2cb-18b8-48ec-8250-0e37221f5f91_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Melissa Villasenor, Donnell Rawlings, Brian Monarch and Very Special Guests",
+        "date": "2026-05-28",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/melissa-villasenor-donnell-rawlings-brian-hollywood-improv-the-main-room-tickets/14838473",
+        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "The Download Comedy Show ft. Zainab Johnson, Bianca Cristovao, Mendel Fogelman, Del Amo Manny, Brittany Carney, Kate Lav, OJ Stellar & more!",
         "date": "2026-05-28",
         "time": "19:30:00",
@@ -980,6 +973,13 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/ahmed-al-kadri-friends-hollywood-improv-the-lab-tickets/14866843",
         "image": "https://i.ticketweb.com/i/00/13/46/62/63_Edp.jpg?v=3"
+      },
+      {
+        "name": "Homegrown Comedy ft. Jamario McClain, Bill Dawes, Tehran, Chico Will, Joncea Dixon, Jennifer Gable, Brandon Broady, Dominique, Chalant Phifer",
+        "date": "2026-05-29",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/homegrown-comedy-ft-jamario-mcclain-hollywood-improv-the-lab-tickets/14823493",
+        "image": "https://s1.ticketm.net/dam/a/2ea/3cf4c8ec-1b74-4f43-8a5a-b71813ae32ea_1322931_RECOMENDATION_16_9.jpg"
       }
     ]
   }
