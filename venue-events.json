@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T16:43:46.702Z",
+  "generated": "2026-05-26T17:06:35.020Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -630,42 +630,42 @@
         "date": "2026-07-31",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-07-31-2026/event/0B0064A7A96D62FA",
-        "image": "https://s1.ticketm.net/dam/a/59b/9792fd27-3107-4fbb-b637-e08ed15bc59b_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Brian Henson's Puppet Up!",
         "date": "2026-08-01",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-08-01-2026/event/0B0064A7A9726305",
-        "image": "https://s1.ticketm.net/dam/a/59b/9792fd27-3107-4fbb-b637-e08ed15bc59b_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Brian Henson's Puppet Up!",
         "date": "2026-08-02",
         "time": "17:00:00",
         "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-08-02-2026/event/0B0064A7A9786317",
-        "image": "https://s1.ticketm.net/dam/a/59b/9792fd27-3107-4fbb-b637-e08ed15bc59b_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Brian Henson's Puppet Up!",
         "date": "2026-08-07",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-08-07-2026/event/0B0064A7A97B6327",
-        "image": "https://s1.ticketm.net/dam/a/59b/9792fd27-3107-4fbb-b637-e08ed15bc59b_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Brian Henson's Puppet Up!",
         "date": "2026-08-08",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-08-08-2026/event/0B0064A7A97E6332",
-        "image": "https://s1.ticketm.net/dam/a/59b/9792fd27-3107-4fbb-b637-e08ed15bc59b_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Brian Henson's Puppet Up!",
         "date": "2026-08-09",
         "time": "17:00:00",
         "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-08-09-2026/event/0B0064A7A9846345",
-        "image": "https://s1.ticketm.net/dam/a/59b/9792fd27-3107-4fbb-b637-e08ed15bc59b_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
       }
     ],
     "Ambassador Auditorium": [],
@@ -812,18 +812,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Stars 8:00PM",
-        "date": "2026-05-25",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-stars-800pm-tickets-1983656403702",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185256998%2F2987014365277%2F1%2Foriginal.20260523-000448?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c299e8755472220785bb50cfcaa1ea64"
-      },
-      {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-05-26",
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1983656722656",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185336667%2F2989400506155%2F1%2Foriginal.20260525-004436?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=158991834e70c02ff7a90bff3f69c8a4"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185384828%2F2987014365277%2F1%2Foriginal.20260525-200227?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=79be932dfcb1cfc553457e6d246c33bc"
       },
       {
         "name": "Gianni and Friends 9:45PM",
@@ -831,6 +824,13 @@
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/gianni-and-friends-945pm-tickets-1983832656880",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185258357%2F2987014365277%2F1%2Foriginal.20260523-004732?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f4d204c909e18a058ae9b98ac37e9772"
+      },
+      {
+        "name": "Sydney Castillo & Friends: Full Cup No Filter 7:30PM",
+        "date": "2026-05-28",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/sydney-castillo-friends-full-cup-no-filter-730pm-tickets-1983834918645",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184724350%2F2987014365277%2F1%2Foriginal.20260515-221402?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=40b27cda23d86ae556c28df0e974d1a7"
       },
       {
         "name": "Chocolate Sundaes 7:00 PM",
@@ -869,27 +869,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Sheng Wang, The Sklar Brothers, Charles Fleischer, Katherine Blanford, Erica Rhodes, Johnny Pemberton, Saul Trujillo and more TBA",
-        "date": "2026-05-25",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14882563",
-        "image": "https://s1.ticketm.net/dam/a/f1e/66259d51-20d2-4611-9571-8ba4c99f0f1e_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Adam Conover, Andrew Orolfo, Logan Guntzelman, Matty Chymbor, Julian Fernandez and more",
-        "date": "2026-05-25",
-        "time": "20:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14940283",
-        "image": "https://s1.ticketm.net/dam/a/666/a5cbeacc-f4ff-44ba-badd-9aa0a24ca666_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Reemo Rod, Wellington Ojukwu, K Dott, Ocean Glapion, Comedian CP  & more",
-        "date": "2026-05-25",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14857763",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Happy Hour Open Mic",
         "date": "2026-05-26",
@@ -965,7 +944,14 @@
         "date": "2026-05-28",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14823483",
-        "image": "https://i.ticketweb.com/i/00/13/42/37/03_Edp.jpg?v=11"
+        "image": "https://i.ticketweb.com/i/00/13/42/37/03_Edp.jpg?v=13"
+      },
+      {
+        "name": "Tonight at the Improv!",
+        "date": "2026-05-28",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14924763",
+        "image": "https://i.ticketweb.com/i/00/13/52/02/53_Edp.jpg?v=2"
       },
       {
         "name": "Ahmed Al-kadri & Friends ft. Mimi Landru, Justin Foster, Anthony Stiriti, Tarek Ziad",
@@ -975,11 +961,25 @@
         "image": "https://i.ticketweb.com/i/00/13/46/62/63_Edp.jpg?v=3"
       },
       {
+        "name": "Tonight at the Improv",
+        "date": "2026-05-29",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14822913",
+        "image": "https://i.ticketweb.com/i/00/13/42/32/43_Edp.jpg?v=4"
+      },
+      {
         "name": "Homegrown Comedy ft. Jamario McClain, Bill Dawes, Tehran, Chico Will, Joncea Dixon, Jennifer Gable, Brandon Broady, Dominique, Chalant Phifer",
         "date": "2026-05-29",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/homegrown-comedy-ft-jamario-mcclain-hollywood-improv-the-lab-tickets/14823493",
         "image": "https://s1.ticketm.net/dam/a/2ea/3cf4c8ec-1b74-4f43-8a5a-b71813ae32ea_1322931_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Comedy Grind ft. Rob DaRocha, Jessica Winther, Anastasia Narinskiy, Mark Sable, Christopher Zajac-Denek, Willie Krisztal, Ahmed Bharoocha, Fahim Anwar, Quincy Weekley, Jay Shore, Chris Dunham",
+        "date": "2026-05-29",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/comedy-grind-ft-rob-darocha-hollywood-improv-the-lab-tickets/14794773",
+        "image": "https://i.ticketweb.com/i/00/13/39/73/23_Edp.jpg?v=3"
       }
     ]
   }
