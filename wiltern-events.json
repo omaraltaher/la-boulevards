@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-26T16:19:37.374Z",
+  "generated": "2026-05-27T16:19:43.684Z",
   "events": [
-    {
-      "name": "The Paper Kites - If You Go There, I Hope You Find It",
-      "date": "2026-05-26",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/the-paper-kites-if-you-go-los-angeles-california-05-26-2026/event/09006339E3616BAD",
-      "image": "https://s1.ticketm.net/dam/a/fad/4e6d1a58-7c24-4c6d-9e5d-9ae1890d7fad_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Prof G Markets with Scott Galloway and Ed Elson",
       "date": "2026-05-28",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/orchestra-noir-los-angeles-california-06-13-2026/event/0900638DF383F666",
       "image": "https://s1.ticketm.net/dam/a/47a/42d86e63-bdf1-46cf-ae21-8ede360b247a_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "HONNE - 10 YEAR ANNIVERSARY TOUR",
+      "date": "2026-06-17",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/honne-10-year-anniversary-tour-los-angeles-california-06-17-2026/event/09006444FCDBB68D",
+      "image": "https://s1.ticketm.net/dam/a/0f7/c40847ae-f3f3-49a4-bb01-59fab1eb00f7_RECOMENDATION_16_9.jpg"
     }
   ]
 }
