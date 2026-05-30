@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T17:09:41.679Z",
+  "generated": "2026-05-30T16:22:53.395Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -8,13 +8,6 @@
         "time": null,
         "url": "https://www.ticketmaster.com/2-day-pass-slide-away-2026-hollywood-california-05-29-2026/event/090063390F3A787E",
         "image": "https://s1.ticketm.net/dam/e/a6d/5f30c96b-bbc3-42a5-9cec-9aed7f148a6d_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Slide Away 2026 w/ Hum, Nothing, Chapterhouse & more",
-        "date": "2026-05-29",
-        "time": "17:00:00",
-        "url": "https://www.ticketmaster.com/slide-away-2026-w-hum-nothing-hollywood-california-05-29-2026/event/090063390F2C786D",
-        "image": "https://s1.ticketm.net/dam/e/3a9/d886c90a-5eaa-492d-9818-0c7fa23b03a9_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Slide Away 2026 w/ Hum, Nothing, Chapterhouse & more",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/belle-sebastian-if-youre-feeling-sinister-hollywood-california-06-06-2026/event/0900630C94B81178",
         "image": "https://s1.ticketm.net/dam/a/3cd/206f6a1a-ffd3-4849-a82f-d03a4d7d03cd_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Earl Sweatshirt & MIKE Home on the Range Tour 2026",
+        "date": "2026-06-10",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/earl-sweatshirt-mike-home-on-the-hollywood-california-06-10-2026/event/09006466BA1DF6D7",
+        "image": "https://s1.ticketm.net/dam/a/469/f6db8121-664a-4972-9853-b1eb4d318469_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Yacht Rock Revue",
-        "date": "2026-05-29",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-A1f",
-        "image": "https://s1.ticketm.net/dam/a/fb2/66303d90-c29c-4deb-bb46-d7a929f5bfb2_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "INJI",
         "date": "2026-05-30",
@@ -116,16 +109,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Zj7",
         "image": null
+      },
+      {
+        "name": "Jane Remover w/ Dazegxd",
+        "date": "2026-06-18",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8K",
+        "image": "https://s1.ticketm.net/dam/a/e1c/a4b656a9-3f89-4f7f-bb44-981173629e1c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Gasolina",
-        "date": "2026-05-29",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/14893403",
-        "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Andrew Rayel w/ Laura Van Dam",
         "date": "2026-05-30",
@@ -169,6 +162,13 @@
         "image": "https://i.ticketweb.com/i/00/13/43/94/33_Edp.jpg?v=6"
       },
       {
+        "name": "Flashback: A 2010s EDM Tribute Party",
+        "date": "2026-06-19",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/flashback-a-2010s-edm-tribute-avalon-hollywood-tickets/14959933",
+        "image": "https://i.ticketweb.com/i/00/13/56/58/33_Edp.jpg?v=3"
+      },
+      {
         "name": "Aly & Fila",
         "date": "2026-06-20",
         "time": "22:00:00",
@@ -177,13 +177,6 @@
       }
     ],
     "The Novo": [
-      {
-        "name": "Ladytron",
-        "date": "2026-05-29",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OK8v",
-        "image": "https://s1.ticketm.net/dam/a/bc8/fa2d5bf5-cbb8-434c-b04b-640ab541abc8_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Juvenile",
         "date": "2026-05-31",
@@ -232,6 +225,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yvy",
         "image": null
+      },
+      {
+        "name": "Ole 60 w/ The Stews",
+        "date": "2026-08-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I09",
+        "image": "https://s1.ticketm.net/dam/a/e6c/7c11f21d-f91a-49fa-a79e-f6b40f78fe6c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -399,13 +399,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "The Last Dinner Party: From The Pyre Tour",
-        "date": "2026-05-29",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/the-last-dinner-party-from-the-los-angeles-california-05-29-2026/event/0900634ECB6B5ABC",
-        "image": "https://s1.ticketm.net/dam/a/61e/2b5ca275-a381-4660-b2d0-8d2cf704d61e_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Get Together Now! Concert - Jesse Colin Young Tribute",
         "date": "2026-05-30",
         "time": "19:30:00",
@@ -453,6 +446,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/widespread-panic-los-angeles-california-07-25-2026/event/0900646CA6B0927E",
         "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LYKN",
+        "date": "2026-08-14",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/lykn-orpheum-theatre-tickets/14790203",
+        "image": "https://i.ticketweb.com/i/00/13/39/30/53_Edp.jpg?v=16"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -687,13 +687,6 @@
     ],
     "La Mirada Theatre For The Performing Arts": [
       {
-        "name": "Mama I'm a Big Girl Now",
-        "date": "2026-05-29",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q6_6",
-        "image": null
-      },
-      {
         "name": "Anastasia (Touring)",
         "date": "2026-06-06",
         "time": "14:00:00",
@@ -727,6 +720,13 @@
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qs",
         "image": null
+      },
+      {
+        "name": "Anastasia (Touring)",
+        "date": "2026-06-14",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qS",
+        "image": null
       }
     ],
     "Downey Civic Theatre": [],
@@ -749,13 +749,6 @@
     "Dynasty Typewriter At The Hayworth": [],
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
-      {
-        "name": "ICEF Performing Arts presents Newsies",
-        "date": "2026-05-29",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/icef-performing-arts-presents-newsies-inglewood-california-05-29-2026/event/0B0064ABF536624F",
-        "image": null
-      },
       {
         "name": "ICEF Performing Arts presents Newsies",
         "date": "2026-05-30",
@@ -797,6 +790,13 @@
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/elliott-brothers-comedy-block-party-w-inglewood-california-06-24-2026/event/0B0064AEA5B6472A",
         "image": "https://s1.ticketm.net/dam/e/14b/ad13a89e-f6cf-4622-b1e5-9a673628614b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Cult Classics Cinema Presents BLACK PANTHER",
+        "date": "2026-07-18",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-black-panther-inglewood-california-07-18-2026/event/0B00648AD0B26304",
+        "image": "https://s1.ticketm.net/dam/e/c99/5c85fc8d-8b44-48ec-bc15-6397d9d37c99_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -805,25 +805,18 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Friday Night All-Stars 7:30PM",
-        "date": "2026-05-29",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/friday-night-all-stars-730pm-tickets-1983835253647",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185652043%2F2987014365277%2F1%2Foriginal.20260528-205515?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9a0dbf060f19b91dba19daa08d4d0b82"
-      },
-      {
-        "name": "Friday Night All-Stars 9:45PM",
-        "date": "2026-05-29",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/friday-night-all-stars-945pm-tickets-1983835476313",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185546169%2F2987014365277%2F1%2Foriginal.20260527-175707?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4bf03451fdaea32ffb0888d1bb847202"
-      },
-      {
         "name": "Hollywood 's Hottest 7:30PM",
         "date": "2026-05-30",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/hollywood-s-hottest-730pm-tickets-1983835853441",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185652139%2F2987014365277%2F1%2Foriginal.20260528-205636?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e741f573200b11411ea821e80b11c561"
+      },
+      {
+        "name": "Saturday Night All-Stars 9:45PM",
+        "date": "2026-05-30",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/saturday-night-all-stars-945pm-tickets-1983835933681",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185546431%2F2987014365277%2F1%2Foriginal.20260527-175937?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a5f55bbca552c05a355f10a9be7d3801"
       },
       {
         "name": "Chocolate Sundaes 7:00 PM",
@@ -854,6 +847,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177430992%2F2987014365277%2F1%2Foriginal.20260213-002821?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ccdb153a442d72dec648488410d6653d"
       },
       {
+        "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
+        "date": "2026-09-20",
+        "time": "17:00",
+        "url": "https://www.eventbrite.com/e/fundraiser-for-la-animal-shelters-and-standup-for-pits-500-pm-tickets-1985767708672",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173173365%2F2986605118463%2F1%2Foriginal.20251218-002729?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=78fe2861e4d452ae53f85d9694142a81"
+      },
+      {
         "name": "Alex Kominek Live! 7:30PM",
         "date": "2026-10-01",
         "time": "19:30",
@@ -863,34 +863,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Amir K, Dane Cook, Charles Fleischer, Laurie Kilmartin, Chris Millhouse and more TBA",
-        "date": "2026-05-29",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822913",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Homegrown Comedy ft. Jamario McClain, Bill Dawes, Tehran, Chico Will, Joncea Dixon, Jennifer Gable, Brandon Broady, Dominique, Chalant Phifer",
-        "date": "2026-05-29",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/homegrown-comedy-ft-jamario-mcclain-hollywood-improv-the-lab-tickets/14823493",
-        "image": "https://s1.ticketm.net/dam/a/2ea/3cf4c8ec-1b74-4f43-8a5a-b71813ae32ea_1322931_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Trevor Wallace, Danny Jolles, Mo Welch, James Adomian, BT Kingsley, Yassir Lester, Nikki Bon and more TBA",
-        "date": "2026-05-29",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14822983",
-        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Comedy Grind ft. Rob DaRocha, Jessica Winther, Anastasia Narinskiy, Mark Sable, Christopher Zajac-Denek, Willie Krisztal, Ahmed Bharoocha, Fahim Anwar, Quincy Weekley, Jay Shore, Chris Dunham",
-        "date": "2026-05-29",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/comedy-grind-ft-rob-darocha-hollywood-improv-the-lab-tickets/14794773",
-        "image": "https://i.ticketweb.com/i/00/13/39/73/23_Edp.jpg?v=4"
-      },
-      {
         "name": "Tonight at the Improv ft. Iliza Shlesinger, Orny Adams, Kira Soltanovich, Wayne Federman, Taylor Williamson, Dan Levy, Andre Kelley and more TBA",
         "date": "2026-05-30",
         "time": "19:00:00",
@@ -898,11 +870,11 @@
         "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Ahmed Al-Kadri, Bianca Cristovao, Kevin Sullivan, Andy Benedetti, Justin Sherman, Andrew Orolfo, Julian Fernandez & more TBA!",
+        "name": "Tonight at the Lab ft. Ahmed Al-Kadri, Bianca Cristovao, Kevin Sullivan, Andy Benedetti, Justin Sherman, Pink Foxx, Andrew Orolfo, Julian Fernandez & more TBA!",
         "date": "2026-05-30",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14837333",
-        "image": "https://i.ticketweb.com/i/00/13/55/81/33_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/55/81/33_Edp.jpg?v=5"
       },
       {
         "name": "Tonight at the Improv ft. Steph Tolev, Shapel Lacey, Rick Glassman, Brent Morin, Rachel Scanlon, Jay Larson, John Hastings and more TBA",
@@ -919,7 +891,7 @@
         "image": "https://i.ticketweb.com/i/00/12/86/15/24_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Paul Rodriguez, Charles Fleischer, Jimmy Shin, Nikki Bon and more TBA",
+        "name": "Tonight at the Improv ft. Craig Robinson, Paul Rodriguez, Charles Fleischer, Tom Arnold, Jimmy Shin, Katie Cazorla, Nikki Bon and more TBA",
         "date": "2026-05-31",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14189124",
@@ -933,11 +905,11 @@
         "image": "https://s1.ticketm.net/dam/a/b39/78c80946-96f4-4215-bc8d-99c506cf9b39_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Kate Berlant, Steph Tolev, Laura Peek, Denny Love, Gary Cannon and more TBA",
         "date": "2026-06-01",
         "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14931403",
-        "image": "https://i.ticketweb.com/i/00/13/52/67/93_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14931403",
+        "image": "https://s1.ticketm.net/dam/a/72c/4c29ed07-73a1-406f-8a58-51ac4c57b72c_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -961,6 +933,13 @@
         "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
       },
       {
+        "name": "Anthony Jeselnik, Iliza Shlesinger, Brian Monarch and Very Special Guests",
+        "date": "2026-06-02",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/anthony-jeselnik-iliza-shlesinger-brian-hollywood-improv-the-main-room-tickets/14900793",
+        "image": "https://s1.ticketm.net/dam/a/ed3/b467d7a6-6103-4e2a-8b20-6e4dbbcd6ed3_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Deon Cole: Does This Work?",
         "date": "2026-06-02",
         "time": "19:30:00",
@@ -973,6 +952,27 @@
         "time": "18:15:00",
         "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14918703",
         "image": "https://i.ticketweb.com/i/00/13/51/43/43_Edp.jpg?v=2"
+      },
+      {
+        "name": "Celebration of the Gays ft. Joel Kim Booster, Loni Love, Manila Luzon, Joe Dombrowski, Rachel Scanlon, Daniel Franzese, Nicky Paris and more TBA",
+        "date": "2026-06-03",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/celebration-of-the-gays-ft-hollywood-improv-the-main-room-tickets/14774413",
+        "image": "https://s1.ticketm.net/dam/a/8dc/8dc028fe-86e3-406d-888b-f0213de3b8dc_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab",
+        "date": "2026-06-03",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14950303",
+        "image": "https://i.ticketweb.com/i/00/13/55/66/63_Edp.jpg?v=2"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-06-04",
+        "time": "20:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14951493",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       }
     ]
   }
