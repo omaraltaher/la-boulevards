@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-29T16:19:15.977Z",
+  "generated": "2026-05-30T15:28:48.795Z",
   "events": [
-    {
-      "name": "Sepultura - Celebrating Life Through Death Final North American Tour",
-      "date": "2026-05-29",
-      "time": "17:30:00",
-      "url": "https://www.ticketmaster.com/sepultura-celebrating-life-through-death-final-los-angeles-california-05-29-2026/event/09006430B592D8F9",
-      "image": "https://s1.ticketm.net/dam/a/fc2/0cad0f29-81f5-40d0-88ec-48a83c5eafc2_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "CHAOS & CARNAGE 2026",
       "date": "2026-05-30",
@@ -56,6 +49,13 @@
       "time": "19:30:00",
       "url": "https://www.ticketmaster.com/ivy-queen-los-angeles-california-06-19-2026/event/0900647EF660EA40",
       "image": "https://s1.ticketm.net/dam/a/73b/e948c0ad-9a99-4e66-a107-132e83d2073b_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Alex Isley - When The City Sleeps",
+      "date": "2026-06-20",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/alex-isley-when-the-city-sleeps-los-angeles-california-06-20-2026/event/0900646CA13287DF",
+      "image": "https://s1.ticketm.net/dam/a/929/868a946f-8525-4a3c-aa3a-329c04fdc929_RECOMENDATION_16_9.jpg"
     }
   ]
 }
