@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-30T15:28:48.795Z",
+  "generated": "2026-05-31T15:30:09.297Z",
   "events": [
-    {
-      "name": "CHAOS & CARNAGE 2026",
-      "date": "2026-05-30",
-      "time": "16:00:00",
-      "url": "https://www.ticketmaster.com/chaos-carnage-2026-los-angeles-california-05-30-2026/event/0900638ACDE1BEED",
-      "image": "https://s1.ticketm.net/dam/a/c20/e951633f-6bea-427d-8084-8dfadea8bc20_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Elmiene - Sounds for Someone Tour",
       "date": "2026-05-31",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/alex-isley-when-the-city-sleeps-los-angeles-california-06-20-2026/event/0900646CA13287DF",
       "image": "https://s1.ticketm.net/dam/a/929/868a946f-8525-4a3c-aa3a-329c04fdc929_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Audrey Hobert: The Staircase To Stardom Tour",
+      "date": "2026-06-23",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/audrey-hobert-the-staircase-to-stardom-los-angeles-california-06-23-2026/event/0900642EDB613141",
+      "image": "https://s1.ticketm.net/dam/a/5af/e58b8d7c-541b-40ed-a6d2-09652bc905af_RECOMENDATION_16_9.jpg"
     }
   ]
 }
