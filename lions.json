@@ -1,6 +1,34 @@
 {
-  "generated": "2026-05-01T10:20:28.904Z",
+  "generated": "2026-06-01T14:56:45.747Z",
   "lions": [
+    {
+      "lat": 34.189,
+      "lon": -118.2126,
+      "date": "2026-05-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/668094899/small.jpg",
+      "url": "https://www.inaturalist.org/observations/365907167"
+    },
+    {
+      "lat": 34.1191,
+      "lon": -118.3966,
+      "date": "2026-05-18",
+      "photo": "https://static.inaturalist.org/photos/662384429/small.jpg",
+      "url": "https://www.inaturalist.org/observations/362896018"
+    },
+    {
+      "lat": 34.23,
+      "lon": -118.4571,
+      "date": "2026-05-05",
+      "photo": "https://static.inaturalist.org/photos/657580932/small.gif",
+      "url": "https://www.inaturalist.org/observations/360377239"
+    },
+    {
+      "lat": 34.3155,
+      "lon": -118.4859,
+      "date": "2026-05-05",
+      "photo": "https://static.inaturalist.org/photos/657575228/small.gif",
+      "url": "https://www.inaturalist.org/observations/360374076"
+    },
     {
       "lat": 33.7917,
       "lon": -117.7479,
@@ -105,90 +133,6 @@
       "date": "2026-03-06",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/623029622/small.jpg",
       "url": "https://www.inaturalist.org/observations/342159656"
-    },
-    {
-      "lat": 34.3168,
-      "lon": -118.5503,
-      "date": "2026-03-02",
-      "photo": "https://static.inaturalist.org/photos/624442082/small.gif",
-      "url": "https://www.inaturalist.org/observations/341448516"
-    },
-    {
-      "lat": 33.8153,
-      "lon": -117.6524,
-      "date": "2026-03-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621578680/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341442387"
-    },
-    {
-      "lat": 34.3568,
-      "lon": -118.565,
-      "date": "2026-02-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641261422/small.jpg",
-      "url": "https://www.inaturalist.org/observations/351398414"
-    },
-    {
-      "lat": 34.1564,
-      "lon": -118.5147,
-      "date": "2026-02-19",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/629616809/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345479615"
-    },
-    {
-      "lat": 34.2789,
-      "lon": -118.5753,
-      "date": "2026-02-18",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641260188/small.jpg",
-      "url": "https://www.inaturalist.org/observations/351397868"
-    },
-    {
-      "lat": 34.283,
-      "lon": -118.5329,
-      "date": "2026-02-13",
-      "photo": "https://static.inaturalist.org/photos/624582355/small.gif",
-      "url": "https://www.inaturalist.org/observations/339965883"
-    },
-    {
-      "lat": 34.2291,
-      "lon": -118.4352,
-      "date": "2026-02-13",
-      "photo": "https://static.inaturalist.org/photos/615651838/small.jpg",
-      "url": "https://www.inaturalist.org/observations/338522541"
-    },
-    {
-      "lat": 33.7771,
-      "lon": -117.7183,
-      "date": "2026-02-12",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621030145/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341177129"
-    },
-    {
-      "lat": 34.221,
-      "lon": -118.4845,
-      "date": "2026-02-11",
-      "photo": "https://static.inaturalist.org/photos/624577760/small.gif",
-      "url": "https://www.inaturalist.org/observations/338504708"
-    },
-    {
-      "lat": 34.2133,
-      "lon": -118.7818,
-      "date": "2026-02-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/615136476/small.jpg",
-      "url": "https://www.inaturalist.org/observations/338275967"
-    },
-    {
-      "lat": 34.2558,
-      "lon": -118.7116,
-      "date": "2026-02-02",
-      "photo": "https://static.inaturalist.org/photos/616479727/small.jpg",
-      "url": "https://www.inaturalist.org/observations/338944161"
-    },
-    {
-      "lat": 33.7181,
-      "lon": -117.6783,
-      "date": "2026-02-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/612550841/small.jpg",
-      "url": "https://www.inaturalist.org/observations/337014212"
     }
   ],
   "p22": [
