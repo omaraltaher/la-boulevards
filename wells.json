@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T20:07:54.972Z",
+  "generated": "2026-06-01T22:12:29.485Z",
   "wells": [
     {
       "lat": 34.00231,
@@ -282,16 +282,6 @@
       "blvd": "Pico Boulevard"
     },
     {
-      "lat": 34.05554,
-      "lon": -118.39048,
-      "status": "Active",
-      "operator": "Pacific Coast Energy Company LP",
-      "field": "Beverly Hills",
-      "type": "Oil & Gas",
-      "api": "0403700997",
-      "blvd": "Pico Boulevard"
-    },
-    {
       "lat": 34.05547,
       "lon": -118.39037,
       "status": "Active",
@@ -299,6 +289,16 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721113",
+      "blvd": "Pico Boulevard"
+    },
+    {
+      "lat": 34.05554,
+      "lon": -118.39048,
+      "status": "Active",
+      "operator": "Pacific Coast Energy Company LP",
+      "field": "Beverly Hills",
+      "type": "Oil & Gas",
+      "api": "0403700997",
       "blvd": "Pico Boulevard"
     },
     {
@@ -472,16 +472,6 @@
       "blvd": "Pico Boulevard"
     },
     {
-      "lat": 34.05554,
-      "lon": -118.39039,
-      "status": "Active",
-      "operator": "Pacific Coast Energy Company LP",
-      "field": "Beverly Hills",
-      "type": "Oil & Gas",
-      "api": "0403700999",
-      "blvd": "Pico Boulevard"
-    },
-    {
       "lat": 34.05547,
       "lon": -118.39035,
       "status": "Active",
@@ -489,6 +479,16 @@
       "field": "Beverly Hills",
       "type": "Oil & Gas",
       "api": "0403721133",
+      "blvd": "Pico Boulevard"
+    },
+    {
+      "lat": 34.05554,
+      "lon": -118.39039,
+      "status": "Active",
+      "operator": "Pacific Coast Energy Company LP",
+      "field": "Beverly Hills",
+      "type": "Oil & Gas",
+      "api": "0403700999",
       "blvd": "Pico Boulevard"
     },
     {
@@ -2632,6 +2632,16 @@
       "blvd": "South La Cienega Boulevard"
     },
     {
+      "lat": 34.00099,
+      "lon": -118.37086,
+      "status": "Active",
+      "operator": "Sentinel Peak Resources California LLC",
+      "field": "Inglewood",
+      "type": "Oil & Gas",
+      "api": "0403708215",
+      "blvd": "South La Cienega Boulevard"
+    },
+    {
       "lat": 34.00061,
       "lon": -118.37185,
       "status": "Active",
@@ -3762,13 +3772,13 @@
       "blvd": "Laconia Boulevard"
     },
     {
-      "lat": 33.8909,
-      "lon": -118.26839,
+      "lat": 33.89113,
+      "lon": -118.26923,
       "status": "Active",
       "operator": "Bridgeland Resources, LLC",
       "field": "Rosecrans, South",
       "type": "Oil & Gas",
-      "api": "0403714568",
+      "api": "0403714590",
       "blvd": "Redondo Beach Boulevard"
     },
     {
@@ -3782,13 +3792,13 @@
       "blvd": "Redondo Beach Boulevard"
     },
     {
-      "lat": 33.89113,
-      "lon": -118.26923,
+      "lat": 33.8909,
+      "lon": -118.26839,
       "status": "Active",
       "operator": "Bridgeland Resources, LLC",
       "field": "Rosecrans, South",
       "type": "Oil & Gas",
-      "api": "0403714590",
+      "api": "0403714568",
       "blvd": "Redondo Beach Boulevard"
     },
     {
@@ -4852,16 +4862,6 @@
       "blvd": "Sepulveda Boulevard"
     },
     {
-      "lat": 33.79977,
-      "lon": -118.29957,
-      "status": "Active",
-      "operator": "Hunt Enterprises",
-      "field": "Torrance",
-      "type": "Oil & Gas",
-      "api": "0403717088",
-      "blvd": "Lomita Boulevard"
-    },
-    {
       "lat": 33.79173,
       "lon": -118.27687,
       "status": "Active",
@@ -4870,6 +4870,16 @@
       "type": "Oil & Gas",
       "api": "0403716604",
       "blvd": "Wilmington Boulevard"
+    },
+    {
+      "lat": 33.79977,
+      "lon": -118.29957,
+      "status": "Active",
+      "operator": "Hunt Enterprises",
+      "field": "Torrance",
+      "type": "Oil & Gas",
+      "api": "0403717088",
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.84763,
