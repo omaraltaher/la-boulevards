@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-31T15:30:09.297Z",
+  "generated": "2026-06-01T16:53:53.283Z",
   "events": [
-    {
-      "name": "Elmiene - Sounds for Someone Tour",
-      "date": "2026-05-31",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/elmiene-sounds-for-someone-tour-los-angeles-california-05-31-2026/event/09006437907B9456",
-      "image": "https://s1.ticketm.net/dam/a/a03/9430f116-c4a5-40bb-b49e-8dcfaaaf1a03_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Elmiene - Sounds for Someone Tour",
       "date": "2026-06-02",
@@ -55,6 +48,13 @@
       "date": "2026-06-23",
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/audrey-hobert-the-staircase-to-stardom-los-angeles-california-06-23-2026/event/0900642EDB613141",
+      "image": "https://s1.ticketm.net/dam/a/5af/e58b8d7c-541b-40ed-a6d2-09652bc905af_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Audrey Hobert: The Staircase To Stardom Tour",
+      "date": "2026-06-24",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/audrey-hobert-the-staircase-to-stardom-los-angeles-california-06-24-2026/event/0900642EDB72317A",
       "image": "https://s1.ticketm.net/dam/a/5af/e58b8d7c-541b-40ed-a6d2-09652bc905af_RECOMENDATION_16_9.jpg"
     }
   ]
