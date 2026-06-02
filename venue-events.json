@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T18:02:10.165Z",
+  "generated": "2026-06-02T17:33:54.705Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "The Cab",
-        "date": "2026-06-01",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-pGK",
-        "image": "https://s1.ticketm.net/dam/a/329/d3dbdd52-2081-4672-868c-fcdd14008329_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lil Ghost",
         "date": "2026-06-04",
         "time": "20:00:00",
@@ -115,6 +108,13 @@
         "date": "2026-06-19",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8f",
+        "image": "https://s1.ticketm.net/dam/a/e1c/a4b656a9-3f89-4f7f-bb44-981173629e1c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Jane Remover w/ Dazegxd",
+        "date": "2026-06-20",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70e7M",
         "image": "https://s1.ticketm.net/dam/a/e1c/a4b656a9-3f89-4f7f-bb44-981173629e1c_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -169,11 +169,11 @@
         "image": "https://i.ticketweb.com/i/00/13/42/70/83_Edp.jpg?v=7"
       },
       {
-        "name": "Time Machine: 90s - 2000s Throwback Dance Party",
-        "date": "2026-06-27",
+        "name": "Part.5 Album Release Party",
+        "date": "2026-06-25",
         "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/time-machine-90s-avalon-hollywood-tickets/14957253",
-        "image": "https://i.ticketweb.com/i/00/13/56/35/73_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/part5-album-release-party-avalon-hollywood-tickets/14965143",
+        "image": "https://s1.ticketm.net/dam/a/138/f695ee79-aca7-4f24-b0f2-8a121b620138_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -778,6 +778,13 @@
         "image": "https://s1.ticketm.net/dam/e/14b/ad13a89e-f6cf-4622-b1e5-9a673628614b_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Momo Rodriguez",
+        "date": "2026-06-26",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/momo-rodriguez-inglewood-california-06-26-2026/event/0B0064C1B8B761C8",
+        "image": null
+      },
+      {
         "name": "Cult Classics Cinema Presents BLACK PANTHER",
         "date": "2026-07-18",
         "time": "18:00:00",
@@ -790,13 +797,6 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/jodavi-presents-makeda-a-symphonic-journey-inglewood-california-08-19-2026/event/0B00648F3250820B",
         "image": null
-      },
-      {
-        "name": "A SUMMER NIGHT OF R&B SOUL",
-        "date": "2026-08-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/a-summer-night-of-rb-soul-inglewood-california-08-29-2026/event/0B0064BCB49161BD",
-        "image": null
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -804,13 +804,6 @@
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
     "Laugh Factory": [
-      {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-06-01",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1986014095622",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185746989%2F2987014365277%2F1%2Foriginal.20260530-020147?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a2ef81f93b89b49853302b6a0c1373fd"
-      },
       {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-06-02",
@@ -840,6 +833,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178458477%2F2990051982791%2F1%2Foriginal.20260225-220538?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.495&fp-y=0.482&s=b5c0ff5523ca5b22f0af624f183c689f"
       },
       {
+        "name": "Tehran Thursday's 9:45 PM",
+        "date": "2026-06-04",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/tehran-thursdays-945-pm-tickets-1986016311249",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185904530%2F2987014365277%2F1%2Foriginal.20260601-204915?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=49ba426efeb9f35b5db612e18b03ce6d"
+      },
+      {
         "name": "No Fs Given Juneteenth Celebration 7:30PM",
         "date": "2026-06-19",
         "time": "19:30",
@@ -863,27 +863,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Kate Berlant, Steph Tolev, Drew Lynch, Laura Peek, Denny Love, Gary Cannon and more TBA",
-        "date": "2026-06-01",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14931403",
-        "image": "https://s1.ticketm.net/dam/a/72c/4c29ed07-73a1-406f-8a58-51ac4c57b72c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-06-01",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950263",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis!  ft. G Thang, Marv Ross, Jeff Horste, Tiffany King, Malik S  & more",
-        "date": "2026-06-01",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922603",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-06-02",
         "time": "17:15:00",
@@ -891,7 +870,7 @@
         "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv! ft. Bert Kreischer, Iliza Shlesinger, Anthony Jeselnik, Craig Robinson, Brian Monarch, Jen Murphy and More TBD!",
+        "name": "Tonight at the Improv! ft. Bert Kreischer, Iliza Shlesinger, Anthony Jeselnik, Craig Robinson, Brian Monarch, Jen Murphy and More TBD",
         "date": "2026-06-02",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14900793",
@@ -919,11 +898,11 @@
         "image": "https://s1.ticketm.net/dam/a/8dc/8dc028fe-86e3-406d-888b-f0213de3b8dc_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Saul Trujillo, Logan Guntzelman, Malcolm Cills, Jared Goldstein, Will Cullen, Torio Van Grol, Dvontre Coleman, Jeanne Whitney, Cid Williams",
+        "name": "Tonight at the Lab ft. Saul Trujillo, Logan Guntzelman, Malcolm Cills, Jared Goldstein, Will Cullen, Torio Van Grol, Dvontre Coleman, Usama Siddique, Jeanne Whitney, Cid Williams",
         "date": "2026-06-03",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14950303",
-        "image": "https://i.ticketweb.com/i/00/13/55/66/63_Edp.jpg?v=11"
+        "image": "https://s1.ticketm.net/dam/a/a12/f6c544db-b3a3-4d88-b839-922713136a12_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Anthony Jeselnik, Tiffany Haddish, Trevor Wallace, Brian Monarch and Very Special Guests",
@@ -961,11 +940,25 @@
         "image": "https://i.ticketweb.com/i/00/13/44/35/03_Edp.jpg?v=5"
       },
       {
+        "name": "Tonight at the Improv",
+        "date": "2026-06-06",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838563",
+        "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
+      },
+      {
         "name": "Tonight at the Lab",
         "date": "2026-06-06",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14918713",
         "image": "https://i.ticketweb.com/i/00/13/51/43/53_Edp.jpg?v=4"
+      },
+      {
+        "name": "House Party ft. Rocky Roberts, Jason Yanakis and more TBA",
+        "date": "2026-06-06",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/house-party-ft-rocky-roberts-hollywood-improv-the-lab-tickets/14811783",
+        "image": "https://i.ticketweb.com/i/00/13/41/28/33_Edp.jpg?v=2"
       }
     ]
   }
