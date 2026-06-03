@@ -1,13 +1,6 @@
 {
-  "generated": "2026-06-02T16:32:40.934Z",
+  "generated": "2026-06-03T16:34:59.023Z",
   "events": [
-    {
-      "name": "Elmiene - Sounds for Someone Tour",
-      "date": "2026-06-02",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/elmiene-sounds-for-someone-tour-los-angeles-california-06-02-2026/event/0900645AE9FC6913",
-      "image": "https://s1.ticketm.net/dam/a/a03/9430f116-c4a5-40bb-b49e-8dcfaaaf1a03_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "The HU and Apocalyptica with Special Guest The Rasmus",
       "date": "2026-06-06",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/audrey-hobert-the-staircase-to-stardom-los-angeles-california-06-24-2026/event/0900642EDB72317A",
       "image": "https://s1.ticketm.net/dam/a/5af/e58b8d7c-541b-40ed-a6d2-09652bc905af_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Stavros Halkias: The Dreamboat Tour",
+      "date": "2026-06-25",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/stavros-halkias-the-dreamboat-tour-los-angeles-california-06-25-2026/event/090064A7A898C83F",
+      "image": "https://s1.ticketm.net/dam/a/c07/43b9e171-e2b1-4d75-8d99-e3cd022e4c07_RECOMENDATION_16_9.jpg"
     }
   ]
 }
