@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-02T17:33:54.705Z",
+  "generated": "2026-06-03T17:40:47.013Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -166,13 +166,13 @@
         "date": "2026-06-20",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/aly-fila-avalon-hollywood-tickets/14826973",
-        "image": "https://i.ticketweb.com/i/00/13/42/70/83_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/13/42/70/83_Edp.jpg?v=8"
       },
       {
-        "name": "Part.5 Album Release Party",
+        "name": "Official ATEEZ GOLDEN HOUR : Part.5 Album Release Party",
         "date": "2026-06-25",
         "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/part5-album-release-party-avalon-hollywood-tickets/14965143",
+        "url": "https://www.ticketweb.com/event/official-ateez-golden-hour-avalon-hollywood-tickets/14965143",
         "image": "https://s1.ticketm.net/dam/a/138/f695ee79-aca7-4f24-b0f2-8a121b620138_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -399,13 +399,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Joe Jackson + Band - Hope and Fury Tour 2026",
-        "date": "2026-06-02",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/joe-jackson-band-hope-and-fury-los-angeles-california-06-02-2026/event/090063662A1EF303",
-        "image": "https://s1.ticketm.net/dam/a/51b/1c8fde45-36ff-4fe6-a244-12280aee251b_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "New Heights Live with Jason & Travis Kelce",
         "date": "2026-06-15",
         "time": "19:00:00",
@@ -446,6 +439,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/lykn-orpheum-theatre-tickets/14790203",
         "image": "https://i.ticketweb.com/i/00/13/39/30/53_Edp.jpg?v=16"
+      },
+      {
+        "name": "Brad Mehldau: Ride Into The Sun - The Music Of Elliott Smith",
+        "date": "2026-08-28",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/brad-mehldau-ride-into-the-sun-los-angeles-california-08-28-2026/event/0900646A870B520F",
+        "image": "https://s1.ticketm.net/dam/a/d21/d02ec70f-2912-4888-b0e6-83ea73ec3d21_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -805,13 +805,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Rubee Tuesdays 7:45pm",
-        "date": "2026-06-02",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986014342360",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185740134%2F2987014365277%2F1%2Foriginal.20260529-225754?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ab4494a45776702635a870a64e5f9687"
-      },
-      {
         "name": "Dustin Ybarra & Friends 7:30 PM",
         "date": "2026-06-03",
         "time": "19:30",
@@ -840,6 +833,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185904530%2F2987014365277%2F1%2Foriginal.20260601-204915?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=49ba426efeb9f35b5db612e18b03ce6d"
       },
       {
+        "name": "Comedy For Car Seats 3:00PM",
+        "date": "2026-06-06",
+        "time": "15:00",
+        "url": "https://www.eventbrite.com/e/comedy-for-car-seats-300pm-tickets-1986017110640",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185895922%2F2987014365277%2F1%2Foriginal.20260601-192505?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=893c51738ef4fb51518d999e8625dc26"
+      },
+      {
         "name": "No Fs Given Juneteenth Celebration 7:30PM",
         "date": "2026-06-19",
         "time": "19:30",
@@ -863,27 +863,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-06-02",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14940633",
-        "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv! ft. Bert Kreischer, Iliza Shlesinger, Anthony Jeselnik, Craig Robinson, Brian Monarch, Jen Murphy and More TBD",
-        "date": "2026-06-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14900793",
-        "image": "https://s1.ticketm.net/dam/a/cf0/0c6684d0-0915-47fe-bbf5-bac8133a4cf0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-06-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950283",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lab Work",
         "date": "2026-06-03",
         "time": "18:15:00",
@@ -898,7 +877,7 @@
         "image": "https://s1.ticketm.net/dam/a/8dc/8dc028fe-86e3-406d-888b-f0213de3b8dc_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Saul Trujillo, Logan Guntzelman, Malcolm Cills, Jared Goldstein, Will Cullen, Torio Van Grol, Dvontre Coleman, Usama Siddique, Jeanne Whitney, Cid Williams",
+        "name": "Tonight at the Lab ft. Saul Trujillo, Logan Guntzelman, Malcolm Cills, Jared Goldstein, Will Cullen, Torio Van Grol, Dvontre Coleman, Usama Siddiquee, Jeanne Whitney, Cid Williams",
         "date": "2026-06-03",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14950303",
@@ -940,11 +919,11 @@
         "image": "https://i.ticketweb.com/i/00/13/44/35/03_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. The Sklar Brothers",
         "date": "2026-06-06",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838563",
-        "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838563",
+        "image": "https://s1.ticketm.net/dam/a/922/feec859e-c789-4eee-bd8f-687f68d96922_447321_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Tonight at the Lab",
@@ -954,11 +933,39 @@
         "image": "https://i.ticketweb.com/i/00/13/51/43/53_Edp.jpg?v=4"
       },
       {
-        "name": "House Party ft. Rocky Roberts, Jason Yanakis and more TBA",
+        "name": "Tonight at the Improv",
+        "date": "2026-06-06",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838573",
+        "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
+      },
+      {
+        "name": "House Party ft. Rocky Roberts, Jason Yanakis, Doug Benson, Rachel Wolfson, Mark Smalls, Sam Tripoli, Faith Ladzinski and more TBA",
         "date": "2026-06-06",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/house-party-ft-rocky-roberts-hollywood-improv-the-lab-tickets/14811783",
-        "image": "https://i.ticketweb.com/i/00/13/41/28/33_Edp.jpg?v=2"
+        "image": "https://s1.ticketm.net/dam/a/b62/69229ac0-c492-4089-9026-cc50c4261b62_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Craig Robinson, Brenton Biddlecombe, Jimmy Shin and more TBA",
+        "date": "2026-06-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14189134",
+        "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-06-07",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950333",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Legends ft. Jay Leno, Arsenio Hall, Greg Baldwin, Jay Mohr,  Tara Cannistraci and more TBA",
+        "date": "2026-06-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-arsenio-hollywood-improv-the-main-room-tickets/14189164",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
       }
     ]
   }
