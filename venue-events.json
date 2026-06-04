@@ -1,14 +1,7 @@
 {
-  "generated": "2026-06-03T17:40:47.013Z",
+  "generated": "2026-06-04T17:02:56.987Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "3BallMTY",
-        "date": "2026-06-03",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/3ballmty-hollywood-california-06-03-2026/event/090064574780680D",
-        "image": "https://s1.ticketm.net/dam/a/f06/48603ef9-a21d-4e79-9a55-5653d741cf06_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Qveen Herby - Isle of Qveen Tour",
         "date": "2026-06-04",
@@ -57,6 +50,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/french-montana-max-b-hollywood-california-06-14-2026/event/0900647EBE1CA914",
         "image": "https://s1.ticketm.net/dam/a/b26/a93dc257-c75d-4738-9894-e869c588bb26_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Basement - The Vinyl Room @ The Hollywood Palladium",
+        "date": "2026-06-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/the-basement-the-vinyl-room-the-hollywood-california-06-24-2026/event/090064C1ECD4F376",
+        "image": null
       }
     ],
     "El Rey Theatre": [],
@@ -192,6 +192,13 @@
         "image": null
       },
       {
+        "name": "Sad Foos (18+)",
+        "date": "2026-06-20",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6q_",
+        "image": null
+      },
+      {
         "name": "KALEO",
         "date": "2026-06-27",
         "time": "20:00:00",
@@ -220,17 +227,10 @@
         "image": null
       },
       {
-        "name": "Ole 60 w/ The Stews",
-        "date": "2026-08-07",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I09",
-        "image": "https://s1.ticketm.net/dam/a/e6c/7c11f21d-f91a-49fa-a79e-f6b40f78fe6c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Chris Ramsay",
-        "date": "2026-08-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v_0",
+        "name": "Loving Worship Praise Concert - THIS. IS. RUACH.",
+        "date": "2026-08-01",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PkbS",
         "image": null
       }
     ],
@@ -805,20 +805,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Dustin Ybarra & Friends 7:30 PM",
-        "date": "2026-06-03",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/dustin-ybarra-friends-730-pm-tickets-1986015356393",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185747019%2F2987014365277%2F1%2Foriginal.20260530-020251?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e7452403a1c03c40e5e1ec2383735ceb"
-      },
-      {
-        "name": "The Weho Show 9:45PM",
-        "date": "2026-06-03",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/the-weho-show-945pm-tickets-1986015746560",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185747070%2F2987014365277%2F1%2Foriginal.20260530-020423?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=920b9715817f093549f7b9ad3290d161"
-      },
-      {
         "name": "Halal Hilarity",
         "date": "2026-06-04",
         "time": "19:30",
@@ -833,11 +819,25 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185904530%2F2987014365277%2F1%2Foriginal.20260601-204915?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=49ba426efeb9f35b5db612e18b03ce6d"
       },
       {
+        "name": "Friday Night All-Stars 9:45PM",
+        "date": "2026-06-05",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/friday-night-all-stars-945pm-tickets-1986017290177",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186091222%2F2987014365277%2F1%2Foriginal.20260603-191700?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=be93453fa715591effef8377ed7ac82c"
+      },
+      {
         "name": "Comedy For Car Seats 3:00PM",
         "date": "2026-06-06",
         "time": "15:00",
         "url": "https://www.eventbrite.com/e/comedy-for-car-seats-300pm-tickets-1986017110640",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185895922%2F2987014365277%2F1%2Foriginal.20260601-192505?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=893c51738ef4fb51518d999e8625dc26"
+      },
+      {
+        "name": "Hollywood's Hottest 7:30PM",
+        "date": "2026-06-06",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/hollywoods-hottest-730pm-tickets-1986022576990",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186010372%2F2987014365277%2F1%2Foriginal.20260602-221856?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fbc92c52e99e6256a9e6a5abb581d678"
       },
       {
         "name": "No Fs Given Juneteenth Celebration 7:30PM",
@@ -863,28 +863,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-06-03",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14918703",
-        "image": "https://i.ticketweb.com/i/00/13/51/43/43_Edp.jpg?v=2"
-      },
-      {
-        "name": "Celebration of the Gays ft. Joel Kim Booster, Loni Love, Manila Luzon, Joe Dombrowski, Rachel Scanlon, Daniel Franzese, Nicky Paris and more TBA",
-        "date": "2026-06-03",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/celebration-of-the-gays-ft-hollywood-improv-the-main-room-tickets/14774413",
-        "image": "https://s1.ticketm.net/dam/a/8dc/8dc028fe-86e3-406d-888b-f0213de3b8dc_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Saul Trujillo, Logan Guntzelman, Malcolm Cills, Jared Goldstein, Will Cullen, Torio Van Grol, Dvontre Coleman, Usama Siddiquee, Jeanne Whitney, Cid Williams",
-        "date": "2026-06-03",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14950303",
-        "image": "https://s1.ticketm.net/dam/a/a12/f6c544db-b3a3-4d88-b839-922713136a12_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Anthony Jeselnik, Tiffany Haddish, Trevor Wallace, Brian Monarch and Very Special Guests",
+        "name": "Anthony Jeselnik, Tiffany Haddish, Trevor Wallace, Brian Monarch, Kim McVicar and a Very Special Guest",
         "date": "2026-06-04",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/anthony-jeselnik-tiffany-haddish-trevor-hollywood-improv-the-main-room-tickets/14900803",
@@ -898,11 +877,11 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Dane Cook, Melissa Villasenor, Mary Lynn Rajskub, Joel Kim Booster, Debra DiGiovanni, Nicky Paris and more TBA",
         "date": "2026-06-05",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838483",
-        "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838483",
+        "image": "https://s1.ticketm.net/dam/a/b7f/d64b6fbe-b6e8-4895-b4bc-519861733b7f_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Julie Kim & Canadian Friends ft. Debra DiGiovanni, Mayce Galoni, Ron Josol, Jeremy Hotz",
@@ -912,6 +891,13 @@
         "image": "https://s1.ticketm.net/dam/a/4f7/5914886a-197e-4218-b380-fe12e3a984f7_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv ft. Steph Tolev, Harland Williams, Michael Blaustein, Rachel Wolfson, Nate Craig, Justine Marino, Andre Kelley and more TBA",
+        "date": "2026-06-05",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838543",
+        "image": "https://s1.ticketm.net/dam/a/ee4/20e07883-4220-47b9-a83f-dfd9bbc9bee4_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Chaps Comedy ft. Sarah Cortina, Leila Hilf, Isa Quiros, Toby Kamish, Johana Coca, Skyler Higley, Maddi Mays, Wayne Federman, Alec Flynn",
         "date": "2026-06-05",
         "time": "21:45:00",
@@ -919,25 +905,25 @@
         "image": "https://i.ticketweb.com/i/00/13/44/35/03_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. The Sklar Brothers",
+        "name": "Tonight at the Improv ft. The Sklar Brothers, Rick Glassman, Amir K, Preacher Lawson, Jeremy Hotz, Jay Washington and more TBA",
         "date": "2026-06-06",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838563",
         "image": "https://s1.ticketm.net/dam/a/922/feec859e-c789-4eee-bd8f-687f68d96922_447321_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab",
+        "name": "Tonight at the Lab ft. Brent Weinbach, Nick Taravella, Amy Silverberg, Fatimah Taliah, Johnny Loquasto, & More TBA!",
         "date": "2026-06-06",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14918713",
-        "image": "https://i.ticketweb.com/i/00/13/51/43/53_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918713",
+        "image": "https://s1.ticketm.net/dam/a/b39/78c80946-96f4-4215-bc8d-99c506cf9b39_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Blair Socci, Adam Conover, Sara Weinshenk, Sarah Tiana, Rick Ingraham and more TBA",
         "date": "2026-06-06",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838573",
-        "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838573",
+        "image": "https://s1.ticketm.net/dam/a/666/a5cbeacc-f4ff-44ba-badd-9aa0a24ca666_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "House Party ft. Rocky Roberts, Jason Yanakis, Doug Benson, Rachel Wolfson, Mark Smalls, Sam Tripoli, Faith Ladzinski and more TBA",
@@ -947,7 +933,7 @@
         "image": "https://s1.ticketm.net/dam/a/b62/69229ac0-c492-4089-9026-cc50c4261b62_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Brenton Biddlecombe, Jimmy Shin and more TBA",
+        "name": "Tonight at the Improv ft. Craig Robinson, Al Madrigal, Brenton Biddlecombe, Jimmy Shin and more TBA",
         "date": "2026-06-07",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14189134",
@@ -961,11 +947,32 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Legends ft. Jay Leno, Arsenio Hall, Greg Baldwin, Jay Mohr,  Tara Cannistraci and more TBA",
+        "name": "Legends ft. Jay Leno, Arsenio Hall, Greg Baldwin, Howie Mandel, Jay Mohr,  Tara Cannistraci and more TBA",
         "date": "2026-06-08",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-arsenio-hollywood-improv-the-main-room-tickets/14189164",
         "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mermaid Comedy Hour ft. Valerie Tosi, Kari Assad, Mo Welch, Erin Foley, Gina Brillon, Quincy Yeoman, Blake Benson, Angie Stroud, Shivani Dave & Dani Lyle! and more TBA",
+        "date": "2026-06-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/mermaid-comedy-hour-ft-valerie-hollywood-improv-the-lab-tickets/14793693",
+        "image": "https://i.ticketweb.com/i/00/13/39/61/53_Edp.jpg?v=6"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-06-08",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922623",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab!",
+        "date": "2026-06-09",
+        "time": "20:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14962793",
+        "image": "https://i.ticketweb.com/i/00/13/56/86/13_Edp.jpg?v=3"
       }
     ]
   }
