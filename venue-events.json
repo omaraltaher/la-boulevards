@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T16:49:13.933Z",
+  "generated": "2026-06-06T16:25:01.452Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -7,13 +7,6 @@
         "date": "2026-06-05",
         "time": null,
         "url": "https://www.ticketmaster.com/2-day-pass-belle-sebastian-hollywood-california-06-05-2026/event/0900630C972212C2",
-        "image": "https://s1.ticketm.net/dam/a/3cd/206f6a1a-ffd3-4849-a82f-d03a4d7d03cd_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "BELLE & SEBASTIAN: TIGERMILK + CLASSIC SONGS",
-        "date": "2026-06-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/belle-sebastian-tigermilk-classic-songs-hollywood-california-06-05-2026/event/0900630C94B11167",
         "image": "https://s1.ticketm.net/dam/a/3cd/206f6a1a-ffd3-4849-a82f-d03a4d7d03cd_RECOMENDATION_16_9.jpg"
       },
       {
@@ -57,6 +50,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/dillstradamus-dillon-francis-b2b-flosstradamus-hollywood-california-06-27-2026/event/09006437C99A49D6",
         "image": "https://s1.ticketm.net/dam/a/9a7/ca060e13-f0da-423f-ac3c-78bfd58089a7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Bop To The Top",
+        "date": "2026-07-10",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/bop-to-the-top-hollywood-california-07-10-2026/event/090064984B5CAFD6",
+        "image": "https://s1.ticketm.net/dam/a/f15/128043a6-6147-4c0d-8e05-9f182bedaf15_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Emo Nite",
-        "date": "2026-06-05",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14848513",
-        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Eli & Fur",
         "date": "2026-06-06",
         "time": "22:00:00",
@@ -159,7 +152,7 @@
         "date": "2026-06-19",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/flashback-a-2010s-edm-tribute-avalon-hollywood-tickets/14959933",
-        "image": "https://i.ticketweb.com/i/00/13/56/58/33_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/56/58/33_Edp.jpg?v=5"
       },
       {
         "name": "Aly & Fila",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/official-ateez-golden-hour-avalon-hollywood-tickets/14965143",
         "image": "https://s1.ticketm.net/dam/a/138/f695ee79-aca7-4f24-b0f2-8a121b620138_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Gasolina",
+        "date": "2026-06-26",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/14970233",
+        "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "Clara La San",
-        "date": "2026-06-05",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-fo_",
-        "image": "https://s1.ticketm.net/dam/a/ae3/a22eaa07-1a54-4a0c-9662-2bfa99c8bae3_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Synthony",
         "date": "2026-06-12",
@@ -231,6 +224,13 @@
         "date": "2026-07-18",
         "time": "17:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tub",
+        "image": null
+      },
+      {
+        "name": "El Malilla",
+        "date": "2026-07-25",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yvy",
         "image": null
       }
     ],
@@ -287,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Famous Friend + Floats + Camp Blu + Darksoft",
-        "date": "2026-06-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/famous-friend-floats-camp-blu-darksoft-los-angeles-california-06-05-2026/event/0900647A07DD420C",
-        "image": "https://s1.ticketm.net/dam/e/21a/8d56a878-dc31-429f-bd77-370c345dc21a_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Sweet and Tender Hooligans: Celebrating 40th Anni of The Queen is Dead",
         "date": "2026-06-06",
         "time": "19:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/kcrw-presents-aquarium-drunkard-21st-ann-los-angeles-california-06-26-2026/event/0900648A9F67874A",
         "image": "https://s1.ticketm.net/dam/e/ad5/3f5488bf-9ccd-41fd-bdfa-381421dd9ad5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "KCRW presents: Aquarium Drunkard 21st Ann: SML w/ Genevieve Artadi",
+        "date": "2026-06-27",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/kcrw-presents-aquarium-drunkard-21st-ann-los-angeles-california-06-27-2026/event/0900648AA3208F31",
+        "image": "https://s1.ticketm.net/dam/e/7d6/75b0df67-86d3-4d45-b3c3-5da4a8d6c7d6_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -509,13 +509,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "Summer Game Fest",
-        "date": "2026-06-05",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/summer-game-fest-hollywood-california-06-05-2026/event/0900649091F1548D",
-        "image": "https://s1.ticketm.net/dam/a/294/fc441ca4-71b2-44fc-8ab4-ffe43154c294_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Mohamed Ramadan",
         "date": "2026-06-06",
         "time": "20:00:00",
@@ -563,6 +556,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/derek-hough-symphony-of-dance-encore-hollywood-california-08-15-2026/event/090063679F19B52A",
         "image": "https://s1.ticketm.net/dam/a/ebe/eeecd753-f647-4379-853f-cc21bdee9ebe_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sankara Eye Foundation USA, Presents Sonu Nigam Revolution Tour",
+        "date": "2026-08-30",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/sankara-eye-foundation-usa-presents-sonu-hollywood-california-08-30-2026/event/090064B7AA23811E",
+        "image": "https://s1.ticketm.net/dam/a/cf9/756aa497-8af2-47c4-938f-f67884a56cf9_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -803,127 +803,49 @@
     "The Groundlings": [],
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
-    "Laugh Factory": [
-      {
-        "name": "Friday Night All-Stars 9:45PM",
-        "date": "2026-06-05",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/friday-night-all-stars-945pm-tickets-1986017290177",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186091222%2F2987014365277%2F1%2Foriginal.20260603-191700?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=be93453fa715591effef8377ed7ac82c"
-      },
-      {
-        "name": "Comedy For Car Seats 3:00PM",
-        "date": "2026-06-06",
-        "time": "15:00",
-        "url": "https://www.eventbrite.com/e/comedy-for-car-seats-300pm-tickets-1986017110640",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185895922%2F2987014365277%2F1%2Foriginal.20260601-192505?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=893c51738ef4fb51518d999e8625dc26"
-      },
-      {
-        "name": "Hollywood's Hottest 7:30PM",
-        "date": "2026-06-06",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/hollywoods-hottest-730pm-tickets-1986022576990",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186010372%2F2987014365277%2F1%2Foriginal.20260602-221856?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fbc92c52e99e6256a9e6a5abb581d678"
-      },
-      {
-        "name": "Saturday Night All-Stars 9:45PM",
-        "date": "2026-06-06",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/saturday-night-all-stars-945pm-tickets-1986025680272",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186091589%2F2987014365277%2F1%2Foriginal.20260603-192110?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b37e04f5f24c903129bc9f14e6bd1c58"
-      },
-      {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-06-07",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1986836462343",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "No Fs Given Juneteenth Celebration 7:30PM",
-        "date": "2026-06-19",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/no-fs-given-juneteenth-celebration-730pm-tickets-1982320290351",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177430992%2F2987014365277%2F1%2Foriginal.20260213-002821?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ccdb153a442d72dec648488410d6653d"
-      },
-      {
-        "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
-        "date": "2026-09-20",
-        "time": "17:00",
-        "url": "https://www.eventbrite.com/e/fundraiser-for-la-animal-shelters-and-standup-for-pits-500-pm-tickets-1985767708672",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173173365%2F2986605118463%2F1%2Foriginal.20251218-002729?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=78fe2861e4d452ae53f85d9694142a81"
-      },
-      {
-        "name": "Alex Kominek Live! 7:30PM",
-        "date": "2026-10-01",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/alex-kominek-live-730pm-tickets-1981045471333",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179819470%2F2987014365277%2F1%2Foriginal.20260313-224118?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ef1d87fa52ebd7a75720a3760000568"
-      }
-    ],
+    "Laugh Factory": [],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Dane Cook, Melissa Villasenor, Mary Lynn Rajskub, Joel Kim Booster, Debra DiGiovanni, Nicky Paris and more TBA",
-        "date": "2026-06-05",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838483",
-        "image": "https://s1.ticketm.net/dam/a/b7f/d64b6fbe-b6e8-4895-b4bc-519861733b7f_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Julie Kim & Canadian Friends ft. Debra DiGiovanni, Mayce Galoni, Ron Josol, Jeremy Hotz",
-        "date": "2026-06-05",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/julie-kim-canadian-friends-hollywood-improv-the-lab-tickets/14837303",
-        "image": "https://s1.ticketm.net/dam/a/4f7/5914886a-197e-4218-b380-fe12e3a984f7_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Harland Williams, Steph Tolev, Michael Blaustein, Rachel Wolfson, Nate Craig, Justine Marino, Andre Kelley and more TBA",
-        "date": "2026-06-05",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838543",
-        "image": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Chaps Comedy ft. Sarah Cortina, Leila Hilf, Isa Quiros, Toby Kamish, Johana Coca, Skyler Higley, Maddi Mays, Wayne Federman, Alec Flynn",
-        "date": "2026-06-05",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/chaps-comedy-ft-sarah-cortina-hollywood-improv-the-lab-tickets/14843473",
-        "image": "https://i.ticketweb.com/i/00/13/44/35/03_Edp.jpg?v=5"
-      },
-      {
-        "name": "Tonight at the Improv ft. The Sklar Brothers, Rick Glassman, Amir K, Preacher Lawson, Jeremy Hotz, Jay Washington and more TBA",
+        "name": "Tonight at the Improv ft. The Sklar Brothers, Rick Glassman, Amir K, Preacher Lawson, Chris Estrada, Jeremy Hotz, Jay Washington and more TBA",
         "date": "2026-06-06",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838563",
         "image": "https://s1.ticketm.net/dam/a/922/feec859e-c789-4eee-bd8f-687f68d96922_447321_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Brent Weinbach, Nick Taravella, Amy Silverberg, Fatimah Taliah, Johnny Loquasto, Cid Williams & More TBA",
+        "name": "Tonight at the Lab ft. Brent Weinbach, Nick Taravella, Amy Silverberg, Fatimah Taliah, Johnny Loquasto, CJ Sullivan, Joe Marrese, Cid Williams & More TBA",
         "date": "2026-06-06",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918713",
         "image": "https://s1.ticketm.net/dam/a/b39/78c80946-96f4-4215-bc8d-99c506cf9b39_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Blair Socci, Adam Conover, Sara Weinshenk, Orlando Leyba, Sarah Tiana, Rick Ingraham and more TBA",
+        "name": "Tonight at the Improv ft. Blair Socci, Adam Conover, Sara Weinshenk, Orlando Leyba, Sarah Tiana, Rick Ingraham, Chelse Greaux and more TBA",
         "date": "2026-06-06",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838573",
         "image": "https://s1.ticketm.net/dam/a/666/a5cbeacc-f4ff-44ba-badd-9aa0a24ca666_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "House Party ft. Rocky Roberts, Jason Yanakis, Doug Benson, Rachel Wolfson, Mark Smalls, Sam Tripoli, Faith Ladzinski and more TBA",
+        "name": "House Party ft. Rocky Roberts, Jason Yanakis, Doug Benson, Kate Lav, Mark Smalls, Sam Tripoli, Faith Ladzinski, Elemenopy, Emma Smith Watts, Amir K, and more TBA",
         "date": "2026-06-06",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/house-party-ft-rocky-roberts-hollywood-improv-the-lab-tickets/14811783",
         "image": "https://s1.ticketm.net/dam/a/b62/69229ac0-c492-4089-9026-cc50c4261b62_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Caroline Rhea, Al Madrigal, Brenton Biddlecombe, Jimmy Shin, Alex Coury, & Mary Lynn Rajskub!",
+        "name": "Tonight at the Improv ft. Craig Robinson, Caroline Rhea, Al Madrigal, Mary Lynn Rajskub, Brenton Biddlecombe, Jimmy Shin, Alex Coury",
         "date": "2026-06-07",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14189134",
         "image": "https://s1.ticketm.net/dam/a/d06/4ef6fd28-88f8-4851-82d2-ef1156a35d06_1766101_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ali Wong: Work in Progress",
+        "date": "2026-06-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/ali-wong-work-in-progress-hollywood-improv-the-lab-tickets/14977923",
+        "image": "https://s1.ticketm.net/dam/a/253/e03b01e0-2f00-4b0e-be33-7c89a92f3253_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -947,7 +869,7 @@
         "image": "https://i.ticketweb.com/i/00/13/39/61/53_Edp.jpg?v=6"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis, G Thang, Sean Gouch, Secret Service Sam, Esau McGraw, Tahir Moore, & more",
         "date": "2026-06-08",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922623",
@@ -961,11 +883,18 @@
         "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Lab ft. Kelly Ryan, Amy Miller, Ramsey Badawi, Matty Chymbor, Angie Stroud, Julian Fernandez, & More TBA",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Donnell Rawlings, Brian Monarch and very special guests",
+        "date": "2026-06-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14900813",
+        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab ft. Kelly Ryan, Amy Miller, Ramsey Badawi, Matty Chymbor, Angie Stroud, Skyler Higley, Julian Fernandez, & More TBA",
         "date": "2026-06-09",
         "time": "20:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14962793",
-        "image": "https://i.ticketweb.com/i/00/13/56/86/13_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/56/86/13_Edp.jpg?v=6"
       },
       {
         "name": "Lab Work",
@@ -973,6 +902,20 @@
         "time": "18:15:00",
         "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14918803",
         "image": "https://i.ticketweb.com/i/00/13/51/44/43_Edp.jpg?v=2"
+      },
+      {
+        "name": "*JUST ADDED ILIZA SHLESINGER* COMEDY CRUSH ft. CRAIG ROBINSON, RICK GLASSMAN, JUSTINE MARINO, AVERY PEARSON & HUGE SPECIAL GUEST!",
+        "date": "2026-06-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/just-added-iliza-shlesinger-comedy-hollywood-improv-the-main-room-tickets/14135654",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Babe Stoppp ft. Caroline Timoney, Hannah Schoen, Caroline Cianci Lafontaine Oliver, Angie Stroud, Andrew Orolfo, Allistair Ogden, Brian Bahe and more TBA",
+        "date": "2026-06-10",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/babe-stoppp-ft-caroline-timoney-hollywood-improv-the-lab-tickets/14918463",
+        "image": "https://i.ticketweb.com/i/00/13/51/40/13_Edp.jpg?v=5"
       }
     ]
   }
