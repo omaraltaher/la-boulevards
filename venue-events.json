@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T16:55:00.473Z",
+  "generated": "2026-06-10T17:05:44.826Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -546,7 +546,7 @@
       {
         "name": "Sankara Eye Foundation USA, Presents Sonu Nigam Revolution Tour",
         "date": "2026-08-30",
-        "time": "20:00:00",
+        "time": "19:00:00",
         "url": "https://www.ticketmaster.com/sankara-eye-foundation-usa-presents-sonu-hollywood-california-08-30-2026/event/090064B7AA23811E",
         "image": "https://s1.ticketm.net/dam/a/cf9/756aa497-8af2-47c4-938f-f67884a56cf9_RECOMENDATION_16_9.jpg"
       },
@@ -856,34 +856,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-06-09",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14940643",
-        "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
-      },
-      {
-        "name": "*JUST ADDED TIFFANY HADDISH* Tonight at the Improv ft. Anthony Jeselnik, Howie Mandel, Donnell Rawlings, Brian Monarch, Leah Knauer and More",
-        "date": "2026-06-09",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-tiffany-haddish-tonight-hollywood-improv-the-main-room-tickets/14900813",
-        "image": "https://s1.ticketm.net/dam/a/bd6/2772e461-01b2-4777-bafc-f19577f9dbd6_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Kelly Ryan, Amy Miller, Ramsey Badawi, Matty Chymbor, Angie Stroud, Skyler Higley, Julian Fernandez, & More TBA",
-        "date": "2026-06-09",
-        "time": "20:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14962793",
-        "image": "https://i.ticketweb.com/i/00/13/56/86/13_Edp.jpg?v=6"
-      },
-      {
-        "name": "Tonight at the Improv ft. Donnell Rawlings, Craig Conant, Michael Blaustein, Zainab Johnson, Usama Siddiquee, DoKnow, Mark Hayes and more TBA",
-        "date": "2026-06-09",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14980303",
-        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lab Work",
         "date": "2026-06-10",
         "time": "18:15:00",
@@ -891,11 +863,11 @@
         "image": "https://i.ticketweb.com/i/00/13/51/44/43_Edp.jpg?v=3"
       },
       {
-        "name": "*JUST ADDED TIFFANY HADDISH* COMEDY CRUSH ft. CRAIG ROBINSON, RICK GLASSMAN, JUSTINE MARINO, AVERY PEARSON + HUGE SPECIAL GUEST!",
+        "name": "**JUST ADDED DAVID SPADE** COMEDY CRUSH ft. TIFFANY HADDISH, CRAIG ROBINSON, MELISSA VILLASENOR, RICK GLASSMAN, JUSTINE MARINO & AVERY PEARSON",
         "date": "2026-06-10",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-tiffany-haddish-comedy-hollywood-improv-the-main-room-tickets/14135654",
-        "image": "https://s1.ticketm.net/dam/a/bd6/2772e461-01b2-4777-bafc-f19577f9dbd6_RECOMENDATION_16_9.jpg"
+        "url": "https://www.ticketweb.com/event/just-added-david-spade-comedy-hollywood-improv-the-main-room-tickets/14135654",
+        "image": "https://s1.ticketm.net/dam/a/790/2e124d53-3f5e-48c4-ab26-11bc2213a790_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Babe Stoppp ft. Caroline Timoney, Hannah Schoen, Caroline Cianci Lafontaine Oliver, Angie Stroud, Andrew Orolfo, Allistair Ogden, Brian Bahe and more TBA",
@@ -926,11 +898,11 @@
         "image": "https://i.ticketweb.com/i/00/13/55/82/53_Edp.jpg?v=7"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Todd Glass, Laurie Kilmartin, Greg Fitzsimmons, Debra DiGiovanni, Gary Cannon and more TBA",
         "date": "2026-06-12",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838553",
-        "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838553",
+        "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Panic! At The Lab ft. Laurie Kilmartin, Kasaun Wilson, Justin Lain, Kate Zasowski, Maddi Mays, Justin Lain, Drew Landry & Jonathon Hollis",
@@ -938,6 +910,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/panic-at-the-lab-ft-hollywood-improv-the-lab-tickets/14821513",
         "image": "https://s1.ticketm.net/dam/a/bb0/cc2070b0-b388-45ab-9a54-13bf193bfbb0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Cristina Mariani, Alex Edelman, Erik Griffin, Amy Miller, Matthew Broussard, Gary Cannon and more TBA",
+        "date": "2026-06-12",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838503",
+        "image": "https://s1.ticketm.net/dam/a/939/7e5a39ed-9896-46a3-a0a4-779c2f8ec939_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Comedy Grind ft. Todd Glass, Matt Fulchrion, Rob DaRocha, Joanne Scorcia, Lorena Alexandra Gomez, James Sommers, Claude Stewart, Willie Krisztal, Rian Reyes, Joe Hernandez-Kolski, Mehran Khodabandeh",
@@ -954,11 +933,39 @@
         "image": "https://i.ticketweb.com/i/00/12/90/68/44_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Ian Bagg, Tony Baker, Alex Edelman, Al Madrigal, Frazer Smith and more TBA",
         "date": "2026-06-13",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838533",
-        "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838533",
+        "image": "https://s1.ticketm.net/dam/a/c18/58974943-e121-43f4-ae8f-2745f440bc18_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab ft. Kelly Ryan, Ibhan Kulkarni, Angie Stroud, Skyler Higley and More TBA!",
+        "date": "2026-06-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918853",
+        "image": "https://i.ticketweb.com/i/00/13/51/44/93_Edp.jpg?v=7"
+      },
+      {
+        "name": "Tonight at the Improv ft. Craig Conant, Ian Bagg, Joe Bartnick, Kelly Ryan and more TBA",
+        "date": "2026-06-13",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838523",
+        "image": "https://s1.ticketm.net/dam/a/c18/58974943-e121-43f4-ae8f-2745f440bc18_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LED VARELA.- POPULAR Stand Up Comedy",
+        "date": "2026-06-14",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/led-varela-popular-stand-hollywood-improv-the-main-room-tickets/14010584",
+        "image": "https://i.ticketweb.com/i/00/12/76/05/54_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Andrew Santino, Chad Kroeger and more TBA",
+        "date": "2026-06-15",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14942463",
+        "image": "https://s1.ticketm.net/dam/a/9ad/98cb1375-6bbc-492a-a72b-cec9fde559ad_RECOMENDATION_16_9.jpg"
       }
     ]
   }
