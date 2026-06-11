@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T17:05:44.826Z",
+  "generated": "2026-06-11T17:14:58.836Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "The Church",
-        "date": "2026-06-10",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7p6Pg",
-        "image": "https://s1.ticketm.net/dam/a/d2e/fbb2bf14-6ed5-4798-8c8c-79e719d1fd2e_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Searows",
         "date": "2026-06-12",
         "time": "21:00:00",
@@ -116,6 +109,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70k7b",
         "image": "https://s1.ticketm.net/dam/a/2bb/8bc3e5bc-c95a-4f9c-a2dc-b95d347992bb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Holly Humberstone",
+        "date": "2026-06-29",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ked",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
@@ -287,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Jhariah: Trust Ceremony Tour",
-        "date": "2026-06-10",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/jhariah-trust-ceremony-tour-los-angeles-california-06-10-2026/event/0900648FBF4591D4",
-        "image": "https://s1.ticketm.net/dam/e/e13/f4630ce9-e609-4ba7-96c9-11c697fc1e13_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Pete & Bas",
         "date": "2026-06-16",
         "time": "19:00:00",
@@ -341,6 +334,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/gravity-bookings-domino-effect-present-guts-los-angeles-california-07-11-2026/event/0900649DE48E5B1F",
         "image": "https://s1.ticketm.net/dam/e/de9/a7a0001f-5db1-4b6c-a998-8167ae0cbde9_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Snõõper",
+        "date": "2026-07-15",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/snooper-los-angeles-california-07-15-2026/event/090064C1A5468B17",
+        "image": "https://s1.ticketm.net/dam/e/7ac/87113e8d-17ed-48c5-ad61-b058675d37ac_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -561,13 +561,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-06-10",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9aw",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-06-11",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9aS",
@@ -599,6 +592,13 @@
         "date": "2026-06-17",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91v",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-06-20",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9GO",
         "image": null
       }
     ],
@@ -856,39 +856,18 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-06-10",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14918803",
-        "image": "https://i.ticketweb.com/i/00/13/51/44/43_Edp.jpg?v=3"
-      },
-      {
-        "name": "**JUST ADDED DAVID SPADE** COMEDY CRUSH ft. TIFFANY HADDISH, CRAIG ROBINSON, MELISSA VILLASENOR, RICK GLASSMAN, JUSTINE MARINO & AVERY PEARSON",
-        "date": "2026-06-10",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-david-spade-comedy-hollywood-improv-the-main-room-tickets/14135654",
-        "image": "https://s1.ticketm.net/dam/a/790/2e124d53-3f5e-48c4-ab26-11bc2213a790_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Babe Stoppp ft. Caroline Timoney, Hannah Schoen, Caroline Cianci Lafontaine Oliver, Angie Stroud, Andrew Orolfo, Allistair Ogden, Brian Bahe and more TBA",
-        "date": "2026-06-10",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/babe-stoppp-ft-caroline-timoney-hollywood-improv-the-lab-tickets/14918463",
-        "image": "https://i.ticketweb.com/i/00/13/51/40/13_Edp.jpg?v=5"
-      },
-      {
-        "name": "Tonight at the Improv ft. Arsenio Hall, Natasha Leggero, Adam Ray, Damon Wayans Jr, Brian Monarch, Jen Murphy and More TBA",
+        "name": "Tonight at the Improv ft. Arsenio Hall, Natasha Leggero, Adam Ray, Damon Wayans Jr, Brian Monarch, Jen Murphy and Special Guest!",
         "date": "2026-06-11",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922763",
         "image": "https://s1.ticketm.net/dam/a/fbf/81572b30-6b47-4aa3-a6e9-6f83f7daafbf_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
+        "name": "The Download Comedy Show ft. Papp Johnson, Chelcye Perry, Mikey McDonald, Daisy Roxx, Kelley Zincone, Kate Lav, OJ Stellar and more TBA",
         "date": "2026-06-11",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14826423",
-        "image": "https://i.ticketweb.com/i/00/13/42/65/03_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/42/65/03_Edp.jpg?v=7"
       },
       {
         "name": "Kim McVicar & Friends ft. Kim McVicar, Kelly Ryan, Dan Donohue, John Conroy, Brittany Ross. Saul Trujillo. Andy Benedetti and more TBA",
@@ -898,7 +877,7 @@
         "image": "https://i.ticketweb.com/i/00/13/55/82/53_Edp.jpg?v=7"
       },
       {
-        "name": "Tonight at the Improv ft. Todd Glass, Laurie Kilmartin, Greg Fitzsimmons, Debra DiGiovanni, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Todd Glass, Laurie Kilmartin, Greg Fitzsimmons, Debra DiGiovanni, Doug Benson, Gary Cannon and more TBA",
         "date": "2026-06-12",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838553",
@@ -912,7 +891,7 @@
         "image": "https://s1.ticketm.net/dam/a/bb0/cc2070b0-b388-45ab-9a54-13bf193bfbb0_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Cristina Mariani, Alex Edelman, Erik Griffin, Amy Miller, Matthew Broussard, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Cristina Mariani, Alex Edelman, Amir K, Erik Griffin, Amy Miller, Matthew Broussard, Gary Cannon and more TBA",
         "date": "2026-06-12",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838503",
@@ -940,11 +919,11 @@
         "image": "https://s1.ticketm.net/dam/a/c18/58974943-e121-43f4-ae8f-2745f440bc18_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Kelly Ryan, Ibhan Kulkarni, Angie Stroud, Skyler Higley and More TBA!",
+        "name": "Tonight at the Lab ft. Kelly Ryan, Ibhan Kulkarni, Torio Van Grol,  Angie Stroud, Skyler Higley, Curtis Cook and More TBA!",
         "date": "2026-06-13",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918853",
-        "image": "https://i.ticketweb.com/i/00/13/51/44/93_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/13/51/44/93_Edp.jpg?v=10"
       },
       {
         "name": "Tonight at the Improv ft. Craig Conant, Ian Bagg, Joe Bartnick, Kelly Ryan and more TBA",
@@ -954,11 +933,25 @@
         "image": "https://s1.ticketm.net/dam/a/c18/58974943-e121-43f4-ae8f-2745f440bc18_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Undiscovered Genius ft. Josh Edelman, Mav Viola, Willie Simon, Logan Gunzelmam, Kalea McNeil and more TBA",
+        "date": "2026-06-13",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-josh-edelman-hollywood-improv-the-lab-tickets/14873103",
+        "image": "https://i.ticketweb.com/i/00/13/47/15/13_Edp.jpg?v=3"
+      },
+      {
         "name": "LED VARELA.- POPULAR Stand Up Comedy",
         "date": "2026-06-14",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/led-varela-popular-stand-hollywood-improv-the-main-room-tickets/14010584",
-        "image": "https://i.ticketweb.com/i/00/12/76/05/54_Edp.jpg?v=4"
+        "image": "https://s1.ticketm.net/dam/a/c35/6d53309b-09ed-4099-98db-652af9847c35_1526471_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Electric Comedy: World Cup Edition ft. Andy Kindler, Lizzy Cooperman, Mo Welch, Sean Leary, Pardis Parker, Orlando Leyba & more TBA",
+        "date": "2026-06-14",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/electric-comedy-world-cup-edition-hollywood-improv-the-lab-tickets/14962803",
+        "image": "https://s1.ticketm.net/dbimages/174487a.jpg"
       },
       {
         "name": "Tonight at the Improv ft. Andrew Santino, Chad Kroeger and more TBA",
@@ -966,6 +959,13 @@
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14942463",
         "image": "https://s1.ticketm.net/dam/a/9ad/98cb1375-6bbc-492a-a72b-cec9fde559ad_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-06-15",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922613",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       }
     ]
   }
