@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T16:59:59.968Z",
+  "generated": "2026-06-13T16:30:42.913Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -63,13 +63,6 @@
     "Henry Fonda Theater": [
       {
         "name": "Searows",
-        "date": "2026-06-12",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ONfE",
-        "image": null
-      },
-      {
-        "name": "Searows",
         "date": "2026-06-13",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Zj7",
@@ -116,16 +109,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ked",
         "image": null
+      },
+      {
+        "name": "Chance Pena",
+        "date": "2026-07-27",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OAC3",
+        "image": "https://s1.ticketm.net/dam/a/bd7/9f5abf0e-f1fb-4d6a-b06d-659a1fd69bd7_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "VTSS w/ Alex Chapman, CHROMEBODIES",
-        "date": "2026-06-12",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/vtss-w-alex-chapman-chromebodies-avalon-hollywood-tickets/14188444",
-        "image": "https://s1.ticketm.net/dam/a/7d7/bd548637-d2b7-4bd1-8aba-9d30b8b9f7d7_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Cristoph, Layla Benitez",
         "date": "2026-06-13",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/time-machine-90s-avalon-hollywood-tickets/14957253",
         "image": "https://i.ticketweb.com/i/00/13/56/35/73_Edp.jpg?v=4"
+      },
+      {
+        "name": "Agents of Time, Henri Bergmann ",
+        "date": "2026-07-03",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/agents-of-time-henri-bergmann-avalon-hollywood-tickets/14829933",
+        "image": "https://i.ticketweb.com/i/00/13/42/96/83_Edp.jpg?v=6"
       }
     ],
     "The Novo": [
-      {
-        "name": "Synthony",
-        "date": "2026-06-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O4y",
-        "image": null
-      },
       {
         "name": "Sad Foos (18+)",
         "date": "2026-06-20",
@@ -232,16 +225,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yvy",
         "image": null
+      },
+      {
+        "name": "Joe Moses",
+        "date": "2026-07-31",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70-Zz",
+        "image": null
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "The Rose [Rosetopia]",
-        "date": "2026-06-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xKQv",
-        "image": "https://s1.ticketm.net/dam/a/e33/891636ce-0e1d-40df-bce1-a276c9befe33_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Black Myth: WUKONG Global Concert with Hollywood Film Orchestra",
         "date": "2026-07-07",
@@ -283,6 +276,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A704Z-",
         "image": "https://s1.ticketm.net/dam/a/fe0/4d190769-326c-460e-8f4f-3b3aa5b21fe0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ricardo Montaner",
+        "date": "2026-08-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz86",
+        "image": "https://s1.ticketm.net/dam/a/254/c38c0813-6db8-4f30-91b2-fe9994eef254_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
@@ -444,13 +444,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "James Blake - Trying Times Tour",
-        "date": "2026-06-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/james-blake-trying-times-tour-los-angeles-california-06-12-2026/event/0900644BE53FED7D",
-        "image": "https://s1.ticketm.net/dam/a/994/09c0818d-e1c7-4eae-81b7-9102797ba994_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Felipe Esparza: At My Leisure World Tour",
         "date": "2026-06-13",
         "time": "19:00:00",
@@ -498,6 +491,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/brit-floyd-the-moon-the-wall-los-angeles-california-07-10-2026/event/0900643799EFBC9E",
         "image": "https://s1.ticketm.net/dam/a/a5b/d64a6ad6-ab25-4204-978f-7a6a1352fa5b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Matt Rife: Stay Golden World Tour",
+        "date": "2026-07-11",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-los-angeles-california-07-11-2026/event/09006365E4729143",
+        "image": "https://s1.ticketm.net/dam/a/238/b3bb5076-6b92-45d8-b5a5-e5e700a50238_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -561,13 +561,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-06-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9aV",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-06-13",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9aU",
@@ -592,6 +585,13 @@
         "date": "2026-06-20",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9GO",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-06-21",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91A",
         "image": null
       }
     ],
@@ -665,13 +665,6 @@
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
-      {
-        "name": "Anastasia (Touring)",
-        "date": "2026-06-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qY",
-        "image": null
-      },
       {
         "name": "Anastasia (Touring)",
         "date": "2026-06-13",
@@ -857,34 +850,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Todd Glass, Laurie Kilmartin, Greg Fitzsimmons, Debra DiGiovanni, Doug Benson, Gary Cannon and more TBA",
-        "date": "2026-06-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838553",
-        "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Panic! At The Lab ft. Laurie Kilmartin, Kasaun Wilson, Justin Lain, Kate Zasowski, Maddi Mays, Justin Lain, Drew Landry & Jonathon Hollis",
-        "date": "2026-06-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/panic-at-the-lab-ft-hollywood-improv-the-lab-tickets/14821513",
-        "image": "https://s1.ticketm.net/dam/a/bb0/cc2070b0-b388-45ab-9a54-13bf193bfbb0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Cristina Mariani, Alex Edelman, Amir K, Erik Griffin, Amy Miller, Matthew Broussard, Gary Cannon and more TBA",
-        "date": "2026-06-12",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838503",
-        "image": "https://s1.ticketm.net/dam/a/939/7e5a39ed-9896-46a3-a0a4-779c2f8ec939_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Comedy Grind ft. Todd Glass, Matt Fulchrion, Rob DaRocha, Joanne Scorcia, Lorena Alexandra Gomez, James Sommers, Claude Stewart, Willie Krisztal, Rian Reyes, Joe Hernandez-Kolski, Mehran Khodabandeh",
-        "date": "2026-06-12",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/comedy-grind-ft-todd-glass-hollywood-improv-the-lab-tickets/14894343",
-        "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Next Generation Comedy",
         "date": "2026-06-13",
         "time": "16:00:00",
@@ -903,7 +868,7 @@
         "date": "2026-06-13",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918853",
-        "image": "https://i.ticketweb.com/i/00/13/51/44/93_Edp.jpg?v=13"
+        "image": "https://i.ticketweb.com/i/00/13/51/44/93_Edp.jpg?v=15"
       },
       {
         "name": "Tonight at the Improv ft. Craig Conant, Ian Bagg, Katherine Blanford, Esau McGraw, Joe Bartnick, Julia Hladkowicz, Kelly Ryan and more TBA",
@@ -913,14 +878,14 @@
         "image": "https://s1.ticketm.net/dam/a/c18/58974943-e121-43f4-ae8f-2745f440bc18_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Undiscovered Genius ft. Josh Edelman, Mav Viola, Willie Simon, Logan Guntzelman, Kalea McNeill and more TBA",
+        "name": "Undiscovered Genius ft. Josh Edelman, Mav Viola, Willie Simon, Logan Guntzelman, Kalea McNeill, Eliza Skinner and more TBA",
         "date": "2026-06-13",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-josh-edelman-hollywood-improv-the-lab-tickets/14873103",
-        "image": "https://i.ticketweb.com/i/00/13/47/15/13_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/13/47/15/13_Edp.jpg?v=9"
       },
       {
-        "name": "LED VARELA.- POPULAR Stand Up Comedy",
+        "name": "LED VARELA.- POPULAR Stand Up Comedy (EN ESPAÑOL)",
         "date": "2026-06-14",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/led-varela-popular-stand-hollywood-improv-the-main-room-tickets/14010584",
@@ -941,7 +906,7 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Andrew Santino, Chad Kroeger and more TBA",
+        "name": "Tonight at the Improv ft. Andrew Santino, Rick Ingraham, Craig Conant, Jessie Jetski Johnson, Mike Falzone and more TBA",
         "date": "2026-06-15",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14942463",
@@ -967,6 +932,34 @@
         "time": "17:15:00",
         "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14940663",
         "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Chelsea Handler, Anthony Jeselnik, Brian Monarch and Very Special Guests",
+        "date": "2026-06-16",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14919563",
+        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "John Campanelli & Special Guest ft. John Campanelli, Joey Bragg, Jennie Mintz, Rona Kremer, Ronnie Camp",
+        "date": "2026-06-16",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/john-campanelli-special-guest-hollywood-improv-the-lab-tickets/14826433",
+        "image": "https://s1.ticketm.net/dam/a/355/41c2b9d2-e074-4c5f-9334-7fb28010c355_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-06-16",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950373",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Sahib Singh, Damon Wayans Jr, Chris Millhouse and more TBA",
+        "date": "2026-06-17",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14931413",
+        "image": "https://s1.ticketm.net/dam/a/629/d89d057d-3bbb-4539-be68-85d4c50e7629_137771_RECOMENDATION_16_9.jpg"
       }
     ]
   }
