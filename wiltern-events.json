@@ -1,13 +1,6 @@
 {
-  "generated": "2026-06-13T15:35:13.779Z",
+  "generated": "2026-06-14T15:35:19.950Z",
   "events": [
-    {
-      "name": "Orchestra Noir",
-      "date": "2026-06-13",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/orchestra-noir-los-angeles-california-06-13-2026/event/0900638DF383F666",
-      "image": "https://s1.ticketm.net/dam/a/47a/42d86e63-bdf1-46cf-ae21-8ede360b247a_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "HONNE - 10 YEAR ANNIVERSARY TOUR",
       "date": "2026-06-17",
@@ -56,6 +49,13 @@
       "time": "18:30:00",
       "url": "https://www.ticketmaster.com/joshua-slone-thinking-too-much-tour-los-angeles-california-06-28-2026/event/09006478E657B105",
       "image": "https://s1.ticketm.net/dam/a/8c8/515d37e0-594f-46ca-b8e2-48e3206ae8c8_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "JINJER Duel North America 2026",
+      "date": "2026-07-02",
+      "time": "18:00:00",
+      "url": "https://www.ticketmaster.com/jinjer-duel-north-america-2026-los-angeles-california-07-02-2026/event/0900646CCB47C5EB",
+      "image": "https://s1.ticketm.net/dam/a/219/b7f0eacf-4fa6-411d-bb91-648d27876219_RECOMENDATION_16_9.jpg"
     }
   ]
 }
