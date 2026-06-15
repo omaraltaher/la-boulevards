@@ -1,14 +1,7 @@
 {
-  "generated": "2026-06-14T16:32:17.448Z",
+  "generated": "2026-06-15T17:39:25.231Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "French Montana & Max B",
-        "date": "2026-06-14",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/french-montana-max-b-hollywood-california-06-14-2026/event/0900647EBE1CA914",
-        "image": "https://s1.ticketm.net/dam/a/b26/a93dc257-c75d-4738-9894-e869c588bb26_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Basement - The Vinyl Room @ The Hollywood Palladium",
         "date": "2026-06-24",
@@ -57,6 +50,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/insomniac-presents-jessica-audiffred-3hour-extended-hollywood-california-07-18-2026/event/09006484A2E07E76",
         "image": "https://s1.ticketm.net/dam/a/b07/c121737a-d10e-4081-9eea-3c146e27fb07_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "TOTALLY TUBULAR FESTIVAL",
+        "date": "2026-07-24",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/totally-tubular-festival-hollywood-california-07-24-2026/event/0900648EBB53A004",
+        "image": "https://s1.ticketm.net/dam/a/b99/973af7d5-cf5e-4e7e-93a1-f91c21e34b99_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -444,13 +444,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Ringo Starr and His All Starr Band",
-        "date": "2026-06-14",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/ringo-starr-and-his-all-starr-los-angeles-california-06-14-2026/event/0900636ADA1CE17B",
-        "image": "https://s1.ticketm.net/dam/a/01b/d1e948ca-28a5-4b93-97a6-5861cd4f701b_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "ALL THE FEELINGS TOUR with METRIC, BROKEN SOCIAL SCENE, AND STARS",
         "date": "2026-06-16",
         "time": "19:00:00",
@@ -498,6 +491,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-los-angeles-california-07-12-2026/event/0900636C7410646F",
         "image": "https://s1.ticketm.net/dam/a/238/b3bb5076-6b92-45d8-b5a5-e5e700a50238_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Matt Rife: Stay Golden World Tour",
+        "date": "2026-07-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-los-angeles-california-07-13-2026/event/090064AF95F4A3DF",
+        "image": "https://s1.ticketm.net/dam/a/238/b3bb5076-6b92-45d8-b5a5-e5e700a50238_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -544,28 +544,21 @@
         "image": "https://s1.ticketm.net/dam/a/ebe/eeecd753-f647-4379-853f-cc21bdee9ebe_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "FEAR& LIVE: Ft. Hasan Piker, Austinshow, Will Neff, & QTCinderella",
+        "date": "2026-08-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/fear-live-ft-hasan-piker-austinshow-hollywood-california-08-29-2026/event/090064CAC1C8D165",
+        "image": "https://s1.ticketm.net/dam/a/203/d1079758-63ba-4b8f-91d1-23b384c92203_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Sankara Eye Foundation USA, Presents Sonu Nigam Revolution Tour",
         "date": "2026-08-30",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/sankara-eye-foundation-usa-presents-sonu-hollywood-california-08-30-2026/event/090064B7AA23811E",
         "image": "https://s1.ticketm.net/dam/a/cf9/756aa497-8af2-47c4-938f-f67884a56cf9_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Sonic Live in Concert",
-        "date": "2026-09-26",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/sonic-live-in-concert-hollywood-california-09-26-2026/event/090064B4CE535DF9",
-        "image": "https://s1.ticketm.net/dam/a/352/f613a100-041d-4133-93df-5c215b649352_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-06-14",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9aM",
-        "image": null
-      },
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-06-17",
@@ -592,6 +585,20 @@
         "date": "2026-06-24",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b916",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-06-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91F",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-06-26",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91a",
         "image": null
       }
     ],
@@ -662,16 +669,16 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/randy-feltface-gimmick-los-angeles-california-10-20-2026/event/090064AFC9C053DC",
         "image": "https://s1.ticketm.net/dam/a/9d8/df700c0e-81ec-4a0b-af0c-fe9e2d5739d8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "ALOK: Eat Pray Leave Tour",
+        "date": "2027-03-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/alok-eat-pray-leave-tour-los-angeles-california-03-10-2027/event/090064CB7BC63F7B",
+        "image": "https://s1.ticketm.net/dam/a/365/2ed4d0bf-fbd5-4429-a335-75e84f5d7365_RECOMENDATION_16_9.jpg"
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
-      {
-        "name": "Anastasia (Touring)",
-        "date": "2026-06-14",
-        "time": "13:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qS",
-        "image": null
-      },
       {
         "name": "Anastasia (Touring)",
         "date": "2026-06-18",
@@ -698,6 +705,20 @@
         "date": "2026-06-21",
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qy",
+        "image": null
+      },
+      {
+        "name": "Anastasia (Touring)",
+        "date": "2026-06-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3rv",
+        "image": null
+      },
+      {
+        "name": "Anastasia (Touring)",
+        "date": "2026-06-26",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3re",
         "image": null
       }
     ],
@@ -792,18 +813,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-06-14",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1986839468334",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-06-14",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986839632826",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-06-16",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986860421004",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186898785%2F2989400506155%2F1%2Foriginal.20260615-021157?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1ed8727158edaa589c9d6aed4ec10ab3"
       },
       {
         "name": "No Fs Given Juneteenth Celebration 7:30PM",
@@ -834,6 +848,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
       },
       {
+        "name": "Chocolate Sundaes 9:30PM",
+        "date": "2026-06-28",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986841263704",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
         "date": "2026-09-20",
         "time": "17:00",
@@ -849,27 +870,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "LED VARELA.- POPULAR Stand Up Comedy (EN ESPAÑOL)",
-        "date": "2026-06-14",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/led-varela-popular-stand-hollywood-improv-the-main-room-tickets/14010584",
-        "image": "https://s1.ticketm.net/dam/a/4d8/abbb78ad-9735-49af-8701-2d8c8136e4d8_1526481_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Electric Comedy: World Cup Edition ft. Andy Kindler, Lizzy Cooperman, Mo Welch, Sean Leary, Pardis Parker, Orlando Leyba & more TBA",
-        "date": "2026-06-14",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/electric-comedy-world-cup-edition-hollywood-improv-the-lab-tickets/14962803",
-        "image": "https://s1.ticketm.net/dbimages/174487a.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-06-14",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950353",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Tonight at the Improv ft. Andrew Santino, Rick Ingraham, Craig Conant, Jessie Jetski Johnson, Mike Falzone and more TBA",
         "date": "2026-06-15",
@@ -955,11 +955,25 @@
         "image": "https://i.ticketweb.com/i/00/13/57/76/13_Edp.jpg?v=2"
       },
       {
+        "name": "Funny Mill ft. Laurie Kilmartin, Adam Chong, Steven Cha, Rishi Arya, Brian Wiora, Zeo Niu, Finley Riter, Zyan Ha",
+        "date": "2026-06-18",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/funny-mill-ft-laurie-kilmartin-hollywood-improv-the-lab-tickets/14962813",
+        "image": "https://s1.ticketm.net/dam/a/bb0/cc2070b0-b388-45ab-9a54-13bf193bfbb0_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Tonight at the Improv",
         "date": "2026-06-19",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14922533",
         "image": "https://i.ticketweb.com/i/00/13/51/80/83_Edp.jpg?v=4"
+      },
+      {
+        "name": "Horror Nerd ft. Samantha Hale, Laurel Kathleen, Ben Gonzalez, Christina Leonard, Kelly Hamlin, Nick Steiner, LeeAnn Tooker, Elia Verduzco, Dominika van Santen, Tommy Spears, and more",
+        "date": "2026-06-19",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/horror-nerd-ft-samantha-hale-hollywood-improv-the-lab-tickets/14853853",
+        "image": "https://i.ticketweb.com/i/00/13/45/37/93_Edp.jpg?v=8"
       }
     ]
   }
