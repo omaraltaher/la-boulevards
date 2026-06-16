@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-15T17:39:25.231Z",
+  "generated": "2026-06-16T17:43:04.835Z",
   "venues": {
     "Hollywood Palladium": [
       {
-        "name": "The Basement - The Vinyl Room @ The Hollywood Palladium",
+        "name": "The Basement Series - The Vinyl Room @ The Hollywood Palladium",
         "date": "2026-06-24",
         "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/the-basement-the-vinyl-room-the-hollywood-california-06-24-2026/event/090064C1ECD4F376",
+        "url": "https://www.ticketmaster.com/the-basement-series-the-vinyl-room-hollywood-california-06-24-2026/event/090064C1ECD4F376",
         "image": "https://s1.ticketm.net/dam/e/224/4abcd6a0-85fc-4392-b57a-5de4882f1224_RECOMENDATION_16_9.jpg"
       },
       {
@@ -185,6 +185,13 @@
         "image": null
       },
       {
+        "name": "R&B Only",
+        "date": "2026-06-26",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70SJv",
+        "image": "https://s1.ticketm.net/dam/a/ea6/4b579945-d22f-4ad7-963f-6289ef280ea6_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "KALEO",
         "date": "2026-06-27",
         "time": "20:00:00",
@@ -224,13 +231,6 @@
         "date": "2026-07-25",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yvy",
-        "image": null
-      },
-      {
-        "name": "Joe Moses",
-        "date": "2026-07-31",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70-Zz",
         "image": null
       }
     ],
@@ -392,13 +392,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "New Heights Live with Jason & Travis Kelce",
-        "date": "2026-06-15",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/new-heights-live-with-jason-travis-los-angeles-california-06-15-2026/event/09006491EE43FB93",
-        "image": "https://s1.ticketm.net/dam/e/1ac/d7a7f7bf-59f3-4fc1-afa9-e223a745f1ac_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Widespread Panic: 3-Day Ticket",
         "date": "2026-07-23",
         "time": null,
@@ -439,6 +432,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/brad-mehldau-ride-into-the-sun-los-angeles-california-08-28-2026/event/0900646A870B520F",
         "image": "https://s1.ticketm.net/dam/a/d21/d02ec70f-2912-4888-b0e6-83ea73ec3d21_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Altin Gün - NORTH AMERICA TOUR 2026",
+        "date": "2026-09-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/altin-gun-north-america-tour-2026-los-angeles-california-09-12-2026/event/09006458C8DD4554",
+        "image": "https://s1.ticketm.net/dam/a/284/47169d0a-b34f-420c-bbf3-170c8edfe284_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -735,15 +735,7 @@
     "Haugh Performing Arts Center": [],
     "Eli Broad Stage": [],
     "Beverly O'Neill Theater": [],
-    "Levitt Pavilion": [
-      {
-        "name": "El Mariachi Manchester w/ Ceci Bastida & Pastilla",
-        "date": "2026-06-20",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/el-mariachi-manchester-w-ceci-bastida-pastilla-tickets-1991422914545",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186453439%2F405366306269%2F1%2Foriginal.20260608-233730?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a878752ef6a7853144f2f1d7d80bc8fd"
-      }
-    ],
+    "Levitt Pavilion": [],
     "Bootleg Theater": [],
     "Coronet Theater": [],
     "Ivar Theatre": [],
@@ -811,86 +803,8 @@
     "The Groundlings": [],
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
-    "Laugh Factory": [
-      {
-        "name": "Rubee Tuesdays 7:45pm",
-        "date": "2026-06-16",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986860421004",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186898785%2F2989400506155%2F1%2Foriginal.20260615-021157?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1ed8727158edaa589c9d6aed4ec10ab3"
-      },
-      {
-        "name": "No Fs Given Juneteenth Celebration 7:30PM",
-        "date": "2026-06-19",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/no-fs-given-juneteenth-celebration-730pm-tickets-1982320290351",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177430992%2F2987014365277%2F1%2Foriginal.20260213-002821?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ccdb153a442d72dec648488410d6653d"
-      },
-      {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-06-21",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1986840351977",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-06-21",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986839930717",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-06-28",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1986840794300",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-06-28",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986841263704",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
-        "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
-        "date": "2026-09-20",
-        "time": "17:00",
-        "url": "https://www.eventbrite.com/e/fundraiser-for-la-animal-shelters-and-standup-for-pits-500-pm-tickets-1985767708672",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173173365%2F2986605118463%2F1%2Foriginal.20251218-002729?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=78fe2861e4d452ae53f85d9694142a81"
-      },
-      {
-        "name": "Alex Kominek Live! 7:30PM",
-        "date": "2026-10-01",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/alex-kominek-live-730pm-tickets-1981045471333",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179819470%2F2987014365277%2F1%2Foriginal.20260313-224118?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ef1d87fa52ebd7a75720a3760000568"
-      }
-    ],
+    "Laugh Factory": [],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Andrew Santino, Rick Ingraham, Craig Conant, Jessie Jetski Johnson, Mike Falzone and more TBA",
-        "date": "2026-06-15",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14942463",
-        "image": "https://s1.ticketm.net/dam/a/9ad/98cb1375-6bbc-492a-a72b-cec9fde559ad_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "New Joke Night ft. Mike Falzone, J.F. Harris, Ray Lau, Leslie Liao and more TBA",
-        "date": "2026-06-15",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/new-joke-night-ft-mike-hollywood-improv-the-lab-tickets/14975253",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Buddy Lewis, Chris Sneed, Lance Woods, BT Kingsley, London Brown & more",
-        "date": "2026-06-15",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922613",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Happy Hour Open Mic",
         "date": "2026-06-16",
@@ -899,14 +813,14 @@
         "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Chelsea Handler, Anthony Jeselnik, Brian Monarch and Very Special Guests",
+        "name": "Tonight at the Improv ft. Chelsea Handler, Anthony Jeselnik, Esther Povitsky, Charles Fleischer, Brian Monarch, Jen Murphy and More TBA!",
         "date": "2026-06-16",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14919563",
         "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "John Campanelli & Special Guest ft. John Campanelli, Joey Bragg, Jennie Mintz, Rona Kremer, Ronnie Camp",
+        "name": "John Campanelli & Special Guest ft. John Campanelli, Joey Bragg, Jennie Mintz, Rona Kremer, Ronnie Camp, Jamie Lee",
         "date": "2026-06-16",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guest-hollywood-improv-the-lab-tickets/14826433",
@@ -927,11 +841,11 @@
         "image": "https://i.ticketweb.com/i/00/13/51/45/43_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Sahib Singh, Damon Wayans Jr, Chris Millhouse and more TBA",
+        "name": "Tonight at the Improv ft. Sahib Singh, Damon Wayans Jr, Amir K, Audrey Stewart, Chris Millhouse and more TBA",
         "date": "2026-06-17",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14931413",
-        "image": "https://s1.ticketm.net/dam/a/629/d89d057d-3bbb-4539-be68-85d4c50e7629_137771_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "The Shaw-some Show ft. Forrest Shaw, Maronzio Vance, James Davis, Ben Gonzalez, JF Harris, Lisa Corrao, John Hastings, Chantel Rae Barrett!",
@@ -974,6 +888,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/horror-nerd-ft-samantha-hale-hollywood-improv-the-lab-tickets/14853853",
         "image": "https://i.ticketweb.com/i/00/13/45/37/93_Edp.jpg?v=8"
+      },
+      {
+        "name": "Semper Funny ft. Bryson Banks and more TBA!",
+        "date": "2026-06-19",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/semper-funny-ft-bryson-banks-hollywood-improv-the-lab-tickets/14962823",
+        "image": "https://i.ticketweb.com/i/00/13/56/86/53_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-06-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838583",
+        "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
       }
     ]
   }
