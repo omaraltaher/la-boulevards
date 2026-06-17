@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T17:43:04.835Z",
+  "generated": "2026-06-17T17:03:05.464Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -287,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Pete & Bas",
-        "date": "2026-06-16",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/pete-bas-los-angeles-california-06-16-2026/event/09006479F3F2E407",
-        "image": "https://s1.ticketm.net/dam/e/1a7/7e826ec0-00fa-47dd-9472-8344cd1081a7_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Kings Kaleidoscope with Hollyn",
         "date": "2026-06-19",
         "time": "19:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/snooper-los-angeles-california-07-15-2026/event/090064C1A5468B17",
         "image": "https://s1.ticketm.net/dam/e/7ac/87113e8d-17ed-48c5-ad61-b058675d37ac_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Spits",
+        "date": "2026-07-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/the-spits-los-angeles-california-07-16-2026/event/0900647FF2451606",
+        "image": "https://s1.ticketm.net/dam/e/bed/7a7ae007-5077-491a-9ba0-9e0e4bfcfbed_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -444,13 +444,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "ALL THE FEELINGS TOUR with METRIC, BROKEN SOCIAL SCENE, AND STARS",
-        "date": "2026-06-16",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/all-the-feelings-tour-with-metric-los-angeles-california-06-16-2026/event/0900643BD70DE2D0",
-        "image": "https://s1.ticketm.net/dam/a/a99/9c0e4923-877a-4bc6-a302-c4945c987a99_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Parker McCollum",
         "date": "2026-06-19",
         "time": "19:30:00",
@@ -498,6 +491,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-los-angeles-california-07-13-2026/event/090064AF95F4A3DF",
         "image": "https://s1.ticketm.net/dam/a/238/b3bb5076-6b92-45d8-b5a5-e5e700a50238_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "K-Love Live",
+        "date": "2026-07-15",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70k79",
+        "image": null
       }
     ],
     "Dolby Theatre": [
@@ -735,7 +735,22 @@
     "Haugh Performing Arts Center": [],
     "Eli Broad Stage": [],
     "Beverly O'Neill Theater": [],
-    "Levitt Pavilion": [],
+    "Levitt Pavilion": [
+      {
+        "name": "El Mariachi Manchester w/ Ceci Bastida & Pastilla",
+        "date": "2026-06-20",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/el-mariachi-manchester-w-ceci-bastida-pastilla-tickets-1991422914545",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186453439%2F405366306269%2F1%2Foriginal.20260608-233730?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a878752ef6a7853144f2f1d7d80bc8fd"
+      },
+      {
+        "name": "Los P2 w/ FUERZA, Mafia Rusa & Los Paranoias",
+        "date": "2026-06-27",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/los-p2-w-fuerza-mafia-rusa-los-paranoias-tickets-1991936465590",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186453439%2F405366306269%2F1%2Foriginal.20260608-233730?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a878752ef6a7853144f2f1d7d80bc8fd"
+      }
+    ],
     "Bootleg Theater": [],
     "Coronet Theater": [],
     "Ivar Theatre": [],
@@ -803,36 +818,65 @@
     "The Groundlings": [],
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
-    "Laugh Factory": [],
+    "Laugh Factory": [
+      {
+        "name": "Friday All-Star Comedy 7:30PM",
+        "date": "2026-06-19",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/friday-all-star-comedy-730pm-tickets-1982320290351",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187057526%2F2989400506155%2F1%2Foriginal.20260616-194430?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e6039959ea4f5b7404014ec2a0035f3"
+      },
+      {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-06-21",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1986840351977",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
+        "name": "Chocolate Sundaes 9:30PM",
+        "date": "2026-06-21",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986839930717",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-06-23",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986860518295",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
+      },
+      {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-06-28",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1986840794300",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
+        "name": "Chocolate Sundaes 9:30PM",
+        "date": "2026-06-28",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986841263704",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
+        "date": "2026-09-20",
+        "time": "17:00",
+        "url": "https://www.eventbrite.com/e/fundraiser-for-la-animal-shelters-and-standup-for-pits-500-pm-tickets-1985767708672",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173173365%2F2986605118463%2F1%2Foriginal.20251218-002729?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=78fe2861e4d452ae53f85d9694142a81"
+      },
+      {
+        "name": "Alex Kominek Live! 7:30PM",
+        "date": "2026-10-01",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/alex-kominek-live-730pm-tickets-1981045471333",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179819470%2F2987014365277%2F1%2Foriginal.20260313-224118?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ef1d87fa52ebd7a75720a3760000568"
+      }
+    ],
     "Hollywood Improv": [
-      {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-06-16",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14940663",
-        "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Chelsea Handler, Anthony Jeselnik, Esther Povitsky, Charles Fleischer, Brian Monarch, Jen Murphy and More TBA!",
-        "date": "2026-06-16",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14919563",
-        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "John Campanelli & Special Guest ft. John Campanelli, Joey Bragg, Jennie Mintz, Rona Kremer, Ronnie Camp, Jamie Lee",
-        "date": "2026-06-16",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/john-campanelli-special-guest-hollywood-improv-the-lab-tickets/14826433",
-        "image": "https://s1.ticketm.net/dam/a/355/41c2b9d2-e074-4c5f-9334-7fb28010c355_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-06-16",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950373",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Lab Work",
         "date": "2026-06-17",
@@ -855,7 +899,7 @@
         "image": "https://s1.ticketm.net/dam/a/93a/7595caed-f1b2-49c9-a3b8-8216ca01d93a_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Sarah Silverman, Anthony Jeselnik, Brian Monarch, Natalie Friedman and Very Special Guests",
+        "name": "Tonight at the Improv ft. Sarah Silverman, Anthony Jeselnik, Melissa Villasenor, Brian Monarch, Natalie Friedman and Very Special Guests",
         "date": "2026-06-18",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922573",
@@ -902,6 +946,34 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838583",
         "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Lab",
+        "date": "2026-06-20",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14918913",
+        "image": "https://i.ticketweb.com/i/00/13/51/45/53_Edp.jpg?v=3"
+      },
+      {
+        "name": "Ego Death ft. Lauren Michaels, Papp Johnson, Christie Bahna, Chelsey Donn, Miguel Rojas, Joe Abousakher, Skyler Higley and more TBA",
+        "date": "2026-06-20",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/ego-death-ft-lauren-michaels-hollywood-improv-the-lab-tickets/14873183",
+        "image": "https://i.ticketweb.com/i/00/13/47/15/73_Edp.jpg?v=5"
+      },
+      {
+        "name": "Tonight at the Improv ft. Craig Robinson, Paul Rodriguez, Jimmy Shin, Matt Marx, and more TBA",
+        "date": "2026-06-21",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14189204",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-06-22",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922633",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       }
     ]
   }
