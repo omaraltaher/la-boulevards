@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T17:03:05.464Z",
+  "generated": "2026-06-18T17:03:53.029Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -206,11 +206,11 @@
         "image": "https://s1.ticketm.net/dam/a/90d/3f2d0e43-342b-4a02-a8c9-ae2a8bb0990d_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "BRESH",
+        "name": "BRESH Party (18 and Over)",
         "date": "2026-07-10",
         "time": "22:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70k_Y",
-        "image": null
+        "image": "https://s1.ticketm.net/dam/a/410/3cddc9bb-47d3-4b58-bd4a-aac422228410_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Marlon Wayans",
@@ -561,13 +561,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-06-17",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91v",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-06-20",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9GO",
@@ -599,6 +592,13 @@
         "date": "2026-06-26",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91a",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-06-27",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91o",
         "image": null
       }
     ],
@@ -779,6 +779,13 @@
         "image": null
       },
       {
+        "name": "Elliott Brothers' COMEDY BLOCK PARTY Hosted by Chris Spencer",
+        "date": "2026-07-15",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/elliott-brothers-comedy-block-party-hosted-inglewood-california-07-15-2026/event/0B0064D1F124585D",
+        "image": "https://s1.ticketm.net/dam/e/c45/a243e1b4-a819-44de-a0b8-971469424c45_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Cult Classics Cinema Presents BLACK PANTHER",
         "date": "2026-07-18",
         "time": "18:00:00",
@@ -805,13 +812,6 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/a-summer-night-of-rb-soul-inglewood-california-08-29-2026/event/0B0064BCB49161BD",
         "image": null
-      },
-      {
-        "name": "Tre Floyd's Black Girl Therapy",
-        "date": "2026-09-19",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
-        "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -845,7 +845,7 @@
         "date": "2026-06-23",
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986860518295",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187160865%2F2987014365277%2F1%2Foriginal.20260618-012636?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fa33ed79ccea822515dcf0e6e790463e"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -878,28 +878,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-06-17",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14918903",
-        "image": "https://i.ticketweb.com/i/00/13/51/45/43_Edp.jpg?v=3"
-      },
-      {
-        "name": "Tonight at the Improv ft. Sahib Singh, Damon Wayans Jr, Amir K, Audrey Stewart, Chris Millhouse and more TBA",
-        "date": "2026-06-17",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14931413",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Shaw-some Show ft. Forrest Shaw, Maronzio Vance, James Davis, Ben Gonzalez, JF Harris, Lisa Corrao, John Hastings, Chantel Rae Barrett!",
-        "date": "2026-06-17",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/the-shaw-some-show-ft-hollywood-improv-the-lab-tickets/14951713",
-        "image": "https://s1.ticketm.net/dam/a/93a/7595caed-f1b2-49c9-a3b8-8216ca01d93a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Sarah Silverman, Anthony Jeselnik, Melissa Villasenor, Brian Monarch, Natalie Friedman and Very Special Guests",
+        "name": "Tonight at the Improv ft. Sarah Silverman, Anthony Jeselnik, Melissa Villasenor, Dan Levy, Brian Monarch, Natalie Friedman and Very Special Guests",
         "date": "2026-06-18",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922573",
@@ -920,11 +899,11 @@
         "image": "https://s1.ticketm.net/dam/a/bb0/cc2070b0-b388-45ab-9a54-13bf193bfbb0_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Caroline Rhea, Mary Lynn Rajskub, Chris Spencer, Greg Fitzsimmons, Andre Kelley and more TBA",
         "date": "2026-06-19",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14922533",
-        "image": "https://i.ticketweb.com/i/00/13/51/80/83_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922533",
+        "image": "https://s1.ticketm.net/dbimages/9160a.jpg"
       },
       {
         "name": "Horror Nerd ft. Samantha Hale, Laurel Kathleen, Ben Gonzalez, Christina Leonard, Kelly Hamlin, Nick Steiner, LeeAnn Tooker, Elia Verduzco, Dominika van Santen, Tommy Spears, and more",
@@ -934,6 +913,13 @@
         "image": "https://i.ticketweb.com/i/00/13/45/37/93_Edp.jpg?v=8"
       },
       {
+        "name": "Tonight at the Improv ft. Johnny Pemberton, Steph Tolev, Kirk Fox, Jackie Kashian, Sarah Tiana, Eric Freedman and more TBA",
+        "date": "2026-06-19",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922543",
+        "image": "https://i.ticketweb.com/i/00/13/51/80/93_Edp.jpg?v=9"
+      },
+      {
         "name": "Semper Funny ft. Bryson Banks and more TBA!",
         "date": "2026-06-19",
         "time": "21:45:00",
@@ -941,18 +927,25 @@
         "image": "https://i.ticketweb.com/i/00/13/56/86/53_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jay Mohr, Orny Adams, Al Madrigal, Loni Love, Jeremy Hotz, Justine Marino and more TBA",
         "date": "2026-06-20",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838583",
-        "image": "https://i.ticketweb.com/i/00/13/43/84/93_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838583",
+        "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab",
+        "name": "Tonight at the Lab ft. Ramsey Badawi, Jackson Banks, Skyler Higley, Gena B Jones, Cid Williams and more TBA",
         "date": "2026-06-20",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14918913",
-        "image": "https://i.ticketweb.com/i/00/13/51/45/53_Edp.jpg?v=3"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918913",
+        "image": "https://i.ticketweb.com/i/00/13/51/45/53_Edp.jpg?v=5"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-06-20",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838593",
+        "image": "https://i.ticketweb.com/i/00/12/92/06/64_Edp.jpg?v=2"
       },
       {
         "name": "Ego Death ft. Lauren Michaels, Papp Johnson, Christie Bahna, Chelsey Donn, Miguel Rojas, Joe Abousakher, Skyler Higley and more TBA",
@@ -967,6 +960,27 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14189204",
         "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The OTHER Show ft. Lizzie Rose, Adam Barnhardt, Jonathan Ventura, Nicole Blessing, Paris Nicole, Dan Paustian, Jackie Monahan, Mario Rodriguez, Abe Parr",
+        "date": "2026-06-21",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/the-other-show-ft-lizzie-hollywood-improv-the-lab-tickets/14918513",
+        "image": "https://i.ticketweb.com/i/00/13/51/41/23_Edp.jpg?v=4"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-06-21",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950403",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tim Dillon and Friends",
+        "date": "2026-06-22",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tim-dillon-and-friends-hollywood-improv-the-main-room-tickets/14204614",
+        "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Improv Presents: MONDERAYS with Deray Davis & more",
