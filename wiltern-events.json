@@ -1,13 +1,6 @@
 {
-  "generated": "2026-06-17T16:17:41.619Z",
+  "generated": "2026-06-18T16:10:48.225Z",
   "events": [
-    {
-      "name": "HONNE - 10 YEAR ANNIVERSARY TOUR",
-      "date": "2026-06-17",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/honne-10-year-anniversary-tour-los-angeles-california-06-17-2026/event/09006444FCDBB68D",
-      "image": "https://s1.ticketm.net/dam/a/0f7/c40847ae-f3f3-49a4-bb01-59fab1eb00f7_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Ivy Queen",
       "date": "2026-06-19",
@@ -56,6 +49,13 @@
       "time": "18:00:00",
       "url": "https://www.ticketmaster.com/jinjer-duel-north-america-2026-los-angeles-california-07-02-2026/event/0900646CCB47C5EB",
       "image": "https://s1.ticketm.net/dam/a/219/b7f0eacf-4fa6-411d-bb91-648d27876219_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "WOLFMOTHER - 20th Anniversary Tour",
+      "date": "2026-07-11",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/wolfmother-20th-anniversary-tour-los-angeles-california-07-11-2026/event/0900635EE7FB98A3",
+      "image": "https://s1.ticketm.net/dam/a/dcd/2a9d98e3-29a5-4917-a701-d42882c22dcd_RECOMENDATION_16_9.jpg"
     }
   ]
 }
