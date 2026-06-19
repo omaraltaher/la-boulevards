@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T17:03:53.029Z",
+  "generated": "2026-06-19T16:49:37.044Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -63,13 +63,6 @@
     "Henry Fonda Theater": [
       {
         "name": "Jane Remover w/ Dazegxd",
-        "date": "2026-06-18",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8K",
-        "image": "https://s1.ticketm.net/dam/a/e1c/a4b656a9-3f89-4f7f-bb44-981173629e1c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Jane Remover w/ Dazegxd",
         "date": "2026-06-19",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8f",
@@ -115,6 +108,13 @@
         "date": "2026-08-04",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A706e6",
+        "image": null
+      },
+      {
+        "name": "Die Spitz",
+        "date": "2026-08-05",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xooJ",
         "image": null
       }
     ],
@@ -681,13 +681,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "Anastasia (Touring)",
-        "date": "2026-06-18",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qg",
-        "image": null
-      },
-      {
-        "name": "Anastasia (Touring)",
         "date": "2026-06-19",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qU",
@@ -719,6 +712,13 @@
         "date": "2026-06-26",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3re",
+        "image": null
+      },
+      {
+        "name": "Anastasia (Touring)",
+        "date": "2026-06-27",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3r7",
         "image": null
       }
     ],
@@ -824,7 +824,7 @@
         "date": "2026-06-19",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/friday-all-star-comedy-730pm-tickets-1982320290351",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187057526%2F2989400506155%2F1%2Foriginal.20260616-194430?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e6039959ea4f5b7404014ec2a0035f3"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187228050%2F2987014365277%2F1%2Foriginal.20260618-203256?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=487264a827f09a981369014d337ca827"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -878,28 +878,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Sarah Silverman, Anthony Jeselnik, Melissa Villasenor, Dan Levy, Brian Monarch, Natalie Friedman and Very Special Guests",
-        "date": "2026-06-18",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922573",
-        "image": "https://s1.ticketm.net/dam/a/0fb/e3cfa95f-c1b5-4075-8362-1bcdcdb730fb_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Private Event",
-        "date": "2026-06-18",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/private-event-hollywood-improv-the-lab-tickets/14972873",
-        "image": "https://i.ticketweb.com/i/00/13/57/76/13_Edp.jpg?v=2"
-      },
-      {
-        "name": "Funny Mill ft. Laurie Kilmartin, Adam Chong, Steven Cha, Rishi Arya, Brian Wiora, Zeo Niu, Finley Riter, Zyan Ha",
-        "date": "2026-06-18",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/funny-mill-ft-laurie-kilmartin-hollywood-improv-the-lab-tickets/14962813",
-        "image": "https://s1.ticketm.net/dam/a/bb0/cc2070b0-b388-45ab-9a54-13bf193bfbb0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Caroline Rhea, Mary Lynn Rajskub, Chris Spencer, Greg Fitzsimmons, Andre Kelley and more TBA",
+        "name": "Tonight at the Improv ft. Caroline Rhea, Mary Lynn Rajskub, Zainab Johnson, Chris Spencer, Greg Fitzsimmons, Andre Kelley and more TBA",
         "date": "2026-06-19",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922533",
@@ -913,39 +892,39 @@
         "image": "https://i.ticketweb.com/i/00/13/45/37/93_Edp.jpg?v=8"
       },
       {
-        "name": "Tonight at the Improv ft. Johnny Pemberton, Steph Tolev, Kirk Fox, Jackie Kashian, Sarah Tiana, Eric Freedman and more TBA",
+        "name": "Tonight at the Improv ft. Johnny Pemberton, Steph Tolev, Kirk Fox, Eddie Ifft, Jackie Kashian, Sarah Tiana, Eric Freedman and more TBA",
         "date": "2026-06-19",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922543",
-        "image": "https://i.ticketweb.com/i/00/13/51/80/93_Edp.jpg?v=9"
+        "image": "https://i.ticketweb.com/i/00/13/51/80/93_Edp.jpg?v=10"
       },
       {
-        "name": "Semper Funny ft. Bryson Banks and more TBA!",
+        "name": "Semper Funny ft. Bryson Banks, Eoin Patrick, Jimmy Draxler, Nacya Marreiro, Mark Hayes, Antjuan Tobias, and more TBA!",
         "date": "2026-06-19",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/semper-funny-ft-bryson-banks-hollywood-improv-the-lab-tickets/14962823",
-        "image": "https://i.ticketweb.com/i/00/13/56/86/53_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/13/56/86/53_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Jay Mohr, Orny Adams, Al Madrigal, Loni Love, Jeremy Hotz, Justine Marino and more TBA",
+        "name": "Tonight at the Improv ft. Jay Mohr, Orny Adams, Al Madrigal, Loni Love, Jeremy Hotz, Dan Levy, Justine Marino and more TBA",
         "date": "2026-06-20",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838583",
         "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Ramsey Badawi, Jackson Banks, Skyler Higley, Gena B Jones, Cid Williams and more TBA",
+        "name": "Tonight at the Lab ft. Ramsey Badawi, Omid Singh, Jackson Banks, Skyler Higley, Jessica Michelle Singleton, Gena B Jones, Cid Williams and more TBA",
         "date": "2026-06-20",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918913",
-        "image": "https://i.ticketweb.com/i/00/13/51/45/53_Edp.jpg?v=5"
+        "image": "https://s1.ticketm.net/dam/a/50b/5fc583a4-8c08-4db8-9afa-5a8c608bc50b_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Amir K, Francisco Ramos, Rick Ingraham, Jay Phillips, Kelly Ryan, John Hastings and more TBA",
         "date": "2026-06-20",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14838593",
-        "image": "https://i.ticketweb.com/i/00/12/92/06/64_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838593",
+        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Ego Death ft. Lauren Michaels, Papp Johnson, Christie Bahna, Chelsey Donn, Miguel Rojas, Joe Abousakher, Skyler Higley and more TBA",
@@ -955,7 +934,7 @@
         "image": "https://i.ticketweb.com/i/00/13/47/15/73_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Paul Rodriguez, Jimmy Shin, Matt Marx, and more TBA",
+        "name": "Tonight at the Improv ft. Craig Robinson, Paul Rodriguez, Caroline Rhea, Justin Foster Jimmy Shin, Matt Marx, and more TBA",
         "date": "2026-06-21",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14189204",
@@ -983,11 +962,32 @@
         "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Zar the Star",
+        "date": "2026-06-22",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/zar-the-star-hollywood-improv-the-lab-tickets/14962783",
+        "image": "https://i.ticketweb.com/i/00/13/56/86/03_Edp.jpg?v=2"
+      },
+      {
         "name": "Improv Presents: MONDERAYS with Deray Davis & more",
         "date": "2026-06-22",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922633",
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-06-22",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950483",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-06-23",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14940653",
+        "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
       }
     ]
   }
