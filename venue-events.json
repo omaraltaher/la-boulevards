@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T16:49:37.044Z",
+  "generated": "2026-06-20T16:32:06.716Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -63,13 +63,6 @@
     "Henry Fonda Theater": [
       {
         "name": "Jane Remover w/ Dazegxd",
-        "date": "2026-06-19",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8f",
-        "image": "https://s1.ticketm.net/dam/a/e1c/a4b656a9-3f89-4f7f-bb44-981173629e1c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Jane Remover w/ Dazegxd",
         "date": "2026-06-20",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70e7M",
@@ -116,29 +109,22 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xooJ",
         "image": null
+      },
+      {
+        "name": "Wunderhorse",
+        "date": "2026-08-06",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-goK",
+        "image": "https://s1.ticketm.net/dam/a/564/e83804b1-7451-4997-ba7b-836dc2b57564_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Mandy, Devin Wild, Keltek",
-        "date": "2026-06-19",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/mandy-devin-wild-keltek-avalon-hollywood-tickets/14839533",
-        "image": "https://i.ticketweb.com/i/00/13/43/94/33_Edp.jpg?v=6"
-      },
-      {
-        "name": "Flashback: A 2010s EDM Tribute Party",
-        "date": "2026-06-19",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/flashback-a-2010s-edm-tribute-avalon-hollywood-tickets/14959933",
-        "image": "https://i.ticketweb.com/i/00/13/56/58/33_Edp.jpg?v=5"
-      },
       {
         "name": "Aly & Fila",
         "date": "2026-06-20",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/aly-fila-avalon-hollywood-tickets/14826973",
-        "image": "https://i.ticketweb.com/i/00/13/42/70/83_Edp.jpg?v=8"
+        "image": "https://i.ticketweb.com/i/00/13/42/70/83_Edp.jpg?v=11"
       },
       {
         "name": "Official ATEEZ GOLDEN HOUR : Part.5 Album Release Party",
@@ -174,6 +160,20 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/privadas-con-el-ocho-with-avalon-hollywood-tickets/14986833",
         "image": "https://i.ticketweb.com/i/00/13/58/98/43_Edp.jpg?v=5"
+      },
+      {
+        "name": "Emo Nite",
+        "date": "2026-07-10",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14975313",
+        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Audien",
+        "date": "2026-07-11",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/audien-avalon-hollywood-tickets/14192554",
+        "image": "https://s1.ticketm.net/dam/a/7d5/2112ec21-a12a-46fd-a0fa-6cb7e136a7d5_1684831_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -287,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Kings Kaleidoscope with Hollyn",
-        "date": "2026-06-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/kings-kaleidoscope-with-hollyn-los-angeles-california-06-19-2026/event/090062ACB5972983",
-        "image": "https://s1.ticketm.net/dam/e/e42/2857006b-4be1-4f46-b013-6cb06eeebe42_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "2 DAY PASS - KCRW presents: Aquarium Drunkard 21st Anniversary ft. SML",
         "date": "2026-06-26",
         "time": null,
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/the-spits-los-angeles-california-07-16-2026/event/0900647FF2451606",
         "image": "https://s1.ticketm.net/dam/e/bed/7a7ae007-5077-491a-9ba0-9e0e4bfcfbed_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Futurebirds - Far Out Country Tour",
+        "date": "2026-07-17",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/futurebirds-far-out-country-tour-los-angeles-california-07-17-2026/event/0900645BCC4C1CCC",
+        "image": "https://s1.ticketm.net/dam/a/415/e149f9fc-8fa8-40c0-bd47-0b3ff9f00415_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -444,13 +444,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Parker McCollum",
-        "date": "2026-06-19",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/parker-mccollum-los-angeles-california-06-19-2026/event/09006361F751916F",
-        "image": "https://s1.ticketm.net/dam/a/b8c/5f4f5fab-6c0a-4fbd-bcfe-fdf7995dcb8c_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Khalid: It's Always Summer Somewhere Tour",
         "date": "2026-06-24",
         "time": "19:30:00",
@@ -498,16 +491,16 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70k79",
         "image": null
+      },
+      {
+        "name": "CA7RIEL & Paco Amoroso: FREE SPIRITS WORLD TOUR",
+        "date": "2026-07-16",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/ca7riel-paco-amoroso-free-spirits-world-los-angeles-california-07-16-2026/event/09006475293F370C",
+        "image": "https://s1.ticketm.net/dam/a/d70/4ae8fa11-7f13-4554-affb-3e5aba487d70_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
-      {
-        "name": "Ahmed Saad Presents: The World Cup Run",
-        "date": "2026-06-19",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/ahmed-saad-presents-the-world-cup-hollywood-california-06-19-2026/event/09006489A5BCA34A",
-        "image": "https://s1.ticketm.net/dam/a/864/2d2fd028-c909-4577-8f8e-41d3e9475864_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Satinder Sartaaj",
         "date": "2026-06-20",
@@ -556,6 +549,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/sankara-eye-foundation-usa-presents-sonu-hollywood-california-08-30-2026/event/090064B7AA23811E",
         "image": "https://s1.ticketm.net/dam/a/cf9/756aa497-8af2-47c4-938f-f67884a56cf9_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sonic Live in Concert",
+        "date": "2026-09-26",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/sonic-live-in-concert-hollywood-california-09-26-2026/event/090064B4CE535DF9",
+        "image": "https://s1.ticketm.net/dam/a/352/f613a100-041d-4133-93df-5c215b649352_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -679,13 +679,6 @@
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
-      {
-        "name": "Anastasia (Touring)",
-        "date": "2026-06-19",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qU",
-        "image": null
-      },
       {
         "name": "Anastasia (Touring)",
         "date": "2026-06-20",
@@ -820,13 +813,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Friday All-Star Comedy 7:30PM",
-        "date": "2026-06-19",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/friday-all-star-comedy-730pm-tickets-1982320290351",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187228050%2F2987014365277%2F1%2Foriginal.20260618-203256?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=487264a827f09a981369014d337ca827"
-      },
-      {
         "name": "Chocolate Sundaes 7:00PM",
         "date": "2026-06-21",
         "time": "19:00",
@@ -845,7 +831,7 @@
         "date": "2026-06-23",
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986860518295",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187160865%2F2987014365277%2F1%2Foriginal.20260618-012636?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fa33ed79ccea822515dcf0e6e790463e"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187291675%2F2989400506155%2F1%2Foriginal.20260619-201114?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a07856f5d686cf0aa3fb14b8a4abefc6"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -860,6 +846,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986841263704",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-06-30",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986860590511",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
       },
       {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
@@ -878,34 +871,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Caroline Rhea, Mary Lynn Rajskub, Zainab Johnson, Chris Spencer, Greg Fitzsimmons, Andre Kelley and more TBA",
-        "date": "2026-06-19",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922533",
-        "image": "https://s1.ticketm.net/dbimages/9160a.jpg"
-      },
-      {
-        "name": "Horror Nerd ft. Samantha Hale, Laurel Kathleen, Ben Gonzalez, Christina Leonard, Kelly Hamlin, Nick Steiner, LeeAnn Tooker, Elia Verduzco, Dominika van Santen, Tommy Spears, and more",
-        "date": "2026-06-19",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/horror-nerd-ft-samantha-hale-hollywood-improv-the-lab-tickets/14853853",
-        "image": "https://i.ticketweb.com/i/00/13/45/37/93_Edp.jpg?v=8"
-      },
-      {
-        "name": "Tonight at the Improv ft. Johnny Pemberton, Steph Tolev, Kirk Fox, Eddie Ifft, Jackie Kashian, Sarah Tiana, Eric Freedman and more TBA",
-        "date": "2026-06-19",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922543",
-        "image": "https://i.ticketweb.com/i/00/13/51/80/93_Edp.jpg?v=10"
-      },
-      {
-        "name": "Semper Funny ft. Bryson Banks, Eoin Patrick, Jimmy Draxler, Nacya Marreiro, Mark Hayes, Antjuan Tobias, and more TBA!",
-        "date": "2026-06-19",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/semper-funny-ft-bryson-banks-hollywood-improv-the-lab-tickets/14962823",
-        "image": "https://i.ticketweb.com/i/00/13/56/86/53_Edp.jpg?v=3"
-      },
-      {
         "name": "Tonight at the Improv ft. Jay Mohr, Orny Adams, Al Madrigal, Loni Love, Jeremy Hotz, Dan Levy, Justine Marino and more TBA",
         "date": "2026-06-20",
         "time": "19:00:00",
@@ -913,14 +878,14 @@
         "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Ramsey Badawi, Omid Singh, Jackson Banks, Skyler Higley, Jessica Michelle Singleton, Gena B Jones, Cid Williams and more TBA",
+        "name": "Tonight at the Lab ft. Ramsey Badawi, Omid Singh, Jackson Banks, Skyler Higley, Jessica Michelle Singleton, Kiran Deol, Matt Marx, Cid Williams and more TBA",
         "date": "2026-06-20",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918913",
         "image": "https://s1.ticketm.net/dam/a/50b/5fc583a4-8c08-4db8-9afa-5a8c608bc50b_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Amir K, Francisco Ramos, Rick Ingraham, Jay Phillips, Kelly Ryan, John Hastings and more TBA",
+        "name": "Tonight at the Improv ft. Amir K, Chris Estrada, Rick Ingraham, Jay Phillips, Kelly Ryan, John Hastings, Mark Ellis and more TBA",
         "date": "2026-06-20",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838593",
@@ -934,7 +899,7 @@
         "image": "https://i.ticketweb.com/i/00/13/47/15/73_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Paul Rodriguez, Caroline Rhea, Justin Foster Jimmy Shin, Matt Marx, and more TBA",
+        "name": "Tonight at the Improv ft. Craig Robinson, Paul Rodriguez, Caroline Rhea, Mike Binder, Justin Foster Jimmy Shin, Matt Marx, and more TBA",
         "date": "2026-06-21",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14189204",
@@ -969,7 +934,7 @@
         "image": "https://i.ticketweb.com/i/00/13/56/86/03_Edp.jpg?v=2"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis, Ron G, Mike Estime, Sean Leary, & more",
         "date": "2026-06-22",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922633",
@@ -988,6 +953,34 @@
         "time": "17:15:00",
         "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14940653",
         "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv! ft. Fortune Feimster, Anthony Jeselnik, Craig Robinson, Brian Monarch and very special guests",
+        "date": "2026-06-23",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14919583",
+        "image": "https://s1.ticketm.net/dam/a/276/47149ce4-970f-43e2-9440-dc698662d276_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Dvontre and His Friends Figure Out What’s Funny ft. Ray Lau, Laura Peek, Jordan Thewlis",
+        "date": "2026-06-23",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/dvontre-and-his-friends-figure-hollywood-improv-the-lab-tickets/14877863",
+        "image": "https://i.ticketweb.com/i/00/13/47/54/83_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv! ft. Frankie Quinones, Caroline Rhea, Faysal Lawrence, CJ Marrinan and more TBA",
+        "date": "2026-06-23",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14962773",
+        "image": "https://s1.ticketm.net/dam/a/5c6/6dd00db3-3bc5-4951-8615-c71573c515c6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Barry Katz Blueprint Showcase ft. Erica Rhodes, Matthew Marx, Jacob Brooks, Alessandra Basher, Dorell Green, Quan'Darius, Steven Stone, Garrett Evans, and Pablo Lewin",
+        "date": "2026-06-23",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/barry-katz-blueprint-showcase-ft-hollywood-improv-the-lab-tickets/14980233",
+        "image": "https://i.ticketweb.com/i/00/13/58/41/23_Edp.jpg?v=7"
       }
     ]
   }
