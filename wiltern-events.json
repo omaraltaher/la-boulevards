@@ -1,13 +1,6 @@
 {
-  "generated": "2026-06-19T16:01:39.171Z",
+  "generated": "2026-06-20T15:35:25.589Z",
   "events": [
-    {
-      "name": "Ivy Queen",
-      "date": "2026-06-19",
-      "time": "19:30:00",
-      "url": "https://www.ticketmaster.com/ivy-queen-los-angeles-california-06-19-2026/event/0900647EF660EA40",
-      "image": "https://s1.ticketm.net/dam/a/73b/e948c0ad-9a99-4e66-a107-132e83d2073b_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Alex Isley - When The City Sleeps",
       "date": "2026-06-20",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/wolfmother-20th-anniversary-tour-los-angeles-california-07-11-2026/event/0900635EE7FB98A3",
       "image": "https://s1.ticketm.net/dam/a/dcd/2a9d98e3-29a5-4917-a701-d42882c22dcd_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Streetlight Manifesto: The Presence of the Past Tour",
+      "date": "2026-07-12",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/streetlight-manifesto-the-presence-of-the-los-angeles-california-07-12-2026/event/09006490AB0B7BF9",
+      "image": "https://s1.ticketm.net/dam/a/1f9/0f31d61f-0097-4990-b958-e713edbd31f9_113761_RECOMENDATION_16_9.jpg"
     }
   ]
 }
