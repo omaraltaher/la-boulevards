@@ -1,13 +1,6 @@
 {
-  "generated": "2026-06-20T15:35:25.589Z",
+  "generated": "2026-06-21T15:36:25.409Z",
   "events": [
-    {
-      "name": "Alex Isley - When The City Sleeps",
-      "date": "2026-06-20",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/alex-isley-when-the-city-sleeps-los-angeles-california-06-20-2026/event/0900646CA13287DF",
-      "image": "https://s1.ticketm.net/dam/a/929/868a946f-8525-4a3c-aa3a-329c04fdc929_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Audrey Hobert: The Staircase To Stardom Tour",
       "date": "2026-06-23",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/streetlight-manifesto-the-presence-of-the-los-angeles-california-07-12-2026/event/09006490AB0B7BF9",
       "image": "https://s1.ticketm.net/dam/a/1f9/0f31d61f-0097-4990-b958-e713edbd31f9_113761_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "K-POP Superstars",
+      "date": "2026-07-17",
+      "time": "16:15:00",
+      "url": "https://www.ticketmaster.com/kpop-superstars-los-angeles-california-07-17-2026/event/090064A4CF9547C4",
+      "image": null
     }
   ]
 }
