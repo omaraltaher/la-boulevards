@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T16:33:26.551Z",
+  "generated": "2026-06-22T17:32:37.987Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -561,13 +561,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-06-21",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91A",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-06-24",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b916",
@@ -599,6 +592,13 @@
         "date": "2026-06-28",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b913",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-06-30",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91f",
         "image": null
       }
     ],
@@ -681,13 +681,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "Anastasia (Touring)",
-        "date": "2026-06-21",
-        "time": "13:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3qy",
-        "image": null
-      },
-      {
-        "name": "Anastasia (Touring)",
         "date": "2026-06-25",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3rv",
@@ -713,6 +706,20 @@
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3rA",
         "image": null
+      },
+      {
+        "name": "Young Artist Project",
+        "date": "2026-08-06",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q6od",
+        "image": null
+      },
+      {
+        "name": "La Mirada Theatre presents: Little Shop of Horrors",
+        "date": "2026-09-19",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQe",
+        "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
       }
     ],
     "Downey Civic Theatre": [],
@@ -743,13 +750,6 @@
     "Dynasty Typewriter At The Hayworth": [],
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
-      {
-        "name": "Kobie Dozier: N'namdi in Concert",
-        "date": "2026-06-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/kobie-dozier-nnamdi-in-concert-inglewood-california-06-21-2026/event/0B00649C80A63421",
-        "image": null
-      },
       {
         "name": "Elliott Brothers' COMEDY BLOCK PARTY w/ Chris Spencer",
         "date": "2026-06-24",
@@ -798,6 +798,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/a-summer-night-of-rb-soul-inglewood-california-08-29-2026/event/0B0064BCB49161BD",
         "image": null
+      },
+      {
+        "name": "Tre Floyd's Black Girl Therapy",
+        "date": "2026-09-19",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
+        "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -806,18 +813,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-06-21",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1986840351977",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-06-21",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986839930717",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-06-22",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1986860908462",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187299097%2F2987014365277%2F1%2Foriginal.20260619-231235?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=adff126521294c8f9db8c9fbd62fdd70"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -839,6 +839,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986841263704",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-06-29",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1986860950588",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -864,27 +871,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Paul Rodriguez, Caroline Rhea, Mike Binder, Justin Foster Jimmy Shin, Matt Marx, and more TBA",
-        "date": "2026-06-21",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14189204",
-        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The OTHER Show ft. Lizzie Rose, Adam Barnhardt, Jonathan Ventura, Nicole Blessing, Paris Nicole, Dan Paustian, Jackie Monahan, Mario Rodriguez, Abe Parr",
-        "date": "2026-06-21",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/the-other-show-ft-lizzie-hollywood-improv-the-lab-tickets/14918513",
-        "image": "https://i.ticketweb.com/i/00/13/51/41/23_Edp.jpg?v=4"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-06-21",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950403",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tim Dillon and Friends",
         "date": "2026-06-22",
         "time": "19:30:00",
@@ -896,10 +882,10 @@
         "date": "2026-06-22",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/zar-the-star-hollywood-improv-the-lab-tickets/14962783",
-        "image": "https://i.ticketweb.com/i/00/13/56/86/03_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/13/56/86/03_Edp.jpg?v=3"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis, Ron G, Mike Estime, Sean Leary, & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis, Ron G, Mike Estime, J Snow, Sean Leary, & more",
         "date": "2026-06-22",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922633",
@@ -920,7 +906,7 @@
         "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv! ft. Fortune Feimster, Anthony Jeselnik, Craig Robinson, Brian Monarch and very special guests",
+        "name": "Tonight at the Improv! ft. Damon Wayans, Anthony Jeselnik, Fortune Feimster, Craig Robinson, Brian Monarch, Julia Jasunas and More TBD!",
         "date": "2026-06-23",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14919583",
@@ -974,6 +960,27 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14933653",
         "image": "https://s1.ticketm.net/dam/a/22b/04826ca7-d3ee-461c-92f1-bdb9461c922b_1580281_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar, Mandal, Nacya Marreiro, Liz Zagone, Delo Brown, and more TBA",
+        "date": "2026-06-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14826903",
+        "image": "https://i.ticketweb.com/i/00/13/42/70/13_Edp.jpg?v=7"
+      },
+      {
+        "name": "Reid the Room ft. Reid Brackenbury and more TBA!",
+        "date": "2026-06-25",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14924803",
+        "image": "https://i.ticketweb.com/i/00/13/52/02/93_Edp.jpg?v=2"
+      },
+      {
+        "name": "Rafi Bastos",
+        "date": "2026-06-26",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/rafi-bastos-hollywood-improv-the-main-room-tickets/14759873",
+        "image": "https://i.ticketweb.com/i/00/13/36/97/53_Edp.jpg?v=3"
       }
     ]
   }
