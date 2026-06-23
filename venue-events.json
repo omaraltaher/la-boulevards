@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T17:32:37.987Z",
+  "generated": "2026-06-23T16:49:21.408Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -650,6 +650,20 @@
     "Ambassador Auditorium": [],
     "Wilshire Ebell Theater and Club": [
       {
+        "name": "Dan and Phil: Hard Launch World Tour",
+        "date": "2026-09-11",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/dan-and-phil-hard-launch-world-los-angeles-california-09-11-2026/event/090064D1B1CBAC4F",
+        "image": "https://s1.ticketm.net/dam/a/fa6/a8381fb7-d1e7-4612-84b7-3f98f983cfa6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Dan and Phil: Hard Launch World Tour",
+        "date": "2026-09-12",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/dan-and-phil-hard-launch-world-los-angeles-california-09-12-2026/event/090064D39F8A8B4A",
+        "image": "https://s1.ticketm.net/dam/a/fa6/a8381fb7-d1e7-4612-84b7-3f98f983cfa6_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour",
         "date": "2026-09-17",
         "time": "19:00:00",
@@ -813,18 +827,18 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-06-22",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1986860908462",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187299097%2F2987014365277%2F1%2Foriginal.20260619-231235?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=adff126521294c8f9db8c9fbd62fdd70"
-      },
-      {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-06-23",
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986860518295",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187291675%2F2989400506155%2F1%2Foriginal.20260619-201114?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a07856f5d686cf0aa3fb14b8a4abefc6"
+      },
+      {
+        "name": "Full Cup No Filter 7:30 PM",
+        "date": "2026-06-24",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/full-cup-no-filter-730-pm-tickets-1986861873348",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187068754%2F2987014365277%2F1%2Foriginal.20260616-221303?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=248ebe1a1debb23d0a43ae2872ab29a4"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -871,34 +885,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tim Dillon and Friends",
-        "date": "2026-06-22",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tim-dillon-and-friends-hollywood-improv-the-main-room-tickets/14204614",
-        "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Zar the Star",
-        "date": "2026-06-22",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/zar-the-star-hollywood-improv-the-lab-tickets/14962783",
-        "image": "https://i.ticketweb.com/i/00/13/56/86/03_Edp.jpg?v=3"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis, Ron G, Mike Estime, J Snow, Sean Leary, & more",
-        "date": "2026-06-22",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922633",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-06-22",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950483",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-06-23",
         "time": "17:15:00",
@@ -906,11 +892,11 @@
         "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv! ft. Damon Wayans, Anthony Jeselnik, Fortune Feimster, Craig Robinson, Brian Monarch, Julia Jasunas and More TBD!",
+        "name": "Tonight at the Improv ft. Damon Wayans, Anthony Jeselnik, Fortune Feimster, Craig Robinson, Brian Monarch, Julia Jasunas and More TBD",
         "date": "2026-06-23",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14919583",
-        "image": "https://s1.ticketm.net/dam/a/276/47149ce4-970f-43e2-9440-dc698662d276_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Dvontre and His Friends Figure Out What’s Funny ft. Ray Lau, Laura Peek, Jordan Thewlis",
@@ -920,7 +906,7 @@
         "image": "https://i.ticketweb.com/i/00/13/47/54/83_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv! ft. Frankie Quinones, Caroline Rhea, Faysal Lawrence, CJ Marrinan and more TBA",
+        "name": "Tonight at the Improv! ft. Frankie Quinones, Craig Robinson, Caroline Rhea, Faysal Lawrence, CJ Marrinan and more TBA",
         "date": "2026-06-23",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14962773",
@@ -962,11 +948,11 @@
         "image": "https://s1.ticketm.net/dam/a/22b/04826ca7-d3ee-461c-92f1-bdb9461c922b_1580281_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar, Mandal, Nacya Marreiro, Liz Zagone, Delo Brown, and more TBA",
+        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar, Mandal, Nacya Marreiro, Liz Zagone, Delo Brown,  and more TBA",
         "date": "2026-06-25",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14826903",
-        "image": "https://i.ticketweb.com/i/00/13/42/70/13_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/13/42/70/13_Edp.jpg?v=8"
       },
       {
         "name": "Reid the Room ft. Reid Brackenbury and more TBA!",
@@ -981,6 +967,34 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/rafi-bastos-hollywood-improv-the-main-room-tickets/14759873",
         "image": "https://i.ticketweb.com/i/00/13/36/97/53_Edp.jpg?v=3"
+      },
+      {
+        "name": "Jack Jr.",
+        "date": "2026-06-26",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/jack-jr-hollywood-improv-the-lab-tickets/14877573",
+        "image": "https://s1.ticketm.net/dam/a/a23/994d1c6a-da6e-4d91-bb7b-7b8b8eb75a23_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Becky Robinson, Sahib Singh, Dustin Nickerson, Shane Torres, and more TBA",
+        "date": "2026-06-26",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14208754",
+        "image": "https://s1.ticketm.net/dam/a/9f2/9e8dabf7-10cd-403f-bac8-ae143e2179f2_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-06-26",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950583",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mike Ivy Memorial",
+        "date": "2026-06-27",
+        "time": "15:00:00",
+        "url": "https://www.ticketweb.com/event/mike-ivy-memorial-hollywood-improv-the-main-room-tickets/14202674",
+        "image": "https://i.ticketweb.com/i/00/12/91/93/14_Edp.jpg?v=2"
       }
     ]
   }
