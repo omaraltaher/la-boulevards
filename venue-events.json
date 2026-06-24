@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T16:49:21.408Z",
+  "generated": "2026-06-24T16:44:23.402Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -827,18 +827,18 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Rubee Tuesdays 7:45pm",
-        "date": "2026-06-23",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986860518295",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187291675%2F2989400506155%2F1%2Foriginal.20260619-201114?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a07856f5d686cf0aa3fb14b8a4abefc6"
-      },
-      {
         "name": "Full Cup No Filter 7:30 PM",
         "date": "2026-06-24",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/full-cup-no-filter-730-pm-tickets-1986861873348",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187068754%2F2987014365277%2F1%2Foriginal.20260616-221303?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=248ebe1a1debb23d0a43ae2872ab29a4"
+      },
+      {
+        "name": "Wednesday All-Star Comedy 9:45PM",
+        "date": "2026-06-24",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-945pm-tickets-1986861936537",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187424464%2F2987014365277%2F1%2Foriginal.20260622-194255?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=88da178e29a9a3cddea07355fd8a544f"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -885,41 +885,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-06-23",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14940653",
-        "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Damon Wayans, Anthony Jeselnik, Fortune Feimster, Craig Robinson, Brian Monarch, Julia Jasunas and More TBD",
-        "date": "2026-06-23",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14919583",
-        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Dvontre and His Friends Figure Out What’s Funny ft. Ray Lau, Laura Peek, Jordan Thewlis",
-        "date": "2026-06-23",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/dvontre-and-his-friends-figure-hollywood-improv-the-lab-tickets/14877863",
-        "image": "https://i.ticketweb.com/i/00/13/47/54/83_Edp.jpg?v=3"
-      },
-      {
-        "name": "Tonight at the Improv! ft. Frankie Quinones, Craig Robinson, Caroline Rhea, Faysal Lawrence, CJ Marrinan and more TBA",
-        "date": "2026-06-23",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14962773",
-        "image": "https://s1.ticketm.net/dam/a/5c6/6dd00db3-3bc5-4951-8615-c71573c515c6_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Barry Katz Blueprint Showcase ft. Erica Rhodes, Matthew Marx, Jacob Brooks, Alessandra Basher, Dorell Green, Quan'Darius, Steven Stone, Garrett Evans, and Pablo Lewin",
-        "date": "2026-06-23",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/barry-katz-blueprint-showcase-ft-hollywood-improv-the-lab-tickets/14980233",
-        "image": "https://i.ticketweb.com/i/00/13/58/41/23_Edp.jpg?v=7"
-      },
-      {
         "name": "Lab Work",
         "date": "2026-06-24",
         "time": "18:15:00",
@@ -941,7 +906,7 @@
         "image": "https://i.ticketweb.com/i/00/13/47/15/93_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. T.J. Miller, Pete Lee, Brian Monarch and Very Special Guests",
+        "name": "Tonight at the Improv ft. Chelsea Handler, Robby Hoffman, T.J. Miller, Pete Lee, Brian Monarch, Greg Wilson and more TBD",
         "date": "2026-06-25",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14933653",
@@ -955,11 +920,18 @@
         "image": "https://i.ticketweb.com/i/00/13/42/70/13_Edp.jpg?v=8"
       },
       {
-        "name": "Reid the Room ft. Reid Brackenbury and more TBA!",
+        "name": "Tonight at the Improv ft. Caroline Rhea, Phil Hanley, Will Burkart, DoKnow, Mark Hayes and more TBA",
+        "date": "2026-06-25",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14215874",
+        "image": "https://s1.ticketm.net/dbimages/9160a.jpg"
+      },
+      {
+        "name": "Reid the Room ft. Reid Brackenbury, Audrey Stewart, Janesh Rahlan, Whitney Rayner, Benedict Polizzi, Anna May Smith, Myles Murphy",
         "date": "2026-06-25",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14924803",
-        "image": "https://i.ticketweb.com/i/00/13/52/02/93_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/13/52/02/93_Edp.jpg?v=3"
       },
       {
         "name": "Rafi Bastos",
@@ -976,11 +948,11 @@
         "image": "https://s1.ticketm.net/dam/a/a23/994d1c6a-da6e-4d91-bb7b-7b8b8eb75a23_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Becky Robinson, Sahib Singh, Dustin Nickerson, Shane Torres, and more TBA",
+        "name": "Tonight at the Improv ft. Asif Ali, Becky Robinson, Sahib Singh, Sammy Obeid, Dustin Nickerson, Shane Torres, Andre Kelley and more TBA",
         "date": "2026-06-26",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14208754",
-        "image": "https://s1.ticketm.net/dam/a/9f2/9e8dabf7-10cd-403f-bac8-ae143e2179f2_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/689/514bec4c-42ef-4165-92f8-1124365dd689_1827131_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -995,6 +967,34 @@
         "time": "15:00:00",
         "url": "https://www.ticketweb.com/event/mike-ivy-memorial-hollywood-improv-the-main-room-tickets/14202674",
         "image": "https://i.ticketweb.com/i/00/12/91/93/14_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv ft. Sahib Singh, Preacher Lawson, Cristela Alonzo, Kirk Fox, Eleanor Kerrigan, Gary Cannon & more TBA",
+        "date": "2026-06-27",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838513",
+        "image": "https://s1.ticketm.net/dam/a/bcb/bdca4383-77db-4732-874c-8f3ecea28bcb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab ft. Reg Thomas, Jeff Dean, Janesh Rahlan, Julia Hladkowicz, Steven Marcus Releford and more TBA",
+        "date": "2026-06-27",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918953",
+        "image": "https://i.ticketweb.com/i/00/13/51/45/93_Edp.jpg?v=7"
+      },
+      {
+        "name": "Tonight at the Improv ft. Steph Tolev, Sahib Singh, Craig Conant, Amir K, Cort McCown, Shawn Pelofsky, Gary Cannon and more TBA",
+        "date": "2026-06-27",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838493",
+        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LA vs Transplants ft. Zach Holmes, Kayla Hardy, Katherine Yoon, Amy Geist, Amber Easton, Joseph Schles, Jackie Blumsack, Jenna Bleecker, Marcelous Sammuel",
+        "date": "2026-06-27",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-zach-hollywood-improv-the-lab-tickets/14900473",
+        "image": "https://i.ticketweb.com/i/00/13/49/62/03_Edp.jpg?v=5"
       }
     ]
   }
