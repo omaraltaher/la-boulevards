@@ -1,13 +1,6 @@
 {
-  "generated": "2026-06-24T15:47:18.046Z",
+  "generated": "2026-06-25T15:52:22.229Z",
   "events": [
-    {
-      "name": "Audrey Hobert: The Staircase To Stardom Tour",
-      "date": "2026-06-24",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/audrey-hobert-the-staircase-to-stardom-los-angeles-california-06-24-2026/event/0900642EDB72317A",
-      "image": "https://s1.ticketm.net/dam/a/5af/e58b8d7c-541b-40ed-a6d2-09652bc905af_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Stavros Halkias: The Dreamboat Tour",
       "date": "2026-06-25",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/big-sad-1900-live-in-concert-los-angeles-california-07-18-2026/event/090064B40645FBD0",
       "image": "https://s1.ticketm.net/dam/a/d43/426ae5e3-5b4b-40ab-b36f-73b7b2324d43_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Trixie & Katya LIVE: Very Bald, Very Beautiful",
+      "date": "2026-07-19",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/trixie-katya-live-very-bald-very-los-angeles-california-07-19-2026/event/0900643250457355",
+      "image": "https://s1.ticketm.net/dam/a/605/597a47d9-bb58-4c9b-9341-81af1d4cd605_RECOMENDATION_16_9.jpg"
     }
   ]
 }
