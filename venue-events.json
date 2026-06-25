@@ -1,14 +1,7 @@
 {
-  "generated": "2026-06-24T16:44:23.402Z",
+  "generated": "2026-06-25T16:47:14.244Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "The Basement Series - The Vinyl Room @ The Hollywood Palladium",
-        "date": "2026-06-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/the-basement-series-the-vinyl-room-hollywood-california-06-24-2026/event/090064C1ECD4F376",
-        "image": "https://s1.ticketm.net/dam/e/224/4abcd6a0-85fc-4392-b57a-5de4882f1224_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Killswitch Engage",
         "date": "2026-06-25",
@@ -35,7 +28,7 @@
         "date": "2026-07-11",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/punchis-punchis-banda-rave-hollywood-california-07-11-2026/event/090064B620EF4BD0",
-        "image": "https://s1.ticketm.net/dbimages/782829a.jpg"
+        "image": "https://s1.ticketm.net/dam/a/6a2/4888f9e6-832c-40ec-a01b-218780dfc6a2_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Shrek Rave",
@@ -57,6 +50,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/totally-tubular-festival-hollywood-california-07-24-2026/event/0900648EBB53A004",
         "image": "https://s1.ticketm.net/dam/a/b99/973af7d5-cf5e-4e7e-93a1-f91c21e34b99_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Labrinth: The Undoing Tour - Presented by the cosmic opera",
+        "date": "2026-07-31",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/labrinth-the-undoing-tour-presented-by-hollywood-california-07-31-2026/event/09006490CF57AAE6",
+        "image": "https://s1.ticketm.net/dam/a/201/5908aaff-f637-4ba0-9e4d-1e7676faa201_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -236,6 +236,13 @@
     ],
     "Peacock Theater": [
       {
+        "name": "BET Awards",
+        "date": "2026-06-28",
+        "time": "17:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70S_E",
+        "image": null
+      },
+      {
         "name": "Black Myth: WUKONG Global Concert with Hollywood Film Orchestra",
         "date": "2026-07-07",
         "time": "20:00:00",
@@ -276,13 +283,6 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A704Z-",
         "image": "https://s1.ticketm.net/dam/a/fe0/4d190769-326c-460e-8f4f-3b3aa5b21fe0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Ricardo Montaner",
-        "date": "2026-08-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz86",
-        "image": "https://s1.ticketm.net/dam/a/254/c38c0813-6db8-4f30-91b2-fe9994eef254_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
@@ -444,13 +444,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Khalid: It's Always Summer Somewhere Tour",
-        "date": "2026-06-24",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/khalid-its-always-summer-somewhere-tour-los-angeles-california-06-24-2026/event/09006385895D79D7",
-        "image": "https://s1.ticketm.net/dam/a/44f/a37274f7-e617-4b3c-9a99-ac44a3f3b44f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Royel Otis w/ Ax and the Hatchetmen",
         "date": "2026-07-08",
         "time": "19:30:00",
@@ -498,6 +491,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/ca7riel-paco-amoroso-free-spirits-world-los-angeles-california-07-16-2026/event/09006475293F370C",
         "image": "https://s1.ticketm.net/dam/a/d70/4ae8fa11-7f13-4554-affb-3e5aba487d70_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sam Barber w/ John Vincent III",
+        "date": "2026-07-18",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPE",
+        "image": "https://s1.ticketm.net/dam/a/214/942ca935-f039-47f1-ab3a-17e1db98c214_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -548,7 +548,7 @@
         "date": "2026-09-26",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/sonic-live-in-concert-hollywood-california-09-26-2026/event/090064B4CE535DF9",
-        "image": "https://s1.ticketm.net/dam/a/352/f613a100-041d-4133-93df-5c215b649352_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/f8d/a2759b35-f441-4493-9453-468b2f700f8d_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Max Amini Live in Hollywood!",
@@ -559,13 +559,6 @@
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-06-24",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b916",
-        "image": null
-      },
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-06-25",
@@ -599,6 +592,13 @@
         "date": "2026-06-30",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91f",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-07-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b914",
         "image": null
       }
     ],
@@ -654,14 +654,14 @@
         "date": "2026-09-11",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/dan-and-phil-hard-launch-world-los-angeles-california-09-11-2026/event/090064D1B1CBAC4F",
-        "image": "https://s1.ticketm.net/dam/a/fa6/a8381fb7-d1e7-4612-84b7-3f98f983cfa6_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/415/040df804-f51a-4e21-8137-d17f51f0e415_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Dan and Phil: Hard Launch World Tour",
         "date": "2026-09-12",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/dan-and-phil-hard-launch-world-los-angeles-california-09-12-2026/event/090064D39F8A8B4A",
-        "image": "https://s1.ticketm.net/dam/a/fa6/a8381fb7-d1e7-4612-84b7-3f98f983cfa6_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/415/040df804-f51a-4e21-8137-d17f51f0e415_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour",
@@ -765,13 +765,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Elliott Brothers' COMEDY BLOCK PARTY w/ Chris Spencer",
-        "date": "2026-06-24",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/elliott-brothers-comedy-block-party-w-inglewood-california-06-24-2026/event/0B0064AEA5B6472A",
-        "image": "https://s1.ticketm.net/dam/e/863/3ac22acf-0fd5-4d9d-a04f-eca51efb6863_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Momo Rodriguez",
         "date": "2026-06-26",
         "time": "21:00:00",
@@ -804,7 +797,7 @@
         "date": "2026-08-22",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/tedxinglewood-2026-inglewood-california-08-22-2026/event/0B0064C1A75B5857",
-        "image": "https://s1.ticketm.net/dam/a/f38/d9f8f5f9-c678-4169-8ae2-f40a45408f38_474451_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/e/090/f03305d2-90c2-45a6-9055-56f24c651090_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "A SUMMER NIGHT OF R&B SOUL",
@@ -827,18 +820,18 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Full Cup No Filter 7:30 PM",
-        "date": "2026-06-24",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/full-cup-no-filter-730-pm-tickets-1986861873348",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187068754%2F2987014365277%2F1%2Foriginal.20260616-221303?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=248ebe1a1debb23d0a43ae2872ab29a4"
+        "name": "Tony Rock’s Birthday Comedy Show 8:00PM",
+        "date": "2026-06-25",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/tony-rocks-birthday-comedy-show-800pm-tickets-1986940722187",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186992745%2F2987014365277%2F1%2Foriginal.20260616-013052?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=00fa288b65f6c0ed85ab1403172df19f"
       },
       {
-        "name": "Wednesday All-Star Comedy 9:45PM",
-        "date": "2026-06-24",
+        "name": "Tehran Thursday's 9:45 PM",
+        "date": "2026-06-25",
         "time": "21:45",
-        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-945pm-tickets-1986861936537",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187424464%2F2987014365277%2F1%2Foriginal.20260622-194255?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=88da178e29a9a3cddea07355fd8a544f"
+        "url": "https://www.eventbrite.com/e/tehran-thursdays-945-pm-tickets-1986940833520",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187224809%2F2987014365277%2F1%2Foriginal.20260618-195045?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e948837bd14d3962f0f8e70ea794e4bc"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -885,27 +878,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-06-24",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14918943",
-        "image": "https://i.ticketweb.com/i/00/13/51/45/83_Edp.jpg?v=3"
-      },
-      {
-        "name": "Legends ft. Jay Leno, Arsenio Hall, Chelsea Handler, Larry Wilmore, Greg Baldwin, Tara Cannistraci and more TBA",
-        "date": "2026-06-24",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-arsenio-hollywood-improv-the-main-room-tickets/14189244",
-        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Clown Medicine ft. Chad Kroeger, JT Parr, Sarah Lawrence, Wrenn Woods and more TBA",
-        "date": "2026-06-24",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/clown-medicine-ft-chad-kroeger-hollywood-improv-the-lab-tickets/14873203",
-        "image": "https://i.ticketweb.com/i/00/13/47/15/93_Edp.jpg?v=3"
-      },
-      {
         "name": "Tonight at the Improv ft. Chelsea Handler, Robby Hoffman, T.J. Miller, Pete Lee, Brian Monarch, Greg Wilson and more TBD",
         "date": "2026-06-25",
         "time": "19:30:00",
@@ -948,11 +920,11 @@
         "image": "https://s1.ticketm.net/dam/a/a23/994d1c6a-da6e-4d91-bb7b-7b8b8eb75a23_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Asif Ali, Becky Robinson, Sahib Singh, Sammy Obeid, Dustin Nickerson, Shane Torres, Andre Kelley and more TBA",
+        "name": "Tonight at the Improv ft. Becky Robinson, Sammy Obeid, Sahib Singh, Asif Ali, Dustin Nickerson, Shane Torres, Andre Kelley and more TBA",
         "date": "2026-06-26",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14208754",
-        "image": "https://s1.ticketm.net/dam/a/689/514bec4c-42ef-4165-92f8-1124365dd689_1827131_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/c77/9f7654fe-87fb-4226-89c8-2dadcc3d9c77_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -995,6 +967,27 @@
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-zach-hollywood-improv-the-lab-tickets/14900473",
         "image": "https://i.ticketweb.com/i/00/13/49/62/03_Edp.jpg?v=5"
+      },
+      {
+        "name": "LA Stand Ups Presents",
+        "date": "2026-06-28",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/la-stand-ups-presents-hollywood-improv-the-lab-tickets/14154034",
+        "image": "https://i.ticketweb.com/i/00/12/87/33/04_Edp.jpg?v=4"
+      },
+      {
+        "name": "Cameron Esposito & Friends ft. Beth Stelling, Zach Noe Towers, Jared Goldstein, and more TBA",
+        "date": "2026-06-28",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/cameron-esposito-friends-ft-hollywood-improv-the-main-room-tickets/14832403",
+        "image": "https://s1.ticketm.net/dam/a/0ba/da363796-4f3e-4b1a-a2b1-e2c4564910ba_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Neverending Comedy ft. Devyn Perry, Avry Ross, Ron G, Peter Murphy, Scott Manke, Greg Hoffman, Shaman Johal, Improv by Sweet Dalai Lama",
+        "date": "2026-06-28",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/neverending-comedy-ft-devyn-perry-hollywood-improv-the-lab-tickets/14873263",
+        "image": "https://s1.ticketm.net/dam/a/e10/9e0b2c33-8ca5-4e5a-bc87-d616f27dbe10_RECOMENDATION_16_9.jpg"
       }
     ]
   }
