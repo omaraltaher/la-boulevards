@@ -1,13 +1,6 @@
 {
-  "generated": "2026-06-25T15:52:22.229Z",
+  "generated": "2026-06-26T15:47:58.238Z",
   "events": [
-    {
-      "name": "Stavros Halkias: The Dreamboat Tour",
-      "date": "2026-06-25",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/stavros-halkias-the-dreamboat-tour-los-angeles-california-06-25-2026/event/090064A7A898C83F",
-      "image": "https://s1.ticketm.net/dam/a/c07/43b9e171-e2b1-4d75-8d99-e3cd022e4c07_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Joshua Slone - Thinking Too Much Tour",
       "date": "2026-06-28",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/trixie-katya-live-very-bald-very-los-angeles-california-07-19-2026/event/0900643250457355",
       "image": "https://s1.ticketm.net/dam/a/605/597a47d9-bb58-4c9b-9341-81af1d4cd605_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "The Marvelous Miss Gender starring BOSCO",
+      "date": "2026-07-30",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/the-marvelous-miss-gender-starring-bosco-los-angeles-california-07-30-2026/event/09006467E11EE9E2",
+      "image": "https://s1.ticketm.net/dam/a/8e9/48c8d8b4-498d-43d6-b81a-227a346128e9_RECOMENDATION_16_9.jpg"
     }
   ]
 }
