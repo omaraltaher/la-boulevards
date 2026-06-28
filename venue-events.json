@@ -1,14 +1,7 @@
 {
-  "generated": "2026-06-27T16:24:53.012Z",
+  "generated": "2026-06-28T16:26:57.041Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "DILLSTRADAMUS (Dillon Francis B2B Flosstradamus)",
-        "date": "2026-06-27",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/dillstradamus-dillon-francis-b2b-flosstradamus-hollywood-california-06-27-2026/event/09006437C99A49D6",
-        "image": "https://s1.ticketm.net/dam/a/9a7/ca060e13-f0da-423f-ac3c-78bfd58089a7_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Bop To The Top",
         "date": "2026-07-10",
@@ -57,17 +50,17 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/poppy-constantly-nowhere-tour-hollywood-california-08-07-2026/event/0900644C97F09EC7",
         "image": "https://s1.ticketm.net/dam/a/e75/3625c63d-c444-48ac-974b-94efbd5fce75_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "T.I. - The King Succession Tour",
+        "date": "2026-08-13",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/ti-the-king-succession-tour-hollywood-california-08-13-2026/event/090064A11D1C51AF",
+        "image": "https://s1.ticketm.net/dam/a/689/f6393f31-6e1f-4a62-acea-f862bb766689_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Earlybirds Club 80s + New Wave Night (21 and Over)",
-        "date": "2026-06-27",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70k7b",
-        "image": "https://s1.ticketm.net/dam/a/2bb/8bc3e5bc-c95a-4f9c-a2dc-b95d347992bb_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Holly Humberstone",
         "date": "2026-06-29",
@@ -116,16 +109,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70doO",
         "image": null
+      },
+      {
+        "name": "Benjamin William Hastings w/ Aodhan King",
+        "date": "2026-08-10",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6-U",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Time Machine: 90s - 2000s Throwback Dance Party",
-        "date": "2026-06-27",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/time-machine-90s-avalon-hollywood-tickets/14957253",
-        "image": "https://i.ticketweb.com/i/00/13/56/35/73_Edp.jpg?v=4"
-      },
       {
         "name": "Agents of Time, Henri Bergmann ",
         "date": "2026-07-03",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/markus-schulz-open-to-close-avalon-hollywood-tickets/14886543",
         "image": "https://s1.ticketm.net/dam/a/44d/22f6a5c9-c2d2-46f9-9d3f-4ec8e3b3844d_89601_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Darude",
+        "date": "2026-07-25",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/darude-avalon-hollywood-tickets/14895463",
+        "image": "https://i.ticketweb.com/i/00/13/49/11/03_Edp.jpg?v=9"
       }
     ],
     "The Novo": [
-      {
-        "name": "KALEO",
-        "date": "2026-06-27",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIbp",
-        "image": "https://s1.ticketm.net/dam/a/80e/45d7ab20-6248-49b3-8ada-555fe4e0780e_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Kurt Vile & The Violators w/ Ryan Davis & the Roadhouse Band",
         "date": "2026-07-08",
@@ -231,6 +224,13 @@
         "date": "2026-08-01",
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PkbS",
+        "image": null
+      },
+      {
+        "name": "Loving Worship Praise Concert - THIS. IS. RUACH.",
+        "date": "2026-08-02",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PkbV",
         "image": null
       }
     ],
@@ -287,20 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "2 DAY PASS - KCRW presents: Aquarium Drunkard 21st Anniversary ft. SML",
-        "date": "2026-06-26",
-        "time": null,
-        "url": "https://www.ticketmaster.com/2-day-pass-kcrw-presents-aquarium-los-angeles-california-06-26-2026/event/0900648A0534499E",
-        "image": "https://s1.ticketm.net/dam/e/dfc/ad367683-308a-4e8d-9e38-3e216fe5edfc_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "KCRW presents: Aquarium Drunkard 21st Ann: SML w/ Genevieve Artadi",
-        "date": "2026-06-27",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/kcrw-presents-aquarium-drunkard-21st-ann-los-angeles-california-06-27-2026/event/0900648AA3208F31",
-        "image": "https://s1.ticketm.net/dam/e/7d6/75b0df67-86d3-4d45-b3c3-5da4a8d6c7d6_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "High Fade: Twice as Nice Tour",
         "date": "2026-07-10",
         "time": "19:00:00",
@@ -341,6 +327,20 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/vacation-manor-los-angeles-california-07-18-2026/event/09006482DB38D1C8",
         "image": "https://s1.ticketm.net/dam/e/cf7/d95a56d2-149f-43e7-a1e7-2b24bcd7bcf7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Enola Bedard - North America Tour 2026",
+        "date": "2026-07-31",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/enola-bedard-north-america-tour-2026-los-angeles-california-07-31-2026/event/09006498A847D5A8",
+        "image": "https://s1.ticketm.net/dam/e/43f/ce14e708-23fc-49ab-9f8b-56a5e3ba143f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "DEADHEAD DISCO: JERRY GARCIA'S BIRTHDAY CELEBRATION",
+        "date": "2026-08-01",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/deadhead-disco-jerry-garcias-birthday-celebration-los-angeles-california-08-01-2026/event/090064A5B278E816",
+        "image": "https://s1.ticketm.net/dam/e/05c/05d36c0b-cb5e-4cd3-82b3-d54d6fa3105c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -502,13 +502,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "Natalia Lafourcade - Cancionera Tour",
-        "date": "2026-06-27",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/natalia-lafourcade-cancionera-tour-hollywood-california-06-27-2026/event/0900627F9B7E2A64",
-        "image": "https://s1.ticketm.net/dam/a/5d4/21700809-2211-46d5-a314-4d29a6a3e5d4_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "2026 WOODZ WORLD TOUR ' Archive. 1 ' IN US",
         "date": "2026-07-25",
         "time": "19:30:00",
@@ -549,16 +542,16 @@
         "time": "16:30:00",
         "url": "https://www.ticketmaster.com/max-amini-live-in-hollywood-hollywood-california-10-03-2026/event/090064B0EA809486",
         "image": "https://s1.ticketm.net/dam/a/960/ab8e2d71-4b2e-4d4c-b9c3-542f2a73b960_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sara Bareilles: The Good Grief Tour",
+        "date": "2026-10-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/sara-bareilles-the-good-grief-tour-hollywood-california-10-12-2026/event/090064C2D941CF2E",
+        "image": "https://s1.ticketm.net/dam/a/d75/c9e9ff52-8f03-4705-b92b-96c3651f9d75_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-06-27",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91o",
-        "image": null
-      },
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-06-28",
@@ -592,6 +585,20 @@
         "date": "2026-07-03",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b919",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-07-04",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91b",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-07-05",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91_",
         "image": null
       }
     ],
@@ -688,13 +695,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "Anastasia (Touring)",
-        "date": "2026-06-27",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3r7",
-        "image": null
-      },
-      {
-        "name": "Anastasia (Touring)",
         "date": "2026-06-28",
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3rA",
@@ -720,6 +720,20 @@
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQZ",
         "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "La Mirada Theatre presents: Little Shop of Horrors",
+        "date": "2026-09-24",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQo",
+        "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "La Mirada Theatre presents: Little Shop of Horrors",
+        "date": "2026-09-27",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQ8",
+        "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
       }
     ],
     "Downey Civic Theatre": [],
@@ -736,13 +750,6 @@
     "Eli Broad Stage": [],
     "Beverly O'Neill Theater": [],
     "Levitt Pavilion": [
-      {
-        "name": "Los P2 w/ FUERZA, Mafia Rusa & Los Paranoias",
-        "date": "2026-06-27",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/los-p2-w-fuerza-mafia-rusa-los-paranoias-tickets-1991936465590",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186453439%2F405366306269%2F1%2Foriginal.20260608-233730?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a878752ef6a7853144f2f1d7d80bc8fd"
-      },
       {
         "name": "Lil June Afro Punta w/ Gahfu Garifuna Drumming Ensemble & Grupo Bomba Mix",
         "date": "2026-07-10",
@@ -806,20 +813,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Saturday Night All-Stars 7:30PM",
-        "date": "2026-06-27",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/saturday-night-all-stars-730pm-tickets-1986950962817",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187670237%2F2987014365277%2F1%2Foriginal.20260625-204508?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c876285cbc5658f632b1f1a0d22fa9af"
-      },
-      {
-        "name": "Hollywood's Hottest 9:45PM",
-        "date": "2026-06-27",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/hollywoods-hottest-945pm-tickets-1986951021994",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187514312%2F2987014365277%2F1%2Foriginal.20260623-205218?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f1cb4c8be3e7b126cb9827355795ddc0"
-      },
-      {
         "name": "Chocolate Sundaes 7:00PM",
         "date": "2026-06-28",
         "time": "19:00",
@@ -845,7 +838,21 @@
         "date": "2026-06-30",
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1986860590511",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187751980%2F2989400506155%2F1%2Foriginal.20260627-033222?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d2aff211912e07e88e5266f3b6dddbe2"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187774302%2F2989400506155%2F1%2Foriginal.20260627-205150?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1ccd68fe341948ad365967cee8bfa91d"
+      },
+      {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-07-05",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1988131093620",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
+        "name": "Chocolate Sundaes 9:30PM",
+        "date": "2026-07-05",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1988131932128",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
@@ -863,41 +870,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Mike Ivy Memorial",
-        "date": "2026-06-27",
-        "time": "15:00:00",
-        "url": "https://www.ticketweb.com/event/mike-ivy-memorial-hollywood-improv-the-main-room-tickets/14202674",
-        "image": "https://i.ticketweb.com/i/00/12/91/93/14_Edp.jpg?v=2"
-      },
-      {
-        "name": "Tonight at the Improv ft. Sahib Singh, Preacher Lawson, Cristela Alonzo, Kirk Fox, Eleanor Kerrigan, Ali Macofsky, Gary Cannon & more TBA",
-        "date": "2026-06-27",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838513",
-        "image": "https://s1.ticketm.net/dam/a/bcb/bdca4383-77db-4732-874c-8f3ecea28bcb_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Reg Thomas, Jeff Dean, Janesh Rahlan, Julia Hladkowicz, Steven Marcus Releford, Von Decarlo, Clay Newman and more TBA",
-        "date": "2026-06-27",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14918953",
-        "image": "https://i.ticketweb.com/i/00/13/51/45/93_Edp.jpg?v=10"
-      },
-      {
-        "name": "Tonight at the Improv ft. Steph Tolev, Sahib Singh, Lara Beitz, Amir K, Cort McCown, Shawn Pelofsky, Gary Cannon and more TBA",
-        "date": "2026-06-27",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14838493",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "LA vs Transplants ft. Zach Holmes, Kayla Hardy, Katherine Yoon, Amy Geist, Amber Easton, Joseph Schles, Jackie Blumsack, Jenna Bleecker, Marcelous Sammuel",
-        "date": "2026-06-27",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-zach-hollywood-improv-the-lab-tickets/14900473",
-        "image": "https://i.ticketweb.com/i/00/13/49/62/03_Edp.jpg?v=5"
-      },
       {
         "name": "LA Stand Ups Presents",
         "date": "2026-06-28",
@@ -920,18 +892,18 @@
         "image": "https://s1.ticketm.net/dam/a/e10/9e0b2c33-8ca5-4e5a-bc87-d616f27dbe10_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Crushing Reality ft. Ric Rosario, Myke Wright, Sandro Iocolano, Nicky Davis, Kelly Farmer, Steph Merlo, Dustin David, Nicole Dan, Jacob Rosalez!",
+        "name": "Crushing Reality ft. Ric Rosario, Myke Wright, Deradoorian, Kelly Farmer, Steph Merlo, Mark Lonow, Dustin David, Nicole Dan, Jacob Rosalez!",
         "date": "2026-06-28",
         "time": "21:00:00",
         "url": "https://www.ticketweb.com/event/crushing-reality-ft-ric-rosario-hollywood-improv-the-lab-tickets/14811503",
-        "image": "https://i.ticketweb.com/i/00/13/41/25/13_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/41/25/13_Edp.jpg?v=9"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Cristela Alonzo, Preacher Lawson, Nick Guerra, Gary Cannon",
+        "name": "Tonight at the Improv ft. T.J. Miller, Anthony Jeselnik, Cristela Alonzo, Preacher Lawson, Nick Guerra, Gary Cannon",
         "date": "2026-06-29",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14931423",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/22b/04826ca7-d3ee-461c-92f1-bdb9461c922b_1580281_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "New Joke Night ft. Mike Falzone & JF Harris",
@@ -955,7 +927,7 @@
         "image": "https://i.ticketweb.com/i/00/13/53/60/83_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Damon Wayans, Anthony Jeselnik, Brian Monarch and VERY Special Guests",
+        "name": "Tonight at the Improv ft. Damon Wayans, Anthony Jeselnik, Adam Ray, Damon Wayans Jr, Brian Monarch, Jen Murphy and VERY Special Guests",
         "date": "2026-06-30",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14919573",
@@ -969,11 +941,46 @@
         "image": "https://i.ticketweb.com/i/00/13/42/70/63_Edp.jpg?v=3"
       },
       {
+        "name": "Hot Mic with Comedian CP",
+        "date": "2026-06-30",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/hot-mic-with-comedian-cp-hollywood-improv-the-main-room-tickets/14931343",
+        "image": "https://i.ticketweb.com/i/00/13/52/67/23_Edp.jpg?v=4"
+      },
+      {
         "name": "Deon Cole: Does This Work?",
         "date": "2026-06-30",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14950603",
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lab Work",
+        "date": "2026-07-01",
+        "time": "18:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14975053",
+        "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
+      },
+      {
+        "name": "Vinny Fasline & Friends ft. David Spade, Anthony Jeselnik, Kevin Nealon, Damon Wayans Jr., Vinny Fasline, Justine Marino",
+        "date": "2026-07-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/vinny-fasline-friends-ft-hollywood-improv-the-main-room-tickets/14212364",
+        "image": "https://s1.ticketm.net/dam/a/790/2e124d53-3f5e-48c4-ab26-11bc2213a790_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-07-01",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219334",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Damon Wayans, Anthony Jeselnik, Whitney Cummings, Brian Monarch, Leah Knauer and VERY special guests",
+        "date": "2026-07-02",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973013",
+        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       }
     ]
   }
