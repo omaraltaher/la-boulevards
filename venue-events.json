@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T16:26:57.041Z",
+  "generated": "2026-06-29T17:00:46.749Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -236,13 +236,6 @@
     ],
     "Peacock Theater": [
       {
-        "name": "BET Awards",
-        "date": "2026-06-28",
-        "time": "17:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70S_E",
-        "image": null
-      },
-      {
         "name": "Black Myth: WUKONG Global Concert with Hollywood Film Orchestra",
         "date": "2026-07-07",
         "time": "20:00:00",
@@ -283,6 +276,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A704Z-",
         "image": "https://s1.ticketm.net/dam/a/fe0/4d190769-326c-460e-8f4f-3b3aa5b21fe0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ricardo Montaner",
+        "date": "2026-08-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz86",
+        "image": "https://s1.ticketm.net/dam/a/254/c38c0813-6db8-4f30-91b2-fe9994eef254_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
@@ -554,13 +554,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-06-28",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b913",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-06-30",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91f",
@@ -599,6 +592,13 @@
         "date": "2026-07-05",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91_",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-07-07",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Gv",
         "image": null
       }
     ],
@@ -694,13 +694,6 @@
     ],
     "La Mirada Theatre For The Performing Arts": [
       {
-        "name": "Anastasia (Touring)",
-        "date": "2026-06-28",
-        "time": "13:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q3rA",
-        "image": null
-      },
-      {
         "name": "Young Artist Project",
         "date": "2026-08-06",
         "time": "19:00:00",
@@ -733,6 +726,13 @@
         "date": "2026-09-27",
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQ8",
+        "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "La Mirada Theatre presents: Little Shop of Horrors",
+        "date": "2026-10-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J_z",
         "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -813,20 +813,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-06-28",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1986840794300",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-06-28",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1986841263704",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
         "name": "Monday All-Star Comedy 8:00PM",
         "date": "2026-06-29",
         "time": "20:00",
@@ -855,6 +841,20 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-07-12",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1988135324274",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
+        "name": "Chocolate Sundaes 9:30PM",
+        "date": "2026-07-12",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1988135360382",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
         "date": "2026-09-20",
         "time": "17:00",
@@ -870,34 +870,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "LA Stand Ups Presents",
-        "date": "2026-06-28",
-        "time": "16:00:00",
-        "url": "https://www.ticketweb.com/event/la-stand-ups-presents-hollywood-improv-the-lab-tickets/14154034",
-        "image": "https://i.ticketweb.com/i/00/12/87/33/04_Edp.jpg?v=4"
-      },
-      {
-        "name": "Cameron Esposito & Friends ft. Beth Stelling, Zach Noe Towers, Jared Goldstein, and more TBA",
-        "date": "2026-06-28",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/cameron-esposito-friends-ft-hollywood-improv-the-main-room-tickets/14832403",
-        "image": "https://s1.ticketm.net/dam/a/0ba/da363796-4f3e-4b1a-a2b1-e2c4564910ba_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Neverending Comedy ft. Devyn Perry, Avry Ross, Ron G, Peter Murphy, Scott Manke, Greg Hoffman, Shaman Johal, Improv by Sweet Dalai Lama",
-        "date": "2026-06-28",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/neverending-comedy-ft-devyn-perry-hollywood-improv-the-lab-tickets/14873263",
-        "image": "https://s1.ticketm.net/dam/a/e10/9e0b2c33-8ca5-4e5a-bc87-d616f27dbe10_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Crushing Reality ft. Ric Rosario, Myke Wright, Deradoorian, Kelly Farmer, Steph Merlo, Mark Lonow, Dustin David, Nicole Dan, Jacob Rosalez!",
-        "date": "2026-06-28",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/crushing-reality-ft-ric-rosario-hollywood-improv-the-lab-tickets/14811503",
-        "image": "https://i.ticketweb.com/i/00/13/41/25/13_Edp.jpg?v=9"
-      },
       {
         "name": "Tonight at the Improv ft. T.J. Miller, Anthony Jeselnik, Cristela Alonzo, Preacher Lawson, Nick Guerra, Gary Cannon",
         "date": "2026-06-29",
@@ -981,6 +953,34 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973013",
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
+        "date": "2026-07-02",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14964753",
+        "image": "https://i.ticketweb.com/i/00/13/57/07/23_Edp.jpg?v=6"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-07-02",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219354",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-07-03",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940693",
+        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
+      },
+      {
+        "name": "Historical Roast: The Founding Fathers ft. Eddie Furth, Ryan Pigg, Julia Hladkowicz, Matt McCarthy, Scout Durwood, Matt O’Brien, Anyi Malik, Keith Carey, Maggie Maye AND MORE!",
+        "date": "2026-07-03",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/historical-roast-the-founding-fathers-hollywood-improv-the-lab-tickets/14933613",
+        "image": "https://i.ticketweb.com/i/00/13/52/90/13_Edp.jpg?v=8"
       }
     ]
   }
