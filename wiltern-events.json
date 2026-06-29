@@ -1,13 +1,6 @@
 {
-  "generated": "2026-06-28T15:30:07.117Z",
+  "generated": "2026-06-29T16:18:22.720Z",
   "events": [
-    {
-      "name": "Joshua Slone - Thinking Too Much Tour",
-      "date": "2026-06-28",
-      "time": "18:30:00",
-      "url": "https://www.ticketmaster.com/joshua-slone-thinking-too-much-tour-los-angeles-california-06-28-2026/event/09006478E657B105",
-      "image": "https://s1.ticketm.net/dam/a/8c8/515d37e0-594f-46ca-b8e2-48e3206ae8c8_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "JINJER Duel North America 2026",
       "date": "2026-07-02",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/the-marvelous-miss-gender-starring-bosco-los-angeles-california-07-30-2026/event/09006467E11EE9E2",
       "image": "https://s1.ticketm.net/dam/a/8e9/48c8d8b4-498d-43d6-b81a-227a346128e9_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "The Pretty Reckless - Dear God Tour",
+      "date": "2026-07-31",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/the-pretty-reckless-dear-god-tour-los-angeles-california-07-31-2026/event/0900646BD0DFDA74",
+      "image": "https://s1.ticketm.net/dam/a/9f9/29569a70-00c1-4792-a27b-d402c0d899f9_RECOMENDATION_16_9.jpg"
     }
   ]
 }
