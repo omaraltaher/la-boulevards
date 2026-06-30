@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T17:00:46.749Z",
+  "generated": "2026-06-30T16:44:21.611Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Holly Humberstone",
-        "date": "2026-06-29",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ked",
-        "image": null
-      },
-      {
         "name": "Chance Pena",
         "date": "2026-07-27",
         "time": "20:00:00",
@@ -116,6 +109,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6-U",
         "image": null
+      },
+      {
+        "name": "The Sword w/ Spoon Benders",
+        "date": "2026-08-18",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7073f",
+        "image": "https://s1.ticketm.net/dam/a/7af/f688143f-a664-42d1-8655-d55fba9167af_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -124,7 +124,7 @@
         "date": "2026-07-03",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/agents-of-time-henri-bergmann-avalon-hollywood-tickets/14829933",
-        "image": "https://i.ticketweb.com/i/00/13/42/96/83_Edp.jpg?v=8"
+        "image": "https://i.ticketweb.com/i/00/13/42/96/83_Edp.jpg?v=9"
       },
       {
         "name": "Privadas Con El Ocho with Special Guest ETC!ETC",
@@ -765,10 +765,10 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Elliott Brothers' COMEDY BLOCK PARTY Hosted by Chris Spencer",
+        "name": "COMEDY BLOCK PARTY Hosted by Chris Spencer & Co-host Alex Thomas",
         "date": "2026-07-15",
         "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/elliott-brothers-comedy-block-party-hosted-inglewood-california-07-15-2026/event/0B0064D1F124585D",
+        "url": "https://www.ticketmaster.com/comedy-block-party-hosted-by-chris-inglewood-california-07-15-2026/event/0B0064D1F124585D",
         "image": "https://s1.ticketm.net/dam/e/c45/a243e1b4-a819-44de-a0b8-971469424c45_RECOMENDATION_16_9.jpg"
       },
       {
@@ -800,6 +800,13 @@
         "image": null
       },
       {
+        "name": "Gabby Cervantes- En Vivo, Con Mariachi Internacional Los Perez",
+        "date": "2026-09-04",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/gabby-cervantes-en-vivo-con-mariachi-inglewood-california-09-04-2026/event/0B0064DD70BA1549",
+        "image": "https://s1.ticketm.net/dam/e/a90/f1db0dea-79f3-4714-ab69-869f55838a90_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Tre Floyd's Black Girl Therapy",
         "date": "2026-09-19",
         "time": "15:00:00",
@@ -812,13 +819,6 @@
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
     "Laugh Factory": [
-      {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-06-29",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1986860950588",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187745069%2F2987014365277%2F1%2Foriginal.20260626-230844?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9743e13224e91a88b8c2c152d151df06"
-      },
       {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-06-30",
@@ -855,6 +855,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-07-19",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1988135767600",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
         "date": "2026-09-20",
         "time": "17:00",
@@ -871,27 +878,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. T.J. Miller, Anthony Jeselnik, Cristela Alonzo, Preacher Lawson, Nick Guerra, Gary Cannon",
-        "date": "2026-06-29",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14931423",
-        "image": "https://s1.ticketm.net/dam/a/22b/04826ca7-d3ee-461c-92f1-bdb9461c922b_1580281_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "New Joke Night ft. Mike Falzone & JF Harris",
-        "date": "2026-06-29",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/new-joke-night-ft-mike-hollywood-improv-the-lab-tickets/14978173",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
-        "date": "2026-06-29",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14922643",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-06-30",
         "time": "17:15:00",
@@ -906,18 +892,18 @@
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "John Campanelli & Special Guests ft. John Campanelli, Scott Rowe, Nathan Spina, Brooke Gorman, and more TBA",
+        "name": "John Campanelli & Special Guests ft. John Campanelli, Nicky Paris, Scott Rowe, Nathan Spina, Brooke Gorman, and more TBA",
         "date": "2026-06-30",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14826953",
-        "image": "https://i.ticketweb.com/i/00/13/42/70/63_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/13/42/70/63_Edp.jpg?v=5"
       },
       {
-        "name": "Hot Mic with Comedian CP",
+        "name": "Hot Mic with Comedian CP ft. HOST: Comedian CP, Vince Caldera, Pink Foxx, Shapel Lacey, Na’im Lynn",
         "date": "2026-06-30",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/hot-mic-with-comedian-cp-hollywood-improv-the-main-room-tickets/14931343",
-        "image": "https://i.ticketweb.com/i/00/13/52/67/23_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/12/94/02/34_Edp.jpg?v=2"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -969,11 +955,11 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Loni Love, Ian Bagg, Simon Gibson and more TBA",
         "date": "2026-07-03",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940693",
-        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940693",
+        "image": "https://s1.ticketm.net/dam/a/63f/18b87222-ab20-4024-a496-fe7cf6fe663f_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Historical Roast: The Founding Fathers ft. Eddie Furth, Ryan Pigg, Julia Hladkowicz, Matt McCarthy, Scout Durwood, Matt O’Brien, Anyi Malik, Keith Carey, Maggie Maye AND MORE!",
@@ -981,6 +967,27 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/historical-roast-the-founding-fathers-hollywood-improv-the-lab-tickets/14933613",
         "image": "https://i.ticketweb.com/i/00/13/52/90/13_Edp.jpg?v=8"
+      },
+      {
+        "name": "Tonight at the Improv ft. Francisco Ramos, Ian Bagg, Greg Fitzsimmons, Jessimae Peluso, Renee Percy",
+        "date": "2026-07-03",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922703",
+        "image": "https://s1.ticketm.net/dam/a/c35/6d53309b-09ed-4099-98db-652af9847c35_1526471_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-07-03",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219374",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-07-04",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14219284",
+        "image": "https://i.ticketweb.com/i/00/12/93/74/94_Edp.jpg?v=2"
       }
     ]
   }
