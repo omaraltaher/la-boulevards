@@ -1,6 +1,422 @@
 {
-  "generated": "2026-06-01T17:32:20.085Z",
+  "generated": "2026-07-01T13:00:12.457Z",
   "plants": [
+    {
+      "lat": 34.1505,
+      "lon": -118.7737,
+      "species": "California Poppy",
+      "date": "2026-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689444545/small.jpg",
+      "url": "https://www.inaturalist.org/observations/377041006"
+    },
+    {
+      "lat": 34.2357,
+      "lon": -118.5346,
+      "species": "California Poppy",
+      "date": "2026-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689342330/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376990430"
+    },
+    {
+      "lat": 34.1147,
+      "lon": -118.156,
+      "species": "California Poppy",
+      "date": "2026-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689245232/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376941900"
+    },
+    {
+      "lat": 33.7762,
+      "lon": -117.7619,
+      "species": "California Poppy",
+      "date": "2026-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689323176/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376981936"
+    },
+    {
+      "lat": 34.098,
+      "lon": -118.7314,
+      "species": "California Poppy",
+      "date": "2026-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688823935/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376720134"
+    },
+    {
+      "lat": 34.0349,
+      "lon": -118.5351,
+      "species": "California Poppy",
+      "date": "2026-06-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688183733/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376392369"
+    },
+    {
+      "lat": 33.8052,
+      "lon": -118.1675,
+      "species": "California Poppy",
+      "date": "2026-06-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/687943355/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376266609"
+    },
+    {
+      "lat": 34.1699,
+      "lon": -118.3191,
+      "species": "California Poppy",
+      "date": "2026-06-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/687493062/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376033264"
+    },
+    {
+      "lat": 34.3875,
+      "lon": -118.595,
+      "species": "California Poppy",
+      "date": "2026-06-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/687423847/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375997819"
+    },
+    {
+      "lat": 34.0547,
+      "lon": -118.369,
+      "species": "California Poppy",
+      "date": "2026-06-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/686654671/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375596605"
+    },
+    {
+      "lat": 34.0408,
+      "lon": -118.7124,
+      "species": "California Poppy",
+      "date": "2026-06-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/686323366/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375424642"
+    },
+    {
+      "lat": 34.0044,
+      "lon": -118.4868,
+      "species": "California Poppy",
+      "date": "2026-06-25",
+      "photo": "https://static.inaturalist.org/photos/686107558/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375318641"
+    },
+    {
+      "lat": 34.1243,
+      "lon": -118.184,
+      "species": "California Poppy",
+      "date": "2026-06-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/685055081/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374774966"
+    },
+    {
+      "lat": 34.1368,
+      "lon": -118.1671,
+      "species": "California Poppy",
+      "date": "2026-06-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684956525/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374726996"
+    },
+    {
+      "lat": 33.9694,
+      "lon": -118.4238,
+      "species": "California Poppy",
+      "date": "2026-06-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684795718/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374642051"
+    },
+    {
+      "lat": 34.0166,
+      "lon": -118.3272,
+      "species": "California Poppy",
+      "date": "2026-06-22",
+      "photo": "https://static.inaturalist.org/photos/684274439/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374373415"
+    },
+    {
+      "lat": 34.351,
+      "lon": -118.5772,
+      "species": "California Poppy",
+      "date": "2026-06-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682994508/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373711876"
+    },
+    {
+      "lat": 34.173,
+      "lon": -117.9912,
+      "species": "California Poppy",
+      "date": "2026-06-20",
+      "photo": "https://static.inaturalist.org/photos/688814334/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373673476"
+    },
+    {
+      "lat": 33.9415,
+      "lon": -118.1893,
+      "species": "California Poppy",
+      "date": "2026-06-19",
+      "photo": "https://static.inaturalist.org/photos/682359418/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373379352"
+    },
+    {
+      "lat": 34.7887,
+      "lon": -118.8719,
+      "species": "California Poppy",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/687884461/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376235771"
+    },
+    {
+      "lat": 34.0892,
+      "lon": -118.2494,
+      "species": "California Poppy",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682505786/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373452720"
+    },
+    {
+      "lat": 33.7954,
+      "lon": -117.7563,
+      "species": "California Poppy",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682233829/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373313833"
+    },
+    {
+      "lat": 34.1779,
+      "lon": -118.4726,
+      "species": "California Poppy",
+      "date": "2026-06-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681972553/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373173786"
+    },
+    {
+      "lat": 34.1289,
+      "lon": -118.1119,
+      "species": "California Poppy",
+      "date": "2026-06-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681918428/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373145790"
+    },
+    {
+      "lat": 34.0022,
+      "lon": -118.8061,
+      "species": "California Poppy",
+      "date": "2026-06-17",
+      "photo": "https://static.inaturalist.org/photos/681218900/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372780231"
+    },
+    {
+      "lat": 34.0666,
+      "lon": -118.441,
+      "species": "California Poppy",
+      "date": "2026-06-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681161074/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372749679"
+    },
+    {
+      "lat": 34.0266,
+      "lon": -118.4137,
+      "species": "California Poppy",
+      "date": "2026-06-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681345947/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372844372"
+    },
+    {
+      "lat": 34.2497,
+      "lon": -118.3435,
+      "species": "California Poppy",
+      "date": "2026-06-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684212138/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374341616"
+    },
+    {
+      "lat": 34.1768,
+      "lon": -118.2384,
+      "species": "California Poppy",
+      "date": "2026-06-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680397197/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372352120"
+    },
+    {
+      "lat": 33.7155,
+      "lon": -118.2963,
+      "species": "California Poppy",
+      "date": "2026-06-15",
+      "photo": "https://static.inaturalist.org/photos/680067623/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372176365"
+    },
+    {
+      "lat": 34.0303,
+      "lon": -118.7058,
+      "species": "California Poppy",
+      "date": "2026-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679211030/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371736772"
+    },
+    {
+      "lat": 33.8284,
+      "lon": -118.3425,
+      "species": "California Poppy",
+      "date": "2026-06-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/678419310/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371320686"
+    },
+    {
+      "lat": 33.962,
+      "lon": -118.4417,
+      "species": "California Poppy",
+      "date": "2026-06-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/678431727/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371327154"
+    },
+    {
+      "lat": 33.9723,
+      "lon": -118.5611,
+      "species": "California Poppy",
+      "date": "2026-06-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/677960555/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371074090"
+    },
+    {
+      "lat": 33.9585,
+      "lon": -118.2803,
+      "species": "California Poppy",
+      "date": "2026-06-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679476497/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371871490"
+    },
+    {
+      "lat": 33.9103,
+      "lon": -117.7865,
+      "species": "California Poppy",
+      "date": "2026-06-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/677405629/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370785170"
+    },
+    {
+      "lat": 34.1627,
+      "lon": -118.9435,
+      "species": "California Poppy",
+      "date": "2026-06-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676695749/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370424837"
+    },
+    {
+      "lat": 33.7395,
+      "lon": -118.1055,
+      "species": "California Poppy",
+      "date": "2026-06-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676712473/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370433680"
+    },
+    {
+      "lat": 34.0636,
+      "lon": -118.0063,
+      "species": "California Poppy",
+      "date": "2026-06-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676571190/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370350587"
+    },
+    {
+      "lat": 34.799,
+      "lon": -118.8547,
+      "species": "California Poppy",
+      "date": "2026-06-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/675667418/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369878083"
+    },
+    {
+      "lat": 34.0863,
+      "lon": -118.489,
+      "species": "California Poppy",
+      "date": "2026-06-08",
+      "photo": "https://static.inaturalist.org/photos/675696528/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369892658"
+    },
+    {
+      "lat": 34.1394,
+      "lon": -118.1277,
+      "species": "California Poppy",
+      "date": "2026-06-08",
+      "photo": "https://static.inaturalist.org/photos/675572356/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369828036"
+    },
+    {
+      "lat": 34.1488,
+      "lon": -117.9949,
+      "species": "California Poppy",
+      "date": "2026-06-07",
+      "photo": "https://static.inaturalist.org/photos/675011650/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369535727"
+    },
+    {
+      "lat": 33.7504,
+      "lon": -117.6909,
+      "species": "California Poppy",
+      "date": "2026-06-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/675119919/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369591374"
+    },
+    {
+      "lat": 33.8902,
+      "lon": -118.3147,
+      "species": "California Poppy",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/674416564/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369217739"
+    },
+    {
+      "lat": 34.7726,
+      "lon": -118.7591,
+      "species": "California Poppy",
+      "date": "2026-06-06",
+      "photo": "https://static.inaturalist.org/photos/674203983/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369163904"
+    },
+    {
+      "lat": 33.8208,
+      "lon": -117.7727,
+      "species": "California Poppy",
+      "date": "2026-06-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673567525/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368770037"
+    },
+    {
+      "lat": 33.7715,
+      "lon": -118.1328,
+      "species": "California Poppy",
+      "date": "2026-06-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673651173/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368813529"
+    },
+    {
+      "lat": 34.018,
+      "lon": -118.2899,
+      "species": "California Poppy",
+      "date": "2026-06-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684352714/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374413820"
+    },
+    {
+      "lat": 33.8582,
+      "lon": -118.2805,
+      "species": "California Poppy",
+      "date": "2026-06-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673290540/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368140228"
+    },
+    {
+      "lat": 33.9644,
+      "lon": -118.3961,
+      "species": "California Poppy",
+      "date": "2026-06-03",
+      "photo": "https://static.inaturalist.org/photos/672880467/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368410160"
+    },
+    {
+      "lat": 34.0389,
+      "lon": -118.4226,
+      "species": "California Poppy",
+      "date": "2026-06-03",
+      "photo": "https://static.inaturalist.org/photos/672255940/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368085823"
+    },
     {
       "lat": 34.0254,
       "lon": -118.1546,
@@ -98,6 +514,14 @@
       "url": "https://www.inaturalist.org/observations/366492959"
     },
     {
+      "lat": 33.9708,
+      "lon": -118.4327,
+      "species": "California Poppy",
+      "date": "2026-05-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673397189/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368682109"
+    },
+    {
       "lat": 34.0403,
       "lon": -118.3826,
       "species": "California Poppy",
@@ -138,6 +562,14 @@
       "url": "https://www.inaturalist.org/observations/367202101"
     },
     {
+      "lat": 34.1382,
+      "lon": -118.7286,
+      "species": "California Poppy",
+      "date": "2026-05-27",
+      "photo": "https://static.inaturalist.org/photos/678910476/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371575139"
+    },
+    {
       "lat": 34.545,
       "lon": -118.1171,
       "species": "California Poppy",
@@ -152,14 +584,6 @@
       "date": "2026-05-26",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/667546585/small.jpg",
       "url": "https://www.inaturalist.org/observations/365616451"
-    },
-    {
-      "lat": 34.1403,
-      "lon": -118.1673,
-      "species": "California Poppy",
-      "date": "2026-05-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/667601049/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365644499"
     },
     {
       "lat": 33.7141,
@@ -192,6 +616,14 @@
       "date": "2026-05-25",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666961378/small.jpg",
       "url": "https://www.inaturalist.org/observations/365310250"
+    },
+    {
+      "lat": 34.1763,
+      "lon": -118.4322,
+      "species": "California Poppy",
+      "date": "2026-05-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680460964/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372385132"
     },
     {
       "lat": 34.0973,
@@ -234,6 +666,14 @@
       "url": "https://www.inaturalist.org/observations/365233881"
     },
     {
+      "lat": 33.996,
+      "lon": -118.0052,
+      "species": "California Poppy",
+      "date": "2026-05-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666567672/small.jpg",
+      "url": "https://www.inaturalist.org/observations/365106625"
+    },
+    {
       "lat": 33.8539,
       "lon": -118.3716,
       "species": "California Poppy",
@@ -248,14 +688,6 @@
       "date": "2026-05-24",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/667053124/small.jpg",
       "url": "https://www.inaturalist.org/observations/365356914"
-    },
-    {
-      "lat": 34.0047,
-      "lon": -118.8064,
-      "species": "California Poppy",
-      "date": "2026-05-24",
-      "photo": "https://static.inaturalist.org/photos/666471215/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365053511"
     },
     {
       "lat": 34.0556,
@@ -298,28 +730,12 @@
       "url": "https://www.inaturalist.org/observations/364528027"
     },
     {
-      "lat": 34.0644,
-      "lon": -118.3567,
-      "species": "California Poppy",
-      "date": "2026-05-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666956003/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365307811"
-    },
-    {
       "lat": 33.8326,
       "lon": -118.3568,
       "species": "California Poppy",
       "date": "2026-05-23",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/665207428/small.jpg",
       "url": "https://www.inaturalist.org/observations/364390031"
-    },
-    {
-      "lat": 34.0896,
-      "lon": -118.2426,
-      "species": "California Poppy",
-      "date": "2026-05-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/665406483/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364494270"
     },
     {
       "lat": 34.1191,
@@ -338,14 +754,6 @@
       "url": "https://www.inaturalist.org/observations/364396239"
     },
     {
-      "lat": 33.8283,
-      "lon": -118.3428,
-      "species": "California Poppy",
-      "date": "2026-05-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/665330861/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364455562"
-    },
-    {
       "lat": 34.7382,
       "lon": -118.4954,
       "species": "California Poppy",
@@ -354,36 +762,20 @@
       "url": "https://www.inaturalist.org/observations/364439603"
     },
     {
-      "lat": 34.0169,
-      "lon": -118.2878,
-      "species": "California Poppy",
-      "date": "2026-05-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664859009/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364198109"
-    },
-    {
-      "lat": 34.1735,
-      "lon": -118.4746,
-      "species": "California Poppy",
-      "date": "2026-05-22",
-      "photo": "https://static.inaturalist.org/photos/664647309/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364131393"
-    },
-    {
-      "lat": 33.8195,
-      "lon": -117.7709,
-      "species": "California Poppy",
-      "date": "2026-05-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664620683/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364076856"
-    },
-    {
       "lat": 34.1375,
       "lon": -118.0543,
       "species": "California Poppy",
       "date": "2026-05-19",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664264522/small.jpg",
       "url": "https://www.inaturalist.org/observations/363882266"
+    },
+    {
+      "lat": 34.7545,
+      "lon": -118.6313,
+      "species": "California Poppy",
+      "date": "2026-05-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/667334380/small.jpg",
+      "url": "https://www.inaturalist.org/observations/365507027"
     },
     {
       "lat": 34.4531,
@@ -418,12 +810,12 @@
       "url": "https://www.inaturalist.org/observations/362885976"
     },
     {
-      "lat": 34.1278,
-      "lon": -118.1111,
+      "lat": 34.1392,
+      "lon": -118.4957,
       "species": "California Poppy",
       "date": "2026-05-18",
-      "photo": "https://static.inaturalist.org/photos/662282763/small.jpg",
-      "url": "https://www.inaturalist.org/observations/362844495"
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680575081/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372444547"
     },
     {
       "lat": 34.1152,
@@ -434,12 +826,36 @@
       "url": "https://www.inaturalist.org/observations/362897463"
     },
     {
+      "lat": 34.15,
+      "lon": -118.2793,
+      "species": "California Poppy",
+      "date": "2026-05-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673360743/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368662664"
+    },
+    {
       "lat": 34.2204,
       "lon": -118.3109,
       "species": "California Poppy",
       "date": "2026-05-17",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/661638732/small.jpg",
       "url": "https://www.inaturalist.org/observations/362506947"
+    },
+    {
+      "lat": 33.9114,
+      "lon": -118.347,
+      "species": "California Poppy",
+      "date": "2026-05-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673550715/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368761485"
+    },
+    {
+      "lat": 33.9978,
+      "lon": -118.281,
+      "species": "California Poppy",
+      "date": "2026-05-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673551009/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368761609"
     },
     {
       "lat": 34.1884,
@@ -466,14 +882,6 @@
       "url": "https://www.inaturalist.org/observations/362185425"
     },
     {
-      "lat": 34.1024,
-      "lon": -118.7389,
-      "species": "California Poppy",
-      "date": "2026-05-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/661051541/small.jpg",
-      "url": "https://www.inaturalist.org/observations/362194808"
-    },
-    {
       "lat": 33.8993,
       "lon": -117.945,
       "species": "California Poppy",
@@ -498,14 +906,6 @@
       "url": "https://www.inaturalist.org/observations/364488941"
     },
     {
-      "lat": 34.1567,
-      "lon": -118.2828,
-      "species": "California Poppy",
-      "date": "2026-05-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/662377394/small.jpg",
-      "url": "https://www.inaturalist.org/observations/362892620"
-    },
-    {
       "lat": 34.0689,
       "lon": -118.1026,
       "species": "California Poppy",
@@ -520,14 +920,6 @@
       "date": "2026-05-15",
       "photo": "https://static.inaturalist.org/photos/662145420/small.jpg",
       "url": "https://www.inaturalist.org/observations/362113960"
-    },
-    {
-      "lat": 33.992,
-      "lon": -118.0041,
-      "species": "California Poppy",
-      "date": "2026-05-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/660992213/small.jpg",
-      "url": "https://www.inaturalist.org/observations/362164314"
     },
     {
       "lat": 34.0826,
@@ -674,14 +1066,6 @@
       "url": "https://www.inaturalist.org/observations/362941511"
     },
     {
-      "lat": 34.1759,
-      "lon": -118.2377,
-      "species": "California Poppy",
-      "date": "2026-05-09",
-      "photo": "https://static.inaturalist.org/photos/657105449/small.jpg",
-      "url": "https://www.inaturalist.org/observations/360117564"
-    },
-    {
       "lat": 34.1105,
       "lon": -117.8608,
       "species": "California Poppy",
@@ -696,14 +1080,6 @@
       "date": "2026-05-08",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/656169440/small.jpg",
       "url": "https://www.inaturalist.org/observations/359629601"
-    },
-    {
-      "lat": 34.1498,
-      "lon": -118.0009,
-      "species": "California Poppy",
-      "date": "2026-05-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/656594600/small.jpg",
-      "url": "https://www.inaturalist.org/observations/359852158"
     },
     {
       "lat": 34.7796,
@@ -752,6 +1128,14 @@
       "date": "2026-05-06",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/655093478/small.jpg",
       "url": "https://www.inaturalist.org/observations/359069144"
+    },
+    {
+      "lat": 34.1733,
+      "lon": -118.4573,
+      "species": "California Poppy",
+      "date": "2026-05-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680162807/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372224949"
     },
     {
       "lat": 33.8793,
@@ -866,6 +1250,14 @@
       "url": "https://www.inaturalist.org/observations/357616946"
     },
     {
+      "lat": 33.8531,
+      "lon": -117.6863,
+      "species": "California Poppy",
+      "date": "2026-05-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/686074937/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375302670"
+    },
+    {
       "lat": 34.0562,
       "lon": -118.5098,
       "species": "California Poppy",
@@ -888,14 +1280,6 @@
       "date": "2026-05-01",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/651868857/small.jpg",
       "url": "https://www.inaturalist.org/observations/357401147"
-    },
-    {
-      "lat": 33.9239,
-      "lon": -117.7763,
-      "species": "California Poppy",
-      "date": "2026-05-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/651822443/small.jpg",
-      "url": "https://www.inaturalist.org/observations/357378205"
     },
     {
       "lat": 34.0118,
@@ -928,14 +1312,6 @@
       "date": "2026-04-29",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650323895/small.jpg",
       "url": "https://www.inaturalist.org/observations/356604897"
-    },
-    {
-      "lat": 34.0665,
-      "lon": -118.4413,
-      "species": "California Poppy",
-      "date": "2026-04-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650623594/small.jpg",
-      "url": "https://www.inaturalist.org/observations/356757763"
     },
     {
       "lat": 34.6028,
@@ -976,6 +1352,14 @@
       "date": "2026-04-28",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649914005/small.jpg",
       "url": "https://www.inaturalist.org/observations/356382739"
+    },
+    {
+      "lat": 34.4473,
+      "lon": -118.2722,
+      "species": "California Poppy",
+      "date": "2026-04-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/652276475/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356588966"
     },
     {
       "lat": 34.7219,
@@ -1082,14 +1466,6 @@
       "url": "https://www.inaturalist.org/observations/358062517"
     },
     {
-      "lat": 33.7754,
-      "lon": -117.7626,
-      "species": "California Poppy",
-      "date": "2026-04-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/646878391/small.jpg",
-      "url": "https://www.inaturalist.org/observations/354618393"
-    },
-    {
       "lat": 33.8068,
       "lon": -118.1796,
       "species": "California Poppy",
@@ -1112,30 +1488,6 @@
       "date": "2026-04-26",
       "photo": "https://static.inaturalist.org/photos/646780422/small.jpg",
       "url": "https://www.inaturalist.org/observations/354560052"
-    },
-    {
-      "lat": 34.1125,
-      "lon": -118.1746,
-      "species": "California Poppy",
-      "date": "2026-04-26",
-      "photo": "https://static.inaturalist.org/photos/646761189/small.jpg",
-      "url": "https://www.inaturalist.org/observations/354547894"
-    },
-    {
-      "lat": 34.0369,
-      "lon": -118.424,
-      "species": "California Poppy",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645799057/small.jpg",
-      "url": "https://www.inaturalist.org/observations/353974742"
-    },
-    {
-      "lat": 34.3556,
-      "lon": -118.5731,
-      "species": "California Poppy",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645952163/small.jpg",
-      "url": "https://www.inaturalist.org/observations/354058178"
     },
     {
       "lat": 33.9734,
@@ -1178,14 +1530,6 @@
       "url": "https://www.inaturalist.org/observations/353908903"
     },
     {
-      "lat": 33.9521,
-      "lon": -118.4427,
-      "species": "California Poppy",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645367574/small.jpg",
-      "url": "https://www.inaturalist.org/observations/353733162"
-    },
-    {
       "lat": 34.1782,
       "lon": -118.1636,
       "species": "California Poppy",
@@ -1224,14 +1568,6 @@
       "date": "2026-04-24",
       "photo": "https://static.inaturalist.org/photos/644368035/small.jpg",
       "url": "https://www.inaturalist.org/observations/353125533"
-    },
-    {
-      "lat": 34.0398,
-      "lon": -118.7042,
-      "species": "California Poppy",
-      "date": "2026-04-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/644788646/small.jpg",
-      "url": "https://www.inaturalist.org/observations/353372031"
     },
     {
       "lat": 34.118,
@@ -1288,14 +1624,6 @@
       "date": "2026-04-24",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645048659/small.jpg",
       "url": "https://www.inaturalist.org/observations/353537562"
-    },
-    {
-      "lat": 33.97,
-      "lon": -118.4444,
-      "species": "California Poppy",
-      "date": "2026-04-24",
-      "photo": "https://static.inaturalist.org/photos/644473900/small.jpg",
-      "url": "https://www.inaturalist.org/observations/353184802"
     },
     {
       "lat": 33.7713,
@@ -1538,22 +1866,6 @@
       "url": "https://www.inaturalist.org/observations/350175420"
     },
     {
-      "lat": 34.7844,
-      "lon": -118.8785,
-      "species": "California Poppy",
-      "date": "2026-04-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647701349/small.jpg",
-      "url": "https://www.inaturalist.org/observations/355093569"
-    },
-    {
-      "lat": 34.794,
-      "lon": -118.8698,
-      "species": "California Poppy",
-      "date": "2026-04-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647685784/small.jpg",
-      "url": "https://www.inaturalist.org/observations/355093536"
-    },
-    {
       "lat": 34.6483,
       "lon": -118.2092,
       "species": "California Poppy",
@@ -1690,14 +2002,6 @@
       "url": "https://www.inaturalist.org/observations/348397059"
     },
     {
-      "lat": 34.1385,
-      "lon": -118.7287,
-      "species": "California Poppy",
-      "date": "2026-04-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/635381539/small.jpg",
-      "url": "https://www.inaturalist.org/observations/348392886"
-    },
-    {
       "lat": 34.1403,
       "lon": -117.8498,
       "species": "California Poppy",
@@ -1778,14 +2082,6 @@
       "url": "https://www.inaturalist.org/observations/347714161"
     },
     {
-      "lat": 34.0339,
-      "lon": -118.5329,
-      "species": "California Poppy",
-      "date": "2026-04-05",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/633875331/small.jpg",
-      "url": "https://www.inaturalist.org/observations/347634532"
-    },
-    {
       "lat": 34.7249,
       "lon": -118.3969,
       "species": "California Poppy",
@@ -1834,14 +2130,6 @@
       "url": "https://www.inaturalist.org/observations/347453497"
     },
     {
-      "lat": 34.0851,
-      "lon": -118.4888,
-      "species": "California Poppy",
-      "date": "2026-04-04",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634601856/small.jpg",
-      "url": "https://www.inaturalist.org/observations/347996862"
-    },
-    {
       "lat": 33.9349,
       "lon": -117.7035,
       "species": "California Poppy",
@@ -1888,14 +2176,6 @@
       "date": "2026-04-02",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639314565/small.jpg",
       "url": "https://www.inaturalist.org/observations/350394999"
-    },
-    {
-      "lat": 33.8635,
-      "lon": -117.6781,
-      "species": "California Poppy",
-      "date": "2026-04-02",
-      "photo": "https://static.inaturalist.org/photos/632308388/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346817419"
     },
     {
       "lat": 33.9092,
@@ -1954,14 +2234,6 @@
       "url": "https://www.inaturalist.org/observations/346254972"
     },
     {
-      "lat": 33.718,
-      "lon": -118.2941,
-      "species": "California Poppy",
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631027257/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346197426"
-    },
-    {
       "lat": 34.7752,
       "lon": -118.3785,
       "species": "California Poppy",
@@ -1992,14 +2264,6 @@
       "date": "2026-03-29",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630509063/small.jpg",
       "url": "https://www.inaturalist.org/observations/345933562"
-    },
-    {
-      "lat": 34.1215,
-      "lon": -118.1679,
-      "species": "California Poppy",
-      "date": "2026-03-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630497420/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345927799"
     },
     {
       "lat": 34.1945,
@@ -2138,12 +2402,12 @@
       "url": "https://www.inaturalist.org/observations/344902883"
     },
     {
-      "lat": 34.2482,
-      "lon": -118.5313,
+      "lat": 34.6699,
+      "lon": -118.396,
       "species": "California Poppy",
       "date": "2026-03-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/628159637/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344733544"
+      "photo": "https://static.inaturalist.org/photos/673519162/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368745750"
     },
     {
       "lat": 33.8978,
@@ -2258,14 +2522,6 @@
       "url": "https://www.inaturalist.org/observations/344250094"
     },
     {
-      "lat": 34.6695,
-      "lon": -118.3959,
-      "species": "California Poppy",
-      "date": "2026-03-20",
-      "photo": "https://static.inaturalist.org/photos/627867172/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344583207"
-    },
-    {
       "lat": 34.0873,
       "lon": -117.7149,
       "species": "California Poppy",
@@ -2312,14 +2568,6 @@
       "date": "2026-03-19",
       "photo": "https://static.inaturalist.org/photos/626397580/small.jpg",
       "url": "https://www.inaturalist.org/observations/343829244"
-    },
-    {
-      "lat": 34.7731,
-      "lon": -118.7626,
-      "species": "California Poppy",
-      "date": "2026-03-18",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/626225962/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343739933"
     },
     {
       "lat": 34.7299,
@@ -2384,14 +2632,6 @@
       "date": "2026-03-16",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625434134/small.jpg",
       "url": "https://www.inaturalist.org/observations/343354813"
-    },
-    {
-      "lat": 34.7611,
-      "lon": -118.6438,
-      "species": "California Poppy",
-      "date": "2026-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625226261/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343252882"
     },
     {
       "lat": 33.9846,
@@ -2570,14 +2810,6 @@
       "url": "https://www.inaturalist.org/observations/341791250"
     },
     {
-      "lat": 33.7717,
-      "lon": -118.137,
-      "species": "California Poppy",
-      "date": "2026-03-07",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622156938/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341725164"
-    },
-    {
       "lat": 34.7766,
       "lon": -118.3964,
       "species": "California Poppy",
@@ -2600,14 +2832,6 @@
       "date": "2026-03-06",
       "photo": "https://static.inaturalist.org/photos/622253531/small.jpg",
       "url": "https://www.inaturalist.org/observations/341774539"
-    },
-    {
-      "lat": 34.1447,
-      "lon": -118.1176,
-      "species": "California Poppy",
-      "date": "2026-03-05",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/621560655/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341432497"
     },
     {
       "lat": 34.1367,
@@ -2994,14 +3218,6 @@
       "url": "https://www.inaturalist.org/observations/338173002"
     },
     {
-      "lat": 33.9694,
-      "lon": -118.4158,
-      "species": "California Poppy",
-      "date": "2026-02-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/614852256/small.jpg",
-      "url": "https://www.inaturalist.org/observations/338136480"
-    },
-    {
       "lat": 33.8256,
       "lon": -118.1156,
       "species": "California Poppy",
@@ -3090,14 +3306,6 @@
       "url": "https://www.inaturalist.org/observations/338485477"
     },
     {
-      "lat": 33.7503,
-      "lon": -117.6917,
-      "species": "California Poppy",
-      "date": "2026-02-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/612557874/small.jpg",
-      "url": "https://www.inaturalist.org/observations/337017704"
-    },
-    {
       "lat": 33.8308,
       "lon": -117.7617,
       "species": "California Poppy",
@@ -3144,14 +3352,6 @@
       "date": "2026-01-15",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/608519400/small.jpg",
       "url": "https://www.inaturalist.org/observations/335015694"
-    },
-    {
-      "lat": 34.0196,
-      "lon": -118.3199,
-      "species": "California Poppy",
-      "date": "2026-01-14",
-      "photo": "https://static.inaturalist.org/photos/607950516/small.jpg",
-      "url": "https://www.inaturalist.org/observations/334739583"
     },
     {
       "lat": 34.7765,
@@ -3250,14 +3450,6 @@
       "url": "https://www.inaturalist.org/observations/327114742"
     },
     {
-      "lat": 33.9455,
-      "lon": -118.1722,
-      "species": "California Poppy",
-      "date": "2025-11-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/587054724/small.jpg",
-      "url": "https://www.inaturalist.org/observations/324357335"
-    },
-    {
       "lat": 34.1761,
       "lon": -118.0331,
       "species": "California Poppy",
@@ -3346,14 +3538,6 @@
       "url": "https://www.inaturalist.org/observations/308086401"
     },
     {
-      "lat": 34.1527,
-      "lon": -118.3112,
-      "species": "California Poppy",
-      "date": "2025-08-17",
-      "photo": "https://static.inaturalist.org/photos/553903253/small.jpg",
-      "url": "https://www.inaturalist.org/observations/307119581"
-    },
-    {
       "lat": 34.054,
       "lon": -118.6942,
       "species": "California Poppy",
@@ -3376,14 +3560,6 @@
       "date": "2025-08-01",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/546685099/small.jpg",
       "url": "https://www.inaturalist.org/observations/302856320"
-    },
-    {
-      "lat": 34.1737,
-      "lon": -118.0048,
-      "species": "California Poppy",
-      "date": "2025-07-31",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/545828502/small.jpg",
-      "url": "https://www.inaturalist.org/observations/302855741"
     },
     {
       "lat": 33.7693,
@@ -3448,14 +3624,6 @@
       "date": "2025-07-10",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/619612468/small.jpg",
       "url": "https://www.inaturalist.org/observations/340481206"
-    },
-    {
-      "lat": 33.8053,
-      "lon": -117.7634,
-      "species": "California Poppy",
-      "date": "2025-07-07",
-      "photo": "https://static.inaturalist.org/photos/533132400/small.jpg",
-      "url": "https://www.inaturalist.org/observations/296104547"
     },
     {
       "lat": 34.049,
@@ -3666,14 +3834,6 @@
       "url": "https://www.inaturalist.org/observations/290583812"
     },
     {
-      "lat": 34.0515,
-      "lon": -118.0068,
-      "species": "California Poppy",
-      "date": "2025-06-07",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/517269231/small.jpg",
-      "url": "https://www.inaturalist.org/observations/287675891"
-    },
-    {
       "lat": 34.1571,
       "lon": -118.0938,
       "species": "California Poppy",
@@ -3688,14 +3848,6 @@
       "date": "2025-06-03",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/515796864/small.jpg",
       "url": "https://www.inaturalist.org/observations/286886664"
-    },
-    {
-      "lat": 33.9617,
-      "lon": -118.2812,
-      "species": "California Poppy",
-      "date": "2025-06-02",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/514866751/small.jpg",
-      "url": "https://www.inaturalist.org/observations/286397843"
     },
     {
       "lat": 33.9233,
@@ -3906,14 +4058,6 @@
       "url": "https://www.inaturalist.org/observations/283293719"
     },
     {
-      "lat": 33.9948,
-      "lon": -118.4756,
-      "species": "California Poppy",
-      "date": "2025-05-22",
-      "photo": "https://static.inaturalist.org/photos/508875184/small.jpg",
-      "url": "https://www.inaturalist.org/observations/283215054"
-    },
-    {
       "lat": 34.0365,
       "lon": -118.2901,
       "species": "California Poppy",
@@ -3936,14 +4080,6 @@
       "date": "2025-05-15",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/514868090/small.jpg",
       "url": "https://www.inaturalist.org/observations/286398509"
-    },
-    {
-      "lat": 33.9968,
-      "lon": -118.2803,
-      "species": "California Poppy",
-      "date": "2025-05-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/514868112/small.jpg",
-      "url": "https://www.inaturalist.org/observations/286398510"
     },
     {
       "lat": 33.9876,
@@ -4096,14 +4232,6 @@
       "date": "2025-05-04",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/500311946/small.jpg",
       "url": "https://www.inaturalist.org/observations/278632516"
-    },
-    {
-      "lat": 34.0482,
-      "lon": -118.7271,
-      "species": "California Poppy",
-      "date": "2025-05-04",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/604332543/small.jpg",
-      "url": "https://www.inaturalist.org/observations/332934515"
     },
     {
       "lat": 34.272,
@@ -4346,14 +4474,6 @@
       "url": "https://www.inaturalist.org/observations/274835109"
     },
     {
-      "lat": 34.1623,
-      "lon": -118.948,
-      "species": "California Poppy",
-      "date": "2025-04-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/499721045/small.jpg",
-      "url": "https://www.inaturalist.org/observations/278305967"
-    },
-    {
       "lat": 34.1716,
       "lon": -118.3211,
       "species": "California Poppy",
@@ -4438,7 +4558,7 @@
       "lon": -118.2907,
       "species": "California Poppy",
       "date": "2025-04-25",
-      "photo": "https://static.inaturalist.org/photos/491971544/small.jpg",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/491971544/small.jpg",
       "url": "https://www.inaturalist.org/observations/273547886"
     },
     {
@@ -4624,14 +4744,6 @@
       "date": "2025-04-13",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/486127193/small.jpeg",
       "url": "https://www.inaturalist.org/observations/270316953"
-    },
-    {
-      "lat": 34.1731,
-      "lon": -118.4453,
-      "species": "California Poppy",
-      "date": "2025-04-12",
-      "photo": "https://static.inaturalist.org/photos/499428041/small.jpg",
-      "url": "https://www.inaturalist.org/observations/278146710"
     },
     {
       "lat": 33.8489,
@@ -4928,14 +5040,6 @@
       "date": "2025-03-20",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/478176895/small.jpeg",
       "url": "https://www.inaturalist.org/observations/266153331"
-    },
-    {
-      "lat": 34.0205,
-      "lon": -118.4117,
-      "species": "California Poppy",
-      "date": "2025-03-18",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/486411888/small.jpg",
-      "url": "https://www.inaturalist.org/observations/270466207"
     },
     {
       "lat": 33.8104,
@@ -5448,14 +5552,6 @@
       "date": "2024-05-01",
       "photo": "https://static.inaturalist.org/photos/376040128/small.jpg",
       "url": "https://www.inaturalist.org/observations/212789891"
-    },
-    {
-      "lat": 33.9267,
-      "lon": -118.3386,
-      "species": "California Poppy",
-      "date": "2024-05-01",
-      "photo": "https://static.inaturalist.org/photos/375959492/small.jpg",
-      "url": "https://www.inaturalist.org/observations/212744949"
     },
     {
       "lat": 34.2798,
@@ -6434,14 +6530,6 @@
       "url": "https://www.inaturalist.org/observations/158100209"
     },
     {
-      "lat": 34.1692,
-      "lon": -118.786,
-      "species": "California Poppy",
-      "date": "2023-04-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/275318536/small.jpg",
-      "url": "https://www.inaturalist.org/observations/159353785"
-    },
-    {
       "lat": 34.0883,
       "lon": -118.8335,
       "species": "California Poppy",
@@ -7018,14 +7106,6 @@
       "url": "https://www.inaturalist.org/observations/153257902"
     },
     {
-      "lat": 33.7495,
-      "lon": -118.099,
-      "species": "California Poppy",
-      "date": "2023-04-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/264463876/small.jpg",
-      "url": "https://www.inaturalist.org/observations/153141817"
-    },
-    {
       "lat": 34.3028,
       "lon": -118.753,
       "species": "California Poppy",
@@ -7330,14 +7410,6 @@
       "url": "https://www.inaturalist.org/observations/148851292"
     },
     {
-      "lat": 34.3794,
-      "lon": -118.5975,
-      "species": "California Poppy",
-      "date": "2023-02-12",
-      "photo": "https://static.inaturalist.org/photos/264446886/small.jpg",
-      "url": "https://www.inaturalist.org/observations/153133391"
-    },
-    {
       "lat": 34.4511,
       "lon": -118.442,
       "species": "California Poppy",
@@ -7626,14 +7698,6 @@
       "url": "https://www.inaturalist.org/observations/114393808"
     },
     {
-      "lat": 34.1467,
-      "lon": -118.4997,
-      "species": "California Poppy",
-      "date": "2022-04-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/194437777/small.jpg",
-      "url": "https://www.inaturalist.org/observations/115189236"
-    },
-    {
       "lat": 34.1175,
       "lon": -118.4958,
       "species": "California Poppy",
@@ -7786,14 +7850,6 @@
       "url": "https://www.inaturalist.org/observations/110405398"
     },
     {
-      "lat": 33.8685,
-      "lon": -118.2707,
-      "species": "California Poppy",
-      "date": "2022-04-03",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/188857651/small.jpg",
-      "url": "https://www.inaturalist.org/observations/111846907"
-    },
-    {
       "lat": 34.1734,
       "lon": -118.0163,
       "species": "California Poppy",
@@ -7944,14 +8000,6 @@
       "date": "2022-03-10",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/302393643/small.jpg",
       "url": "https://www.inaturalist.org/observations/173092811"
-    },
-    {
-      "lat": 34.4368,
-      "lon": -118.2732,
-      "species": "California Poppy",
-      "date": "2022-03-09",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/182759602/small.jpg",
-      "url": "https://www.inaturalist.org/observations/108538471"
     },
     {
       "lat": 34.4378,
@@ -8338,76 +8386,620 @@
       "url": "https://www.inaturalist.org/observations/72949104"
     },
     {
-      "lat": 34.5026,
-      "lon": -118.5974,
-      "species": "California Poppy",
-      "date": "2021-04-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/118481123/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/72646856"
+      "lat": 34.1952,
+      "lon": -117.868,
+      "species": "Toyon",
+      "date": "2026-06-30",
+      "photo": "https://static.inaturalist.org/photos/689496062/small.jpg",
+      "url": "https://www.inaturalist.org/observations/377067232"
     },
     {
-      "lat": 34.6749,
-      "lon": -118.2893,
-      "species": "California Poppy",
-      "date": "2021-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/118184692/small.jpg",
-      "url": "https://www.inaturalist.org/observations/72484006"
+      "lat": 34.108,
+      "lon": -118.2502,
+      "species": "Toyon",
+      "date": "2026-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689164487/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376898931"
     },
     {
-      "lat": 33.804,
-      "lon": -118.3222,
-      "species": "California Poppy",
-      "date": "2021-03-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/118124562/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/72449706"
+      "lat": 34.1479,
+      "lon": -118.1651,
+      "species": "Toyon",
+      "date": "2026-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689181927/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376907965"
     },
     {
-      "lat": 34.1572,
-      "lon": -117.924,
-      "species": "California Poppy",
-      "date": "2021-03-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/117726266/small.jpg",
-      "url": "https://www.inaturalist.org/observations/72229064"
+      "lat": 34.2577,
+      "lon": -118.1553,
+      "species": "Toyon",
+      "date": "2026-06-29",
+      "photo": "https://static.inaturalist.org/photos/689436304/small.jpg",
+      "url": "https://www.inaturalist.org/observations/377037388"
     },
     {
-      "lat": 33.8909,
-      "lon": -117.6797,
-      "species": "California Poppy",
-      "date": "2021-03-25",
-      "photo": "https://static.inaturalist.org/photos/117518494/small.jpg",
-      "url": "https://www.inaturalist.org/observations/72112948"
+      "lat": 34.098,
+      "lon": -118.7314,
+      "species": "Toyon",
+      "date": "2026-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689151807/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376890227"
     },
     {
-      "lat": 33.8855,
-      "lon": -118.1334,
-      "species": "California Poppy",
-      "date": "2021-03-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/117122309/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/71844272"
+      "lat": 33.8005,
+      "lon": -118.3776,
+      "species": "Toyon",
+      "date": "2026-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688723798/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376666549"
     },
     {
-      "lat": 34.0736,
-      "lon": -118.3496,
-      "species": "California Poppy",
-      "date": "2021-03-21",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/161138190/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/96954229"
+      "lat": 34.5505,
+      "lon": -118.7752,
+      "species": "Toyon",
+      "date": "2026-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689399896/small.jpg",
+      "url": "https://www.inaturalist.org/observations/377019155"
     },
     {
-      "lat": 33.853,
-      "lon": -117.8181,
-      "species": "California Poppy",
-      "date": "2021-03-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/116745170/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/71683332"
+      "lat": 34.3089,
+      "lon": -118.3822,
+      "species": "Toyon",
+      "date": "2026-06-28",
+      "photo": "https://static.inaturalist.org/photos/688054624/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376333231"
     },
     {
-      "lat": 33.803,
-      "lon": -118.1603,
-      "species": "California Poppy",
-      "date": "2021-03-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/117539245/small.jpg",
-      "url": "https://www.inaturalist.org/observations/72124677"
+      "lat": 34.1507,
+      "lon": -118.1646,
+      "species": "Toyon",
+      "date": "2026-06-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/687590481/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376080904"
+    },
+    {
+      "lat": 34.0929,
+      "lon": -118.5809,
+      "species": "Toyon",
+      "date": "2026-06-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/687315051/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375941036"
+    },
+    {
+      "lat": 33.7895,
+      "lon": -118.3772,
+      "species": "Toyon",
+      "date": "2026-06-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688886266/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376752211"
+    },
+    {
+      "lat": 34.1563,
+      "lon": -117.7324,
+      "species": "Toyon",
+      "date": "2026-06-26",
+      "photo": "https://static.inaturalist.org/photos/686794089/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375668583"
+    },
+    {
+      "lat": 33.8395,
+      "lon": -118.1961,
+      "species": "Toyon",
+      "date": "2026-06-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/686286126/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375384197"
+    },
+    {
+      "lat": 33.7926,
+      "lon": -117.7494,
+      "species": "Toyon",
+      "date": "2026-06-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/686131031/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375330527"
+    },
+    {
+      "lat": 34.1441,
+      "lon": -117.7441,
+      "species": "Toyon",
+      "date": "2026-06-24",
+      "photo": "https://static.inaturalist.org/photos/685520859/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375018070"
+    },
+    {
+      "lat": 34.0547,
+      "lon": -118.5295,
+      "species": "Toyon",
+      "date": "2026-06-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/685548567/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375032880"
+    },
+    {
+      "lat": 34.1478,
+      "lon": -118.5422,
+      "species": "Toyon",
+      "date": "2026-06-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/685340988/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374923697"
+    },
+    {
+      "lat": 34.4387,
+      "lon": -118.5481,
+      "species": "Toyon",
+      "date": "2026-06-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/685117787/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374806107"
+    },
+    {
+      "lat": 34.1298,
+      "lon": -118.166,
+      "species": "Toyon",
+      "date": "2026-06-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684871762/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374683395"
+    },
+    {
+      "lat": 34.3774,
+      "lon": -118.4676,
+      "species": "Toyon",
+      "date": "2026-06-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684766658/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374627049"
+    },
+    {
+      "lat": 33.9984,
+      "lon": -118.0246,
+      "species": "Toyon",
+      "date": "2026-06-22",
+      "photo": "https://static.inaturalist.org/photos/684467222/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374471524"
+    },
+    {
+      "lat": 33.777,
+      "lon": -117.6757,
+      "species": "Toyon",
+      "date": "2026-06-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684270258/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374209212"
+    },
+    {
+      "lat": 34.2266,
+      "lon": -118.4043,
+      "species": "Toyon",
+      "date": "2026-06-21",
+      "photo": "https://static.inaturalist.org/photos/683692345/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374079186"
+    },
+    {
+      "lat": 34.1218,
+      "lon": -118.9247,
+      "species": "Toyon",
+      "date": "2026-06-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/683902367/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374181502"
+    },
+    {
+      "lat": 33.8377,
+      "lon": -117.7569,
+      "species": "Toyon",
+      "date": "2026-06-21",
+      "photo": "https://static.inaturalist.org/photos/683564562/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374006959"
+    },
+    {
+      "lat": 34.2486,
+      "lon": -118.2916,
+      "species": "Toyon",
+      "date": "2026-06-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/683496175/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373970867"
+    },
+    {
+      "lat": 34.1348,
+      "lon": -118.7061,
+      "species": "Toyon",
+      "date": "2026-06-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/683139746/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373787044"
+    },
+    {
+      "lat": 33.825,
+      "lon": -118.3426,
+      "species": "Toyon",
+      "date": "2026-06-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/683079797/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373755559"
+    },
+    {
+      "lat": 34.0065,
+      "lon": -117.8104,
+      "species": "Toyon",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682379095/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373389325"
+    },
+    {
+      "lat": 34.0059,
+      "lon": -117.8095,
+      "species": "Toyon",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682377940/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373388761"
+    },
+    {
+      "lat": 34.0982,
+      "lon": -118.7073,
+      "species": "Toyon",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682875039/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373649859"
+    },
+    {
+      "lat": 34.0478,
+      "lon": -118.7136,
+      "species": "Toyon",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/683200597/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373816924"
+    },
+    {
+      "lat": 33.9708,
+      "lon": -118.4327,
+      "species": "Toyon",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682183114/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373286880"
+    },
+    {
+      "lat": 34.2203,
+      "lon": -118.2467,
+      "species": "Toyon",
+      "date": "2026-06-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680682128/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372498220"
+    },
+    {
+      "lat": 33.9696,
+      "lon": -118.424,
+      "species": "Toyon",
+      "date": "2026-06-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680660575/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372487703"
+    },
+    {
+      "lat": 34.0438,
+      "lon": -118.5573,
+      "species": "Toyon",
+      "date": "2026-06-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/685166806/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374831399"
+    },
+    {
+      "lat": 33.8684,
+      "lon": -117.7665,
+      "species": "Toyon",
+      "date": "2026-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679404587/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371835939"
+    },
+    {
+      "lat": 34.0165,
+      "lon": -118.3822,
+      "species": "Toyon",
+      "date": "2026-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680604428/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372459269"
+    },
+    {
+      "lat": 33.8741,
+      "lon": -118.2936,
+      "species": "Toyon",
+      "date": "2026-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679267085/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371766161"
+    },
+    {
+      "lat": 33.7043,
+      "lon": -118.0523,
+      "species": "Toyon",
+      "date": "2026-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679064328/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371658526"
+    },
+    {
+      "lat": 33.9204,
+      "lon": -117.8293,
+      "species": "Toyon",
+      "date": "2026-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679046877/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371648784"
+    },
+    {
+      "lat": 33.9656,
+      "lon": -118.4451,
+      "species": "Toyon",
+      "date": "2026-06-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680743706/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372528525"
+    },
+    {
+      "lat": 34.228,
+      "lon": -118.8061,
+      "species": "Toyon",
+      "date": "2026-06-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679497249/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371881603"
+    },
+    {
+      "lat": 33.7606,
+      "lon": -117.9078,
+      "species": "Toyon",
+      "date": "2026-06-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681907836/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373141477"
+    },
+    {
+      "lat": 33.7445,
+      "lon": -118.3825,
+      "species": "Toyon",
+      "date": "2026-06-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/677888076/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371036541"
+    },
+    {
+      "lat": 33.911,
+      "lon": -117.7859,
+      "species": "Toyon",
+      "date": "2026-06-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/677405054/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370784797"
+    },
+    {
+      "lat": 34.2712,
+      "lon": -118.316,
+      "species": "Toyon",
+      "date": "2026-06-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/677248822/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370707164"
+    },
+    {
+      "lat": 33.8958,
+      "lon": -117.922,
+      "species": "Toyon",
+      "date": "2026-06-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676938236/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370545722"
+    },
+    {
+      "lat": 34.2117,
+      "lon": -118.8235,
+      "species": "Toyon",
+      "date": "2026-06-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676855971/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370506050"
+    },
+    {
+      "lat": 34.1207,
+      "lon": -117.8556,
+      "species": "Toyon",
+      "date": "2026-06-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676932166/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370542566"
+    },
+    {
+      "lat": 34.0823,
+      "lon": -118.2398,
+      "species": "Toyon",
+      "date": "2026-06-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679826806/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372054627"
+    },
+    {
+      "lat": 34.0962,
+      "lon": -117.7092,
+      "species": "Toyon",
+      "date": "2026-06-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676727223/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370441387"
+    },
+    {
+      "lat": 34.1118,
+      "lon": -118.34,
+      "species": "Toyon",
+      "date": "2026-06-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676632267/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370383414"
+    },
+    {
+      "lat": 34.0635,
+      "lon": -118.0064,
+      "species": "Toyon",
+      "date": "2026-06-09",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676687702/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370420498"
+    },
+    {
+      "lat": 34.2156,
+      "lon": -118.1493,
+      "species": "Toyon",
+      "date": "2026-06-08",
+      "photo": "https://static.inaturalist.org/photos/675966925/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370033870"
+    },
+    {
+      "lat": 34.0944,
+      "lon": -118.6513,
+      "species": "Toyon",
+      "date": "2026-06-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/675620537/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369854798"
+    },
+    {
+      "lat": 34.4688,
+      "lon": -118.5372,
+      "species": "Toyon",
+      "date": "2026-06-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/675026442/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369543545"
+    },
+    {
+      "lat": 33.7704,
+      "lon": -118.4105,
+      "species": "Toyon",
+      "date": "2026-06-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/675023648/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369542094"
+    },
+    {
+      "lat": 33.7474,
+      "lon": -117.6889,
+      "species": "Toyon",
+      "date": "2026-06-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/675076100/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369567707"
+    },
+    {
+      "lat": 34.3181,
+      "lon": -118.3321,
+      "species": "Toyon",
+      "date": "2026-06-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/674857589/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369455106"
+    },
+    {
+      "lat": 33.9059,
+      "lon": -117.9605,
+      "species": "Toyon",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/674310582/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369162771"
+    },
+    {
+      "lat": 34.0768,
+      "lon": -118.1823,
+      "species": "Toyon",
+      "date": "2026-06-06",
+      "photo": "https://static.inaturalist.org/photos/674227711/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369121014"
+    },
+    {
+      "lat": 34.0774,
+      "lon": -118.6975,
+      "species": "Toyon",
+      "date": "2026-06-06",
+      "photo": "https://static.inaturalist.org/photos/674414006/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369216529"
+    },
+    {
+      "lat": 34.1414,
+      "lon": -118.2897,
+      "species": "Toyon",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682770869/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373592958"
+    },
+    {
+      "lat": 33.7405,
+      "lon": -117.7004,
+      "species": "Toyon",
+      "date": "2026-06-06",
+      "photo": "https://static.inaturalist.org/photos/674272177/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369143346"
+    },
+    {
+      "lat": 34.1433,
+      "lon": -118.3066,
+      "species": "Toyon",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673952784/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368975037"
+    },
+    {
+      "lat": 34.0817,
+      "lon": -118.6461,
+      "species": "Toyon",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680674963/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372494957"
+    },
+    {
+      "lat": 34.1303,
+      "lon": -118.3225,
+      "species": "Toyon",
+      "date": "2026-06-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/674919173/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369487675"
+    },
+    {
+      "lat": 33.7797,
+      "lon": -118.2912,
+      "species": "Toyon",
+      "date": "2026-06-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673473875/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368722327"
+    },
+    {
+      "lat": 33.7167,
+      "lon": -118.315,
+      "species": "Toyon",
+      "date": "2026-06-05",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673481551/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368726572"
+    },
+    {
+      "lat": 33.8208,
+      "lon": -117.7745,
+      "species": "Toyon",
+      "date": "2026-06-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673448954/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368462764"
+    },
+    {
+      "lat": 34.3244,
+      "lon": -118.4738,
+      "species": "Toyon",
+      "date": "2026-06-04",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/672728859/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368330827"
+    },
+    {
+      "lat": 33.748,
+      "lon": -118.3364,
+      "species": "Toyon",
+      "date": "2026-06-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/672413304/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368166331"
+    },
+    {
+      "lat": 34.0981,
+      "lon": -118.2017,
+      "species": "Toyon",
+      "date": "2026-06-03",
+      "photo": "https://static.inaturalist.org/photos/674735781/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369389374"
+    },
+    {
+      "lat": 34.103,
+      "lon": -118.1897,
+      "species": "Toyon",
+      "date": "2026-06-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671922804/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367911121"
+    },
+    {
+      "lat": 33.7466,
+      "lon": -118.3671,
+      "species": "Toyon",
+      "date": "2026-06-02",
+      "photo": "https://static.inaturalist.org/photos/672327617/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368123445"
+    },
+    {
+      "lat": 34.0914,
+      "lon": -118.6363,
+      "species": "Toyon",
+      "date": "2026-06-01",
+      "photo": "https://static.inaturalist.org/photos/671206749/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367536236"
     },
     {
       "lat": 33.9677,
@@ -8426,28 +9018,20 @@
       "url": "https://www.inaturalist.org/observations/367199058"
     },
     {
+      "lat": 33.7943,
+      "lon": -117.7548,
+      "species": "Toyon",
+      "date": "2026-05-31",
+      "photo": "https://static.inaturalist.org/photos/671402025/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367634986"
+    },
+    {
       "lat": 33.7992,
       "lon": -118.3953,
       "species": "Toyon",
       "date": "2026-05-30",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/669979336/small.jpg",
       "url": "https://www.inaturalist.org/observations/366898360"
-    },
-    {
-      "lat": 34.2681,
-      "lon": -118.1628,
-      "species": "Toyon",
-      "date": "2026-05-30",
-      "photo": "https://static.inaturalist.org/photos/670655765/small.jpg",
-      "url": "https://www.inaturalist.org/observations/367251236"
-    },
-    {
-      "lat": 34.1396,
-      "lon": -118.1671,
-      "species": "Toyon",
-      "date": "2026-05-30",
-      "photo": "https://static.inaturalist.org/photos/669849148/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366832044"
     },
     {
       "lat": 34.0053,
@@ -8474,20 +9058,28 @@
       "url": "https://www.inaturalist.org/observations/366880922"
     },
     {
-      "lat": 34.0951,
-      "lon": -118.6535,
-      "species": "Toyon",
-      "date": "2026-05-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/669287296/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366530243"
-    },
-    {
       "lat": 34.348,
       "lon": -118.1107,
       "species": "Toyon",
       "date": "2026-05-29",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/669346640/small.jpg",
       "url": "https://www.inaturalist.org/observations/366561589"
+    },
+    {
+      "lat": 33.9715,
+      "lon": -118.4299,
+      "species": "Toyon",
+      "date": "2026-05-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671961194/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367930047"
+    },
+    {
+      "lat": 34.3501,
+      "lon": -118.5454,
+      "species": "Toyon",
+      "date": "2026-05-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671188704/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367529602"
     },
     {
       "lat": 33.7747,
@@ -8498,14 +9090,6 @@
       "url": "https://www.inaturalist.org/observations/366245172"
     },
     {
-      "lat": 33.7435,
-      "lon": -118.3522,
-      "species": "Toyon",
-      "date": "2026-05-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/668790984/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366269441"
-    },
-    {
       "lat": 34.1216,
       "lon": -118.4089,
       "species": "Toyon",
@@ -8514,60 +9098,12 @@
       "url": "https://www.inaturalist.org/observations/366222894"
     },
     {
-      "lat": 34.1457,
-      "lon": -118.2848,
-      "species": "Toyon",
-      "date": "2026-05-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/670667176/small.jpg",
-      "url": "https://www.inaturalist.org/observations/367256973"
-    },
-    {
-      "lat": 33.7149,
-      "lon": -118.3113,
-      "species": "Toyon",
-      "date": "2026-05-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/668385819/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366058584"
-    },
-    {
       "lat": 34.1094,
       "lon": -118.3506,
       "species": "Toyon",
       "date": "2026-05-26",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/667595937/small.jpg",
       "url": "https://www.inaturalist.org/observations/365641328"
-    },
-    {
-      "lat": 33.9688,
-      "lon": -118.4285,
-      "species": "Toyon",
-      "date": "2026-05-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/667413399/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365548749"
-    },
-    {
-      "lat": 33.9708,
-      "lon": -118.4298,
-      "species": "Toyon",
-      "date": "2026-05-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/667410928/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365547559"
-    },
-    {
-      "lat": 33.9708,
-      "lon": -118.43,
-      "species": "Toyon",
-      "date": "2026-05-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/667414743/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365549556"
-    },
-    {
-      "lat": 34.1258,
-      "lon": -117.8508,
-      "species": "Toyon",
-      "date": "2026-05-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/668726296/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366236497"
     },
     {
       "lat": 33.7449,
@@ -8586,6 +9122,14 @@
       "url": "https://www.inaturalist.org/observations/365224751"
     },
     {
+      "lat": 34.0843,
+      "lon": -118.6521,
+      "species": "Toyon",
+      "date": "2026-05-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671351370/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367609818"
+    },
+    {
       "lat": 34.1585,
       "lon": -117.7684,
       "species": "Toyon",
@@ -8602,36 +9146,12 @@
       "url": "https://www.inaturalist.org/observations/364820221"
     },
     {
-      "lat": 33.8,
-      "lon": -118.3838,
-      "species": "Toyon",
-      "date": "2026-05-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666106184/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364865822"
-    },
-    {
       "lat": 33.8064,
       "lon": -118.0892,
       "species": "Toyon",
       "date": "2026-05-24",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666272540/small.jpg",
       "url": "https://www.inaturalist.org/observations/364948491"
-    },
-    {
-      "lat": 34.1436,
-      "lon": -118.3062,
-      "species": "Toyon",
-      "date": "2026-05-24",
-      "photo": "https://static.inaturalist.org/photos/665896683/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364755959"
-    },
-    {
-      "lat": 34.0966,
-      "lon": -118.1948,
-      "species": "Toyon",
-      "date": "2026-05-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/665808631/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364709356"
     },
     {
       "lat": 34.1189,
@@ -8698,28 +9218,12 @@
       "url": "https://www.inaturalist.org/observations/364187313"
     },
     {
-      "lat": 33.8281,
-      "lon": -118.3421,
-      "species": "Toyon",
-      "date": "2026-05-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664790228/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364163387"
-    },
-    {
       "lat": 33.7664,
       "lon": -117.7692,
       "species": "Toyon",
       "date": "2026-05-19",
       "photo": "https://static.inaturalist.org/photos/663082707/small.jpg",
       "url": "https://www.inaturalist.org/observations/363257729"
-    },
-    {
-      "lat": 34.0834,
-      "lon": -118.2485,
-      "species": "Toyon",
-      "date": "2026-05-19",
-      "photo": "https://static.inaturalist.org/photos/662994063/small.jpg",
-      "url": "https://www.inaturalist.org/observations/363223842"
     },
     {
       "lat": 33.8833,
@@ -8738,20 +9242,12 @@
       "url": "https://www.inaturalist.org/observations/363070230"
     },
     {
-      "lat": 33.7036,
-      "lon": -118.0523,
+      "lat": 34.1918,
+      "lon": -118.8839,
       "species": "Toyon",
       "date": "2026-05-17",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/661774161/small.jpg",
-      "url": "https://www.inaturalist.org/observations/362583145"
-    },
-    {
-      "lat": 34.1199,
-      "lon": -118.1672,
-      "species": "Toyon",
-      "date": "2026-05-17",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/661870495/small.jpg",
-      "url": "https://www.inaturalist.org/observations/362625481"
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688055408/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376326906"
     },
     {
       "lat": 33.9012,
@@ -8784,14 +9280,6 @@
       "date": "2026-05-17",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/661419785/small.jpg",
       "url": "https://www.inaturalist.org/observations/362389013"
-    },
-    {
-      "lat": 34.1921,
-      "lon": -118.8828,
-      "species": "Toyon",
-      "date": "2026-05-16",
-      "photo": "https://static.inaturalist.org/photos/660870609/small.jpg",
-      "url": "https://www.inaturalist.org/observations/362100966"
     },
     {
       "lat": 34.4459,
@@ -8850,14 +9338,6 @@
       "url": "https://www.inaturalist.org/observations/362821728"
     },
     {
-      "lat": 33.7953,
-      "lon": -117.7656,
-      "species": "Toyon",
-      "date": "2026-05-14",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/659825294/small.jpg",
-      "url": "https://www.inaturalist.org/observations/361543978"
-    },
-    {
       "lat": 34.0131,
       "lon": -118.367,
       "species": "Toyon",
@@ -8882,36 +9362,12 @@
       "url": "https://www.inaturalist.org/observations/361606601"
     },
     {
-      "lat": 33.8202,
-      "lon": -117.7733,
-      "species": "Toyon",
-      "date": "2026-05-14",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/659667564/small.jpg",
-      "url": "https://www.inaturalist.org/observations/361461851"
-    },
-    {
-      "lat": 34.3767,
-      "lon": -118.4649,
-      "species": "Toyon",
-      "date": "2026-05-14",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/662217336/small.jpg",
-      "url": "https://www.inaturalist.org/observations/362811101"
-    },
-    {
       "lat": 34.036,
       "lon": -118.4985,
       "species": "Toyon",
       "date": "2026-05-13",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/659301052/small.jpg",
       "url": "https://www.inaturalist.org/observations/361270103"
-    },
-    {
-      "lat": 33.9169,
-      "lon": -117.8232,
-      "species": "Toyon",
-      "date": "2026-05-13",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/659118612/small.jpg",
-      "url": "https://www.inaturalist.org/observations/361171841"
     },
     {
       "lat": 34.0852,
@@ -8936,14 +9392,6 @@
       "date": "2026-05-10",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/657634603/small.jpg",
       "url": "https://www.inaturalist.org/observations/360405245"
-    },
-    {
-      "lat": 33.8361,
-      "lon": -117.7535,
-      "species": "Toyon",
-      "date": "2026-05-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/657810596/small.jpg",
-      "url": "https://www.inaturalist.org/observations/360498178"
     },
     {
       "lat": 34.0032,
@@ -9042,14 +9490,6 @@
       "url": "https://www.inaturalist.org/observations/359213274"
     },
     {
-      "lat": 34.0709,
-      "lon": -118.1885,
-      "species": "Toyon",
-      "date": "2026-05-05",
-      "photo": "https://static.inaturalist.org/photos/654493255/small.jpg",
-      "url": "https://www.inaturalist.org/observations/358756400"
-    },
-    {
       "lat": 33.8311,
       "lon": -117.6916,
       "species": "Toyon",
@@ -9130,28 +9570,12 @@
       "url": "https://www.inaturalist.org/observations/357795454"
     },
     {
-      "lat": 34.0169,
-      "lon": -118.3816,
-      "species": "Toyon",
-      "date": "2026-05-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/651868871/small.jpg",
-      "url": "https://www.inaturalist.org/observations/357401159"
-    },
-    {
       "lat": 34.0736,
       "lon": -118.4556,
       "species": "Toyon",
       "date": "2026-05-01",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/651674405/small.jpg",
       "url": "https://www.inaturalist.org/observations/357306986"
-    },
-    {
-      "lat": 34.0482,
-      "lon": -118.56,
-      "species": "Toyon",
-      "date": "2026-04-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666225242/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364925169"
     },
     {
       "lat": 34.0736,
@@ -9258,14 +9682,6 @@
       "url": "https://www.inaturalist.org/observations/355520418"
     },
     {
-      "lat": 34.1504,
-      "lon": -118.164,
-      "species": "Toyon",
-      "date": "2026-04-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647508791/small.jpg",
-      "url": "https://www.inaturalist.org/observations/354975677"
-    },
-    {
       "lat": 34.002,
       "lon": -118.0412,
       "species": "Toyon",
@@ -9298,28 +9714,12 @@
       "url": "https://www.inaturalist.org/observations/356350166"
     },
     {
-      "lat": 33.9038,
-      "lon": -117.9692,
-      "species": "Toyon",
-      "date": "2026-04-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647454694/small.jpg",
-      "url": "https://www.inaturalist.org/observations/354946824"
-    },
-    {
       "lat": 33.7526,
       "lon": -118.3638,
       "species": "Toyon",
       "date": "2026-04-26",
       "photo": "https://static.inaturalist.org/photos/650405709/small.jpg",
       "url": "https://www.inaturalist.org/observations/356646934"
-    },
-    {
-      "lat": 34.2156,
-      "lon": -118.1492,
-      "species": "Toyon",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647703891/small.jpg",
-      "url": "https://www.inaturalist.org/observations/355093888"
     },
     {
       "lat": 34.1822,
@@ -9362,28 +9762,12 @@
       "url": "https://www.inaturalist.org/observations/353753384"
     },
     {
-      "lat": 34.1072,
-      "lon": -118.572,
-      "species": "Toyon",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645985473/small.jpg",
-      "url": "https://www.inaturalist.org/observations/354075804"
-    },
-    {
       "lat": 34.0362,
       "lon": -118.8045,
       "species": "Toyon",
       "date": "2026-04-25",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/647258332/small.jpg",
       "url": "https://www.inaturalist.org/observations/354836695"
-    },
-    {
-      "lat": 33.7415,
-      "lon": -118.3446,
-      "species": "Toyon",
-      "date": "2026-04-25",
-      "photo": "https://static.inaturalist.org/photos/646153195/small.jpg",
-      "url": "https://www.inaturalist.org/observations/354171440"
     },
     {
       "lat": 34.0986,
@@ -9594,14 +9978,6 @@
       "url": "https://www.inaturalist.org/observations/349593266"
     },
     {
-      "lat": 33.794,
-      "lon": -117.7406,
-      "species": "Toyon",
-      "date": "2026-04-11",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/636630952/small.jpg",
-      "url": "https://www.inaturalist.org/observations/349025187"
-    },
-    {
       "lat": 34.1502,
       "lon": -118.7592,
       "species": "Toyon",
@@ -9738,28 +10114,12 @@
       "url": "https://www.inaturalist.org/observations/346468974"
     },
     {
-      "lat": 34.0571,
-      "lon": -118.5105,
-      "species": "Toyon",
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631092301/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346230295"
-    },
-    {
       "lat": 34.1436,
       "lon": -118.1939,
       "species": "Toyon",
       "date": "2026-03-30",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630982602/small.jpg",
       "url": "https://www.inaturalist.org/observations/346174916"
-    },
-    {
-      "lat": 34.099,
-      "lon": -118.7066,
-      "species": "Toyon",
-      "date": "2026-03-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631384243/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346376627"
     },
     {
       "lat": 33.8878,
@@ -9832,14 +10192,6 @@
       "date": "2026-03-10",
       "photo": "https://static.inaturalist.org/photos/623637423/small.jpg",
       "url": "https://www.inaturalist.org/observations/342458118"
-    },
-    {
-      "lat": 34.108,
-      "lon": -118.2523,
-      "species": "Toyon",
-      "date": "2026-03-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/623437907/small.jpg",
-      "url": "https://www.inaturalist.org/observations/342361656"
     },
     {
       "lat": 33.7576,
@@ -9970,22 +10322,6 @@
       "url": "https://www.inaturalist.org/observations/340125707"
     },
     {
-      "lat": 34.1169,
-      "lon": -118.9237,
-      "species": "Toyon",
-      "date": "2026-02-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/619752303/small.jpg",
-      "url": "https://www.inaturalist.org/observations/340549104"
-    },
-    {
-      "lat": 33.8606,
-      "lon": -117.7511,
-      "species": "Toyon",
-      "date": "2026-02-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631653754/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346511883"
-    },
-    {
       "lat": 34.2021,
       "lon": -118.2773,
       "species": "Toyon",
@@ -10024,14 +10360,6 @@
       "date": "2026-02-21",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/617813310/small.jpg",
       "url": "https://www.inaturalist.org/observations/339598701"
-    },
-    {
-      "lat": 34.3186,
-      "lon": -118.3347,
-      "species": "Toyon",
-      "date": "2026-02-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/617663434/small.jpg",
-      "url": "https://www.inaturalist.org/observations/339524279"
     },
     {
       "lat": 34.1874,
@@ -10090,14 +10418,6 @@
       "url": "https://www.inaturalist.org/observations/339066124"
     },
     {
-      "lat": 34.1097,
-      "lon": -118.1836,
-      "species": "Toyon",
-      "date": "2026-02-14",
-      "photo": "https://static.inaturalist.org/photos/615969954/small.jpg",
-      "url": "https://www.inaturalist.org/observations/338684607"
-    },
-    {
       "lat": 34.0909,
       "lon": -118.0154,
       "species": "Toyon",
@@ -10136,30 +10456,6 @@
       "date": "2026-02-09",
       "photo": "https://static.inaturalist.org/photos/614656432/small.jpg",
       "url": "https://www.inaturalist.org/observations/338040547"
-    },
-    {
-      "lat": 34.1083,
-      "lon": -118.747,
-      "species": "Toyon",
-      "date": "2026-02-09",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/614545226/small.jpg",
-      "url": "https://www.inaturalist.org/observations/337987273"
-    },
-    {
-      "lat": 34.3239,
-      "lon": -118.4746,
-      "species": "Toyon",
-      "date": "2026-02-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/614745875/small.jpg",
-      "url": "https://www.inaturalist.org/observations/338084461"
-    },
-    {
-      "lat": 34.2266,
-      "lon": -118.4042,
-      "species": "Toyon",
-      "date": "2026-02-07",
-      "photo": "https://static.inaturalist.org/photos/613997660/small.jpg",
-      "url": "https://www.inaturalist.org/observations/337721674"
     },
     {
       "lat": 34.2833,
@@ -10226,14 +10522,6 @@
       "url": "https://www.inaturalist.org/observations/337119333"
     },
     {
-      "lat": 33.7364,
-      "lon": -117.6905,
-      "species": "Toyon",
-      "date": "2026-02-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/612554687/small.jpg",
-      "url": "https://www.inaturalist.org/observations/337016207"
-    },
-    {
       "lat": 34.0025,
       "lon": -118.8063,
       "species": "Toyon",
@@ -10282,14 +10570,6 @@
       "url": "https://www.inaturalist.org/observations/336830959"
     },
     {
-      "lat": 33.7452,
-      "lon": -118.3785,
-      "species": "Toyon",
-      "date": "2026-01-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/612288847/small.jpg",
-      "url": "https://www.inaturalist.org/observations/336886247"
-    },
-    {
       "lat": 34.3731,
       "lon": -118.7979,
       "species": "Toyon",
@@ -10330,22 +10610,6 @@
       "url": "https://www.inaturalist.org/observations/336144046"
     },
     {
-      "lat": 33.9699,
-      "lon": -118.4344,
-      "species": "Toyon",
-      "date": "2026-01-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/610613983/small.jpg",
-      "url": "https://www.inaturalist.org/observations/336056565"
-    },
-    {
-      "lat": 34.0911,
-      "lon": -118.6362,
-      "species": "Toyon",
-      "date": "2026-01-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/651256348/small.jpg",
-      "url": "https://www.inaturalist.org/observations/357089600"
-    },
-    {
       "lat": 34.0764,
       "lon": -118.8168,
       "species": "Toyon",
@@ -10360,14 +10624,6 @@
       "date": "2026-01-19",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/609270969/small.jpg",
       "url": "https://www.inaturalist.org/observations/335388422"
-    },
-    {
-      "lat": 34.0804,
-      "lon": -118.6477,
-      "species": "Toyon",
-      "date": "2026-01-18",
-      "photo": "https://static.inaturalist.org/photos/608991160/small.jpg",
-      "url": "https://www.inaturalist.org/observations/335249821"
     },
     {
       "lat": 34.0621,
@@ -10434,14 +10690,6 @@
       "url": "https://www.inaturalist.org/observations/334266369"
     },
     {
-      "lat": 34.078,
-      "lon": -118.7,
-      "species": "Toyon",
-      "date": "2026-01-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/606940561/small.jpg",
-      "url": "https://www.inaturalist.org/observations/334242600"
-    },
-    {
       "lat": 33.7505,
       "lon": -118.0919,
       "species": "Toyon",
@@ -10456,14 +10704,6 @@
       "date": "2026-01-09",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/607229059/small.jpg",
       "url": "https://www.inaturalist.org/observations/334384206"
-    },
-    {
-      "lat": 34.1579,
-      "lon": -117.7327,
-      "species": "Toyon",
-      "date": "2026-01-08",
-      "photo": "https://static.inaturalist.org/photos/606557650/small.jpg",
-      "url": "https://www.inaturalist.org/observations/334054218"
     },
     {
       "lat": 34.1071,
@@ -10506,14 +10746,6 @@
       "url": "https://www.inaturalist.org/observations/332952597"
     },
     {
-      "lat": 34.1477,
-      "lon": -117.7421,
-      "species": "Toyon",
-      "date": "2025-12-31",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/604372903/small.jpg",
-      "url": "https://www.inaturalist.org/observations/332953500"
-    },
-    {
       "lat": 34.7035,
       "lon": -118.2851,
       "species": "Toyon",
@@ -10538,36 +10770,12 @@
       "url": "https://www.inaturalist.org/observations/332817154"
     },
     {
-      "lat": 34.2301,
-      "lon": -118.3045,
-      "species": "Toyon",
-      "date": "2025-12-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/607977535/small.jpg",
-      "url": "https://www.inaturalist.org/observations/334753413"
-    },
-    {
-      "lat": 34.1121,
-      "lon": -118.3491,
-      "species": "Toyon",
-      "date": "2025-12-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/604410441/small.jpg",
-      "url": "https://www.inaturalist.org/observations/332972966"
-    },
-    {
       "lat": 34.0387,
       "lon": -118.7792,
       "species": "Toyon",
       "date": "2025-12-28",
       "photo": "https://static.inaturalist.org/photos/603537471/small.jpg",
       "url": "https://www.inaturalist.org/observations/332548066"
-    },
-    {
-      "lat": 33.8834,
-      "lon": -118.2931,
-      "species": "Toyon",
-      "date": "2025-12-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603783594/small.jpg",
-      "url": "https://www.inaturalist.org/observations/332667232"
     },
     {
       "lat": 33.86,
@@ -10634,6 +10842,14 @@
       "url": "https://www.inaturalist.org/observations/332318960"
     },
     {
+      "lat": 34.1549,
+      "lon": -118.3302,
+      "species": "Toyon",
+      "date": "2025-12-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/677993814/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371091004"
+    },
+    {
       "lat": 34.2216,
       "lon": -118.2079,
       "species": "Toyon",
@@ -10672,14 +10888,6 @@
       "date": "2025-12-21",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602114827/small.jpg",
       "url": "https://www.inaturalist.org/observations/331857612"
-    },
-    {
-      "lat": 34.086,
-      "lon": -118.6597,
-      "species": "Toyon",
-      "date": "2025-12-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/601413341/small.jpg",
-      "url": "https://www.inaturalist.org/observations/331464747"
     },
     {
       "lat": 34.0884,
@@ -10970,28 +11178,12 @@
       "url": "https://www.inaturalist.org/observations/331740822"
     },
     {
-      "lat": 34.2185,
-      "lon": -118.7933,
-      "species": "Toyon",
-      "date": "2025-11-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/605163969/small.jpg",
-      "url": "https://www.inaturalist.org/observations/333344189"
-    },
-    {
       "lat": 34.1304,
       "lon": -118.5024,
       "species": "Toyon",
       "date": "2025-11-29",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/600271697/small.jpg",
       "url": "https://www.inaturalist.org/observations/330958798"
-    },
-    {
-      "lat": 34.2977,
-      "lon": -118.3728,
-      "species": "Toyon",
-      "date": "2025-11-29",
-      "photo": "https://static.inaturalist.org/photos/595937373/small.jpg",
-      "url": "https://www.inaturalist.org/observations/328826555"
     },
     {
       "lat": 34.0128,
@@ -11010,14 +11202,6 @@
       "url": "https://www.inaturalist.org/observations/328409535"
     },
     {
-      "lat": 33.7771,
-      "lon": -118.3029,
-      "species": "Toyon",
-      "date": "2025-11-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/594772297/small.jpg",
-      "url": "https://www.inaturalist.org/observations/328250038"
-    },
-    {
       "lat": 33.9763,
       "lon": -118.4083,
       "species": "Toyon",
@@ -11032,14 +11216,6 @@
       "date": "2025-11-24",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/594604327/small.jpg",
       "url": "https://www.inaturalist.org/observations/328164175"
-    },
-    {
-      "lat": 34.2124,
-      "lon": -118.8154,
-      "species": "Toyon",
-      "date": "2025-11-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/593853451/small.jpg",
-      "url": "https://www.inaturalist.org/observations/327770863"
     },
     {
       "lat": 33.8032,
@@ -11088,6 +11264,14 @@
       "date": "2025-11-13",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/591044203/small.jpg",
       "url": "https://www.inaturalist.org/observations/326352043"
+    },
+    {
+      "lat": 34.1645,
+      "lon": -118.1435,
+      "species": "Toyon",
+      "date": "2025-11-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679401025/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371834193"
     },
     {
       "lat": 34.377,
@@ -11256,14 +11440,6 @@
       "date": "2025-10-15",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/580831388/small.jpg",
       "url": "https://www.inaturalist.org/observations/321184809"
-    },
-    {
-      "lat": 34.1306,
-      "lon": -118.5451,
-      "species": "Toyon",
-      "date": "2025-10-13",
-      "photo": "https://static.inaturalist.org/photos/580003879/small.jpg",
-      "url": "https://www.inaturalist.org/observations/320763703"
     },
     {
       "lat": 34.115,
@@ -11506,14 +11682,6 @@
       "url": "https://www.inaturalist.org/observations/312609728"
     },
     {
-      "lat": 34.1676,
-      "lon": -118.1365,
-      "species": "Toyon",
-      "date": "2025-09-06",
-      "photo": "https://static.inaturalist.org/photos/563262228/small.jpg",
-      "url": "https://www.inaturalist.org/observations/311999345"
-    },
-    {
       "lat": 34.1056,
       "lon": -118.3497,
       "species": "Toyon",
@@ -11650,14 +11818,6 @@
       "url": "https://www.inaturalist.org/observations/301696824"
     },
     {
-      "lat": 34.1356,
-      "lon": -118.3207,
-      "species": "Toyon",
-      "date": "2025-07-26",
-      "photo": "https://static.inaturalist.org/photos/555490958/small.jpg",
-      "url": "https://www.inaturalist.org/observations/301285777"
-    },
-    {
       "lat": 33.8048,
       "lon": -117.7931,
       "species": "Toyon",
@@ -11776,14 +11936,6 @@
       "date": "2025-07-04",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/531944388/small.jpg",
       "url": "https://www.inaturalist.org/observations/295483888"
-    },
-    {
-      "lat": 33.7787,
-      "lon": -118.412,
-      "species": "Toyon",
-      "date": "2025-07-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/529984509/small.jpg",
-      "url": "https://www.inaturalist.org/observations/294444313"
     },
     {
       "lat": 34.1768,
@@ -11930,14 +12082,6 @@
       "url": "https://www.inaturalist.org/observations/288081515"
     },
     {
-      "lat": 34.0025,
-      "lon": -117.8009,
-      "species": "Toyon",
-      "date": "2025-05-17",
-      "photo": "https://static.inaturalist.org/photos/506425615/small.jpg",
-      "url": "https://www.inaturalist.org/observations/281900047"
-    },
-    {
       "lat": 34.0926,
       "lon": -118.6109,
       "species": "Toyon",
@@ -12024,14 +12168,6 @@
       "date": "2025-04-28",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/495706704/small.jpeg",
       "url": "https://www.inaturalist.org/observations/275965132"
-    },
-    {
-      "lat": 33.7714,
-      "lon": -118.3751,
-      "species": "Toyon",
-      "date": "2025-04-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/494526364/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/275175527"
     },
     {
       "lat": 34.1681,
@@ -12146,14 +12282,6 @@
       "url": "https://www.inaturalist.org/observations/273526216"
     },
     {
-      "lat": 33.84,
-      "lon": -118.1958,
-      "species": "Toyon",
-      "date": "2025-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/493170757/small.jpg",
-      "url": "https://www.inaturalist.org/observations/274308014"
-    },
-    {
       "lat": 34.0392,
       "lon": -118.2196,
       "species": "Toyon",
@@ -12194,14 +12322,6 @@
       "url": "https://www.inaturalist.org/observations/271530204"
     },
     {
-      "lat": 34.1695,
-      "lon": -118.3467,
-      "species": "Toyon",
-      "date": "2025-04-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/487187658/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/270872547"
-    },
-    {
       "lat": 34.0878,
       "lon": -118.5272,
       "species": "Toyon",
@@ -12216,22 +12336,6 @@
       "date": "2025-04-13",
       "photo": "https://static.inaturalist.org/photos/486033110/small.jpeg",
       "url": "https://www.inaturalist.org/observations/270267234"
-    },
-    {
-      "lat": 33.7757,
-      "lon": -117.6763,
-      "species": "Toyon",
-      "date": "2025-04-11",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/485372537/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/269917986"
-    },
-    {
-      "lat": 33.7359,
-      "lon": -117.6879,
-      "species": "Toyon",
-      "date": "2025-04-06",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/483696932/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/269049834"
     },
     {
       "lat": 34.3669,
@@ -12256,14 +12360,6 @@
       "date": "2025-03-30",
       "photo": "https://static.inaturalist.org/photos/485206183/small.jpg",
       "url": "https://www.inaturalist.org/observations/269711615"
-    },
-    {
-      "lat": 34.1088,
-      "lon": -117.7079,
-      "species": "Toyon",
-      "date": "2025-03-26",
-      "photo": "https://static.inaturalist.org/photos/480001259/small.jpg",
-      "url": "https://www.inaturalist.org/observations/267121918"
     },
     {
       "lat": 34.0934,
@@ -12778,14 +12874,6 @@
       "url": "https://www.inaturalist.org/observations/256546260"
     },
     {
-      "lat": 34.4621,
-      "lon": -118.5378,
-      "species": "Toyon",
-      "date": "2024-12-24",
-      "photo": "https://static.inaturalist.org/photos/459103970/small.jpg",
-      "url": "https://www.inaturalist.org/observations/256105745"
-    },
-    {
       "lat": 34.2193,
       "lon": -118.3116,
       "species": "Toyon",
@@ -13122,14 +13210,6 @@
       "url": "https://www.inaturalist.org/observations/251187179"
     },
     {
-      "lat": 34.3636,
-      "lon": -118.5372,
-      "species": "Toyon",
-      "date": "2024-11-09",
-      "photo": "https://static.inaturalist.org/photos/449177490/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/251077993"
-    },
-    {
       "lat": 33.8702,
       "lon": -117.7612,
       "species": "Toyon",
@@ -13386,14 +13466,6 @@
       "url": "https://www.inaturalist.org/observations/227689366"
     },
     {
-      "lat": 33.8957,
-      "lon": -117.922,
-      "species": "Toyon",
-      "date": "2024-07-04",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/402931334/small.jpg",
-      "url": "https://www.inaturalist.org/observations/227149717"
-    },
-    {
       "lat": 33.9146,
       "lon": -118.0619,
       "species": "Toyon",
@@ -13514,14 +13586,6 @@
       "url": "https://www.inaturalist.org/observations/209155747"
     },
     {
-      "lat": 34.0071,
-      "lon": -117.811,
-      "species": "Toyon",
-      "date": "2024-04-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/376376508/small.jpg",
-      "url": "https://www.inaturalist.org/observations/212980089"
-    },
-    {
       "lat": 33.9786,
       "lon": -118.0817,
       "species": "Toyon",
@@ -13552,14 +13616,6 @@
       "date": "2024-04-20",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/368643352/small.jpg",
       "url": "https://www.inaturalist.org/observations/208359498"
-    },
-    {
-      "lat": 34.4363,
-      "lon": -118.5489,
-      "species": "Toyon",
-      "date": "2024-04-14",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/366679145/small.jpg",
-      "url": "https://www.inaturalist.org/observations/207308850"
     },
     {
       "lat": 34.6606,
@@ -13608,14 +13664,6 @@
       "date": "2024-03-16",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/358065483/small.jpg",
       "url": "https://www.inaturalist.org/observations/202722331"
-    },
-    {
-      "lat": 33.9925,
-      "lon": -118.0185,
-      "species": "Toyon",
-      "date": "2024-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/357844680/small.jpg",
-      "url": "https://www.inaturalist.org/observations/202603336"
     },
     {
       "lat": 34.1616,
@@ -13802,14 +13850,6 @@
       "url": "https://www.inaturalist.org/observations/197029379"
     },
     {
-      "lat": 34.2268,
-      "lon": -118.2443,
-      "species": "Toyon",
-      "date": "2024-01-16",
-      "photo": "https://static.inaturalist.org/photos/346789621/small.jpg",
-      "url": "https://www.inaturalist.org/observations/196966424"
-    },
-    {
       "lat": 34.159,
       "lon": -118.0649,
       "species": "Toyon",
@@ -13944,6 +13984,14 @@
       "date": "2023-12-23",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/342293189/small.jpg",
       "url": "https://www.inaturalist.org/observations/194690833"
+    },
+    {
+      "lat": 34.228,
+      "lon": -118.7237,
+      "species": "Toyon",
+      "date": "2023-12-23",
+      "photo": "https://static.inaturalist.org/photos/688257057/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376429160"
     },
     {
       "lat": 34.1272,
@@ -14152,14 +14200,6 @@
       "date": "2023-11-22",
       "photo": "https://static.inaturalist.org/photos/336570242/small.jpeg",
       "url": "https://www.inaturalist.org/observations/191803074"
-    },
-    {
-      "lat": 34.2785,
-      "lon": -118.3238,
-      "species": "Toyon",
-      "date": "2023-11-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/335152358/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/191095332"
     },
     {
       "lat": 34.2402,
@@ -14530,14 +14570,6 @@
       "url": "https://www.inaturalist.org/observations/233237861"
     },
     {
-      "lat": 34.0458,
-      "lon": -118.7132,
-      "species": "Toyon",
-      "date": "2023-05-06",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/277058398/small.jpg",
-      "url": "https://www.inaturalist.org/observations/160337747"
-    },
-    {
       "lat": 33.9159,
       "lon": -117.8067,
       "species": "Toyon",
@@ -14658,14 +14690,6 @@
       "url": "https://www.inaturalist.org/observations/147706659"
     },
     {
-      "lat": 33.922,
-      "lon": -117.7834,
-      "species": "Toyon",
-      "date": "2023-01-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/254412050/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/147813116"
-    },
-    {
       "lat": 34.2695,
       "lon": -118.3607,
       "species": "Toyon",
@@ -14704,14 +14728,6 @@
       "date": "2022-12-30",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/249961566/small.jpg",
       "url": "https://www.inaturalist.org/observations/145514366"
-    },
-    {
-      "lat": 34.1444,
-      "lon": -118.7009,
-      "species": "Toyon",
-      "date": "2022-12-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/249725133/small.jpg",
-      "url": "https://www.inaturalist.org/observations/145392644"
     },
     {
       "lat": 33.9938,
@@ -14776,14 +14792,6 @@
       "date": "2022-11-30",
       "photo": "https://static.inaturalist.org/photos/245880006/small.jpeg",
       "url": "https://www.inaturalist.org/observations/143358739"
-    },
-    {
-      "lat": 34.0633,
-      "lon": -117.995,
-      "species": "Toyon",
-      "date": "2022-11-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/266674691/small.jpg",
-      "url": "https://www.inaturalist.org/observations/143310759"
     },
     {
       "lat": 34.0504,
@@ -15082,36 +15090,588 @@
       "url": "https://www.inaturalist.org/observations/120185832"
     },
     {
-      "lat": 34.1677,
-      "lon": -118.3906,
-      "species": "Toyon",
-      "date": "2022-05-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/200763407/small.jpg",
-      "url": "https://www.inaturalist.org/observations/118802263"
+      "lat": 34.1951,
+      "lon": -117.8677,
+      "species": "Ceanothus",
+      "date": "2026-06-30",
+      "photo": "https://static.inaturalist.org/photos/689498462/small.jpg",
+      "url": "https://www.inaturalist.org/observations/377068447"
     },
     {
-      "lat": 34.19,
-      "lon": -118.4351,
-      "species": "Toyon",
-      "date": "2022-05-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/199759880/small.jpg",
-      "url": "https://www.inaturalist.org/observations/118247399"
+      "lat": 34.2517,
+      "lon": -118.2535,
+      "species": "Ceanothus",
+      "date": "2026-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689494297/small.jpg",
+      "url": "https://www.inaturalist.org/observations/377066257"
     },
     {
-      "lat": 34.2434,
-      "lon": -117.9595,
-      "species": "Toyon",
-      "date": "2022-05-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/198865906/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/117735033"
+      "lat": 34.0981,
+      "lon": -118.7504,
+      "species": "Ceanothus",
+      "date": "2026-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689323561/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376981565"
     },
     {
-      "lat": 34.159,
-      "lon": -118.5488,
-      "species": "Toyon",
-      "date": "2022-05-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/193421449/small.jpg",
-      "url": "https://www.inaturalist.org/observations/114544788"
+      "lat": 34.1241,
+      "lon": -118.9417,
+      "species": "Ceanothus",
+      "date": "2026-06-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689286794/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376962864"
+    },
+    {
+      "lat": 34.2569,
+      "lon": -118.1538,
+      "species": "Ceanothus",
+      "date": "2026-06-29",
+      "photo": "https://static.inaturalist.org/photos/689418940/small.jpg",
+      "url": "https://www.inaturalist.org/observations/377037386"
+    },
+    {
+      "lat": 34.1859,
+      "lon": -118.7626,
+      "species": "Ceanothus",
+      "date": "2026-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688881087/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376749860"
+    },
+    {
+      "lat": 34.098,
+      "lon": -118.7314,
+      "species": "Ceanothus",
+      "date": "2026-06-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688826590/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376722085"
+    },
+    {
+      "lat": 34.559,
+      "lon": -118.7757,
+      "species": "Ceanothus",
+      "date": "2026-06-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689412362/small.jpg",
+      "url": "https://www.inaturalist.org/observations/377024798"
+    },
+    {
+      "lat": 34.2988,
+      "lon": -118.0285,
+      "species": "Ceanothus",
+      "date": "2026-06-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688169827/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376289442"
+    },
+    {
+      "lat": 34.1423,
+      "lon": -118.5771,
+      "species": "Ceanothus",
+      "date": "2026-06-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688211084/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376406622"
+    },
+    {
+      "lat": 34.312,
+      "lon": -118.3841,
+      "species": "Ceanothus",
+      "date": "2026-06-28",
+      "photo": "https://static.inaturalist.org/photos/688051635/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376333177"
+    },
+    {
+      "lat": 34.2647,
+      "lon": -118.6285,
+      "species": "Ceanothus",
+      "date": "2026-06-27",
+      "photo": "https://static.inaturalist.org/photos/687535516/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376054273"
+    },
+    {
+      "lat": 34.0461,
+      "lon": -118.7508,
+      "species": "Ceanothus",
+      "date": "2026-06-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688073961/small.jpg",
+      "url": "https://www.inaturalist.org/observations/376336720"
+    },
+    {
+      "lat": 34.1263,
+      "lon": -118.295,
+      "species": "Ceanothus",
+      "date": "2026-06-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/687289603/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375927232"
+    },
+    {
+      "lat": 34.0478,
+      "lon": -118.7135,
+      "species": "Ceanothus",
+      "date": "2026-06-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/686635797/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375587294"
+    },
+    {
+      "lat": 34.1984,
+      "lon": -118.7851,
+      "species": "Ceanothus",
+      "date": "2026-06-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/686155123/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375342223"
+    },
+    {
+      "lat": 34.0566,
+      "lon": -118.5309,
+      "species": "Ceanothus",
+      "date": "2026-06-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/685549483/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375033411"
+    },
+    {
+      "lat": 33.8634,
+      "lon": -117.6781,
+      "species": "Ceanothus",
+      "date": "2026-06-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/685473113/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374688422"
+    },
+    {
+      "lat": 34.0978,
+      "lon": -118.6555,
+      "species": "Ceanothus",
+      "date": "2026-06-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684944888/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374720156"
+    },
+    {
+      "lat": 34.2561,
+      "lon": -118.1107,
+      "species": "Ceanothus",
+      "date": "2026-06-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684921084/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374708244"
+    },
+    {
+      "lat": 34.2639,
+      "lon": -118.196,
+      "species": "Ceanothus",
+      "date": "2026-06-23",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/685538542/small.jpg",
+      "url": "https://www.inaturalist.org/observations/375027219"
+    },
+    {
+      "lat": 34.2474,
+      "lon": -118.3015,
+      "species": "Ceanothus",
+      "date": "2026-06-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684519809/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374497538"
+    },
+    {
+      "lat": 34.0579,
+      "lon": -118.6151,
+      "species": "Ceanothus",
+      "date": "2026-06-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684584849/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374529793"
+    },
+    {
+      "lat": 34.1678,
+      "lon": -117.9537,
+      "species": "Ceanothus",
+      "date": "2026-06-21",
+      "photo": "https://static.inaturalist.org/photos/683888673/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374173946"
+    },
+    {
+      "lat": 34.1596,
+      "lon": -117.9707,
+      "species": "Ceanothus",
+      "date": "2026-06-21",
+      "photo": "https://static.inaturalist.org/photos/683811632/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374136077"
+    },
+    {
+      "lat": 33.7941,
+      "lon": -117.7413,
+      "species": "Ceanothus",
+      "date": "2026-06-21",
+      "photo": "https://static.inaturalist.org/photos/685026450/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374760822"
+    },
+    {
+      "lat": 34.6069,
+      "lon": -118.564,
+      "species": "Ceanothus",
+      "date": "2026-06-21",
+      "photo": "https://static.inaturalist.org/photos/683670847/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374062834"
+    },
+    {
+      "lat": 34.2425,
+      "lon": -117.8753,
+      "species": "Ceanothus",
+      "date": "2026-06-21",
+      "photo": "https://static.inaturalist.org/photos/683895957/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374177795"
+    },
+    {
+      "lat": 34.0341,
+      "lon": -118.7344,
+      "species": "Ceanothus",
+      "date": "2026-06-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684253964/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374362497"
+    },
+    {
+      "lat": 34.3431,
+      "lon": -118.3573,
+      "species": "Ceanothus",
+      "date": "2026-06-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/683193710/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373813287"
+    },
+    {
+      "lat": 34.3274,
+      "lon": -118.0055,
+      "species": "Ceanothus",
+      "date": "2026-06-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682975384/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373702391"
+    },
+    {
+      "lat": 34.3296,
+      "lon": -118.0108,
+      "species": "Ceanothus",
+      "date": "2026-06-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/683106705/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373776346"
+    },
+    {
+      "lat": 34.2834,
+      "lon": -118.1206,
+      "species": "Ceanothus",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682471875/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373436295"
+    },
+    {
+      "lat": 34.1285,
+      "lon": -118.4025,
+      "species": "Ceanothus",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682415200/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373407543"
+    },
+    {
+      "lat": 34.0661,
+      "lon": -118.607,
+      "species": "Ceanothus",
+      "date": "2026-06-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682694074/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373551124"
+    },
+    {
+      "lat": 34.0949,
+      "lon": -118.705,
+      "species": "Ceanothus",
+      "date": "2026-06-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681848951/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373112399"
+    },
+    {
+      "lat": 34.3819,
+      "lon": -117.6971,
+      "species": "Ceanothus",
+      "date": "2026-06-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681913374/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373144299"
+    },
+    {
+      "lat": 34.2406,
+      "lon": -118.7724,
+      "species": "Ceanothus",
+      "date": "2026-06-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681225352/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372783428"
+    },
+    {
+      "lat": 34.3708,
+      "lon": -117.6851,
+      "species": "Ceanothus",
+      "date": "2026-06-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681212271/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372776383"
+    },
+    {
+      "lat": 34.1024,
+      "lon": -118.9314,
+      "species": "Ceanothus",
+      "date": "2026-06-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681284861/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372813545"
+    },
+    {
+      "lat": 34.0642,
+      "lon": -118.442,
+      "species": "Ceanothus",
+      "date": "2026-06-16",
+      "photo": "https://static.inaturalist.org/photos/680716705/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372514927"
+    },
+    {
+      "lat": 33.9692,
+      "lon": -118.4234,
+      "species": "Ceanothus",
+      "date": "2026-06-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680657299/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372485989"
+    },
+    {
+      "lat": 34.2512,
+      "lon": -118.0995,
+      "species": "Ceanothus",
+      "date": "2026-06-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/680100733/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372193071"
+    },
+    {
+      "lat": 34.2562,
+      "lon": -118.2441,
+      "species": "Ceanothus",
+      "date": "2026-06-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679881220/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372083151"
+    },
+    {
+      "lat": 34.0399,
+      "lon": -118.8237,
+      "species": "Ceanothus",
+      "date": "2026-06-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679832410/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372057203"
+    },
+    {
+      "lat": 34.3209,
+      "lon": -117.8466,
+      "species": "Ceanothus",
+      "date": "2026-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/685150808/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374822671"
+    },
+    {
+      "lat": 33.8742,
+      "lon": -118.2952,
+      "species": "Ceanothus",
+      "date": "2026-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/679282719/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371773724"
+    },
+    {
+      "lat": 34.3936,
+      "lon": -118.0808,
+      "species": "Ceanothus",
+      "date": "2026-06-14",
+      "photo": "https://static.inaturalist.org/photos/679283788/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371816818"
+    },
+    {
+      "lat": 34.3778,
+      "lon": -117.8905,
+      "species": "Ceanothus",
+      "date": "2026-06-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681894296/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373134639"
+    },
+    {
+      "lat": 34.1052,
+      "lon": -118.6427,
+      "species": "Ceanothus",
+      "date": "2026-06-12",
+      "photo": "https://static.inaturalist.org/photos/680015999/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372070390"
+    },
+    {
+      "lat": 34.12,
+      "lon": -118.4132,
+      "species": "Ceanothus",
+      "date": "2026-06-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/677859861/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371021557"
+    },
+    {
+      "lat": 34.0911,
+      "lon": -118.5797,
+      "species": "Ceanothus",
+      "date": "2026-06-10",
+      "photo": "https://static.inaturalist.org/photos/676860814/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370508279"
+    },
+    {
+      "lat": 34.2733,
+      "lon": -118.0464,
+      "species": "Ceanothus",
+      "date": "2026-06-10",
+      "photo": "https://static.inaturalist.org/photos/676854464/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370505435"
+    },
+    {
+      "lat": 34.1111,
+      "lon": -118.7778,
+      "species": "Ceanothus",
+      "date": "2026-06-08",
+      "photo": "https://static.inaturalist.org/photos/675567401/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369825043"
+    },
+    {
+      "lat": 34.0841,
+      "lon": -118.636,
+      "species": "Ceanothus",
+      "date": "2026-06-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/675696026/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369892355"
+    },
+    {
+      "lat": 34.1425,
+      "lon": -118.3063,
+      "species": "Ceanothus",
+      "date": "2026-06-08",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/675363005/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369717850"
+    },
+    {
+      "lat": 34.1109,
+      "lon": -117.7149,
+      "species": "Ceanothus",
+      "date": "2026-06-07",
+      "photo": "https://static.inaturalist.org/photos/675747079/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369918137"
+    },
+    {
+      "lat": 34.318,
+      "lon": -118.3304,
+      "species": "Ceanothus",
+      "date": "2026-06-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/674865946/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369459932"
+    },
+    {
+      "lat": 34.0737,
+      "lon": -118.6163,
+      "species": "Ceanothus",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/674324967/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369169947"
+    },
+    {
+      "lat": 34.3044,
+      "lon": -118.2562,
+      "species": "Ceanothus",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/675403645/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369744494"
+    },
+    {
+      "lat": 34.3666,
+      "lon": -118.4853,
+      "species": "Ceanothus",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/674281124/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369148241"
+    },
+    {
+      "lat": 34.2682,
+      "lon": -118.1471,
+      "species": "Ceanothus",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/674362754/small.jpg",
+      "url": "https://www.inaturalist.org/observations/369190922"
+    },
+    {
+      "lat": 34.1335,
+      "lon": -118.1543,
+      "species": "Ceanothus",
+      "date": "2026-06-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/684908512/small.jpg",
+      "url": "https://www.inaturalist.org/observations/374702016"
+    },
+    {
+      "lat": 33.8291,
+      "lon": -118.342,
+      "species": "Ceanothus",
+      "date": "2026-06-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/672470717/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368195112"
+    },
+    {
+      "lat": 34.0148,
+      "lon": -118.3773,
+      "species": "Ceanothus",
+      "date": "2026-06-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/672538157/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368229641"
+    },
+    {
+      "lat": 33.7446,
+      "lon": -118.4117,
+      "species": "Ceanothus",
+      "date": "2026-06-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/672437546/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368178426"
+    },
+    {
+      "lat": 34.0874,
+      "lon": -118.7099,
+      "species": "Ceanothus",
+      "date": "2026-06-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671959407/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367929068"
+    },
+    {
+      "lat": 34.0883,
+      "lon": -118.71,
+      "species": "Ceanothus",
+      "date": "2026-06-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671959186/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367928941"
+    },
+    {
+      "lat": 34.2706,
+      "lon": -118.1663,
+      "species": "Ceanothus",
+      "date": "2026-06-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671951031/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367925091"
+    },
+    {
+      "lat": 34.0964,
+      "lon": -117.7086,
+      "species": "Ceanothus",
+      "date": "2026-06-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671859810/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367879251"
+    },
+    {
+      "lat": 34.1335,
+      "lon": -118.815,
+      "species": "Ceanothus",
+      "date": "2026-06-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671780463/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367838097"
+    },
+    {
+      "lat": 34.2385,
+      "lon": -118.2335,
+      "species": "Ceanothus",
+      "date": "2026-06-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/672363233/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367593621"
+    },
+    {
+      "lat": 34.2144,
+      "lon": -117.664,
+      "species": "Ceanothus",
+      "date": "2026-05-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/678375165/small.jpg",
+      "url": "https://www.inaturalist.org/observations/371297131"
     },
     {
       "lat": 34.2597,
@@ -15122,28 +15682,12 @@
       "url": "https://www.inaturalist.org/observations/367197761"
     },
     {
-      "lat": 34.0977,
-      "lon": -118.6555,
-      "species": "Ceanothus",
-      "date": "2026-05-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/669979885/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366898631"
-    },
-    {
       "lat": 34.5949,
       "lon": -118.2305,
       "species": "Ceanothus",
       "date": "2026-05-30",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/669838123/small.jpg",
       "url": "https://www.inaturalist.org/observations/366826268"
-    },
-    {
-      "lat": 34.2682,
-      "lon": -118.1629,
-      "species": "Ceanothus",
-      "date": "2026-05-30",
-      "photo": "https://static.inaturalist.org/photos/670662913/small.jpg",
-      "url": "https://www.inaturalist.org/observations/367254817"
     },
     {
       "lat": 34.1106,
@@ -15154,14 +15698,6 @@
       "url": "https://www.inaturalist.org/observations/366804068"
     },
     {
-      "lat": 34.3938,
-      "lon": -118.0765,
-      "species": "Ceanothus",
-      "date": "2026-05-30",
-      "photo": "https://static.inaturalist.org/photos/670079897/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366944860"
-    },
-    {
       "lat": 34.0721,
       "lon": -118.9319,
       "species": "Ceanothus",
@@ -15170,12 +15706,12 @@
       "url": "https://www.inaturalist.org/observations/366876442"
     },
     {
-      "lat": 34.0538,
-      "lon": -118.6185,
+      "lat": 34.0811,
+      "lon": -118.566,
       "species": "Ceanothus",
       "date": "2026-05-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/669749025/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366779492"
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/673363603/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368664300"
     },
     {
       "lat": 34.3646,
@@ -15194,6 +15730,22 @@
       "url": "https://www.inaturalist.org/observations/366904561"
     },
     {
+      "lat": 34.3852,
+      "lon": -118.0341,
+      "species": "Ceanothus",
+      "date": "2026-05-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676588741/small.jpg",
+      "url": "https://www.inaturalist.org/observations/370359716"
+    },
+    {
+      "lat": 33.8365,
+      "lon": -117.7578,
+      "species": "Ceanothus",
+      "date": "2026-05-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/677694429/small.jpg",
+      "url": "https://www.inaturalist.org/observations/366428512"
+    },
+    {
       "lat": 34.2377,
       "lon": -118.1815,
       "species": "Ceanothus",
@@ -15202,36 +15754,12 @@
       "url": "https://www.inaturalist.org/observations/366437046"
     },
     {
-      "lat": 34.2511,
-      "lon": -118.2511,
-      "species": "Ceanothus",
-      "date": "2026-05-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/668461931/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366099367"
-    },
-    {
       "lat": 34.2453,
       "lon": -118.0556,
       "species": "Ceanothus",
       "date": "2026-05-27",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/668152671/small.jpg",
       "url": "https://www.inaturalist.org/observations/365935017"
-    },
-    {
-      "lat": 34.1204,
-      "lon": -118.4123,
-      "species": "Ceanothus",
-      "date": "2026-05-26",
-      "photo": "https://static.inaturalist.org/photos/667497428/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365595283"
-    },
-    {
-      "lat": 34.128,
-      "lon": -118.9305,
-      "species": "Ceanothus",
-      "date": "2026-05-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/667605416/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365646124"
     },
     {
       "lat": 34.2119,
@@ -15274,6 +15802,14 @@
       "url": "https://www.inaturalist.org/observations/365537801"
     },
     {
+      "lat": 34.0843,
+      "lon": -118.6522,
+      "species": "Ceanothus",
+      "date": "2026-05-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671351163/small.jpg",
+      "url": "https://www.inaturalist.org/observations/367609710"
+    },
+    {
       "lat": 34.1366,
       "lon": -118.4554,
       "species": "Ceanothus",
@@ -15298,28 +15834,12 @@
       "url": "https://www.inaturalist.org/observations/365098349"
     },
     {
-      "lat": 34.368,
-      "lon": -118.4802,
-      "species": "Ceanothus",
-      "date": "2026-05-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666639925/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365146057"
-    },
-    {
-      "lat": 34.259,
-      "lon": -118.2003,
+      "lat": 34.2238,
+      "lon": -118.0617,
       "species": "Ceanothus",
       "date": "2026-05-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666621671/small.jpg",
-      "url": "https://www.inaturalist.org/observations/365131610"
-    },
-    {
-      "lat": 34.2858,
-      "lon": -118.1541,
-      "species": "Ceanothus",
-      "date": "2026-05-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666103350/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364864228"
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681264185/small.jpg",
+      "url": "https://www.inaturalist.org/observations/372802632"
     },
     {
       "lat": 33.8005,
@@ -15344,14 +15864,6 @@
       "date": "2026-05-24",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/666198654/small.jpg",
       "url": "https://www.inaturalist.org/observations/364912192"
-    },
-    {
-      "lat": 34.2238,
-      "lon": -118.0617,
-      "species": "Ceanothus",
-      "date": "2026-05-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/665381539/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364482712"
     },
     {
       "lat": 34.2962,
@@ -15386,6 +15898,14 @@
       "url": "https://www.inaturalist.org/observations/364510401"
     },
     {
+      "lat": 34.3731,
+      "lon": -118.1721,
+      "species": "Ceanothus",
+      "date": "2026-05-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/681946209/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373160842"
+    },
+    {
       "lat": 34.3816,
       "lon": -118.1427,
       "species": "Ceanothus",
@@ -15410,28 +15930,12 @@
       "url": "https://www.inaturalist.org/observations/364289531"
     },
     {
-      "lat": 34.3232,
-      "lon": -118.0029,
+      "lat": 34.4026,
+      "lon": -118.56,
       "species": "Ceanothus",
       "date": "2026-05-22",
-      "photo": "https://static.inaturalist.org/photos/664682040/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364109447"
-    },
-    {
-      "lat": 34.406,
-      "lon": -118.5576,
-      "species": "Ceanothus",
-      "date": "2026-05-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664503565/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364014386"
-    },
-    {
-      "lat": 34.2831,
-      "lon": -118.1148,
-      "species": "Ceanothus",
-      "date": "2026-05-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664752387/small.jpg",
-      "url": "https://www.inaturalist.org/observations/364151511"
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664489366/small.jpg",
+      "url": "https://www.inaturalist.org/observations/364007101"
     },
     {
       "lat": 34.2115,
@@ -15440,14 +15944,6 @@
       "date": "2026-05-21",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664078415/small.jpg",
       "url": "https://www.inaturalist.org/observations/363785535"
-    },
-    {
-      "lat": 34.0677,
-      "lon": -118.4422,
-      "species": "Ceanothus",
-      "date": "2026-05-21",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664010531/small.jpg",
-      "url": "https://www.inaturalist.org/observations/363749389"
     },
     {
       "lat": 34.6912,
@@ -15472,14 +15968,6 @@
       "date": "2026-05-18",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/662510938/small.jpg",
       "url": "https://www.inaturalist.org/observations/362959514"
-    },
-    {
-      "lat": 34.2468,
-      "lon": -118.2985,
-      "species": "Ceanothus",
-      "date": "2026-05-18",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/662858470/small.jpg",
-      "url": "https://www.inaturalist.org/observations/363144942"
     },
     {
       "lat": 34.0642,
@@ -15568,14 +16056,6 @@
       "date": "2026-05-16",
       "photo": "https://static.inaturalist.org/photos/665151274/small.jpg",
       "url": "https://www.inaturalist.org/observations/364360377"
-    },
-    {
-      "lat": 34.263,
-      "lon": -118.1005,
-      "species": "Ceanothus",
-      "date": "2026-05-16",
-      "photo": "https://static.inaturalist.org/photos/660912340/small.jpg",
-      "url": "https://www.inaturalist.org/observations/362122494"
     },
     {
       "lat": 34.3001,
@@ -15682,14 +16162,6 @@
       "url": "https://www.inaturalist.org/observations/361182754"
     },
     {
-      "lat": 34.3826,
-      "lon": -118.0342,
-      "species": "Ceanothus",
-      "date": "2026-05-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/658032864/small.jpg",
-      "url": "https://www.inaturalist.org/observations/360613601"
-    },
-    {
       "lat": 34.4828,
       "lon": -118.9185,
       "species": "Ceanothus",
@@ -15704,14 +16176,6 @@
       "date": "2026-05-08",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/656328542/small.jpg",
       "url": "https://www.inaturalist.org/observations/359709806"
-    },
-    {
-      "lat": 34.1106,
-      "lon": -117.7146,
-      "species": "Ceanothus",
-      "date": "2026-05-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/658325744/small.jpg",
-      "url": "https://www.inaturalist.org/observations/359545163"
     },
     {
       "lat": 33.9681,
@@ -15730,6 +16194,14 @@
       "url": "https://www.inaturalist.org/observations/359329442"
     },
     {
+      "lat": 34.2241,
+      "lon": -117.9301,
+      "species": "Ceanothus",
+      "date": "2026-05-07",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/672538522/small.jpg",
+      "url": "https://www.inaturalist.org/observations/368229828"
+    },
+    {
       "lat": 34.3536,
       "lon": -118.3958,
       "species": "Ceanothus",
@@ -15744,14 +16216,6 @@
       "date": "2026-05-06",
       "photo": "https://static.inaturalist.org/photos/655209651/small.jpg",
       "url": "https://www.inaturalist.org/observations/359127061"
-    },
-    {
-      "lat": 34.1192,
-      "lon": -118.3039,
-      "species": "Ceanothus",
-      "date": "2026-05-06",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/655032071/small.jpg",
-      "url": "https://www.inaturalist.org/observations/359037734"
     },
     {
       "lat": 34.0998,
@@ -15810,14 +16274,6 @@
       "url": "https://www.inaturalist.org/observations/358815828"
     },
     {
-      "lat": 34.1024,
-      "lon": -118.5856,
-      "species": "Ceanothus",
-      "date": "2026-05-03",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/654279707/small.jpg",
-      "url": "https://www.inaturalist.org/observations/358645191"
-    },
-    {
       "lat": 34.1727,
       "lon": -118.9174,
       "species": "Ceanothus",
@@ -15866,28 +16322,12 @@
       "url": "https://www.inaturalist.org/observations/358060606"
     },
     {
-      "lat": 34.2677,
-      "lon": -118.2434,
-      "species": "Ceanothus",
-      "date": "2026-05-03",
-      "photo": "https://static.inaturalist.org/photos/653159522/small.jpg",
-      "url": "https://www.inaturalist.org/observations/358073525"
-    },
-    {
       "lat": 34.1942,
       "lon": -117.8405,
       "species": "Ceanothus",
       "date": "2026-05-02",
       "photo": "https://static.inaturalist.org/photos/652636095/small.jpg",
       "url": "https://www.inaturalist.org/observations/357798254"
-    },
-    {
-      "lat": 34.0776,
-      "lon": -118.6974,
-      "species": "Ceanothus",
-      "date": "2026-05-02",
-      "photo": "https://static.inaturalist.org/photos/659987489/small.jpg",
-      "url": "https://www.inaturalist.org/observations/361624848"
     },
     {
       "lat": 34.7282,
@@ -16146,6 +16586,14 @@
       "url": "https://www.inaturalist.org/observations/355330033"
     },
     {
+      "lat": 34.1178,
+      "lon": -118.7583,
+      "species": "Ceanothus",
+      "date": "2026-04-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649332083/small.jpg",
+      "url": "https://www.inaturalist.org/observations/356070506"
+    },
+    {
       "lat": 34.2913,
       "lon": -118.5389,
       "species": "Ceanothus",
@@ -16168,22 +16616,6 @@
       "date": "2026-04-25",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645817182/small.jpg",
       "url": "https://www.inaturalist.org/observations/353984343"
-    },
-    {
-      "lat": 34.0494,
-      "lon": -118.7534,
-      "species": "Ceanothus",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/650484109/small.jpg",
-      "url": "https://www.inaturalist.org/observations/356688107"
-    },
-    {
-      "lat": 34.1051,
-      "lon": -118.6439,
-      "species": "Ceanothus",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649632437/small.jpg",
-      "url": "https://www.inaturalist.org/observations/356236735"
     },
     {
       "lat": 34.4168,
@@ -16218,28 +16650,12 @@
       "url": "https://www.inaturalist.org/observations/354991016"
     },
     {
-      "lat": 34.1215,
-      "lon": -118.4089,
-      "species": "Ceanothus",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/653407428/small.jpg",
-      "url": "https://www.inaturalist.org/observations/358195331"
-    },
-    {
       "lat": 33.771,
       "lon": -117.6804,
       "species": "Ceanothus",
       "date": "2026-04-25",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/653310480/small.jpg",
       "url": "https://www.inaturalist.org/observations/358147162"
-    },
-    {
-      "lat": 34.0997,
-      "lon": -118.7418,
-      "species": "Ceanothus",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/646002856/small.jpg",
-      "url": "https://www.inaturalist.org/observations/354085704"
     },
     {
       "lat": 34.3728,
@@ -16282,14 +16698,6 @@
       "url": "https://www.inaturalist.org/observations/353674111"
     },
     {
-      "lat": 34.2659,
-      "lon": -118.1468,
-      "species": "Ceanothus",
-      "date": "2026-04-25",
-      "photo": "https://static.inaturalist.org/photos/645548828/small.jpg",
-      "url": "https://www.inaturalist.org/observations/353836621"
-    },
-    {
       "lat": 34.3034,
       "lon": -118.0716,
       "species": "Ceanothus",
@@ -16314,28 +16722,12 @@
       "url": "https://www.inaturalist.org/observations/353191685"
     },
     {
-      "lat": 34.0433,
-      "lon": -118.7135,
-      "species": "Ceanothus",
-      "date": "2026-04-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/644789903/small.jpg",
-      "url": "https://www.inaturalist.org/observations/353372913"
-    },
-    {
       "lat": 34.1456,
       "lon": -118.9499,
       "species": "Ceanothus",
       "date": "2026-04-24",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664202629/small.jpg",
       "url": "https://www.inaturalist.org/observations/363850345"
-    },
-    {
-      "lat": 34.089,
-      "lon": -118.2433,
-      "species": "Ceanothus",
-      "date": "2026-04-23",
-      "photo": "https://static.inaturalist.org/photos/643743237/small.jpg",
-      "url": "https://www.inaturalist.org/observations/352750488"
     },
     {
       "lat": 34.332,
@@ -16434,14 +16826,6 @@
       "url": "https://www.inaturalist.org/observations/350678317"
     },
     {
-      "lat": 34.0354,
-      "lon": -118.8122,
-      "species": "Ceanothus",
-      "date": "2026-04-17",
-      "photo": "https://static.inaturalist.org/photos/641766650/small.jpg",
-      "url": "https://www.inaturalist.org/observations/351659365"
-    },
-    {
       "lat": 34.2854,
       "lon": -118.6974,
       "species": "Ceanothus",
@@ -16456,14 +16840,6 @@
       "date": "2026-04-17",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/640073907/small.jpg",
       "url": "https://www.inaturalist.org/observations/350781454"
-    },
-    {
-      "lat": 34.0147,
-      "lon": -118.3772,
-      "species": "Ceanothus",
-      "date": "2026-04-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/639338811/small.jpg",
-      "url": "https://www.inaturalist.org/observations/350406570"
     },
     {
       "lat": 34.5228,
@@ -16496,14 +16872,6 @@
       "date": "2026-04-15",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638871427/small.jpg",
       "url": "https://www.inaturalist.org/observations/350168351"
-    },
-    {
-      "lat": 34.2936,
-      "lon": -118.0169,
-      "species": "Ceanothus",
-      "date": "2026-04-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/638832381/small.jpg",
-      "url": "https://www.inaturalist.org/observations/350148957"
     },
     {
       "lat": 34.0549,
@@ -16634,14 +17002,6 @@
       "url": "https://www.inaturalist.org/observations/348402730"
     },
     {
-      "lat": 34.3263,
-      "lon": -117.8383,
-      "species": "Ceanothus",
-      "date": "2026-04-06",
-      "photo": "https://static.inaturalist.org/photos/634568707/small.jpg",
-      "url": "https://www.inaturalist.org/observations/347980986"
-    },
-    {
       "lat": 34.4044,
       "lon": -117.869,
       "species": "Ceanothus",
@@ -16688,14 +17048,6 @@
       "date": "2026-04-05",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634549889/small.jpg",
       "url": "https://www.inaturalist.org/observations/347971632"
-    },
-    {
-      "lat": 34.3246,
-      "lon": -118.0189,
-      "species": "Ceanothus",
-      "date": "2026-04-05",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/634094013/small.jpg",
-      "url": "https://www.inaturalist.org/observations/347741154"
     },
     {
       "lat": 34.195,
@@ -16778,14 +17130,6 @@
       "url": "https://www.inaturalist.org/observations/346692020"
     },
     {
-      "lat": 34.0919,
-      "lon": -118.7083,
-      "species": "Ceanothus",
-      "date": "2026-03-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631020981/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346194066"
-    },
-    {
       "lat": 34.0344,
       "lon": -118.7745,
       "species": "Ceanothus",
@@ -16842,14 +17186,6 @@
       "url": "https://www.inaturalist.org/observations/345915099"
     },
     {
-      "lat": 34.2426,
-      "lon": -117.8727,
-      "species": "Ceanothus",
-      "date": "2026-03-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642761583/small.jpg",
-      "url": "https://www.inaturalist.org/observations/352170787"
-    },
-    {
       "lat": 34.0303,
       "lon": -118.5073,
       "species": "Ceanothus",
@@ -16874,22 +17210,6 @@
       "url": "https://www.inaturalist.org/observations/345727090"
     },
     {
-      "lat": 33.7444,
-      "lon": -118.4114,
-      "species": "Ceanothus",
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631671638/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346521087"
-    },
-    {
-      "lat": 34.0894,
-      "lon": -118.7121,
-      "species": "Ceanothus",
-      "date": "2026-03-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630474968/small.jpg",
-      "url": "https://www.inaturalist.org/observations/345915651"
-    },
-    {
       "lat": 34.1875,
       "lon": -118.0443,
       "species": "Ceanothus",
@@ -16912,14 +17232,6 @@
       "date": "2026-03-27",
       "photo": "https://static.inaturalist.org/photos/629835247/small.jpg",
       "url": "https://www.inaturalist.org/observations/345590795"
-    },
-    {
-      "lat": 34.2736,
-      "lon": -118.033,
-      "species": "Ceanothus",
-      "date": "2026-03-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/631656034/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346513058"
     },
     {
       "lat": 34.3141,
@@ -16978,36 +17290,12 @@
       "url": "https://www.inaturalist.org/observations/344909962"
     },
     {
-      "lat": 34.2204,
-      "lon": -117.6684,
-      "species": "Ceanothus",
-      "date": "2026-03-23",
-      "photo": "https://static.inaturalist.org/photos/628170835/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344739143"
-    },
-    {
-      "lat": 34.1321,
-      "lon": -118.2959,
-      "species": "Ceanothus",
-      "date": "2026-03-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/630763011/small.jpg",
-      "url": "https://www.inaturalist.org/observations/346068910"
-    },
-    {
       "lat": 34.3982,
       "lon": -118.4345,
       "species": "Ceanothus",
       "date": "2026-03-22",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627852061/small.jpg",
       "url": "https://www.inaturalist.org/observations/344575556"
-    },
-    {
-      "lat": 34.2605,
-      "lon": -118.1166,
-      "species": "Ceanothus",
-      "date": "2026-03-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/627730757/small.jpg",
-      "url": "https://www.inaturalist.org/observations/344514135"
     },
     {
       "lat": 34.4642,
@@ -17106,14 +17394,6 @@
       "url": "https://www.inaturalist.org/observations/343549676"
     },
     {
-      "lat": 34.0823,
-      "lon": -118.6396,
-      "species": "Ceanothus",
-      "date": "2026-03-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625568542/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343418743"
-    },
-    {
       "lat": 34.1777,
       "lon": -118.1435,
       "species": "Ceanothus",
@@ -17152,14 +17432,6 @@
       "date": "2026-03-15",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625254113/small.jpg",
       "url": "https://www.inaturalist.org/observations/343264998"
-    },
-    {
-      "lat": 33.8547,
-      "lon": -117.6877,
-      "species": "Ceanothus",
-      "date": "2026-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625253515/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343267805"
     },
     {
       "lat": 34.0919,
@@ -17282,14 +17554,6 @@
       "url": "https://www.inaturalist.org/observations/342277561"
     },
     {
-      "lat": 34.0566,
-      "lon": -118.6027,
-      "species": "Ceanothus",
-      "date": "2026-03-09",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/623091919/small.jpg",
-      "url": "https://www.inaturalist.org/observations/342188858"
-    },
-    {
       "lat": 34.1122,
       "lon": -118.6032,
       "species": "Ceanothus",
@@ -17298,36 +17562,12 @@
       "url": "https://www.inaturalist.org/observations/342197479"
     },
     {
-      "lat": 34.08,
-      "lon": -118.6577,
-      "species": "Ceanothus",
-      "date": "2026-03-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622678455/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341984166"
-    },
-    {
-      "lat": 34.1158,
-      "lon": -118.7587,
-      "species": "Ceanothus",
-      "date": "2026-03-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622687517/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341988370"
-    },
-    {
       "lat": 34.0032,
       "lon": -118.4635,
       "species": "Ceanothus",
       "date": "2026-03-08",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/622511789/small.jpg",
       "url": "https://www.inaturalist.org/observations/341900830"
-    },
-    {
-      "lat": 34.2653,
-      "lon": -118.6295,
-      "species": "Ceanothus",
-      "date": "2026-03-07",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625907646/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343587345"
     },
     {
       "lat": 34.4779,
@@ -17466,14 +17706,6 @@
       "url": "https://www.inaturalist.org/observations/340719834"
     },
     {
-      "lat": 33.8254,
-      "lon": -118.3448,
-      "species": "Ceanothus",
-      "date": "2026-02-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/620036112/small.jpg",
-      "url": "https://www.inaturalist.org/observations/340692417"
-    },
-    {
       "lat": 33.8072,
       "lon": -118.0872,
       "species": "Ceanothus",
@@ -17504,14 +17736,6 @@
       "date": "2026-02-24",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/618794820/small.jpg",
       "url": "https://www.inaturalist.org/observations/340079945"
-    },
-    {
-      "lat": 34.3072,
-      "lon": -118.2545,
-      "species": "Ceanothus",
-      "date": "2026-02-24",
-      "photo": "https://static.inaturalist.org/photos/621732878/small.jpg",
-      "url": "https://www.inaturalist.org/observations/341516714"
     },
     {
       "lat": 34.2995,
@@ -17634,14 +17858,6 @@
       "url": "https://www.inaturalist.org/observations/339963464"
     },
     {
-      "lat": 34.3179,
-      "lon": -118.3369,
-      "species": "Ceanothus",
-      "date": "2026-02-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/617684568/small.jpg",
-      "url": "https://www.inaturalist.org/observations/339534548"
-    },
-    {
       "lat": 34.2068,
       "lon": -118.4963,
       "species": "Ceanothus",
@@ -17706,14 +17922,6 @@
       "url": "https://www.inaturalist.org/observations/338813387"
     },
     {
-      "lat": 34.1305,
-      "lon": -118.8192,
-      "species": "Ceanothus",
-      "date": "2026-02-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/616287118/small.jpg",
-      "url": "https://www.inaturalist.org/observations/338842759"
-    },
-    {
       "lat": 33.7709,
       "lon": -117.7003,
       "species": "Ceanothus",
@@ -17738,12 +17946,12 @@
       "url": "https://www.inaturalist.org/observations/338841921"
     },
     {
-      "lat": 34.1029,
-      "lon": -118.7552,
+      "lat": 34.0845,
+      "lon": -118.2488,
       "species": "Ceanothus",
       "date": "2026-02-14",
-      "photo": "https://static.inaturalist.org/photos/617273951/small.jpg",
-      "url": "https://www.inaturalist.org/observations/339332928"
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/615970529/small.jpg",
+      "url": "https://www.inaturalist.org/observations/338684368"
     },
     {
       "lat": 34.2005,
@@ -17776,14 +17984,6 @@
       "date": "2026-02-14",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/615829597/small.jpg",
       "url": "https://www.inaturalist.org/observations/338613643"
-    },
-    {
-      "lat": 34.3466,
-      "lon": -118.3518,
-      "species": "Ceanothus",
-      "date": "2026-02-13",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/615635567/small.jpg",
-      "url": "https://www.inaturalist.org/observations/338515003"
     },
     {
       "lat": 34.158,
@@ -17842,14 +18042,6 @@
       "url": "https://www.inaturalist.org/observations/338084306"
     },
     {
-      "lat": 34.1002,
-      "lon": -118.9316,
-      "species": "Ceanothus",
-      "date": "2026-02-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/614323166/small.jpg",
-      "url": "https://www.inaturalist.org/observations/337879748"
-    },
-    {
       "lat": 33.7623,
       "lon": -117.8779,
       "species": "Ceanothus",
@@ -17888,14 +18080,6 @@
       "date": "2026-02-05",
       "photo": "https://static.inaturalist.org/photos/613502703/small.jpg",
       "url": "https://www.inaturalist.org/observations/337479322"
-    },
-    {
-      "lat": 33.7936,
-      "lon": -117.7408,
-      "species": "Ceanothus",
-      "date": "2026-02-04",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/613428090/small.jpg",
-      "url": "https://www.inaturalist.org/observations/337441180"
     },
     {
       "lat": 34.45,
@@ -17984,14 +18168,6 @@
       "date": "2026-01-31",
       "photo": "https://static.inaturalist.org/photos/612355640/small.jpg",
       "url": "https://www.inaturalist.org/observations/336917537"
-    },
-    {
-      "lat": 34.0899,
-      "lon": -118.5686,
-      "species": "Ceanothus",
-      "date": "2026-01-31",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/612362581/small.jpg",
-      "url": "https://www.inaturalist.org/observations/336921007"
     },
     {
       "lat": 34.1512,
@@ -18184,6 +18360,14 @@
       "date": "2026-01-22",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/610089556/small.jpg",
       "url": "https://www.inaturalist.org/observations/335793850"
+    },
+    {
+      "lat": 34.2063,
+      "lon": -118.6677,
+      "species": "Ceanothus",
+      "date": "2026-01-21",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/682289635/small.jpg",
+      "url": "https://www.inaturalist.org/observations/373342809"
     },
     {
       "lat": 33.7113,
@@ -18458,14 +18642,6 @@
       "url": "https://www.inaturalist.org/observations/332972971"
     },
     {
-      "lat": 33.8356,
-      "lon": -117.7582,
-      "species": "Ceanothus",
-      "date": "2025-12-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603432804/small.jpg",
-      "url": "https://www.inaturalist.org/observations/332497769"
-    },
-    {
       "lat": 34.1966,
       "lon": -118.6701,
       "species": "Ceanothus",
@@ -18512,14 +18688,6 @@
       "date": "2025-12-27",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603249635/small.jpg",
       "url": "https://www.inaturalist.org/observations/332406887"
-    },
-    {
-      "lat": 34.1687,
-      "lon": -117.9627,
-      "species": "Ceanothus",
-      "date": "2025-12-21",
-      "photo": "https://static.inaturalist.org/photos/601645964/small.jpg",
-      "url": "https://www.inaturalist.org/observations/331627103"
     },
     {
       "lat": 34.1679,
@@ -18834,14 +19002,6 @@
       "url": "https://www.inaturalist.org/observations/319268610"
     },
     {
-      "lat": 34.2393,
-      "lon": -118.7722,
-      "species": "Ceanothus",
-      "date": "2025-10-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/574818132/small.jpg",
-      "url": "https://www.inaturalist.org/observations/318072735"
-    },
-    {
       "lat": 34.3595,
       "lon": -117.6874,
       "species": "Ceanothus",
@@ -18850,28 +19010,12 @@
       "url": "https://www.inaturalist.org/observations/318089975"
     },
     {
-      "lat": 34.3127,
-      "lon": -118.3829,
-      "species": "Ceanothus",
-      "date": "2025-09-28",
-      "photo": "https://static.inaturalist.org/photos/573527375/small.jpg",
-      "url": "https://www.inaturalist.org/observations/317402734"
-    },
-    {
       "lat": 34.3569,
       "lon": -117.8505,
       "species": "Ceanothus",
       "date": "2025-09-28",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/573644744/small.jpg",
       "url": "https://www.inaturalist.org/observations/317457500"
-    },
-    {
-      "lat": 34.2376,
-      "lon": -118.2338,
-      "species": "Ceanothus",
-      "date": "2025-09-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/573048137/small.jpg",
-      "url": "https://www.inaturalist.org/observations/316673130"
     },
     {
       "lat": 34.0948,
@@ -19018,28 +19162,12 @@
       "url": "https://www.inaturalist.org/observations/328439970"
     },
     {
-      "lat": 34.1395,
-      "lon": -118.5746,
-      "species": "Ceanothus",
-      "date": "2025-08-11",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/551212436/small.jpg",
-      "url": "https://www.inaturalist.org/observations/305698019"
-    },
-    {
       "lat": 34.1694,
       "lon": -117.697,
       "species": "Ceanothus",
       "date": "2025-08-11",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/550872602/small.jpg",
       "url": "https://www.inaturalist.org/observations/305521279"
-    },
-    {
-      "lat": 34.3803,
-      "lon": -117.6884,
-      "species": "Ceanothus",
-      "date": "2025-08-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/550468263/small.jpg",
-      "url": "https://www.inaturalist.org/observations/305309298"
     },
     {
       "lat": 34.1707,
@@ -19080,14 +19208,6 @@
       "date": "2025-08-04",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/548278718/small.jpg",
       "url": "https://www.inaturalist.org/observations/304153252"
-    },
-    {
-      "lat": 34.0668,
-      "lon": -118.5382,
-      "species": "Ceanothus",
-      "date": "2025-08-03",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/548617847/small.jpg",
-      "url": "https://www.inaturalist.org/observations/304332387"
     },
     {
       "lat": 34.0935,
@@ -19136,14 +19256,6 @@
       "date": "2025-07-21",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/540381384/small.jpg",
       "url": "https://www.inaturalist.org/observations/299935007"
-    },
-    {
-      "lat": 34.1128,
-      "lon": -118.7763,
-      "species": "Ceanothus",
-      "date": "2025-07-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/539655524/small.jpg",
-      "url": "https://www.inaturalist.org/observations/299544199"
     },
     {
       "lat": 34.5785,
@@ -19240,14 +19352,6 @@
       "date": "2025-07-04",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/531331160/small.jpg",
       "url": "https://www.inaturalist.org/observations/295160122"
-    },
-    {
-      "lat": 34.0763,
-      "lon": -118.6181,
-      "species": "Ceanothus",
-      "date": "2025-06-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/529547432/small.jpg",
-      "url": "https://www.inaturalist.org/observations/294210779"
     },
     {
       "lat": 34.1546,
@@ -19354,22 +19458,6 @@
       "url": "https://www.inaturalist.org/observations/289659197"
     },
     {
-      "lat": 34.192,
-      "lon": -118.7755,
-      "species": "Ceanothus",
-      "date": "2025-06-13",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/520580184/small.jpg",
-      "url": "https://www.inaturalist.org/observations/289430281"
-    },
-    {
-      "lat": 34.1999,
-      "lon": -117.8603,
-      "species": "Ceanothus",
-      "date": "2025-06-09",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/518577046/small.jpg",
-      "url": "https://www.inaturalist.org/observations/288366070"
-    },
-    {
       "lat": 34.2944,
       "lon": -118.6175,
       "species": "Ceanothus",
@@ -19456,14 +19544,6 @@
       "date": "2025-05-30",
       "photo": "https://static.inaturalist.org/photos/515308442/small.jpg",
       "url": "https://www.inaturalist.org/observations/286305159"
-    },
-    {
-      "lat": 34.3809,
-      "lon": -118.182,
-      "species": "Ceanothus",
-      "date": "2025-05-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603382395/small.jpg",
-      "url": "https://www.inaturalist.org/observations/332473193"
     },
     {
       "lat": 34.4368,
@@ -19682,14 +19762,6 @@
       "url": "https://www.inaturalist.org/observations/279351466"
     },
     {
-      "lat": 34.186,
-      "lon": -118.7627,
-      "species": "Ceanothus",
-      "date": "2025-05-07",
-      "photo": "https://static.inaturalist.org/photos/504582280/small.jpg",
-      "url": "https://www.inaturalist.org/observations/280915906"
-    },
-    {
       "lat": 34.1258,
       "lon": -118.4794,
       "species": "Ceanothus",
@@ -19770,14 +19842,6 @@
       "url": "https://www.inaturalist.org/observations/278656299"
     },
     {
-      "lat": 34.1325,
-      "lon": -118.1661,
-      "species": "Ceanothus",
-      "date": "2025-05-04",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/533073364/small.jpg",
-      "url": "https://www.inaturalist.org/observations/278435444"
-    },
-    {
       "lat": 33.7423,
       "lon": -118.3951,
       "species": "Ceanothus",
@@ -19816,14 +19880,6 @@
       "date": "2025-05-03",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/500205371/small.jpeg",
       "url": "https://www.inaturalist.org/observations/278575985"
-    },
-    {
-      "lat": 34.0453,
-      "lon": -118.7493,
-      "species": "Ceanothus",
-      "date": "2025-05-03",
-      "photo": "https://static.inaturalist.org/photos/499581710/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/278231641"
     },
     {
       "lat": 34.1603,
@@ -19920,30 +19976,6 @@
       "date": "2025-04-27",
       "photo": "https://static.inaturalist.org/photos/494753785/small.jpg",
       "url": "https://www.inaturalist.org/observations/275313539"
-    },
-    {
-      "lat": 33.8742,
-      "lon": -118.2953,
-      "species": "Ceanothus",
-      "date": "2025-04-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/494102615/small.jpg",
-      "url": "https://www.inaturalist.org/observations/274907859"
-    },
-    {
-      "lat": 33.9691,
-      "lon": -118.424,
-      "species": "Ceanothus",
-      "date": "2025-04-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/494054614/small.jpg",
-      "url": "https://www.inaturalist.org/observations/274877626"
-    },
-    {
-      "lat": 34.5048,
-      "lon": -118.3949,
-      "species": "Ceanothus",
-      "date": "2025-04-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/494267180/small.jpg",
-      "url": "https://www.inaturalist.org/observations/275010844"
     },
     {
       "lat": 34.2843,
@@ -20488,14 +20520,6 @@
       "date": "2025-03-23",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/479213486/small.jpg",
       "url": "https://www.inaturalist.org/observations/266709028"
-    },
-    {
-      "lat": 34.1063,
-      "lon": -117.7038,
-      "species": "Ceanothus",
-      "date": "2025-03-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/479075756/small.jpg",
-      "url": "https://www.inaturalist.org/observations/266629723"
     },
     {
       "lat": 34.1618,
@@ -21138,28 +21162,12 @@
       "url": "https://www.inaturalist.org/observations/249966121"
     },
     {
-      "lat": 34.3761,
-      "lon": -117.6965,
-      "species": "Ceanothus",
-      "date": "2024-10-25",
-      "photo": "https://static.inaturalist.org/photos/445370687/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/249175028"
-    },
-    {
       "lat": 34.0814,
       "lon": -118.5462,
       "species": "Ceanothus",
       "date": "2024-10-17",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/443775677/small.jpeg",
       "url": "https://www.inaturalist.org/observations/248374595"
-    },
-    {
-      "lat": 34.606,
-      "lon": -118.5515,
-      "species": "Ceanothus",
-      "date": "2024-10-13",
-      "photo": "https://static.inaturalist.org/photos/441427912/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/247188399"
     },
     {
       "lat": 34.6052,
@@ -21238,7 +21246,7 @@
       "lon": -117.6567,
       "species": "Ceanothus",
       "date": "2024-08-03",
-      "photo": "https://static.inaturalist.org/photos/415714595/small.jpeg",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/415714595/small.jpeg",
       "url": "https://www.inaturalist.org/observations/233886880"
     },
     {
@@ -21784,14 +21792,6 @@
       "date": "2024-04-20",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/368715806/small.jpeg",
       "url": "https://www.inaturalist.org/observations/208397356"
-    },
-    {
-      "lat": 34.1679,
-      "lon": -117.9712,
-      "species": "Ceanothus",
-      "date": "2024-04-16",
-      "photo": "https://static.inaturalist.org/photos/367318411/small.jpg",
-      "url": "https://www.inaturalist.org/observations/207650684"
     },
     {
       "lat": 34.0631,
@@ -22952,110 +22952,6 @@
       "date": "2023-04-22",
       "photo": "https://static.inaturalist.org/photos/270025509/small.jpg",
       "url": "https://www.inaturalist.org/observations/156175836"
-    },
-    {
-      "lat": 34.5618,
-      "lon": -118.4015,
-      "species": "Ceanothus",
-      "date": "2023-04-21",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/273255211/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/158086951"
-    },
-    {
-      "lat": 34.5097,
-      "lon": -118.1103,
-      "species": "Ceanothus",
-      "date": "2023-04-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/270004351/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/156164858"
-    },
-    {
-      "lat": 34.4592,
-      "lon": -118.0565,
-      "species": "Ceanothus",
-      "date": "2023-04-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/270003117/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/156164225"
-    },
-    {
-      "lat": 34.1169,
-      "lon": -118.2647,
-      "species": "Ceanothus",
-      "date": "2023-04-18",
-      "photo": "https://static.inaturalist.org/photos/269065862/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/155642785"
-    },
-    {
-      "lat": 34.1618,
-      "lon": -117.9983,
-      "species": "Ceanothus",
-      "date": "2023-04-18",
-      "photo": "https://static.inaturalist.org/photos/268866294/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/155535389"
-    },
-    {
-      "lat": 34.1337,
-      "lon": -117.7646,
-      "species": "Ceanothus",
-      "date": "2023-04-17",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/285750668/small.jpg",
-      "url": "https://www.inaturalist.org/observations/165098630"
-    },
-    {
-      "lat": 34.6562,
-      "lon": -118.3803,
-      "species": "Ceanothus",
-      "date": "2023-04-17",
-      "photo": "https://static.inaturalist.org/photos/268588843/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/155384332"
-    },
-    {
-      "lat": 34.0543,
-      "lon": -118.1892,
-      "species": "Ceanothus",
-      "date": "2023-04-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/267904532/small.jpg",
-      "url": "https://www.inaturalist.org/observations/155015679"
-    },
-    {
-      "lat": 33.8343,
-      "lon": -118.3204,
-      "species": "Ceanothus",
-      "date": "2023-04-13",
-      "photo": "https://static.inaturalist.org/photos/267416975/small.jpg",
-      "url": "https://www.inaturalist.org/observations/154748534"
-    },
-    {
-      "lat": 33.7781,
-      "lon": -118.2985,
-      "species": "Ceanothus",
-      "date": "2023-04-13",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/267736418/small.jpg",
-      "url": "https://www.inaturalist.org/observations/154922002"
-    },
-    {
-      "lat": 34.6833,
-      "lon": -118.2021,
-      "species": "Ceanothus",
-      "date": "2023-04-13",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/267381922/small.jpg",
-      "url": "https://www.inaturalist.org/observations/154727036"
-    },
-    {
-      "lat": 34.1535,
-      "lon": -117.7712,
-      "species": "Ceanothus",
-      "date": "2023-04-12",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/267480190/small.jpg",
-      "url": "https://www.inaturalist.org/observations/154782836"
-    },
-    {
-      "lat": 34.7003,
-      "lon": -118.8152,
-      "species": "Ceanothus",
-      "date": "2023-04-11",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/269429316/small.jpg",
-      "url": "https://www.inaturalist.org/observations/155843250"
     }
   ]
 }
