@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T16:47:46.955Z",
+  "generated": "2026-07-02T16:35:50.796Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -554,13 +554,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-01",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b914",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-07-02",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91p",
@@ -599,6 +592,13 @@
         "date": "2026-07-08",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Ge",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-07-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Gd",
         "image": null
       }
     ],
@@ -769,7 +769,7 @@
         "date": "2026-07-15",
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/comedy-block-party-hosted-by-chris-inglewood-california-07-15-2026/event/0B0064D1F124585D",
-        "image": "https://s1.ticketm.net/dam/e/c45/a243e1b4-a819-44de-a0b8-971469424c45_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/e/3f2/1b0ab02d-4497-44f6-a1c1-e4cafc2eb3f2_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Cult Classics Cinema Presents BLACK PANTHER",
@@ -878,39 +878,18 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-07-01",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14975053",
-        "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "Vinny Fasline & Friends ft. David Spade, Anthony Jeselnik, Kevin Nealon, Damon Wayans Jr., Vinny Fasline, Justine Marino",
-        "date": "2026-07-01",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/vinny-fasline-friends-ft-hollywood-improv-the-main-room-tickets/14212364",
-        "image": "https://s1.ticketm.net/dam/a/790/2e124d53-3f5e-48c4-ab26-11bc2213a790_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-07-01",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219334",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Damon Wayans, Anthony Jeselnik, Whitney Cummings, Brian Monarch, Leah Knauer and VERY special guests",
+        "name": "Tonight at the Improv ft. Damon Wayans, Anthony Jeselnik, Whitney Cummings, Kira Soltanovich, Brian Monarch, Leah Knauer and VERY special guests",
         "date": "2026-07-02",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973013",
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
+        "name": "The Download Comedy Show ft. Joey Bragg, Veronica Brown, Erin Cholakian, Camille Waters, Kate Lav, OJ Stellar and more TBA",
         "date": "2026-07-02",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14964753",
-        "image": "https://i.ticketweb.com/i/00/13/57/07/23_Edp.jpg?v=6"
+        "image": "https://s1.ticketm.net/dam/a/355/41c2b9d2-e074-4c5f-9334-7fb28010c355_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -920,7 +899,7 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Loni Love, Melissa Villasenor, Doug Benson, Simon Gibson and more TBA",
+        "name": "Tonight at the Improv ft. Loni Love, Melissa Villasenor, Amir K, Doug Benson, Kirk Fox, Simon Gibson and more TBA",
         "date": "2026-07-03",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940693",
@@ -934,7 +913,7 @@
         "image": "https://i.ticketweb.com/i/00/13/52/90/13_Edp.jpg?v=9"
       },
       {
-        "name": "Tonight at the Improv ft. Francisco Ramos, Ian Bagg, Greg Fitzsimmons, Jessimae Peluso, Renee Percy",
+        "name": "Tonight at the Improv ft. Francisco Ramos, Ian Bagg, Steph Tolev,  Greg Fitzsimmons, Erik Griffin, Jessimae Peluso, Renee Percy",
         "date": "2026-07-03",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922703",
@@ -948,18 +927,18 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jimmy Dore, Steve Furey, Andrea Jin, Danny Jolles, Will Burkart, Frank Castillo, Gary Cannon and more TBA",
         "date": "2026-07-04",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14219284",
-        "image": "https://i.ticketweb.com/i/00/12/93/74/94_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14219284",
+        "image": "https://s1.ticketm.net/dam/a/a44/52d121bc-785d-4051-a8f6-23eafc0f8a44_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Jimmy Shin and more TBA",
+        "name": "Tonight at the Improv ft. Craig Robinson, Frankie Quinones, Jimmy Shin, Jeanne Whitney and more TBA",
         "date": "2026-07-05",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906873",
-        "image": "https://i.ticketweb.com/i/00/13/50/26/13_Edp.jpg?v=2"
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -983,11 +962,32 @@
         "image": "https://i.ticketweb.com/i/00/13/57/77/63_Edp.jpg?v=4"
       },
       {
+        "name": "Anthony Jeselnik, Jason Cheny, Brian Monarch and Very Special Guests",
+        "date": "2026-07-07",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/anthony-jeselnik-jason-cheny-brian-hollywood-improv-the-main-room-tickets/14973043",
+        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Lab Work",
         "date": "2026-07-08",
         "time": "18:15:00",
         "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14975083",
         "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
+      },
+      {
+        "name": "That's Hystorical ft. Jodi Miller, Lachlan Patterson, Jeff Leach, Brittany Ross, Vanessa Graddick, Ben Morrison, Karen Forman, Kimberly Lewis, Danny Jolles",
+        "date": "2026-07-08",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/thats-hystorical-ft-jodi-miller-hollywood-improv-the-lab-tickets/14975663",
+        "image": "https://i.ticketweb.com/i/00/13/58/02/13_Edp.jpg?v=3"
+      },
+      {
+        "name": "Basshole ft. Doug Bass and more TBA",
+        "date": "2026-07-09",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-and-hollywood-improv-the-lab-tickets/14950903",
+        "image": "https://i.ticketweb.com/i/00/13/55/72/93_Edp.jpg?v=2"
       }
     ]
   }
