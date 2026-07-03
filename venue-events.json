@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02T16:35:50.796Z",
+  "generated": "2026-07-03T17:19:02.147Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -169,11 +169,11 @@
         "image": "https://s1.ticketm.net/dam/a/44d/22f6a5c9-c2d2-46f9-9d3f-4ec8e3b3844d_89601_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Darude",
-        "date": "2026-07-25",
+        "name": "  Black V Neck , Dillon Nathaniel",
+        "date": "2026-07-24",
         "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/darude-avalon-hollywood-tickets/14895463",
-        "image": "https://i.ticketweb.com/i/00/13/49/11/03_Edp.jpg?v=9"
+        "url": "https://www.ticketweb.com/event/-black-v-neck-avalon-hollywood-tickets/14235874",
+        "image": "https://i.ticketweb.com/i/00/12/95/22/44_Edp.jpg?v=7"
       }
     ],
     "The Novo": [
@@ -298,7 +298,7 @@
         "date": "2026-07-11",
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/gravity-bookings-domino-effect-present-guts-los-angeles-california-07-11-2026/event/0900649DE48E5B1F",
-        "image": "https://s1.ticketm.net/dam/e/de9/a7a0001f-5db1-4b6c-a998-8167ae0cbde9_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/e/ef1/91b495d6-0714-4773-afaa-e1c700ee6ef1_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Snõõper",
@@ -554,13 +554,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91p",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-07-03",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b919",
@@ -599,6 +592,13 @@
         "date": "2026-07-09",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Gd",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-07-10",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9G7",
         "image": null
       }
     ],
@@ -878,27 +878,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Damon Wayans, Anthony Jeselnik, Whitney Cummings, Kira Soltanovich, Brian Monarch, Leah Knauer and VERY special guests",
-        "date": "2026-07-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973013",
-        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Download Comedy Show ft. Joey Bragg, Veronica Brown, Erin Cholakian, Camille Waters, Kate Lav, OJ Stellar and more TBA",
-        "date": "2026-07-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14964753",
-        "image": "https://s1.ticketm.net/dam/a/355/41c2b9d2-e074-4c5f-9334-7fb28010c355_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-07-02",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219354",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Loni Love, Melissa Villasenor, Amir K, Doug Benson, Kirk Fox, Simon Gibson and more TBA",
         "date": "2026-07-03",
         "time": "19:30:00",
@@ -934,7 +913,7 @@
         "image": "https://s1.ticketm.net/dam/a/a44/52d121bc-785d-4051-a8f6-23eafc0f8a44_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Frankie Quinones, Jimmy Shin, Jeanne Whitney and more TBA",
+        "name": "Tonight at the Improv ft. Craig Robinson, Frankie Quinones, Mary Lynn Rajskub, Jimmy Shin, Jeanne Whitney and more TBA",
         "date": "2026-07-05",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906873",
@@ -976,6 +955,13 @@
         "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
       },
       {
+        "name": "*JUST ADDED JASON CHENY* COMEDY CRUSH ft. AMIR K, ASIF ALI, JUSTINE MARINO, AVERY PEARSON & HUGE GUESTS",
+        "date": "2026-07-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/just-added-jason-cheny-comedy-hollywood-improv-the-main-room-tickets/14135744",
+        "image": "https://s1.ticketm.net/dam/a/689/514bec4c-42ef-4165-92f8-1124365dd689_1827131_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "That's Hystorical ft. Jodi Miller, Lachlan Patterson, Jeff Leach, Brittany Ross, Vanessa Graddick, Ben Morrison, Karen Forman, Kimberly Lewis, Danny Jolles",
         "date": "2026-07-08",
         "time": "20:30:00",
@@ -983,11 +969,25 @@
         "image": "https://i.ticketweb.com/i/00/13/58/02/13_Edp.jpg?v=3"
       },
       {
-        "name": "Basshole ft. Doug Bass and more TBA",
+        "name": "Basshole ft. Doug Bass, Pete Giovine, Arturo Vaca, Mateen Stewart, Cid Williams, Josh Edelman, Rachel Dee, Sarah Albritton, Jessica Mele, Tonya Moon, Jessica Winther, Giuseppe De Fazio and more TBA",
         "date": "2026-07-09",
         "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-and-hollywood-improv-the-lab-tickets/14950903",
-        "image": "https://i.ticketweb.com/i/00/13/55/72/93_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-pete-hollywood-improv-the-lab-tickets/14950903",
+        "image": "https://i.ticketweb.com/i/00/13/55/72/93_Edp.jpg?v=4"
+      },
+      {
+        "name": "Low and Inside ft. Radu Bondar, Aaron Brooks, John Hastings, Ashley Johnson, Danny Cuneo, Liz Blanc, Maddie Connors, Willie Simon, Steve Furey, Greg Barris, MK Gannon, Chris Fairbanks",
+        "date": "2026-07-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/low-and-inside-ft-radu-hollywood-improv-the-lab-tickets/14933623",
+        "image": "https://i.ticketweb.com/i/00/13/52/90/63_Edp.jpg?v=3"
+      },
+      {
+        "name": "Comedy Grind ft. Rob DaRocha, Ryan Talmo, Ray Cameron Ellinwood, Karen Haber, Tracey MacDonald, Lachlan Patterson, Jessica Keenan, Rick Izquieta, Rian Chavez, Willie Krisztal, and David Uhlfelder",
+        "date": "2026-07-10",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/comedy-grind-ft-rob-darocha-hollywood-improv-the-lab-tickets/14953603",
+        "image": "https://s1.ticketm.net/dam/a/b0e/fc3a1a39-5a79-47d5-809b-93e03452ab0e_RECOMENDATION_16_9.jpg"
       }
     ]
   }
