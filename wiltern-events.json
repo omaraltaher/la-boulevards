@@ -1,13 +1,6 @@
 {
-  "generated": "2026-07-02T15:47:45.702Z",
+  "generated": "2026-07-03T16:22:45.219Z",
   "events": [
-    {
-      "name": "JINJER Duel North America 2026",
-      "date": "2026-07-02",
-      "time": "18:00:00",
-      "url": "https://www.ticketmaster.com/jinjer-duel-north-america-2026-los-angeles-california-07-02-2026/event/0900646CCB47C5EB",
-      "image": "https://s1.ticketm.net/dam/a/219/b7f0eacf-4fa6-411d-bb91-648d27876219_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "WOLFMOTHER - 20th Anniversary Tour",
       "date": "2026-07-11",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/the-pretty-reckless-dear-god-tour-los-angeles-california-07-31-2026/event/0900646BD0DFDA74",
       "image": "https://s1.ticketm.net/dam/a/9f9/29569a70-00c1-4792-a27b-d402c0d899f9_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Moonchild: Waves Tour",
+      "date": "2026-08-01",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/moonchild-waves-tour-los-angeles-california-08-01-2026/event/0900635025D9C93F",
+      "image": "https://s1.ticketm.net/dam/a/d45/73a89392-c44f-44ba-afa4-a99074714d45_RECOMENDATION_16_9.jpg"
     }
   ]
 }
