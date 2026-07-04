@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T17:19:02.147Z",
+  "generated": "2026-07-04T16:58:52.045Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Agents of Time, Henri Bergmann ",
-        "date": "2026-07-03",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/agents-of-time-henri-bergmann-avalon-hollywood-tickets/14829933",
-        "image": "https://i.ticketweb.com/i/00/13/42/96/83_Edp.jpg?v=9"
-      },
-      {
         "name": "Privadas Con El Ocho with Special Guest ETC!ETC",
         "date": "2026-07-04",
         "time": "22:00:00",
@@ -174,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/-black-v-neck-avalon-hollywood-tickets/14235874",
         "image": "https://i.ticketweb.com/i/00/12/95/22/44_Edp.jpg?v=7"
+      },
+      {
+        "name": "Darude",
+        "date": "2026-07-25",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/darude-avalon-hollywood-tickets/14895463",
+        "image": "https://i.ticketweb.com/i/00/13/49/11/03_Edp.jpg?v=9"
       }
     ],
     "The Novo": [
@@ -363,13 +363,6 @@
     "Shrine Auditorium": [
       {
         "name": "Serendipity - hololive English 4th Concert",
-        "date": "2026-07-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oPF",
-        "image": "https://s1.ticketm.net/dam/a/768/a9790052-8d57-47ad-a7a4-22ccc1350768_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Serendipity - hololive English 4th Concert",
         "date": "2026-07-04",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oPa",
@@ -523,6 +516,13 @@
         "image": "https://s1.ticketm.net/dam/a/ebe/eeecd753-f647-4379-853f-cc21bdee9ebe_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Raja 50 - Ilaiyaraaja Live In Concert",
+        "date": "2026-08-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/raja-50-ilaiyaraaja-live-in-concert-hollywood-california-08-22-2026/event/090064E3A3994F72",
+        "image": "https://s1.ticketm.net/dam/a/686/e4bec34e-0504-46cd-8f3b-6118ac3f9686_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "FEAR& LIVE: Ft. Hasan Piker, Austinshow, Will Neff, & QTCinderella",
         "date": "2026-08-29",
         "time": "19:00:00",
@@ -552,13 +552,6 @@
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b919",
-        "image": null
-      },
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-07-04",
@@ -599,6 +592,13 @@
         "date": "2026-07-10",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9G7",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-07-11",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Gk",
         "image": null
       }
     ],
@@ -878,42 +878,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Loni Love, Melissa Villasenor, Amir K, Doug Benson, Kirk Fox, Simon Gibson and more TBA",
-        "date": "2026-07-03",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940693",
-        "image": "https://s1.ticketm.net/dam/a/63f/18b87222-ab20-4024-a496-fe7cf6fe663f_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Historical Roast: The Founding Fathers ft. Eddie Furth, Ryan Pigg, Julia Hladkowicz, Julian M. Stern, Scout Durwood, Matt O’Brien, Anyi Malik, Keith Carey, Maggie Maye AND MORE!",
-        "date": "2026-07-03",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/historical-roast-the-founding-fathers-hollywood-improv-the-lab-tickets/14933613",
-        "image": "https://i.ticketweb.com/i/00/13/52/90/13_Edp.jpg?v=9"
-      },
-      {
-        "name": "Tonight at the Improv ft. Francisco Ramos, Ian Bagg, Steph Tolev,  Greg Fitzsimmons, Erik Griffin, Jessimae Peluso, Renee Percy",
-        "date": "2026-07-03",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14922703",
-        "image": "https://s1.ticketm.net/dam/a/c35/6d53309b-09ed-4099-98db-652af9847c35_1526471_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-07-03",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219374",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Jimmy Dore, Steve Furey, Andrea Jin, Danny Jolles, Will Burkart, Frank Castillo, Gary Cannon and more TBA",
-        "date": "2026-07-04",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14219284",
-        "image": "https://s1.ticketm.net/dam/a/a44/52d121bc-785d-4051-a8f6-23eafc0f8a44_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Craig Robinson, Frankie Quinones, Mary Lynn Rajskub, Jimmy Shin, Jeanne Whitney and more TBA",
+        "name": "Tonight at the Improv ft. Craig Robinson, Frankie Quinones, Charles Fleischer, Mary Lynn Rajskub, Jeff Dye, Jimmy Shin, Jeanne Whitney and more TBA",
         "date": "2026-07-05",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906873",
@@ -969,11 +934,25 @@
         "image": "https://i.ticketweb.com/i/00/13/58/02/13_Edp.jpg?v=3"
       },
       {
+        "name": "Tonight at the Improv ft. Craig Robinson, Esther Povitsky, Brian Monarch and VERY Special Guests",
+        "date": "2026-07-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192054",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Basshole ft. Doug Bass, Pete Giovine, Arturo Vaca, Mateen Stewart, Cid Williams, Josh Edelman, Rachel Dee, Sarah Albritton, Jessica Mele, Tonya Moon, Jessica Winther, Giuseppe De Fazio and more TBA",
         "date": "2026-07-09",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-pete-hollywood-improv-the-lab-tickets/14950903",
         "image": "https://i.ticketweb.com/i/00/13/55/72/93_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-07-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940743",
+        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
       },
       {
         "name": "Low and Inside ft. Radu Bondar, Aaron Brooks, John Hastings, Ashley Johnson, Danny Cuneo, Liz Blanc, Maddie Connors, Willie Simon, Steve Furey, Greg Barris, MK Gannon, Chris Fairbanks",
@@ -988,6 +967,20 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/comedy-grind-ft-rob-darocha-hollywood-improv-the-lab-tickets/14953603",
         "image": "https://s1.ticketm.net/dam/a/b0e/fc3a1a39-5a79-47d5-809b-93e03452ab0e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Undiscovered Genius ft. Josh Edelman, Chelse Greaux, Eeland Stribling, Anyi Malik, Dan Paustain, Heather Winter, Gary King, America CG",
+        "date": "2026-07-11",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-josh-edelman-hollywood-improv-the-lab-tickets/14873283",
+        "image": "https://i.ticketweb.com/i/00/13/47/16/73_Edp.jpg?v=3"
+      },
+      {
+        "name": "John Campanelli & Special Guests ft. John Campanelli and more TBA",
+        "date": "2026-07-14",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14826983",
+        "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=2"
       }
     ]
   }
