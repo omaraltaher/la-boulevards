@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-04T16:58:52.045Z",
+  "generated": "2026-07-05T17:02:52.758Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Privadas Con El Ocho with Special Guest ETC!ETC",
-        "date": "2026-07-04",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/privadas-con-el-ocho-with-avalon-hollywood-tickets/14986833",
-        "image": "https://i.ticketweb.com/i/00/13/58/98/43_Edp.jpg?v=7"
-      },
-      {
         "name": "Emo Nite",
         "date": "2026-07-10",
         "time": "21:00:00",
@@ -174,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/darude-avalon-hollywood-tickets/14895463",
         "image": "https://i.ticketweb.com/i/00/13/49/11/03_Edp.jpg?v=9"
+      },
+      {
+        "name": "Gasolina",
+        "date": "2026-07-31",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/14226824",
+        "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -362,13 +362,6 @@
     "Kirk Douglas Theatre": [],
     "Shrine Auditorium": [
       {
-        "name": "Serendipity - hololive English 4th Concert",
-        "date": "2026-07-04",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oPa",
-        "image": "https://s1.ticketm.net/dam/a/768/a9790052-8d57-47ad-a7a4-22ccc1350768_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Shreya Ghoshal",
         "date": "2026-09-27",
         "time": "19:00:00",
@@ -552,13 +545,6 @@
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-04",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91b",
-        "image": null
-      },
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-07-05",
