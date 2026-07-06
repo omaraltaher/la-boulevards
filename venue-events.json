@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05T17:02:52.758Z",
+  "generated": "2026-07-06T18:07:08.093Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -547,13 +547,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-05",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b91_",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-07-07",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Gv",
@@ -585,6 +578,13 @@
         "date": "2026-07-11",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Gk",
+        "image": null
+      },
+      {
+        "name": "Angry, Raucous, and Shamelessly Gorgeous",
+        "date": "2026-07-12",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9GF",
         "image": null
       }
     ],
@@ -807,20 +807,6 @@
     "Laugh Factory": [
       {
         "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-07-05",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1988131093620",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-07-05",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1988131932128",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
-        "name": "Chocolate Sundaes 7:00PM",
         "date": "2026-07-12",
         "time": "19:00",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1988135324274",
@@ -848,6 +834,20 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-07-26",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1988135921059",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
+        "name": "Chocolate Sundaes 9:30PM",
+        "date": "2026-07-26",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1988136013335",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
         "date": "2026-09-20",
         "time": "17:00",
@@ -864,21 +864,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Frankie Quinones, Charles Fleischer, Mary Lynn Rajskub, Jeff Dye, Jimmy Shin, Jeanne Whitney and more TBA",
-        "date": "2026-07-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906873",
-        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-07-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219384",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Tiffany King, West Side, Jamal Doman, Kevin Tate & more",
         "date": "2026-07-06",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976223",
@@ -906,11 +892,11 @@
         "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
       },
       {
-        "name": "*JUST ADDED JASON CHENY* COMEDY CRUSH ft. AMIR K, ASIF ALI, JUSTINE MARINO, AVERY PEARSON & HUGE GUESTS",
+        "name": "*JUST ADDED JASON CHENY* COMEDY CRUSH ft. DOUG BENSON, AMIR K, ASIF ALI, JUSTINE MARINO, AVERY PEARSON & HUGE GUESTS",
         "date": "2026-07-08",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/just-added-jason-cheny-comedy-hollywood-improv-the-main-room-tickets/14135744",
-        "image": "https://s1.ticketm.net/dam/a/689/514bec4c-42ef-4165-92f8-1124365dd689_1827131_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/597/a6675b28-8ab7-4b56-956e-e83dbfd4c597_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "That's Hystorical ft. Jodi Miller, Lachlan Patterson, Jeff Leach, Brittany Ross, Vanessa Graddick, Ben Morrison, Karen Forman, Kimberly Lewis, Danny Jolles",
@@ -955,6 +941,13 @@
         "image": "https://s1.ticketm.net/dam/a/b0e/fc3a1a39-5a79-47d5-809b-93e03452ab0e_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv",
+        "date": "2026-07-11",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940773",
+        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
+      },
+      {
         "name": "Undiscovered Genius ft. Josh Edelman, Chelse Greaux, Eeland Stribling, Anyi Malik, Dan Paustain, Heather Winter, Gary King, America CG",
         "date": "2026-07-11",
         "time": "19:00:00",
@@ -967,6 +960,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14826983",
         "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=2"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-07-14",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219454",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       }
     ]
   }
