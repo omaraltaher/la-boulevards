@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06T18:07:08.093Z",
+  "generated": "2026-07-07T17:54:41.641Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -138,7 +138,7 @@
         "date": "2026-07-16",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/lil-texas-avalon-hollywood-tickets/14889573",
-        "image": "https://i.ticketweb.com/i/00/13/48/50/33_Edp.jpg?v=9"
+        "image": "https://i.ticketweb.com/i/00/13/48/50/33_Edp.jpg?v=10"
       },
       {
         "name": "Flashback: A 2010s EDM Tribute Party",
@@ -864,13 +864,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Tiffany King, West Side, Jamal Doman, Kevin Tate & more",
-        "date": "2026-07-06",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976223",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-07-07",
         "time": "17:15:00",
@@ -878,11 +871,18 @@
         "image": "https://i.ticketweb.com/i/00/13/57/77/63_Edp.jpg?v=4"
       },
       {
-        "name": "Anthony Jeselnik, Jason Cheny, Brian Monarch and Very Special Guests",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Kevin Nealon, Jason Cheny, Usama Siddiquee, Brian Monarch, Jen Murphy and Very Special Guests",
         "date": "2026-07-07",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/anthony-jeselnik-jason-cheny-brian-hollywood-improv-the-main-room-tickets/14973043",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973043",
         "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab ft. Mark Hayes and more TBA",
+        "date": "2026-07-07",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14242124",
+        "image": "https://i.ticketweb.com/i/00/12/95/83/14_Edp.jpg?v=3"
       },
       {
         "name": "Lab Work",
@@ -955,18 +955,11 @@
         "image": "https://i.ticketweb.com/i/00/13/47/16/73_Edp.jpg?v=3"
       },
       {
-        "name": "John Campanelli & Special Guests ft. John Campanelli and more TBA",
+        "name": "John Campanelli & Special Guests ft. John Campanelli, Freddie Shanel, and more TBA",
         "date": "2026-07-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14826983",
-        "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=2"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-07-14",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219454",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+        "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=3"
       }
     ]
   }
