@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T17:54:41.641Z",
+  "generated": "2026-07-08T17:24:11.369Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -236,13 +236,6 @@
     ],
     "Peacock Theater": [
       {
-        "name": "Black Myth: WUKONG Global Concert with Hollywood Film Orchestra",
-        "date": "2026-07-07",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70K8K",
-        "image": null
-      },
-      {
         "name": "Lord of the Rings: Fellowship of the Ring Concert",
         "date": "2026-07-16",
         "time": "19:00:00",
@@ -283,6 +276,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz86",
         "image": "https://s1.ticketm.net/dam/a/254/c38c0813-6db8-4f30-91b2-fe9994eef254_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "90s Corridos Tour (Lineup Subject to Change)",
+        "date": "2026-08-22",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-P-P",
+        "image": "https://s1.ticketm.net/dbimages/21081a.jpg"
       }
     ],
     "Teragram Ballroom": [
@@ -344,6 +344,13 @@
       }
     ],
     "Alex Theatre": [
+      {
+        "name": "Nurse John: Special Live Taping",
+        "date": "2026-08-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/nurse-john-special-live-taping-glendale-california-08-16-2026/event/0B0064E1811421D2",
+        "image": "https://s1.ticketm.net/dam/a/c5b/7ab28ae8-0253-4f76-ac58-eb4fbab24c5b_RECOMENDATION_16_9.jpg"
+      },
       {
         "name": "World Ballet Company: The Nutcracker",
         "date": "2026-12-18",
@@ -547,13 +554,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-07",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Gv",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-07-08",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Ge",
@@ -742,6 +742,13 @@
         "time": "18:00",
         "url": "https://www.eventbrite.com/e/lil-june-afro-punta-w-gahfu-garifuna-drumming-ensemble-grupo-bomba-mix-tickets-1992579888084",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186453439%2F405366306269%2F1%2Foriginal.20260608-233730?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a878752ef6a7853144f2f1d7d80bc8fd"
+      },
+      {
+        "name": "Park to Park 2026: Boogaloo Assassins, Plenazo Tribe & Ambiente Central",
+        "date": "2026-07-11",
+        "time": "12:00",
+        "url": "https://www.eventbrite.com/e/park-to-park-2026-boogaloo-assassins-plenazo-tribe-ambiente-central-tickets-1993506669111",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186453439%2F405366306269%2F1%2Foriginal.20260608-233730?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a878752ef6a7853144f2f1d7d80bc8fd"
       }
     ],
     "Bootleg Theater": [],
@@ -864,27 +871,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-07-07",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14973123",
-        "image": "https://i.ticketweb.com/i/00/13/57/77/63_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Kevin Nealon, Jason Cheny, Usama Siddiquee, Brian Monarch, Jen Murphy and Very Special Guests",
-        "date": "2026-07-07",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973043",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Mark Hayes and more TBA",
-        "date": "2026-07-07",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14242124",
-        "image": "https://i.ticketweb.com/i/00/12/95/83/14_Edp.jpg?v=3"
-      },
-      {
         "name": "Lab Work",
         "date": "2026-07-08",
         "time": "18:15:00",
@@ -920,11 +906,11 @@
         "image": "https://i.ticketweb.com/i/00/13/55/72/93_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jimmy Dore, Esther Povitsky, Amir K, Kelly Ryan, Greg Fitzsimmons and more TBA",
         "date": "2026-07-10",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940743",
-        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940743",
+        "image": "https://s1.ticketm.net/dam/a/a44/52d121bc-785d-4051-a8f6-23eafc0f8a44_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Low and Inside ft. Radu Bondar, Aaron Brooks, John Hastings, Ashley Johnson, Danny Cuneo, Liz Blanc, Maddie Connors, Willie Simon, Steve Furey, Greg Barris, MK Gannon, Chris Fairbanks",
@@ -934,6 +920,13 @@
         "image": "https://i.ticketweb.com/i/00/13/52/90/63_Edp.jpg?v=3"
       },
       {
+        "name": "Tonight at the Improv ft. Steph Tolev, Craig Robinson, Drew Lynch, Frankie Quinones, Mo Welch, Jeanne Whitney and more TBA",
+        "date": "2026-07-10",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940813",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Comedy Grind ft. Rob DaRocha, Ryan Talmo, Ray Cameron Ellinwood, Karen Haber, Tracey MacDonald, Lachlan Patterson, Jessica Keenan, Rick Izquieta, Rian Chavez, Willie Krisztal, and David Uhlfelder",
         "date": "2026-07-10",
         "time": "21:30:00",
@@ -941,11 +934,11 @@
         "image": "https://s1.ticketm.net/dam/a/b0e/fc3a1a39-5a79-47d5-809b-93e03452ab0e_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Kevin Nealon, Orny Adams, Laurie Kilmartin, Frazer Smith and more TBA",
         "date": "2026-07-11",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940773",
-        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940773",
+        "image": "https://s1.ticketm.net/dam/a/7b3/c51ac6c7-c9ac-4bbb-bbb1-a0c9e19c57b3_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Undiscovered Genius ft. Josh Edelman, Chelse Greaux, Eeland Stribling, Anyi Malik, Dan Paustain, Heather Winter, Gary King, America CG",
@@ -955,11 +948,39 @@
         "image": "https://i.ticketweb.com/i/00/13/47/16/73_Edp.jpg?v=3"
       },
       {
+        "name": "Tonight at the Improv ft. Aida Rodriguez, Mike Estime, Chris Estrada, BT Kingsley, Brent Morin, Jay Washington and more TBA",
+        "date": "2026-07-11",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940713",
+        "image": "https://s1.ticketm.net/dam/a/15b/8aa47481-de5f-4fd9-97fa-95b0fd18515b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv! ft. Craig Robinson, Asif Ali, Leslie Liao, Audrey Stewart and more TBA",
+        "date": "2026-07-12",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14236524",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Jess Hopkins & Friends ft. Jay Leno, Patton Oswalt, Craig Robinson, Chad Kroeger, Arijana Ramic, Jessica Hopkins and more TBA",
+        "date": "2026-07-13",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/jess-hopkins-friends-ft-hollywood-improv-the-main-room-tickets/14982583",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "John Campanelli & Special Guests ft. John Campanelli, Freddie Shanel, and more TBA",
         "date": "2026-07-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14826983",
         "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=3"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-07-14",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219454",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       }
     ]
   }
