@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T17:24:11.369Z",
+  "generated": "2026-07-09T17:50:45.334Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "Kurt Vile & The Violators w/ Ryan Davis & the Roadhouse Band",
-        "date": "2026-07-08",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8vU",
-        "image": "https://s1.ticketm.net/dam/a/90d/3f2d0e43-342b-4a02-a8c9-ae2a8bb0990d_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "BRESH Party (18 and Over)",
         "date": "2026-07-10",
         "time": "22:00:00",
@@ -232,6 +225,13 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PkbV",
         "image": null
+      },
+      {
+        "name": "Ole 60 w/ The Stews",
+        "date": "2026-08-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I09",
+        "image": "https://s1.ticketm.net/dam/a/e6c/7c11f21d-f91a-49fa-a79e-f6b40f78fe6c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -437,13 +437,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Royel Otis w/ Ax and the Hatchetmen",
-        "date": "2026-07-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xK0J",
-        "image": "https://s1.ticketm.net/dam/a/260/b38f242a-0884-42c8-a810-dba56987e260_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Brit Floyd: The Moon, The Wall and Beyond",
         "date": "2026-07-10",
         "time": "20:00:00",
@@ -491,6 +484,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPE",
         "image": "https://s1.ticketm.net/dam/a/214/942ca935-f039-47f1-ab3a-17e1db98c214_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Rainbow Kitten Surprise: bones North American Tour",
+        "date": "2026-07-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/rainbow-kitten-surprise-bones-north-american-los-angeles-california-07-21-2026/event/09006356A34F4BFA",
+        "image": "https://s1.ticketm.net/dam/a/d21/3a6ec95b-3c8f-4751-a565-4165cf27fd21_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -552,13 +552,6 @@
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Ge",
-        "image": null
-      },
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-07-09",
@@ -871,28 +864,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-07-08",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14975083",
-        "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "*JUST ADDED JASON CHENY* COMEDY CRUSH ft. DOUG BENSON, AMIR K, ASIF ALI, JUSTINE MARINO, AVERY PEARSON & HUGE GUESTS",
-        "date": "2026-07-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-jason-cheny-comedy-hollywood-improv-the-main-room-tickets/14135744",
-        "image": "https://s1.ticketm.net/dam/a/597/a6675b28-8ab7-4b56-956e-e83dbfd4c597_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "That's Hystorical ft. Jodi Miller, Lachlan Patterson, Jeff Leach, Brittany Ross, Vanessa Graddick, Ben Morrison, Karen Forman, Kimberly Lewis, Danny Jolles",
-        "date": "2026-07-08",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/thats-hystorical-ft-jodi-miller-hollywood-improv-the-lab-tickets/14975663",
-        "image": "https://i.ticketweb.com/i/00/13/58/02/13_Edp.jpg?v=3"
-      },
-      {
-        "name": "Tonight at the Improv ft. Craig Robinson, Esther Povitsky, Brian Monarch and VERY Special Guests",
+        "name": "Tonight at the Improv ft. Craig Robinson, Esther Povitsky, Charles Fleischer, Kira Soltanovich, Brian Monarch, Hunter Hill and VERY Special Guests",
         "date": "2026-07-09",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192054",
@@ -906,7 +878,7 @@
         "image": "https://i.ticketweb.com/i/00/13/55/72/93_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Jimmy Dore, Esther Povitsky, Amir K, Kelly Ryan, Greg Fitzsimmons and more TBA",
+        "name": "Tonight at the Improv ft. Jimmy Dore, Esther Povitsky, Amir K, Kelly Ryan, Greg Fitzsimmons, Laura Peek and more TBA",
         "date": "2026-07-10",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940743",
@@ -920,7 +892,7 @@
         "image": "https://i.ticketweb.com/i/00/13/52/90/63_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Steph Tolev, Craig Robinson, Drew Lynch, Frankie Quinones, Mo Welch, Jeanne Whitney and more TBA",
+        "name": "Tonight at the Improv ft. Steph Tolev, Craig Robinson, Drew Lynch, Frankie Quinones, Mo Welch, Louis Katz, Jeanne Whitney, and more TBA",
         "date": "2026-07-10",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940813",
@@ -934,11 +906,11 @@
         "image": "https://s1.ticketm.net/dam/a/b0e/fc3a1a39-5a79-47d5-809b-93e03452ab0e_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Kevin Nealon, Orny Adams, Laurie Kilmartin, Frazer Smith and more TBA",
+        "name": "Tonight at the Improv ft. Harland Williams, Kevin Nealon, Orny Adams, Laurie Kilmartin, Wayne Federman, Sarah Tiana, Frazer Smith and more TBA",
         "date": "2026-07-11",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940773",
-        "image": "https://s1.ticketm.net/dam/a/7b3/c51ac6c7-c9ac-4bbb-bbb1-a0c9e19c57b3_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Undiscovered Genius ft. Josh Edelman, Chelse Greaux, Eeland Stribling, Anyi Malik, Dan Paustain, Heather Winter, Gary King, America CG",
@@ -948,14 +920,14 @@
         "image": "https://i.ticketweb.com/i/00/13/47/16/73_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Aida Rodriguez, Mike Estime, Chris Estrada, BT Kingsley, Brent Morin, Jay Washington and more TBA",
+        "name": "Tonight at the Improv ft. Aida Rodriguez, Mike Estime, Chris Estrada, BT Kingsley, Brent Morin, Dave Merheje, Jay Washington and more TBA",
         "date": "2026-07-11",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940713",
         "image": "https://s1.ticketm.net/dam/a/15b/8aa47481-de5f-4fd9-97fa-95b0fd18515b_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv! ft. Craig Robinson, Asif Ali, Leslie Liao, Audrey Stewart and more TBA",
+        "name": "Tonight at the Improv ft. Craig Robinson, Asif Ali, Leslie Liao, Lachlan Patterson, Eleanor Kerrigan, Chris Fairbanks, Jeff Dye, Audrey Stewart and more TBA",
         "date": "2026-07-12",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14236524",
@@ -969,11 +941,18 @@
         "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "John Campanelli & Special Guests ft. John Campanelli, Freddie Shanel, and more TBA",
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-07-13",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976243",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "John Campanelli & Special Guests ft. John Campanelli, Freddie Shanel, Jennie Mintz, Leigh Joel Scott, Jamal Speakes, Michelle Redman and more TBA",
         "date": "2026-07-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14826983",
-        "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=4"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -981,6 +960,20 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219454",
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Comedy Mayhem ft. Pardis Parker, Amy Miller, Anna Simeri, Ron G, Sean Leary, Mimi Landru and Surprise Guest",
+        "date": "2026-07-15",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/comedy-mayhem-ft-pardis-parker-hollywood-improv-the-lab-tickets/14210574",
+        "image": "https://i.ticketweb.com/i/00/12/92/91/84_Edp.jpg?v=6"
+      },
+      {
+        "name": "Cult Comedy ft. Sam Grody, Laurie Douglas, Zainab Johnson, Erik Rivera, Rell Battle, Greg Wilson, Jay Washington, Kristy Quinn!",
+        "date": "2026-07-16",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/cult-comedy-ft-sam-grody-hollywood-improv-the-lab-tickets/14783463",
+        "image": "https://s1.ticketm.net/dam/a/1cd/e39ab3d7-3aa0-47c2-a294-df00d7a9f1cd_766891_RECOMENDATION_16_9.jpg"
       }
     ]
   }
