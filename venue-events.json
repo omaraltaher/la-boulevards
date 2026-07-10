@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T17:50:45.334Z",
+  "generated": "2026-07-10T16:41:48.481Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -554,13 +554,6 @@
     "Geffen Playhouse": [
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-09",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Gd",
-        "image": null
-      },
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-07-10",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9G7",
@@ -864,32 +857,18 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Esther Povitsky, Charles Fleischer, Kira Soltanovich, Brian Monarch, Hunter Hill and VERY Special Guests",
-        "date": "2026-07-09",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192054",
-        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Basshole ft. Doug Bass, Pete Giovine, Arturo Vaca, Mateen Stewart, Cid Williams, Josh Edelman, Rachel Dee, Sarah Albritton, Jessica Mele, Tonya Moon, Jessica Winther, Giuseppe De Fazio and more TBA",
-        "date": "2026-07-09",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-pete-hollywood-improv-the-lab-tickets/14950903",
-        "image": "https://i.ticketweb.com/i/00/13/55/72/93_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Jimmy Dore, Esther Povitsky, Amir K, Kelly Ryan, Greg Fitzsimmons, Laura Peek and more TBA",
+        "name": "Tonight at the Improv ft. Esther Povitsky, Amir K, Greg Fitzsimmons, Dean Delray, Laura Peek, Kelly Ryan and more TBA",
         "date": "2026-07-10",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940743",
-        "image": "https://s1.ticketm.net/dam/a/a44/52d121bc-785d-4051-a8f6-23eafc0f8a44_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Low and Inside ft. Radu Bondar, Aaron Brooks, John Hastings, Ashley Johnson, Danny Cuneo, Liz Blanc, Maddie Connors, Willie Simon, Steve Furey, Greg Barris, MK Gannon, Chris Fairbanks",
+        "name": "Low and Inside ft. Radu Bondar, Aaron Brooks, Channing Apodaca, Ashley Johnson, Danny Cuneo, Liz Blanc, Maddie Connors, Willie Simon, Cole Klayman, Greg Barris, MK Gannon, Chris Fairbanks",
         "date": "2026-07-10",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/low-and-inside-ft-radu-hollywood-improv-the-lab-tickets/14933623",
-        "image": "https://i.ticketweb.com/i/00/13/52/90/63_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/13/52/90/63_Edp.jpg?v=4"
       },
       {
         "name": "Tonight at the Improv ft. Steph Tolev, Craig Robinson, Drew Lynch, Frankie Quinones, Mo Welch, Louis Katz, Jeanne Whitney, and more TBA",
@@ -899,7 +878,7 @@
         "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Comedy Grind ft. Rob DaRocha, Ryan Talmo, Ray Cameron Ellinwood, Karen Haber, Tracey MacDonald, Lachlan Patterson, Jessica Keenan, Rick Izquieta, Rian Chavez, Willie Krisztal, and David Uhlfelder",
+        "name": "Comedy Grind ft. Rob DaRocha, Ryan Talmo, Ray Cameron Ellinwood, Karen Haber, Tracey MacDonald, Lachlan Patterson, Rishi Arya, Rick Izquieta, Rian Chavez, Willie Krisztal, and David Uhlfelder",
         "date": "2026-07-10",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/comedy-grind-ft-rob-darocha-hollywood-improv-the-lab-tickets/14953603",
@@ -948,18 +927,18 @@
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-07-14",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14973133",
+        "image": "https://i.ticketweb.com/i/00/13/57/77/63_Edp.jpg?v=4"
+      },
+      {
         "name": "John Campanelli & Special Guests ft. John Campanelli, Freddie Shanel, Jennie Mintz, Leigh Joel Scott, Jamal Speakes, Michelle Redman and more TBA",
         "date": "2026-07-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14826983",
         "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=4"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-07-14",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219454",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Comedy Mayhem ft. Pardis Parker, Amy Miller, Anna Simeri, Ron G, Sean Leary, Mimi Landru and Surprise Guest",
@@ -974,6 +953,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/cult-comedy-ft-sam-grody-hollywood-improv-the-lab-tickets/14783463",
         "image": "https://s1.ticketm.net/dam/a/1cd/e39ab3d7-3aa0-47c2-a294-df00d7a9f1cd_766891_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sasha Nezlobin: I'm Fine",
+        "date": "2026-07-16",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/sasha-nezlobin-im-fine-hollywood-improv-the-lab-tickets/14219914",
+        "image": "https://i.ticketweb.com/i/00/12/93/81/24_Edp.jpg?v=3"
+      },
+      {
+        "name": "We Should Date LIVE ft. Michael Lenoci, Laurie Douglas, Wren Woods, Rachel Steinberg, Drea Renee",
+        "date": "2026-07-17",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/we-should-date-live-ft-hollywood-improv-the-lab-tickets/14919193",
+        "image": "https://i.ticketweb.com/i/00/13/51/48/63_Edp.jpg?v=3"
       }
     ]
   }
