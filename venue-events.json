@@ -1,14 +1,7 @@
 {
-  "generated": "2026-07-11T16:18:23.625Z",
+  "generated": "2026-07-12T16:19:38.904Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Punchis! Punchis! Banda Rave",
-        "date": "2026-07-11",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/punchis-punchis-banda-rave-hollywood-california-07-11-2026/event/090064B620EF4BD0",
-        "image": "https://s1.ticketm.net/dam/a/6a2/4888f9e6-832c-40ec-a01b-218780dfc6a2_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Shrek Rave",
         "date": "2026-07-17",
@@ -57,6 +50,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/nine-vicious-a-tour-hollywood-california-08-20-2026/event/09006487C2F1D2A3",
         "image": "https://s1.ticketm.net/dam/a/913/018f2011-a3b9-4ecb-a767-5fc1a0c0d913_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Maddix",
+        "date": "2026-08-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/maddix-hollywood-california-08-21-2026/event/09006452F92BBD18",
+        "image": "https://s1.ticketm.net/dam/a/0f1/905fa56f-04d2-4118-b2ff-79fc577c60f1_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Audien",
-        "date": "2026-07-11",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/audien-avalon-hollywood-tickets/14192554",
-        "image": "https://s1.ticketm.net/dam/a/7d5/2112ec21-a12a-46fd-a0fa-6cb7e136a7d5_1684831_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lil Texas",
         "date": "2026-07-16",
         "time": "22:00:00",
@@ -174,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/audiofreq-codeblack-toneshifterz-avalon-hollywood-tickets/14908103",
         "image": "https://i.ticketweb.com/i/00/13/50/38/83_Edp.jpg?v=7"
+      },
+      {
+        "name": "Ferry Corsten",
+        "date": "2026-08-15",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/ferry-corsten-avalon-hollywood-tickets/14932913",
+        "image": "https://s1.ticketm.net/dam/a/e38/d64bfcd9-fa5b-4fcd-a710-ec9b11f4ee38_239391_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -287,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Gravity Bookings & Domino Effect Present: Guts & Glory",
-        "date": "2026-07-11",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/gravity-bookings-domino-effect-present-guts-los-angeles-california-07-11-2026/event/0900649DE48E5B1F",
-        "image": "https://s1.ticketm.net/dam/e/ef1/91b495d6-0714-4773-afaa-e1c700ee6ef1_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Snõõper",
         "date": "2026-07-15",
         "time": "19:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/the-downside-with-gianmarco-soresi-and-los-angeles-california-08-04-2026/event/09006436A8BED636",
         "image": "https://s1.ticketm.net/dam/e/7f9/be81150e-279b-4153-9080-6ef10351a7f9_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Yard Act",
+        "date": "2026-08-06",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/yard-act-los-angeles-california-08-06-2026/event/0900648FD10BA40A",
+        "image": "https://s1.ticketm.net/dam/e/2d2/575fbbfe-bfb5-46d4-9c85-0643415172d2_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -438,13 +438,6 @@
     "Greek Theatre": [
       {
         "name": "Matt Rife: Stay Golden World Tour",
-        "date": "2026-07-11",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-los-angeles-california-07-11-2026/event/09006365E4729143",
-        "image": "https://s1.ticketm.net/dam/a/238/b3bb5076-6b92-45d8-b5a5-e5e700a50238_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Matt Rife: Stay Golden World Tour",
         "date": "2026-07-12",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-los-angeles-california-07-12-2026/event/0900636C7410646F",
@@ -491,6 +484,13 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/howard-jones-things-can-only-get-los-angeles-california-07-23-2026/event/0900648210AC8311",
         "image": "https://s1.ticketm.net/dam/a/394/9cb95ff8-e10f-4211-88e5-8e1ae0973394_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Treaty Oak Revival",
+        "date": "2026-07-24",
+        "time": "18:45:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f4E",
+        "image": "https://s1.ticketm.net/dam/a/0b2/55400c57-3571-4053-b18e-7c92d51f00b2_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -552,13 +552,6 @@
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-11",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9Gk",
-        "image": null
-      },
       {
         "name": "Angry, Raucous, and Shamelessly Gorgeous",
         "date": "2026-07-12",
@@ -714,15 +707,7 @@
     "Haugh Performing Arts Center": [],
     "Eli Broad Stage": [],
     "Beverly O'Neill Theater": [],
-    "Levitt Pavilion": [
-      {
-        "name": "Park to Park 2026: Boogaloo Assassins, Plenazo Tribe & Ambiente Central",
-        "date": "2026-07-11",
-        "time": "12:00",
-        "url": "https://www.eventbrite.com/e/park-to-park-2026-boogaloo-assassins-plenazo-tribe-ambiente-central-tickets-1993506669111",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186453439%2F405366306269%2F1%2Foriginal.20260608-233730?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a878752ef6a7853144f2f1d7d80bc8fd"
-      }
-    ],
+    "Levitt Pavilion": [],
     "Bootleg Theater": [],
     "Coronet Theater": [],
     "Ivar Theatre": [],
@@ -779,11 +764,11 @@
         "image": "https://s1.ticketm.net/dam/e/a90/f1db0dea-79f3-4714-ab69-869f55838a90_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tre Floyd's Black Girl Therapy",
-        "date": "2026-09-19",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
-        "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
+        "name": "An Evening with J Anthony Brown",
+        "date": "2026-09-12",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/an-evening-with-j-anthony-brown-inglewood-california-09-12-2026/event/0B0064EBB4124B34",
+        "image": "https://s1.ticketm.net/dbimages/171626a.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -850,27 +835,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Harland Williams, Kevin Nealon, Orny Adams, Laurie Kilmartin, Wayne Federman, Sarah Tiana, Frazer Smith and more TBA",
-        "date": "2026-07-11",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940773",
-        "image": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Undiscovered Genius ft. Josh Edelman, Chelse Greaux, Eeland Stribling, Anyi Malik, Dan Paustain, Heather Winter, Gary King, America CG",
-        "date": "2026-07-11",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-josh-edelman-hollywood-improv-the-lab-tickets/14873283",
-        "image": "https://i.ticketweb.com/i/00/13/47/16/73_Edp.jpg?v=3"
-      },
-      {
-        "name": "Tonight at the Improv ft. Aida Rodriguez, Mike Estime, Chris Estrada, BT Kingsley, Brent Morin, Dave Merheje, Jay Washington and more TBA",
-        "date": "2026-07-11",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940713",
-        "image": "https://s1.ticketm.net/dam/a/15b/8aa47481-de5f-4fd9-97fa-95b0fd18515b_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Craig Robinson, Asif Ali, Leslie Liao, Lachlan Patterson, Eleanor Kerrigan, Chris Fairbanks, Jeff Dye, Audrey Stewart and more TBA",
         "date": "2026-07-12",
         "time": "19:00:00",
@@ -885,7 +849,7 @@
         "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, PJ Butta, T Barb, Jugo, Jordan Rock  & more",
         "date": "2026-07-13",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976243",
@@ -920,11 +884,25 @@
         "image": "https://i.ticketweb.com/i/00/12/95/48/84_Edp.jpg?v=5"
       },
       {
+        "name": "Vinny Fasline & Friends ft. Harland Williams, Morgan Jay, Craig Robinson, Steph Tolev, Billy Gardell, Gena B. Jones and More TBA!",
+        "date": "2026-07-15",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/vinny-fasline-friends-ft-hollywood-improv-the-main-room-tickets/14238724",
+        "image": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Comedy Mayhem ft. Pardis Parker, Amy Miller, Anna Simeri, Ron G, Sean Leary, Mimi Landru and Surprise Guest",
         "date": "2026-07-15",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/comedy-mayhem-ft-pardis-parker-hollywood-improv-the-lab-tickets/14210574",
         "image": "https://i.ticketweb.com/i/00/12/92/91/84_Edp.jpg?v=6"
+      },
+      {
+        "name": "Tonight at the Improv ft. Esther Povitsky, Morgan Jay, Brian Monarch and more TBA",
+        "date": "2026-07-16",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192074",
+        "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Cult Comedy ft. Sam Grody, Laurie Douglas, Zainab Johnson, Erik Rivera, Rell Battle, Greg Wilson, Jay Washington, Kristy Quinn!",
@@ -960,6 +938,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/funny-mill-ft-eddie-pepitone-hollywood-improv-the-lab-tickets/14210584",
         "image": "https://s1.ticketm.net/dam/a/875/529fc6f3-4719-4895-9bab-1b5f67dd9875_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mermaid Comedy Hour ft. Kari Assad, Valerie Tosi Irene Tu, Laura Kightlinger, Marlena Rodriguez, Natalie McGill, Allie Zisfein, Vanessa Dawn and more TBA",
+        "date": "2026-07-20",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/mermaid-comedy-hour-ft-kari-hollywood-improv-the-lab-tickets/14827013",
+        "image": "https://i.ticketweb.com/i/00/13/42/71/23_Edp.jpg?v=6"
       }
     ]
   }
