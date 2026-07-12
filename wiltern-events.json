@@ -1,13 +1,6 @@
 {
-  "generated": "2026-07-11T15:21:57.056Z",
+  "generated": "2026-07-12T15:22:57.907Z",
   "events": [
-    {
-      "name": "WOLFMOTHER - 20th Anniversary Tour",
-      "date": "2026-07-11",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/wolfmother-20th-anniversary-tour-los-angeles-california-07-11-2026/event/0900635EE7FB98A3",
-      "image": "https://s1.ticketm.net/dam/a/dcd/2a9d98e3-29a5-4917-a701-d42882c22dcd_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Streetlight Manifesto: The Presence of the Past Tour",
       "date": "2026-07-12",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/moonchild-waves-tour-los-angeles-california-08-01-2026/event/0900635025D9C93F",
       "image": "https://s1.ticketm.net/dam/a/d45/73a89392-c44f-44ba-afa4-a99074714d45_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Calle 24: Eterno Tour",
+      "date": "2026-08-02",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/calle-24-eterno-tour-los-angeles-california-08-02-2026/event/090064B5B67FE1B6",
+      "image": "https://s1.ticketm.net/dam/a/f71/85287d84-1928-4df3-9e7e-4e72b485bf71_RECOMENDATION_16_9.jpg"
     }
   ]
 }
