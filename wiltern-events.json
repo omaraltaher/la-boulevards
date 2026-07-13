@@ -1,13 +1,6 @@
 {
-  "generated": "2026-07-12T15:22:57.907Z",
+  "generated": "2026-07-13T15:54:18.606Z",
   "events": [
-    {
-      "name": "Streetlight Manifesto: The Presence of the Past Tour",
-      "date": "2026-07-12",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/streetlight-manifesto-the-presence-of-the-los-angeles-california-07-12-2026/event/09006490AB0B7BF9",
-      "image": "https://s1.ticketm.net/dam/a/1f9/0f31d61f-0097-4990-b958-e713edbd31f9_113761_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "K-POP Superstars",
       "date": "2026-07-17",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/calle-24-eterno-tour-los-angeles-california-08-02-2026/event/090064B5B67FE1B6",
       "image": "https://s1.ticketm.net/dam/a/f71/85287d84-1928-4df3-9e7e-4e72b485bf71_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Sierra Ferrell - Heavy Petal Tour",
+      "date": "2026-08-05",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/sierra-ferrell-heavy-petal-tour-los-angeles-california-08-05-2026/event/090064C3C25D2CAF",
+      "image": "https://s1.ticketm.net/dam/a/a79/b1e9f605-2cf3-40e4-8c47-d2ee394d0a79_RECOMENDATION_16_9.jpg"
     }
   ]
 }
