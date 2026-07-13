@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T16:19:38.904Z",
+  "generated": "2026-07-13T16:48:15.455Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -438,13 +438,6 @@
     "Greek Theatre": [
       {
         "name": "Matt Rife: Stay Golden World Tour",
-        "date": "2026-07-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-los-angeles-california-07-12-2026/event/0900636C7410646F",
-        "image": "https://s1.ticketm.net/dam/a/238/b3bb5076-6b92-45d8-b5a5-e5e700a50238_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Matt Rife: Stay Golden World Tour",
         "date": "2026-07-13",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-los-angeles-california-07-13-2026/event/090064AF95F4A3DF",
@@ -491,6 +484,13 @@
         "time": "18:45:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f4E",
         "image": "https://s1.ticketm.net/dam/a/0b2/55400c57-3571-4053-b18e-7c92d51f00b2_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ella Mai w/ AMA",
+        "date": "2026-07-28",
+        "time": null,
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-YO7",
+        "image": "https://s1.ticketm.net/dam/a/377/a376714c-1651-4abf-bf23-2c77863f9377_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -551,15 +551,7 @@
         "image": "https://s1.ticketm.net/dam/a/960/ab8e2d71-4b2e-4d4c-b9c3-542f2a73b960_RECOMENDATION_16_9.jpg"
       }
     ],
-    "Geffen Playhouse": [
-      {
-        "name": "Angry, Raucous, and Shamelessly Gorgeous",
-        "date": "2026-07-12",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9GF",
-        "image": null
-      }
-    ],
+    "Geffen Playhouse": [],
     "Pasadena Playhouse": [],
     "Ricardo Montalban Theatre": [
       {
@@ -766,7 +758,7 @@
       {
         "name": "An Evening with J Anthony Brown",
         "date": "2026-09-12",
-        "time": "19:30:00",
+        "time": "20:00:00",
         "url": "https://www.ticketmaster.com/an-evening-with-j-anthony-brown-inglewood-california-09-12-2026/event/0B0064EBB4124B34",
         "image": "https://s1.ticketm.net/dbimages/171626a.jpg"
       }
@@ -777,18 +769,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-07-12",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1988135324274",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-07-12",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1988135360382",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-07-14",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1988197003759",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188649761%2F2987014365277%2F1%2Foriginal.20260711-011655?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c70e21c8168bd413a4f49159b50b9025"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -819,6 +804,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-08-11",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1988197072966",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
+      },
+      {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
         "date": "2026-09-20",
         "time": "17:00",
@@ -834,13 +826,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Craig Robinson, Asif Ali, Leslie Liao, Lachlan Patterson, Eleanor Kerrigan, Chris Fairbanks, Jeff Dye, Audrey Stewart and more TBA",
-        "date": "2026-07-12",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14236524",
-        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Jess Hopkins & Friends ft. Jay Leno, Patton Oswalt, Craig Robinson, Chad Kroeger, Arijana Ramic, Jessica Hopkins and more TBA",
         "date": "2026-07-13",
@@ -877,11 +862,11 @@
         "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Ray Lau, DoKnow, Craig Conant, Learnmore Jonasi, Caitlin Peluffo, Mark Hayes and more TBA",
+        "name": "Tonight at the Improv ft. Ray Lau, DoKnow, Craig Conant, Learnmore Jonasi, Caitlin Peluffo, Mario Adrion, Mark Hayes and more TBA",
         "date": "2026-07-14",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238774",
-        "image": "https://i.ticketweb.com/i/00/12/95/48/84_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/12/95/48/84_Edp.jpg?v=6"
       },
       {
         "name": "Vinny Fasline & Friends ft. Harland Williams, Morgan Jay, Craig Robinson, Steph Tolev, Billy Gardell, Gena B. Jones and More TBA!",
@@ -924,6 +909,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/we-should-date-live-ft-hollywood-improv-the-lab-tickets/14919193",
         "image": "https://i.ticketweb.com/i/00/13/51/48/63_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-07-17",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940703",
+        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
       },
       {
         "name": "Tonight at the Lab!",
