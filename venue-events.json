@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13T16:48:15.455Z",
+  "generated": "2026-07-14T16:27:36.255Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -124,7 +124,7 @@
         "date": "2026-07-16",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/lil-texas-avalon-hollywood-tickets/14889573",
-        "image": "https://i.ticketweb.com/i/00/13/48/50/33_Edp.jpg?v=10"
+        "image": "https://i.ticketweb.com/i/00/13/48/50/33_Edp.jpg?v=11"
       },
       {
         "name": "Flashback: A 2010s EDM Tribute Party",
@@ -437,13 +437,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Matt Rife: Stay Golden World Tour",
-        "date": "2026-07-13",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-los-angeles-california-07-13-2026/event/090064AF95F4A3DF",
-        "image": "https://s1.ticketm.net/dam/a/238/b3bb5076-6b92-45d8-b5a5-e5e700a50238_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "K-Love Live",
         "date": "2026-07-15",
         "time": "19:00:00",
@@ -491,6 +484,13 @@
         "time": null,
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-YO7",
         "image": "https://s1.ticketm.net/dam/a/377/a376714c-1651-4abf-bf23-2c77863f9377_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LINDSEY STIRLING - DUALITY UNTAMED TOUR",
+        "date": "2026-07-30",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/lindsey-stirling-duality-untamed-tour-los-angeles-california-07-30-2026/event/09006435DCE4BAFF",
+        "image": "https://s1.ticketm.net/dam/a/727/e1b0d529-1e0d-4f13-bafa-d51796b64727_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -725,7 +725,7 @@
         "date": "2026-08-16",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-08-16-2026/event/0B0064E7F3225942",
-        "image": "https://s1.ticketm.net/dam/e/a9e/ec6aa256-6b74-4a6b-b381-b67699197a9e_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/e/e7d/a8419171-ba42-4acf-859f-ad9212fa4e7d_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "JoDavi Presents: Makeda | A Symphonic Journey Through Scripture",
@@ -827,20 +827,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Jess Hopkins & Friends ft. Jay Leno, Patton Oswalt, Craig Robinson, Chad Kroeger, Arijana Ramic, Jessica Hopkins and more TBA",
-        "date": "2026-07-13",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/jess-hopkins-friends-ft-hollywood-improv-the-main-room-tickets/14982583",
-        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, PJ Butta, T Barb, Jugo, Jordan Rock  & more",
-        "date": "2026-07-13",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976243",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-07-14",
         "time": "17:15:00",
@@ -848,7 +834,7 @@
         "image": "https://i.ticketweb.com/i/00/13/57/77/63_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Craig Robinson, Harland Williams, Brian Monarch and very special guests",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Harland Williams, Craig Robinson, Kira Soltanovich, Brian Monarch, Julia Jasunas, and More TBD!",
         "date": "2026-07-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973053",
@@ -880,7 +866,7 @@
         "date": "2026-07-15",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/comedy-mayhem-ft-pardis-parker-hollywood-improv-the-lab-tickets/14210574",
-        "image": "https://i.ticketweb.com/i/00/12/92/91/84_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/12/92/91/84_Edp.jpg?v=7"
       },
       {
         "name": "Tonight at the Improv ft. Esther Povitsky, Morgan Jay, Brian Monarch and more TBA",
@@ -911,11 +897,25 @@
         "image": "https://i.ticketweb.com/i/00/13/51/48/63_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Morgan Jay, Pete Lee, Billy Gardell and more TBA",
         "date": "2026-07-17",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940703",
-        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940703",
+        "image": "https://s1.ticketm.net/dam/a/2e4/84175056-5c5a-456d-829f-28c9d51762e4_739551_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Nate Craig ft. Amir K, Mike Bridenstine, Kimberly Clark, Willie Simon and more",
+        "date": "2026-07-17",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/nate-craig-ft-amir-k-hollywood-improv-the-main-room-tickets/14940803",
+        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Jay Mohr, Loni Love, Orny Adams, Debra DiGiovanni and more TBA",
+        "date": "2026-07-18",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940753",
+        "image": "https://s1.ticketm.net/dam/a/0e0/302dfcfc-dae9-4946-a474-1a219c8ae0e0_357091_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Tonight at the Lab!",
