@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14T16:27:36.255Z",
+  "generated": "2026-07-15T16:31:04.378Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -141,6 +141,13 @@
         "image": "https://s1.ticketm.net/dam/a/44d/22f6a5c9-c2d2-46f9-9d3f-4ec8e3b3844d_89601_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "WORLD CUP FINAL WATCH PARTY",
+        "date": "2026-07-19",
+        "time": "11:00:00",
+        "url": "https://www.ticketweb.com/event/world-cup-final-watch-party-avalon-hollywood-tickets/14253934",
+        "image": "https://i.ticketweb.com/i/00/12/96/98/84_Edp.jpg?v=7"
+      },
+      {
         "name": "  Black V Neck , Dillon Nathaniel",
         "date": "2026-07-24",
         "time": "22:00:00",
@@ -162,18 +169,11 @@
         "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Audiofreq, Codeblack, Toneshifterz",
-        "date": "2026-08-14",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/audiofreq-codeblack-toneshifterz-avalon-hollywood-tickets/14908103",
-        "image": "https://i.ticketweb.com/i/00/13/50/38/83_Edp.jpg?v=7"
-      },
-      {
-        "name": "Ferry Corsten",
-        "date": "2026-08-15",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/ferry-corsten-avalon-hollywood-tickets/14932913",
-        "image": "https://s1.ticketm.net/dam/a/e38/d64bfcd9-fa5b-4fcd-a710-ec9b11f4ee38_239391_RECOMENDATION_16_9.jpg"
+        "name": "Emo Nite",
+        "date": "2026-08-07",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14250754",
+        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -707,7 +707,7 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "COMEDY BLOCK PARTY Hosted by Chris Spencer & Co-host Alex Thomas",
+        "name": "COMEDY BLOCK PARTY Hosted by Chris Spencer w/ Guest host Alex Thomas",
         "date": "2026-07-15",
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/comedy-block-party-hosted-by-chris-inglewood-california-07-15-2026/event/0B0064D1F124585D",
@@ -769,13 +769,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Rubee Tuesdays 7:45pm",
-        "date": "2026-07-14",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1988197003759",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188649761%2F2987014365277%2F1%2Foriginal.20260711-011655?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c70e21c8168bd413a4f49159b50b9025"
-      },
-      {
         "name": "Chocolate Sundaes 7:00PM",
         "date": "2026-07-19",
         "time": "19:00",
@@ -788,6 +781,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1988135844831",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-07-20",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1988202476127",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -827,34 +827,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-07-14",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14973133",
-        "image": "https://i.ticketweb.com/i/00/13/57/77/63_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Harland Williams, Craig Robinson, Kira Soltanovich, Brian Monarch, Julia Jasunas, and More TBD!",
-        "date": "2026-07-14",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973053",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "John Campanelli & Special Guests ft. John Campanelli, Freddie Shanel, Jennie Mintz, Leigh Joel Scott, Jamal Speakes, Michelle Redman and more TBA",
-        "date": "2026-07-14",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14826983",
-        "image": "https://i.ticketweb.com/i/00/13/42/70/93_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Ray Lau, DoKnow, Craig Conant, Learnmore Jonasi, Caitlin Peluffo, Mario Adrion, Mark Hayes and more TBA",
-        "date": "2026-07-14",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238774",
-        "image": "https://i.ticketweb.com/i/00/12/95/48/84_Edp.jpg?v=6"
-      },
-      {
         "name": "Vinny Fasline & Friends ft. Harland Williams, Morgan Jay, Craig Robinson, Steph Tolev, Billy Gardell, Gena B. Jones and More TBA!",
         "date": "2026-07-15",
         "time": "19:30:00",
@@ -869,7 +841,7 @@
         "image": "https://i.ticketweb.com/i/00/12/92/91/84_Edp.jpg?v=7"
       },
       {
-        "name": "Tonight at the Improv ft. Esther Povitsky, Morgan Jay, Brian Monarch and more TBA",
+        "name": "Tonight at the Improv ft. Esther Povitsky, Morgan Jay, Dan Mintz, Brian Monarch and more TBA",
         "date": "2026-07-16",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192074",
@@ -897,11 +869,11 @@
         "image": "https://i.ticketweb.com/i/00/13/51/48/63_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Morgan Jay, Pete Lee, Billy Gardell and more TBA",
+        "name": "Tonight at the Improv ft. Morgan Jay, Esther Povitsky, Pete Lee, Billy Gardell, Justine Marino and more TBA",
         "date": "2026-07-17",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940703",
-        "image": "https://s1.ticketm.net/dam/a/2e4/84175056-5c5a-456d-829f-28c9d51762e4_739551_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Nate Craig ft. Amir K, Mike Bridenstine, Kimberly Clark, Willie Simon and more",
@@ -911,18 +883,32 @@
         "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Jay Mohr, Loni Love, Orny Adams, Debra DiGiovanni and more TBA",
+        "name": "Tonight at the Improv ft. Jay Mohr, Loni Love, Orny Adams, Debra DiGiovanni, Amir K, Sarah Tiana, Nikki Bon and more TBA",
         "date": "2026-07-18",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940753",
         "image": "https://s1.ticketm.net/dam/a/0e0/302dfcfc-dae9-4946-a474-1a219c8ae0e0_357091_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab!",
+        "name": "Tonight at the Lab! ft. Lachlan Patterson, Jackson Banks, Liz Blanc, Gena B Jones, and More TBA!",
         "date": "2026-07-18",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14975823",
-        "image": "https://i.ticketweb.com/i/00/13/58/03/73_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14975823",
+        "image": "https://i.ticketweb.com/i/00/13/58/03/73_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv ft. Drew Lynch, Craig Conant, Zainab Johnson, Michael Blaustein, Erik Griffin, Kirk Fox, Jeanne Whitney and more TBA",
+        "date": "2026-07-18",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940723",
+        "image": "https://s1.ticketm.net/dam/a/6af/f2ef5814-a121-4b38-9eb3-5261dd9606af_1545521_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Orny Adams, Renee Percy, Jimmy Shin and more TBA",
+        "date": "2026-07-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906903",
+        "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Funny Mill ft. Eddie Pepitone, Willie Macc, Rishi Arya, Zeo Niu, Brian Wiora, Jessica Damouni, Eric Fuerstein",
@@ -932,11 +918,25 @@
         "image": "https://s1.ticketm.net/dam/a/875/529fc6f3-4719-4895-9bab-1b5f67dd9875_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv!",
+        "date": "2026-07-20",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14238734",
+        "image": "https://i.ticketweb.com/i/00/12/95/48/24_Edp.jpg?v=2"
+      },
+      {
         "name": "Mermaid Comedy Hour ft. Kari Assad, Valerie Tosi Irene Tu, Laura Kightlinger, Marlena Rodriguez, Natalie McGill, Allie Zisfein, Vanessa Dawn and more TBA",
         "date": "2026-07-20",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/mermaid-comedy-hour-ft-kari-hollywood-improv-the-lab-tickets/14827013",
         "image": "https://i.ticketweb.com/i/00/13/42/71/23_Edp.jpg?v=6"
+      },
+      {
+        "name": "Plant Mob ft. Todd Glass, Chris Estrada, Erica Rhodes, Brent Weinbach, Audrey Stewart, Aparna Nancherla, Kyle Tomlin and more TBA",
+        "date": "2026-07-21",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/plant-mob-ft-todd-glass-hollywood-improv-the-lab-tickets/14964333",
+        "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
       }
     ]
   }
