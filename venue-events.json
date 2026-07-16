@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T16:31:04.378Z",
+  "generated": "2026-07-16T16:29:38.160Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -15,6 +15,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/insomniac-presents-jessica-audiffred-3hour-extended-hollywood-california-07-18-2026/event/09006484A2E07E76",
         "image": "https://s1.ticketm.net/dam/a/b07/c121737a-d10e-4081-9eea-3c146e27fb07_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Right After You Left hosted by Deon Cole - Vinyl Room @ the Palladium",
+        "date": "2026-07-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/right-after-you-left-hosted-by-hollywood-california-07-21-2026/event/090064EFB27AA450",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "TOTALLY TUBULAR FESTIVAL",
@@ -50,16 +57,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/nine-vicious-a-tour-hollywood-california-08-20-2026/event/09006487C2F1D2A3",
         "image": "https://s1.ticketm.net/dam/a/913/018f2011-a3b9-4ecb-a767-5fc1a0c0d913_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Maddix",
-        "date": "2026-08-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/maddix-hollywood-california-08-21-2026/event/09006452F92BBD18",
-        "image": "https://s1.ticketm.net/dam/a/0f1/905fa56f-04d2-4118-b2ff-79fc577c60f1_RECOMENDATION_16_9.jpg"
       }
     ],
-    "El Rey Theatre": [],
+    "El Rey Theatre": [
+      {
+        "name": "THE FESTIVAL OF THE LION featuring THE ORPHICS",
+        "date": "2026-08-08",
+        "time": "20:30",
+        "url": "https://www.eventbrite.com/e/the-festival-of-the-lion-featuring-the-orphics-tickets-1994104349790",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188962630%2F2163148784%2F1%2Foriginal.20260715-225003?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=942d3dbe8bee4e62a831fbd817a29aa2"
+      }
+    ],
     "Henry Fonda Theater": [
       {
         "name": "Chance Pena",
@@ -124,7 +132,7 @@
         "date": "2026-07-16",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/lil-texas-avalon-hollywood-tickets/14889573",
-        "image": "https://i.ticketweb.com/i/00/13/48/50/33_Edp.jpg?v=11"
+        "image": "https://i.ticketweb.com/i/00/13/48/50/33_Edp.jpg?v=12"
       },
       {
         "name": "Flashback: A 2010s EDM Tribute Party",
@@ -145,7 +153,7 @@
         "date": "2026-07-19",
         "time": "11:00:00",
         "url": "https://www.ticketweb.com/event/world-cup-final-watch-party-avalon-hollywood-tickets/14253934",
-        "image": "https://i.ticketweb.com/i/00/12/96/98/84_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/12/96/98/84_Edp.jpg?v=8"
       },
       {
         "name": "  Black V Neck , Dillon Nathaniel",
@@ -169,11 +177,11 @@
         "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Emo Nite",
-        "date": "2026-08-07",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14250754",
-        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
+        "name": "Boys Noize w/ 1tbsp + PILO",
+        "date": "2026-08-02",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/boys-noize-w-1tbsp-avalon-hollywood-tickets/14233694",
+        "image": "https://s1.ticketm.net/dbimages/118087a.jpg"
       }
     ],
     "The Novo": [
@@ -287,13 +295,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Snõõper",
-        "date": "2026-07-15",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/snooper-los-angeles-california-07-15-2026/event/090064C1A5468B17",
-        "image": "https://s1.ticketm.net/dam/e/7ac/87113e8d-17ed-48c5-ad61-b058675d37ac_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "The Spits",
         "date": "2026-07-16",
         "time": "19:00:00",
@@ -341,6 +342,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/yard-act-los-angeles-california-08-06-2026/event/0900648FD10BA40A",
         "image": "https://s1.ticketm.net/dam/e/2d2/575fbbfe-bfb5-46d4-9c85-0643415172d2_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Old 97's",
+        "date": "2026-08-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/old-97s-los-angeles-california-08-07-2026/event/09006459E176D674",
+        "image": "https://s1.ticketm.net/dam/e/beb/18330ace-aa3e-4ccf-9462-84beff62abeb_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -437,13 +445,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "K-Love Live",
-        "date": "2026-07-15",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70k79",
-        "image": null
-      },
-      {
         "name": "CA7RIEL & Paco Amoroso: FREE SPIRITS WORLD TOUR",
         "date": "2026-07-16",
         "time": "20:00:00",
@@ -491,16 +492,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/lindsey-stirling-duality-untamed-tour-los-angeles-california-07-30-2026/event/09006435DCE4BAFF",
         "image": "https://s1.ticketm.net/dam/a/727/e1b0d529-1e0d-4f13-bafa-d51796b64727_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "La La Land In Concert",
+        "date": "2026-08-01",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-6A3",
+        "image": "https://s1.ticketm.net/dam/a/e7d/738525d2-ccae-4f05-a1d9-b741dc461e7d_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
-      {
-        "name": "Gabriel Iglesias: Fluffy's 50th Birthday Show",
-        "date": "2026-07-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/gabriel-iglesias-fluffys-50th-birthday-show-hollywood-california-07-15-2026/event/09006481C25CCB4B",
-        "image": "https://s1.ticketm.net/dam/a/f02/33a32096-d2fb-45cf-9d95-b71260f94f02_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "2026 WOODZ WORLD TOUR ' Archive. 1 ' IN US",
         "date": "2026-07-25",
@@ -707,13 +708,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "COMEDY BLOCK PARTY Hosted by Chris Spencer w/ Guest host Alex Thomas",
-        "date": "2026-07-15",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/comedy-block-party-hosted-by-chris-inglewood-california-07-15-2026/event/0B0064D1F124585D",
-        "image": "https://s1.ticketm.net/dam/e/3f2/1b0ab02d-4497-44f6-a1c1-e4cafc2eb3f2_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Cult Classics Cinema Presents BLACK PANTHER",
         "date": "2026-07-18",
         "time": "18:00:00",
@@ -761,6 +755,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/an-evening-with-j-anthony-brown-inglewood-california-09-12-2026/event/0B0064EBB4124B34",
         "image": "https://s1.ticketm.net/dbimages/171626a.jpg"
+      },
+      {
+        "name": "Tre Floyd's Black Girl Therapy",
+        "date": "2026-09-19",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
+        "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -827,25 +828,11 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Vinny Fasline & Friends ft. Harland Williams, Morgan Jay, Craig Robinson, Steph Tolev, Billy Gardell, Gena B. Jones and More TBA!",
-        "date": "2026-07-15",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/vinny-fasline-friends-ft-hollywood-improv-the-main-room-tickets/14238724",
-        "image": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Comedy Mayhem ft. Pardis Parker, Amy Miller, Anna Simeri, Ron G, Sean Leary, Mimi Landru and Surprise Guest",
-        "date": "2026-07-15",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/comedy-mayhem-ft-pardis-parker-hollywood-improv-the-lab-tickets/14210574",
-        "image": "https://i.ticketweb.com/i/00/12/92/91/84_Edp.jpg?v=7"
-      },
-      {
-        "name": "Tonight at the Improv ft. Esther Povitsky, Morgan Jay, Dan Mintz, Brian Monarch and more TBA",
+        "name": "Tonight at the Improv ft. Adam Ray, Esther Povitsky, Morgan Jay, Dan Mintz, Brian Monarch, Julia Jasunas and more TBA",
         "date": "2026-07-16",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192074",
-        "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/8d6/a01d8edf-195c-4361-b3ce-7836d62f08d6_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Cult Comedy ft. Sam Grody, Laurie Douglas, Zainab Johnson, Erik Rivera, Rell Battle, Greg Wilson, Jay Washington, Kristy Quinn!",
@@ -869,7 +856,7 @@
         "image": "https://i.ticketweb.com/i/00/13/51/48/63_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Morgan Jay, Esther Povitsky, Pete Lee, Billy Gardell, Justine Marino and more TBA",
+        "name": "Tonight at the Improv ft. Morgan Jay, Esther Povitsky, Pete Lee, Billy Gardell, Amy Miller, Justine Marino and more TBA",
         "date": "2026-07-17",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940703",
@@ -890,11 +877,11 @@
         "image": "https://s1.ticketm.net/dam/a/0e0/302dfcfc-dae9-4946-a474-1a219c8ae0e0_357091_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab! ft. Lachlan Patterson, Jackson Banks, Liz Blanc, Gena B Jones, and More TBA!",
+        "name": "Tonight at the Lab ft. Lachlan Patterson, J.F. Harris, Jackson Banks, Danielle Perez, Liz Blanc, Torio Van Grol, Gena B Jones, and More TBA!",
         "date": "2026-07-18",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14975823",
-        "image": "https://i.ticketweb.com/i/00/13/58/03/73_Edp.jpg?v=3"
+        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Tonight at the Improv ft. Drew Lynch, Craig Conant, Zainab Johnson, Michael Blaustein, Erik Griffin, Kirk Fox, Jeanne Whitney and more TBA",
@@ -932,11 +919,25 @@
         "image": "https://i.ticketweb.com/i/00/13/42/71/23_Edp.jpg?v=6"
       },
       {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-07-20",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976253",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Plant Mob ft. Todd Glass, Chris Estrada, Erica Rhodes, Brent Weinbach, Audrey Stewart, Aparna Nancherla, Kyle Tomlin and more TBA",
         "date": "2026-07-21",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/plant-mob-ft-todd-glass-hollywood-improv-the-lab-tickets/14964333",
         "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-07-21",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219454",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       }
     ]
   }
