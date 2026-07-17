@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:29:38.160Z",
+  "generated": "2026-07-17T16:26:41.241Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -128,13 +128,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Lil Texas",
-        "date": "2026-07-16",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/lil-texas-avalon-hollywood-tickets/14889573",
-        "image": "https://i.ticketweb.com/i/00/13/48/50/33_Edp.jpg?v=12"
-      },
-      {
         "name": "Flashback: A 2010s EDM Tribute Party",
         "date": "2026-07-17",
         "time": "22:00:00",
@@ -182,16 +175,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/boys-noize-w-1tbsp-avalon-hollywood-tickets/14233694",
         "image": "https://s1.ticketm.net/dbimages/118087a.jpg"
+      },
+      {
+        "name": "Emo Nite",
+        "date": "2026-08-07",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14250754",
+        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "Marlon Wayans",
-        "date": "2026-07-16",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E8N",
-        "image": "https://s1.ticketm.net/dam/a/649/fc0c18a2-de9c-4378-9212-c7fa46e7e649_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Bare Knuckle Boxing",
         "date": "2026-07-18",
@@ -240,16 +233,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v_0",
         "image": null
+      },
+      {
+        "name": "RJmrLA",
+        "date": "2026-08-15",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pv0p",
+        "image": null
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "Lord of the Rings: Fellowship of the Ring Concert",
-        "date": "2026-07-16",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZP",
-        "image": null
-      },
       {
         "name": "Lord of the Rings: Fellowship of the Ring Concert",
         "date": "2026-07-17",
@@ -291,16 +284,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-P-P",
         "image": "https://s1.ticketm.net/dbimages/21081a.jpg"
+      },
+      {
+        "name": "Los Parras",
+        "date": "2026-10-02",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-P-J",
+        "image": "https://s1.ticketm.net/dam/a/6a1/a9a781c8-d958-4578-8d18-367991ce86a1_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "The Spits",
-        "date": "2026-07-16",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/the-spits-los-angeles-california-07-16-2026/event/0900647FF2451606",
-        "image": "https://s1.ticketm.net/dam/e/bed/7a7ae007-5077-491a-9ba0-9e0e4bfcfbed_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Futurebirds - Far Out Country Tour",
         "date": "2026-07-17",
@@ -349,6 +342,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/old-97s-los-angeles-california-08-07-2026/event/09006459E176D674",
         "image": "https://s1.ticketm.net/dam/e/beb/18330ace-aa3e-4ccf-9462-84beff62abeb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Driveways",
+        "date": "2026-08-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/driveways-los-angeles-california-08-08-2026/event/0900646BA59191A6",
+        "image": "https://s1.ticketm.net/dam/e/564/aeb5915f-9d93-4069-ad81-75efce53b564_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -445,13 +445,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "CA7RIEL & Paco Amoroso: FREE SPIRITS WORLD TOUR",
-        "date": "2026-07-16",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/ca7riel-paco-amoroso-free-spirits-world-los-angeles-california-07-16-2026/event/09006475293F370C",
-        "image": "https://s1.ticketm.net/dam/a/d70/4ae8fa11-7f13-4554-affb-3e5aba487d70_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Sam Barber w/ John Vincent III",
         "date": "2026-07-18",
         "time": "19:00:00",
@@ -499,6 +492,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-6A3",
         "image": "https://s1.ticketm.net/dam/a/e7d/738525d2-ccae-4f05-a1d9-b741dc461e7d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Death Cab for Cutie: I Built You A Tower World Tour",
+        "date": "2026-08-02",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-los-angeles-california-08-02-2026/event/09006435E6A2D26C",
+        "image": "https://s1.ticketm.net/dam/a/196/66141022-87d0-41b3-bce7-195e7a016196_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -828,27 +828,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Adam Ray, Esther Povitsky, Morgan Jay, Dan Mintz, Brian Monarch, Julia Jasunas and more TBA",
-        "date": "2026-07-16",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192074",
-        "image": "https://s1.ticketm.net/dam/a/8d6/a01d8edf-195c-4361-b3ce-7836d62f08d6_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Cult Comedy ft. Sam Grody, Laurie Douglas, Zainab Johnson, Erik Rivera, Rell Battle, Greg Wilson, Jay Washington, Kristy Quinn!",
-        "date": "2026-07-16",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/cult-comedy-ft-sam-grody-hollywood-improv-the-lab-tickets/14783463",
-        "image": "https://s1.ticketm.net/dam/a/1cd/e39ab3d7-3aa0-47c2-a294-df00d7a9f1cd_766891_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Sasha Nezlobin: I'm Fine",
-        "date": "2026-07-16",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/sasha-nezlobin-im-fine-hollywood-improv-the-lab-tickets/14219914",
-        "image": "https://i.ticketweb.com/i/00/12/93/81/24_Edp.jpg?v=3"
-      },
-      {
         "name": "We Should Date LIVE ft. Michael Lenoci, Laurie Douglas, Wren Woods, Rachel Steinberg, Drea Renee",
         "date": "2026-07-17",
         "time": "19:00:00",
@@ -863,7 +842,7 @@
         "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Nate Craig ft. Amir K, Mike Bridenstine, Kimberly Clark, Willie Simon and more",
+        "name": "Nate Craig ft. Amir K, Mike Bridenstine, Kimberly Clark, Willie Simon, Biniam Bizuneh and more",
         "date": "2026-07-17",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/nate-craig-ft-amir-k-hollywood-improv-the-main-room-tickets/14940803",
@@ -891,7 +870,7 @@
         "image": "https://s1.ticketm.net/dam/a/6af/f2ef5814-a121-4b38-9eb3-5261dd9606af_1545521_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Orny Adams, Renee Percy, Jimmy Shin and more TBA",
+        "name": "Tonight at the Improv ft. Orny Adams, Craig Robinson, Charles Fleischer, Renee Percy, Jimmy Shin and more TBA",
         "date": "2026-07-19",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906903",
@@ -905,11 +884,11 @@
         "image": "https://s1.ticketm.net/dam/a/875/529fc6f3-4719-4895-9bab-1b5f67dd9875_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv!",
+        "name": "Tonight at the Improv ft. Craig Robinson, Donnell Rawlings, Sheng Wang, Mario Adrion, Bruce Gray and more TBA",
         "date": "2026-07-20",
         "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14238734",
-        "image": "https://i.ticketweb.com/i/00/12/95/48/24_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238734",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Mermaid Comedy Hour ft. Kari Assad, Valerie Tosi Irene Tu, Laura Kightlinger, Marlena Rodriguez, Natalie McGill, Allie Zisfein, Vanessa Dawn and more TBA",
@@ -926,6 +905,13 @@
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-07-21",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14973153",
+        "image": "https://i.ticketweb.com/i/00/12/97/87/64_Edp.jpg?v=1"
+      },
+      {
         "name": "Plant Mob ft. Todd Glass, Chris Estrada, Erica Rhodes, Brent Weinbach, Audrey Stewart, Aparna Nancherla, Kyle Tomlin and more TBA",
         "date": "2026-07-21",
         "time": "19:30:00",
@@ -938,6 +924,20 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219454",
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lab Work",
+        "date": "2026-07-22",
+        "time": "18:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14975063",
+        "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
+      },
+      {
+        "name": "New Joke Night ft. Kat Bird, Ray Lau, Kevin Sullivan, Kelly Ryan, Mike Falzone & JF Harris!",
+        "date": "2026-07-22",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/new-joke-night-ft-kat-hollywood-improv-the-lab-tickets/14239404",
+        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       }
     ]
   }
