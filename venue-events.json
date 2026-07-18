@@ -1,14 +1,7 @@
 {
-  "generated": "2026-07-17T16:26:41.241Z",
+  "generated": "2026-07-18T16:18:40.903Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Shrek Rave",
-        "date": "2026-07-17",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/shrek-rave-hollywood-california-07-17-2026/event/09006470BA03832E",
-        "image": "https://s1.ticketm.net/dam/a/032/92295cd8-69d8-4699-ada5-3f02fc494032_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Insomniac presents Jessica Audiffred (3-Hour Extended Set)",
         "date": "2026-07-18",
@@ -57,6 +50,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/nine-vicious-a-tour-hollywood-california-08-20-2026/event/09006487C2F1D2A3",
         "image": "https://s1.ticketm.net/dam/a/913/018f2011-a3b9-4ecb-a767-5fc1a0c0d913_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Maddix",
+        "date": "2026-08-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/maddix-hollywood-california-08-21-2026/event/09006452F92BBD18",
+        "image": "https://s1.ticketm.net/dam/a/0f1/905fa56f-04d2-4118-b2ff-79fc577c60f1_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [
@@ -128,13 +128,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Flashback: A 2010s EDM Tribute Party",
-        "date": "2026-07-17",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/flashback-a-2010s-edm-tribute-avalon-hollywood-tickets/14214884",
-        "image": "https://i.ticketweb.com/i/00/12/93/34/74_Edp.jpg?v=4"
-      },
-      {
         "name": "Markus Schulz (Open to Close)",
         "date": "2026-07-18",
         "time": "22:00:00",
@@ -168,6 +161,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/14226824",
         "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Luuk Van Djik vs Luke Alessi",
+        "date": "2026-08-01",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/luuk-van-djik-vs-luke-avalon-hollywood-tickets/14265524",
+        "image": "https://i.ticketweb.com/i/00/12/98/07/64_Edp.jpg?v=9"
       },
       {
         "name": "Boys Noize w/ 1tbsp + PILO",
@@ -245,13 +245,6 @@
     "Peacock Theater": [
       {
         "name": "Lord of the Rings: Fellowship of the Ring Concert",
-        "date": "2026-07-17",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZJ",
-        "image": null
-      },
-      {
-        "name": "Lord of the Rings: Fellowship of the Ring Concert",
         "date": "2026-07-18",
         "time": "13:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZI",
@@ -291,16 +284,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-P-J",
         "image": "https://s1.ticketm.net/dam/a/6a1/a9a781c8-d958-4578-8d18-367991ce86a1_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Los Horoscopos de Durango",
+        "date": "2026-10-09",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3FA",
+        "image": "https://s1.ticketm.net/dam/a/8fd/839e35cc-0616-4bba-8d8f-28da69d408fd_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Futurebirds - Far Out Country Tour",
-        "date": "2026-07-17",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/futurebirds-far-out-country-tour-los-angeles-california-07-17-2026/event/0900645BCC4C1CCC",
-        "image": "https://s1.ticketm.net/dam/a/415/e149f9fc-8fa8-40c0-bd47-0b3ff9f00415_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Vacation Manor",
         "date": "2026-07-18",
@@ -349,6 +342,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/driveways-los-angeles-california-08-08-2026/event/0900646BA59191A6",
         "image": "https://s1.ticketm.net/dam/e/564/aeb5915f-9d93-4069-ad81-75efce53b564_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "WILLIS",
+        "date": "2026-08-09",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/willis-los-angeles-california-08-09-2026/event/090064C8B1B09088",
+        "image": "https://s1.ticketm.net/dam/a/55b/b6f29c7a-8b36-4ff2-a2c0-c2016fd3f55b_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -788,7 +788,7 @@
         "date": "2026-07-20",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1988202476127",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189106438%2F2987014365277%2F1%2Foriginal.20260718-000901?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=93eef37ab55707ba00d5802fbff42653"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -828,28 +828,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "We Should Date LIVE ft. Michael Lenoci, Laurie Douglas, Wren Woods, Rachel Steinberg, Drea Renee",
-        "date": "2026-07-17",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/we-should-date-live-ft-hollywood-improv-the-lab-tickets/14919193",
-        "image": "https://i.ticketweb.com/i/00/13/51/48/63_Edp.jpg?v=3"
-      },
-      {
-        "name": "Tonight at the Improv ft. Morgan Jay, Esther Povitsky, Pete Lee, Billy Gardell, Amy Miller, Justine Marino and more TBA",
-        "date": "2026-07-17",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940703",
-        "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Nate Craig ft. Amir K, Mike Bridenstine, Kimberly Clark, Willie Simon, Biniam Bizuneh and more",
-        "date": "2026-07-17",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/nate-craig-ft-amir-k-hollywood-improv-the-main-room-tickets/14940803",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Jay Mohr, Loni Love, Orny Adams, Debra DiGiovanni, Amir K, Sarah Tiana, Nikki Bon and more TBA",
+        "name": "Tonight at the Improv ft. Jay Mohr, Loni Love, Orny Adams, Lara Beitz, Amir K, Sarah Tiana, Nikki Bon and more TBA",
         "date": "2026-07-18",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940753",
@@ -870,7 +849,7 @@
         "image": "https://s1.ticketm.net/dam/a/6af/f2ef5814-a121-4b38-9eb3-5261dd9606af_1545521_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Orny Adams, Craig Robinson, Charles Fleischer, Renee Percy, Jimmy Shin and more TBA",
+        "name": "Tonight at the Improv ft. Orny Adams, Craig Robinson, Charles Fleischer, J.F. Harris, Lucas Hirl, Renee Percy, and more TBA",
         "date": "2026-07-19",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906903",
@@ -912,11 +891,25 @@
         "image": "https://i.ticketweb.com/i/00/12/97/87/64_Edp.jpg?v=1"
       },
       {
+        "name": "Tonight at the Improv ft. Sarah Silverman, Anthony Jeselnik, Craig Robinson, Brian Monarch and very special guests",
+        "date": "2026-07-21",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973033",
+        "image": "https://s1.ticketm.net/dam/a/0fb/e3cfa95f-c1b5-4075-8362-1bcdcdb730fb_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Plant Mob ft. Todd Glass, Chris Estrada, Erica Rhodes, Brent Weinbach, Audrey Stewart, Aparna Nancherla, Kyle Tomlin and more TBA",
         "date": "2026-07-21",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/plant-mob-ft-todd-glass-hollywood-improv-the-lab-tickets/14964333",
         "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Craig Robinson, Mario Adrion, Uncle Lazer, Denny Love, Mark Hayes and more TBA",
+        "date": "2026-07-21",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238784",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -938,6 +931,13 @@
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/new-joke-night-ft-kat-hollywood-improv-the-lab-tickets/14239404",
         "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
+        "date": "2026-07-23",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14964783",
+        "image": "https://i.ticketweb.com/i/00/13/57/07/63_Edp.jpg?v=4"
       }
     ]
   }
