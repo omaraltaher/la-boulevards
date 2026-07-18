@@ -1,13 +1,6 @@
 {
-  "generated": "2026-07-17T15:29:18.594Z",
+  "generated": "2026-07-18T15:21:15.958Z",
   "events": [
-    {
-      "name": "K-POP Superstars",
-      "date": "2026-07-17",
-      "time": "16:15:00",
-      "url": "https://www.ticketmaster.com/kpop-superstars-los-angeles-california-07-17-2026/event/090064A4CF9547C4",
-      "image": null
-    },
     {
       "name": "BIG SAD 1900: LIVE IN CONCERT",
       "date": "2026-07-18",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/sierra-ferrell-heavy-petal-tour-los-angeles-california-08-05-2026/event/090064C3C25D2CAF",
       "image": "https://s1.ticketm.net/dam/a/a79/b1e9f605-2cf3-40e4-8c47-d2ee394d0a79_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Charles Wesley Godwin - Christian Name Tour",
+      "date": "2026-08-07",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/charles-wesley-godwin-christian-name-tour-los-angeles-california-08-07-2026/event/090064AEDF4C969E",
+      "image": "https://s1.ticketm.net/dam/a/b9a/21e3268e-901c-489a-8b5e-ce70d6a94b9a_RECOMENDATION_16_9.jpg"
     }
   ]
 }
