@@ -1,13 +1,6 @@
 {
-  "generated": "2026-07-18T15:21:15.958Z",
+  "generated": "2026-07-19T15:21:59.479Z",
   "events": [
-    {
-      "name": "BIG SAD 1900: LIVE IN CONCERT",
-      "date": "2026-07-18",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/big-sad-1900-live-in-concert-los-angeles-california-07-18-2026/event/090064B40645FBD0",
-      "image": "https://s1.ticketm.net/dam/a/d43/426ae5e3-5b4b-40ab-b36f-73b7b2324d43_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Trixie & Katya LIVE: Very Bald, Very Beautiful",
       "date": "2026-07-19",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/charles-wesley-godwin-christian-name-tour-los-angeles-california-08-07-2026/event/090064AEDF4C969E",
       "image": "https://s1.ticketm.net/dam/a/b9a/21e3268e-901c-489a-8b5e-ce70d6a94b9a_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Bikini Kill",
+      "date": "2026-09-09",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/bikini-kill-los-angeles-california-09-09-2026/event/09006436E85BAB04",
+      "image": "https://s1.ticketm.net/dam/a/cbf/c7ef837c-14fe-47e2-93e3-88a65d822cbf_RECOMENDATION_16_9.jpg"
     }
   ]
 }
