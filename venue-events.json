@@ -1,14 +1,7 @@
 {
-  "generated": "2026-07-18T16:18:40.903Z",
+  "generated": "2026-07-19T16:19:32.484Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Insomniac presents Jessica Audiffred (3-Hour Extended Set)",
-        "date": "2026-07-18",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/insomniac-presents-jessica-audiffred-3hour-extended-hollywood-california-07-18-2026/event/09006484A2E07E76",
-        "image": "https://s1.ticketm.net/dam/a/b07/c121737a-d10e-4081-9eea-3c146e27fb07_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Right After You Left hosted by Deon Cole - Vinyl Room @ the Palladium",
         "date": "2026-07-21",
@@ -57,6 +50,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/maddix-hollywood-california-08-21-2026/event/09006452F92BBD18",
         "image": "https://s1.ticketm.net/dam/a/0f1/905fa56f-04d2-4118-b2ff-79fc577c60f1_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Goldfinger w/ The Vandals, The Suicide Machines, Pulley & Sullvn",
+        "date": "2026-08-22",
+        "time": "17:30:00",
+        "url": "https://www.ticketmaster.com/goldfinger-w-the-vandals-the-suicide-hollywood-california-08-22-2026/event/0900643EDCF7E666",
+        "image": "https://s1.ticketm.net/dam/a/c6c/503859cd-6d84-4b64-944d-a0af768abc6c_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [
@@ -128,13 +128,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Markus Schulz (Open to Close)",
-        "date": "2026-07-18",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/markus-schulz-open-to-close-avalon-hollywood-tickets/14886543",
-        "image": "https://s1.ticketm.net/dam/a/44d/22f6a5c9-c2d2-46f9-9d3f-4ec8e3b3844d_89601_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "WORLD CUP FINAL WATCH PARTY",
         "date": "2026-07-19",
         "time": "11:00:00",
@@ -182,16 +175,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14250754",
         "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Audiofreq, Codeblack, Toneshifterz",
+        "date": "2026-08-14",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/audiofreq-codeblack-toneshifterz-avalon-hollywood-tickets/14908103",
+        "image": "https://i.ticketweb.com/i/00/13/50/38/83_Edp.jpg?v=7"
       }
     ],
     "The Novo": [
-      {
-        "name": "Bare Knuckle Boxing",
-        "date": "2026-07-18",
-        "time": "17:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tub",
-        "image": null
-      },
       {
         "name": "El Malilla",
         "date": "2026-07-25",
@@ -240,16 +233,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pv0p",
         "image": null
+      },
+      {
+        "name": "Hulvey",
+        "date": "2026-08-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xF0t",
+        "image": "https://s1.ticketm.net/dam/a/d4e/a49ecab3-089d-46ff-baa5-7942c994ed4e_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "Lord of the Rings: Fellowship of the Ring Concert",
-        "date": "2026-07-18",
-        "time": "13:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYZI",
-        "image": null
-      },
       {
         "name": "Bini",
         "date": "2026-08-05",
@@ -291,16 +284,23 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3FA",
         "image": "https://s1.ticketm.net/dam/a/8fd/839e35cc-0616-4bba-8d8f-28da69d408fd_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Elefante",
+        "date": "2026-10-10",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-P-E",
+        "image": "https://s1.ticketm.net/dam/a/bf1/065f696c-1669-42c6-a4cd-2841556cbbf1_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Metaphor",
+        "date": "2026-10-13",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-P-I",
+        "image": null
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Vacation Manor",
-        "date": "2026-07-18",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/vacation-manor-los-angeles-california-07-18-2026/event/09006482DB38D1C8",
-        "image": "https://s1.ticketm.net/dam/e/cf7/d95a56d2-149f-43e7-a1e7-2b24bcd7bcf7_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Enola Bedard - North America Tour 2026",
         "date": "2026-07-31",
@@ -445,13 +445,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Sam Barber w/ John Vincent III",
-        "date": "2026-07-18",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPE",
-        "image": "https://s1.ticketm.net/dam/a/214/942ca935-f039-47f1-ab3a-17e1db98c214_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Rainbow Kitten Surprise: bones North American Tour",
         "date": "2026-07-21",
         "time": "20:00:00",
@@ -498,6 +491,13 @@
         "date": "2026-08-02",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-los-angeles-california-08-02-2026/event/09006435E6A2D26C",
+        "image": "https://s1.ticketm.net/dam/a/196/66141022-87d0-41b3-bce7-195e7a016196_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Death Cab for Cutie: I Built You A Tower World Tour",
+        "date": "2026-08-03",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-los-angeles-california-08-03-2026/event/09006435E927D7B0",
         "image": "https://s1.ticketm.net/dam/a/196/66141022-87d0-41b3-bce7-195e7a016196_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -708,13 +708,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Cult Classics Cinema Presents BLACK PANTHER",
-        "date": "2026-07-18",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-black-panther-inglewood-california-07-18-2026/event/0B00648AD0B26304",
-        "image": "https://s1.ticketm.net/dam/e/c99/5c85fc8d-8b44-48ec-bc15-6397d9d37c99_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
         "date": "2026-08-16",
         "time": "19:30:00",
@@ -828,27 +821,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Jay Mohr, Loni Love, Orny Adams, Lara Beitz, Amir K, Sarah Tiana, Nikki Bon and more TBA",
-        "date": "2026-07-18",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940753",
-        "image": "https://s1.ticketm.net/dam/a/0e0/302dfcfc-dae9-4946-a474-1a219c8ae0e0_357091_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Lachlan Patterson, J.F. Harris, Jackson Banks, Danielle Perez, Liz Blanc, Torio Van Grol, Gena B Jones, and More TBA!",
-        "date": "2026-07-18",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14975823",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Drew Lynch, Craig Conant, Zainab Johnson, Michael Blaustein, Erik Griffin, Kirk Fox, Jeanne Whitney and more TBA",
-        "date": "2026-07-18",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940723",
-        "image": "https://s1.ticketm.net/dam/a/6af/f2ef5814-a121-4b38-9eb3-5261dd9606af_1545521_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Orny Adams, Craig Robinson, Charles Fleischer, J.F. Harris, Lucas Hirl, Renee Percy, and more TBA",
         "date": "2026-07-19",
         "time": "19:00:00",
@@ -877,7 +849,7 @@
         "image": "https://i.ticketweb.com/i/00/13/42/71/23_Edp.jpg?v=6"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Delo Brown, Nathan Hurd, JJ Williamson, Domonique",
         "date": "2026-07-20",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976253",
@@ -926,6 +898,13 @@
         "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
       },
       {
+        "name": "Tonight at the Improv ft. Kira Soltanovich, Jay Larson, Erik Griffin, Julia Hladkowicz and more TBA",
+        "date": "2026-07-22",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238744",
+        "image": "https://s1.ticketm.net/dam/a/fbb/7853c312-b1e5-4089-a2cc-1f416774ffbb_1596161_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "New Joke Night ft. Kat Bird, Ray Lau, Kevin Sullivan, Kelly Ryan, Mike Falzone & JF Harris!",
         "date": "2026-07-22",
         "time": "20:30:00",
@@ -933,11 +912,25 @@
         "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv ft. Anjelah Johnson, Howie Mandel, Trevor Wallace, Jiaoying Summers, Brian Monarch and VERY special guests",
+        "date": "2026-07-23",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192084",
+        "image": "https://s1.ticketm.net/dam/a/eaa/531e9afe-8eb9-402c-9621-d5402ea93eaa_1620821_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
         "date": "2026-07-23",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14964783",
         "image": "https://i.ticketweb.com/i/00/13/57/07/63_Edp.jpg?v=4"
+      },
+      {
+        "name": "LA vs Transplants ft. Kayla Hardy, Amber Easton, Erica Rhodes, Ben Rixen, Anoushka Rava, Hannah Killian, Ricky Hollywood, Christie Bahna, Steven Marcus Releford and more TBA",
+        "date": "2026-07-23",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-kayla-hollywood-improv-the-lab-tickets/14210594",
+        "image": "https://i.ticketweb.com/i/00/12/92/92/04_Edp.jpg?v=5"
       }
     ]
   }
