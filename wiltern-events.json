@@ -1,13 +1,6 @@
 {
-  "generated": "2026-07-19T15:21:59.479Z",
+  "generated": "2026-07-20T15:37:18.126Z",
   "events": [
-    {
-      "name": "Trixie & Katya LIVE: Very Bald, Very Beautiful",
-      "date": "2026-07-19",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/trixie-katya-live-very-bald-very-los-angeles-california-07-19-2026/event/0900643250457355",
-      "image": "https://s1.ticketm.net/dam/a/605/597a47d9-bb58-4c9b-9341-81af1d4cd605_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "The Marvelous Miss Gender starring BOSCO",
       "date": "2026-07-30",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/bikini-kill-los-angeles-california-09-09-2026/event/09006436E85BAB04",
       "image": "https://s1.ticketm.net/dam/a/cbf/c7ef837c-14fe-47e2-93e3-88a65d822cbf_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "W.A.S.P. - 1984 TO HEADLESS",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/wasp-1984-to-headless-los-angeles-california-09-11-2026/event/090064441145CD5F",
+      "image": "https://s1.ticketm.net/dam/a/4a2/f044bd80-ab67-4319-ad3a-3a94631394a2_RECOMENDATION_16_9.jpg"
     }
   ]
 }
