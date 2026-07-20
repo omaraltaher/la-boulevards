@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T16:19:32.484Z",
+  "generated": "2026-07-20T16:30:43.554Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -128,13 +128,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "WORLD CUP FINAL WATCH PARTY",
-        "date": "2026-07-19",
-        "time": "11:00:00",
-        "url": "https://www.ticketweb.com/event/world-cup-final-watch-party-avalon-hollywood-tickets/14253934",
-        "image": "https://i.ticketweb.com/i/00/12/96/98/84_Edp.jpg?v=8"
-      },
-      {
         "name": "  Black V Neck , Dillon Nathaniel",
         "date": "2026-07-24",
         "time": "22:00:00",
@@ -182,6 +175,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/audiofreq-codeblack-toneshifterz-avalon-hollywood-tickets/14908103",
         "image": "https://i.ticketweb.com/i/00/13/50/38/83_Edp.jpg?v=7"
+      },
+      {
+        "name": "Ferry Corsten",
+        "date": "2026-08-15",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/ferry-corsten-avalon-hollywood-tickets/14932913",
+        "image": "https://s1.ticketm.net/dam/a/e38/d64bfcd9-fa5b-4fcd-a710-ec9b11f4ee38_239391_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -763,25 +763,18 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-07-19",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1988135767600",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-07-19",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1988135844831",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
         "name": "Monday All-Star Comedy 8:00PM",
         "date": "2026-07-20",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1988202476127",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189106438%2F2987014365277%2F1%2Foriginal.20260718-000901?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=93eef37ab55707ba00d5802fbff42653"
+      },
+      {
+        "name": "Wednesday All-Star Comedy 7:30 PM",
+        "date": "2026-07-22",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1988206738877",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158481%2F2986607467794%2F1%2Foriginal.20251217-203109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4cba2f2a43f0d170f10c5098e1a4b04b"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -796,6 +789,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1988136013335",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-07-27",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1988202508223",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -820,20 +820,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Orny Adams, Craig Robinson, Charles Fleischer, J.F. Harris, Lucas Hirl, Renee Percy, and more TBA",
-        "date": "2026-07-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906903",
-        "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Funny Mill ft. Eddie Pepitone, Willie Macc, Rishi Arya, Zeo Niu, Brian Wiora, Jessica Damouni, Eric Fuerstein",
-        "date": "2026-07-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/funny-mill-ft-eddie-pepitone-hollywood-improv-the-lab-tickets/14210584",
-        "image": "https://s1.ticketm.net/dam/a/875/529fc6f3-4719-4895-9bab-1b5f67dd9875_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Tonight at the Improv ft. Craig Robinson, Donnell Rawlings, Sheng Wang, Mario Adrion, Bruce Gray and more TBA",
         "date": "2026-07-20",
@@ -931,6 +917,20 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-kayla-hollywood-improv-the-lab-tickets/14210594",
         "image": "https://i.ticketweb.com/i/00/12/92/92/04_Edp.jpg?v=5"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-07-24",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940733",
+        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
+      },
+      {
+        "name": "Hardy Party ft. Shannon Hardy, Langston Kerman, Pink Foxx, Jed Levison, Ian Michael, Laurina Sachetti, Cesilia, and Flasch",
+        "date": "2026-07-24",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/hardy-party-ft-shannon-hardy-hollywood-improv-the-lab-tickets/14918583",
+        "image": "https://s1.ticketm.net/dam/a/e44/4bc29e77-29c3-4612-8a07-940b7c870e44_RECOMENDATION_16_9.jpg"
       }
     ]
   }
