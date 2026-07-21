@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20T16:30:43.554Z",
+  "generated": "2026-07-21T16:30:39.846Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -763,18 +763,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-07-20",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1988202476127",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189106438%2F2987014365277%2F1%2Foriginal.20260718-000901?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=93eef37ab55707ba00d5802fbff42653"
-      },
-      {
         "name": "Wednesday All-Star Comedy 7:30 PM",
         "date": "2026-07-22",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1988206738877",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158481%2F2986607467794%2F1%2Foriginal.20251217-203109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4cba2f2a43f0d170f10c5098e1a4b04b"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189265257%2F2987014365277%2F1%2Foriginal.20260720-235858?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0f50b020034252af8aa822b5ee9faa1f"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -796,6 +789,13 @@
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1988202508223",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
+      },
+      {
+        "name": "Sydney Castillo: Full Cup No Filter 7:30 PM",
+        "date": "2026-07-29",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/sydney-castillo-full-cup-no-filter-730-pm-tickets-1988206975585",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187941170%2F2987014365277%2F1%2Foriginal.20260630-180731?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cf79906fe3975226e6e951c89e00069a"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -821,49 +821,21 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Donnell Rawlings, Sheng Wang, Mario Adrion, Bruce Gray and more TBA",
-        "date": "2026-07-20",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238734",
-        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Mermaid Comedy Hour ft. Kari Assad, Valerie Tosi Irene Tu, Laura Kightlinger, Marlena Rodriguez, Natalie McGill, Allie Zisfein, Vanessa Dawn and more TBA",
-        "date": "2026-07-20",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/mermaid-comedy-hour-ft-kari-hollywood-improv-the-lab-tickets/14827013",
-        "image": "https://i.ticketweb.com/i/00/13/42/71/23_Edp.jpg?v=6"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Delo Brown, Nathan Hurd, JJ Williamson, Domonique",
-        "date": "2026-07-20",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976253",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-07-21",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14973153",
-        "image": "https://i.ticketweb.com/i/00/12/97/87/64_Edp.jpg?v=1"
-      },
-      {
-        "name": "Tonight at the Improv ft. Sarah Silverman, Anthony Jeselnik, Craig Robinson, Brian Monarch and very special guests",
+        "name": "Tonight at the Improv ft. Sarah Silverman, Anthony Jeselnik, Craig Robinson, George Wallace, Brian Monarch, Jen Murphy and very special guests",
         "date": "2026-07-21",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973033",
         "image": "https://s1.ticketm.net/dam/a/0fb/e3cfa95f-c1b5-4075-8362-1bcdcdb730fb_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Plant Mob ft. Todd Glass, Chris Estrada, Erica Rhodes, Brent Weinbach, Audrey Stewart, Aparna Nancherla, Kyle Tomlin and more TBA",
+        "name": "Plant Mob ft. Todd Glass, Chris Estrada, Erica Rhodes, Brent Weinbach, Logan Guntzelman, Aparna Nancherla, Kyle Tomlin and more TBA",
         "date": "2026-07-21",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/plant-mob-ft-todd-glass-hollywood-improv-the-lab-tickets/14964333",
         "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Craig Robinson, Mario Adrion, Uncle Lazer, Denny Love, Mark Hayes and more TBA",
+        "name": "Tonight at the Improv ft. Craig Robinson, Donnell Rawlings, Mario Adrion, Zainab Johnson, Uncle Lazer, Denny Love, Mark Hayes and more TBA",
         "date": "2026-07-21",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238784",
@@ -884,11 +856,11 @@
         "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Kira Soltanovich, Jay Larson, Erik Griffin, Julia Hladkowicz and more TBA",
+        "name": "Tonight at the Improv ft. Sebastian Maniscalco, Pete Holmes, Kira Soltanovich, Jay Larson, Erik Griffin, Julia Hladkowicz and more TBA",
         "date": "2026-07-22",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238744",
-        "image": "https://s1.ticketm.net/dam/a/fbb/7853c312-b1e5-4089-a2cc-1f416774ffbb_1596161_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/29b/8c605a75-a663-42a6-9e7f-4ce814d6c29b_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "New Joke Night ft. Kat Bird, Ray Lau, Kevin Sullivan, Kelly Ryan, Mike Falzone & JF Harris!",
@@ -931,6 +903,34 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/hardy-party-ft-shannon-hardy-hollywood-improv-the-lab-tickets/14918583",
         "image": "https://s1.ticketm.net/dam/a/e44/4bc29e77-29c3-4612-8a07-940b7c870e44_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv! ft. Gary Cannon, Jessimae Peluso, Trevor Wallace, Jeremiah Watkins, Mark Smalls, and more TBA!",
+        "date": "2026-07-24",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940823",
+        "image": "https://i.ticketweb.com/i/00/13/53/61/33_Edp.jpg?v=5"
+      },
+      {
+        "name": "G Thang & friends Birthday Show",
+        "date": "2026-07-24",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/g-thang-friends-birthday-hollywood-improv-the-lab-tickets/14964343",
+        "image": "https://i.ticketweb.com/i/00/13/57/02/23_Edp.jpg?v=4"
+      },
+      {
+        "name": "Celebration of Life: Kitty Bruce",
+        "date": "2026-07-25",
+        "time": "15:00:00",
+        "url": "https://www.ticketweb.com/event/celebration-of-life-kitty-bruce-hollywood-improv-the-main-room-tickets/14237044",
+        "image": "https://i.ticketweb.com/i/00/12/95/34/54_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv ft. Esther Povitsky, Amir K, George Wallace, Orny Adams, Jay Washington, and more TBA!",
+        "date": "2026-07-25",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940763",
+        "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
       }
     ]
   }
