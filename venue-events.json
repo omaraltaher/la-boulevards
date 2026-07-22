@@ -1,14 +1,7 @@
 {
-  "generated": "2026-07-21T16:30:39.846Z",
+  "generated": "2026-07-22T16:30:43.243Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Right After You Left hosted by Deon Cole - Vinyl Room @ the Palladium",
-        "date": "2026-07-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/right-after-you-left-hosted-by-hollywood-california-07-21-2026/event/090064EFB27AA450",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "TOTALLY TUBULAR FESTIVAL",
         "date": "2026-07-24",
@@ -57,6 +50,13 @@
         "time": "17:30:00",
         "url": "https://www.ticketmaster.com/goldfinger-w-the-vandals-the-suicide-hollywood-california-08-22-2026/event/0900643EDCF7E666",
         "image": "https://s1.ticketm.net/dam/a/c6c/503859cd-6d84-4b64-944d-a0af768abc6c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "OLIVER TREE - LOVE YOU MADLY, HATE YOU BADLY WORLD'S FIRST WORLD TOUR",
+        "date": "2026-08-23",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/oliver-tree-love-you-madly-hate-hollywood-california-08-23-2026/event/0900649EEF1A4F6B",
+        "image": "https://s1.ticketm.net/dam/a/440/3c42cdde-9882-42e6-9cef-ea74d4981440_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [
@@ -445,13 +445,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Rainbow Kitten Surprise: bones North American Tour",
-        "date": "2026-07-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/rainbow-kitten-surprise-bones-north-american-los-angeles-california-07-21-2026/event/09006356A34F4BFA",
-        "image": "https://s1.ticketm.net/dam/a/d21/3a6ec95b-3c8f-4751-a565-4165cf27fd21_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Howard Jones: Things Can Only Get Better Tour",
         "date": "2026-07-23",
         "time": "18:30:00",
@@ -499,6 +492,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-los-angeles-california-08-03-2026/event/09006435E927D7B0",
         "image": "https://s1.ticketm.net/dam/a/196/66141022-87d0-41b3-bce7-195e7a016196_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sarah McLachlan - Better Broken Tour",
+        "date": "2026-08-04",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/sarah-mclachlan-better-broken-tour-los-angeles-california-08-04-2026/event/09006445CDD8A699",
+        "image": "https://s1.ticketm.net/dam/a/8c6/c060f43f-339f-48e4-a045-bd6b0d75c8c6_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -767,7 +767,7 @@
         "date": "2026-07-22",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1988206738877",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189265257%2F2987014365277%2F1%2Foriginal.20260720-235858?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0f50b020034252af8aa822b5ee9faa1f"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189351372%2F2987014365277%2F1%2Foriginal.20260721-223551?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=896fd5a555c3d3529eab1ee5840b37be"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -821,34 +821,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Sarah Silverman, Anthony Jeselnik, Craig Robinson, George Wallace, Brian Monarch, Jen Murphy and very special guests",
-        "date": "2026-07-21",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14973033",
-        "image": "https://s1.ticketm.net/dam/a/0fb/e3cfa95f-c1b5-4075-8362-1bcdcdb730fb_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Plant Mob ft. Todd Glass, Chris Estrada, Erica Rhodes, Brent Weinbach, Logan Guntzelman, Aparna Nancherla, Kyle Tomlin and more TBA",
-        "date": "2026-07-21",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/plant-mob-ft-todd-glass-hollywood-improv-the-lab-tickets/14964333",
-        "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Craig Robinson, Donnell Rawlings, Mario Adrion, Zainab Johnson, Uncle Lazer, Denny Love, Mark Hayes and more TBA",
-        "date": "2026-07-21",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238784",
-        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-07-21",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14219454",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lab Work",
         "date": "2026-07-22",
         "time": "18:15:00",
@@ -856,7 +828,7 @@
         "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Sebastian Maniscalco, Pete Holmes, Kira Soltanovich, Jay Larson, Erik Griffin, Julia Hladkowicz and more TBA",
+        "name": "Tonight at the Improv ft. Sebastian Maniscalco, Pete Holmes, Kira Soltanovich, Jay Larson, Erik Griffin, Shang, Julia Hladkowicz and more TBA",
         "date": "2026-07-22",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238744",
@@ -877,11 +849,11 @@
         "image": "https://s1.ticketm.net/dam/a/eaa/531e9afe-8eb9-402c-9621-d5402ea93eaa_1620821_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
+        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar, Gabby Lamb, Jaye Sarye, Char Star, Paige Bryan",
         "date": "2026-07-23",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14964783",
-        "image": "https://i.ticketweb.com/i/00/13/57/07/63_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/57/07/63_Edp.jpg?v=5"
       },
       {
         "name": "LA vs Transplants ft. Kayla Hardy, Amber Easton, Erica Rhodes, Ben Rixen, Anoushka Rava, Hannah Killian, Ricky Hollywood, Christie Bahna, Steven Marcus Releford and more TBA",
@@ -891,11 +863,11 @@
         "image": "https://i.ticketweb.com/i/00/12/92/92/04_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. George Wallace, Sheng Wang, Adam Ferrara, Gary Cannon and more TBA",
         "date": "2026-07-24",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940733",
-        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940733",
+        "image": "https://s1.ticketm.net/dam/a/38c/18afb66d-2ede-44cb-a4e5-3fae6089a38c_1021561_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Hardy Party ft. Shannon Hardy, Langston Kerman, Pink Foxx, Jed Levison, Ian Michael, Laurina Sachetti, Cesilia, and Flasch",
@@ -905,11 +877,11 @@
         "image": "https://s1.ticketm.net/dam/a/e44/4bc29e77-29c3-4612-8a07-940b7c870e44_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv! ft. Gary Cannon, Jessimae Peluso, Trevor Wallace, Jeremiah Watkins, Mark Smalls, and more TBA!",
+        "name": "Tonight at the Improv ft. Jessimae Peluso, Trevor Wallace, Jeremiah Watkins, Mark Smalls, Will Burkart, Gary Cannon and more TBA",
         "date": "2026-07-24",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940823",
-        "image": "https://i.ticketweb.com/i/00/13/53/61/33_Edp.jpg?v=5"
+        "image": "https://s1.ticketm.net/dam/a/99a/a2ee0b1f-ec0d-43a8-a652-18e9b567d99a_1483431_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "G Thang & friends Birthday Show",
@@ -926,11 +898,39 @@
         "image": "https://i.ticketweb.com/i/00/12/95/34/54_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Esther Povitsky, Amir K, George Wallace, Orny Adams, Jay Washington, and more TBA!",
+        "name": "Tonight at the Improv ft. Esther Povitsky, Amir K, George Wallace, Orny Adams, Alex Edelman, Lara Beitz, Jay Washington, and more TBA",
         "date": "2026-07-25",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940763",
         "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab ft. Nick Smith, Ketra Long, Opey Olagbaju, Kelly Ryan, Cid Williams and more TBA",
+        "date": "2026-07-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14198814",
+        "image": "https://i.ticketweb.com/i/00/12/91/56/84_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv ft. Chris Estrada, Sara Weinshenk, Rick Ingraham, Mike Estime, J Chris Newberg, Brent Weinbach, Kelly Ryan and more TBA",
+        "date": "2026-07-25",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940783",
+        "image": "https://s1.ticketm.net/dam/a/b39/78c80946-96f4-4215-bc8d-99c506cf9b39_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ego Death ft. Lauren Michaels, Nathan Hurd, LaFontaine Oliver, Andrea Abbate, Elyssa Phillips, Legindary Dre, Brandon Beaderstadt and more TBA",
+        "date": "2026-07-25",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/ego-death-ft-lauren-michaels-hollywood-improv-the-lab-tickets/14918983",
+        "image": "https://i.ticketweb.com/i/00/13/51/46/23_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Aida Rodriguez, Katherine Blanford, Irene Tu, Fumi Abe, James Davis, Saul Trujillo and more TBA",
+        "date": "2026-07-26",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14250434",
+        "image": "https://s1.ticketm.net/dam/a/15b/8aa47481-de5f-4fd9-97fa-95b0fd18515b_RECOMENDATION_16_9.jpg"
       }
     ]
   }
