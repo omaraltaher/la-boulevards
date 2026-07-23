@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T16:30:43.243Z",
+  "generated": "2026-07-23T16:31:51.583Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -139,7 +139,7 @@
         "date": "2026-07-25",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/darude-avalon-hollywood-tickets/14895463",
-        "image": "https://i.ticketweb.com/i/00/13/49/11/03_Edp.jpg?v=9"
+        "image": "https://i.ticketweb.com/i/00/13/49/11/03_Edp.jpg?v=10"
       },
       {
         "name": "Gasolina",
@@ -763,13 +763,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Wednesday All-Star Comedy 7:30 PM",
-        "date": "2026-07-22",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1988206738877",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189351372%2F2987014365277%2F1%2Foriginal.20260721-223551?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=896fd5a555c3d3529eab1ee5840b37be"
-      },
-      {
         "name": "Chocolate Sundaes 7:00PM",
         "date": "2026-07-26",
         "time": "19:00",
@@ -798,6 +791,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187941170%2F2987014365277%2F1%2Foriginal.20260630-180731?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cf79906fe3975226e6e951c89e00069a"
       },
       {
+        "name": "Wednesday All-Star Comedy 9:45PM",
+        "date": "2026-07-29",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-945pm-tickets-1988209248383",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158481%2F2986607467794%2F1%2Foriginal.20251217-203109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4cba2f2a43f0d170f10c5098e1a4b04b"
+      },
+      {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-08-11",
         "time": "19:45",
@@ -821,27 +821,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-07-22",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14975063",
-        "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Sebastian Maniscalco, Pete Holmes, Kira Soltanovich, Jay Larson, Erik Griffin, Shang, Julia Hladkowicz and more TBA",
-        "date": "2026-07-22",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14238744",
-        "image": "https://s1.ticketm.net/dam/a/29b/8c605a75-a663-42a6-9e7f-4ce814d6c29b_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "New Joke Night ft. Kat Bird, Ray Lau, Kevin Sullivan, Kelly Ryan, Mike Falzone & JF Harris!",
-        "date": "2026-07-22",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/new-joke-night-ft-kat-hollywood-improv-the-lab-tickets/14239404",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Anjelah Johnson, Howie Mandel, Trevor Wallace, Jiaoying Summers, Brian Monarch and VERY special guests",
         "date": "2026-07-23",
         "time": "19:30:00",
@@ -863,7 +842,7 @@
         "image": "https://i.ticketweb.com/i/00/12/92/92/04_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. George Wallace, Sheng Wang, Adam Ferrara, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. George Wallace, Sheng Wang, Charles Fleischer, Adam Ferrara, Gary Cannon and more TBA",
         "date": "2026-07-24",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940733",
@@ -931,6 +910,27 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14250434",
         "image": "https://s1.ticketm.net/dam/a/15b/8aa47481-de5f-4fd9-97fa-95b0fd18515b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Never Ending Comedy ft. Zara Mizrahi, Peter Murphy, Devyn Perry, Greg Hoffman, Avry Ross, Ike Gazaryan, Macey Isaacs, Joe Mezeraani, Courtney Byrd",
+        "date": "2026-07-26",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/never-ending-comedy-ft-zara-hollywood-improv-the-lab-tickets/14873333",
+        "image": "https://i.ticketweb.com/i/00/13/47/17/23_Edp.jpg?v=6"
+      },
+      {
+        "name": "Better Late Than Never ft. Jeremy Christian, Brandon Broady, Charlie Wilson, Mitch Marchand and more TBA!",
+        "date": "2026-07-26",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/better-late-than-never-ft-hollywood-improv-the-lab-tickets/14970913",
+        "image": "https://i.ticketweb.com/i/00/13/57/64/83_Edp.jpg?v=4"
+      },
+      {
+        "name": "Legends ft. Jay Leno, Darrell Hammond, Jay Mohr, Billy Gardell, Greg Baldwin, Chaunte Wayans",
+        "date": "2026-07-27",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-darrell-hollywood-improv-the-main-room-tickets/14236694",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
       }
     ]
   }
