@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T16:31:51.583Z",
+  "generated": "2026-07-24T16:32:35.075Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -8,6 +8,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/totally-tubular-festival-hollywood-california-07-24-2026/event/0900648EBB53A004",
         "image": "https://s1.ticketm.net/dam/a/b99/973af7d5-cf5e-4e7e-93a1-f91c21e34b99_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Morgan Jay - \"Right After You Left\" - The Vinyl Room @ the Palladium",
+        "date": "2026-07-28",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/morgan-jay-right-after-you-left-hollywood-california-07-28-2026/event/090064F7EA531107",
+        "image": "https://s1.ticketm.net/dam/a/f40/eaa8048c-575c-4719-8681-7bf4a9fdef40_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Labrinth: The Undoing Tour - Presented by the cosmic opera",
@@ -50,13 +57,6 @@
         "time": "17:30:00",
         "url": "https://www.ticketmaster.com/goldfinger-w-the-vandals-the-suicide-hollywood-california-08-22-2026/event/0900643EDCF7E666",
         "image": "https://s1.ticketm.net/dam/a/c6c/503859cd-6d84-4b64-944d-a0af768abc6c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "OLIVER TREE - LOVE YOU MADLY, HATE YOU BADLY WORLD'S FIRST WORLD TOUR",
-        "date": "2026-08-23",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/oliver-tree-love-you-madly-hate-hollywood-california-08-23-2026/event/0900649EEF1A4F6B",
-        "image": "https://s1.ticketm.net/dam/a/440/3c42cdde-9882-42e6-9cef-ea74d4981440_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [
@@ -344,11 +344,18 @@
         "image": "https://s1.ticketm.net/dam/e/564/aeb5915f-9d93-4069-ad81-75efce53b564_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "WILLIS",
-        "date": "2026-08-09",
+        "name": "JAYO - The Anti-Depressants Tour 2026",
+        "date": "2026-08-13",
         "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/willis-los-angeles-california-08-09-2026/event/090064C8B1B09088",
-        "image": "https://s1.ticketm.net/dam/a/55b/b6f29c7a-8b36-4ff2-a2c0-c2016fd3f55b_RECOMENDATION_16_9.jpg"
+        "url": "https://www.ticketmaster.com/jayo-the-antidepressants-tour-2026-los-angeles-california-08-13-2026/event/090064DD9EA179B5",
+        "image": "https://s1.ticketm.net/dam/e/2ac/6d12c9d4-a796-468b-8483-bdc2b51122ac_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Iwrotehaikusaboutcannibalisminyouryearbook",
+        "date": "2026-08-14",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/iwrotehaikusaboutcannibalisminyouryearbook-los-angeles-california-08-14-2026/event/090064DD9AB0713F",
+        "image": "https://s1.ticketm.net/dam/e/c9f/7cb4b5a8-ab1e-4114-a8f4-c969fb46dc9f_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -374,7 +381,50 @@
         "image": "https://s1.ticketm.net/dam/a/71a/a73afb87-2be1-4938-8af0-6df9bd9e271a_RECOMENDATION_16_9.jpg"
       }
     ],
-    "Kirk Douglas Theatre": [],
+    "Kirk Douglas Theatre": [
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-09-12",
+        "time": "11:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUuS",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-09-13",
+        "time": "13:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUug",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-09-15",
+        "time": "11:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUuM",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-09-16",
+        "time": "11:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUuz",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-09-18",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUuy",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-09-19",
+        "time": "11:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUCk",
+        "image": null
+      }
+    ],
     "Shrine Auditorium": [
       {
         "name": "Shreya Ghoshal",
@@ -397,13 +447,6 @@
         "date": "2026-07-23",
         "time": null,
         "url": "https://www.ticketmaster.com/widespread-panic-3day-ticket-los-angeles-california-07-23-2026/event/0900646CA6B39282",
-        "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Widespread Panic",
-        "date": "2026-07-23",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/widespread-panic-los-angeles-california-07-23-2026/event/0900646CA671921A",
         "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RECOMENDATION_16_9.jpg"
       },
       {
@@ -440,17 +483,17 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/altin-gun-north-america-tour-2026-los-angeles-california-09-12-2026/event/09006458C8DD4554",
         "image": "https://s1.ticketm.net/dam/a/284/47169d0a-b34f-420c-bbf3-170c8edfe284_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "EDITH MÁRQUEZ - ETERNA E INOLVIDABLE ",
+        "date": "2026-09-17",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/edith-marquez-eterna-e-inolvidable-los-angeles-california-09-17-2026/event/090064B5D7342EDF",
+        "image": "https://s1.ticketm.net/dam/a/27b/070a6696-cf09-4ca2-ad25-b8671edfd27b_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
-      {
-        "name": "Howard Jones: Things Can Only Get Better Tour",
-        "date": "2026-07-23",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/howard-jones-things-can-only-get-los-angeles-california-07-23-2026/event/0900648210AC8311",
-        "image": "https://s1.ticketm.net/dam/a/394/9cb95ff8-e10f-4211-88e5-8e1ae0973394_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Treaty Oak Revival",
         "date": "2026-07-24",
@@ -498,6 +541,13 @@
         "date": "2026-08-04",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/sarah-mclachlan-better-broken-tour-los-angeles-california-08-04-2026/event/09006445CDD8A699",
+        "image": "https://s1.ticketm.net/dam/a/8c6/c060f43f-339f-48e4-a045-bd6b0d75c8c6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sarah McLachlan - Better Broken Tour",
+        "date": "2026-08-05",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/sarah-mclachlan-better-broken-tour-los-angeles-california-08-05-2026/event/09006445CDDDA69B",
         "image": "https://s1.ticketm.net/dam/a/8c6/c060f43f-339f-48e4-a045-bd6b0d75c8c6_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -781,7 +831,7 @@
         "date": "2026-07-27",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1988202508223",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189497766%2F2987014365277%2F1%2Foriginal.20260723-192152?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3327f25ac77c6b6875a7b99a9f3c7a43"
       },
       {
         "name": "Sydney Castillo: Full Cup No Filter 7:30 PM",
@@ -821,28 +871,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Anjelah Johnson, Howie Mandel, Trevor Wallace, Jiaoying Summers, Brian Monarch and VERY special guests",
-        "date": "2026-07-23",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192084",
-        "image": "https://s1.ticketm.net/dam/a/eaa/531e9afe-8eb9-402c-9621-d5402ea93eaa_1620821_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar, Gabby Lamb, Jaye Sarye, Char Star, Paige Bryan",
-        "date": "2026-07-23",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14964783",
-        "image": "https://i.ticketweb.com/i/00/13/57/07/63_Edp.jpg?v=5"
-      },
-      {
-        "name": "LA vs Transplants ft. Kayla Hardy, Amber Easton, Erica Rhodes, Ben Rixen, Anoushka Rava, Hannah Killian, Ricky Hollywood, Christie Bahna, Steven Marcus Releford and more TBA",
-        "date": "2026-07-23",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-kayla-hollywood-improv-the-lab-tickets/14210594",
-        "image": "https://i.ticketweb.com/i/00/12/92/92/04_Edp.jpg?v=5"
-      },
-      {
-        "name": "Tonight at the Improv ft. George Wallace, Sheng Wang, Charles Fleischer, Adam Ferrara, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. George Wallace, Sheng Wang, Charles Fleischer, Adam Ferrara, Eleanor Kerrigan, Gary Cannon and more TBA",
         "date": "2026-07-24",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940733",
@@ -856,7 +885,7 @@
         "image": "https://s1.ticketm.net/dam/a/e44/4bc29e77-29c3-4612-8a07-940b7c870e44_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Jessimae Peluso, Trevor Wallace, Jeremiah Watkins, Mark Smalls, Will Burkart, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Jessimae Peluso, Trevor Wallace, Jeremiah Watkins, Mark Smalls, Will Burkart, Doug Benson, Gary Cannon and more TBA",
         "date": "2026-07-24",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940823",
@@ -884,11 +913,11 @@
         "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Nick Smith, Ketra Long, Opey Olagbaju, Kelly Ryan, Cid Williams and more TBA",
+        "name": "Tonight at the Lab ft. Nick Smith, Ketra Long, Opey Olagbaju, Kelly Ryan, Zack Chapaloni, M.K. Paulsen, Cid Williams, Malcolm Cills",
         "date": "2026-07-25",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14198814",
-        "image": "https://i.ticketweb.com/i/00/12/91/56/84_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/12/91/56/84_Edp.jpg?v=7"
       },
       {
         "name": "Tonight at the Improv ft. Chris Estrada, Sara Weinshenk, Rick Ingraham, Mike Estime, J Chris Newberg, Brent Weinbach, Kelly Ryan and more TBA",
@@ -931,6 +960,27 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-darrell-hollywood-improv-the-main-room-tickets/14236694",
         "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-07-27",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976233",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-07-27",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14221864",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "John Campanelli & Special Guests ft. John Campanelli, Jennie Mintz, Amie Lieberman, Rona Kremer, Hannah Malone and more TBA",
+        "date": "2026-07-28",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14827023",
+        "image": "https://i.ticketweb.com/i/00/13/42/71/33_Edp.jpg?v=3"
       }
     ]
   }
