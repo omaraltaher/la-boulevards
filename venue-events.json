@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T16:18:55.007Z",
+  "generated": "2026-07-26T16:20:47.845Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -128,13 +128,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Darude",
-        "date": "2026-07-25",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/darude-avalon-hollywood-tickets/14895463",
-        "image": "https://i.ticketweb.com/i/00/13/49/11/03_Edp.jpg?v=10"
-      },
-      {
         "name": "Gasolina",
         "date": "2026-07-31",
         "time": "22:00:00",
@@ -182,16 +175,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/ahee-w-xotix-b2b-pierce-avalon-hollywood-tickets/14251774",
         "image": "https://s1.ticketm.net/dam/a/4ad/c20a2b9e-f241-406d-9105-b556740474ad_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Korolova",
+        "date": "2026-09-05",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/korolova-avalon-hollywood-tickets/14275344",
+        "image": "https://s1.ticketm.net/dam/a/0aa/e4f3b47a-26a8-44fa-ab92-8f16b62c60aa_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "El Malilla",
-        "date": "2026-07-25",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yvy",
-        "image": null
-      },
       {
         "name": "Joe Moses",
         "date": "2026-07-31",
@@ -240,6 +233,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xF0t",
         "image": "https://s1.ticketm.net/dam/a/d4e/a49ecab3-089d-46ff-baa5-7942c994ed4e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Dimmu Borgir w/ Hypocrisy",
+        "date": "2026-08-23",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xf37",
+        "image": "https://s1.ticketm.net/dam/a/735/e0699e33-2587-4e26-bb0a-efc821f90735_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -443,20 +443,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Widespread Panic: 3-Day Ticket",
-        "date": "2026-07-23",
-        "time": null,
-        "url": "https://www.ticketmaster.com/widespread-panic-3day-ticket-los-angeles-california-07-23-2026/event/0900646CA6B39282",
-        "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Widespread Panic",
-        "date": "2026-07-25",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/widespread-panic-los-angeles-california-07-25-2026/event/0900646CA6B0927E",
-        "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "LYKN",
         "date": "2026-08-14",
         "time": "19:30:00",
@@ -490,6 +476,20 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/comedy-bang-bang-ground-beefing-tour-los-angeles-california-09-19-2026/event/090064A6C1883E67",
         "image": "https://s1.ticketm.net/dam/a/67e/9bd8040d-d94b-4728-89e5-7747f9ca567e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "A.J. Croce",
+        "date": "2026-09-20",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/aj-croce-los-angeles-california-09-20-2026/event/09006443EB5DA0C8",
+        "image": "https://s1.ticketm.net/dam/a/a00/75ab3a06-384b-4435-b59f-6cb10453fa00_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Laurie Anderson",
+        "date": "2026-09-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/laurie-anderson-los-angeles-california-09-24-2026/event/090064CAD9E9F3B2",
+        "image": "https://s1.ticketm.net/dbimages/117933a.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -553,13 +553,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "2026 WOODZ WORLD TOUR ' Archive. 1 ' IN US",
-        "date": "2026-07-25",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/2026-woodz-world-tour-archive-1-hollywood-california-07-25-2026/event/090064AFE0549FCC",
-        "image": "https://s1.ticketm.net/dam/a/ebf/ef60ed60-e7c9-4ebd-8433-0d59eac35ebf_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Derek Hough - Symphony of Dance: Encore",
         "date": "2026-08-15",
         "time": "20:00:00",
@@ -599,6 +592,13 @@
         "date": "2026-10-03",
         "time": "16:30:00",
         "url": "https://www.ticketmaster.com/max-amini-live-in-hollywood-hollywood-california-10-03-2026/event/090064B0EA809486",
+        "image": "https://s1.ticketm.net/dam/a/960/ab8e2d71-4b2e-4d4c-b9c3-542f2a73b960_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Max Amini Live in Hollywood!",
+        "date": "2026-10-04",
+        "time": "16:00:00",
+        "url": "https://www.ticketmaster.com/max-amini-live-in-hollywood-hollywood-california-10-04-2026/event/090064B0EA84948F",
         "image": "https://s1.ticketm.net/dam/a/960/ab8e2d71-4b2e-4d4c-b9c3-542f2a73b960_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -871,41 +871,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Celebration of Life: Kitty Bruce",
-        "date": "2026-07-25",
-        "time": "15:00:00",
-        "url": "https://www.ticketweb.com/event/celebration-of-life-kitty-bruce-hollywood-improv-the-main-room-tickets/14237044",
-        "image": "https://i.ticketweb.com/i/00/12/95/34/54_Edp.jpg?v=3"
-      },
-      {
-        "name": "Tonight at the Improv ft. Esther Povitsky, Amir K, George Wallace, Orny Adams, Alex Edelman, Lara Beitz, Jay Washington, and more TBA",
-        "date": "2026-07-25",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940763",
-        "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Nick Smith, Ketra Long, Opey Olagbaju, Kelly Ryan, M.K. Paulsen, Cid Williams, Malcolm Cills",
-        "date": "2026-07-25",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14198814",
-        "image": "https://i.ticketweb.com/i/00/12/91/56/84_Edp.jpg?v=10"
-      },
-      {
-        "name": "Tonight at the Improv ft. Chris Estrada, Sara Weinshenk, Rick Ingraham, Mike Estime, J Chris Newberg, Brent Weinbach, Kelly Ryan and more TBA",
-        "date": "2026-07-25",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940783",
-        "image": "https://s1.ticketm.net/dam/a/b39/78c80946-96f4-4215-bc8d-99c506cf9b39_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Ego Death ft. Lauren Michaels, Nathan Hurd, LaFontaine Oliver, Andrea Abbate, Elyssa Phillips, Legindary Dre, Brandon Beaderstadt and more TBA",
-        "date": "2026-07-25",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/ego-death-ft-lauren-michaels-hollywood-improv-the-lab-tickets/14918983",
-        "image": "https://i.ticketweb.com/i/00/13/51/46/23_Edp.jpg?v=4"
-      },
-      {
         "name": "Tonight at the Improv ft. Aida Rodriguez, Katherine Blanford, Irene Tu, Fumi Abe, James Davis, Kirk Fox, Saul Trujillo and more TBA",
         "date": "2026-07-26",
         "time": "19:00:00",
@@ -924,7 +889,7 @@
         "date": "2026-07-26",
         "time": "21:00:00",
         "url": "https://www.ticketweb.com/event/better-late-than-never-ft-hollywood-improv-the-lab-tickets/14970913",
-        "image": "https://i.ticketweb.com/i/00/13/57/64/83_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/57/64/83_Edp.jpg?v=5"
       },
       {
         "name": "Legends ft. Jay Leno, Darrell Hammond, Jay Mohr, Billy Gardell, Greg Baldwin, Chaunte Wayans",
@@ -981,6 +946,41 @@
         "time": "18:15:00",
         "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14975073",
         "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
+      },
+      {
+        "name": "Amir K",
+        "date": "2026-07-29",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/amir-k-hollywood-improv-the-main-room-tickets/14199384",
+        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Shaw-some Show ft. Forrest Shaw, Billy Gardell, Helen Hong, Karen Rontowski, Jay Washington, Nina Dicker, Jake Dill, Brandon Vestal",
+        "date": "2026-07-29",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/the-shaw-some-show-ft-hollywood-improv-the-lab-tickets/14982633",
+        "image": "https://s1.ticketm.net/dam/a/93a/7595caed-f1b2-49c9-a3b8-8216ca01d93a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv - Faysal Lawrence birthday show! ft. Tiffany Haddish, Leah Rudick, CJ Marrinan more TBA!",
+        "date": "2026-07-29",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14244644",
+        "image": "https://s1.ticketm.net/dam/a/055/6c45506b-40ac-430f-ab82-6ce05178c055_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Anjelah Johnson, Anthony Jeselnik, Damon Wayans, Brian Monarch and very special guests",
+        "date": "2026-07-30",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192064",
+        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The OTHER Show! ft. Adam Barnhardt, Lizzie Rose, Jake Bassi, Michael D'Angelo, Camila Beatriz, Vivi Hoang, Sacaiah Shaw, Jason Luna, Silent Partners and more TBA!",
+        "date": "2026-07-30",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/the-other-show-ft-adam-hollywood-improv-the-lab-tickets/14198824",
+        "image": "https://i.ticketweb.com/i/00/12/91/56/94_Edp.jpg?v=9"
       }
     ]
   }
