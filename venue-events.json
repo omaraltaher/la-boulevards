@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T16:43:04.847Z",
+  "generated": "2026-07-28T16:33:02.194Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -70,13 +70,6 @@
     ],
     "Henry Fonda Theater": [
       {
-        "name": "Chance Pena",
-        "date": "2026-07-27",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OAC3",
-        "image": "https://s1.ticketm.net/dam/a/bd7/9f5abf0e-f1fb-4d6a-b06d-659a1fd69bd7_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Willow Avalon",
         "date": "2026-08-04",
         "time": "20:00:00",
@@ -124,6 +117,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7073f",
         "image": "https://s1.ticketm.net/dam/a/7af/f688143f-a664-42d1-8655-d55fba9167af_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Return of Guitar Center's Drum Off 2026",
+        "date": "2026-08-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAbP",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
@@ -311,7 +311,7 @@
       {
         "name": " Midnights: Taylor Swift Dance Party ",
         "date": "2026-08-01",
-        "time": "21:00:00",
+        "time": "18:00:00",
         "url": "https://www.ticketmaster.com/midnights-taylor-swift-dance-party-los-angeles-california-08-01-2026/event/090064A5B278E816",
         "image": "https://s1.ticketm.net/dam/e/2d8/aa08a543-b8e5-4ae7-9bb2-9f031d57d2d8_RECOMENDATION_16_9.jpg"
       },
@@ -344,18 +344,18 @@
         "image": "https://s1.ticketm.net/dam/e/564/aeb5915f-9d93-4069-ad81-75efce53b564_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "JAYO - The Anti-Depressants Tour 2026",
-        "date": "2026-08-13",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/jayo-the-antidepressants-tour-2026-los-angeles-california-08-13-2026/event/090064DD9EA179B5",
-        "image": "https://s1.ticketm.net/dam/e/2ac/6d12c9d4-a796-468b-8483-bdc2b51122ac_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Iwrotehaikusaboutcannibalisminyouryearbook",
         "date": "2026-08-14",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/iwrotehaikusaboutcannibalisminyouryearbook-los-angeles-california-08-14-2026/event/090064DD9AB0713F",
         "image": "https://s1.ticketm.net/dam/e/c9f/7cb4b5a8-ab1e-4114-a8f4-c969fb46dc9f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sun Kil Moon",
+        "date": "2026-08-15",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/sun-kil-moon-los-angeles-california-08-15-2026/event/090064C3F6C0A263",
+        "image": "https://s1.ticketm.net/dam/a/7f3/90a6ee35-ade9-4749-b62e-480952bd27f3_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -813,13 +813,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-07-27",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1988202508223",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189667028%2F2987014365277%2F1%2Foriginal.20260727-003102?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=68434b6bfe4029c633262e0947fc1da7"
-      },
-      {
         "name": "Sydney Castillo: Full Cup No Filter 7:30 PM",
         "date": "2026-07-29",
         "time": "19:30",
@@ -831,21 +824,28 @@
         "date": "2026-07-29",
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-945pm-tickets-1988209248383",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158481%2F2986607467794%2F1%2Foriginal.20251217-203109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4cba2f2a43f0d170f10c5098e1a4b04b"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189753599%2F2987014365277%2F1%2Foriginal.20260728-020129?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ef5f1ddcbda33abbc58e429b734ebdbe"
       },
       {
         "name": "Thursday All-Star Comedy 7:30PM",
         "date": "2026-07-30",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/thursday-all-star-comedy-730pm-tickets-1988356823785",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189744746%2F2987014365277%2F1%2Foriginal.20260727-234604?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=14f18c534708a22f95d76f3b15484eca"
       },
       {
         "name": "Tehran Thursday's 9:45 PM",
         "date": "2026-07-30",
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/tehran-thursdays-945-pm-tickets-1988359731482",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182604607%2F2990051982791%2F1%2Foriginal.20260420-194813?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=81a640bf33508b2badcc25712d3f8f85"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189744936%2F2987014365277%2F1%2Foriginal.20260727-234949?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=100d36e24b315e85ec7a6497291c562b"
+      },
+      {
+        "name": "Friday Night All-Stars 7:30PM",
+        "date": "2026-07-31",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/friday-night-all-stars-730pm-tickets-1988365447579",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189745085%2F2987014365277%2F1%2Foriginal.20260727-235202?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=cae5c2f636c7adaf9ee0bf2034c26004"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -871,27 +871,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Legends ft. Jay Leno, Darrell Hammond, Jay Mohr, Billy Gardell, Greg Baldwin, Chaunte Wayans",
-        "date": "2026-07-27",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-darrell-hollywood-improv-the-main-room-tickets/14236694",
-        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
-        "date": "2026-07-27",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14976233",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-07-27",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14221864",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-07-28",
         "time": "17:15:00",
@@ -911,13 +890,6 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14827023",
         "image": "https://s1.ticketm.net/dam/a/b52/752565d7-24cf-4bb4-8caf-1e7c0d77ab52_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Poor Little Rich Girl ft. Tori Piskin",
-        "date": "2026-07-28",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/poor-little-rich-girl-ft-hollywood-improv-the-lab-tickets/14255614",
-        "image": "https://i.ticketweb.com/i/00/12/97/11/74_Edp.jpg?v=3"
       },
       {
         "name": "Lab Work",
@@ -962,11 +934,11 @@
         "image": "https://i.ticketweb.com/i/00/12/91/56/94_Edp.jpg?v=9"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jessie \"Jetski\" Johnson, Shapel Lacey, Esther Povitsky, Audrey Stewart, and More TBA!",
         "date": "2026-07-31",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14940833",
-        "image": "https://i.ticketweb.com/i/00/13/53/61/03_Edp.jpg?v=5"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940833",
+        "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Horror Nerd ft. Sam Hale, Becca Melkonian,Barry Under Your Bed, Dr. Chris Lowe, Meryl Klemow, Natalia Reagan, Courtney Cronin, Gigi Modrich, Nick Steiner, Amie Lieberman, Mike Augustine, Jeremy Tinoco",
@@ -976,11 +948,39 @@
         "image": "https://i.ticketweb.com/i/00/13/51/46/33_Edp.jpg?v=5"
       },
       {
+        "name": "Tonight at the Improv ft. Greg Fitzsimmons, Erica Rhodes, Owen Smith, Orlando Leyba, and More TBA!",
+        "date": "2026-07-31",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940793",
+        "image": "https://s1.ticketm.net/dam/a/c3f/720f5f8a-a718-4c06-8cb5-f22765fcbc3f_56721_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Semper Funny ft. Bryson Banks and more TBA",
         "date": "2026-07-31",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/semper-funny-ft-bryson-banks-hollywood-improv-the-lab-tickets/14967363",
         "image": "https://i.ticketweb.com/i/00/13/57/30/93_Edp.jpg?v=2"
+      },
+      {
+        "name": "Next Generation Comedy",
+        "date": "2026-08-01",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/next-generation-comedy-hollywood-improv-the-lab-tickets/14816293",
+        "image": "https://i.ticketweb.com/i/00/13/41/63/13_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv ft. Cameron Esposito, Wayne Federman, Orny Adams, Frazer Smith, and More TBA!",
+        "date": "2026-08-01",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972903",
+        "image": "https://s1.ticketm.net/dam/a/0ba/da363796-4f3e-4b1a-a2b1-e2c4564910ba_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab! ft. Sandy Danto, Frank Castillo, Chloe Radcliffe, and More TBA!",
+        "date": "2026-08-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14250374",
+        "image": "https://s1.ticketm.net/dam/a/ffb/b63cadd3-5d1d-42c8-a4bb-774f8bdfaffb_1189871_RECOMENDATION_16_9.jpg"
       }
     ]
   }
