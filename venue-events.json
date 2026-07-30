@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T16:30:29.288Z",
+  "generated": "2026-07-30T16:31:33.959Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -139,7 +139,7 @@
         "date": "2026-08-01",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/luuk-van-djik-vs-luke-avalon-hollywood-tickets/14265524",
-        "image": "https://i.ticketweb.com/i/00/12/98/07/64_Edp.jpg?v=9"
+        "image": "https://i.ticketweb.com/i/00/12/98/07/64_Edp.jpg?v=10"
       },
       {
         "name": "Boys Noize w/ 1tbsp + PILO",
@@ -820,25 +820,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Sydney Castillo: Full Cup No Filter 7:30 PM",
-        "date": "2026-07-29",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/sydney-castillo-full-cup-no-filter-730-pm-tickets-1988206975585",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187941170%2F2987014365277%2F1%2Foriginal.20260630-180731?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cf79906fe3975226e6e951c89e00069a"
-      },
-      {
-        "name": "Wednesday All-Star Comedy 9:45PM",
-        "date": "2026-07-29",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-945pm-tickets-1988209248383",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189829316%2F2987014365277%2F1%2Foriginal.20260728-214119?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=12b74fb85ccaf1bc89b560721c6de764"
-      },
-      {
         "name": "Thursday All-Star Comedy 7:30PM",
         "date": "2026-07-30",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/thursday-all-star-comedy-730pm-tickets-1988356823785",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189744746%2F2987014365277%2F1%2Foriginal.20260727-234604?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=14f18c534708a22f95d76f3b15484eca"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189909377%2F2987014365277%2F1%2Foriginal.20260729-202246?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7fa70427a8367e4b2bbb42461e6d35b3"
       },
       {
         "name": "Tehran Thursday's 9:45 PM",
@@ -853,6 +839,20 @@
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/friday-night-all-stars-730pm-tickets-1988365447579",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189838280%2F2987014365277%2F1%2Foriginal.20260729-000314?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7e5d46e17e70474e339c86fac56deda3"
+      },
+      {
+        "name": "Friday Night All-Stars 9:45PM",
+        "date": "2026-07-31",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/friday-night-all-stars-945pm-tickets-1988435984557",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189930262%2F2987014365277%2F1%2Foriginal.20260730-022308?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ba7f6630e73d4d7c1610b5cf85e0ffbc"
+      },
+      {
+        "name": "Saturday Night All-Stars 7:30PM",
+        "date": "2026-08-01",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/saturday-night-all-stars-730pm-tickets-1989325566320",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189901294%2F2987014365277%2F1%2Foriginal.20260729-184852?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8b0315351f7533ecc0802abe714db855"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -878,34 +878,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-07-29",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14975073",
-        "image": "https://i.ticketweb.com/i/00/13/57/97/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "Amir K",
-        "date": "2026-07-29",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/amir-k-hollywood-improv-the-main-room-tickets/14199384",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Shaw-some Show ft. Forrest Shaw, Billy Gardell, Helen Hong, Karen Rontowski, Jay Washington, Nina Dicker, Jake Dill, Brandon Vestal",
-        "date": "2026-07-29",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/the-shaw-some-show-ft-hollywood-improv-the-lab-tickets/14982633",
-        "image": "https://s1.ticketm.net/dam/a/93a/7595caed-f1b2-49c9-a3b8-8216ca01d93a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv - Faysal Lawrence birthday show! ft. Tiffany Haddish, Jeff Arcuri, Frankie Quinones, Leah Rudick, CJ Marrinan more TBA",
-        "date": "2026-07-29",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14244644",
-        "image": "https://s1.ticketm.net/dam/a/055/6c45506b-40ac-430f-ab82-6ce05178c055_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Anjelah Johnson, Anthony Jeselnik, Jeff Arcuri, Brian Monarch and very special guests",
         "date": "2026-07-30",
         "time": "19:30:00",
@@ -913,18 +885,18 @@
         "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "The OTHER Show! ft. Adam Barnhardt, Lizzie Rose, Jake Bassi, Michael D'Angelo, Camila Beatriz, Vivi Hoang, Sacaiah Shaw, Jason Luna, Silent Partners and more TBA!",
+        "name": "The OTHER Show! ft. Adam Barnhardt, Lizzie Rose, Jake Bassi, Michael D'Angelo, Amy Ashton, Vivi Hoang, Sacaiah Shaw, Jason Luna, Silent Partners and more TBA!",
         "date": "2026-07-30",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/the-other-show-ft-adam-hollywood-improv-the-lab-tickets/14198824",
-        "image": "https://i.ticketweb.com/i/00/12/91/56/94_Edp.jpg?v=9"
+        "image": "https://i.ticketweb.com/i/00/12/91/56/94_Edp.jpg?v=10"
       },
       {
-        "name": "Tonight at the Improv ft. Jessie \"Jetski\" Johnson, Shapel Lacey, Esther Povitsky, Audrey Stewart, and More TBA!",
+        "name": "Tonight at the Improv ft. George Wallace, Jessie \"Jetski\" Johnson, Shapel Lacey, Esther Povitsky, Audrey Stewart, and More TBA",
         "date": "2026-07-31",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940833",
-        "image": "https://s1.ticketm.net/dam/a/7d5/1bb3e3c9-d926-4d98-a0e0-50bed9b257d5_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/38c/18afb66d-2ede-44cb-a4e5-3fae6089a38c_1021561_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Horror Nerd ft. Sam Hale, Becca Melkonian,Barry Under Your Bed, Dr. Chris Lowe, Meryl Klemow, Natalia Reagan, Courtney Cronin, Gigi Modrich, Nick Steiner, Amie Lieberman, Mike Augustine, Jeremy Tinoco",
@@ -938,7 +910,7 @@
         "date": "2026-07-31",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940793",
-        "image": "https://i.ticketweb.com/i/00/13/53/61/43_Edp.jpg?v=10"
+        "image": "https://i.ticketweb.com/i/00/13/53/61/43_Edp.jpg?v=11"
       },
       {
         "name": "Semper Funny ft. Bryson Banks and more TBA",
@@ -955,14 +927,14 @@
         "image": "https://i.ticketweb.com/i/00/13/41/63/13_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv ft. Cameron Esposito, Wayne Federman, Orny Adams, Mark Ellis, Sarah Tiana, Frazer Smith, and More TBA!",
+        "name": "Tonight at the Improv ft. Cameron Esposito, Ian Edwards, Wayne Federman, Orny Adams, Mark Ellis, Sarah Tiana, Frazer Smith, and More TBA!",
         "date": "2026-08-01",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972903",
         "image": "https://s1.ticketm.net/dam/a/0ba/da363796-4f3e-4b1a-a2b1-e2c4564910ba_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab! ft. Sandy Danto, Frank Castillo, Chloe Radcliffe, Saul Trujillo, Eric Freedman and More TBA!",
+        "name": "Tonight at the Lab! ft. Sandy Danto, Frank Castillo, Chloe Radcliffe, Saul Trujillo, Eric Freedman, Tom Fox, Arzo Dotson, and More TBA!",
         "date": "2026-08-01",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14250374",
@@ -988,6 +960,34 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906923",
         "image": "https://s1.ticketm.net/dam/a/38c/18afb66d-2ede-44cb-a4e5-3fae6089a38c_1021561_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Andrew Santino, Dustin Nickerson, Saul Trujillo and more TBA",
+        "date": "2026-08-03",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14267334",
+        "image": "https://s1.ticketm.net/dam/a/9ad/98cb1375-6bbc-492a-a72b-cec9fde559ad_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-08-03",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261344",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "John Campanelli & Special Guest ft. John Campanelli, Brent Pella, Jennie Mintz, Rona Kremer, Scott Rowe, Michelle Redman, and more TBA",
+        "date": "2026-08-04",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/john-campanelli-special-guest-hollywood-improv-the-lab-tickets/14967403",
+        "image": "https://i.ticketweb.com/i/00/13/57/31/33_Edp.jpg?v=3"
+      },
+      {
+        "name": "Sophie Buddle",
+        "date": "2026-08-04",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/sophie-buddle-hollywood-improv-the-lab-tickets/14953683",
+        "image": "https://i.ticketweb.com/i/00/13/56/00/73_Edp.jpg?v=2"
       }
     ]
   }
