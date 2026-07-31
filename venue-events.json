@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30T16:31:33.959Z",
+  "generated": "2026-07-31T16:34:12.841Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -495,13 +495,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "LINDSEY STIRLING - DUALITY UNTAMED TOUR",
-        "date": "2026-07-30",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/lindsey-stirling-duality-untamed-tour-los-angeles-california-07-30-2026/event/09006435DCE4BAFF",
-        "image": "https://s1.ticketm.net/dam/a/727/e1b0d529-1e0d-4f13-bafa-d51796b64727_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "La La Land In Concert",
         "date": "2026-08-01",
         "time": "20:00:00",
@@ -549,6 +542,13 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/oar-three-decades-tour-los-angeles-california-08-08-2026/event/0900635CE5A483CC",
         "image": "https://s1.ticketm.net/dam/a/d65/f66d76e4-476c-4c40-bd37-341041cb8d65_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "KCSN Presents: An Evening With Goose",
+        "date": "2026-08-14",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/kcsn-presents-an-evening-with-goose-los-angeles-california-08-14-2026/event/09006437A956DDFC",
+        "image": "https://s1.ticketm.net/dam/a/ff9/230bc504-e335-44b6-9d57-24509c477ff9_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -820,20 +820,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Thursday All-Star Comedy 7:30PM",
-        "date": "2026-07-30",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/thursday-all-star-comedy-730pm-tickets-1988356823785",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189909377%2F2987014365277%2F1%2Foriginal.20260729-202246?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7fa70427a8367e4b2bbb42461e6d35b3"
-      },
-      {
-        "name": "Tehran Thursday's 9:45 PM",
-        "date": "2026-07-30",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/tehran-thursdays-945-pm-tickets-1988359731482",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189744936%2F2987014365277%2F1%2Foriginal.20260727-234949?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=100d36e24b315e85ec7a6497291c562b"
-      },
-      {
         "name": "Friday Night All-Stars 7:30PM",
         "date": "2026-07-31",
         "time": "19:30",
@@ -853,6 +839,20 @@
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/saturday-night-all-stars-730pm-tickets-1989325566320",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189901294%2F2987014365277%2F1%2Foriginal.20260729-184852?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8b0315351f7533ecc0802abe714db855"
+      },
+      {
+        "name": "Saturday Night All-Stars 9:45PM",
+        "date": "2026-08-01",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/saturday-night-all-stars-945pm-tickets-1989325627503",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189907943%2F2987014365277%2F1%2Foriginal.20260729-200708?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1b0ea109484392b86dd9ee8229b3facb"
+      },
+      {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-08-02",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1989350429687",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -878,20 +878,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Anjelah Johnson, Anthony Jeselnik, Jeff Arcuri, Brian Monarch and very special guests",
-        "date": "2026-07-30",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14192064",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The OTHER Show! ft. Adam Barnhardt, Lizzie Rose, Jake Bassi, Michael D'Angelo, Amy Ashton, Vivi Hoang, Sacaiah Shaw, Jason Luna, Silent Partners and more TBA!",
-        "date": "2026-07-30",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/the-other-show-ft-adam-hollywood-improv-the-lab-tickets/14198824",
-        "image": "https://i.ticketweb.com/i/00/12/91/56/94_Edp.jpg?v=10"
-      },
-      {
         "name": "Tonight at the Improv ft. George Wallace, Jessie \"Jetski\" Johnson, Shapel Lacey, Esther Povitsky, Audrey Stewart, and More TBA",
         "date": "2026-07-31",
         "time": "19:30:00",
@@ -906,11 +892,11 @@
         "image": "https://i.ticketweb.com/i/00/13/51/46/33_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. Erica Rhodes, Owen Smith, Orlando Leyba, Frankie Quinones, Fielding Edlow and More TBA!",
+        "name": "Tonight at the Improv ft. Erica Rhodes, Owen Smith, Orlando Leyba, Frankie Quinones, Rick Ingraham, James Davis, Fielding Edlow and More TBA!",
         "date": "2026-07-31",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14940793",
-        "image": "https://i.ticketweb.com/i/00/13/53/61/43_Edp.jpg?v=11"
+        "image": "https://i.ticketweb.com/i/00/13/53/61/43_Edp.jpg?v=15"
       },
       {
         "name": "Semper Funny ft. Bryson Banks and more TBA",
@@ -962,7 +948,7 @@
         "image": "https://s1.ticketm.net/dam/a/38c/18afb66d-2ede-44cb-a4e5-3fae6089a38c_1021561_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Andrew Santino, Dustin Nickerson, Saul Trujillo and more TBA",
+        "name": "Tonight at the Improv ft. Andrew Santino, Cristela Alonzo, Dustin Nickerson, Saul Trujillo and more TBA",
         "date": "2026-08-03",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14267334",
@@ -976,6 +962,13 @@
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-08-04",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14261404",
+        "image": "https://i.ticketweb.com/i/00/12/97/64/64_Edp.jpg?v=4"
+      },
+      {
         "name": "John Campanelli & Special Guest ft. John Campanelli, Brent Pella, Jennie Mintz, Rona Kremer, Scott Rowe, Michelle Redman, and more TBA",
         "date": "2026-08-04",
         "time": "19:30:00",
@@ -983,11 +976,18 @@
         "image": "https://i.ticketweb.com/i/00/13/57/31/33_Edp.jpg?v=3"
       },
       {
-        "name": "Sophie Buddle",
+        "name": "Sophie Buddle ft. Shapel Lacey, Cole Garrett, Alec Flynn!",
         "date": "2026-08-04",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/sophie-buddle-hollywood-improv-the-lab-tickets/14953683",
-        "image": "https://i.ticketweb.com/i/00/13/56/00/73_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/sophie-buddle-ft-shapel-lacey-hollywood-improv-the-lab-tickets/14953683",
+        "image": "https://i.ticketweb.com/i/00/13/56/00/73_Edp.jpg?v=4"
+      },
+      {
+        "name": "Lab Work",
+        "date": "2026-08-05",
+        "time": "18:00:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14250444",
+        "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
       }
     ]
   }
