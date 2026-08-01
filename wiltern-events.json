@@ -1,13 +1,6 @@
 {
-  "generated": "2026-07-31T15:43:05.942Z",
+  "generated": "2026-08-01T15:23:58.172Z",
   "events": [
-    {
-      "name": "The Pretty Reckless - Dear God Tour",
-      "date": "2026-07-31",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/the-pretty-reckless-dear-god-tour-los-angeles-california-07-31-2026/event/0900646BD0DFDA74",
-      "image": "https://s1.ticketm.net/dam/a/9f9/29569a70-00c1-4792-a27b-d402c0d899f9_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Moonchild: Waves Tour",
       "date": "2026-08-01",
@@ -55,6 +48,13 @@
       "date": "2026-09-12",
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/city-pop-waves-casiopea-special-live-los-angeles-california-09-12-2026/event/09006496E6FBAE4A",
+      "image": "https://s1.ticketm.net/dam/a/4f6/2171a0a3-5a7e-4c33-8d26-338434cac4f6_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "CITY POP WAVES: CASIOPEA Special Live 2026 in Los Angeles",
+      "date": "2026-09-13",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/city-pop-waves-casiopea-special-live-los-angeles-california-09-13-2026/event/09006498A9D5DAA8",
       "image": "https://s1.ticketm.net/dam/a/4f6/2171a0a3-5a7e-4c33-8d26-338434cac4f6_RECOMENDATION_16_9.jpg"
     }
   ]
