@@ -1,12 +1,26 @@
 {
-  "generated": "2026-07-01T10:21:52.443Z",
+  "generated": "2026-08-01T09:39:19.593Z",
   "lions": [
+    {
+      "lat": 33.7891,
+      "lon": -117.7255,
+      "date": "2026-07-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/704750098/small.jpg",
+      "url": "https://www.inaturalist.org/observations/384974180"
+    },
     {
       "lat": 34.5374,
       "lon": -118.7585,
       "date": "2026-06-29",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/688824179/small.jpg",
       "url": "https://www.inaturalist.org/observations/376721443"
+    },
+    {
+      "lat": 34.5878,
+      "lon": -118.7773,
+      "date": "2026-06-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/691213385/small.jpg",
+      "url": "https://www.inaturalist.org/observations/377955347"
     },
     {
       "lat": 34.1245,
@@ -56,48 +70,6 @@
       "date": "2026-05-05",
       "photo": "https://static.inaturalist.org/photos/657575228/small.gif",
       "url": "https://www.inaturalist.org/observations/360374076"
-    },
-    {
-      "lat": 33.7917,
-      "lon": -117.7479,
-      "date": "2026-04-27",
-      "photo": "https://static.inaturalist.org/photos/648597462/small.jpg",
-      "url": "https://www.inaturalist.org/observations/355658396"
-    },
-    {
-      "lat": 34.2496,
-      "lon": -118.7195,
-      "date": "2026-04-19",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641252908/small.jpg",
-      "url": "https://www.inaturalist.org/observations/351394803"
-    },
-    {
-      "lat": 34.246,
-      "lon": -118.5918,
-      "date": "2026-04-16",
-      "photo": "https://static.inaturalist.org/photos/639951457/small.gif",
-      "url": "https://www.inaturalist.org/observations/350718179"
-    },
-    {
-      "lat": 34.338,
-      "lon": -118.4507,
-      "date": "2026-04-12",
-      "photo": "https://static.inaturalist.org/photos/639951744/small.gif",
-      "url": "https://www.inaturalist.org/observations/350718331"
-    },
-    {
-      "lat": 34.2009,
-      "lon": -118.4006,
-      "date": "2026-04-04",
-      "photo": "https://static.inaturalist.org/photos/633508503/small.gif",
-      "url": "https://www.inaturalist.org/observations/347447017"
-    },
-    {
-      "lat": 34.1238,
-      "lon": -118.7271,
-      "date": "2026-04-03",
-      "photo": "https://static.inaturalist.org/photos/649142431/small.jpg",
-      "url": "https://www.inaturalist.org/observations/355964208"
     }
   ],
   "p22": [
