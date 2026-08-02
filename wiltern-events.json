@@ -1,13 +1,6 @@
 {
-  "generated": "2026-08-01T15:23:58.172Z",
+  "generated": "2026-08-02T15:24:00.424Z",
   "events": [
-    {
-      "name": "Moonchild: Waves Tour",
-      "date": "2026-08-01",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/moonchild-waves-tour-los-angeles-california-08-01-2026/event/0900635025D9C93F",
-      "image": "https://s1.ticketm.net/dam/a/d45/73a89392-c44f-44ba-afa4-a99074714d45_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Calle 24: Eterno Tour",
       "date": "2026-08-02",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/city-pop-waves-casiopea-special-live-los-angeles-california-09-13-2026/event/09006498A9D5DAA8",
       "image": "https://s1.ticketm.net/dam/a/4f6/2171a0a3-5a7e-4c33-8d26-338434cac4f6_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "My Hero Academia in Concert",
+      "date": "2026-09-16",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/my-hero-academia-in-concert-los-angeles-california-09-16-2026/event/0900648FDF95B3B5",
+      "image": "https://s1.ticketm.net/dam/a/815/82c8ae95-7c71-4813-8888-a4a6ba86c815_RECOMENDATION_16_9.jpg"
     }
   ]
 }
