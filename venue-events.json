@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02T16:20:38.201Z",
+  "generated": "2026-08-03T16:48:18.897Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -128,13 +128,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Boys Noize w/ 1tbsp + PILO",
-        "date": "2026-08-02",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/boys-noize-w-1tbsp-avalon-hollywood-tickets/14233694",
-        "image": "https://s1.ticketm.net/dbimages/118087a.jpg"
-      },
-      {
         "name": "Emo Nite",
         "date": "2026-08-07",
         "time": "21:00:00",
@@ -182,16 +175,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/partiboi69-avalon-hollywood-tickets/14990203",
         "image": "https://s1.ticketm.net/dam/a/d77/4a74ee49-6cb0-47ec-ba9e-705ccd9e1d77_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tritonal",
+        "date": "2026-09-26",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/tritonal-avalon-hollywood-tickets/14206634",
+        "image": "https://s1.ticketm.net/dam/a/2c7/8e506b80-f31a-4ef1-a804-343ff6b4a2c7_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "Loving Worship Praise Concert - THIS. IS. RUACH.",
-        "date": "2026-08-02",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PkbV",
-        "image": null
-      },
       {
         "name": "Ole 60 w/ The Stews",
         "date": "2026-08-07",
@@ -240,6 +233,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PsO9",
         "image": null
+      },
+      {
+        "name": "Chisme with DoKnow and Jakarta",
+        "date": "2026-08-29",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p-3",
+        "image": "https://s1.ticketm.net/dam/a/878/1c017ade-58b3-4815-9226-a58d2c49d878_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -496,13 +496,6 @@
     "Greek Theatre": [
       {
         "name": "Death Cab for Cutie: I Built You A Tower World Tour",
-        "date": "2026-08-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-los-angeles-california-08-02-2026/event/09006435E6A2D26C",
-        "image": "https://s1.ticketm.net/dam/a/196/66141022-87d0-41b3-bce7-195e7a016196_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Death Cab for Cutie: I Built You A Tower World Tour",
         "date": "2026-08-03",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-los-angeles-california-08-03-2026/event/09006435E927D7B0",
@@ -549,6 +542,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70zpA",
         "image": null
+      },
+      {
+        "name": "NEEDTOBREATHE: The Long Surrender Tour",
+        "date": "2026-08-18",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-los-angeles-california-08-18-2026/event/09006465B2CECE2B",
+        "image": "https://s1.ticketm.net/dam/a/5c7/eaef8333-1b97-4680-b2c8-e88eb46d05c7_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -605,13 +605,6 @@
     "Geffen Playhouse": [],
     "Pasadena Playhouse": [],
     "Ricardo Montalban Theatre": [
-      {
-        "name": "Brian Henson's Puppet Up!",
-        "date": "2026-08-02",
-        "time": "17:00:00",
-        "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-08-02-2026/event/0B0064A7A9786317",
-        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Brian Henson's Puppet Up!",
         "date": "2026-08-07",
@@ -801,11 +794,11 @@
         "image": "https://s1.ticketm.net/dbimages/171626a.jpg"
       },
       {
-        "name": "Tre Floyd's Black Girl Therapy",
-        "date": "2026-09-19",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
-        "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
+        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
+        "date": "2026-09-16",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-09-16-2026/event/0B0065028D851D7E",
+        "image": "https://s1.ticketm.net/dam/e/069/1b9c07c7-99e2-4ed3-8c77-985ec6ac8069_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -813,20 +806,6 @@
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
     "Laugh Factory": [
-      {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-08-02",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1989350429687",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-08-02",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989350659374",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
       {
         "name": "Chocolate Sundaes 7:00PM",
         "date": "2026-08-09",
@@ -856,6 +835,20 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
       },
       {
+        "name": "Chocolate Sundaes 9:30PM",
+        "date": "2026-08-16",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989350848941",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-08-23",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1989350886052",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
         "date": "2026-09-20",
         "time": "17:00",
@@ -871,13 +864,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft.  George Wallace, Greg Fitzsimmons, Laura Kightlinger, Jeff Dye, Kira Soltanovich, Jared Goldstein, Eric Freedman and more TBA",
-        "date": "2026-08-02",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14906923",
-        "image": "https://s1.ticketm.net/dam/a/38c/18afb66d-2ede-44cb-a4e5-3fae6089a38c_1021561_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Tonight at the Improv ft. Andrew Santino, Dustin Nickerson, Jimmy Dore, Ali Macofsky, Matt Friend, Saul Trujillo and more TBA",
         "date": "2026-08-03",
@@ -900,7 +886,7 @@
         "image": "https://i.ticketweb.com/i/00/12/97/64/64_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Sebastian Maniscaclo, Damon Wayans, Trevor Wallace, Brian Monarch and Very Special Guests",
+        "name": "Tonight at the Improv ft. Sebastian Maniscalco, Damon Wayans, Andrew Santino, Trevor Wallace, Brian Monarch, Jen Murphy and More TBD!",
         "date": "2026-08-04",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261184",
@@ -928,7 +914,7 @@
         "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Howie Mandel, Dane Cook, Christopher Titus, Natasha Leggero, Ron Funches, Vinny Fasline and more TBA",
+        "name": "Tonight at the Improv ft. Howie Mandel, Dane Cook, Christopher Titus, Natasha Leggero, Ron Funches, Vinny Fasline, Jay Washington",
         "date": "2026-08-05",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14267804",
@@ -961,6 +947,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/panic-at-the-lab-ft-hollywood-improv-the-lab-tickets/14199584",
         "image": "https://i.ticketweb.com/i/00/12/91/66/34_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-08-07",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14252534",
+        "image": "https://i.ticketweb.com/i/00/12/96/85/54_Edp.jpg?v=4"
       },
       {
         "name": "Tonight at the Lab!",
