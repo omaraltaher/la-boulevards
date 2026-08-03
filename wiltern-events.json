@@ -1,13 +1,6 @@
 {
-  "generated": "2026-08-02T15:24:00.424Z",
+  "generated": "2026-08-03T15:53:11.388Z",
   "events": [
-    {
-      "name": "Calle 24: Eterno Tour",
-      "date": "2026-08-02",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/calle-24-eterno-tour-los-angeles-california-08-02-2026/event/090064B5B67FE1B6",
-      "image": "https://s1.ticketm.net/dam/a/f71/85287d84-1928-4df3-9e7e-4e72b485bf71_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Sierra Ferrell - Heavy Petal Tour",
       "date": "2026-08-05",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/my-hero-academia-in-concert-los-angeles-california-09-16-2026/event/0900648FDF95B3B5",
       "image": "https://s1.ticketm.net/dam/a/815/82c8ae95-7c71-4813-8888-a4a6ba86c815_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Whirr",
+      "date": "2026-09-18",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/whirr-los-angeles-california-09-18-2026/event/090064DCEEBAAD44",
+      "image": "https://s1.ticketm.net/dam/a/695/83d3082f-7aeb-44a8-9164-dcc2a8550695_RECOMENDATION_16_9.jpg"
     }
   ]
 }
