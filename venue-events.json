@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03T16:48:18.897Z",
+  "generated": "2026-08-04T16:37:00.604Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -348,14 +348,14 @@
         "date": "2026-08-17",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/desert-daze-presents-angine-de-poitrine-los-angeles-california-08-17-2026/event/09006474BDD4BBFF",
-        "image": "https://s1.ticketm.net/dam/e/f2c/f795c438-eff5-4961-92d0-44f4b9565f2c_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/e/cc9/695b90cd-076a-4cee-a15b-f245cd26bcc9_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Desert Daze presents: Angine de Poitrine",
         "date": "2026-08-18",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/desert-daze-presents-angine-de-poitrine-los-angeles-california-08-18-2026/event/090064652B13F117",
-        "image": "https://s1.ticketm.net/dam/e/75f/2ecd7e20-c543-40c8-9230-452c1bc5975f_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/e/d2c/f1db3451-b304-4511-acf2-9f8fbcf7bd2c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -495,13 +495,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Death Cab for Cutie: I Built You A Tower World Tour",
-        "date": "2026-08-03",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-los-angeles-california-08-03-2026/event/09006435E927D7B0",
-        "image": "https://s1.ticketm.net/dam/a/196/66141022-87d0-41b3-bce7-195e7a016196_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Sarah McLachlan - Better Broken Tour",
         "date": "2026-08-04",
         "time": "19:30:00",
@@ -549,6 +542,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-los-angeles-california-08-18-2026/event/09006465B2CECE2B",
         "image": "https://s1.ticketm.net/dam/a/5c7/eaef8333-1b97-4680-b2c8-e88eb46d05c7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Guess Who: Takin' It Back Tour 2026",
+        "date": "2026-08-19",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/the-guess-who-takin-it-back-los-angeles-california-08-19-2026/event/09006458F47DD28E",
+        "image": "https://s1.ticketm.net/dam/a/cd1/786a8e7f-5b99-4fc6-b756-d6d9297d3cd1_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -644,6 +644,13 @@
         "image": "https://s1.ticketm.net/dam/a/415/040df804-f51a-4e21-8137-d17f51f0e415_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "2026 JAY B tape: roots",
+        "date": "2026-09-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-los-angeles-california-09-13-2026/event/09006503EE02D71D",
+        "image": "https://s1.ticketm.net/dam/a/d6c/12bcbecb-5e77-4493-85c7-350e8372dd6c_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour",
         "date": "2026-09-17",
         "time": "19:00:00",
@@ -663,6 +670,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/randy-feltface-gimmick-los-angeles-california-10-20-2026/event/090064AFC9C053DC",
         "image": "https://s1.ticketm.net/dam/a/9d8/df700c0e-81ec-4a0b-af0c-fe9e2d5739d8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Alex O'Connor",
+        "date": "2026-11-21",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/alex-oconnor-los-angeles-california-11-21-2026/event/090064FEC628AE3F",
+        "image": null
       },
       {
         "name": "ALOK: Eat Pray Leave Tour",
@@ -865,20 +879,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Andrew Santino, Dustin Nickerson, Jimmy Dore, Ali Macofsky, Matt Friend, Saul Trujillo and more TBA",
-        "date": "2026-08-03",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14267334",
-        "image": "https://s1.ticketm.net/dam/a/9ad/98cb1375-6bbc-492a-a72b-cec9fde559ad_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis, Gary G Thang Johnson, Bree Webber, King Kedar, Kendal Neal, Red Grant & more TBA!",
-        "date": "2026-08-03",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261344",
-        "image": "https://s1.ticketm.net/dbimages/138446a.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-08-04",
         "time": "17:15:00",
@@ -928,14 +928,14 @@
         "image": "https://s1.ticketm.net/dam/a/875/529fc6f3-4719-4895-9bab-1b5f67dd9875_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Ron Funches, Brian Monarch and VERY Special Guests",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Ron Funches, Adam Ray, Brian Monarch and VERY Special Guests",
         "date": "2026-08-06",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261244",
         "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Nika King, Cristela Alonzo, and More TBA!",
+        "name": "Tonight at the Improv ft. Nika King, Cristela Alonzo, Greg Fitzsimmons, Andre Kelley, and More TBA!",
         "date": "2026-08-07",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252484",
@@ -946,14 +946,21 @@
         "date": "2026-08-07",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/panic-at-the-lab-ft-hollywood-improv-the-lab-tickets/14199584",
-        "image": "https://i.ticketweb.com/i/00/12/91/66/34_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/12/91/66/34_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Frankie Quinones, Brent Morin, Jay Phillips, Eleanor Kerrigan, Jeanne Whitney, and more TBA",
         "date": "2026-08-07",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14252534",
-        "image": "https://i.ticketweb.com/i/00/12/96/85/54_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252534",
+        "image": "https://s1.ticketm.net/dam/a/5c6/6dd00db3-3bc5-4951-8615-c71573c515c6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Cristela Alonzo, Cathy Ladman, Justine Marino, and more TBA!",
+        "date": "2026-08-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972943",
+        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Tonight at the Lab!",
@@ -961,6 +968,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14250394",
         "image": "https://i.ticketweb.com/i/00/12/96/66/54_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv ft. Nicky Paris, Yassir Lester, Sara Weinshenk, Denny Love, and more TBA",
+        "date": "2026-08-08",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972923",
+        "image": "https://i.ticketweb.com/i/00/13/61/26/23_Edp.jpg?v=3"
       },
       {
         "name": "Undiscovered Genius ft. Kazeem Rahman, Josh Edelman, Radu Bondar, Mike Eshaq, Alexis Prigo, Delo Brown, Chris Wilmoth, Arthur Hamilton & more TBA!",
