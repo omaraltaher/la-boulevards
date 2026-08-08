@@ -1,13 +1,13 @@
 {
-  "generated": "2026-08-07T16:46:57.894Z",
+  "generated": "2026-08-08T16:25:53.415Z",
   "venues": {
     "Hollywood Palladium": [
       {
-        "name": "Poppy - Constantly Nowhere Tour",
-        "date": "2026-08-07",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/poppy-constantly-nowhere-tour-hollywood-california-08-07-2026/event/0900644C97F09EC7",
-        "image": "https://s1.ticketm.net/dam/a/e75/3625c63d-c444-48ac-974b-94efbd5fce75_RECOMENDATION_16_9.jpg"
+        "name": "Usama Siddiquee - \"Right After You Left\" - Vinyl Room @ the Palladium",
+        "date": "2026-08-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/usama-siddiquee-right-after-you-left-hollywood-california-08-12-2026/event/090065061C7F9E39",
+        "image": "https://s1.ticketm.net/dam/a/a12/f6c544db-b3a3-4d88-b839-922713136a12_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "T.I. - The King Succession Tour",
@@ -149,6 +149,13 @@
         "image": "https://s1.ticketm.net/dam/a/e38/d64bfcd9-fa5b-4fcd-a710-ec9b11f4ee38_239391_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Bryce Alakai",
+        "date": "2026-08-20",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/bryce-alakai-avalon-hollywood-tickets/15020823",
+        "image": "https://i.ticketweb.com/i/00/13/62/07/83_Edp.jpg?v=9"
+      },
+      {
         "name": "AHEE w/ XOTIX B2B PIERCE",
         "date": "2026-08-21",
         "time": "22:00:00",
@@ -175,23 +182,9 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/korolova-avalon-hollywood-tickets/14275344",
         "image": "https://s1.ticketm.net/dam/a/0aa/e4f3b47a-26a8-44fa-ab92-8f16b62c60aa_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "PARTIBOI69",
-        "date": "2026-09-18",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/partiboi69-avalon-hollywood-tickets/14990203",
-        "image": "https://s1.ticketm.net/dam/a/d77/4a74ee49-6cb0-47ec-ba9e-705ccd9e1d77_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "Ole 60 w/ The Stews",
-        "date": "2026-08-07",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I09",
-        "image": "https://s1.ticketm.net/dam/a/e6c/7c11f21d-f91a-49fa-a79e-f6b40f78fe6c_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Chris Ramsay",
         "date": "2026-08-12",
@@ -240,6 +233,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p-3",
         "image": "https://s1.ticketm.net/dam/a/878/1c017ade-58b3-4815-9226-a58d2c49d878_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Exploited w/ Dwarves",
+        "date": "2026-09-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709b-",
+        "image": "https://s1.ticketm.net/dam/a/47e/602bf020-a665-4c6c-9d3c-f0948088a47e_995771_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -302,13 +302,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Old 97's",
-        "date": "2026-08-07",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/old-97s-los-angeles-california-08-07-2026/event/09006459E176D674",
-        "image": "https://s1.ticketm.net/dam/e/beb/18330ace-aa3e-4ccf-9462-84beff62abeb_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Driveways",
         "date": "2026-08-08",
         "time": "19:00:00",
@@ -356,6 +349,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/rival-consoles-los-angeles-california-08-22-2026/event/09006472AE088EA5",
         "image": "https://s1.ticketm.net/dam/e/9b8/0234f872-564a-49ce-bfc6-780e5e6b09b8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "W.I.T.C.H.",
+        "date": "2026-08-25",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/witch-los-angeles-california-08-25-2026/event/090064AE3E681B0E",
+        "image": "https://s1.ticketm.net/dam/e/690/97704c6a-9a81-41aa-ba5e-040b0e187690_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -495,13 +495,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Gipsy Kings featuring Nicolas Reyes",
-        "date": "2026-08-07",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/gipsy-kings-featuring-nicolas-reyes-los-angeles-california-08-07-2026/event/09006443D3988E8C",
-        "image": "https://s1.ticketm.net/dam/a/c42/26ae5538-9820-4704-966f-a6e4cf5e5c42_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "O.A.R. Three Decades Tour",
         "date": "2026-08-08",
         "time": "18:30:00",
@@ -535,6 +528,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/the-guess-who-takin-it-back-los-angeles-california-08-19-2026/event/09006458F47DD28E",
         "image": "https://s1.ticketm.net/dam/a/cd1/786a8e7f-5b99-4fc6-b756-d6d9297d3cd1_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mt. Joy 2026: 2 Day Ticket (08/20 - 08/21) Valid Both Days",
+        "date": "2026-08-20",
+        "time": null,
+        "url": "https://www.ticketmaster.com/mt-joy-2026-2-day-ticket-los-angeles-california-08-20-2026/event/0900637A9E4A8605",
+        "image": "https://s1.ticketm.net/dam/a/54c/1e50f365-4f53-4bbd-8571-f0eb65f5154c_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Mt. Joy 2026 Poster Add-On *Not An Event Ticket*",
@@ -605,13 +605,6 @@
     "Geffen Playhouse": [],
     "Pasadena Playhouse": [],
     "Ricardo Montalban Theatre": [
-      {
-        "name": "Brian Henson's Puppet Up!",
-        "date": "2026-08-07",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-08-07-2026/event/0B0064A7A97B6327",
-        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Brian Henson's Puppet Up!",
         "date": "2026-08-08",
@@ -879,27 +872,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Cristela Alonzo, Nika King, Jay Phillips, Greg Fitzsimmons, Eleanor Kerrigan, Andre Kelley, and More TBA!",
-        "date": "2026-08-07",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252484",
-        "image": "https://s1.ticketm.net/dam/a/032/9b9b4e28-ea74-43e5-bf77-12b1ae0f2032_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Panic! At the Lab ft. Curtis Cook, Natalie McGill, Kyle Rehl, Julia Stone, Von Decarlo, Silvia De Anda, Drew Landry, Jonathon Hollis",
-        "date": "2026-08-07",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/panic-at-the-lab-ft-hollywood-improv-the-lab-tickets/14199584",
-        "image": "https://i.ticketweb.com/i/00/12/91/66/34_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Frankie Quinones, Brent Morin, Jessie Jetski Johnson, Johnny Pemberton, Fahim Anwar, Erik Griffin, Kirk Fox, Jeanne Whitney, and more TBA",
-        "date": "2026-08-07",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252534",
-        "image": "https://s1.ticketm.net/dam/a/5c6/6dd00db3-3bc5-4951-8615-c71573c515c6_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Anthony Jeselnik, Cristela Alonzo, Chris Estrada, Cathy Ladman, Owen Smith, Francisco Ramos, Justine Marino, and more TBA!",
         "date": "2026-08-08",
         "time": "19:00:00",
@@ -907,11 +879,11 @@
         "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Andy Woodhull, Jenny Johnson, Radu Bondar, Quincy Weekley, Esther Steinberg and more TBA",
+        "name": "Tonight at the Lab ft. Andy Woodhull, Jenny Johnson, Radu Bondar, Quincy Weekley, Esther Steinberg, Julian Fernandez, Josef Anolin and more TBA",
         "date": "2026-08-08",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14250394",
-        "image": "https://i.ticketweb.com/i/00/13/61/65/33_Edp.jpg?v=10"
+        "image": "https://i.ticketweb.com/i/00/13/61/65/33_Edp.jpg?v=12"
       },
       {
         "name": "Tonight at the Improv ft. Craig Conant,  Doug Benson, Yassir Lester, Sara Weinshenk, Denny Love, Matt Fulchiron, Nicky Paris and more TBA",
@@ -921,11 +893,11 @@
         "image": "https://s1.ticketm.net/dam/a/b62/69229ac0-c492-4089-9026-cc50c4261b62_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Undiscovered Genius ft. Kazeem Rahman, Josh Edelman, Radu Bondar, Mike Eshaq, Alexis Prigo, Delo Brown, Chris Wilmoth, Arthur Hamilton & more TBA!",
+        "name": "Undiscovered Genius ft. Kazeem Rahman, Josh Edelman, Radu Bondar, Alexis Prigo, Jackson Banks, Chris Wilmoth, Arthur Hamilton & more TBA!",
         "date": "2026-08-08",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-kazeem-rahman-hollywood-improv-the-lab-tickets/15002213",
-        "image": "https://i.ticketweb.com/i/00/13/60/59/43_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/60/59/43_Edp.jpg?v=7"
       },
       {
         "name": "Tonight at the Improv ft. Al Madrigal, Zoltan Kaszas, Shapel Lacey, Ian Edwards, Danny Jolles, Jessica Michelle Singleton, Michael Rapaport, Dan Mahboubian Rosen, Matt Marx and more TBA",
@@ -942,7 +914,7 @@
         "image": "https://s1.ticketm.net/dbimages/180583a.jpg"
       },
       {
-        "name": "Tonight at the Improv ft Chelsea Handler, Ron Funches, Sklar Brothers, Laurie Kilmartin, Zainab Johnson, Mike Falzone & more TBA",
+        "name": "Tonight at the Improv ft Chelsea Handler,  Christopher Titus, Ron Funches, Sklar Brothers, Laurie Kilmartin, Zainab Johnson, Mike Falzone & more TBA",
         "date": "2026-08-10",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15015993",
@@ -977,6 +949,13 @@
         "image": "https://i.ticketweb.com/i/00/12/97/64/64_Edp.jpg?v=4"
       },
       {
+        "name": "Tonight at the Improv ft. Ray Romano, Chelsea Handler, Tiffany Haddish, Craig Robinson, Brian Monarch, Leah Knauer and More TBD",
+        "date": "2026-08-11",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261234",
+        "image": "https://s1.ticketm.net/dam/a/0ea/1df53b79-a116-4b41-8430-8c6790d290ea_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Funny Mill ft. Todd Glass, Josh Shakespeare, Rishi Arya, Zeo Niu, Brian Wiora, Rob DaRocha, Aubie Bercy, Bradley Johnson, Mado Lilliana",
         "date": "2026-08-11",
         "time": "19:30:00",
@@ -989,6 +968,20 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/15014453",
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Craig Robinson, Zainab Johnson, Donnell Rawlings, Ray Lau, Jackson McQueen, Mark Hayes and more TBA",
+        "date": "2026-08-11",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15000713",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lab Work",
+        "date": "2026-08-12",
+        "time": "18:00:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14250454",
+        "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
       }
     ]
   }
