@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T16:25:53.415Z",
+  "generated": "2026-08-09T16:27:41.273Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -59,23 +59,8 @@
         "image": "https://s1.ticketm.net/dam/a/20a/f7da40f2-f6bb-40bb-828f-0c6ab0a6620a_RECOMENDATION_16_9.jpg"
       }
     ],
-    "El Rey Theatre": [
-      {
-        "name": "THE FESTIVAL OF THE LION featuring THE ORPHICS",
-        "date": "2026-08-08",
-        "time": "20:30",
-        "url": "https://www.eventbrite.com/e/the-festival-of-the-lion-featuring-the-orphics-tickets-1994104349790",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188962630%2F2163148784%2F1%2Foriginal.20260715-225003?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=942d3dbe8bee4e62a831fbd817a29aa2"
-      }
-    ],
+    "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Kingfishr",
-        "date": "2026-08-08",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-g38",
-        "image": null
-      },
       {
         "name": "Faouzia",
         "date": "2026-08-09",
@@ -124,16 +109,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PboU",
         "image": "https://s1.ticketm.net/dam/a/9ad/4bf406ce-e3e9-418e-b9e4-eacc0ba519ad_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Hayla (18 and Over)",
+        "date": "2026-09-04",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A708qz",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Emo Nite",
-        "date": "2026-08-07",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14250754",
-        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Audiofreq, Codeblack, Toneshifterz",
         "date": "2026-08-14",
@@ -182,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/korolova-avalon-hollywood-tickets/14275344",
         "image": "https://s1.ticketm.net/dam/a/0aa/e4f3b47a-26a8-44fa-ab92-8f16b62c60aa_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "PARTIBOI69",
+        "date": "2026-09-18",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/partiboi69-avalon-hollywood-tickets/14990203",
+        "image": "https://s1.ticketm.net/dam/a/d77/4a74ee49-6cb0-47ec-ba9e-705ccd9e1d77_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -244,13 +236,6 @@
     ],
     "Peacock Theater": [
       {
-        "name": "Panter Belico w/ Arley Perez",
-        "date": "2026-08-08",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A704Z-",
-        "image": "https://s1.ticketm.net/dam/a/fe0/4d190769-326c-460e-8f4f-3b3aa5b21fe0_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Ricardo Montaner",
         "date": "2026-08-21",
         "time": "20:00:00",
@@ -298,16 +283,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3Fk",
         "image": null
+      },
+      {
+        "name": "Umamusume: Pretty Derby",
+        "date": "2026-10-22",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZF1K",
+        "image": null
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Driveways",
-        "date": "2026-08-08",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/driveways-los-angeles-california-08-08-2026/event/0900646BA59191A6",
-        "image": "https://s1.ticketm.net/dam/e/564/aeb5915f-9d93-4069-ad81-75efce53b564_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Iwrotehaikusaboutcannibalisminyouryearbook",
         "date": "2026-08-14",
@@ -356,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/witch-los-angeles-california-08-25-2026/event/090064AE3E681B0E",
         "image": "https://s1.ticketm.net/dam/e/690/97704c6a-9a81-41aa-ba5e-040b0e187690_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Broadway Rave",
+        "date": "2026-08-28",
+        "time": "22:00:00",
+        "url": "https://www.ticketmaster.com/broadway-rave-los-angeles-california-08-28-2026/event/090064C30388BE5E",
+        "image": "https://s1.ticketm.net/dam/e/dfa/5390065c-dbf2-47c2-920e-0614d8c85dfa_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -495,13 +487,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "O.A.R. Three Decades Tour",
-        "date": "2026-08-08",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/oar-three-decades-tour-los-angeles-california-08-08-2026/event/0900635CE5A483CC",
-        "image": "https://s1.ticketm.net/dam/a/d65/f66d76e4-476c-4c40-bd37-341041cb8d65_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "KCSN Presents: An Evening With Goose",
         "date": "2026-08-14",
         "time": "19:00:00",
@@ -549,6 +534,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/mt-joy-2026-celebrating-10-years-los-angeles-california-08-20-2026/event/09006379E445BED5",
         "image": "https://s1.ticketm.net/dam/a/54c/1e50f365-4f53-4bbd-8571-f0eb65f5154c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mt. Joy 2026 Poster Add-On *Not An Event Ticket*",
+        "date": "2026-08-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/mt-joy-2026-poster-addon-not-los-angeles-california-08-21-2026/event/0900637AD3EBAC45",
+        "image": null
       }
     ],
     "Dolby Theatre": [
@@ -605,13 +597,6 @@
     "Geffen Playhouse": [],
     "Pasadena Playhouse": [],
     "Ricardo Montalban Theatre": [
-      {
-        "name": "Brian Henson's Puppet Up!",
-        "date": "2026-08-08",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-08-08-2026/event/0B0064A7A97E6332",
-        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Brian Henson's Puppet Up!",
         "date": "2026-08-09",
@@ -872,35 +857,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Cristela Alonzo, Chris Estrada, Cathy Ladman, Owen Smith, Francisco Ramos, Justine Marino, and more TBA!",
-        "date": "2026-08-08",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972943",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Andy Woodhull, Jenny Johnson, Radu Bondar, Quincy Weekley, Esther Steinberg, Julian Fernandez, Josef Anolin and more TBA",
-        "date": "2026-08-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14250394",
-        "image": "https://i.ticketweb.com/i/00/13/61/65/33_Edp.jpg?v=12"
-      },
-      {
-        "name": "Tonight at the Improv ft. Craig Conant,  Doug Benson, Yassir Lester, Sara Weinshenk, Denny Love, Matt Fulchiron, Nicky Paris and more TBA",
-        "date": "2026-08-08",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972923",
-        "image": "https://s1.ticketm.net/dam/a/b62/69229ac0-c492-4089-9026-cc50c4261b62_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Undiscovered Genius ft. Kazeem Rahman, Josh Edelman, Radu Bondar, Alexis Prigo, Jackson Banks, Chris Wilmoth, Arthur Hamilton & more TBA!",
-        "date": "2026-08-08",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-kazeem-rahman-hollywood-improv-the-lab-tickets/15002213",
-        "image": "https://i.ticketweb.com/i/00/13/60/59/43_Edp.jpg?v=7"
-      },
-      {
-        "name": "Tonight at the Improv ft. Al Madrigal, Zoltan Kaszas, Shapel Lacey, Ian Edwards, Danny Jolles, Jessica Michelle Singleton, Michael Rapaport, Dan Mahboubian Rosen, Matt Marx and more TBA",
+        "name": "Tonight at the Improv ft. Al Madrigal, Zoltan Kaszas, Shapel Lacey, Ian Edwards, Danny Jolles, Jessica Michelle Singleton, Michael Rapaport, Laura Peek, Matt Marx and more TBA",
         "date": "2026-08-09",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14267344",
@@ -982,6 +939,34 @@
         "time": "18:00:00",
         "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14250454",
         "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
+      },
+      {
+        "name": "*JUST ADDED RON FUNCHES* COMEDY CRUSH FT. TIFFANY HADDISH, ADAM RAY, JUSTINE MARINO, AVERY PEARSON & HUGE SPECIAL GUESTS!",
+        "date": "2026-08-12",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/just-added-ron-funches-comedy-hollywood-improv-the-main-room-tickets/14247834",
+        "image": "https://s1.ticketm.net/dam/a/055/6c45506b-40ac-430f-ab82-6ce05178c055_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Star F*ckers ft. Amy Silverberg, Alexa Loftus, Macey Isaacs, Courtney O'Donnell, Mike Liebenson, Nori Reed, Max Fox",
+        "date": "2026-08-12",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/star-fckers-ft-amy-silverberg-hollywood-improv-the-lab-tickets/14953393",
+        "image": "https://i.ticketweb.com/i/00/13/55/97/93_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv ft. Damon Wayans, Howie Mandel, Ron Funches, Jen Murphy and Very Special Guests",
+        "date": "2026-08-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261224",
+        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "New Joke Night ft. Mike Falzone & JF Harris",
+        "date": "2026-08-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/new-joke-night-ft-mike-hollywood-improv-the-lab-tickets/15002253",
+        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       }
     ]
   }
