@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T16:27:41.273Z",
+  "generated": "2026-08-10T16:48:15.037Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Faouzia",
-        "date": "2026-08-09",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70doO",
-        "image": null
-      },
-      {
         "name": "Benjamin William Hastings w/ Aodhan King",
         "date": "2026-08-10",
         "time": "19:00:00",
@@ -116,6 +109,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A708qz",
         "image": null
+      },
+      {
+        "name": "Nitzer Ebb",
+        "date": "2026-09-05",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70o-P",
+        "image": "https://s1.ticketm.net/dam/a/6b9/02392df4-1432-4bb1-8c0a-bc7cd3bef6b9_958011_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -596,15 +596,7 @@
     ],
     "Geffen Playhouse": [],
     "Pasadena Playhouse": [],
-    "Ricardo Montalban Theatre": [
-      {
-        "name": "Brian Henson's Puppet Up!",
-        "date": "2026-08-09",
-        "time": "17:00:00",
-        "url": "https://www.ticketmaster.com/brian-hensons-puppet-up-hollywood-california-08-09-2026/event/0B0064A7A9846345",
-        "image": "https://s1.ticketm.net/dam/a/3aa/0cf9383e-6045-4ecf-9237-6f97a70773aa_RECOMENDATION_16_9.jpg"
-      }
-    ],
+    "Ricardo Montalban Theatre": [],
     "Ambassador Auditorium": [],
     "Wilshire Ebell Theater and Club": [
       {
@@ -721,15 +713,7 @@
     "Haugh Performing Arts Center": [],
     "Eli Broad Stage": [],
     "Beverly O'Neill Theater": [],
-    "Levitt Pavilion": [
-      {
-        "name": "Mundo Maya Day + Baritone Joe, Chapincitos Los Angeles & Ajupéme California",
-        "date": "2026-08-09",
-        "time": "17:00",
-        "url": "https://www.eventbrite.com/e/mundo-maya-day-baritone-joe-chapincitos-los-angeles-ajupeme-california-tickets-1996256317383",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186453439%2F405366306269%2F1%2Foriginal.20260608-233730?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a878752ef6a7853144f2f1d7d80bc8fd"
-      }
-    ],
+    "Levitt Pavilion": [],
     "Bootleg Theater": [],
     "Coronet Theater": [],
     "Ivar Theatre": [],
@@ -799,20 +783,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-08-09",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1989350715542",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-08-09",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989350743626",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-08-11",
         "time": "19:45",
@@ -841,6 +811,20 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
       },
       {
+        "name": "Chocolate Sundaes 9:30PM",
+        "date": "2026-08-23",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989350919151",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Chocolate Sundaes 7:00PM",
+        "date": "2026-08-30",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1989351299288",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
         "date": "2026-09-20",
         "time": "17:00",
@@ -856,20 +840,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Al Madrigal, Zoltan Kaszas, Shapel Lacey, Ian Edwards, Danny Jolles, Jessica Michelle Singleton, Michael Rapaport, Laura Peek, Matt Marx and more TBA",
-        "date": "2026-08-09",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14267344",
-        "image": "https://s1.ticketm.net/dam/a/2dc/b5b74ad6-0e8d-423d-bf03-de93d024f2dc_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Stronger Choices ft. Adam Lieblein, Brandon Vestal, Bruce Jingles, Jay Flats, Jefferson McDonald, Joe Stapleton, Keith Pedro, Kiki Andersen, Shaena Rabbani, and more TBA",
-        "date": "2026-08-09",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/stronger-choices-ft-adam-lieblein-hollywood-improv-the-lab-tickets/14953763",
-        "image": "https://s1.ticketm.net/dbimages/180583a.jpg"
-      },
       {
         "name": "Tonight at the Improv ft Chelsea Handler,  Christopher Titus, Ron Funches, Sklar Brothers, Laurie Kilmartin, Zainab Johnson, Mike Falzone & more TBA",
         "date": "2026-08-10",
@@ -941,7 +911,7 @@
         "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
       },
       {
-        "name": "*JUST ADDED RON FUNCHES* COMEDY CRUSH FT. TIFFANY HADDISH, ADAM RAY, JUSTINE MARINO, AVERY PEARSON & HUGE SPECIAL GUESTS!",
+        "name": "*JUST ADDED RON FUNCHES* COMEDY CRUSH FT. ADAM RAY, TIFFANY HADDISH, CAROLINE RHEA, JUSTINE MARINO, AVERY PEARSON & HUGE SPECIAL GUESTS!",
         "date": "2026-08-12",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/just-added-ron-funches-comedy-hollywood-improv-the-main-room-tickets/14247834",
@@ -967,6 +937,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/new-joke-night-ft-mike-hollywood-improv-the-lab-tickets/15002253",
         "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-08-13",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/15014463",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Michael Blackson",
+        "date": "2026-08-13",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/michael-blackson-hollywood-improv-the-main-room-tickets/14267514",
+        "image": "https://s1.ticketm.net/dam/a/2d8/9d31340e-beb9-4944-b62f-707ff186d2d8_765891_RECOMENDATION_16_9.jpg"
       }
     ]
   }
