@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T16:48:15.037Z",
+  "generated": "2026-08-11T16:53:04.048Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Benjamin William Hastings w/ Aodhan King",
-        "date": "2026-08-10",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6-U",
-        "image": null
-      },
-      {
         "name": "The Sword w/ Spoon Benders",
         "date": "2026-08-18",
         "time": "20:00:00",
@@ -116,6 +109,13 @@
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70o-P",
         "image": "https://s1.ticketm.net/dam/a/6b9/02392df4-1432-4bb1-8c0a-bc7cd3bef6b9_958011_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Warning",
+        "date": "2026-09-09",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PY7e",
+        "image": "https://s1.ticketm.net/dam/a/a82/1552de05-da3e-4bbd-90ee-0569646d9a82_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -162,18 +162,18 @@
         "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "YOUNA x Silver Panda",
+        "date": "2026-08-29",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/youna-x-silver-panda-avalon-hollywood-tickets/15024573",
+        "image": "https://i.ticketweb.com/i/00/13/62/42/43_Edp.jpg?v=6"
+      },
+      {
         "name": "Korolova",
         "date": "2026-09-05",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/korolova-avalon-hollywood-tickets/14275344",
         "image": "https://s1.ticketm.net/dam/a/0aa/e4f3b47a-26a8-44fa-ab92-8f16b62c60aa_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "PARTIBOI69",
-        "date": "2026-09-18",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/partiboi69-avalon-hollywood-tickets/14990203",
-        "image": "https://s1.ticketm.net/dam/a/d77/4a74ee49-6cb0-47ec-ba9e-705ccd9e1d77_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -787,7 +787,7 @@
         "date": "2026-08-11",
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1988197072966",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190735104%2F2987014365277%2F1%2Foriginal.20260810-191451?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3e2171e1bcbb2a2445f0ea494b51aa70"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -841,34 +841,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft Chelsea Handler,  Christopher Titus, Ron Funches, Sklar Brothers, Laurie Kilmartin, Zainab Johnson, Mike Falzone & more TBA",
-        "date": "2026-08-10",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15015993",
-        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Mermaid Comedy Hour ft. Kari Assad, Lynn Maleh, Holly Ballantine, Amy Brown, Dylan McKeever, Jessica Sele, Taquita Love, Katie Arroyo, Anu Bee",
-        "date": "2026-08-10",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/mermaid-comedy-hour-ft-kari-hollywood-improv-the-lab-tickets/14816253",
-        "image": "https://i.ticketweb.com/i/00/13/41/62/73_Edp.jpg?v=4"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
-        "date": "2026-08-10",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261374",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-08-10",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/15014443",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-08-11",
         "time": "17:15:00",
@@ -911,21 +883,21 @@
         "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
       },
       {
-        "name": "*JUST ADDED RON FUNCHES* COMEDY CRUSH FT. ADAM RAY, TIFFANY HADDISH, CAROLINE RHEA, JUSTINE MARINO, AVERY PEARSON & HUGE SPECIAL GUESTS!",
+        "name": "*JUST ADDED: TREVOR WALLACE* COMEDY CRUSH FT. TIFFANY HADDISH, RON FUNCHES, CAROLINE RHEA, JUSTINE MARINO, AVERY PEARSON & HUGE SPECIAL GUESTS!",
         "date": "2026-08-12",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-ron-funches-comedy-hollywood-improv-the-main-room-tickets/14247834",
+        "url": "https://www.ticketweb.com/event/just-added-trevor-wallace-comedy-hollywood-improv-the-main-room-tickets/14247834",
         "image": "https://s1.ticketm.net/dam/a/055/6c45506b-40ac-430f-ab82-6ce05178c055_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Star F*ckers ft. Amy Silverberg, Alexa Loftus, Macey Isaacs, Courtney O'Donnell, Mike Liebenson, Nori Reed, Max Fox",
+        "name": "Star F*ckers ft. Amy Silverberg, Alexa Loftus, Macey Isaacs, Courtney O'Donnell, Mike Liebenson, Jackson Banks, Nori Reed, Max Fox",
         "date": "2026-08-12",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/star-fckers-ft-amy-silverberg-hollywood-improv-the-lab-tickets/14953393",
-        "image": "https://i.ticketweb.com/i/00/13/55/97/93_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/13/55/97/93_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Damon Wayans, Howie Mandel, Ron Funches, Jen Murphy and Very Special Guests",
+        "name": "Tonight at the Improv ft. Damon Wayans, Howie Mandel, Iliza Shlesinger, Ron Funches, Jen Murphy and Very Special Guests",
         "date": "2026-08-13",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261224",
@@ -950,6 +922,34 @@
         "date": "2026-08-13",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/michael-blackson-hollywood-improv-the-main-room-tickets/14267514",
+        "image": "https://s1.ticketm.net/dam/a/2d8/9d31340e-beb9-4944-b62f-707ff186d2d8_765891_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Maddy Kelly, Austin Nasso, Gary Cannon and more TBA",
+        "date": "2026-08-14",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252504",
+        "image": "https://i.ticketweb.com/i/00/13/62/16/13_Edp.jpg?v=4"
+      },
+      {
+        "name": "Lingerie & Laughter ft. Pink Foxx ft. OJ Stellar, Quei Tann, Nacya Marreiro, Tanjareen, Shannon Hardy",
+        "date": "2026-08-14",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/lingerie-laughter-ft-pink-hollywood-improv-the-lab-tickets/14250504",
+        "image": "https://i.ticketweb.com/i/00/12/96/67/14_Edp.jpg?v=5"
+      },
+      {
+        "name": "Comedy Grind ft. Kristy Quinn, Lachlan Patterson, Thom Tran, Isaac Chu, Jim Gallagher, Amy Ashton, Willie Krisztal, Dustin David, Jessica Alaniz, Klein Boys, Rob DaRocha and more TBA",
+        "date": "2026-08-14",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/comedy-grind-ft-kristy-quinn-hollywood-improv-the-lab-tickets/14953773",
+        "image": "https://i.ticketweb.com/i/00/13/56/04/53_Edp.jpg?v=4"
+      },
+      {
+        "name": "Michael Blackson",
+        "date": "2026-08-14",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/michael-blackson-hollywood-improv-the-main-room-tickets/14267524",
         "image": "https://s1.ticketm.net/dam/a/2d8/9d31340e-beb9-4944-b62f-707ff186d2d8_765891_RECOMENDATION_16_9.jpg"
       }
     ]
