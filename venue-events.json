@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T16:53:04.048Z",
+  "generated": "2026-08-12T16:51:55.479Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -166,14 +166,14 @@
         "date": "2026-08-29",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/youna-x-silver-panda-avalon-hollywood-tickets/15024573",
-        "image": "https://i.ticketweb.com/i/00/13/62/42/43_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/62/42/43_Edp.jpg?v=8"
       },
       {
-        "name": "Korolova",
-        "date": "2026-09-05",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/korolova-avalon-hollywood-tickets/14275344",
-        "image": "https://s1.ticketm.net/dam/a/0aa/e4f3b47a-26a8-44fa-ab92-8f16b62c60aa_RECOMENDATION_16_9.jpg"
+        "name": "Emo Nite",
+        "date": "2026-09-04",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14261014",
+        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -363,14 +363,14 @@
         "date": "2026-12-18",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/world-ballet-company-the-nutcracker-glendale-california-12-18-2026/event/0B0064A6D28077FA",
-        "image": "https://s1.ticketm.net/dam/a/71a/a73afb87-2be1-4938-8af0-6df9bd9e271a_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/ebe/b76ccc52-aee4-40e1-91c3-c44c7110eebe_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "World Ballet Company: The Nutcracker",
         "date": "2026-12-19",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/world-ballet-company-the-nutcracker-glendale-california-12-19-2026/event/0B0064A6D28377FD",
-        "image": "https://s1.ticketm.net/dam/a/71a/a73afb87-2be1-4938-8af0-6df9bd9e271a_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/ebe/b76ccc52-aee4-40e1-91c3-c44c7110eebe_RECOMENDATION_16_9.jpg"
       }
     ],
     "Kirk Douglas Theatre": [
@@ -783,13 +783,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Rubee Tuesdays 7:45pm",
-        "date": "2026-08-11",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1988197072966",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190735104%2F2987014365277%2F1%2Foriginal.20260810-191451?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3e2171e1bcbb2a2445f0ea494b51aa70"
-      },
-      {
         "name": "Chocolate Sundaes 7:00PM",
         "date": "2026-08-16",
         "time": "19:00",
@@ -825,6 +818,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
       },
       {
+        "name": "Chocolate Sundaes 9:30PM",
+        "date": "2026-08-30",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989351331384",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
         "date": "2026-09-20",
         "time": "17:00",
@@ -840,41 +840,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-08-11",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14261414",
-        "image": "https://i.ticketweb.com/i/00/12/97/64/64_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Ray Romano, Chelsea Handler, Tiffany Haddish, Craig Robinson, Brian Monarch, Leah Knauer and More TBD",
-        "date": "2026-08-11",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261234",
-        "image": "https://s1.ticketm.net/dam/a/0ea/1df53b79-a116-4b41-8430-8c6790d290ea_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Funny Mill ft. Todd Glass, Josh Shakespeare, Rishi Arya, Zeo Niu, Brian Wiora, Rob DaRocha, Aubie Bercy, Bradley Johnson, Mado Lilliana",
-        "date": "2026-08-11",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/funny-mill-ft-todd-glass-hollywood-improv-the-lab-tickets/14216664",
-        "image": "https://s1.ticketm.net/dam/a/d3b/6d6c55a3-1995-4625-836b-211e135b0d3b_1122001_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-08-11",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/15014453",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Craig Robinson, Zainab Johnson, Donnell Rawlings, Ray Lau, Jackson McQueen, Mark Hayes and more TBA",
-        "date": "2026-08-11",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15000713",
-        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Lab Work",
         "date": "2026-08-12",
@@ -918,18 +883,11 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Michael Blackson",
-        "date": "2026-08-13",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/michael-blackson-hollywood-improv-the-main-room-tickets/14267514",
-        "image": "https://s1.ticketm.net/dam/a/2d8/9d31340e-beb9-4944-b62f-707ff186d2d8_765891_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Maddy Kelly, Austin Nasso, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Tim Dillon, Maddy Kelly, Austin Nasso, Gary Cannon and more TBA",
         "date": "2026-08-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252504",
-        "image": "https://i.ticketweb.com/i/00/13/62/16/13_Edp.jpg?v=4"
+        "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Lingerie & Laughter ft. Pink Foxx ft. OJ Stellar, Quei Tann, Nacya Marreiro, Tanjareen, Shannon Hardy",
@@ -951,6 +909,48 @@
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/michael-blackson-hollywood-improv-the-main-room-tickets/14267524",
         "image": "https://s1.ticketm.net/dam/a/2d8/9d31340e-beb9-4944-b62f-707ff186d2d8_765891_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Amir K, Orny Adams, Erik Griffin, Gary Cannon and more TBA",
+        "date": "2026-08-15",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972963",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Damon Wayans: Under Construction",
+        "date": "2026-08-15",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/damon-wayans-under-construction-hollywood-improv-the-lab-tickets/14250404",
+        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Tim Dillon, Steph Tolev, BT Kingsley, Andre Kelley and More TBA!",
+        "date": "2026-08-15",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972953",
+        "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Reid the Room ft. Reid Brackenbury and more TBA!",
+        "date": "2026-08-15",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14257454",
+        "image": "https://i.ticketweb.com/i/00/12/97/31/54_Edp.jpg?v=2"
+      },
+      {
+        "name": "Jack Jr.",
+        "date": "2026-08-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/jack-jr-hollywood-improv-the-main-room-tickets/14867513",
+        "image": "https://s1.ticketm.net/dam/a/a23/994d1c6a-da6e-4d91-bb7b-7b8b8eb75a23_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Jackie + Amy's Summer Slam ft. Jackie Fabulous, Amy Miller, Frankie Quiñones, Kam Patterson, Katherine Blanford, Felicia Folkes, Kevin Sullivan, and Leonard Robinson",
+        "date": "2026-08-17",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/jackie-amys-summer-slam-hollywood-improv-the-main-room-tickets/14225824",
+        "image": "https://s1.ticketm.net/dam/a/eac/b5e8a599-9960-4af3-816d-3d98ab034eac_1513971_RECOMENDATION_16_9.jpg"
       }
     ]
   }
