@@ -1,14 +1,7 @@
 {
-  "generated": "2026-08-12T16:51:55.479Z",
+  "generated": "2026-08-13T16:50:53.659Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Usama Siddiquee - \"Right After You Left\" - Vinyl Room @ the Palladium",
-        "date": "2026-08-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/usama-siddiquee-right-after-you-left-hollywood-california-08-12-2026/event/090065061C7F9E39",
-        "image": "https://s1.ticketm.net/dam/a/a12/f6c544db-b3a3-4d88-b839-922713136a12_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "T.I. - The King Succession Tour",
         "date": "2026-08-13",
@@ -57,6 +50,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/ian-asher-hollywood-california-08-28-2026/event/090064B4D6CF7477",
         "image": "https://s1.ticketm.net/dam/a/20a/f7da40f2-f6bb-40bb-828f-0c6ab0a6620a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Courtney Barnett - Creature of Habit Tour",
+        "date": "2026-08-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/courtney-barnett-creature-of-habit-tour-hollywood-california-08-29-2026/event/0900642DC297B2B9",
+        "image": "https://s1.ticketm.net/dam/a/a82/26811d24-2fe8-40de-8ddb-1762417e5a82_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "Chris Ramsay",
-        "date": "2026-08-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v_0",
-        "image": null
-      },
-      {
         "name": "PROLIFIC Experience with Special Guests",
         "date": "2026-08-13",
         "time": "20:00:00",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709b-",
         "image": "https://s1.ticketm.net/dam/a/47e/602bf020-a665-4c6c-9d3c-f0948088a47e_995771_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Los Hermanos Flores",
+        "date": "2026-09-18",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uP",
+        "image": null
       }
     ],
     "Peacock Theater": [
@@ -841,38 +841,17 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-08-12",
-        "time": "18:00:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14250454",
-        "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
-      },
-      {
-        "name": "*JUST ADDED: TREVOR WALLACE* COMEDY CRUSH FT. TIFFANY HADDISH, RON FUNCHES, CAROLINE RHEA, JUSTINE MARINO, AVERY PEARSON & HUGE SPECIAL GUESTS!",
-        "date": "2026-08-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-trevor-wallace-comedy-hollywood-improv-the-main-room-tickets/14247834",
-        "image": "https://s1.ticketm.net/dam/a/055/6c45506b-40ac-430f-ab82-6ce05178c055_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Star F*ckers ft. Amy Silverberg, Alexa Loftus, Macey Isaacs, Courtney O'Donnell, Mike Liebenson, Jackson Banks, Nori Reed, Max Fox",
-        "date": "2026-08-12",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/star-fckers-ft-amy-silverberg-hollywood-improv-the-lab-tickets/14953393",
-        "image": "https://i.ticketweb.com/i/00/13/55/97/93_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Damon Wayans, Howie Mandel, Iliza Shlesinger, Ron Funches, Jen Murphy and Very Special Guests",
+        "name": "Tonight at the Improv ft. Damon Wayans, Howie Mandel, Iliza Shlesinger, Ron Funches, Charles Fleischer, Jen Murphy and Very Special Guests",
         "date": "2026-08-13",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261224",
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "New Joke Night ft. Mike Falzone & JF Harris",
+        "name": "New Joke Night ft. Asif Ali, Erica Rhodes, Steve Furey, Dan Levy, Ellory Smith, J.F. Harris",
         "date": "2026-08-13",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/new-joke-night-ft-mike-hollywood-improv-the-lab-tickets/15002253",
+        "url": "https://www.ticketweb.com/event/new-joke-night-ft-asif-hollywood-improv-the-lab-tickets/15002253",
         "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       },
       {
@@ -883,7 +862,7 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Tim Dillon, Maddy Kelly, Austin Nasso, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Tim Dillon, Maddy Kelly, Austin Nasso, Rachel Scanlon, Jimmy Dore, Gary Cannon and more TBA",
         "date": "2026-08-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252504",
@@ -911,7 +890,7 @@
         "image": "https://s1.ticketm.net/dam/a/2d8/9d31340e-beb9-4944-b62f-707ff186d2d8_765891_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Amir K, Orny Adams, Erik Griffin, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Amir K, Orny Adams, Erik Griffin, Dan Levy, Laura Peek, Gary Cannon and more TBA",
         "date": "2026-08-15",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972963",
@@ -925,25 +904,32 @@
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Tim Dillon, Steph Tolev, BT Kingsley, Andre Kelley and More TBA!",
+        "name": "Tonight at the Improv ft. Tim Dillon, Steph Tolev, BT Kingsley, Dean Delray, Jessimae Peluso, Willie Simon, Andre Kelley and More TBA!",
         "date": "2026-08-15",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972953",
         "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Reid the Room ft. Reid Brackenbury and more TBA!",
+        "name": "Reid the Room ft. Reid Brackenbury, Will Burkart, Gabby Lamb, Willie Macc, Nikki Bon, Josh Edelman",
         "date": "2026-08-15",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14257454",
-        "image": "https://i.ticketweb.com/i/00/12/97/31/54_Edp.jpg?v=2"
+        "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Jack Jr.",
+        "name": "Jack Jr.ft. Damon Wayans Jr., Jeff Dye, Greg Roque, Thomas Yola and more TBA",
         "date": "2026-08-16",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/jack-jr-hollywood-improv-the-main-room-tickets/14867513",
+        "url": "https://www.ticketweb.com/event/jack-jrft-damon-wayans-jr-hollywood-improv-the-main-room-tickets/14867513",
         "image": "https://s1.ticketm.net/dam/a/a23/994d1c6a-da6e-4d91-bb7b-7b8b8eb75a23_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ron Funches: Funchadelic",
+        "date": "2026-08-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/ron-funches-funchadelic-hollywood-improv-the-lab-tickets/14873393",
+        "image": "https://s1.ticketm.net/dam/a/ca0/1f5b6d32-ff79-4568-be1b-08ae5b1e4ca0_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Jackie + Amy's Summer Slam ft. Jackie Fabulous, Amy Miller, Frankie Quiñones, Kam Patterson, Katherine Blanford, Felicia Folkes, Kevin Sullivan, and Leonard Robinson",
@@ -951,6 +937,20 @@
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/jackie-amys-summer-slam-hollywood-improv-the-main-room-tickets/14225824",
         "image": "https://s1.ticketm.net/dam/a/eac/b5e8a599-9960-4af3-816d-3d98ab034eac_1513971_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Comedy N Chill ft. Maria Bruggere, Ian Edwards, Chris Waitkus, Char Ramtin, Whitney Rayner and more TBA",
+        "date": "2026-08-17",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/comedy-n-chill-ft-maria-hollywood-improv-the-lab-tickets/14991633",
+        "image": "https://s1.ticketm.net/dam/a/e8f/b8e2de92-a81c-43cb-8336-8b2dbe790e8f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-08-17",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261384",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       }
     ]
   }
