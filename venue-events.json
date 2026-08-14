@@ -1,13 +1,13 @@
 {
-  "generated": "2026-08-13T16:50:53.659Z",
+  "generated": "2026-08-14T16:49:01.619Z",
   "venues": {
     "Hollywood Palladium": [
       {
-        "name": "T.I. - The King Succession Tour",
-        "date": "2026-08-13",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/ti-the-king-succession-tour-hollywood-california-08-13-2026/event/090064A11D1C51AF",
-        "image": "https://s1.ticketm.net/dam/a/689/f6393f31-6e1f-4a62-acea-f862bb766689_RECOMENDATION_16_9.jpg"
+        "name": "Right After You Left: Ray Lau, Zainab Johnson, Rell Battle & Guests",
+        "date": "2026-08-18",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/right-after-you-left-ray-lau-hollywood-california-08-18-2026/event/0900650DB59E95D6",
+        "image": "https://s1.ticketm.net/dam/a/a3e/6567d7ba-3117-4975-a260-342bd26b9a3e_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "NINE VICIOUS - A TOUR",
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "PROLIFIC Experience with Special Guests",
-        "date": "2026-08-13",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3qo",
-        "image": null
-      },
-      {
         "name": "RJmrLA",
         "date": "2026-08-15",
         "time": "21:00:00",
@@ -231,6 +224,13 @@
         "date": "2026-09-18",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uP",
+        "image": null
+      },
+      {
+        "name": "Loe Shimmy",
+        "date": "2026-09-19",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pk8w",
         "image": null
       }
     ],
@@ -763,18 +763,18 @@
         "image": "https://s1.ticketm.net/dam/e/a90/f1db0dea-79f3-4714-ab69-869f55838a90_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Cult Classics Cinema presents CARMEN & B*DAY Double Feature",
+        "date": "2026-09-06",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-carmen-bday-inglewood-california-09-06-2026/event/0B00650D9081C86F",
+        "image": "https://s1.ticketm.net/dam/e/f25/182ed67e-7d25-4452-a301-d3227ea5bf25_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "An Evening with J Anthony Brown",
         "date": "2026-09-12",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/an-evening-with-j-anthony-brown-inglewood-california-09-12-2026/event/0B0064EBB4124B34",
         "image": "https://s1.ticketm.net/dbimages/171626a.jpg"
-      },
-      {
-        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
-        "date": "2026-09-16",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-09-16-2026/event/0B0065028D851D7E",
-        "image": "https://s1.ticketm.net/dam/e/069/1b9c07c7-99e2-4ed3-8c77-985ec6ac8069_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -841,27 +841,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Damon Wayans, Howie Mandel, Iliza Shlesinger, Ron Funches, Charles Fleischer, Jen Murphy and Very Special Guests",
-        "date": "2026-08-13",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261224",
-        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "New Joke Night ft. Asif Ali, Erica Rhodes, Steve Furey, Dan Levy, Ellory Smith, J.F. Harris",
-        "date": "2026-08-13",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/new-joke-night-ft-asif-hollywood-improv-the-lab-tickets/15002253",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-08-13",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/15014463",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Tim Dillon, Maddy Kelly, Austin Nasso, Rachel Scanlon, Jimmy Dore, Gary Cannon and more TBA",
         "date": "2026-08-14",
         "time": "19:30:00",
@@ -904,7 +883,7 @@
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Tim Dillon, Steph Tolev, BT Kingsley, Dean Delray, Jessimae Peluso, Willie Simon, Andre Kelley and More TBA!",
+        "name": "Tonight at the Improv ft. Tim Dillon, Steph Tolev, BT Kingsley, Dean Delray, Jay Larson, Jessimae Peluso, Willie Simon, Andre Kelley and More TBA!",
         "date": "2026-08-15",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972953",
@@ -939,11 +918,11 @@
         "image": "https://s1.ticketm.net/dam/a/eac/b5e8a599-9960-4af3-816d-3d98ab034eac_1513971_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Comedy N Chill ft. Maria Bruggere, Ian Edwards, Chris Waitkus, Char Ramtin, Whitney Rayner and more TBA",
+        "name": "Comedy N Chill ft. Maria Bruggere, Asif Ali, Ian Edwards, Chris Waitkus, Char Ramtin, Aaron Monte, Whitney Rayner and more TBA",
         "date": "2026-08-17",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/comedy-n-chill-ft-maria-hollywood-improv-the-lab-tickets/14991633",
-        "image": "https://s1.ticketm.net/dam/a/e8f/b8e2de92-a81c-43cb-8336-8b2dbe790e8f_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/689/514bec4c-42ef-4165-92f8-1124365dd689_1827131_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Improv Presents: MONDERAYS with Deray Davis & more",
@@ -951,6 +930,27 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261384",
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-08-18",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/14261434",
+        "image": "https://i.ticketweb.com/i/00/12/97/64/64_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Lab! ft. Mark Hayes and more TBA!",
+        "date": "2026-08-18",
+        "time": "20:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/15002283",
+        "image": "https://i.ticketweb.com/i/00/13/60/60/23_Edp.jpg?v=3"
+      },
+      {
+        "name": "Lab Work",
+        "date": "2026-08-19",
+        "time": "18:00:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14250464",
+        "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
       }
     ]
   }
