@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T16:49:01.619Z",
+  "generated": "2026-08-15T16:17:11.013Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Audiofreq, Codeblack, Toneshifterz",
-        "date": "2026-08-14",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/audiofreq-codeblack-toneshifterz-avalon-hollywood-tickets/14908103",
-        "image": "https://i.ticketweb.com/i/00/13/50/38/83_Edp.jpg?v=9"
-      },
-      {
         "name": "Ferry Corsten",
         "date": "2026-08-15",
         "time": "22:00:00",
@@ -174,6 +167,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14261014",
         "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Korolova",
+        "date": "2026-09-05",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/korolova-avalon-hollywood-tickets/14275344",
+        "image": "https://s1.ticketm.net/dam/a/0aa/e4f3b47a-26a8-44fa-ab92-8f16b62c60aa_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Iwrotehaikusaboutcannibalisminyouryearbook",
-        "date": "2026-08-14",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/iwrotehaikusaboutcannibalisminyouryearbook-los-angeles-california-08-14-2026/event/090064DD9AB0713F",
-        "image": "https://s1.ticketm.net/dam/e/c9f/7cb4b5a8-ab1e-4114-a8f4-c969fb46dc9f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Sun Kil Moon",
         "date": "2026-08-15",
         "time": "19:00:00",
@@ -348,6 +341,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketmaster.com/broadway-rave-los-angeles-california-08-28-2026/event/090064C30388BE5E",
         "image": "https://s1.ticketm.net/dam/e/dfa/5390065c-dbf2-47c2-920e-0614d8c85dfa_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Black Lips",
+        "date": "2026-08-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/black-lips-los-angeles-california-08-29-2026/event/090064E2B3AB7361",
+        "image": "https://s1.ticketm.net/dam/a/58f/877378dd-3359-4898-95ef-a4997cf6d58f_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -435,13 +435,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "LYKN",
-        "date": "2026-08-14",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/lykn-orpheum-theatre-tickets/14790203",
-        "image": "https://i.ticketweb.com/i/00/13/39/30/53_Edp.jpg?v=18"
-      },
-      {
         "name": "Brad Mehldau: Ride Into The Sun - The Music Of Elliott Smith",
         "date": "2026-08-28",
         "time": "20:00:00",
@@ -482,17 +475,24 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/laurie-anderson-los-angeles-california-09-24-2026/event/090064CAD9E9F3B2",
         "image": "https://s1.ticketm.net/dbimages/117933a.jpg"
+      },
+      {
+        "name": "Billy Strings",
+        "date": "2026-09-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/billy-strings-los-angeles-california-09-25-2026/event/0900647EF34AE702",
+        "image": "https://s1.ticketm.net/dam/a/2c6/2e44c239-4a4c-472c-b9a8-a4e9296052c6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "She & Him: Pump Up The Volumes Tour",
+        "date": "2026-10-02",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/she-him-pump-up-the-volumes-los-angeles-california-10-02-2026/event/090064CBDA54F056",
+        "image": "https://s1.ticketm.net/dam/a/6e9/6fc0fea0-7cb6-4001-963e-5f4ae840d6e9_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
-      {
-        "name": "KCSN Presents: An Evening With Goose",
-        "date": "2026-08-14",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/kcsn-presents-an-evening-with-goose-los-angeles-california-08-14-2026/event/09006437A956DDFC",
-        "image": "https://s1.ticketm.net/dam/a/ff9/230bc504-e335-44b6-9d57-24509c477ff9_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Oldies 2 Souldies",
         "date": "2026-08-15",
@@ -541,6 +541,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/mt-joy-2026-poster-addon-not-los-angeles-california-08-21-2026/event/0900637AD3EBAC45",
         "image": null
+      },
+      {
+        "name": "Mt. Joy 2026: Celebrating 10 Years Of Mt. Joy",
+        "date": "2026-08-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/mt-joy-2026-celebrating-10-years-los-angeles-california-08-21-2026/event/09006379E448BED8",
+        "image": "https://s1.ticketm.net/dam/a/54c/1e50f365-4f53-4bbd-8571-f0eb65f5154c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -841,34 +848,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Tim Dillon, Maddy Kelly, Austin Nasso, Rachel Scanlon, Jimmy Dore, Gary Cannon and more TBA",
-        "date": "2026-08-14",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252504",
-        "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Lingerie & Laughter ft. Pink Foxx ft. OJ Stellar, Quei Tann, Nacya Marreiro, Tanjareen, Shannon Hardy",
-        "date": "2026-08-14",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/lingerie-laughter-ft-pink-hollywood-improv-the-lab-tickets/14250504",
-        "image": "https://i.ticketweb.com/i/00/12/96/67/14_Edp.jpg?v=5"
-      },
-      {
-        "name": "Comedy Grind ft. Kristy Quinn, Lachlan Patterson, Thom Tran, Isaac Chu, Jim Gallagher, Amy Ashton, Willie Krisztal, Dustin David, Jessica Alaniz, Klein Boys, Rob DaRocha and more TBA",
-        "date": "2026-08-14",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/comedy-grind-ft-kristy-quinn-hollywood-improv-the-lab-tickets/14953773",
-        "image": "https://i.ticketweb.com/i/00/13/56/04/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "Michael Blackson",
-        "date": "2026-08-14",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/michael-blackson-hollywood-improv-the-main-room-tickets/14267524",
-        "image": "https://s1.ticketm.net/dam/a/2d8/9d31340e-beb9-4944-b62f-707ff186d2d8_765891_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Iliza Shlesinger, Amir K, Orny Adams, Erik Griffin, Dan Levy, Laura Peek, Gary Cannon and more TBA",
         "date": "2026-08-15",
         "time": "19:00:00",
@@ -897,7 +876,7 @@
         "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Jack Jr.ft. Damon Wayans Jr., Jeff Dye, Greg Roque, Thomas Yola and more TBA",
+        "name": "Jack Jr.ft. Damon Wayans Jr., Jeff Dye, Greg Roque, Thomas Yola, Caesar Lizardo and more TBA",
         "date": "2026-08-16",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/jack-jrft-damon-wayans-jr-hollywood-improv-the-main-room-tickets/14867513",
@@ -911,7 +890,7 @@
         "image": "https://s1.ticketm.net/dam/a/ca0/1f5b6d32-ff79-4568-be1b-08ae5b1e4ca0_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Jackie + Amy's Summer Slam ft. Jackie Fabulous, Amy Miller, Frankie Quiñones, Kam Patterson, Katherine Blanford, Felicia Folkes, Kevin Sullivan, and Leonard Robinson",
+        "name": "Jackie + Amy's Summer Slam ft. Jackie Fabulous, Amy Miller, Kam Patterson, Katherine Blanford, Felicia Folkes, Kevin Sullivan, and Leonard Robinson",
         "date": "2026-08-17",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/jackie-amys-summer-slam-hollywood-improv-the-main-room-tickets/14225824",
@@ -939,6 +918,13 @@
         "image": "https://i.ticketweb.com/i/00/12/97/64/64_Edp.jpg?v=4"
       },
       {
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Dan Mintz (aka Tina Belcher), Kam Patterson, Brian Monarch and VERY Special Guests",
+        "date": "2026-08-18",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261194",
+        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Tonight at the Lab! ft. Mark Hayes and more TBA!",
         "date": "2026-08-18",
         "time": "20:00:00",
@@ -951,6 +937,27 @@
         "time": "18:00:00",
         "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14250464",
         "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
+      },
+      {
+        "name": "Legends ft. Jay Leno, Iliza Shlesinger, Arsenio Hall, Kevin Nealon, Greg Baldwin, Peter Murphy",
+        "date": "2026-08-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-iliza-hollywood-improv-the-main-room-tickets/14236704",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Babe Stoppp ft. Aparna Nancherla, Rachel Scanlon, The Sklar Brothers, Kyle Prue, Bebe Katsenes, Soo Ra, Rachel Pegram, Danny Sellers, Caroline Timoney, Hannah Schoen and more TBA!",
+        "date": "2026-08-19",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/babe-stoppp-ft-aparna-nancherla-hollywood-improv-the-lab-tickets/14991143",
+        "image": "https://s1.ticketm.net/dam/a/a8e/fb47f95c-7c15-4828-9a60-643513551a8e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
+        "date": "2026-08-20",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14234084",
+        "image": "https://i.ticketweb.com/i/00/12/95/03/74_Edp.jpg?v=2"
       }
     ]
   }
