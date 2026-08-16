@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T16:17:11.013Z",
+  "generated": "2026-08-16T16:17:31.184Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Ferry Corsten",
-        "date": "2026-08-15",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/ferry-corsten-avalon-hollywood-tickets/14932913",
-        "image": "https://s1.ticketm.net/dam/a/e38/d64bfcd9-fa5b-4fcd-a710-ec9b11f4ee38_239391_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Bryce Alakai",
         "date": "2026-08-20",
         "time": "22:00:00",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/korolova-avalon-hollywood-tickets/14275344",
         "image": "https://s1.ticketm.net/dam/a/0aa/e4f3b47a-26a8-44fa-ab92-8f16b62c60aa_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Nimda x Prosecute x yvm3",
+        "date": "2026-09-11",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/nimda-x-prosecute-x-yvm3-avalon-hollywood-tickets/15034163",
+        "image": "https://i.ticketweb.com/i/00/13/63/14/63_Edp.jpg?v=8"
       }
     ],
     "The Novo": [
-      {
-        "name": "RJmrLA",
-        "date": "2026-08-15",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pv0p",
-        "image": null
-      },
       {
         "name": "Hulvey",
         "date": "2026-08-22",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pk8w",
         "image": null
+      },
+      {
+        "name": "Kruder & Dorfmeister",
+        "date": "2026-09-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-YAZ",
+        "image": "https://s1.ticketm.net/dam/a/e13/02b90d17-fd67-4534-a9d7-c595c524fe13_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Sun Kil Moon",
-        "date": "2026-08-15",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/sun-kil-moon-los-angeles-california-08-15-2026/event/090064C3F6C0A263",
-        "image": "https://s1.ticketm.net/dam/a/7f3/90a6ee35-ade9-4749-b62e-480952bd27f3_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Desert Daze presents: Angine de Poitrine",
         "date": "2026-08-17",
         "time": "19:00:00",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/black-lips-los-angeles-california-08-29-2026/event/090064E2B3AB7361",
         "image": "https://s1.ticketm.net/dam/a/58f/877378dd-3359-4898-95ef-a4997cf6d58f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Hypnotique Presents: Sway Festival - DAY 1",
+        "date": "2026-09-05",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/hypnotique-presents-sway-festival-day-1-los-angeles-california-09-05-2026/event/090064C8A1E372A0",
+        "image": "https://s1.ticketm.net/dam/e/f17/4bb3126f-a20f-488a-a2bd-b2b29bd7ef17_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -494,13 +494,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Oldies 2 Souldies",
-        "date": "2026-08-15",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70zpA",
-        "image": null
-      },
-      {
         "name": "NEEDTOBREATHE: The Long Surrender Tour",
         "date": "2026-08-18",
         "time": "19:00:00",
@@ -548,16 +541,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/mt-joy-2026-celebrating-10-years-los-angeles-california-08-21-2026/event/09006379E448BED8",
         "image": "https://s1.ticketm.net/dam/a/54c/1e50f365-4f53-4bbd-8571-f0eb65f5154c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tucker Wetmore w/ William Beckmann",
+        "date": "2026-08-23",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-bfd",
+        "image": "https://s1.ticketm.net/dam/a/58f/d8b7edfd-9ade-4890-85c1-db80dc08658f_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
-      {
-        "name": "Derek Hough - Symphony of Dance: Encore",
-        "date": "2026-08-15",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/derek-hough-symphony-of-dance-encore-hollywood-california-08-15-2026/event/090063679F19B52A",
-        "image": "https://s1.ticketm.net/dam/a/ebe/eeecd753-f647-4379-853f-cc21bdee9ebe_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Raja 50 - Ilaiyaraaja Live In Concert",
         "date": "2026-08-22",
@@ -599,6 +592,13 @@
         "time": "16:00:00",
         "url": "https://www.ticketmaster.com/max-amini-live-in-hollywood-hollywood-california-10-04-2026/event/090064B0EA84948F",
         "image": "https://s1.ticketm.net/dam/a/960/ab8e2d71-4b2e-4d4c-b9c3-542f2a73b960_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Aziz Ansari: Hypothetical Tour",
+        "date": "2026-10-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/aziz-ansari-hypothetical-tour-hollywood-california-10-07-2026/event/090064FF98666EBC",
+        "image": "https://s1.ticketm.net/dam/a/3f9/c644b0f2-8d68-4c2d-86ba-90151ef883f9_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [],
@@ -848,34 +848,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Amir K, Orny Adams, Erik Griffin, Dan Levy, Laura Peek, Gary Cannon and more TBA",
-        "date": "2026-08-15",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972963",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Damon Wayans: Under Construction",
-        "date": "2026-08-15",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/damon-wayans-under-construction-hollywood-improv-the-lab-tickets/14250404",
-        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Tim Dillon, Steph Tolev, BT Kingsley, Dean Delray, Jay Larson, Jessimae Peluso, Willie Simon, Andre Kelley and More TBA!",
-        "date": "2026-08-15",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972953",
-        "image": "https://s1.ticketm.net/dam/a/c10/0d3aef77-e96b-481a-9b0f-f2cbcc5abc10_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Reid the Room ft. Reid Brackenbury, Will Burkart, Gabby Lamb, Willie Macc, Nikki Bon, Josh Edelman",
-        "date": "2026-08-15",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14257454",
-        "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Jack Jr.ft. Damon Wayans Jr., Jeff Dye, Greg Roque, Thomas Yola, Caesar Lizardo and more TBA",
         "date": "2026-08-16",
         "time": "19:00:00",
@@ -918,7 +890,7 @@
         "image": "https://i.ticketweb.com/i/00/12/97/64/64_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Dan Mintz (aka Tina Belcher), Kam Patterson, Brian Monarch and VERY Special Guests",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Dan Mintz (aka Tina Belcher), Damon Wayans Jr, Kam Patterson, Brian Monarch, Jeanne Whitney and VERY Special Guests",
         "date": "2026-08-18",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261194",
@@ -953,11 +925,39 @@
         "image": "https://s1.ticketm.net/dam/a/a8e/fb47f95c-7c15-4828-9a60-643513551a8e_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Hannibal Buress",
+        "date": "2026-08-19",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/hannibal-buress-hollywood-improv-the-main-room-tickets/14993173",
+        "image": "https://s1.ticketm.net/dam/a/7ec/278bc724-0a33-4da0-8f1d-8f3e029697ec_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Andrew Santino, Adam Ray, Trevor Wallace, Brian Monarch and very special guest",
+        "date": "2026-08-20",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14274474",
+        "image": "https://s1.ticketm.net/dam/a/9ad/98cb1375-6bbc-492a-a72b-cec9fde559ad_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
         "date": "2026-08-20",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14234084",
         "image": "https://i.ticketweb.com/i/00/12/95/03/74_Edp.jpg?v=2"
+      },
+      {
+        "name": "Homegrown Comedy: LA Edition ft. Slink Johnson, Jamario McClain, Chris Spencer, Roz Washington, Daisy Gonzalez, Boo Mulligan, Brent Taylor, Jeffrey Peterson and more TBA",
+        "date": "2026-08-20",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/homegrown-comedy-la-edition-ft-hollywood-improv-the-lab-tickets/14234124",
+        "image": "https://s1.ticketm.net/dam/a/4cb/7609a483-c84d-4ff2-ac08-6795018cd4cb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Horror Nerd ft. Samantha Hale, Dana Gould, Julie Golden, Jeremy Tinoco, Sam Fortin, Rian Reyes, Aiden Bloch, Ashley Blom, Jehona Corrales, Chris Cortesi, James Sommers, Lisa Gopman ",
+        "date": "2026-08-21",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/horror-nerd-ft-samantha-hale-hollywood-improv-the-lab-tickets/14954443",
+        "image": "https://s1.ticketm.net/dam/a/837/5a0be907-bf0e-4f14-aa40-d508d8556837_865321_RECOMENDATION_16_9.jpg"
       }
     ]
   }
