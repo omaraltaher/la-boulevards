@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T16:17:31.184Z",
+  "generated": "2026-08-17T16:20:26.918Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -351,13 +351,6 @@
       }
     ],
     "Alex Theatre": [
-      {
-        "name": "Nurse John: Special Live Taping",
-        "date": "2026-08-16",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/nurse-john-special-live-taping-glendale-california-08-16-2026/event/0B0064E1811421D2",
-        "image": "https://s1.ticketm.net/dam/a/c5b/7ab28ae8-0253-4f76-ac58-eb4fbab24c5b_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "World Ballet Company: The Nutcracker",
         "date": "2026-12-18",
@@ -728,13 +721,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
-        "date": "2026-08-16",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-08-16-2026/event/0B0064E7F3225942",
-        "image": "https://s1.ticketm.net/dam/e/e7d/a8419171-ba42-4acf-859f-ad9212fa4e7d_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "JoDavi Presents: Makeda | A Symphonic Journey Through Scripture",
         "date": "2026-08-19",
         "time": "19:00:00",
@@ -782,6 +768,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/an-evening-with-j-anthony-brown-inglewood-california-09-12-2026/event/0B0064EBB4124B34",
         "image": "https://s1.ticketm.net/dbimages/171626a.jpg"
+      },
+      {
+        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
+        "date": "2026-09-16",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-09-16-2026/event/0B0065028D851D7E",
+        "image": "https://s1.ticketm.net/dam/e/82a/6e30a3a4-d75a-4963-95de-0a2e2ec2482a_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -790,18 +783,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-08-16",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1989350810827",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-08-16",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989350848941",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-08-17",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1989404508438",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191111276%2F2987014365277%2F1%2Foriginal.20260814-212811?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b24e46c8354c385824d708446fc9d823"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -816,6 +802,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989350919151",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-08-24",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1989404931704",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -847,20 +840,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Jack Jr.ft. Damon Wayans Jr., Jeff Dye, Greg Roque, Thomas Yola, Caesar Lizardo and more TBA",
-        "date": "2026-08-16",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/jack-jrft-damon-wayans-jr-hollywood-improv-the-main-room-tickets/14867513",
-        "image": "https://s1.ticketm.net/dam/a/a23/994d1c6a-da6e-4d91-bb7b-7b8b8eb75a23_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Ron Funches: Funchadelic",
-        "date": "2026-08-16",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/ron-funches-funchadelic-hollywood-improv-the-lab-tickets/14873393",
-        "image": "https://s1.ticketm.net/dam/a/ca0/1f5b6d32-ff79-4568-be1b-08ae5b1e4ca0_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Jackie + Amy's Summer Slam ft. Jackie Fabulous, Amy Miller, Kam Patterson, Katherine Blanford, Felicia Folkes, Kevin Sullivan, and Leonard Robinson",
         "date": "2026-08-17",
@@ -897,11 +876,11 @@
         "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab! ft. Mark Hayes and more TBA!",
+        "name": "Tonight at the Lab! ft. Fahim Anwar, Godfrey, Kam Patterson, Ray Lau, Benedict Polizzi, Mark Hayes and more TBA!",
         "date": "2026-08-18",
         "time": "20:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/15002283",
-        "image": "https://i.ticketweb.com/i/00/13/60/60/23_Edp.jpg?v=3"
+        "image": "https://s1.ticketm.net/dam/a/5eb/c8055e6e-cab8-471d-8167-ddceccfd35eb_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Lab Work",
@@ -953,11 +932,25 @@
         "image": "https://s1.ticketm.net/dam/a/4cb/7609a483-c84d-4ff2-ac08-6795018cd4cb_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv",
+        "date": "2026-08-21",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14252494",
+        "image": "https://i.ticketweb.com/i/00/12/96/85/34_Edp.jpg?v=4"
+      },
+      {
         "name": "Horror Nerd ft. Samantha Hale, Dana Gould, Julie Golden, Jeremy Tinoco, Sam Fortin, Rian Reyes, Aiden Bloch, Ashley Blom, Jehona Corrales, Chris Cortesi, James Sommers, Lisa Gopman ",
         "date": "2026-08-21",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/horror-nerd-ft-samantha-hale-hollywood-improv-the-lab-tickets/14954443",
         "image": "https://s1.ticketm.net/dam/a/837/5a0be907-bf0e-4f14-aa40-d508d8556837_865321_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Nika King and Friends",
+        "date": "2026-08-21",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/nika-king-and-friends-hollywood-improv-the-lab-tickets/15020383",
+        "image": "https://i.ticketweb.com/i/00/13/62/02/93_Edp.jpg?v=2"
       }
     ]
   }
