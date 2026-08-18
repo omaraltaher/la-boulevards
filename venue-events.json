@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T16:20:26.918Z",
+  "generated": "2026-08-18T16:23:47.528Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -295,13 +295,6 @@
     "Teragram Ballroom": [
       {
         "name": "Desert Daze presents: Angine de Poitrine",
-        "date": "2026-08-17",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/desert-daze-presents-angine-de-poitrine-los-angeles-california-08-17-2026/event/09006474BDD4BBFF",
-        "image": "https://s1.ticketm.net/dam/e/cc9/695b90cd-076a-4cee-a15b-f245cd26bcc9_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Desert Daze presents: Angine de Poitrine",
         "date": "2026-08-18",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/desert-daze-presents-angine-de-poitrine-los-angeles-california-08-18-2026/event/090064652B13F117",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/black-lips-los-angeles-california-08-29-2026/event/090064E2B3AB7361",
         "image": "https://s1.ticketm.net/dam/a/58f/877378dd-3359-4898-95ef-a4997cf6d58f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Hypnotique Presents: Sway Festival - 2 DAY PASS",
+        "date": "2026-09-05",
+        "time": null,
+        "url": "https://www.ticketmaster.com/hypnotique-presents-sway-festival-2-day-los-angeles-california-09-05-2026/event/090064C8A9B080AE",
+        "image": "https://s1.ticketm.net/dam/e/4c7/f6c041ca-67da-4926-87f0-72bff6f8f4c7_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Hypnotique Presents: Sway Festival - DAY 1",
@@ -456,10 +456,10 @@
         "image": "https://s1.ticketm.net/dam/a/67e/9bd8040d-d94b-4728-89e5-7747f9ca567e_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "A.J. Croce",
+        "name": "A.J. Croce : Croce Plays Croce",
         "date": "2026-09-20",
         "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/aj-croce-los-angeles-california-09-20-2026/event/09006443EB5DA0C8",
+        "url": "https://www.ticketmaster.com/aj-croce-croce-plays-croce-los-angeles-california-09-20-2026/event/09006443EB5DA0C8",
         "image": "https://s1.ticketm.net/dam/a/a00/75ab3a06-384b-4435-b59f-6cb10453fa00_RECOMENDATION_16_9.jpg"
       },
       {
@@ -783,13 +783,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-08-17",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1989404508438",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191111276%2F2987014365277%2F1%2Foriginal.20260814-212811?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b24e46c8354c385824d708446fc9d823"
-      },
-      {
         "name": "Chocolate Sundaes 7:00PM",
         "date": "2026-08-23",
         "time": "19:00",
@@ -808,7 +801,7 @@
         "date": "2026-08-24",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1989404931704",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191299850%2F2987014365277%2F1%2Foriginal.20260818-015342?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1ef5aef07868885245bede90fedfb1d5"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -823,6 +816,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989351331384",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-08-31",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1989405148352",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
       },
       {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
@@ -841,27 +841,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Jackie + Amy's Summer Slam ft. Jackie Fabulous, Amy Miller, Kam Patterson, Katherine Blanford, Felicia Folkes, Kevin Sullivan, and Leonard Robinson",
-        "date": "2026-08-17",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/jackie-amys-summer-slam-hollywood-improv-the-main-room-tickets/14225824",
-        "image": "https://s1.ticketm.net/dam/a/eac/b5e8a599-9960-4af3-816d-3d98ab034eac_1513971_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Comedy N Chill ft. Maria Bruggere, Asif Ali, Ian Edwards, Chris Waitkus, Char Ramtin, Aaron Monte, Whitney Rayner and more TBA",
-        "date": "2026-08-17",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/comedy-n-chill-ft-maria-hollywood-improv-the-lab-tickets/14991633",
-        "image": "https://s1.ticketm.net/dam/a/689/514bec4c-42ef-4165-92f8-1124365dd689_1827131_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
-        "date": "2026-08-17",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261384",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-08-18",
         "time": "17:15:00",
@@ -876,7 +855,7 @@
         "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab! ft. Fahim Anwar, Godfrey, Kam Patterson, Ray Lau, Benedict Polizzi, Mark Hayes and more TBA!",
+        "name": "Tonight at the Lab ft. Fahim Anwar, Godfrey, Kam Patterson, Chris Porter, Ray Lau, Benedict Polizzi, Mark Hayes and more TBA!",
         "date": "2026-08-18",
         "time": "20:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/15002283",
@@ -932,11 +911,11 @@
         "image": "https://s1.ticketm.net/dam/a/4cb/7609a483-c84d-4ff2-ac08-6795018cd4cb_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Adam Ray, Fortune Feimster, Christopher Titus, Larry Wilmore, Jay Washington, and more TBA",
         "date": "2026-08-21",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14252494",
-        "image": "https://i.ticketweb.com/i/00/12/96/85/34_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252494",
+        "image": "https://s1.ticketm.net/dam/a/8d6/a01d8edf-195c-4361-b3ce-7836d62f08d6_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Horror Nerd ft. Samantha Hale, Dana Gould, Julie Golden, Jeremy Tinoco, Sam Fortin, Rian Reyes, Aiden Bloch, Ashley Blom, Jehona Corrales, Chris Cortesi, James Sommers, Lisa Gopman ",
@@ -946,11 +925,32 @@
         "image": "https://s1.ticketm.net/dam/a/837/5a0be907-bf0e-4f14-aa40-d508d8556837_865321_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv ft. Trevor Wallace, Asif Ali, Moses Storm, and More TBA!",
+        "date": "2026-08-21",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252544",
+        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Nika King and Friends",
         "date": "2026-08-21",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/nika-king-and-friends-hollywood-improv-the-lab-tickets/15020383",
         "image": "https://i.ticketweb.com/i/00/13/62/02/93_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-08-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14972983",
+        "image": "https://i.ticketweb.com/i/00/13/57/76/43_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Lab!",
+        "date": "2026-08-22",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14250414",
+        "image": "https://i.ticketweb.com/i/00/12/96/66/54_Edp.jpg?v=3"
       }
     ]
   }
