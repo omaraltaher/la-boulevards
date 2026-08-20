@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T16:24:18.231Z",
+  "generated": "2026-08-20T16:27:27.539Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -124,7 +124,7 @@
         "date": "2026-08-20",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/bryce-alakai-avalon-hollywood-tickets/15020823",
-        "image": "https://i.ticketweb.com/i/00/13/62/07/83_Edp.jpg?v=9"
+        "image": "https://i.ticketweb.com/i/00/13/62/07/83_Edp.jpg?v=10"
       },
       {
         "name": "AHEE w/ XOTIX B2B PIERCE",
@@ -192,13 +192,6 @@
         "image": "https://s1.ticketm.net/dam/a/735/e0699e33-2587-4e26-bb0a-efc821f90735_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Molly Santana w/ North West",
-        "date": "2026-08-27",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PsO9",
-        "image": null
-      },
-      {
         "name": "Chisme with DoKnow and Jakarta",
         "date": "2026-08-29",
         "time": "20:00:00",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-YAZ",
         "image": "https://s1.ticketm.net/dam/a/e13/02b90d17-fd67-4534-a9d7-c595c524fe13_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "DJ Shadow",
+        "date": "2026-09-25",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70o7d",
+        "image": "https://s1.ticketm.net/dam/a/e35/b74589fa-5dfb-4c6e-b4d9-0c2f83b4de35_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -487,13 +487,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "The Guess Who: Takin' It Back Tour 2026",
-        "date": "2026-08-19",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/the-guess-who-takin-it-back-los-angeles-california-08-19-2026/event/09006458F47DD28E",
-        "image": "https://s1.ticketm.net/dam/a/cd1/786a8e7f-5b99-4fc6-b756-d6d9297d3cd1_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Mt. Joy 2026: 2 Day Ticket (08/20 - 08/21) Valid Both Days",
         "date": "2026-08-20",
         "time": null,
@@ -541,6 +534,13 @@
         "time": "18:45:00",
         "url": "https://www.ticketmaster.com/train-drops-of-jupiter-25-years-los-angeles-california-08-24-2026/event/09006365C9B35530",
         "image": "https://s1.ticketm.net/dam/a/b77/6343c6f4-f36e-4cb4-a911-f171610f9b77_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tori Amos: In Times of Dragons Tour",
+        "date": "2026-08-25",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/tori-amos-in-times-of-dragons-los-angeles-california-08-25-2026/event/09006382EBCBB72A",
+        "image": "https://s1.ticketm.net/dam/a/4ac/a665b33c-4931-4b9c-a3ed-c066d557e4ac_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -721,13 +721,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "JoDavi Presents: Makeda | A Symphonic Journey Through Scripture",
-        "date": "2026-08-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/jodavi-presents-makeda-a-symphonic-journey-inglewood-california-08-19-2026/event/0B00648F3250820B",
-        "image": null
-      },
-      {
         "name": "TEDxInglewood 2026",
         "date": "2026-08-22",
         "time": "14:00:00",
@@ -775,6 +768,13 @@
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-09-16-2026/event/0B0065028D851D7E",
         "image": "https://s1.ticketm.net/dam/e/82a/6e30a3a4-d75a-4963-95de-0a2e2ec2482a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tre Floyd's Black Girl Therapy",
+        "date": "2026-09-19",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
+        "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -818,13 +818,6 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-08-31",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1989405148352",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
-      },
-      {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
         "date": "2026-09-20",
         "time": "17:00",
@@ -837,39 +830,18 @@
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/alex-kominek-live-730pm-tickets-1981045471333",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179819470%2F2987014365277%2F1%2Foriginal.20260313-224118?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ef1d87fa52ebd7a75720a3760000568"
+      },
+      {
+        "name": "Stand Up for Wildlife 5:00PM",
+        "date": "2026-10-19",
+        "time": "17:00",
+        "url": "https://www.eventbrite.com/e/stand-up-for-wildlife-500pm-tickets-1981959648662",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191479424%2F2986605123498%2F1%2Foriginal.20260820-014028?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f1002786db1d182df8ac2112a4e92011"
       }
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-08-19",
-        "time": "18:00:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14250464",
-        "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
-      },
-      {
-        "name": "Legends ft. Jay Leno, Iliza Shlesinger, Arsenio Hall, Kevin Nealon, Greg Baldwin, Peter Murphy",
-        "date": "2026-08-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/legends-ft-jay-leno-iliza-hollywood-improv-the-main-room-tickets/14236704",
-        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Babe Stoppp ft. Aparna Nancherla, Rachel Scanlon, The Sklar Brothers, Kyle Prue, Bebe Katsenes, Soo Ra, Rachel Pegram, Danny Sellers, Caroline Timoney, Hannah Schoen and more TBA!",
-        "date": "2026-08-19",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/babe-stoppp-ft-aparna-nancherla-hollywood-improv-the-lab-tickets/14991143",
-        "image": "https://s1.ticketm.net/dam/a/a8e/fb47f95c-7c15-4828-9a60-643513551a8e_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Hannibal Buress",
-        "date": "2026-08-19",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/hannibal-buress-hollywood-improv-the-main-room-tickets/14993173",
-        "image": "https://s1.ticketm.net/dam/a/7ec/278bc724-0a33-4da0-8f1d-8f3e029697ec_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Andrew Santino, Adam Ray, Trevor Wallace, Brian Monarch and very special guest",
+        "name": "Tonight at the Improv ft. Andrew Santino, Adam Ray, Trevor Wallace, Jared Freid, Brian Monarch, Julia Jasunas and more TBA",
         "date": "2026-08-20",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14274474",
@@ -904,35 +876,28 @@
         "image": "https://s1.ticketm.net/dam/a/837/5a0be907-bf0e-4f14-aa40-d508d8556837_865321_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Trevor Wallace, Asif Ali, Chris Estrada, Moses Storm, Zainab Johnson and More TBA!",
+        "name": "Tonight at the Improv ft. Trevor Wallace, Asif Ali, Chris Estrada, Moses Storm, Zainab Johnson, Amir K, Laura Kightlinger and More TBA!",
         "date": "2026-08-21",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252544",
         "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Nika King and Friends",
-        "date": "2026-08-21",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/nika-king-and-friends-hollywood-improv-the-lab-tickets/15020383",
-        "image": "https://i.ticketweb.com/i/00/13/62/02/93_Edp.jpg?v=2"
-      },
-      {
-        "name": "Tonight at the Improv ft. Trevor Wallace, Caroline Rhea, Al Madrigal, Loni Love, Andre Kelley and more TBA",
+        "name": "Tonight at the Improv ft. Trevor Wallace, Caroline Rhea, Al Madrigal, Loni Love, Ashley Hesseltine, Andre Kelley and more TBA",
         "date": "2026-08-22",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972983",
         "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Skyler Higley, Omid Singh and more TBA",
+        "name": "Tonight at the Lab ft. Nika King, Jared Goldstein, Skyler Higley, Omid Singh and more TBA",
         "date": "2026-08-22",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14250414",
         "image": "https://s1.ticketm.net/dam/a/50b/5fc583a4-8c08-4db8-9afa-5a8c608bc50b_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Cristela Alonzo, Francisco Ramos, Eddie Ifft, Justine Marino and more TBA",
+        "name": "Tonight at the Improv ft. Cristela Alonzo, Francisco Ramos, Rick Ingraham, Eddie Ifft, Justine Marino and more TBA",
         "date": "2026-08-22",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972933",
@@ -946,11 +911,46 @@
         "image": "https://i.ticketweb.com/i/00/12/92/54/74_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Donnell Rawlings, Leslie Liao, Katherine Blanford, Fumi Abe and more TBA",
         "date": "2026-08-23",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/15002343",
-        "image": "https://i.ticketweb.com/i/00/13/60/60/83_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15002343",
+        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The OTHER Show ft. Andrea Abbate, Chelcye Perry, Herman Wrice, Daniel Alvarez, Handren Seavey, Joanne Scorcia, Petra Popper-Freedman, Lizzie Rose, Adam Barnhardt",
+        "date": "2026-08-23",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/the-other-show-ft-andrea-hollywood-improv-the-lab-tickets/14257634",
+        "image": "https://i.ticketweb.com/i/00/12/97/33/74_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv! ft. Iliza Shlesinger, Andrew Santino, Donnell Rawlings, Nicky Paris, and More TBA!",
+        "date": "2026-08-24",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15005443",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-08-24",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261364",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Plant Mob ft. Caroline Rhea, Ray Lau, Zainab Johnson, Grant Cotter, Ashley Colleen, Kyle Tomlin, Jonathan Van Halem, and more TBA",
+        "date": "2026-08-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/plant-mob-ft-caroline-rhea-hollywood-improv-the-lab-tickets/14991653",
+        "image": "https://s1.ticketm.net/dbimages/9160a.jpg"
+      },
+      {
+        "name": "John Campanelli & Special Guest ft. John Campanelli, Janet Roth, Mikhail Lazarev, Gisele Lajevardi",
+        "date": "2026-08-25",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/john-campanelli-special-guest-hollywood-improv-the-lab-tickets/14967433",
+        "image": "https://i.ticketweb.com/i/00/13/57/31/63_Edp.jpg?v=3"
       }
     ]
   }
