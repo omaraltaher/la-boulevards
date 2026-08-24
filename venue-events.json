@@ -1,14 +1,7 @@
 {
-  "generated": "2026-08-23T16:17:51.271Z",
+  "generated": "2026-08-24T16:29:26.928Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "OLIVER TREE - LOVE YOU MADLY, HATE YOU BADLY WORLD'S FIRST WORLD TOUR",
-        "date": "2026-08-23",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/oliver-tree-love-you-madly-hate-hollywood-california-08-23-2026/event/0900649EEF1A4F6B",
-        "image": "https://s1.ticketm.net/dam/a/440/3c42cdde-9882-42e6-9cef-ea74d4981440_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Breeders",
         "date": "2026-08-24",
@@ -57,6 +50,13 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/the-charlatans-uk-north-american-tour-hollywood-california-09-04-2026/event/09006490B9D99051",
         "image": "https://s1.ticketm.net/dam/a/581/7ce0a550-130e-4b5c-b287-2a9c598ca581_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "William Black",
+        "date": "2026-09-05",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/william-black-hollywood-california-09-05-2026/event/090064DA849B4543",
+        "image": "https://s1.ticketm.net/dam/a/4f8/2677a40c-eccc-4fc5-bd52-22a49745d4f8_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "Dimmu Borgir w/ Hypocrisy",
-        "date": "2026-08-23",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xf37",
-        "image": "https://s1.ticketm.net/dam/a/735/e0699e33-2587-4e26-bb0a-efc821f90735_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Chisme with DoKnow and Jakarta",
         "date": "2026-08-29",
         "time": "20:00:00",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xp1f",
         "image": "https://s1.ticketm.net/dam/a/db0/36da1d98-d36a-4d7a-b230-6081fcc4cdb0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tia Ray",
+        "date": "2026-09-27",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa-O",
+        "image": null
       }
     ],
     "Peacock Theater": [
@@ -487,13 +487,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Tucker Wetmore w/ William Beckmann",
-        "date": "2026-08-23",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-bfd",
-        "image": "https://s1.ticketm.net/dam/a/58f/d8b7edfd-9ade-4890-85c1-db80dc08658f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "TRAIN - Drops of Jupiter: 25 Years in the Atmosphere",
         "date": "2026-08-24",
         "time": "18:45:00",
@@ -541,6 +534,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/echoes-of-our-ancestors-2-los-angeles-california-09-03-2026/event/0900644DC8232D23",
         "image": "https://s1.ticketm.net/dam/a/76f/a7a05cf7-1566-493a-965f-ab371b1c576f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "ASAKE",
+        "date": "2026-09-06",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PZaa",
+        "image": "https://s1.ticketm.net/dam/a/3de/d501fea6-3d0c-4aed-8e32-36a20bb223de_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -742,13 +742,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Cult Classics Cinema presents IDLEWILD",
-        "date": "2026-08-23",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-idlewild-inglewood-california-08-23-2026/event/0B0064FCABDD3A01",
-        "image": "https://s1.ticketm.net/dam/e/bd7/180364cb-f907-4be6-b9d7-7f7d4f589bd7_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "A SUMMER NIGHT OF R&B SOUL",
         "date": "2026-08-29",
         "time": "19:00:00",
@@ -789,6 +782,13 @@
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/tre-floyds-black-girl-therapy-inglewood-california-09-19-2026/event/0B006479A18A2FF4",
         "image": "https://s1.ticketm.net/dam/e/4df/bbb31e56-fb03-476a-aced-a3e4e58e34df_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "CANCELLED - SEE LISTING",
+        "date": "2026-10-11",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/cancelled-see-listing-inglewood-california-10-11-2026/event/0B0064F6A0BD2B60",
+        "image": null
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -797,25 +797,18 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Chocolate Sundaes 7:00PM",
-        "date": "2026-08-23",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1989350886052",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Chocolate Sundaes 9:30PM",
-        "date": "2026-08-23",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989350919151",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
         "name": "Spotlight Special 8:00PM",
         "date": "2026-08-24",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/spotlight-special-800pm-tickets-1989404931704",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191626836%2F2987014365277%2F1%2Foriginal.20260821-211213?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5f1fdc254032cee36d8414ba374cd97a"
+      },
+      {
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-08-25",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1989408908599",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191638203%2F2987014365277%2F1%2Foriginal.20260822-013335?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=006dfc94e9d498f6c89e75e8e0f021bc"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -830,6 +823,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989351331384",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-08-31",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1989405148352",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
       },
       {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
@@ -855,20 +855,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Donnell Rawlings, Leslie Liao, Katherine Blanford, JF Harris, Fumi Abe, Quincy Weekley and more TBA",
-        "date": "2026-08-23",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15002343",
-        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The OTHER Show ft. Andrea Abbate, Chelcye Perry, Herman Wrice, Daniel Alvarez, Handren Seavey, Joanne Scorcia, Petra Popper-Freedman, Lizzie Rose, Adam Barnhardt",
-        "date": "2026-08-23",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/the-other-show-ft-andrea-hollywood-improv-the-lab-tickets/14257634",
-        "image": "https://i.ticketweb.com/i/00/12/97/33/74_Edp.jpg?v=4"
-      },
-      {
         "name": "Tonight at the Improv ft. Iliza Shlesinger, Andrew Santino, Donnell Rawlings, Pete Lee, Dustin Nickerson, Nicky Paris, and More TBA",
         "date": "2026-08-24",
         "time": "19:15:00",
@@ -876,7 +862,7 @@
         "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Donnell Rawlings, Charlotte McKinney, Herman Wrice, Comedian CP, Mark Hayes and Joey Avery!",
+        "name": "Tonight at the Lab ft. Donnell Rawlings, Charlotte McKinney, Herman Wrice, Comedian CP, Trent Mason, Mark Hayes and Joey Avery!",
         "date": "2026-08-24",
         "time": "20:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14280274",
@@ -887,7 +873,7 @@
         "date": "2026-08-24",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-ft-blaq-hollywood-improv-the-main-room-tickets/14261364",
-        "image": "https://i.ticketweb.com/i/00/12/97/64/34_Edp.jpg?v=3"
+        "image": "https://i.ticketweb.com/i/00/12/97/64/34_Edp.jpg?v=5"
       },
       {
         "name": "Happy Hour Open Mic",
@@ -965,6 +951,20 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/clown-medicine-ft-sarah-lawrence-hollywood-improv-the-lab-tickets/15021493",
         "image": "https://i.ticketweb.com/i/00/13/62/14/93_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-08-28",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14252514",
+        "image": "https://i.ticketweb.com/i/00/12/96/85/34_Edp.jpg?v=4"
+      },
+      {
+        "name": "Chaps Comedy ft. Sarah Cortina, Kylie Vincent, Heather Pasternak, Grace Bahler, Jacob Nakshian, Toby Kamish, Leila Hilf",
+        "date": "2026-08-28",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/chaps-comedy-ft-sarah-cortina-hollywood-improv-the-lab-tickets/14982643",
+        "image": "https://i.ticketweb.com/i/00/13/58/64/63_Edp.jpg?v=5"
       }
     ]
   }
