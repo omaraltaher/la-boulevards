@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T16:43:46.470Z",
+  "generated": "2026-08-28T00:43:17.305Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -162,18 +162,18 @@
         "image": "https://i.ticketweb.com/i/00/13/63/14/63_Edp.jpg?v=8"
       },
       {
+        "name": "Time Machine: 90s - 2000s Throwback Dance Party",
+        "date": "2026-09-12",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/time-machine-90s-avalon-hollywood-tickets/14287804",
+        "image": "https://i.ticketweb.com/i/00/13/00/31/74_Edp.jpg?v=4"
+      },
+      {
         "name": "PARTIBOI69",
         "date": "2026-09-18",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/partiboi69-avalon-hollywood-tickets/14990203",
         "image": "https://s1.ticketm.net/dam/a/d77/4a74ee49-6cb0-47ec-ba9e-705ccd9e1d77_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tritonal",
-        "date": "2026-09-26",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/tritonal-avalon-hollywood-tickets/14206634",
-        "image": "https://s1.ticketm.net/dam/a/2c7/8e506b80-f31a-4ef1-a804-343ff6b4a2c7_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -206,6 +206,13 @@
         "image": null
       },
       {
+        "name": "Bassvictim w/ Dead Butterflies",
+        "date": "2026-09-23",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZg0x",
+        "image": "https://s1.ticketm.net/dam/a/f3d/bc4e1046-5cb4-4b0d-b314-4b0fc3d42f3d_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Kruder & Dorfmeister",
         "date": "2026-09-24",
         "time": "20:00:00",
@@ -225,13 +232,6 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xp1f",
         "image": "https://s1.ticketm.net/dam/a/db0/36da1d98-d36a-4d7a-b230-6081fcc4cdb0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tia Ray",
-        "date": "2026-09-27",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa-O",
-        "image": null
       }
     ],
     "Peacock Theater": [
@@ -797,18 +797,18 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Wednesday All-Star Comedy 7:30 PM",
-        "date": "2026-08-26",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1989412276673",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191815372%2F2987014365277%2F1%2Foriginal.20260825-012753?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=141271e8e17caa525cd5442785f92fc3"
+        "name": "Laugh Through The Heartbreak 9:45 PM",
+        "date": "2026-08-27",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/laugh-through-the-heartbreak-945-pm-tickets-1989415475240",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191783504%2F2987014365277%2F1%2Foriginal.20260824-183817?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8397c4c8dd02d7693eb1b121fcb34040"
       },
       {
-        "name": "Kyle Massey's Birthday Celebration 9:45PM",
-        "date": "2026-08-26",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/kyle-masseys-birthday-celebration-945pm-tickets-1989414199424",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191611932%2F2987014365277%2F1%2Foriginal.20260821-175001?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0d71a67641dffdedba236b2076ff9885"
+        "name": "Hollywood's Hottest 7:30PM",
+        "date": "2026-08-28",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/hollywoods-hottest-730pm-tickets-1989417946632",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192082389%2F2987014365277%2F1%2Foriginal.20260827-234142?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7944ab5e3fb2277722b0d101978d3e67"
       },
       {
         "name": "Chocolate Sundaes 7:00PM",
@@ -855,39 +855,18 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-08-26",
-        "time": "18:00:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14250474",
-        "image": "https://i.ticketweb.com/i/00/12/96/66/84_Edp.jpg?v=3"
-      },
-      {
-        "name": "Amir K ft. DJ Rybski, Dan Ahdoot",
-        "date": "2026-08-26",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/amir-k-ft-dj-rybski-hollywood-improv-the-main-room-tickets/14271774",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Comedy Mayhem ft. Pardis Parker, Dulce Sloan, Chris Estrada, Irene Tu, Anna Simeri, Sean Leary",
-        "date": "2026-08-26",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/comedy-mayhem-ft-pardis-parker-hollywood-improv-the-lab-tickets/14234134",
-        "image": "https://i.ticketweb.com/i/00/12/95/04/24_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Melissa Villasenor, Fiona Cauley, Brian Monarch and VERY Special Guests",
+        "name": "Tonight at the Improv ft. Sebastian Maniscalco, Anthony Jeselnik, Andrew Santino, Fiona Cauley, Melissa Villasenor, Brian Monarch and More",
         "date": "2026-08-27",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261204",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/29b/8c605a75-a663-42a6-9e7f-4ce814d6c29b_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
+        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar, JP Punthenveetil, Amber Abundance, Aaron Monte, Sammy Mowrey, Chaunte Wayans and more TBA",
         "date": "2026-08-27",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14234174",
-        "image": "https://i.ticketweb.com/i/00/12/95/04/64_Edp.jpg?v=2"
+        "image": "https://s1.ticketm.net/dam/a/811/01c641b8-c700-40e6-8b6f-a994aa7a2811_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Clown Medicine ft. Sarah Lawrence, Wrenn Woods, Herman Wrice, Benedict Polizzi, Anthony Stiriti, Logan Baert and more TBA",
@@ -897,7 +876,7 @@
         "image": "https://i.ticketweb.com/i/00/13/62/14/93_Edp.jpg?v=7"
       },
       {
-        "name": "Tonight at the Improv ft. Preacher Lawson, Orny Adams, Andre Kelly, and More TBA!",
+        "name": "Tonight at the Improv ft. Preacher Lawson, Orny Adams, Harland Williams, The Sklar Brothers, Ian Edwards, Andre Kelly, and More TBA",
         "date": "2026-08-28",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252514",
@@ -911,7 +890,7 @@
         "image": "https://i.ticketweb.com/i/00/13/58/64/63_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. Trevor Wallace, Craig Conant, Kirk Fox, Gary Cannon and More TBA",
+        "name": "Tonight at the Improv ft. Trevor Wallace, Craig Conant, Kirk Fox, Ali Macofsky, Michael Blaustein, Sara Weinshenk, Eric Freedman, Gary Cannon and More TBA",
         "date": "2026-08-28",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14252564",
@@ -932,14 +911,14 @@
         "image": "https://i.ticketweb.com/i/00/13/60/46/33_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Lab! ft. Kat Bird, Dvontre Coleman, Chloe Hilliard, Matty Chymbor, DJ Rybski, Arzo Dotson, and more TBA",
+        "name": "Tonight at the Lab! ft. Kat Bird, Dvontre Coleman, Chloe Hilliard, Matty Chymbor, DJ Rybski, Jenny Johnson, Arzo Dotson and more TBA",
         "date": "2026-08-29",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14250384",
-        "image": "https://i.ticketweb.com/i/00/13/63/32/93_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/63/32/93_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft. Greg Fitzsimmons, Caroline Rhea, Frazer Smith and More TBA!",
+        "name": "Tonight at the Improv ft. Greg Fitzsimmons, Caroline Rhea, Chris Spencer, Jesus Trejo, Chris Estrada, Dvontre Coleman, Sam Tripoli, Frazer Smith and More TBA!",
         "date": "2026-08-29",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972973",
@@ -953,18 +932,39 @@
         "image": "https://s1.ticketm.net/dam/a/679/49396ffb-8704-4dc7-a4ef-3ff6fd0cd679_1107161_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Amir K, Orny Adams, Larry Wilmore, Dvontre Coleman, and More TBA!",
+        "name": "Stephan Dyer (En Español)",
+        "date": "2026-08-30",
+        "time": "16:30:00",
+        "url": "https://www.ticketweb.com/event/stephan-dyer-en-espaol-hollywood-improv-the-lab-tickets/14219664",
+        "image": "https://i.ticketweb.com/i/00/12/93/78/34_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Amir K, Orny Adams, Larry Wilmore, Jeff Dye, Dvontre Coleman, and More TBA!",
         "date": "2026-08-30",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15002353",
         "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv!",
+        "name": "Never Ending Comedy ft. Devyn Perry, Avry Ross, Audrey Stewart, B.T. Kingsley, Fumi Abe, Joe Mezeraani, Peter Murphy, Greg Hoffman",
+        "date": "2026-08-30",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/never-ending-comedy-ft-devyn-hollywood-improv-the-lab-tickets/14873433",
+        "image": "https://i.ticketweb.com/i/00/13/47/18/23_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Becky Robinson, Shapel Lacey, Greg Wilson and more TBA",
         "date": "2026-08-31",
         "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/15005453",
-        "image": "https://i.ticketweb.com/i/00/13/60/88/53_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15005453",
+        "image": "https://i.ticketweb.com/i/00/13/00/46/34_Edp.jpg?v=6"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-08-31",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261354",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       }
     ]
   }
