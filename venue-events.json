@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T00:43:17.305Z",
+  "generated": "2026-08-29T00:19:56.528Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "The Ringer Fantasy Football Show LIVE!",
-        "date": "2026-08-27",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jfe3",
-        "image": null
-      },
-      {
         "name": "Noname",
         "date": "2026-08-29",
         "time": "21:00:00",
@@ -115,6 +108,13 @@
         "date": "2026-09-10",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Psf6",
+        "image": "https://s1.ticketm.net/dam/a/a82/1552de05-da3e-4bbd-90ee-0569646d9a82_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Warning",
+        "date": "2026-09-11",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg0o",
         "image": "https://s1.ticketm.net/dam/a/a82/1552de05-da3e-4bbd-90ee-0569646d9a82_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -352,6 +352,20 @@
     ],
     "Alex Theatre": [
       {
+        "name": "¡MOCEDADES EN CONCIERTO!",
+        "date": "2026-10-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/mocedades-en-concierto-glendale-california-10-15-2026/event/0B00651CF1308AB6",
+        "image": "https://s1.ticketm.net/dam/e/9fc/5a155ffe-8cb4-4c04-8614-56d1ec4799fc_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Las Damitas Histeria - USA Tour 2026",
+        "date": "2026-10-30",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/las-damitas-histeria-usa-tour-2026-glendale-california-10-30-2026/event/0B00651CF05E8A02",
+        "image": "https://s1.ticketm.net/dam/e/136/0e603284-d924-479d-9901-96b10d142136_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "World Ballet Company: The Nutcracker",
         "date": "2026-12-18",
         "time": "19:00:00",
@@ -488,13 +502,6 @@
     "Greek Theatre": [
       {
         "name": "UNDERTALE: The Determination Symphony",
-        "date": "2026-08-27",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/undertale-the-determination-symphony-los-angeles-california-08-27-2026/event/09006479CB86B678",
-        "image": "https://s1.ticketm.net/dam/a/89f/cfc4e11c-9cb4-4c46-b44c-0140a127189f_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "UNDERTALE: The Determination Symphony",
         "date": "2026-08-28",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/undertale-the-determination-symphony-los-angeles-california-08-28-2026/event/0900646CE1A7DFED",
@@ -541,6 +548,13 @@
         "time": "20:15:00",
         "url": "https://www.ticketmaster.com/wave-to-earth-the-pieces-tour-los-angeles-california-09-09-2026/event/090064ADB561EDC8",
         "image": "https://s1.ticketm.net/dam/a/834/37641215-ed2e-4ecb-b34a-1c837d74b834_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Chris Tomlin | Official Ticket + Hotel Packages",
+        "date": "2026-09-11",
+        "time": "19:00:00",
+        "url": "https://travel.ticketmaster.com/tm-event/090064548D778939?_uid=ac74da7d-8f54-4d50-8b7e-dbdb135f1d70&utm_source=TPR&utm_medium=TMADP_ChrisTomlin_911",
+        "image": "https://s1.ticketm.net/dam/a/ad6/46848aab-c22d-4f38-b4ac-ac82dc156ad6_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -594,7 +608,57 @@
         "image": "https://s1.ticketm.net/dam/a/070/d2065151-fa63-4754-af30-5c609e9f0070_RECOMENDATION_16_9.jpg"
       }
     ],
-    "Geffen Playhouse": [],
+    "Geffen Playhouse": [
+      {
+        "name": "Purpose - Play",
+        "date": "2026-11-11",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87Y",
+        "image": null
+      },
+      {
+        "name": "Purpose - Play",
+        "date": "2026-11-12",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87s",
+        "image": null
+      },
+      {
+        "name": "Purpose - Play",
+        "date": "2026-11-13",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87w",
+        "image": null
+      },
+      {
+        "name": "Purpose - Play",
+        "date": "2026-11-14",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87V",
+        "image": null
+      },
+      {
+        "name": "Purpose - Play",
+        "date": "2026-11-15",
+        "time": "13:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87g",
+        "image": null
+      },
+      {
+        "name": "Purpose - Play",
+        "date": "2026-11-18",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87U",
+        "image": null
+      },
+      {
+        "name": "Purpose - Play",
+        "date": "2026-11-20",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87M",
+        "image": null
+      }
+    ],
     "Pasadena Playhouse": [],
     "Ricardo Montalban Theatre": [],
     "Ambassador Auditorium": [],
@@ -797,31 +861,31 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Laugh Through The Heartbreak 9:45 PM",
-        "date": "2026-08-27",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/laugh-through-the-heartbreak-945-pm-tickets-1989415475240",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191783504%2F2987014365277%2F1%2Foriginal.20260824-183817?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8397c4c8dd02d7693eb1b121fcb34040"
-      },
-      {
         "name": "Hollywood's Hottest 7:30PM",
         "date": "2026-08-28",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/hollywoods-hottest-730pm-tickets-1989417946632",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192082389%2F2987014365277%2F1%2Foriginal.20260827-234142?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7944ab5e3fb2277722b0d101978d3e67"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192137652%2F2987014365277%2F1%2Foriginal.20260828-181709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=71c25950e287314bf4adc4dfe630d129"
       },
       {
-        "name": "Chocolate Sundaes 7:00PM",
+        "name": "Hollywood's Hottest 9:45PM",
+        "date": "2026-08-28",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/hollywoods-hottest-945pm-tickets-1989424857302",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192076416%2F2987014365277%2F1%2Foriginal.20260827-215646?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9c594c9357fca5fcbac0243ce5ff9971"
+      },
+      {
+        "name": "Pookie Wigington Presents: Chocolate Sundaes 7:00PM",
         "date": "2026-08-30",
         "time": "19:00",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-700pm-tickets-1989351299288",
+        "url": "https://www.eventbrite.com/e/pookie-wigington-presents-chocolate-sundaes-700pm-tickets-1989351299288",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
       },
       {
-        "name": "Chocolate Sundaes 9:30PM",
+        "name": "Pookie Wigington Presents: Chocolate Sundaes 9:30PM",
         "date": "2026-08-30",
         "time": "21:30",
-        "url": "https://www.eventbrite.com/e/chocolate-sundaes-930pm-tickets-1989351331384",
+        "url": "https://www.eventbrite.com/e/pookie-wigington-presents-chocolate-sundaes-930pm-tickets-1989351331384",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
@@ -854,27 +918,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Sebastian Maniscalco, Anthony Jeselnik, Andrew Santino, Fiona Cauley, Melissa Villasenor, Brian Monarch and More",
-        "date": "2026-08-27",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14261204",
-        "image": "https://s1.ticketm.net/dam/a/29b/8c605a75-a663-42a6-9e7f-4ce814d6c29b_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar, JP Punthenveetil, Amber Abundance, Aaron Monte, Sammy Mowrey, Chaunte Wayans and more TBA",
-        "date": "2026-08-27",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14234174",
-        "image": "https://s1.ticketm.net/dam/a/811/01c641b8-c700-40e6-8b6f-a994aa7a2811_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Clown Medicine ft. Sarah Lawrence, Wrenn Woods, Herman Wrice, Benedict Polizzi, Anthony Stiriti, Logan Baert and more TBA",
-        "date": "2026-08-27",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/clown-medicine-ft-sarah-lawrence-hollywood-improv-the-lab-tickets/15021493",
-        "image": "https://i.ticketweb.com/i/00/13/62/14/93_Edp.jpg?v=7"
-      },
       {
         "name": "Tonight at the Improv ft. Preacher Lawson, Orny Adams, Harland Williams, The Sklar Brothers, Ian Edwards, Andre Kelly, and More TBA",
         "date": "2026-08-28",
@@ -911,11 +954,11 @@
         "image": "https://i.ticketweb.com/i/00/13/60/46/33_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Lab! ft. Kat Bird, Dvontre Coleman, Chloe Hilliard, Matty Chymbor, DJ Rybski, Jenny Johnson, Arzo Dotson and more TBA",
+        "name": "Tonight at the Lab ft. Kat Bird, Dvontre Coleman, Chloe Hilliard, Matty Chymbor, DJ Rybski, Jenny Johnson, Arzo Dotson and more TBA",
         "date": "2026-08-29",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14250384",
-        "image": "https://i.ticketweb.com/i/00/13/63/32/93_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/63/32/93_Edp.jpg?v=8"
       },
       {
         "name": "Tonight at the Improv ft. Greg Fitzsimmons, Caroline Rhea, Chris Spencer, Jesus Trejo, Chris Estrada, Dvontre Coleman, Sam Tripoli, Frazer Smith and More TBA!",
@@ -953,18 +996,39 @@
         "image": "https://i.ticketweb.com/i/00/13/47/18/23_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Becky Robinson, Shapel Lacey, Greg Wilson and more TBA",
+        "name": "Tonight at the Improv ft. Christopher Titus, Craig Conant, Becky Robinson, Shapel Lacey, Greg Wilson and more TBA",
         "date": "2026-08-31",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15005453",
-        "image": "https://i.ticketweb.com/i/00/13/00/46/34_Edp.jpg?v=6"
+        "image": "https://s1.ticketm.net/dam/a/c08/441cbaa3-6959-425b-ad68-f249f10d9c08_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "New Joke Night ft. Mike Falzone, JF Harris, Larry Wilmore, Leslie Liao, Alec Flynn, Rachel Bonnetta, Owen Smith",
+        "date": "2026-08-31",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/new-joke-night-ft-mike-hollywood-improv-the-lab-tickets/15002263",
+        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Candyce Brown, Jamal Doman, Mike Estime, Comedian CP  & more",
         "date": "2026-08-31",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261354",
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Alfred Robles, Aaron Branch, Ellory Smith, Herman Wrice, Charlotte McKinney, Mark Hayes, and More TBA!",
+        "date": "2026-08-31",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-lab-tickets/14287764",
+        "image": "https://s1.ticketm.net/dam/a/1da/59f86268-e95d-401d-a46d-4bac1eaca1da_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-09-01",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/15047963",
+        "image": "https://i.ticketweb.com/i/00/13/64/49/73_Edp.jpg?v=2"
       }
     ]
   }
