@@ -1,20 +1,13 @@
 {
-  "generated": "2026-08-29T19:04:51.949Z",
+  "generated": "2026-08-30T18:59:43.754Z",
   "venues": {
     "Hollywood Palladium": [
       {
-        "name": "Courtney Barnett - Creature of Habit Tour",
-        "date": "2026-08-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/courtney-barnett-creature-of-habit-tour-hollywood-california-08-29-2026/event/0900642DC297B2B9",
-        "image": "https://s1.ticketm.net/dam/a/a82/26811d24-2fe8-40de-8ddb-1762417e5a82_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Morgan Jay - Right After You Left - Vinyl Room @ the Palladium",
+        "name": "Right After You Left Featuring Iliza Shlesinger & Surprise Guests",
         "date": "2026-09-01",
         "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/morgan-jay-right-after-you-left-hollywood-california-09-01-2026/event/09006513CFA1C765",
-        "image": "https://s1.ticketm.net/dam/a/f40/eaa8048c-575c-4719-8681-7bf4a9fdef40_RECOMENDATION_16_9.jpg"
+        "url": "https://www.ticketmaster.com/right-after-you-left-featuring-iliza-hollywood-california-09-01-2026/event/09006513CFA1C765",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "The Garden",
@@ -57,17 +50,17 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/san-holo-presents-true-love-in-hollywood-california-09-11-2026/event/0900647EA88187AD",
         "image": "https://s1.ticketm.net/dam/a/3d2/60d0f65e-8d24-47d2-9cab-d432dfa7e3d2_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Jack Harlow - Monica Tour",
+        "date": "2026-09-14",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/jack-harlow-monica-tour-hollywood-california-09-14-2026/event/09006471809E4335",
+        "image": "https://s1.ticketm.net/dam/a/da6/1ebdb037-ead5-4023-a496-be8572c67da6_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Noname",
-        "date": "2026-08-29",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JvOp",
-        "image": "https://s1.ticketm.net/dam/a/9ad/4bf406ce-e3e9-418e-b9e4-eacc0ba519ad_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Noname",
         "date": "2026-09-01",
@@ -116,16 +109,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pg0o",
         "image": "https://s1.ticketm.net/dam/a/a82/1552de05-da3e-4bbd-90ee-0569646d9a82_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Haute and Freddy",
+        "date": "2026-09-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Nr8",
+        "image": "https://s1.ticketm.net/dam/a/d38/d6cf7c96-967d-45b4-b3fa-bcbcab387d38_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "YOUNA x Silver Panda",
-        "date": "2026-08-29",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/youna-x-silver-panda-avalon-hollywood-tickets/15024573",
-        "image": "https://i.ticketweb.com/i/00/13/62/42/43_Edp.jpg?v=8"
-      },
       {
         "name": "Emo Nite",
         "date": "2026-09-04",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/flashback-a-2010s-edm-tribute-avalon-hollywood-tickets/14290894",
         "image": "https://i.ticketweb.com/i/00/13/00/66/44_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tritonal",
+        "date": "2026-09-26",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/tritonal-avalon-hollywood-tickets/14206634",
+        "image": "https://s1.ticketm.net/dam/a/2c7/8e506b80-f31a-4ef1-a804-343ff6b4a2c7_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "Chisme with DoKnow and Jakarta",
-        "date": "2026-08-29",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p-3",
-        "image": "https://s1.ticketm.net/dam/a/878/1c017ade-58b3-4815-9226-a58d2c49d878_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Exploited w/ Dwarves",
         "date": "2026-09-12",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xp1f",
         "image": "https://s1.ticketm.net/dam/a/db0/36da1d98-d36a-4d7a-b230-6081fcc4cdb0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tia Ray",
+        "date": "2026-09-27",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa-O",
+        "image": null
       }
     ],
     "Peacock Theater": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Black Lips",
-        "date": "2026-08-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/black-lips-los-angeles-california-08-29-2026/event/090064E2B3AB7361",
-        "image": "https://s1.ticketm.net/dam/a/58f/877378dd-3359-4898-95ef-a4997cf6d58f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Hypnotique Presents: Sway Festival - 2 DAY PASS",
         "date": "2026-09-05",
         "time": null,
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/haircut-100-los-angeles-california-09-16-2026/event/090064C2FD54267B",
         "image": "https://s1.ticketm.net/dam/e/924/59dea1d0-42af-4284-bb0f-ec5382b51924_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "BIIRD",
+        "date": "2026-09-17",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/biird-los-angeles-california-09-17-2026/event/0900647A0D7451F2",
+        "image": "https://s1.ticketm.net/dam/e/144/352ca278-5a0d-49f6-8055-8eaeaed56144_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -501,13 +501,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Robby Krieger's Spanish Caravan - The Doors En Español",
-        "date": "2026-08-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/robby-kriegers-spanish-caravan-the-doors-los-angeles-california-08-29-2026/event/090064B4E5F69EAE",
-        "image": "https://s1.ticketm.net/dam/a/ce8/c900293c-545d-4f06-9abb-da74ecb30ce8_51601_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lost 80s Live",
         "date": "2026-08-30",
         "time": "18:00:00",
@@ -555,16 +548,16 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/chris-tomlin-worship-under-the-stars-los-angeles-california-09-11-2026/event/090064548D778939",
         "image": "https://s1.ticketm.net/dam/a/ad6/46848aab-c22d-4f38-b4ac-ac82dc156ad6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Morgan Jay: The Goofy Guy Tour",
+        "date": "2026-09-12",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/morgan-jay-the-goofy-guy-tour-los-angeles-california-09-12-2026/event/09006445D5ADACD0",
+        "image": "https://s1.ticketm.net/dam/a/f40/eaa8048c-575c-4719-8681-7bf4a9fdef40_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
-      {
-        "name": "FEAR& LIVE: Ft. Hasan Piker, Austinshow, Will Neff, & QTCinderella",
-        "date": "2026-08-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/fear-live-ft-hasan-piker-austinshow-hollywood-california-08-29-2026/event/090064CAC1C8D165",
-        "image": "https://s1.ticketm.net/dam/a/203/d1079758-63ba-4b8f-91d1-23b384c92203_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Sankara Eye Foundation USA, Presents Sonu Nigam Revolution Tour",
         "date": "2026-08-30",
@@ -606,6 +599,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/protocols-with-andrew-huberman-hollywood-california-10-08-2026/event/09006507D6E2E0AE",
         "image": "https://s1.ticketm.net/dam/a/070/d2065151-fa63-4754-af30-5c609e9f0070_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sara Bareilles: The Good Grief Tour",
+        "date": "2026-10-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/sara-bareilles-the-good-grief-tour-hollywood-california-10-12-2026/event/090064C2D941CF2E",
+        "image": "https://s1.ticketm.net/dam/a/d75/c9e9ff52-8f03-4705-b92b-96c3651f9d75_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -806,13 +806,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "A SUMMER NIGHT OF R&B SOUL",
-        "date": "2026-08-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/a-summer-night-of-rb-soul-inglewood-california-08-29-2026/event/0B0064BCB49161BD",
-        "image": null
-      },
-      {
         "name": "Gabby Cervantes- En Vivo, Con Mariachi Internacional Los Perez",
         "date": "2026-09-04",
         "time": "20:30:00",
@@ -853,6 +846,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-two-can-inglewood-california-09-26-2026/event/0B006518247C7EA3",
         "image": "https://s1.ticketm.net/dam/e/61f/7a352f4d-56d3-4763-896d-5284cbf7b61f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "CANCELLED - SEE LISTING",
+        "date": "2026-10-11",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/cancelled-see-listing-inglewood-california-10-11-2026/event/0B0064F6A0BD2B60",
+        "image": null
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -860,20 +860,6 @@
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
     "Laugh Factory": [
-      {
-        "name": "Hollywood's Hottest 7:30PM",
-        "date": "2026-08-29",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/hollywoods-hottest-730pm-tickets-1989425718879",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192076496%2F2987014365277%2F1%2Foriginal.20260827-215748?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=23eda5619d9bfdc4415d747ea65e7d48"
-      },
-      {
-        "name": "Hollywood's Hottest 9:45PM",
-        "date": "2026-08-29",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/hollywoods-hottest-945pm-tickets-1989426507237",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192076562%2F2987014365277%2F1%2Foriginal.20260827-215904?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=aeafe821aa2d32ce054371b54308e63a"
-      },
       {
         "name": "Pookie Wigington Presents: Chocolate Sundaes 7:00PM",
         "date": "2026-08-30",
@@ -894,6 +880,20 @@
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1989405148352",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192159669%2F2987014365277%2F1%2Foriginal.20260829-002545?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe1bd408fdf6c48feca896dab1d8bdab"
+      },
+      {
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-09-01",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1990442434904",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192160979%2F2987014365277%2F1%2Foriginal.20260829-010904?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d39bcda352cd90ba93333fc3c46ac81"
+      },
+      {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-09-07",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1991497407355",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
       },
       {
         "name": "Fundraiser for LA Animal Shelters and Standup for Pits 5:00 PM",
@@ -918,34 +918,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Private Event",
-        "date": "2026-08-29",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/private-event-hollywood-improv-the-main-room-tickets/15001033",
-        "image": "https://i.ticketweb.com/i/00/13/60/46/33_Edp.jpg?v=2"
-      },
-      {
-        "name": "Tonight at the Lab ft. Kat Bird, Dvontre Coleman, Chloe Hilliard, Matty Chymbor, DJ Rybski, Jenny Johnson, Arzo Dotson and more TBA",
-        "date": "2026-08-29",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14250384",
-        "image": "https://i.ticketweb.com/i/00/13/63/32/93_Edp.jpg?v=8"
-      },
-      {
-        "name": "Tonight at the Improv ft. Greg Fitzsimmons, Caroline Rhea, Chris Spencer, Jesus Trejo, Chris Estrada, Dvontre Coleman, Sam Tripoli, Frazer Smith and More TBA!",
-        "date": "2026-08-29",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14972973",
-        "image": "https://s1.ticketm.net/dam/a/0d4/aa15ae50-1049-42fa-8f56-d38e9991e0d4_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Ego Death ft. Lauren Michaels, Alex Hooper, Bryan Suppan, Nina Dicker, Sha' Lenoir, Demar Randy, John Conroy and more TBA",
-        "date": "2026-08-29",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/ego-death-ft-lauren-michaels-hollywood-improv-the-lab-tickets/14954463",
-        "image": "https://s1.ticketm.net/dam/a/679/49396ffb-8704-4dc7-a4ef-3ff6fd0cd679_1107161_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Stephan Dyer (En Español)",
         "date": "2026-08-30",
@@ -1003,18 +975,18 @@
         "image": "https://i.ticketweb.com/i/00/13/64/49/73_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv ft. Ray Romano, Anthony Jeselnik, Brian Monarch, Leah Knauer and Very Special Guests",
+        "name": "Tonight at the Improv ft. Ray Romano, Sebastian Maniscalco, Chelsea Handler, Anthony Jeselnik, Jay Leno, Brian Monarch, Leah Knauer and Very Special Guests",
         "date": "2026-09-01",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15014303",
         "image": "https://s1.ticketm.net/dam/a/0ea/1df53b79-a116-4b41-8430-8c6790d290ea_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "John Campanelli & Special Guests ft. Nathan Spina, Hannah Malone, Ann Marie Soltis, Jennie Mintz and more TBA",
+        "name": "John Campanelli & Special Guests ft. Will Burkart, Nathan Spina, Hannah Malone, Ann Marie Soltis, Jennie Mintz and more TBA",
         "date": "2026-09-01",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14228564",
-        "image": "https://i.ticketweb.com/i/00/12/94/54/74_Edp.jpg?v=4"
+        "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Lab Work",
@@ -1029,6 +1001,34 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/vinny-fasline-friends-ft-hollywood-improv-the-main-room-tickets/14278784",
         "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Opey & Friends: A Standup Comedy Show",
+        "date": "2026-09-02",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/opey-friends-a-standup-hollywood-improv-the-lab-tickets/15048623",
+        "image": "https://i.ticketweb.com/i/00/13/64/57/13_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Chelsea Handler, Jay Leno, Robby Hoffman, Brian Monarch, Rebecca Corry, Greg Wilson and Very Special Guests",
+        "date": "2026-09-03",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15014333",
+        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Nick Thune ft. Natasha Leggero, Butch Bastard",
+        "date": "2026-09-03",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/nick-thune-ft-natasha-leggero-hollywood-improv-the-lab-tickets/15047743",
+        "image": "https://s1.ticketm.net/dam/a/e4e/212d2869-571f-4cfc-b56e-8716d159ae4e_467881_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-09-04",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/15010903",
+        "image": "https://i.ticketweb.com/i/00/13/61/26/63_Edp.jpg?v=4"
       }
     ]
   }
