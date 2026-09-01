@@ -1,13 +1,13 @@
 {
-  "generated": "2026-08-31T21:15:51.383Z",
+  "generated": "2026-09-01T19:08:56.001Z",
   "venues": {
     "Hollywood Palladium": [
       {
-        "name": "Right After You Left Featuring Iliza Shlesinger & Surprise Guests",
+        "name": "Bill Burr, Iliza Shlesinger & more at Right After You Left",
         "date": "2026-09-01",
         "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/right-after-you-left-featuring-iliza-hollywood-california-09-01-2026/event/09006513CFA1C765",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+        "url": "https://www.ticketmaster.com/bill-burr-iliza-shlesinger-more-at-hollywood-california-09-01-2026/event/09006513CFA1C765",
+        "image": "https://s1.ticketm.net/dam/a/f43/27b58b09-11fa-4121-8b63-c49d2a6adf43_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "The Garden",
@@ -868,13 +868,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-08-31",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1989405148352",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192314206%2F2987014365277%2F1%2Foriginal.20260831-210242?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8b23aa7362763127720175bfd5d1e6e5"
-      },
-      {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-09-01",
         "time": "19:45",
@@ -887,6 +880,13 @@
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1991497407355",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
+      },
+      {
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-09-08",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1991498232824",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
       },
       {
         "name": "The Spectacular Show 8:00PM",
@@ -926,34 +926,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Christopher Titus, Mary Lynn Rajskub, Craig Conant, Becky Robinson, Taylor Williamson, Shapel Lacey, Greg Wilson and more TBA",
-        "date": "2026-08-31",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15005453",
-        "image": "https://s1.ticketm.net/dam/a/c08/441cbaa3-6959-425b-ad68-f249f10d9c08_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "New Joke Night ft. Mike Falzone, JF Harris, Larry Wilmore, Leslie Liao, Alec Flynn, Rachel Bonnetta, Owen Smith",
-        "date": "2026-08-31",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/new-joke-night-ft-mike-hollywood-improv-the-lab-tickets/15002263",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Candyce Brown, Jamal Doman, Mike Estime, Comedian CP  & more",
-        "date": "2026-08-31",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14261354",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Alfred Robles, Aaron Branch, Ellory Smith, Herman Wrice, Charlotte McKinney, Mark Hayes, Dante Gonzalez and More TBA!",
-        "date": "2026-08-31",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14287764",
-        "image": "https://s1.ticketm.net/dam/a/1da/59f86268-e95d-401d-a46d-4bac1eaca1da_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-09-01",
         "time": "17:15:00",
@@ -989,11 +961,11 @@
         "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Opey & Friends: A Standup Comedy Show",
+        "name": "Opey & Friends: A Standup Comedy Show ft. Chris Estrada, Fatimah Taliah, Myke Wright, Brad Silnutzer, Leah Sampson, Opey Olegbaju and More TBA",
         "date": "2026-09-02",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/opey-friends-a-standup-hollywood-improv-the-lab-tickets/15048623",
-        "image": "https://i.ticketweb.com/i/00/13/64/57/13_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/64/57/13_Edp.jpg?v=5"
       },
       {
         "name": "Tonight at the Improv ft. Chelsea Handler, Jay Leno, Robby Hoffman, Brian Monarch, Rebecca Corry, Greg Wilson and Very Special Guests",
@@ -1024,11 +996,39 @@
         "image": "https://i.ticketweb.com/i/00/13/44/30/73_Edp.jpg?v=2"
       },
       {
+        "name": "Tonight at the Improv ft. Sheng Wang and More TBA",
+        "date": "2026-09-05",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010983",
+        "image": "https://s1.ticketm.net/dam/a/f1e/66259d51-20d2-4611-9571-8ba4c99f0f1e_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Tonight at the Lab",
         "date": "2026-09-05",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14257654",
         "image": "https://i.ticketweb.com/i/00/12/97/33/94_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-09-05",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/15010913",
+        "image": "https://i.ticketweb.com/i/00/13/61/26/63_Edp.jpg?v=4"
+      },
+      {
+        "name": "House Party ft. Rocky Roberts, Cid Williams, Erica Rhodes, Daniel Franzese, Moses Storm, Harper-Rose Drummond, Meredith Casey, Pancho Moler",
+        "date": "2026-09-05",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/house-party-ft-rocky-roberts-hollywood-improv-the-lab-tickets/14267814",
+        "image": "https://s1.ticketm.net/dam/a/771/b9acc191-0884-48fb-9aa9-4ee51b961771_1151311_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Funny Mill ft. Jeremiah Watkins, Kat Bird, Zeo Niu, Tom Johnson, Brian Wiora, Melora Jaye, Carlos Cruz",
+        "date": "2026-09-06",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/funny-mill-ft-jeremiah-watkins-hollywood-improv-the-lab-tickets/15042593",
+        "image": "https://i.ticketweb.com/i/00/13/63/96/63_Edp.jpg?v=5"
       }
     ]
   }
