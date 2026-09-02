@@ -1,14 +1,7 @@
 {
-  "generated": "2026-09-01T19:08:56.001Z",
+  "generated": "2026-09-02T19:09:49.644Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Bill Burr, Iliza Shlesinger & more at Right After You Left",
-        "date": "2026-09-01",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/bill-burr-iliza-shlesinger-more-at-hollywood-california-09-01-2026/event/09006513CFA1C765",
-        "image": "https://s1.ticketm.net/dam/a/f43/27b58b09-11fa-4121-8b63-c49d2a6adf43_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Garden",
         "date": "2026-09-02",
@@ -57,17 +50,17 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/jack-harlow-monica-tour-hollywood-california-09-14-2026/event/09006471809E4335",
         "image": "https://s1.ticketm.net/dam/a/da6/1ebdb037-ead5-4023-a496-be8572c67da6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Starbomb featuring DJ Commander Meouch - Probably The Only Tour Ever",
+        "date": "2026-09-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/starbomb-featuring-dj-commander-meouch-probably-hollywood-california-09-16-2026/event/090064B02490A2FE",
+        "image": "https://s1.ticketm.net/dam/a/97b/cfee6cdb-a7a9-4a81-9823-963cf9f9f97b_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Noname",
-        "date": "2026-09-01",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PboU",
-        "image": "https://s1.ticketm.net/dam/a/9ad/4bf406ce-e3e9-418e-b9e4-eacc0ba519ad_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Eli",
         "date": "2026-09-02",
@@ -116,6 +109,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Nr8",
         "image": "https://s1.ticketm.net/dam/a/d38/d6cf7c96-967d-45b4-b3fa-bcbcab387d38_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Isaiah Falls w/ RAAHiiM",
+        "date": "2026-09-16",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVfV",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
@@ -138,7 +138,7 @@
         "date": "2026-09-06",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/day-trip-in-the-park-avalon-hollywood-tickets/14286574",
-        "image": "https://i.ticketweb.com/i/00/13/00/18/84_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/00/18/84_Edp.jpg?v=7"
       },
       {
         "name": "Nimda x Prosecute x yvm3",
@@ -155,6 +155,13 @@
         "image": "https://i.ticketweb.com/i/00/13/00/31/74_Edp.jpg?v=5"
       },
       {
+        "name": "Bad Boombox, Madgavs, Mischluft, Ollie Lishman, Supergloss",
+        "date": "2026-09-12",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/bad-boombox-madgavs-mischluft-ollie-avalon-hollywood-tickets/14298184",
+        "image": "https://i.ticketweb.com/i/00/13/01/43/34_Edp.jpg?v=17"
+      },
+      {
         "name": "PARTIBOI69",
         "date": "2026-09-18",
         "time": "22:00:00",
@@ -167,13 +174,6 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/flashback-a-2010s-edm-tribute-avalon-hollywood-tickets/14290894",
         "image": "https://i.ticketweb.com/i/00/13/00/66/44_Edp.jpg?v=5"
-      },
-      {
-        "name": "Gasolina",
-        "date": "2026-09-25",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/14296094",
-        "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -868,13 +868,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Rubee Tuesdays 7:45pm",
-        "date": "2026-09-01",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1990442434904",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192160979%2F2987014365277%2F1%2Foriginal.20260829-010904?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d39bcda352cd90ba93333fc3c46ac81"
-      },
-      {
         "name": "Monday All-Star Comedy 8:00PM",
         "date": "2026-09-07",
         "time": "20:00",
@@ -894,6 +887,13 @@
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/the-spectacular-show-800pm-tickets-1991497666129",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
+      },
+      {
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-09-15",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1991498310055",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
       },
       {
         "name": "Monday All-Star Comedy 8:00PM",
@@ -926,27 +926,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-09-01",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/15047963",
-        "image": "https://i.ticketweb.com/i/00/13/64/49/73_Edp.jpg?v=2"
-      },
-      {
-        "name": "Tonight at the Improv ft. Ray Romano, Sebastian Maniscalco, Chelsea Handler, Anthony Jeselnik, Jay Leno, Brian Monarch, Leah Knauer and Very Special Guests",
-        "date": "2026-09-01",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15014303",
-        "image": "https://s1.ticketm.net/dam/a/0ea/1df53b79-a116-4b41-8430-8c6790d290ea_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "John Campanelli & Special Guests ft. Will Burkart, Nathan Spina, Hannah Malone, Ann Marie Soltis, Jennie Mintz and more TBA",
-        "date": "2026-09-01",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/14228564",
-        "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lab Work",
         "date": "2026-09-02",
         "time": "18:15:00",
@@ -961,11 +940,11 @@
         "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Opey & Friends: A Standup Comedy Show ft. Chris Estrada, Fatimah Taliah, Myke Wright, Brad Silnutzer, Leah Sampson, Opey Olegbaju and More TBA",
+        "name": "Opey & Friends: A Standup Comedy Show ft. Chris Estrada, Fatimah Taliah, Myke Wright, Brad Silnutzer, Leah Sampson, Opey Olagbaju and More TBA",
         "date": "2026-09-02",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/opey-friends-a-standup-hollywood-improv-the-lab-tickets/15048623",
-        "image": "https://i.ticketweb.com/i/00/13/64/57/13_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/64/57/13_Edp.jpg?v=7"
       },
       {
         "name": "Tonight at the Improv ft. Chelsea Handler, Jay Leno, Robby Hoffman, Brian Monarch, Rebecca Corry, Greg Wilson and Very Special Guests",
@@ -982,11 +961,11 @@
         "image": "https://s1.ticketm.net/dam/a/e4e/212d2869-571f-4cfc-b56e-8716d159ae4e_467881_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Orny Adams, Rory Albanese, Kelly Ryan, & more TBA",
         "date": "2026-09-04",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/15010903",
-        "image": "https://i.ticketweb.com/i/00/13/61/26/63_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010903",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Hannah Jones",
@@ -996,7 +975,14 @@
         "image": "https://i.ticketweb.com/i/00/13/44/30/73_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv ft. Sheng Wang and More TBA",
+        "name": "Tonight at the Improv ft. Steph Tolev, Nick Thune, Shane Torres, Ron G and more TBA",
+        "date": "2026-09-04",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15011083",
+        "image": "https://s1.ticketm.net/dam/a/e4e/212d2869-571f-4cfc-b56e-8716d159ae4e_467881_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Sheng Wang, Amir K, Bobby Collins and More TBA",
         "date": "2026-09-05",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010983",
@@ -1007,14 +993,14 @@
         "date": "2026-09-05",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14257654",
-        "image": "https://i.ticketweb.com/i/00/12/97/33/94_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/12/97/33/94_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jessie Jetski Johnson, Jeremiah Watkins, Rick Ingraham & more TBA",
         "date": "2026-09-05",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/15010913",
-        "image": "https://i.ticketweb.com/i/00/13/61/26/63_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010913",
+        "image": "https://i.ticketweb.com/i/00/13/01/51/94_Edp.jpg?v=5"
       },
       {
         "name": "House Party ft. Rocky Roberts, Cid Williams, Erica Rhodes, Daniel Franzese, Moses Storm, Harper-Rose Drummond, Meredith Casey, Pancho Moler",
@@ -1024,11 +1010,32 @@
         "image": "https://s1.ticketm.net/dam/a/771/b9acc191-0884-48fb-9aa9-4ee51b961771_1151311_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv",
+        "date": "2026-09-06",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14293334",
+        "image": "https://i.ticketweb.com/i/00/13/00/88/94_Edp.jpg?v=2"
+      },
+      {
         "name": "Funny Mill ft. Jeremiah Watkins, Kat Bird, Zeo Niu, Tom Johnson, Brian Wiora, Melora Jaye, Carlos Cruz",
         "date": "2026-09-06",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/funny-mill-ft-jeremiah-watkins-hollywood-improv-the-lab-tickets/15042593",
         "image": "https://i.ticketweb.com/i/00/13/63/96/63_Edp.jpg?v=5"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-09-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/15017193",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Just Pull Up ft. Dulcé Sloan, Camille Waters, Zainab Johnson, Chris Spencer, Jasmine Ellis, Skyler Higley, Langston Kerman and more TBA",
+        "date": "2026-09-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/just-pull-up-ft-dulc-hollywood-improv-the-lab-tickets/14213034",
+        "image": "https://s1.ticketm.net/dam/a/4cb/7609a483-c84d-4ff2-ac08-6795018cd4cb_RECOMENDATION_16_9.jpg"
       }
     ]
   }
