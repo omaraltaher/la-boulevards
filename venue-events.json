@@ -1,14 +1,7 @@
 {
-  "generated": "2026-09-02T19:09:49.644Z",
+  "generated": "2026-09-03T19:02:06.246Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "The Garden",
-        "date": "2026-09-02",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/the-garden-hollywood-california-09-02-2026/event/090064CCAF8AD996",
-        "image": "https://s1.ticketm.net/dam/a/f6a/30579354-6abe-4c0b-93fc-7f93c61d8f6a_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Charlatans UK - North American Tour 2026",
         "date": "2026-09-04",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/starbomb-featuring-dj-commander-meouch-probably-hollywood-california-09-16-2026/event/090064B02490A2FE",
         "image": "https://s1.ticketm.net/dam/a/97b/cfee6cdb-a7a9-4a81-9823-963cf9f9f97b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Citizen",
+        "date": "2026-09-17",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/citizen-hollywood-california-09-17-2026/event/09006495AE13A478",
+        "image": "https://s1.ticketm.net/dam/a/0ef/57ce286b-a9b5-47e2-a2ec-fc79ee4330ef_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Eli",
-        "date": "2026-09-02",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ8ox",
-        "image": "https://s1.ticketm.net/dam/a/098/96d2c381-e29a-4231-838f-6cbacc9ce098_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Hayla (18 and Over)",
         "date": "2026-09-04",
@@ -116,6 +109,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVfV",
         "image": null
+      },
+      {
+        "name": "Soulwax",
+        "date": "2026-09-17",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzAv",
+        "image": "https://s1.ticketm.net/dam/a/30b/691ad30a-ea74-47df-b208-e70b9d41830b_1305801_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -148,13 +148,6 @@
         "image": "https://i.ticketweb.com/i/00/13/63/14/63_Edp.jpg?v=9"
       },
       {
-        "name": "Time Machine: 90s - 2000s Throwback Dance Party",
-        "date": "2026-09-12",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/time-machine-90s-avalon-hollywood-tickets/14287804",
-        "image": "https://i.ticketweb.com/i/00/13/00/31/74_Edp.jpg?v=5"
-      },
-      {
         "name": "Bad Boombox, Madgavs, Mischluft, Ollie Lishman, Supergloss",
         "date": "2026-09-12",
         "time": "22:00:00",
@@ -174,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/flashback-a-2010s-edm-tribute-avalon-hollywood-tickets/14290894",
         "image": "https://i.ticketweb.com/i/00/13/00/66/44_Edp.jpg?v=5"
+      },
+      {
+        "name": "Gasolina",
+        "date": "2026-09-25",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/14296094",
+        "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -926,27 +926,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work",
-        "date": "2026-09-02",
-        "time": "18:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/15011013",
-        "image": "https://i.ticketweb.com/i/00/13/61/26/83_Edp.jpg?v=2"
-      },
-      {
-        "name": "Vinny Fasline & Friends ft. Iliza Shlesinger, Anthony Jeselnik, Damon Wayans Jr., Pat Quinn, Vinny Fasline and More TBA!",
-        "date": "2026-09-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/vinny-fasline-friends-ft-hollywood-improv-the-main-room-tickets/14278784",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Opey & Friends: A Standup Comedy Show ft. Chris Estrada, Fatimah Taliah, Myke Wright, Brad Silnutzer, Leah Sampson, Opey Olagbaju and More TBA",
-        "date": "2026-09-02",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/opey-friends-a-standup-hollywood-improv-the-lab-tickets/15048623",
-        "image": "https://i.ticketweb.com/i/00/13/64/57/13_Edp.jpg?v=7"
-      },
-      {
         "name": "Tonight at the Improv ft. Chelsea Handler, Jay Leno, Robby Hoffman, Brian Monarch, Rebecca Corry, Greg Wilson and Very Special Guests",
         "date": "2026-09-03",
         "time": "19:30:00",
@@ -954,18 +933,18 @@
         "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Nick Thune ft. Natasha Leggero, Butch Bastard",
+        "name": "Nick Thune ft. Butch Bastard, Andrew Michaan, Alyssa Sabo",
         "date": "2026-09-03",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/nick-thune-ft-natasha-leggero-hollywood-improv-the-lab-tickets/15047743",
+        "url": "https://www.ticketweb.com/event/nick-thune-ft-butch-bastard-hollywood-improv-the-lab-tickets/15047743",
         "image": "https://s1.ticketm.net/dam/a/e4e/212d2869-571f-4cfc-b56e-8716d159ae4e_467881_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Orny Adams, Rory Albanese, Kelly Ryan, & more TBA",
+        "name": "Tonight at the Improv ft. Orny Adams, Taylor Williamson, Rory Albanese, Eleanor Kerrigan, Kelly Ryan, & more TBA",
         "date": "2026-09-04",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010903",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Hannah Jones",
@@ -975,32 +954,32 @@
         "image": "https://i.ticketweb.com/i/00/13/44/30/73_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv ft. Steph Tolev, Nick Thune, Shane Torres, Ron G and more TBA",
+        "name": "Tonight at the Improv ft. Steph Tolev, Nick Thune, Shane Torres, Ron G, Francisco Ramos and more TBA",
         "date": "2026-09-04",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15011083",
         "image": "https://s1.ticketm.net/dam/a/e4e/212d2869-571f-4cfc-b56e-8716d159ae4e_467881_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Sheng Wang, Amir K, Bobby Collins and More TBA",
+        "name": "Tonight at the Improv ft. Sheng Wang, Amir K, Loni Love, Bobby Collins, Jay Larson, Andre Kelley and More TBA",
         "date": "2026-09-05",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010983",
         "image": "https://s1.ticketm.net/dam/a/f1e/66259d51-20d2-4611-9571-8ba4c99f0f1e_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab",
+        "name": "Tonight at the Lab ft. Fatimah Taliah, Kelly Ryan, Jackson Banks, Dan Donohue, Rocky Roberts and more TBA",
         "date": "2026-09-05",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14257654",
-        "image": "https://i.ticketweb.com/i/00/12/97/33/94_Edp.jpg?v=3"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14257654",
+        "image": "https://i.ticketweb.com/i/00/12/97/33/94_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. Jessie Jetski Johnson, Jeremiah Watkins, Rick Ingraham & more TBA",
+        "name": "Tonight at the Improv ft. Steph Tolev, Jessie Jetski Johnson, Jeremiah Watkins, Ray Lau, Rick Ingraham, Kirk Fox, Mike Falzone & more TBA",
         "date": "2026-09-05",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010913",
-        "image": "https://i.ticketweb.com/i/00/13/01/51/94_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/01/51/94_Edp.jpg?v=10"
       },
       {
         "name": "House Party ft. Rocky Roberts, Cid Williams, Erica Rhodes, Daniel Franzese, Moses Storm, Harper-Rose Drummond, Meredith Casey, Pancho Moler",
@@ -1010,11 +989,11 @@
         "image": "https://s1.ticketm.net/dam/a/771/b9acc191-0884-48fb-9aa9-4ee51b961771_1151311_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Amir K, Kevin Sullivan, Irene Tu and more TBA",
         "date": "2026-09-06",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14293334",
-        "image": "https://i.ticketweb.com/i/00/13/00/88/94_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14293334",
+        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Funny Mill ft. Jeremiah Watkins, Kat Bird, Zeo Niu, Tom Johnson, Brian Wiora, Melora Jaye, Carlos Cruz",
@@ -1036,6 +1015,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/just-pull-up-ft-dulc-hollywood-improv-the-lab-tickets/14213034",
         "image": "https://s1.ticketm.net/dam/a/4cb/7609a483-c84d-4ff2-ac08-6795018cd4cb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lab Work",
+        "date": "2026-09-09",
+        "time": "18:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/15011033",
+        "image": "https://i.ticketweb.com/i/00/13/61/27/03_Edp.jpg?v=2"
+      },
+      {
+        "name": "Darren Fleet",
+        "date": "2026-09-09",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/darren-fleet-hollywood-improv-the-lab-tickets/15045773",
+        "image": "https://i.ticketweb.com/i/00/13/64/27/33_Edp.jpg?v=4"
       }
     ]
   }
