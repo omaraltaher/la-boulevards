@@ -1,14 +1,7 @@
 {
-  "generated": "2026-09-04T18:45:36.915Z",
+  "generated": "2026-09-05T17:52:02.207Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "The Charlatans UK - North American Tour 2026",
-        "date": "2026-09-04",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/the-charlatans-uk-north-american-tour-hollywood-california-09-04-2026/event/09006490B9D99051",
-        "image": "https://s1.ticketm.net/dam/a/581/7ce0a550-130e-4b5c-b287-2a9c598ca581_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "William Black",
         "date": "2026-09-05",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/starbomb-featuring-dj-commander-meouch-probably-hollywood-california-09-16-2026/event/090064B02490A2FE",
         "image": "https://s1.ticketm.net/dam/a/97b/cfee6cdb-a7a9-4a81-9823-963cf9f9f97b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Citizen",
+        "date": "2026-09-17",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/citizen-hollywood-california-09-17-2026/event/09006495AE13A478",
+        "image": "https://s1.ticketm.net/dam/a/0ef/57ce286b-a9b5-47e2-a2ec-fc79ee4330ef_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Hayla (18 and Over)",
-        "date": "2026-09-04",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A708qz",
-        "image": null
-      },
       {
         "name": "Nitzer Ebb",
         "date": "2026-09-05",
@@ -116,6 +109,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzAe",
         "image": "https://s1.ticketm.net/dam/a/30b/691ad30a-ea74-47df-b208-e70b9d41830b_1305801_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "jigitz - Ages 18+",
+        "date": "2026-09-19",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P7Gw",
+        "image": "https://s1.ticketm.net/dam/a/f88/dafc791d-bd83-425d-b1fe-97c836585f88_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -692,6 +692,13 @@
         "image": "https://s1.ticketm.net/dam/a/9d8/df700c0e-81ec-4a0b-af0c-fe9e2d5739d8_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Alex O'connor: Pre-show Q&a Add-on",
+        "date": "2026-11-21",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/alex-oconnor-preshow-qa-addon-los-angeles-california-11-21-2026/event/09006524A7C78C90",
+        "image": null
+      },
+      {
         "name": "Alex O'Connor",
         "date": "2026-11-21",
         "time": "19:00:00",
@@ -800,13 +807,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Gabby Cervantes- En Vivo, Con Mariachi Internacional Los Perez",
-        "date": "2026-09-04",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/gabby-cervantes-en-vivo-con-mariachi-inglewood-california-09-04-2026/event/0B0064DD70BA1549",
-        "image": "https://s1.ticketm.net/dam/e/a90/f1db0dea-79f3-4714-ab69-869f55838a90_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Cult Classics Cinema presents CARMEN & B*DAY Double Feature",
         "date": "2026-09-06",
         "time": "19:00:00",
@@ -859,20 +859,20 @@
         "date": "2026-09-07",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1991497407355",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192640276%2F2987014365277%2F1%2Foriginal.20260904-002523?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=44e749a8a29dab38eb802da4b1eaa83f"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192719872%2F2987014365277%2F1%2Foriginal.20260904-210424?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=20c571eac2402ac734287275affd5b43"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-09-08",
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1991498232824",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192726139%2F2987014365277%2F1%2Foriginal.20260904-222057?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=01b65c63bba39dd9a822ff90efbaf150"
       },
       {
-        "name": "The Spectacular Show 8:00PM",
+        "name": "The Spectacular Comedy Show 8:00PM",
         "date": "2026-09-14",
         "time": "20:00",
-        "url": "https://www.eventbrite.com/e/the-spectacular-show-800pm-tickets-1991497666129",
+        "url": "https://www.eventbrite.com/e/the-spectacular-comedy-show-800pm-tickets-1991497666129",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192643736%2F2987014365277%2F1%2Foriginal.20260904-011451?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=adde0680feef4c56d8db3660d071a0c1"
       },
       {
@@ -913,27 +913,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Orny Adams, Taylor Williamson, Rory Albanese, Eleanor Kerrigan, Kelly Ryan, & more TBA",
-        "date": "2026-09-04",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010903",
-        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Hannah Jones",
-        "date": "2026-09-04",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/hannah-jones-hollywood-improv-the-lab-tickets/14843113",
-        "image": "https://i.ticketweb.com/i/00/13/44/30/73_Edp.jpg?v=2"
-      },
-      {
-        "name": "Tonight at the Improv ft. Steph Tolev, Nick Thune, Shane Torres, Ron G, Francisco Ramos, Julia Hladkowiz and more TBA",
-        "date": "2026-09-04",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15011083",
-        "image": "https://s1.ticketm.net/dam/a/e4e/212d2869-571f-4cfc-b56e-8716d159ae4e_467881_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Sheng Wang, Amir K, Loni Love, Chris Estrada, Bobby Collins, Jay Larson, Andre Kelley and More TBA",
         "date": "2026-09-05",
         "time": "19:00:00",
@@ -941,7 +920,7 @@
         "image": "https://s1.ticketm.net/dam/a/f1e/66259d51-20d2-4611-9571-8ba4c99f0f1e_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Fatimah Taliah, Kelly Ryan, Jackson Banks, Dan Donohue, J.F. Harris, Rocky Roberts and more TBA",
+        "name": "Tonight at the Lab ft. Fatimah Taliah, Kelly Ryan, Jackson Banks, Dan Donohue, J.F. Harris, Frank Castillo, Rocky Roberts and more TBA",
         "date": "2026-09-05",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14257654",
@@ -955,7 +934,7 @@
         "image": "https://i.ticketweb.com/i/00/13/01/51/94_Edp.jpg?v=11"
       },
       {
-        "name": "House Party ft. Rocky Roberts, Cid Williams, Erica Rhodes, Daniel Franzese, Moses Storm, Harper-Rose Drummond, Meredith Casey, Pancho Moler",
+        "name": "House Party ft. Rocky Roberts, Cid Williams, Erica Rhodes, Daniel Franzese, Moses Storm, Kevin Sullivan, Meredith Casey, Pancho Moler",
         "date": "2026-09-05",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/house-party-ft-rocky-roberts-hollywood-improv-the-lab-tickets/14267814",
@@ -976,10 +955,17 @@
         "image": "https://i.ticketweb.com/i/00/13/63/96/63_Edp.jpg?v=5"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis, Kanisha Buss, Secret Service Sam, Mario Hodge, Surprise Guest, & more",
         "date": "2026-09-07",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/15017193",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis, Clayton Thomas, Lance Woods, West Side, Jugo, Boo Kapone, Da Herm, Surprise Guest, & more",
+        "date": "2026-09-07",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/15017203",
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       },
       {
@@ -990,11 +976,25 @@
         "image": "https://i.ticketweb.com/i/00/13/64/49/93_Edp.jpg?v=2"
       },
       {
+        "name": "Tonight at the Improv ft. Chelsea Handler, Jay Leno, Robby Hoffman, Brian Monarch and Very Special Guests",
+        "date": "2026-09-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15014373",
+        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Just Pull Up ft. Dulcé Sloan, Camille Waters, Zainab Johnson, Chris Spencer, Jasmine Ellis, Skyler Higley, Langston Kerman and more TBA",
         "date": "2026-09-08",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/just-pull-up-ft-dulc-hollywood-improv-the-lab-tickets/14213034",
         "image": "https://s1.ticketm.net/dam/a/4cb/7609a483-c84d-4ff2-ac08-6795018cd4cb_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Amir K, Zainab Johnson, Craig Conant, Ray Lau, Mark Hayes and more TBA",
+        "date": "2026-09-08",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14287304",
+        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Lab Work",
@@ -1016,6 +1016,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14242224",
         "image": "https://i.ticketweb.com/i/00/12/95/84/14_Edp.jpg?v=3"
+      },
+      {
+        "name": "BASSHOLE ft. Doug Bass, Jonesy, Pete Giovine, Macey Isaacs, Rachel Sterling, Rob DaRocha, EL Smith, Willie Krisztal, Tonya Moon, Sarah Randolph, Mark Primiano, Scott Blugrind and more TBA!",
+        "date": "2026-09-10",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-jonesy-hollywood-improv-the-lab-tickets/15008013",
+        "image": "https://i.ticketweb.com/i/00/13/61/04/43_Edp.jpg?v=3"
       }
     ]
   }
