@@ -1,14 +1,7 @@
 {
-  "generated": "2026-09-05T17:52:02.207Z",
+  "generated": "2026-09-06T17:56:49.484Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "William Black",
-        "date": "2026-09-05",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/william-black-hollywood-california-09-05-2026/event/090064DA849B4543",
-        "image": "https://s1.ticketm.net/dam/a/4f8/2677a40c-eccc-4fc5-bd52-22a49745d4f8_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Stephen Wilson Jr. - Gary The Torch Tour",
         "date": "2026-09-06",
@@ -57,17 +50,17 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/citizen-hollywood-california-09-17-2026/event/09006495AE13A478",
         "image": "https://s1.ticketm.net/dam/a/0ef/57ce286b-a9b5-47e2-a2ec-fc79ee4330ef_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Gravedgr",
+        "date": "2026-09-18",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/gravedgr-hollywood-california-09-18-2026/event/090064CCD2313334",
+        "image": "https://s1.ticketm.net/dam/a/906/a274ee17-05f7-46a6-b4be-71ce7dba7906_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Nitzer Ebb",
-        "date": "2026-09-05",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70o-P",
-        "image": "https://s1.ticketm.net/dam/a/6b9/02392df4-1432-4bb1-8c0a-bc7cd3bef6b9_958011_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Warning",
         "date": "2026-09-09",
@@ -116,23 +109,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P7Gw",
         "image": "https://s1.ticketm.net/dam/a/f88/dafc791d-bd83-425d-b1fe-97c836585f88_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Six Sex",
+        "date": "2026-09-22",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd_d",
+        "image": "https://s1.ticketm.net/dam/a/ed1/31201d83-0553-4051-a643-c81471d8fed1_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Emo Nite",
-        "date": "2026-09-04",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14261014",
-        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Korolova",
-        "date": "2026-09-05",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/korolova-avalon-hollywood-tickets/14275344",
-        "image": "https://s1.ticketm.net/dam/a/0aa/e4f3b47a-26a8-44fa-ab92-8f16b62c60aa_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Day Trip In The Park Afterparty: Gaskin",
         "date": "2026-09-06",
@@ -152,7 +138,7 @@
         "date": "2026-09-12",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/bad-boombox-madgavs-mischluft-ollie-avalon-hollywood-tickets/14298184",
-        "image": "https://i.ticketweb.com/i/00/13/01/43/34_Edp.jpg?v=17"
+        "image": "https://i.ticketweb.com/i/00/13/01/43/34_Edp.jpg?v=18"
       },
       {
         "name": "PARTIBOI69",
@@ -174,6 +160,20 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/14296094",
         "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tritonal",
+        "date": "2026-09-26",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/tritonal-avalon-hollywood-tickets/14206634",
+        "image": "https://s1.ticketm.net/dam/a/2c7/8e506b80-f31a-4ef1-a804-343ff6b4a2c7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "ALT8, Noise Mafia, PeterBlue",
+        "date": "2026-10-09",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/alt8-noise-mafia-peterblue-avalon-hollywood-tickets/15016173",
+        "image": "https://i.ticketweb.com/i/00/13/61/62/63_Edp.jpg?v=6"
       }
     ],
     "The Novo": [
@@ -301,13 +301,6 @@
         "image": "https://s1.ticketm.net/dam/e/4c7/f6c041ca-67da-4926-87f0-72bff6f8f4c7_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Hypnotique Presents: Sway Festival - DAY 1",
-        "date": "2026-09-05",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/hypnotique-presents-sway-festival-day-1-los-angeles-california-09-05-2026/event/090064C8A1E372A0",
-        "image": "https://s1.ticketm.net/dam/e/f17/4bb3126f-a20f-488a-a2bd-b2b29bd7ef17_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Hypnotique Presents: Sway Festival - DAY 2",
         "date": "2026-09-06",
         "time": "19:00:00",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/biird-los-angeles-california-09-17-2026/event/0900647A0D7451F2",
         "image": "https://s1.ticketm.net/dam/e/144/352ca278-5a0d-49f6-8055-8eaeaed56144_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mustard Service & Pity Party (Girls Club)",
+        "date": "2026-09-18",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/mustard-service-pity-party-girls-club-los-angeles-california-09-18-2026/event/090064AFFB1A1024",
+        "image": "https://s1.ticketm.net/dam/e/1a2/3590acd8-b73b-4b21-a7b2-4b41b77121a2_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -913,35 +913,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Sheng Wang, Amir K, Loni Love, Chris Estrada, Bobby Collins, Jay Larson, Andre Kelley and More TBA",
-        "date": "2026-09-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010983",
-        "image": "https://s1.ticketm.net/dam/a/f1e/66259d51-20d2-4611-9571-8ba4c99f0f1e_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Fatimah Taliah, Kelly Ryan, Jackson Banks, Dan Donohue, J.F. Harris, Frank Castillo, Rocky Roberts and more TBA",
-        "date": "2026-09-05",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14257654",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Steph Tolev, Jessie Jetski Johnson, Jeremiah Watkins, Ray Lau, Rick Ingraham, Kirk Fox, Mike Falzone & more TBA",
-        "date": "2026-09-05",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010913",
-        "image": "https://i.ticketweb.com/i/00/13/01/51/94_Edp.jpg?v=11"
-      },
-      {
-        "name": "House Party ft. Rocky Roberts, Cid Williams, Erica Rhodes, Daniel Franzese, Moses Storm, Kevin Sullivan, Meredith Casey, Pancho Moler",
-        "date": "2026-09-05",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/house-party-ft-rocky-roberts-hollywood-improv-the-lab-tickets/14267814",
-        "image": "https://s1.ticketm.net/dam/a/771/b9acc191-0884-48fb-9aa9-4ee51b961771_1151311_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Amir K, Kevin Sullivan, Erica Rhodes, Moses Storm, Jared Goldstein, Irene Tu, Malcolm Cills and more TBA",
+        "name": "Tonight at the Improv ft. Amir K, Kevin Sullivan, Erica Rhodes, Moses Storm, Irene Tu, Malcolm Cills and more TBA",
         "date": "2026-09-06",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14293334",
@@ -990,11 +962,11 @@
         "image": "https://s1.ticketm.net/dam/a/4cb/7609a483-c84d-4ff2-ac08-6795018cd4cb_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Amir K, Zainab Johnson, Craig Conant, Ray Lau, Mark Hayes and more TBA",
+        "name": "Tonight at the Improv ft. Donnell Rawlings, Amir K, Zainab Johnson, Craig Conant, Ray Lau, Mark Hayes and more TBA",
         "date": "2026-09-08",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14287304",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Lab Work",
@@ -1004,11 +976,25 @@
         "image": "https://i.ticketweb.com/i/00/13/61/27/03_Edp.jpg?v=2"
       },
       {
+        "name": "*JUST ADDED ANTHONY JESELNIK* COMEDY CRUSH ft. CRAIG ROBINSON, MORGAN JAY, JUSTINE MARINO, AVERY PEARSON & HUGE SPECIAL GUEST!",
+        "date": "2026-09-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/just-added-anthony-jeselnik-comedy-hollywood-improv-the-main-room-tickets/14247854",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Darren Fleet",
         "date": "2026-09-09",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/darren-fleet-hollywood-improv-the-lab-tickets/15045773",
         "image": "https://i.ticketweb.com/i/00/13/01/92/24_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv ft. Jay Leno, Howie Mandel, Brian Monarch and VERY Special Guests",
+        "date": "2026-09-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15014353",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "The Download Comedy Show ft. LouLou Gonzalez, Kate Lav, OJ Stellar, Taquita Love, Amy Silverberg, Char Ramtin",
@@ -1023,6 +1009,20 @@
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-jonesy-hollywood-improv-the-lab-tickets/15008013",
         "image": "https://i.ticketweb.com/i/00/13/61/04/43_Edp.jpg?v=3"
+      },
+      {
+        "name": "Low and Inside ft. Kelly Ryan, Joel Jimenez, Brandie Posey, Jackson Banks, Joseph Garcia, Nina Nguyen, Sam Wiles, Tom Thakkar, Joey Cerone, Cassidy McDonnell, Radu Bondar, and More TBA",
+        "date": "2026-09-11",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/low-and-inside-ft-kelly-hollywood-improv-the-lab-tickets/15008043",
+        "image": "https://i.ticketweb.com/i/00/13/61/04/83_Edp.jpg?v=4"
+      },
+      {
+        "name": "Darren Fleet",
+        "date": "2026-09-11",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/darren-fleet-hollywood-improv-the-lab-tickets/15045783",
+        "image": "https://i.ticketweb.com/i/00/13/01/92/44_Edp.jpg?v=2"
       }
     ]
   }
