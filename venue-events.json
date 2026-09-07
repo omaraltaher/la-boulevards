@@ -1,14 +1,7 @@
 {
-  "generated": "2026-09-06T17:56:49.484Z",
+  "generated": "2026-09-07T19:32:30.264Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Stephen Wilson Jr. - Gary The Torch Tour",
-        "date": "2026-09-06",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/stephen-wilson-jr-gary-the-torch-hollywood-california-09-06-2026/event/0900646DE9B21460",
-        "image": "https://s1.ticketm.net/dam/a/5ad/90f536e4-3d67-4a3a-b3b7-3e0ada72a5ad_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Right After You Left Featuring Whitney Cummings & Surprise Guests",
         "date": "2026-09-08",
@@ -57,6 +50,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/gravedgr-hollywood-california-09-18-2026/event/090064CCD2313334",
         "image": "https://s1.ticketm.net/dam/a/906/a274ee17-05f7-46a6-b4be-71ce7dba7906_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Peter Hook & The Light - North American Tour 2026",
+        "date": "2026-09-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/peter-hook-the-light-north-american-hollywood-california-09-19-2026/event/09006312976815C4",
+        "image": "https://s1.ticketm.net/dam/a/e78/8b376276-0692-4323-99b1-863272154e78_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Day Trip In The Park Afterparty: Gaskin",
-        "date": "2026-09-06",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/day-trip-in-the-park-avalon-hollywood-tickets/14286574",
-        "image": "https://i.ticketweb.com/i/00/13/00/18/84_Edp.jpg?v=8"
-      },
-      {
         "name": "Nimda x Prosecute x yvm3",
         "date": "2026-09-11",
         "time": "22:00:00",
@@ -174,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/alt8-noise-mafia-peterblue-avalon-hollywood-tickets/15016173",
         "image": "https://i.ticketweb.com/i/00/13/61/62/63_Edp.jpg?v=6"
+      },
+      {
+        "name": "Petit Biscuit w/ Special Guest: Forester",
+        "date": "2026-10-17",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/petit-biscuit-w-special-guest-avalon-hollywood-tickets/14999023",
+        "image": "https://s1.ticketm.net/dam/a/80f/c562683e-5eea-44d2-9730-e53bc42fa80f_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -294,20 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Hypnotique Presents: Sway Festival - 2 DAY PASS",
-        "date": "2026-09-05",
-        "time": null,
-        "url": "https://www.ticketmaster.com/hypnotique-presents-sway-festival-2-day-los-angeles-california-09-05-2026/event/090064C8A9B080AE",
-        "image": "https://s1.ticketm.net/dam/e/4c7/f6c041ca-67da-4926-87f0-72bff6f8f4c7_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Hypnotique Presents: Sway Festival - DAY 2",
-        "date": "2026-09-06",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/hypnotique-presents-sway-festival-day-2-los-angeles-california-09-06-2026/event/090064C8A6207A7D",
-        "image": "https://s1.ticketm.net/dam/e/aad/4b42c392-2af3-4740-a0b7-cf55151a2aad_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Jonah Matranga & Friends performing Far's Tin Cans With Strings To You",
         "date": "2026-09-11",
         "time": "19:00:00",
@@ -348,6 +334,20 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/mustard-service-pity-party-girls-club-los-angeles-california-09-18-2026/event/090064AFFB1A1024",
         "image": "https://s1.ticketm.net/dam/e/1a2/3590acd8-b73b-4b21-a7b2-4b41b77121a2_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Desert Daze Presents: Temples: The BLISS Tour",
+        "date": "2026-09-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/desert-daze-presents-temples-the-bliss-los-angeles-california-09-19-2026/event/09006486A2A388A2",
+        "image": "https://s1.ticketm.net/dam/e/ab7/936f6f2f-a7f2-4322-9670-d2c7683d6ab7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Jeff Bernat",
+        "date": "2026-09-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/jeff-bernat-los-angeles-california-09-20-2026/event/090064BAF79E0BD3",
+        "image": "https://s1.ticketm.net/dam/e/1ab/444e8177-3069-4994-8212-ed0b1ddf21ab_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -807,13 +807,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Cult Classics Cinema presents CARMEN & B*DAY Double Feature",
-        "date": "2026-09-06",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-carmen-bday-inglewood-california-09-06-2026/event/0B00650D9081C86F",
-        "image": "https://s1.ticketm.net/dam/e/f25/182ed67e-7d25-4452-a301-d3227ea5bf25_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "An Evening with J Anthony Brown",
         "date": "2026-09-12",
         "time": "20:00:00",
@@ -847,6 +840,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/cancelled-see-listing-inglewood-california-10-11-2026/event/0B0064F6A0BD2B60",
         "image": null
+      },
+      {
+        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
+        "date": "2026-10-21",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-10-21-2026/event/0B00652103F07EE4",
+        "image": "https://s1.ticketm.net/dam/e/7b5/284af18a-e27a-4852-a5c9-f24afca147b5_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -912,20 +912,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Amir K, Kevin Sullivan, Erica Rhodes, Moses Storm, Irene Tu, Malcolm Cills and more TBA",
-        "date": "2026-09-06",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14293334",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Funny Mill ft. Jeremiah Watkins, Kat Bird, Zeo Niu, Tom Johnson, Brian Wiora, Melora Jaye, Carlos Cruz",
-        "date": "2026-09-06",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/funny-mill-ft-jeremiah-watkins-hollywood-improv-the-lab-tickets/15042593",
-        "image": "https://i.ticketweb.com/i/00/13/63/96/63_Edp.jpg?v=5"
-      },
       {
         "name": "Improv Presents: MONDERAYS with Deray Davis, Kanisha Buss, Secret Service Sam, Mario Hodge, Surprise Guest, & more",
         "date": "2026-09-07",
@@ -1011,6 +997,13 @@
         "image": "https://i.ticketweb.com/i/00/13/61/04/43_Edp.jpg?v=3"
       },
       {
+        "name": "Tonight at the Improv ft. Gary Cannon",
+        "date": "2026-09-11",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010943",
+        "image": "https://i.ticketweb.com/i/00/13/01/78/14_Edp.jpg?v=2"
+      },
+      {
         "name": "Low and Inside ft. Kelly Ryan, Joel Jimenez, Brandie Posey, Jackson Banks, Joseph Garcia, Nina Nguyen, Sam Wiles, Tom Thakkar, Joey Cerone, Cassidy McDonnell, Radu Bondar, and More TBA",
         "date": "2026-09-11",
         "time": "19:30:00",
@@ -1023,6 +1016,13 @@
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/darren-fleet-hollywood-improv-the-lab-tickets/15045783",
         "image": "https://i.ticketweb.com/i/00/13/01/92/44_Edp.jpg?v=2"
+      },
+      {
+        "name": "Next Generation Comedy",
+        "date": "2026-09-12",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/next-generation-comedy-hollywood-improv-the-lab-tickets/14816333",
+        "image": "https://i.ticketweb.com/i/00/13/41/63/53_Edp.jpg?v=2"
       }
     ]
   }
