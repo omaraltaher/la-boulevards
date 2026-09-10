@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-09T18:17:47.970Z",
+  "generated": "2026-09-10T18:07:13.624Z",
   "events": [
-    {
-      "name": "Bikini Kill",
-      "date": "2026-09-09",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/bikini-kill-los-angeles-california-09-09-2026/event/09006436E85BAB04",
-      "image": "https://s1.ticketm.net/dam/a/cbf/c7ef837c-14fe-47e2-93e3-88a65d822cbf_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "W.A.S.P. - 1984 TO HEADLESS",
       "date": "2026-09-11",
@@ -55,6 +48,13 @@
       "date": "2026-09-21",
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/kelela-new-avatar-live-los-angeles-california-09-21-2026/event/090064BCDD2BF099",
+      "image": "https://s1.ticketm.net/dam/a/112/defbb126-0d29-44e6-9760-afc6b2941112_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Kelela: new avatar live",
+      "date": "2026-09-22",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/kelela-new-avatar-live-los-angeles-california-09-22-2026/event/090064BCE54F0E08",
       "image": "https://s1.ticketm.net/dam/a/112/defbb126-0d29-44e6-9760-afc6b2941112_RECOMENDATION_16_9.jpg"
     }
   ]
