@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12T18:01:44.112Z",
+  "generated": "2026-09-13T18:28:45.197Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Bad Boombox, Madgavs, Mischluft, Ollie Lishman, Supergloss",
-        "date": "2026-09-12",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/bad-boombox-madgavs-mischluft-ollie-avalon-hollywood-tickets/14298184",
-        "image": "https://i.ticketweb.com/i/00/13/01/43/34_Edp.jpg?v=22"
-      },
-      {
         "name": "PARTIBOI69",
         "date": "2026-09-18",
         "time": "22:00:00",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/petit-biscuit-w-special-guest-avalon-hollywood-tickets/14999023",
         "image": "https://s1.ticketm.net/dam/a/80f/c562683e-5eea-44d2-9730-e53bc42fa80f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Chromeo (DJ Set)",
+        "date": "2026-10-23",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/chromeo-dj-set-avalon-hollywood-tickets/15017703",
+        "image": "https://s1.ticketm.net/dam/a/76f/82864818-52a0-4e30-b49a-39035277276f_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "The Exploited w/ Dwarves",
-        "date": "2026-09-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709b-",
-        "image": "https://s1.ticketm.net/dam/a/47e/602bf020-a665-4c6c-9d3c-f0948088a47e_995771_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Los Hermanos Flores",
         "date": "2026-09-18",
@@ -231,6 +224,13 @@
         "date": "2026-09-27",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa-O",
+        "image": null
+      },
+      {
+        "name": "Xaviersobased w/ DJ Rennessy",
+        "date": "2026-10-01",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgJ7",
         "image": null
       }
     ],
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "KiNG MALA: The Golden Thing Tour",
-        "date": "2026-09-12",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/king-mala-the-golden-thing-tour-los-angeles-california-09-12-2026/event/090064E1C49FA588",
-        "image": "https://s1.ticketm.net/dam/e/649/27ca4bf7-64f2-41b6-81c4-c7a12bc92649_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Failboat & Jaymoji: The Stupid Simple Gameshow ",
         "date": "2026-09-13",
         "time": "19:00:00",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/sace6-los-angeles-california-09-25-2026/event/0900646BA82C961C",
         "image": "https://s1.ticketm.net/dam/e/c4a/758b3527-348a-45a6-9b90-878e1fa54c4a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Melt Banana",
+        "date": "2026-09-26",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/melt-banana-los-angeles-california-09-26-2026/event/090064EFE77FFC75",
+        "image": "https://s1.ticketm.net/dam/a/478/32f3d254-e06b-4cf0-8d97-e2954b0da478_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -390,13 +390,6 @@
     "Kirk Douglas Theatre": [
       {
         "name": "Dogman: The Musical",
-        "date": "2026-09-12",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUuV",
-        "image": null
-      },
-      {
-        "name": "Dogman: The Musical",
         "date": "2026-09-13",
         "time": "13:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUug",
@@ -429,6 +422,13 @@
         "time": "11:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUCk",
         "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-09-20",
+        "time": "13:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU8e",
+        "image": null
       }
     ],
     "Shrine Auditorium": [
@@ -448,13 +448,6 @@
       }
     ],
     "Orpheum Theatre": [
-      {
-        "name": "KCRW Presents: Altin Gün - NORTH AMERICA TOUR 2026",
-        "date": "2026-09-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/kcrw-presents-altin-gun-north-america-los-angeles-california-09-12-2026/event/09006458C8DD4554",
-        "image": "https://s1.ticketm.net/dam/a/284/47169d0a-b34f-420c-bbf3-170c8edfe284_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "EDITH MÁRQUEZ - ETERNA E INOLVIDABLE ",
         "date": "2026-09-17",
@@ -503,17 +496,17 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/she-him-pump-up-the-volumes-los-angeles-california-10-03-2026/event/090064B691458B82",
         "image": "https://s1.ticketm.net/dam/a/6e9/6fc0fea0-7cb6-4001-963e-5f4ae840d6e9_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Hokus Pokus Live!",
+        "date": "2026-10-07",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/hokus-pokus-live-los-angeles-california-10-07-2026/event/090064B2D338BDAE",
+        "image": "https://s1.ticketm.net/dam/a/c55/54f9d823-fe51-4eba-8a28-bf8507424c55_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
-      {
-        "name": "Morgan Jay: The Goofy Guy Tour",
-        "date": "2026-09-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/morgan-jay-the-goofy-guy-tour-los-angeles-california-09-12-2026/event/09006445D5ADACD0",
-        "image": "https://s1.ticketm.net/dam/a/f40/eaa8048c-575c-4719-8681-7bf4a9fdef40_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Ryan Beatty - Arms Over Armor North American Tour '26",
         "date": "2026-09-13",
@@ -562,6 +555,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/lily-allen-performs-west-end-girl-los-angeles-california-09-21-2026/event/090064E8F349EC5D",
         "image": "https://s1.ticketm.net/dam/a/78b/e73d29f4-b17c-497d-ac4a-0a8c7503c78b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "BECK: RIDE LONESOME TOUR",
+        "date": "2026-09-23",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-los-angeles-california-09-23-2026/event/0900648A40ABD374",
+        "image": "https://s1.ticketm.net/dam/a/3ac/d5ca2c8b-6833-416d-8256-d0b0b6e603ac_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -821,13 +821,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "An Evening with J Anthony Brown",
-        "date": "2026-09-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/an-evening-with-j-anthony-brown-inglewood-california-09-12-2026/event/0B0064EBB4124B34",
-        "image": "https://s1.ticketm.net/dbimages/171626a.jpg"
-      },
-      {
         "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
         "date": "2026-09-16",
         "time": "20:30:00",
@@ -920,42 +913,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Juan Davila",
-        "date": "2026-09-12",
-        "time": "16:00:00",
-        "url": "https://www.ticketweb.com/event/juan-davila-hollywood-improv-the-main-room-tickets/14826413",
-        "image": "https://i.ticketweb.com/i/00/13/42/64/93_Edp.jpg?v=8"
-      },
-      {
-        "name": "Next Generation Comedy",
-        "date": "2026-09-12",
-        "time": "16:00:00",
-        "url": "https://www.ticketweb.com/event/next-generation-comedy-hollywood-improv-the-lab-tickets/14816333",
-        "image": "https://i.ticketweb.com/i/00/13/41/63/53_Edp.jpg?v=2"
-      },
-      {
-        "name": "Tonight at the Lab! ft. Solomon Georgio, Orlando Leyba, Ari Mannis, Curtis Cook, Fizaa Dosani, Julia Hladkowicz, Julian Fernandez, Jeanne Whitney, and more TBA",
-        "date": "2026-09-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/15011043",
-        "image": "https://s1.ticketm.net/dam/a/eea/fea43970-3e39-4b14-9711-cb31ace3ceea_1123691_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Undiscovered Genius ft. Josh Edelman, Colin Coughlin, Seth Lawrence, Dylan Fisher, Liz Zagone, Angie Stroud, Justin Sherman, David Jackson",
-        "date": "2026-09-12",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-josh-edelman-hollywood-improv-the-lab-tickets/15011053",
-        "image": "https://i.ticketweb.com/i/00/13/61/27/33_Edp.jpg?v=5"
-      },
-      {
-        "name": "Tonight at the Improv ft. Cristela Alonzo, Trevor Wallace, Ian Bagg, Owen Smith, Greg Fitzsimmons, Kirk Fox, Justine Marino and more TBA",
-        "date": "2026-09-12",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15011123",
-        "image": "https://s1.ticketm.net/dam/a/032/9b9b4e28-ea74-43e5-bf77-12b1ae0f2032_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Jay Mohr, Cristela Alonzo, Chris Estrada, Zainab Johnson, Eddie Ifft, Nicole Aimee Schreiber, Dan Levy, Orion Levine, Gary Cannon and more TBA!",
+        "name": "Tonight at the Improv ft. Jay Mohr, Cristela Alonzo, Chris Estrada, Zainab Johnson, Eddie Ifft, Dan Levy, Orion Levine, Gary Cannon and more TBA!",
         "date": "2026-09-13",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14293394",
@@ -1004,7 +962,7 @@
         "image": "https://i.ticketweb.com/i/00/13/64/50/03_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv ft. Bert Kreischer, Anthony Jeselnik, Jay Leno, Brian Monarch and VERY Special Guests",
+        "name": "Tonight at the Improv ft. Bert Kreischer, Jay Leno, Brian Monarch and VERY Special Guests",
         "date": "2026-09-15",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15014363",
@@ -1030,6 +988,41 @@
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14293464",
         "image": "https://s1.ticketm.net/dam/a/f1e/66259d51-20d2-4611-9571-8ba4c99f0f1e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lab Work",
+        "date": "2026-09-16",
+        "time": "18:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/15011063",
+        "image": "https://i.ticketweb.com/i/00/13/61/27/43_Edp.jpg?v=2"
+      },
+      {
+        "name": "SNL Alums & Friends ft. Jay Mohr, Darrell Hammond, Melissa Villasenor, Tara Cannistraci, Greg Baldwin and more TBA",
+        "date": "2026-09-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/snl-alums-friends-ft-hollywood-improv-the-main-room-tickets/15017233",
+        "image": "https://s1.ticketm.net/dam/a/0e0/302dfcfc-dae9-4946-a474-1a219c8ae0e0_357091_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "New Joke Night ft. J.F. Harris, Mike Falzone, Joe Dombrowski, Laura Peek, Opey Olagbaju, Sam Salem, Faith Ladzinski",
+        "date": "2026-09-16",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/new-joke-night-ft-jf-hollywood-improv-the-lab-tickets/14298774",
+        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Brian Monarch and Very Special Guests",
+        "date": "2026-09-17",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15014343",
+        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Stuart B. Thompson & Friends ft. Brandie Posey, Amy Silverberg, Danielle Perez, Jamario McClain, Ralph Guerra, Stuart B. Thompson and more TBA",
+        "date": "2026-09-17",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/stuart-b-thompson-friends-hollywood-improv-the-lab-tickets/14816223",
+        "image": "https://i.ticketweb.com/i/00/13/41/62/43_Edp.jpg?v=5"
       }
     ]
   }
