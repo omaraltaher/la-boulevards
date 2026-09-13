@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-12T17:40:32.546Z",
+  "generated": "2026-09-13T17:54:49.634Z",
   "events": [
-    {
-      "name": "CITY POP WAVES: CASIOPEA Special Live 2026 in Los Angeles",
-      "date": "2026-09-12",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/city-pop-waves-casiopea-special-live-los-angeles-california-09-12-2026/event/09006496E6FBAE4A",
-      "image": "https://s1.ticketm.net/dam/a/4f6/2171a0a3-5a7e-4c33-8d26-338434cac4f6_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "CITY POP WAVES: CASIOPEA Special Live 2026 in Los Angeles",
       "date": "2026-09-13",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/jutes-smile-youre-on-tour-los-angeles-california-09-23-2026/event/09006481FFA821EC",
       "image": "https://s1.ticketm.net/dam/a/f17/3548afa1-c603-4440-a0f7-2f27dcfbef17_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "nate sib: reborn tour",
+      "date": "2026-09-25",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/nate-sib-reborn-tour-los-angeles-california-09-25-2026/event/090064E9A0C868A9",
+      "image": "https://s1.ticketm.net/dam/a/b17/bf84b788-7b29-4356-ba6c-d05239cf8b17_RECOMENDATION_16_9.jpg"
     }
   ]
 }
