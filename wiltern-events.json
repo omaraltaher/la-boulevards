@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-13T17:54:49.634Z",
+  "generated": "2026-09-14T19:43:10.066Z",
   "events": [
-    {
-      "name": "CITY POP WAVES: CASIOPEA Special Live 2026 in Los Angeles",
-      "date": "2026-09-13",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/city-pop-waves-casiopea-special-live-los-angeles-california-09-13-2026/event/09006498A9D5DAA8",
-      "image": "https://s1.ticketm.net/dam/a/4f6/2171a0a3-5a7e-4c33-8d26-338434cac4f6_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "My Hero Academia in Concert",
       "date": "2026-09-16",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/nate-sib-reborn-tour-los-angeles-california-09-25-2026/event/090064E9A0C868A9",
       "image": "https://s1.ticketm.net/dam/a/b17/bf84b788-7b29-4356-ba6c-d05239cf8b17_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Yuuri Live 2026 in Los Angeles",
+      "date": "2026-09-26",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/yuuri-live-2026-in-los-angeles-los-angeles-california-09-26-2026/event/090064D12BE8E992",
+      "image": "https://s1.ticketm.net/dam/a/c4d/061e73cc-3546-4440-a515-5a65e3d3dc4d_RECOMENDATION_16_9.jpg"
     }
   ]
 }
