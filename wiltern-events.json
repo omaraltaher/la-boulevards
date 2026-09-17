@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-16T18:38:16.607Z",
+  "generated": "2026-09-17T18:48:17.941Z",
   "events": [
-    {
-      "name": "My Hero Academia in Concert",
-      "date": "2026-09-16",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/my-hero-academia-in-concert-los-angeles-california-09-16-2026/event/0900648FDF95B3B5",
-      "image": "https://s1.ticketm.net/dam/a/815/82c8ae95-7c71-4813-8888-a4a6ba86c815_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Whirr",
       "date": "2026-09-18",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/yuuri-live-2026-in-los-angeles-los-angeles-california-09-26-2026/event/090064D12BE8E992",
       "image": "https://s1.ticketm.net/dam/a/c4d/061e73cc-3546-4440-a515-5a65e3d3dc4d_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Sleep: North America 2026",
+      "date": "2026-09-28",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/sleep-north-america-2026-los-angeles-california-09-28-2026/event/090064CFEE06C988",
+      "image": "https://s1.ticketm.net/dam/a/676/785b4e6d-2feb-4f59-ba70-5c51a1536676_RECOMENDATION_16_9.jpg"
     }
   ]
 }
