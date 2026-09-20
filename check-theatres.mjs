@@ -17,7 +17,7 @@ const query =
   'out center;';
 
 console.log('Fetching theatres from Overpass API…');
-const res = await fetch('https://overpass-api.de/api/interpreter', {
+const res = await fetch('https://overpass.openstreetmap.fr/api/interpreter', {
   method: 'POST',
   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
   body: 'data=' + encodeURIComponent(query)
