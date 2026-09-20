@@ -17,9 +17,9 @@ const query =
   'out center;';
 
 console.log('Fetching theatres from Overpass API…');
-const res = await fetch('https://overpass.openstreetmap.fr/api/interpreter', {
+const res = await fetch('https://overpass-api.de/api/interpreter', {
   method: 'POST',
-  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+  headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'User-Agent': 'la-boulevards-map/1.0' },
   body: 'data=' + encodeURIComponent(query)
 });
 if (!res.ok) { console.error('Overpass error:', res.status); process.exit(1); }
