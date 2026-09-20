@@ -17,7 +17,11 @@ const query =
   'out center;';
 
 console.log('Fetching theatres from Overpass API…');
-const res = await fetch('https://overpass-api.de/api/interpreter', { method: 'POST', body: query });
+const res = await fetch('https://overpass-api.de/api/interpreter', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+  body: 'data=' + encodeURIComponent(query)
+});
 if (!res.ok) { console.error('Overpass error:', res.status); process.exit(1); }
 const data = await res.json();
 
