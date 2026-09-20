@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-03T00:37:01.932Z",
+  "generated": "2026-09-20T19:21:03.811Z",
   "theatres": [
     {
       "name": "Odyssey Theatre",
@@ -272,15 +272,6 @@
       "address": null
     },
     {
-      "name": "Samuel Goldwyn Theater",
-      "lat": 34.0672656,
-      "lon": -118.3873849,
-      "blvd": "Wilshire Boulevard",
-      "wikipedia": null,
-      "website": "https://oscars.org/",
-      "address": "8949 Wilshire Boulevard"
-    },
-    {
       "name": "WaterWorld",
       "lat": 34.1369219,
       "lon": -118.3541946,
@@ -367,7 +358,7 @@
       "lon": -118.360788,
       "blvd": "Wilshire Boulevard",
       "wikipedia": null,
-      "website": null,
+      "website": "https://www.academymuseum.org/visit/special-events-david-geffen-theater",
       "address": null
     },
     {
@@ -533,15 +524,6 @@
       "address": null
     },
     {
-      "name": "Vidiots",
-      "lat": 34.1348871,
-      "lon": -118.2150941,
-      "blvd": "Eagle Rock Boulevard",
-      "wikipedia": null,
-      "website": "https://vidiotsfoundation.org/",
-      "address": "4884 Eagle Rock Boulevard"
-    },
-    {
       "name": "Cinegrill Theater",
       "lat": 34.1013569,
       "lon": -118.3415918,
@@ -560,7 +542,7 @@
       "address": null
     },
     {
-      "name": "Parson\u2019s Nose Theater",
+      "name": "Parson’s Nose Theater",
       "lat": 34.1478169,
       "lon": -118.1463084,
       "blvd": "Colorado Boulevard",
@@ -575,6 +557,96 @@
       "blvd": "Olympic Boulevard",
       "wikipedia": "en:United Artists Theatre (Los Angeles)",
       "website": "https://cap.ucla.edu/united-theater-broadway",
+      "address": null
+    },
+    {
+      "name": "Lisa Smith Wengler Center for the Arts",
+      "lat": 34.0396676,
+      "lon": -118.7077248,
+      "blvd": "Banowsky Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Nate Holden Performing Arts Center",
+      "lat": 34.0396122,
+      "lon": -118.3422902,
+      "blvd": "Washington Boulevard",
+      "wikipedia": null,
+      "website": "https://ebonyrep.org/",
+      "address": "4718 West Washington Boulevard"
+    },
+    {
+      "name": "The Ice House",
+      "lat": 34.1465041,
+      "lon": -118.1306866,
+      "blvd": "Colorado Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Marilyn Monroe Theater",
+      "lat": 34.0906797,
+      "lon": -118.3623849,
+      "blvd": "Santa Monica Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Stage Lee Theater",
+      "lat": 34.0904947,
+      "lon": -118.3624966,
+      "blvd": "Santa Monica Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Sexson Auditorium",
+      "lat": 34.1446577,
+      "lon": -118.1181834,
+      "blvd": "Colorado Boulevard",
+      "wikipedia": null,
+      "website": "https://pasadena.edu/business-administrative-services/campus-use/venues/sexson.php",
+      "address": null
+    },
+    {
+      "name": "Westerbeck Recital Hall",
+      "lat": 34.1436278,
+      "lon": -118.1173828,
+      "blvd": "East Del Mar Boulevard",
+      "wikipedia": null,
+      "website": "https://pasadena.edu/business-administrative-services/campus-use/venues/westerbeck.php",
+      "address": null
+    },
+    {
+      "name": "CA Theater",
+      "lat": 34.1438429,
+      "lon": -118.1176217,
+      "blvd": "East Del Mar Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": null
+    },
+    {
+      "name": "Ramo Auditorium",
+      "lat": 34.1380864,
+      "lon": -118.1251731,
+      "blvd": "California Boulevard",
+      "wikipedia": null,
+      "website": "https://auditoriums.caltech.edu/ramo-auditorium",
+      "address": null
+    },
+    {
+      "name": "Beckman Auditorium",
+      "lat": 34.1391911,
+      "lon": -118.125541,
+      "blvd": "East Del Mar Boulevard",
+      "wikipedia": null,
+      "website": "https://auditoriums.caltech.edu/beckman-auditorium",
       "address": null
     },
     {
@@ -605,12 +677,12 @@
       "address": "300 East Green Street"
     },
     {
-      "name": "Amphitheatre",
+      "name": "Jameson Amphitheatre",
       "lat": 34.1440938,
       "lon": -118.1174158,
       "blvd": "Colorado Boulevard",
       "wikipedia": null,
-      "website": null,
+      "website": "https://pasadena.edu/business-administrative-services/campus-use/venues/jameson.php",
       "address": null
     },
     {
@@ -736,7 +808,7 @@
       "lon": -118.2813214,
       "blvd": "Jefferson Boulevard",
       "wikipedia": "en:Shrine Auditorium and Expo Hall",
-      "website": null,
+      "website": "https://www.shrineauditorium.com/",
       "address": "665 West Jefferson Boulevard"
     },
     {
@@ -781,8 +853,8 @@
       "lon": -118.3243265,
       "blvd": "Sunset Boulevard",
       "wikipedia": null,
-      "website": null,
-      "address": null
+      "website": "https://www.hollywoodpalladium.com/",
+      "address": "6215 Sunset Blvd"
     },
     {
       "name": "Brentwood Theatre",
@@ -846,6 +918,15 @@
       "wikipedia": "en:Hollywood Masonic Temple",
       "website": null,
       "address": "6840 Hollywood Boulevard"
+    },
+    {
+      "name": "Laugh Factory",
+      "lat": 34.0982366,
+      "lon": -118.3644747,
+      "blvd": "Sunset Boulevard",
+      "wikipedia": null,
+      "website": null,
+      "address": "8001 West Sunset Boulevard"
     },
     {
       "name": "Bootleg Theater",
@@ -976,7 +1057,7 @@
     {
       "name": "Terrace Theater",
       "lat": 33.765225,
-      "lon": -118.1893934,
+      "lon": -118.1893949,
       "blvd": "Ocean Boulevard",
       "wikipedia": null,
       "website": "https://www.lbentertainmentcenter.com/venues/terrace-theater/;https://www.longbeachcc.com/facilities/theaters/",
@@ -1028,6 +1109,15 @@
       "address": null
     },
     {
+      "name": "Ambassador Auditorium",
+      "lat": 34.1433853,
+      "lon": -118.156501,
+      "blvd": "Colorado Boulevard",
+      "wikipedia": null,
+      "website": "https://afpasadena.org/",
+      "address": "131 South Saint John Avenue"
+    },
+    {
       "name": "Bonita Center for the Arts",
       "lat": 34.0981508,
       "lon": -117.8255377,
@@ -1049,7 +1139,7 @@
       "name": "Auditorium Building",
       "lat": 34.1665872,
       "lon": -118.2295444,
-      "blvd": "Ca\u00f1ada Boulevard",
+      "blvd": "Cañada Boulevard",
       "wikipedia": null,
       "website": null,
       "address": null
@@ -1154,22 +1244,22 @@
       "address": "300 East Ocean Boulevard"
     },
     {
-      "name": "Laugh Factory",
-      "lat": 34.09819,
-      "lon": -118.36445,
-      "blvd": "Sunset Boulevard",
+      "name": "Hollywood Improv",
+      "lat": 34.0834643,
+      "lon": -118.3673388,
+      "blvd": "Crescent Heights Boulevard",
       "wikipedia": null,
-      "website": "https://laughfactory.com",
-      "address": "8001 Sunset Blvd"
+      "website": null,
+      "address": "8162 Melrose Avenue"
     },
     {
-      "name": "Hollywood Improv",
-      "lat": 34.08342,
-      "lon": -118.36728,
-      "blvd": "Melrose Avenue",
+      "name": "Sierra Madre Playhouse",
+      "lat": 34.1621536,
+      "lon": -118.0546378,
+      "blvd": "Sierra Madre Boulevard",
       "wikipedia": null,
-      "website": "https://improv.com/hollywood",
-      "address": "8162 Melrose Ave"
+      "website": null,
+      "address": null
     }
   ]
 }
