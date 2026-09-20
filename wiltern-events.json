@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-19T17:45:34.048Z",
+  "generated": "2026-09-20T17:56:08.933Z",
   "events": [
-    {
-      "name": "FOOS GONE WILD: The FOOS GONE WILD Tour 2026",
-      "date": "2026-09-19",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/foos-gone-wild-the-foos-gone-los-angeles-california-09-19-2026/event/090064C3B36EF86B",
-      "image": "https://s1.ticketm.net/dam/a/5e3/fd510e97-d4b0-4d3a-89be-b442fef295e3_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Kelela: new avatar live",
       "date": "2026-09-21",
@@ -55,6 +48,13 @@
       "date": "2026-09-29",
       "time": "18:30:00",
       "url": "https://www.ticketmaster.com/comedy-tragedy-parody-dominic-fike-in-los-angeles-california-09-29-2026/event/0900648FC0A9933D",
+      "image": "https://s1.ticketm.net/dam/a/fd2/31ff92a8-a234-4215-8536-d50b9484cfd2_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "\"Comedy Tragedy Parody\" Dominic Fike in North America",
+      "date": "2026-09-30",
+      "time": "18:30:00",
+      "url": "https://www.ticketmaster.com/comedy-tragedy-parody-dominic-fike-in-los-angeles-california-09-30-2026/event/0900648FECB8C10C",
       "image": "https://s1.ticketm.net/dam/a/fd2/31ff92a8-a234-4215-8536-d50b9484cfd2_RECOMENDATION_16_9.jpg"
     }
   ]
