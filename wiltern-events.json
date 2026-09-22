@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-21T19:51:10.195Z",
+  "generated": "2026-09-22T18:29:07.095Z",
   "events": [
-    {
-      "name": "Kelela: new avatar live",
-      "date": "2026-09-21",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/kelela-new-avatar-live-los-angeles-california-09-21-2026/event/090064BCDD2BF099",
-      "image": "https://s1.ticketm.net/dam/a/112/defbb126-0d29-44e6-9760-afc6b2941112_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Kelela: new avatar live",
       "date": "2026-09-22",
@@ -56,6 +49,13 @@
       "time": "18:30:00",
       "url": "https://www.ticketmaster.com/comedy-tragedy-parody-dominic-fike-in-los-angeles-california-09-30-2026/event/0900648FECB8C10C",
       "image": "https://s1.ticketm.net/dam/a/fd2/31ff92a8-a234-4215-8536-d50b9484cfd2_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Julieta Venegas",
+      "date": "2026-10-01",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/julieta-venegas-los-angeles-california-10-01-2026/event/09006489E4EA204C",
+      "image": "https://s1.ticketm.net/dam/a/997/85f7a204-a674-4983-93e0-ea73cb1b0997_RECOMENDATION_16_9.jpg"
     }
   ]
 }
