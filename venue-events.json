@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T20:13:44.227Z",
+  "generated": "2026-09-22T19:34:40.815Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -8,6 +8,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/the-basement-series-vinyl-room-the-hollywood-california-09-23-2026/event/0900651AE477BB0C",
         "image": "https://s1.ticketm.net/dam/a/38c/6db23be6-7ec8-4104-8d30-cc4b08a6f38c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Right After You Left - Vinyl Room @ the Palladium",
+        "date": "2026-09-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/right-after-you-left-vinyl-room-hollywood-california-09-24-2026/event/09006535388B7980",
+        "image": "https://s1.ticketm.net/dam/a/b48/08dbf706-15bc-49e0-a136-15660bf15b48_1092281_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Overmono - Pure Devotion World Tour",
@@ -49,13 +56,6 @@
         "date": "2026-10-01",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/social-distortion-hollywood-california-10-01-2026/event/09006455A7CEBF3A",
-        "image": "https://s1.ticketm.net/dam/a/b02/a4025885-0bec-4065-94e0-aa5399d41b02_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Social Distortion",
-        "date": "2026-10-02",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/social-distortion-hollywood-california-10-02-2026/event/09006455A7E2BF66",
         "image": "https://s1.ticketm.net/dam/a/b02/a4025885-0bec-4065-94e0-aa5399d41b02_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -508,20 +508,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Premium: LILY ALLEN",
-        "date": "2026-09-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/premium-lily-allen-los-angeles-california-09-21-2026/event/090064FC089A1AB2",
-        "image": null
-      },
-      {
-        "name": "Lily Allen Performs West End Girl",
-        "date": "2026-09-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/lily-allen-performs-west-end-girl-los-angeles-california-09-21-2026/event/090064E8F349EC5D",
-        "image": "https://s1.ticketm.net/dam/a/78b/e73d29f4-b17c-497d-ac4a-0a8c7503c78b_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "BECK: RIDE LONESOME TOUR",
         "date": "2026-09-23",
         "time": "20:00:00",
@@ -533,7 +519,7 @@
         "date": "2026-09-25",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/riley-green-cowboy-as-it-gets-los-angeles-california-09-25-2026/event/090064BCCDA4CFFB",
-        "image": "https://s1.ticketm.net/dam/a/615/918705e7-4e81-4b10-b425-8f20b6b29615_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/c41/cd34cc1b-cb53-46b7-bc71-b7afa27d6c41_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "PREMIUM: BERT KREISCHER",
@@ -562,6 +548,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kq8",
         "image": "https://s1.ticketm.net/dam/a/856/8301864e-d867-4f6f-adec-31a76a460856_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "KCRW Presents The Growlers",
+        "date": "2026-10-03",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/kcrw-presents-the-growlers-los-angeles-california-10-03-2026/event/090064A94B001599",
+        "image": "https://s1.ticketm.net/dam/a/39d/4020ba9d-3be3-4f24-a501-e634d393c39d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Premium: THE GROWLERS",
+        "date": "2026-10-03",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/premium-the-growlers-los-angeles-california-10-03-2026/event/090064ACFF299288",
+        "image": null
       }
     ],
     "Dolby Theatre": [
@@ -862,13 +862,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-09-21",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1991497799528",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193877677%2F2989400506155%2F1%2Foriginal.20260918-224939?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7c09d0d71153b0e60b183d17168ca313"
-      },
-      {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-09-22",
         "time": "19:45",
@@ -880,21 +873,28 @@
         "date": "2026-09-23",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1991510972930",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158481%2F2986607467794%2F1%2Foriginal.20251217-203109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4cba2f2a43f0d170f10c5098e1a4b04b"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194053866%2F2989400506155%2F1%2Foriginal.20260921-221014?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c1b7d486e8d05a6b147f36542293a84a"
       },
       {
         "name": "Wednesday All-Star Comedy 9:45PM",
         "date": "2026-09-23",
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-945pm-tickets-1991511023080",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158481%2F2986607467794%2F1%2Foriginal.20251217-203109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4cba2f2a43f0d170f10c5098e1a4b04b"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194053942%2F2989400506155%2F1%2Foriginal.20260921-221106?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=001b0e5b10f3aeb50654ec0ae606b53f"
+      },
+      {
+        "name": "Thursday All-Star Comedy 7:30PM",
+        "date": "2026-09-24",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/thursday-all-star-comedy-730pm-tickets-1991512152458",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194054012%2F2989400506155%2F1%2Foriginal.20260921-221204?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=efe85dae6de40db00216e949f7582e51"
       },
       {
         "name": "Tehran Thursday's 9:45 PM",
         "date": "2026-09-24",
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/tehran-thursdays-945-pm-tickets-1991511791378",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182604607%2F2990051982791%2F1%2Foriginal.20260420-194813?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=81a640bf33508b2badcc25712d3f8f85"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194054244%2F2989400506155%2F1%2Foriginal.20260921-221512?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4df9b3a4cb438826854b24aa2d0d0bb0"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -919,20 +919,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Nick Swardson, Jack Whitehall, Larry Wilmore, Jessimae Peluso, Erik Griffin, Gary Cannon mand more TBA!",
-        "date": "2026-09-21",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14294204",
-        "image": "https://s1.ticketm.net/dam/a/6da/d8a22606-e90b-4514-9f90-25bcd23486da_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis  ft. Dolomite, Jugo, Tiffany King, Slink Johnson, Deanthony Turner, and more",
-        "date": "2026-09-21",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/15017173",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Happy Hour Open Mic",
         "date": "2026-09-22",
@@ -1004,11 +990,25 @@
         "image": "https://s1.ticketm.net/dam/a/f1e/66259d51-20d2-4611-9571-8ba4c99f0f1e_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv ft. Margaret Cho, Damon Wayans Jr., Charles Fleischer, Brian Monarch and Very Special Guests",
+        "date": "2026-09-25",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15033803",
+        "image": "https://s1.ticketm.net/dam/a/881/853bc405-3922-4368-bed0-127532b30881_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Horror Nerd ft. Bobbie Oliver, Rosa McKenzie, Kayla Hardy, Jeremy Tinoco, Spooky Professor, Tommy Spears, Camille Corbett, Sabrina E, Morgan DiStefano, Amy Geist, Ashley Lawrence, Samantha Hale",
         "date": "2026-09-25",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/horror-nerd-ft-bobbie-oliver-hollywood-improv-the-lab-tickets/14967653",
         "image": "https://i.ticketweb.com/i/00/13/57/33/13_Edp.jpg?v=5"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-09-25",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/15011103",
+        "image": "https://i.ticketweb.com/i/00/13/01/77/14_Edp.jpg?v=3"
       },
       {
         "name": "Comedy Grind ft. Phil Medina, Carlos Escobar, Jessica Winther, Jonesy, Camila Beatriz, Rob DaRocha, Willie Krisztal, Antony Demekhin, Karina Reyes, Cole Young",
