@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T19:34:40.815Z",
+  "generated": "2026-09-23T19:23:54.363Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Six Sex",
-        "date": "2026-09-22",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd_d",
-        "image": "https://s1.ticketm.net/dam/a/ed1/31201d83-0553-4051-a643-c81471d8fed1_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Melanie C",
         "date": "2026-09-23",
         "time": "21:00:00",
@@ -116,6 +109,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pt-V",
         "image": "https://s1.ticketm.net/dam/a/8be/a8d30f20-7d6d-47fc-846e-d42cfc62e8be_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Suicidal Tendencies",
+        "date": "2026-10-01",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvU0S",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
@@ -141,10 +141,10 @@
         "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "SIDEPIECE",
+        "name": "SIDEPIECE w/ Maesic",
         "date": "2026-10-03",
         "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/sidepiece-avalon-hollywood-tickets/14334404",
+        "url": "https://www.ticketweb.com/event/sidepiece-w-maesic-avalon-hollywood-tickets/14334404",
         "image": "https://s1.ticketm.net/dam/a/3f2/d7d1d04d-5805-4963-a9d7-c8250dece3f2_RECOMENDATION_16_9.jpg"
       },
       {
@@ -180,7 +180,7 @@
       {
         "name": "Bassvictim w/ Dead Butterflies",
         "date": "2026-09-23",
-        "time": "20:00:00",
+        "time": "18:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZg0x",
         "image": "https://s1.ticketm.net/dam/a/f3d/bc4e1046-5cb4-4b0d-b314-4b0fc3d42f3d_RECOMENDATION_16_9.jpg"
       },
@@ -445,6 +445,20 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe1A",
         "image": "https://s1.ticketm.net/dam/a/92a/dbc1ee3a-5189-4e0a-a9cb-d6577596b92a_1178411_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Red Bull Home Ground World Finals 2026",
+        "date": "2026-12-12",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeduk",
+        "image": null
+      },
+      {
+        "name": "Red Bull Home Ground World Finals 2026",
+        "date": "2026-12-13",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedu6",
+        "image": null
       }
     ],
     "Orpheum Theatre": [
@@ -862,18 +876,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Rubee Tuesdays 7:45pm",
-        "date": "2026-09-22",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1991498386283",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193786437%2F2989400506155%2F1%2Foriginal.20260917-204435?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2dc804d662b22f6182136606a02fc09e"
-      },
-      {
         "name": "Wednesday All-Star Comedy 7:30 PM",
         "date": "2026-09-23",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1991510972930",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194053866%2F2989400506155%2F1%2Foriginal.20260921-221014?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c1b7d486e8d05a6b147f36542293a84a"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194220595%2F2989400506155%2F1%2Foriginal.20260923-185435?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c1dd3f89304d38a5aa2c471694dfda59"
       },
       {
         "name": "Wednesday All-Star Comedy 9:45PM",
@@ -895,6 +902,13 @@
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/tehran-thursdays-945-pm-tickets-1991511791378",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194054244%2F2989400506155%2F1%2Foriginal.20260921-221512?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4df9b3a4cb438826854b24aa2d0d0bb0"
+      },
+      {
+        "name": "Hollywood's Hottest 7:30PM",
+        "date": "2026-09-25",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/hollywoods-hottest-730pm-tickets-1991512815441",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173173365%2F2986605118463%2F1%2Foriginal.20251218-002729?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=78fe2861e4d452ae53f85d9694142a81"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -919,34 +933,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-09-22",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-main-room-tickets/15048003",
-        "image": "https://i.ticketweb.com/i/00/13/64/50/13_Edp.jpg?v=2"
-      },
-      {
-        "name": "Tonight at the Improv ft. Jay Leno, Jack Whitehall, Anthony Jeselnik, Craig Robinson, Ron Funches, Jen Murphy and VERY Special Guests",
-        "date": "2026-09-22",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15014323",
-        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Just Pull Up ft. Dulcé Sloan, Camille Waters, Ron Funches, T Barb, Lemon Pepper Wet, David Gborie, Maddi Mays, and more TBA",
-        "date": "2026-09-22",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-pull-up-ft-dulc-hollywood-improv-the-lab-tickets/14213044",
-        "image": "https://s1.ticketm.net/dam/a/ca0/1f5b6d32-ff79-4568-be1b-08ae5b1e4ca0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Nate Jackson, Jack Whitehall, Becky Robinson, Amir K, Trevor Wallace, Craig Conant, Mark Hayes and more TBA",
-        "date": "2026-09-22",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14317554",
-        "image": "https://s1.ticketm.net/dam/a/7e3/c87b865d-31ba-475d-bad1-17e2cc08e7e3_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Private Event",
         "date": "2026-09-23",
@@ -1004,11 +990,11 @@
         "image": "https://i.ticketweb.com/i/00/13/57/33/13_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Craig Conant, Chris Estrada, Kirk Fox, Josh Ocean Thomas, Eric Freedman, and More TBA",
         "date": "2026-09-25",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/15011103",
-        "image": "https://i.ticketweb.com/i/00/13/01/77/14_Edp.jpg?v=3"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15011103",
+        "image": "https://i.ticketweb.com/i/00/13/01/77/14_Edp.jpg?v=5"
       },
       {
         "name": "Comedy Grind ft. Phil Medina, Carlos Escobar, Jessica Winther, Jonesy, Camila Beatriz, Rob DaRocha, Willie Krisztal, Antony Demekhin, Karina Reyes, Cole Young",
@@ -1018,6 +1004,13 @@
         "image": "https://i.ticketweb.com/i/00/12/93/52/54_Edp.jpg?v=7"
       },
       {
+        "name": "Tonight at the Improv ft. Orny Adams, Sarah Tiana, Bobby Collins, Justine Marino, and More TBA",
+        "date": "2026-09-26",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010923",
+        "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Damon Wayans: Under Construction ft. \"V\" aka Vana Thiero",
         "date": "2026-09-26",
         "time": "19:30:00",
@@ -1025,11 +1018,32 @@
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv ft. Rick Ingraham, Steph Tolev, Amir K, James Davis, Alvin Kuai, Nikki Bon, and More TBA",
+        "date": "2026-09-26",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15010993",
+        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "LA vs. Transplants ft. Kayla Hardy, Amber Easton and more TBA",
         "date": "2026-09-26",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-kayla-hollywood-improv-the-lab-tickets/14279444",
         "image": "https://i.ticketweb.com/i/00/12/99/46/84_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv ft. Francisco Ramos, Daniel Franzese, Nika King, and More TBA",
+        "date": "2026-09-27",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14294644",
+        "image": "https://s1.ticketm.net/dam/a/c35/6d53309b-09ed-4099-98db-652af9847c35_1526471_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The OTHER Show ft. Lizzie Rose, Adam Barnhardt, Keith Pedro, Dominic Ray, James Sommers, Maggie Maye, Lauren Michaels, Jaime Hendrix, Russell Navarrette and more TBA",
+        "date": "2026-09-27",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/the-other-show-ft-lizzie-hollywood-improv-the-lab-tickets/14285734",
+        "image": "https://i.ticketweb.com/i/00/13/00/10/74_Edp.jpg?v=8"
       }
     ]
   }
