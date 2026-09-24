@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-23T18:49:39.331Z",
+  "generated": "2026-09-24T18:49:14.853Z",
   "events": [
-    {
-      "name": "JUTES - Smile You're on Tour",
-      "date": "2026-09-23",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/jutes-smile-youre-on-tour-los-angeles-california-09-23-2026/event/09006481FFA821EC",
-      "image": "https://s1.ticketm.net/dam/a/f17/3548afa1-c603-4440-a0f7-2f27dcfbef17_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "nate sib: reborn tour",
       "date": "2026-09-25",
@@ -21,13 +14,6 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/yuuri-live-2026-in-los-angeles-los-angeles-california-09-26-2026/event/090064D12BE8E992",
       "image": "https://s1.ticketm.net/dam/a/c4d/061e73cc-3546-4440-a515-5a65e3d3dc4d_RECOMENDATION_16_9.jpg"
-    },
-    {
-      "name": "Sleep: North America 2026",
-      "date": "2026-09-28",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/sleep-north-america-2026-los-angeles-california-09-28-2026/event/090064CFEE06C988",
-      "image": "https://s1.ticketm.net/dam/a/676/785b4e6d-2feb-4f59-ba70-5c51a1536676_RECOMENDATION_16_9.jpg"
     },
     {
       "name": "\"Comedy Tragedy Parody\" Dominic Fike in North America",
@@ -56,6 +42,20 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/julieta-venegas-los-angeles-california-10-02-2026/event/09006489E4EE2058",
       "image": "https://s1.ticketm.net/dam/a/997/85f7a204-a674-4983-93e0-ea73cb1b0997_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Michelle Branch: Everywhere And Back Again Tour",
+      "date": "2026-10-03",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-los-angeles-california-10-03-2026/event/090064E7C7308C96",
+      "image": "https://s1.ticketm.net/dam/a/56d/9638c963-033e-415a-a69b-754e19edb56d_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Sammy Rae & The Friends with special guest Melt",
+      "date": "2026-10-04",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-los-angeles-california-10-04-2026/event/09006474B939B579",
+      "image": "https://s1.ticketm.net/dam/a/179/ef41dd90-262b-4508-a1e2-47fb26e3c179_RECOMENDATION_16_9.jpg"
     }
   ]
 }
