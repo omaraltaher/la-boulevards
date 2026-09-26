@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-25T19:06:48.867Z",
+  "generated": "2026-09-26T18:18:36.532Z",
   "events": [
-    {
-      "name": "nate sib: reborn tour",
-      "date": "2026-09-25",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/nate-sib-reborn-tour-los-angeles-california-09-25-2026/event/090064E9A0C868A9",
-      "image": "https://s1.ticketm.net/dam/a/b17/bf84b788-7b29-4356-ba6c-d05239cf8b17_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Yuuri Live 2026 in Los Angeles",
       "date": "2026-09-26",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-los-angeles-california-10-04-2026/event/09006474B939B579",
       "image": "https://s1.ticketm.net/dam/a/179/ef41dd90-262b-4508-a1e2-47fb26e3c179_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Jesse Welles - Red Tour 2026",
+      "date": "2026-10-05",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/jesse-welles-red-tour-2026-los-angeles-california-10-05-2026/event/09006478FAADC487",
+      "image": "https://s1.ticketm.net/dam/a/2b7/7afa57e5-485f-418b-80bc-c2758f90a2b7_RECOMENDATION_16_9.jpg"
     }
   ]
 }
