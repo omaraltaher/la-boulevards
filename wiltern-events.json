@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-26T18:18:36.532Z",
+  "generated": "2026-09-27T18:53:19.345Z",
   "events": [
-    {
-      "name": "Yuuri Live 2026 in Los Angeles",
-      "date": "2026-09-26",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/yuuri-live-2026-in-los-angeles-los-angeles-california-09-26-2026/event/090064D12BE8E992",
-      "image": "https://s1.ticketm.net/dam/a/c4d/061e73cc-3546-4440-a515-5a65e3d3dc4d_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "\"Comedy Tragedy Parody\" Dominic Fike in North America",
       "date": "2026-09-29",
@@ -55,6 +48,13 @@
       "date": "2026-10-05",
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/jesse-welles-red-tour-2026-los-angeles-california-10-05-2026/event/09006478FAADC487",
+      "image": "https://s1.ticketm.net/dam/a/2b7/7afa57e5-485f-418b-80bc-c2758f90a2b7_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Jesse Welles - Red Tour 2026",
+      "date": "2026-10-06",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/jesse-welles-red-tour-2026-los-angeles-california-10-06-2026/event/0900646DC15BCAEE",
       "image": "https://s1.ticketm.net/dam/a/2b7/7afa57e5-485f-418b-80bc-c2758f90a2b7_RECOMENDATION_16_9.jpg"
     }
   ]
