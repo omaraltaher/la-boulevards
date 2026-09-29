@@ -1,14 +1,7 @@
 {
-  "generated": "2026-09-28T21:31:14.262Z",
+  "generated": "2026-09-29T20:23:57.228Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "JACK WHITE LIVE 2026",
-        "date": "2026-09-28",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/jack-white-live-2026-hollywood-california-09-28-2026/event/090064878E2C68FC",
-        "image": "https://s1.ticketm.net/dam/a/1cc/dbbdb302-9c0e-42cc-baaa-8cae6651c1cc_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "JACK WHITE LIVE 2026",
         "date": "2026-09-29",
@@ -57,6 +50,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/mastodon-hollywood-california-10-10-2026/event/090064BD4B3E8A67",
         "image": "https://s1.ticketm.net/dam/a/e95/539dec42-6e24-4d0d-bf3a-b84f6e381e95_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Loathe: A Stranger to You",
+        "date": "2026-10-11",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/loathe-a-stranger-to-you-hollywood-california-10-11-2026/event/090064987F5E5CAE",
+        "image": "https://s1.ticketm.net/dam/a/773/d673bb12-d407-452f-90c0-5fd3e629a773_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -138,7 +138,7 @@
         "date": "2026-10-09",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/alt8-noise-mafia-peterblue-avalon-hollywood-tickets/15016173",
-        "image": "https://i.ticketweb.com/i/00/13/61/62/63_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/61/62/63_Edp.jpg?v=7"
       },
       {
         "name": "Petit Biscuit w/ Special Guest: Forester",
@@ -295,13 +295,6 @@
     "Teragram Ballroom": [
       {
         "name": "Ecca Vandal",
-        "date": "2026-09-28",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/ecca-vandal-los-angeles-california-09-28-2026/event/090064BCF01C2F06",
-        "image": "https://s1.ticketm.net/dam/a/474/2d3ad16b-1c90-4dcf-9268-c89bf4948474_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Ecca Vandal",
         "date": "2026-09-29",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/ecca-vandal-los-angeles-california-09-29-2026/event/090064B2C36EA7BB",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/kylesa-los-angeles-california-10-05-2026/event/090064F79C1E716F",
         "image": "https://s1.ticketm.net/dam/a/03a/efaf4785-14dc-461e-b30d-1c43dc5e703a_13791_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "This Wild Life",
+        "date": "2026-10-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/this-wild-life-los-angeles-california-10-08-2026/event/090064F1461256F9",
+        "image": "https://s1.ticketm.net/dam/e/6f7/1dd92092-41d2-4349-a632-95d37e7456f7_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -395,13 +395,6 @@
       }
     ],
     "Kirk Douglas Theatre": [
-      {
-        "name": "Dogman: The Musical",
-        "date": "2026-09-29",
-        "time": "11:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUob",
-        "image": null
-      },
       {
         "name": "Dogman: The Musical",
         "date": "2026-09-30",
@@ -863,6 +856,13 @@
         "image": "https://s1.ticketm.net/dam/e/c48/aabd9d4b-e67f-49ca-aace-e7fc0379ac48_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "D Smoke B-Day Show @ The Miracle",
+        "date": "2026-10-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/d-smoke-bday-show-the-miracle-inglewood-california-10-15-2026/event/0B00653D7A603EB0",
+        "image": "https://s1.ticketm.net/dam/a/c75/eede75cb-a83e-4d36-83d2-e6ab0f777c75_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Wicked - Part 1: The Sing-A-Long Experience",
         "date": "2026-10-17",
         "time": "18:00:00",
@@ -896,13 +896,6 @@
         "time": "17:00:00",
         "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-24-2026/event/0B006539C7AE6774",
         "image": null
-      },
-      {
-        "name": "Argentine Film Festival in LA",
-        "date": "2026-10-25",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-25-2026/event/0B006539C7B06779",
-        "image": null
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -922,7 +915,7 @@
         "date": "2026-09-30",
         "time": "21:15",
         "url": "https://www.eventbrite.com/e/everybody-loves-herb-comedy-show-915-pm-tickets-1991511066209",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158481%2F2986607467794%2F1%2Foriginal.20251217-203109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4cba2f2a43f0d170f10c5098e1a4b04b"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194584952%2F2989400506155%2F1%2Foriginal.20260929-004051?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0f57deb04d5bb18b1edea0a1d85447b9"
       },
       {
         "name": "Alex Kominek Live! 7:30PM",
@@ -969,32 +962,11 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Donnell Rawlings, Sheng Wang, Nicole Aimee Schreiber, Maddy Kelly, Fumi Abe, Gary Cannon, and More TBA",
-        "date": "2026-09-28",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14308464",
-        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Babe Stoppp ft. The Sklar Brothers, Maddy Kelly, Steve Hernandez, Caroline Timoney, Hannah Schoen, Donovan Williams, Alia Atkins, Jackson Banks",
-        "date": "2026-09-28",
-        "time": "20:00:00",
-        "url": "https://www.ticketweb.com/event/babe-stoppp-ft-the-sklar-hollywood-improv-the-lab-tickets/15038813",
-        "image": "https://s1.ticketm.net/dam/a/922/feec859e-c789-4eee-bd8f-687f68d96922_447321_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
-        "date": "2026-09-28",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/15017163",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Arsenio Hall, Patton Oswalt, Adam Ray, Brian Monarch, Ksenia, and Very Special Guests",
+        "name": "Tonight at the Improv ft. Arsenio Hall, Christopher Titus, Adam Ray, Kira Soltanovich, Brian Monarch, Ksenia, and Very Special Guests",
         "date": "2026-09-29",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15014313",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/fbf/81572b30-6b47-4aa3-a6e9-6f83f7daafbf_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Plant Mob ft. Mike O'Brien, Willie Macc, Audrey Stewart, Ainsley Bailey, Miranda Meadows, Patrick Murray, Opey Olagbaju, Kyle Tomlin, and more TBA",
@@ -1022,7 +994,7 @@
         "date": "2026-09-30",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/pitch-and-pair-hollywood-improv-the-main-room-tickets/15027023",
-        "image": "https://i.ticketweb.com/i/00/13/62/59/33_Edp.jpg?v=13"
+        "image": "https://i.ticketweb.com/i/00/13/62/59/33_Edp.jpg?v=14"
       },
       {
         "name": "Greg Wilson",
@@ -1032,7 +1004,7 @@
         "image": "https://i.ticketweb.com/i/00/13/62/80/93_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft Frankie Quinones, Craig Conant, Brittany Furlan, Bo Johnson, Faysal Lawrence, Leah Rudick, CJ Marrinan, and more TBA",
+        "name": "Tonight at the Improv ft Frankie Quinones, Craig Conant, Amir K, Bo Johnson, Faysal Lawrence, Leah Rudick, CJ Marrinan, and more TBA",
         "date": "2026-09-30",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14303984",
@@ -1074,11 +1046,25 @@
         "image": "https://i.ticketweb.com/i/00/13/61/29/03_Edp.jpg?v=6"
       },
       {
-        "name": "Semper Funny ft. Bryson Banks and more TBA!",
+        "name": "Semper Funny ft. Dave Williamson, Will Burkart, Jimmy Draxler, Bryson Banks and more TBA!",
         "date": "2026-10-02",
         "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/semper-funny-ft-bryson-banks-hollywood-improv-the-lab-tickets/14296824",
-        "image": "https://i.ticketweb.com/i/00/13/01/30/54_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/semper-funny-ft-dave-williamson-hollywood-improv-the-lab-tickets/14296824",
+        "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv!",
+        "date": "2026-10-03",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14339514",
+        "image": "https://i.ticketweb.com/i/00/13/05/52/84_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Lab",
+        "date": "2026-10-03",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14301514",
+        "image": "https://i.ticketweb.com/i/00/13/01/76/54_Edp.jpg?v=3"
       }
     ]
   }
