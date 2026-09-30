@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-29T19:46:20.921Z",
+  "generated": "2026-09-30T19:48:59.849Z",
   "events": [
-    {
-      "name": "\"Comedy Tragedy Parody\" Dominic Fike in North America",
-      "date": "2026-09-29",
-      "time": "18:30:00",
-      "url": "https://www.ticketmaster.com/comedy-tragedy-parody-dominic-fike-in-los-angeles-california-09-29-2026/event/0900648FC0A9933D",
-      "image": "https://s1.ticketm.net/dam/a/fd2/31ff92a8-a234-4215-8536-d50b9484cfd2_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "\"Comedy Tragedy Parody\" Dominic Fike in North America",
       "date": "2026-09-30",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/jesse-welles-red-tour-2026-los-angeles-california-10-06-2026/event/0900646DC15BCAEE",
       "image": "https://s1.ticketm.net/dam/a/2b7/7afa57e5-485f-418b-80bc-c2758f90a2b7_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "PRESIDENT: North American Campaign 2026",
+      "date": "2026-10-07",
+      "time": "18:30:00",
+      "url": "https://www.ticketmaster.com/president-north-american-campaign-2026-los-angeles-california-10-07-2026/event/0900647BE33330C4",
+      "image": "https://s1.ticketm.net/dam/a/3c5/a7c763e1-3fc7-4c39-bb3f-767df43f63c5_RECOMENDATION_16_9.jpg"
     }
   ]
 }
