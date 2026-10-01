@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T19:13:23.888Z",
+  "generated": "2026-10-01T23:02:10.580Z",
   "wells": [
     {
       "lat": 34.00231,
@@ -702,16 +702,6 @@
       "blvd": "Pico Boulevard"
     },
     {
-      "lat": 34.05126,
-      "lon": -118.36284,
-      "status": "Active",
-      "operator": "E & B Natural Resources Management Corporation",
-      "field": "Beverly Hills",
-      "type": "Oil & Gas",
-      "api": "0403720363",
-      "blvd": "Pico Boulevard"
-    },
-    {
       "lat": 34.05108,
       "lon": -118.36264,
       "status": "Active",
@@ -1392,16 +1382,6 @@
       "blvd": "College Boulevard"
     },
     {
-      "lat": 34.00769,
-      "lon": -118.37525,
-      "status": "Active",
-      "operator": "Sentinel Peak Resources California LLC",
-      "field": "Inglewood",
-      "type": "Oil & Gas",
-      "api": "0403708292",
-      "blvd": "South La Cienega Boulevard"
-    },
-    {
       "lat": 34.0035,
       "lon": -118.37425,
       "status": "Active",
@@ -1409,6 +1389,16 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403713509",
+      "blvd": "South La Cienega Boulevard"
+    },
+    {
+      "lat": 34.00769,
+      "lon": -118.37525,
+      "status": "Active",
+      "operator": "Sentinel Peak Resources California LLC",
+      "field": "Inglewood",
+      "type": "Oil & Gas",
+      "api": "0403708292",
       "blvd": "South La Cienega Boulevard"
     },
     {
@@ -2722,6 +2712,16 @@
       "blvd": "South La Cienega Boulevard"
     },
     {
+      "lat": 34.01172,
+      "lon": -118.38392,
+      "status": "Active",
+      "operator": "Sentinel Peak Resources California LLC",
+      "field": "Inglewood",
+      "type": "Oil & Gas",
+      "api": "0403709098",
+      "blvd": "College Boulevard"
+    },
+    {
       "lat": 34.00232,
       "lon": -118.37402,
       "status": "Active",
@@ -3192,36 +3192,6 @@
       "blvd": "Adams Boulevard"
     },
     {
-      "lat": 33.81217,
-      "lon": -118.18646,
-      "status": "Active",
-      "operator": "Signal Hill Petroleum, Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403711813",
-      "blvd": "Long Beach Boulevard"
-    },
-    {
-      "lat": 33.81736,
-      "lon": -118.18747,
-      "status": "Active",
-      "operator": "Signal Hill Petroleum, Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403711806",
-      "blvd": "Long Beach Boulevard"
-    },
-    {
-      "lat": 33.81558,
-      "lon": -118.18761,
-      "status": "Active",
-      "operator": "Herley-Kelley LLC",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403709964",
-      "blvd": "Long Beach Boulevard"
-    },
-    {
       "lat": 33.81743,
       "lon": -118.18642,
       "status": "Active",
@@ -3232,13 +3202,13 @@
       "blvd": "Long Beach Boulevard"
     },
     {
-      "lat": 33.81317,
-      "lon": -118.1875,
+      "lat": 33.81935,
+      "lon": -118.18767,
       "status": "Active",
-      "operator": "S & C Oil Co., Inc.",
+      "operator": "Arrowhead Operating, Inc.",
       "field": "Long Beach",
       "type": "Oil & Gas",
-      "api": "0403710380",
+      "api": "0403709579",
       "blvd": "Long Beach Boulevard"
     },
     {
@@ -3252,13 +3222,43 @@
       "blvd": "Long Beach Boulevard"
     },
     {
-      "lat": 33.81935,
-      "lon": -118.18767,
+      "lat": 33.81558,
+      "lon": -118.18761,
       "status": "Active",
-      "operator": "Arrowhead Operating, Inc.",
+      "operator": "Herley-Kelley LLC",
       "field": "Long Beach",
       "type": "Oil & Gas",
-      "api": "0403709579",
+      "api": "0403709964",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81736,
+      "lon": -118.18747,
+      "status": "Active",
+      "operator": "Signal Hill Petroleum, Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403711806",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81317,
+      "lon": -118.1875,
+      "status": "Active",
+      "operator": "S & C Oil Co., Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403710380",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81217,
+      "lon": -118.18646,
+      "status": "Active",
+      "operator": "Signal Hill Petroleum, Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403711813",
       "blvd": "Long Beach Boulevard"
     },
     {
@@ -3603,7 +3603,7 @@
     },
     {
       "lat": 34.03244,
-      "lon": -118.07956,
+      "lon": -118.07954,
       "status": "Active",
       "operator": "Sentinel Peak Resources California LLC",
       "field": "Montebello",
@@ -4912,14 +4912,14 @@
       "blvd": "Sepulveda Boulevard"
     },
     {
-      "lat": 33.79173,
-      "lon": -118.27687,
+      "lat": 33.79612,
+      "lon": -118.28005,
       "status": "Active",
       "operator": "E & B Natural Resources Management Corporation",
       "field": "Torrance",
       "type": "Oil & Gas",
-      "api": "0403716604",
-      "blvd": "Wilmington Boulevard"
+      "api": "0403716597",
+      "blvd": "Lomita Boulevard"
     },
     {
       "lat": 33.79105,
@@ -4932,13 +4932,23 @@
       "blvd": "Wilmington Boulevard"
     },
     {
-      "lat": 33.79612,
-      "lon": -118.28005,
+      "lat": 33.79173,
+      "lon": -118.27687,
       "status": "Active",
       "operator": "E & B Natural Resources Management Corporation",
       "field": "Torrance",
       "type": "Oil & Gas",
-      "api": "0403716597",
+      "api": "0403716604",
+      "blvd": "Wilmington Boulevard"
+    },
+    {
+      "lat": 33.79977,
+      "lon": -118.29957,
+      "status": "Active",
+      "operator": "Hunt Enterprises",
+      "field": "Torrance",
+      "type": "Oil & Gas",
+      "api": "0403717088",
       "blvd": "Lomita Boulevard"
     },
     {
@@ -4949,16 +4959,6 @@
       "field": "Torrance",
       "type": "Oil & Gas",
       "api": "0403706498",
-      "blvd": "Lomita Boulevard"
-    },
-    {
-      "lat": 33.79977,
-      "lon": -118.29957,
-      "status": "Active",
-      "operator": "Hunt Enterprises",
-      "field": "Torrance",
-      "type": "Oil & Gas",
-      "api": "0403717088",
       "blvd": "Lomita Boulevard"
     },
     {
@@ -5212,8 +5212,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75893,
-      "lon": -118.23334,
+      "lat": 33.75889,
+      "lon": -118.23454,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5242,8 +5242,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75893,
-      "lon": -118.23334,
+      "lat": 33.75898,
+      "lon": -118.23423,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5262,8 +5262,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75879,
-      "lon": -118.23393,
+      "lat": 33.75883,
+      "lon": -118.23483,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5282,8 +5282,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75877,
-      "lon": -118.23402,
+      "lat": 33.75881,
+      "lon": -118.23491,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5312,8 +5312,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75867,
-      "lon": -118.23432,
+      "lat": 33.75872,
+      "lon": -118.23522,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5332,8 +5332,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75848,
-      "lon": -118.23499,
+      "lat": 33.75863,
+      "lon": -118.23553,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5342,8 +5342,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75848,
-      "lon": -118.23499,
+      "lat": 33.75853,
+      "lon": -118.23588,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5352,18 +5352,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75861,
-      "lon": -118.23456,
-      "status": "Active",
-      "operator": "Tidelands Oil Production Co.",
-      "field": "Wilmington",
-      "type": "Oil & Gas",
-      "api": "0403730385",
-      "blvd": "Seaside Boulevard"
-    },
-    {
-      "lat": 33.75844,
-      "lon": -118.23514,
+      "lat": 33.75849,
+      "lon": -118.23604,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5382,8 +5372,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75924,
-      "lon": -118.23243,
+      "lat": 33.75928,
+      "lon": -118.23332,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5432,8 +5422,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75891,
-      "lon": -118.23351,
+      "lat": 33.75896,
+      "lon": -118.2344,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5442,8 +5432,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75889,
-      "lon": -118.23358,
+      "lat": 33.75894,
+      "lon": -118.23448,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
@@ -5512,8 +5502,8 @@
       "blvd": "Seaside Boulevard"
     },
     {
-      "lat": 33.75835,
-      "lon": -118.23569,
+      "lat": 33.7584,
+      "lon": -118.23657,
       "status": "Active",
       "operator": "Tidelands Oil Production Co.",
       "field": "Wilmington",
