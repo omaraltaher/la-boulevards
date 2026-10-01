@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T19:21:03.811Z",
+  "generated": "2026-10-01T20:56:36.590Z",
   "theatres": [
     {
       "name": "Odyssey Theatre",
@@ -638,6 +638,24 @@
       "blvd": "California Boulevard",
       "wikipedia": null,
       "website": "https://auditoriums.caltech.edu/ramo-auditorium",
+      "address": null
+    },
+    {
+      "name": "The Victory Theatre Center",
+      "lat": 34.184558,
+      "lon": -118.347873,
+      "blvd": "Victory Boulevard",
+      "wikipedia": null,
+      "website": "https://thevictorytheatrecenter.org/",
+      "address": null
+    },
+    {
+      "name": "George Nakano Theatre",
+      "lat": 33.8393203,
+      "lon": -118.343237,
+      "blvd": "Torrance Boulevard",
+      "wikipedia": null,
+      "website": null,
       "address": null
     },
     {
