@@ -1,13 +1,6 @@
 {
-  "generated": "2026-09-30T19:48:59.849Z",
+  "generated": "2026-10-01T20:05:51.468Z",
   "events": [
-    {
-      "name": "\"Comedy Tragedy Parody\" Dominic Fike in North America",
-      "date": "2026-09-30",
-      "time": "18:30:00",
-      "url": "https://www.ticketmaster.com/comedy-tragedy-parody-dominic-fike-in-los-angeles-california-09-30-2026/event/0900648FECB8C10C",
-      "image": "https://s1.ticketm.net/dam/a/fd2/31ff92a8-a234-4215-8536-d50b9484cfd2_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Julieta Venegas",
       "date": "2026-10-01",
@@ -56,6 +49,13 @@
       "time": "18:30:00",
       "url": "https://www.ticketmaster.com/president-north-american-campaign-2026-los-angeles-california-10-07-2026/event/0900647BE33330C4",
       "image": "https://s1.ticketm.net/dam/a/3c5/a7c763e1-3fc7-4c39-bb3f-767df43f63c5_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Cavetown - Running With Scissors Tour",
+      "date": "2026-10-08",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/cavetown-running-with-scissors-tour-los-angeles-california-10-08-2026/event/09006429C7AEB2B7",
+      "image": "https://s1.ticketm.net/dam/a/dd9/dd1c868c-8736-4919-bfc8-b4a8d89a0dd9_RECOMENDATION_16_9.jpg"
     }
   ]
 }
