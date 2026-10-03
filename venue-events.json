@@ -1,14 +1,7 @@
 {
-  "generated": "2026-10-02T20:17:29.023Z",
+  "generated": "2026-10-03T18:56:56.591Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Social Distortion",
-        "date": "2026-10-02",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/social-distortion-hollywood-california-10-02-2026/event/09006455A7E2BF66",
-        "image": "https://s1.ticketm.net/dam/a/b02/a4025885-0bec-4065-94e0-aa5399d41b02_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "EsDeeKid - Council House Rat Tour",
         "date": "2026-10-07",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/silverlake-conservatory-of-music-celebrates-25-hollywood-california-10-17-2026/event/0900653276CE3529",
         "image": "https://s1.ticketm.net/dam/e/cf6/9aaa8aba-b2b8-4254-8ed3-09f2c41dbcf6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "SEX PISTOLS (Steve Jones, Paul Cook, Glen Matlock) feat. Frank Carter",
+        "date": "2026-10-18",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/sex-pistols-steve-jones-paul-cook-hollywood-california-10-18-2026/event/0900627AEA50512B",
+        "image": "https://s1.ticketm.net/dam/a/6e7/48330409-0d19-4228-af7f-df52749866e7_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Chanel Beads w/ Mechatok",
-        "date": "2026-10-02",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yqA",
-        "image": null
-      },
       {
         "name": "Show Me The Body w/ JIVEBOMB",
         "date": "2026-10-03",
@@ -115,6 +108,13 @@
         "date": "2026-10-11",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOG4",
+        "image": null
+      },
+      {
+        "name": "Finn Wolfhard",
+        "date": "2026-10-13",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A703rF",
         "image": null
       }
     ],
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "JPEGMAFIA (18 and Over with Valid Government ID)",
-        "date": "2026-10-02",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fOS",
-        "image": "https://s1.ticketm.net/dam/a/0ad/2715f828-d867-417d-a621-9226eeed80ad_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Igorrr",
         "date": "2026-10-04",
         "time": "19:30:00",
@@ -232,16 +225,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-Ge",
         "image": "https://s1.ticketm.net/dam/a/b72/aefdadd8-39ca-4186-b13d-d89e1d97fb72_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sunset Rollercoaster",
+        "date": "2026-10-16",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZPt",
+        "image": null
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "Los Parras",
-        "date": "2026-10-02",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-P-J",
-        "image": "https://s1.ticketm.net/dam/a/6a1/a9a781c8-d958-4578-8d18-367991ce86a1_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Los Horoscopos de Durango",
         "date": "2026-10-09",
@@ -290,16 +283,16 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd43",
         "image": null
+      },
+      {
+        "name": "BOYNEXTDOOR",
+        "date": "2026-11-20",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pz4o",
+        "image": "https://s1.ticketm.net/dam/a/341/5d9feaa5-e9a3-4559-a1f0-0d7413c2d341_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Wind Walkers: The \"I Don't Belong Here\" Tour",
-        "date": "2026-10-02",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/wind-walkers-the-i-dont-belong-los-angeles-california-10-02-2026/event/090064C1E735EC0D",
-        "image": "https://s1.ticketm.net/dam/e/8ba/bd4d82c6-92bc-4402-a1df-186536f578ba_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Bolden. Who you really are. Tour 2026.",
         "date": "2026-10-03",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/fightmaster-los-angeles-california-10-15-2026/event/090064D7DAF5CCC9",
         "image": "https://s1.ticketm.net/dam/a/ef1/1d8fbc2a-82a0-4f50-960c-652446245ef1_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "KCRW Presents: Lewis OfMan",
+        "date": "2026-10-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/kcrw-presents-lewis-ofman-los-angeles-california-10-16-2026/event/090064AE4A252F6B",
+        "image": "https://s1.ticketm.net/dam/e/615/7207aefa-ccfd-483a-b328-57da483ab615_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -396,17 +396,10 @@
     ],
     "Kirk Douglas Theatre": [
       {
-        "name": "Dogman: The Musical - Sensory Sensitive Performance",
-        "date": "2026-10-02",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUfv",
-        "image": null
-      },
-      {
         "name": "Dogman: The Musical",
         "date": "2026-10-03",
-        "time": "11:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUf3",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUfJ",
         "image": null
       },
       {
@@ -428,6 +421,20 @@
         "date": "2026-10-07",
         "time": "11:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4k",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-10-08",
+        "time": "11:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU46",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-10-09",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU48",
         "image": null
       }
     ],
@@ -469,13 +476,6 @@
       }
     ],
     "Orpheum Theatre": [
-      {
-        "name": "She & Him: Pump Up The Volumes Tour",
-        "date": "2026-10-02",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/she-him-pump-up-the-volumes-los-angeles-california-10-02-2026/event/090064CBDA54F056",
-        "image": "https://s1.ticketm.net/dam/a/6e9/6fc0fea0-7cb6-4001-963e-5f4ae840d6e9_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "She & Him: Pump Up The Volumes Tour",
         "date": "2026-10-03",
@@ -524,6 +524,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/laura-ramoso-the-calm-down-tour-los-angeles-california-10-17-2026/event/0900646C8A7D523C",
         "image": "https://s1.ticketm.net/dam/a/79c/7031027f-174e-4061-8239-33944464979c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Hablando Huevadas - US Tour 2026",
+        "date": "2026-10-20",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/hablando-huevadas-us-tour-2026-los-angeles-california-10-20-2026/event/090064FEF473F3BA",
+        "image": "https://s1.ticketm.net/dam/a/b50/bd6aed73-6732-4e3b-8dce-635319696b50_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -737,13 +744,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "La Mirada Theatre presents: Little Shop of Horrors",
-        "date": "2026-10-02",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQa",
-        "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "La Mirada Theatre presents: Little Shop of Horrors",
         "date": "2026-10-03",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J_y",
@@ -776,6 +776,13 @@
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQk",
         "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "La Mirada Theatre presents: Dear Evan Hansen",
+        "date": "2026-11-01",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Jf7",
+        "image": null
       }
     ],
     "Downey Civic Theatre": [],
@@ -962,34 +969,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Cristela Alonzo, Asif Ali, Francisco Ramos, Charles Fleischer, Andre Kelley and more TBA",
-        "date": "2026-10-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300364",
-        "image": "https://s1.ticketm.net/dam/a/032/9b9b4e28-ea74-43e5-bf77-12b1ae0f2032_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Secretly Trashed ft. Ahmed Al Kadri, Bryan Snacks, Eric Freedman, Sam Mamaghani, Monty Geer and more TBA",
-        "date": "2026-10-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/secretly-trashed-ft-ahmed-al-hollywood-improv-the-lab-tickets/15012183",
-        "image": "https://i.ticketweb.com/i/00/13/61/29/03_Edp.jpg?v=9"
-      },
-      {
-        "name": "Tonight at the Improv ft. Amir K, Craig Conant, Katherine Blanford, Sara Weinshenk, Mark Ellis, Mark Smalls, Jeanne Whitney and more TBA",
-        "date": "2026-10-02",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300374",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Semper Funny ft. Dave Williamson, Will Burkart, Jimmy Draxler, Bryson Banks and more TBA!",
-        "date": "2026-10-02",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/semper-funny-ft-dave-williamson-hollywood-improv-the-lab-tickets/14296824",
-        "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Orny Adams, Amir K, Ian Edwards, Sarah Tiana, Nate Craig, Shawn Pelofsky, Frazer Smith and more TBA",
         "date": "2026-10-03",
         "time": "19:00:00",
@@ -997,14 +976,14 @@
         "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Eddie Della Siepe, Brent Weinbach, Freddy Lockhart, Alice Wetterlund, Jenny Johnson, Cid Williams, and More TBA",
+        "name": "Tonight at the Lab ft. Eddie Della Siepe, Brent Weinbach, Freddy Lockhart, Alice Wetterlund, Jenny Johnson, Julian Fernandez, Cid Williams, and More TBA",
         "date": "2026-10-03",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14301514",
         "image": "https://s1.ticketm.net/dam/a/b39/78c80946-96f4-4215-bc8d-99c506cf9b39_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Jesus Trejo, Dean Delray, Blair Socci, Brent Morin, BT Kingsley, Eric Freedman and more TBA",
+        "name": "Tonight at the Improv ft. Jesus Trejo, Dean Delray, Blair Socci, Brent Morin, BT Kingsley, Chris Fairbanks, Eric Freedman and more TBA",
         "date": "2026-10-03",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14326014",
@@ -1018,10 +997,10 @@
         "image": "https://i.ticketweb.com/i/00/12/98/35/64_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Godfrey, Caroline Rhea, Jack Whitehall, King Bo, Nick Colletti, Kyle Massey, Chris Massey, Mark Hayes and more TBA",
+        "name": "Mark Hayes & Friends ft. Godfrey, Caroline Rhea, Jack Whitehall, King Bo, Nick Colletti, Kyle Massey, Chris Massey, Mark Hayes and more TBA",
         "date": "2026-10-04",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14326864",
+        "url": "https://www.ticketweb.com/event/mark-hayes-friends-ft-hollywood-improv-the-main-room-tickets/14326864",
         "image": "https://s1.ticketm.net/dam/a/5cc/4c227195-7b94-4072-b9f5-9d3e9d1535cc_RECOMENDATION_16_9.jpg"
       },
       {
@@ -1032,14 +1011,14 @@
         "image": "https://i.ticketweb.com/i/00/13/02/01/34_Edp.jpg?v=8"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Preacher Lawson, Chloe Radcliffe, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Preacher Lawson, Chloe Radcliffe, Laurie Kilmartin, Gary Cannon and more TBA",
         "date": "2026-10-05",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339534",
         "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G thang, BT Kingsley, Cameron Davis, Spanky Hayes, Boo Kapone and more",
         "date": "2026-10-05",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14300404",
@@ -1060,6 +1039,20 @@
         "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Tonight at the Improv ft. Donnell Rawlings, Godfrey, Earthquake, Jack Whitehall, Red Richardson, Crystal Marie, Mark Hayes, and more TBA",
+        "date": "2026-10-06",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14293664",
+        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Dave Nihill, Hunter Hill, Gina Brillon, Nikki Bon and more TBA",
+        "date": "2026-10-07",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339664",
+        "image": "https://s1.ticketm.net/dam/a/a48/9049e0cd-cb62-45ad-82ad-7d8e22617a48_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "At the Lab: Trios ft. Malcolm Cills, John Luna, Luke Binkow, and Andy Benedetti",
         "date": "2026-10-07",
         "time": "20:30:00",
@@ -1072,6 +1065,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/cult-comedy-ft-laurie-douglas-hollywood-improv-the-lab-tickets/15022053",
         "image": "https://i.ticketweb.com/i/00/13/62/20/53_Edp.jpg?v=4"
+      },
+      {
+        "name": "Basshole ft. Doug Bass, Leah Knauer, Gary Cannon, Cid Williams, Jason Delgado, Tonya Moon, Amie Lieberman, Sarah Randolph. Tamara Marry, Cole Young, Claudia Monica, and more TBA",
+        "date": "2026-10-08",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-leah-hollywood-improv-the-lab-tickets/15012203",
+        "image": "https://i.ticketweb.com/i/00/13/61/29/23_Edp.jpg?v=5"
+      },
+      {
+        "name": "Panic! At the Lab ft. Drew Landry, Jonathon Hollis, Holly Brown, Josh Edelman, Aaron Monte, Christine Little, Vince Caldera, Daniela Calvo, and more TBA",
+        "date": "2026-10-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/panic-at-the-lab-ft-hollywood-improv-the-lab-tickets/15044643",
+        "image": "https://i.ticketweb.com/i/00/13/64/18/23_Edp.jpg?v=4"
       }
     ]
   }
