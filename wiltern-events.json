@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-02T19:44:35.554Z",
+  "generated": "2026-10-03T18:31:48.272Z",
   "events": [
-    {
-      "name": "Julieta Venegas",
-      "date": "2026-10-02",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/julieta-venegas-los-angeles-california-10-02-2026/event/09006489E4EE2058",
-      "image": "https://s1.ticketm.net/dam/a/997/85f7a204-a674-4983-93e0-ea73cb1b0997_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Michelle Branch: Everywhere And Back Again Tour",
       "date": "2026-10-03",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/tinlicker-north-america-2026-los-angeles-california-10-09-2026/event/09006490AB107C05",
       "image": "https://s1.ticketm.net/dam/a/77b/821ec84d-bc67-4d02-a389-a81da25b177b_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Bassem Youssef: The Belly of the Beast Tour",
+      "date": "2026-10-10",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/bassem-youssef-the-belly-of-the-los-angeles-california-10-10-2026/event/0900646CF90AFB88",
+      "image": "https://s1.ticketm.net/dam/a/4e9/debacb0e-51b2-41c0-99c1-d54e44e2e4e9_RECOMENDATION_16_9.jpg"
     }
   ]
 }
