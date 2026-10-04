@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-03T18:31:48.272Z",
+  "generated": "2026-10-04T18:31:00.653Z",
   "events": [
-    {
-      "name": "Michelle Branch: Everywhere And Back Again Tour",
-      "date": "2026-10-03",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-los-angeles-california-10-03-2026/event/090064E7C7308C96",
-      "image": "https://s1.ticketm.net/dam/a/56d/9638c963-033e-415a-a69b-754e19edb56d_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Sammy Rae & The Friends with special guest Melt",
       "date": "2026-10-04",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/bassem-youssef-the-belly-of-the-los-angeles-california-10-10-2026/event/0900646CF90AFB88",
       "image": "https://s1.ticketm.net/dam/a/4e9/debacb0e-51b2-41c0-99c1-d54e44e2e4e9_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Sons of Legion - Soul to SØL World Tour 2026",
+      "date": "2026-10-11",
+      "time": "18:30:00",
+      "url": "https://www.ticketmaster.com/sons-of-legion-soul-to-sl-los-angeles-california-10-11-2026/event/090064D2EA96F313",
+      "image": "https://s1.ticketm.net/dam/a/395/839b6a5f-48f8-4ae0-88be-2a168e4c4395_RECOMENDATION_16_9.jpg"
     }
   ]
 }
