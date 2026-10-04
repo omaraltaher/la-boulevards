@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T18:56:56.591Z",
+  "generated": "2026-10-04T18:57:27.063Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Show Me The Body w/ JIVEBOMB",
-        "date": "2026-10-03",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3A0",
-        "image": "https://s1.ticketm.net/dam/a/ff7/0bebfc5b-76fb-4d77-88a6-c0b9be313ff7_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "LAUNDRY DAY",
         "date": "2026-10-04",
         "time": "20:00:00",
@@ -116,23 +109,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A703rF",
         "image": null
+      },
+      {
+        "name": "Mico",
+        "date": "2026-10-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UAO",
+        "image": "https://s1.ticketm.net/dam/a/9ec/f144a004-d88f-464f-97d3-11f8f975e9ec_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Emo Nite",
-        "date": "2026-10-02",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14298764",
-        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "SIDEPIECE w/ Maesic",
-        "date": "2026-10-03",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/sidepiece-w-maesic-avalon-hollywood-tickets/14334404",
-        "image": "https://s1.ticketm.net/dam/a/3f2/d7d1d04d-5805-4963-a9d7-c8250dece3f2_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "ALT8, Noise Mafia, PeterBlue",
         "date": "2026-10-09",
@@ -174,6 +160,20 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/innellea-w-rafael-cerato-avalon-hollywood-tickets/14297224",
         "image": "https://i.ticketweb.com/i/00/13/01/33/64_Edp.jpg?v=5"
+      },
+      {
+        "name": "Deathpact w/ Jiqui",
+        "date": "2026-11-07",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/deathpact-w-jiqui-avalon-hollywood-tickets/14307674",
+        "image": "https://i.ticketweb.com/i/00/13/02/38/14_Edp.jpg?v=7"
+      },
+      {
+        "name": "Riot Ten w/ Special Guest Codd Dubz + Joust B2B Mongrel",
+        "date": "2026-11-14",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/riot-ten-w-special-guest-avalon-hollywood-tickets/14352674",
+        "image": "https://s1.ticketm.net/dam/a/19d/8d5fef9a-6cf3-4796-9b31-a1afcf43119d_1463971_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Bolden. Who you really are. Tour 2026.",
-        "date": "2026-10-03",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/bolden-who-you-really-are-tour-los-angeles-california-10-03-2026/event/09006490FA48DE1B",
-        "image": "https://s1.ticketm.net/dam/e/74c/0264b81a-a300-429a-8d5d-0180a20f874c_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Wednesday 13",
         "date": "2026-10-04",
         "time": "18:30:00",
@@ -329,13 +322,6 @@
         "image": "https://s1.ticketm.net/dam/a/ddd/fb759cf3-0e29-4a38-9961-c85d75e6bddd_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "KCRW Presents: Drag Talk",
-        "date": "2026-10-10",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/kcrw-presents-drag-talk-los-angeles-california-10-10-2026/event/090064F511B58277",
-        "image": "https://s1.ticketm.net/dam/e/21d/d565b64c-2da1-4a76-a1ab-fecc1851f21d_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "FIGHTMASTER",
         "date": "2026-10-15",
         "time": "19:00:00",
@@ -348,6 +334,20 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/kcrw-presents-lewis-ofman-los-angeles-california-10-16-2026/event/090064AE4A252F6B",
         "image": "https://s1.ticketm.net/dam/e/615/7207aefa-ccfd-483a-b328-57da483ab615_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Jungle Giants",
+        "date": "2026-10-17",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/the-jungle-giants-los-angeles-california-10-17-2026/event/090064A4A1C9BADA",
+        "image": "https://s1.ticketm.net/dam/e/ab8/fce97e86-2269-4b0c-a170-3ef3d84c4ab8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": " Inside Trump's Head Live (Daily Beast): Michael Wolff & Joanna Coles",
+        "date": "2026-10-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/inside-trumps-head-live-daily-beast-los-angeles-california-10-20-2026/event/0900650B1ED966EA",
+        "image": "https://s1.ticketm.net/dam/e/eab/cd6147a5-9b6d-47ba-b475-8b45e9882eab_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -397,13 +397,6 @@
     "Kirk Douglas Theatre": [
       {
         "name": "Dogman: The Musical",
-        "date": "2026-10-03",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUfJ",
-        "image": null
-      },
-      {
-        "name": "Dogman: The Musical",
         "date": "2026-10-04",
         "time": "13:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUfM",
@@ -435,6 +428,13 @@
         "date": "2026-10-09",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU48",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-10-10",
+        "time": "11:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4o",
         "image": null
       }
     ],
@@ -476,13 +476,6 @@
       }
     ],
     "Orpheum Theatre": [
-      {
-        "name": "She & Him: Pump Up The Volumes Tour",
-        "date": "2026-10-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/she-him-pump-up-the-volumes-los-angeles-california-10-03-2026/event/090064B691458B82",
-        "image": "https://s1.ticketm.net/dam/a/6e9/6fc0fea0-7cb6-4001-963e-5f4ae840d6e9_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Hokus Pokus Live!",
         "date": "2026-10-07",
@@ -531,24 +524,17 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/hablando-huevadas-us-tour-2026-los-angeles-california-10-20-2026/event/090064FEF473F3BA",
         "image": "https://s1.ticketm.net/dam/a/b50/bd6aed73-6732-4e3b-8dce-635319696b50_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Hablando Huevadas - US Tour 2026",
+        "date": "2026-10-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/hablando-huevadas-us-tour-2026-los-angeles-california-10-21-2026/event/090064ED93F94F18",
+        "image": "https://s1.ticketm.net/dam/a/b50/bd6aed73-6732-4e3b-8dce-635319696b50_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
-      {
-        "name": "KCRW Presents The Growlers",
-        "date": "2026-10-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/kcrw-presents-the-growlers-los-angeles-california-10-03-2026/event/090064A94B001599",
-        "image": "https://s1.ticketm.net/dam/a/39d/4020ba9d-3be3-4f24-a501-e634d393c39d_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Premium: THE GROWLERS",
-        "date": "2026-10-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/premium-the-growlers-los-angeles-california-10-03-2026/event/090064ACFF299288",
-        "image": null
-      },
       {
         "name": "Premium: ROXETTE",
         "date": "2026-10-05",
@@ -590,16 +576,23 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/air-supply-los-angeles-california-10-10-2026/event/090064FFD304DE2B",
         "image": "https://s1.ticketm.net/dam/a/dee/91a4e597-9d27-409c-be30-e28ebcaf8dee_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Palace - USA & Canada Tour 2026",
+        "date": "2026-10-11",
+        "time": "19:20:00",
+        "url": "https://www.ticketmaster.com/palace-usa-canada-tour-2026-los-angeles-california-10-11-2026/event/090064943F8E8F86",
+        "image": "https://s1.ticketm.net/dam/a/b3d/efbf1e8c-4fa1-4f06-90b7-1f4ddeb62b3d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ella Langley",
+        "date": "2026-10-13",
+        "time": "19:10:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYx9",
+        "image": "https://s1.ticketm.net/dam/a/10b/3e5a6f73-de54-42c4-818c-0e422b59810b_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
-      {
-        "name": "Max Amini Live in Hollywood!",
-        "date": "2026-10-03",
-        "time": "16:30:00",
-        "url": "https://www.ticketmaster.com/max-amini-live-in-hollywood-hollywood-california-10-03-2026/event/090064B0EA809486",
-        "image": "https://s1.ticketm.net/dam/a/960/ab8e2d71-4b2e-4d4c-b9c3-542f2a73b960_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Max Amini Live in Hollywood!",
         "date": "2026-10-04",
@@ -627,6 +620,20 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/max-amini-live-in-hollywood-hollywood-california-10-10-2026/event/09006536E071DD42",
         "image": "https://s1.ticketm.net/dam/a/960/ab8e2d71-4b2e-4d4c-b9c3-542f2a73b960_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sara Bareilles: The Good Grief Tour",
+        "date": "2026-10-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/sara-bareilles-the-good-grief-tour-hollywood-california-10-12-2026/event/090064C2D941CF2E",
+        "image": "https://s1.ticketm.net/dam/a/d75/c9e9ff52-8f03-4705-b92b-96c3651f9d75_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sara Bareilles: The Good Grief Tour",
+        "date": "2026-10-13",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/sara-bareilles-the-good-grief-tour-hollywood-california-10-13-2026/event/090064C2D945CF31",
+        "image": "https://s1.ticketm.net/dam/a/d75/c9e9ff52-8f03-4705-b92b-96c3651f9d75_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -744,13 +751,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "La Mirada Theatre presents: Little Shop of Horrors",
-        "date": "2026-10-03",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J_y",
-        "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "La Mirada Theatre presents: Little Shop of Horrors",
         "date": "2026-10-04",
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQF",
@@ -782,6 +782,13 @@
         "date": "2026-11-01",
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Jf7",
+        "image": null
+      },
+      {
+        "name": "La Mirada Theatre presents: Dear Evan Hansen",
+        "date": "2026-11-07",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JfZ",
         "image": null
       }
     ],
@@ -885,23 +892,16 @@
       },
       {
         "name": "Argentine Film Festival in LA",
-        "date": "2026-10-23",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-23-2026/event/0B006539C7AC6772",
-        "image": null
-      },
-      {
-        "name": "Argentine Film Festival in LA",
-        "date": "2026-10-24",
-        "time": "17:00:00",
-        "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-24-2026/event/0B006539C7AE6774",
-        "image": null
-      },
-      {
-        "name": "Argentine Film Festival in LA",
         "date": "2026-10-25",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-25-2026/event/0B006539C7B06779",
+        "image": null
+      },
+      {
+        "name": "For the Love of Dance",
+        "date": "2026-11-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/for-the-love-of-dance-inglewood-california-11-13-2026/event/0B00653EE05B97E5",
         "image": null
       }
     ],
@@ -969,34 +969,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Orny Adams, Amir K, Ian Edwards, Sarah Tiana, Nate Craig, Shawn Pelofsky, Frazer Smith and more TBA",
-        "date": "2026-10-03",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339514",
-        "image": "https://s1.ticketm.net/dam/a/c08/85e79514-dd8c-4f9d-95ac-ba2a29c9fc08_774761_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Eddie Della Siepe, Brent Weinbach, Freddy Lockhart, Alice Wetterlund, Jenny Johnson, Julian Fernandez, Cid Williams, and More TBA",
-        "date": "2026-10-03",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14301514",
-        "image": "https://s1.ticketm.net/dam/a/b39/78c80946-96f4-4215-bc8d-99c506cf9b39_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Jesus Trejo, Dean Delray, Blair Socci, Brent Morin, BT Kingsley, Chris Fairbanks, Eric Freedman and more TBA",
-        "date": "2026-10-03",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14326014",
-        "image": "https://s1.ticketm.net/dam/a/2fd/438295bb-fc0b-4f17-8e56-00c83eee72fd_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "House Party ft. Leah Rudick, Kylie Vincent, Mark Smalls, Jason Yanakis, Harper-Rose Drummond, Ellory Smith, TV Head, Joseph Garcia, OJ Stellar and more TBA",
-        "date": "2026-10-03",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/house-party-ft-leah-rudick-hollywood-improv-the-lab-tickets/14267864",
-        "image": "https://i.ticketweb.com/i/00/12/98/35/64_Edp.jpg?v=4"
-      },
-      {
         "name": "Mark Hayes & Friends ft. Godfrey, Caroline Rhea, Jack Whitehall, King Bo, Nick Colletti, Kyle Massey, Chris Massey, Mark Hayes and more TBA",
         "date": "2026-10-04",
         "time": "19:00:00",
@@ -1060,6 +1032,20 @@
         "image": "https://i.ticketweb.com/i/00/13/06/90/54_Edp.jpg?v=4"
       },
       {
+        "name": "Set Me Up ft. Vinny Fasline, Preacher Lawson, Francisco Ramos, Eleanor Kerrigan and more TBA",
+        "date": "2026-10-07",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/set-me-up-ft-vinny-hollywood-improv-the-main-room-tickets/14346294",
+        "image": "https://i.ticketweb.com/i/00/13/06/17/14_Edp.jpg?v=8"
+      },
+      {
+        "name": "Tonight at the Improv ft. Jay Leno, Trevor Wallace, Brian Monarch and Very Special Guests",
+        "date": "2026-10-08",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300464",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Cult Comedy ft. Laurie Douglas, Sam Grody, Jesus Sepulveda, Tahir Moore, Vanessa Graddick, Faysal Lawrence",
         "date": "2026-10-08",
         "time": "19:30:00",
@@ -1079,6 +1065,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/panic-at-the-lab-ft-hollywood-improv-the-lab-tickets/15044643",
         "image": "https://i.ticketweb.com/i/00/13/64/18/23_Edp.jpg?v=4"
+      },
+      {
+        "name": "Comedy Grind ft. Lachlan Patterson, Rob DaRocha, Sam Fortin, Matty P, Johana Scortia, Joe Hill, Reid Brackenbury, Willie Krisztal, Amie Lieberman, Those Klein Boys",
+        "date": "2026-10-09",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/comedy-grind-ft-lachlan-patterson-hollywood-improv-the-lab-tickets/14267874",
+        "image": "https://i.ticketweb.com/i/00/12/98/35/74_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Lab",
+        "date": "2026-10-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14301534",
+        "image": "https://i.ticketweb.com/i/00/13/01/77/24_Edp.jpg?v=2"
       }
     ]
   }
