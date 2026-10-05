@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-04T18:31:00.653Z",
+  "generated": "2026-10-05T21:48:47.105Z",
   "events": [
-    {
-      "name": "Sammy Rae & The Friends with special guest Melt",
-      "date": "2026-10-04",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-los-angeles-california-10-04-2026/event/09006474B939B579",
-      "image": "https://s1.ticketm.net/dam/a/179/ef41dd90-262b-4508-a1e2-47fb26e3c179_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Jesse Welles - Red Tour 2026",
       "date": "2026-10-05",
@@ -56,6 +49,13 @@
       "time": "18:30:00",
       "url": "https://www.ticketmaster.com/sons-of-legion-soul-to-sl-los-angeles-california-10-11-2026/event/090064D2EA96F313",
       "image": "https://s1.ticketm.net/dam/a/395/839b6a5f-48f8-4ae0-88be-2a168e4c4395_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Band-Maid World Tour 2026",
+      "date": "2026-10-12",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/bandmaid-world-tour-2026-los-angeles-california-10-12-2026/event/090064FBECB9CC71",
+      "image": "https://s1.ticketm.net/dam/a/b8e/03239612-54e6-49ee-89f5-81e4c19c2b8e_1616241_RECOMENDATION_16_9.jpg"
     }
   ]
 }
