@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T18:57:27.063Z",
+  "generated": "2026-10-05T22:17:36.209Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "LAUNDRY DAY",
-        "date": "2026-10-04",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70g_M",
-        "image": "https://s1.ticketm.net/dam/a/f70/9a83e082-fd8f-4512-8de3-4463fc767f70_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Father John Misty w/ Omar Velasco",
         "date": "2026-10-06",
         "time": "20:00:00",
@@ -115,6 +108,13 @@
         "date": "2026-10-15",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UAO",
+        "image": "https://s1.ticketm.net/dam/a/9ec/f144a004-d88f-464f-97d3-11f8f975e9ec_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mico",
+        "date": "2026-10-16",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UA4",
         "image": "https://s1.ticketm.net/dam/a/9ec/f144a004-d88f-464f-97d3-11f8f975e9ec_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "Igorrr",
-        "date": "2026-10-04",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gj4",
-        "image": "https://s1.ticketm.net/dam/a/a4e/85825df5-5b8d-4243-8e1c-97f1e2fd2a4e_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Rusowsky",
         "date": "2026-10-07",
         "time": "20:00:00",
@@ -231,6 +224,13 @@
         "date": "2026-10-16",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZPt",
+        "image": null
+      },
+      {
+        "name": "underscores",
+        "date": "2026-10-20",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8U",
         "image": null
       }
     ],
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Wednesday 13",
-        "date": "2026-10-04",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/wednesday-13-los-angeles-california-10-04-2026/event/09006497A65FFAC4",
-        "image": "https://s1.ticketm.net/dam/e/2e6/91ae3ea8-001d-49aa-b3c9-afedf53f72e6_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Kylesa",
         "date": "2026-10-05",
         "time": "19:00:00",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/inside-trumps-head-live-daily-beast-los-angeles-california-10-20-2026/event/0900650B1ED966EA",
         "image": "https://s1.ticketm.net/dam/e/eab/cd6147a5-9b6d-47ba-b475-8b45e9882eab_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lauren Ash",
+        "date": "2026-10-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/lauren-ash-los-angeles-california-10-22-2026/event/090064D1D163E74D",
+        "image": "https://s1.ticketm.net/dam/e/91e/3b5c7de9-6720-4828-96a1-c2d9ffbd791e_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -397,13 +397,6 @@
     "Kirk Douglas Theatre": [
       {
         "name": "Dogman: The Musical",
-        "date": "2026-10-04",
-        "time": "13:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PUfM",
-        "image": null
-      },
-      {
-        "name": "Dogman: The Musical",
         "date": "2026-10-06",
         "time": "11:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4A",
@@ -435,6 +428,13 @@
         "date": "2026-10-10",
         "time": "11:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4o",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-10-11",
+        "time": "13:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU44",
         "image": null
       }
     ],
@@ -491,6 +491,13 @@
         "image": "https://s1.ticketm.net/dam/a/d07/191d77fe-a691-426d-a703-c38cba942d07_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "OZZY & BLACK SABBATH: BACK TO THE BEGINNING",
+        "date": "2026-10-14",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/ozzy-black-sabbath-back-to-the-los-angeles-california-10-14-2026/event/0900654102F5CF7C",
+        "image": "https://s1.ticketm.net/dam/e/ca6/c2892b40-aac2-41fb-999b-65ec3ed99ca6_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Maher Zain - USA Tour 2026",
         "date": "2026-10-15",
         "time": "19:30:00",
@@ -523,13 +530,6 @@
         "date": "2026-10-20",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/hablando-huevadas-us-tour-2026-los-angeles-california-10-20-2026/event/090064FEF473F3BA",
-        "image": "https://s1.ticketm.net/dam/a/b50/bd6aed73-6732-4e3b-8dce-635319696b50_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Hablando Huevadas - US Tour 2026",
-        "date": "2026-10-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/hablando-huevadas-us-tour-2026-los-angeles-california-10-21-2026/event/090064ED93F94F18",
         "image": "https://s1.ticketm.net/dam/a/b50/bd6aed73-6732-4e3b-8dce-635319696b50_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -594,13 +594,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "Max Amini Live in Hollywood!",
-        "date": "2026-10-04",
-        "time": "16:00:00",
-        "url": "https://www.ticketmaster.com/max-amini-live-in-hollywood-hollywood-california-10-04-2026/event/090064B0EA84948F",
-        "image": "https://s1.ticketm.net/dam/a/960/ab8e2d71-4b2e-4d4c-b9c3-542f2a73b960_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Aziz Ansari: Hypothetical Tour",
         "date": "2026-10-07",
         "time": "19:00:00",
@@ -634,6 +627,20 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/sara-bareilles-the-good-grief-tour-hollywood-california-10-13-2026/event/090064C2D945CF31",
         "image": "https://s1.ticketm.net/dam/a/d75/c9e9ff52-8f03-4705-b92b-96c3651f9d75_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sara Bareilles: The Good Grief Tour",
+        "date": "2026-10-14",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/sara-bareilles-the-good-grief-tour-hollywood-california-10-14-2026/event/090064C2D947CF38",
+        "image": "https://s1.ticketm.net/dam/a/d75/c9e9ff52-8f03-4705-b92b-96c3651f9d75_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Terminator Live",
+        "date": "2026-10-16",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/the-terminator-live-hollywood-california-10-16-2026/event/090064E8988E5C12",
+        "image": "https://s1.ticketm.net/dam/e/9ac/5d94e11f-7483-4eaf-bf30-84e4bfebc9ac_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -751,13 +758,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "La Mirada Theatre presents: Little Shop of Horrors",
-        "date": "2026-10-04",
-        "time": "13:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQF",
-        "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "La Mirada Theatre presents: Little Shop of Horrors",
         "date": "2026-10-08",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQv",
@@ -789,6 +789,20 @@
         "date": "2026-11-07",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JfZ",
+        "image": null
+      },
+      {
+        "name": "La Mirada Theatre presents: Dear Evan Hansen",
+        "date": "2026-11-08",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J3_",
+        "image": null
+      },
+      {
+        "name": "La Mirada Theatre presents: Dear Evan Hansen",
+        "date": "2026-11-12",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J3p",
         "image": null
       }
     ],
@@ -892,16 +906,23 @@
       },
       {
         "name": "Argentine Film Festival in LA",
-        "date": "2026-10-25",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-25-2026/event/0B006539C7B06779",
+        "date": "2026-10-23",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-23-2026/event/0B006545AFBF917E",
         "image": null
       },
       {
-        "name": "For the Love of Dance",
-        "date": "2026-11-13",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/for-the-love-of-dance-inglewood-california-11-13-2026/event/0B00653EE05B97E5",
+        "name": "Argentine Film Festival in LA",
+        "date": "2026-10-24",
+        "time": "17:00:00",
+        "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-24-2026/event/0B006545AFC29187",
+        "image": null
+      },
+      {
+        "name": "On Sale on TM -- please search",
+        "date": "2026-10-25",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/on-sale-on-tm-please-search-inglewood-california-10-25-2026/event/0B006539C7B06779",
         "image": null
       }
     ],
@@ -911,18 +932,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Pookie Wigington Presents: Chocolate Sundaes 7:00PM",
-        "date": "2026-10-04",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/pookie-wigington-presents-chocolate-sundaes-700pm-tickets-1994242019564",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Pookie Wigington Presents: Chocolate Sundaes 9:30PM",
-        "date": "2026-10-04",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/pookie-wigington-presents-chocolate-sundaes-930pm-tickets-1994242544133",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-10-06",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1994591139792",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194946595%2F2989400506155%2F1%2Foriginal.20261002-222111?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2f6ceb7a0c0ad8529d6724fa2332e01d"
       },
       {
         "name": "Pookie Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -937,6 +951,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/pookie-wigington-presents-chocolate-sundaes-930pm-tickets-1994242636409",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-10-12",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1994592186924",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
       },
       {
         "name": "Pookie Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -969,21 +990,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Mark Hayes & Friends ft. Godfrey, Caroline Rhea, Jack Whitehall, King Bo, Nick Colletti, Kyle Massey, Chris Massey, Mark Hayes and more TBA",
-        "date": "2026-10-04",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/mark-hayes-friends-ft-hollywood-improv-the-main-room-tickets/14326864",
-        "image": "https://s1.ticketm.net/dam/a/5cc/4c227195-7b94-4072-b9f5-9d3e9d1535cc_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Funny Mill ft. Rishi Arya, Zeo Niu, Danny Dunn, Viet Nguyen, Dave Getzoff, Zeo Niu, Brian Wiora, Horacio Corchado, Armaan Sengupta, Arturo Vaca, Shane Morgan and more TBA",
-        "date": "2026-10-04",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/funny-mill-ft-rishi-arya-hollywood-improv-the-lab-tickets/14303944",
-        "image": "https://i.ticketweb.com/i/00/13/02/01/34_Edp.jpg?v=8"
-      },
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Preacher Lawson, Chloe Radcliffe, Laurie Kilmartin, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Jessica Kirson, Preacher Lawson, Chloe Radcliffe, Laurie Kilmartin, Gary Cannon and more TBA",
         "date": "2026-10-05",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339534",
@@ -1011,7 +1018,7 @@
         "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Donnell Rawlings, Godfrey, Earthquake, Jack Whitehall, Red Richardson, Crystal Marie, Mark Hayes, and more TBA",
+        "name": "Tonight at the Improv ft. Donnell Rawlings, Godfrey, Earthquake, Crystal Marie, Mark Hayes, and more TBA",
         "date": "2026-10-06",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14293664",
@@ -1029,14 +1036,14 @@
         "date": "2026-10-07",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/at-the-lab-trios-ft-hollywood-improv-the-lab-tickets/14354114",
-        "image": "https://i.ticketweb.com/i/00/13/06/90/54_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/06/90/54_Edp.jpg?v=5"
       },
       {
         "name": "Set Me Up ft. Vinny Fasline, Preacher Lawson, Francisco Ramos, Eleanor Kerrigan and more TBA",
         "date": "2026-10-07",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/set-me-up-ft-vinny-hollywood-improv-the-main-room-tickets/14346294",
-        "image": "https://i.ticketweb.com/i/00/13/06/17/14_Edp.jpg?v=8"
+        "image": "https://i.ticketweb.com/i/00/13/06/17/14_Edp.jpg?v=9"
       },
       {
         "name": "Tonight at the Improv ft. Jay Leno, Trevor Wallace, Brian Monarch and Very Special Guests",
@@ -1060,6 +1067,13 @@
         "image": "https://i.ticketweb.com/i/00/13/61/29/23_Edp.jpg?v=5"
       },
       {
+        "name": "Tonight at the Improv ft. Trevor Wallace, Damon Wayans Jr., Erica Rhodes, Brian Monarch and Very Special Guests",
+        "date": "2026-10-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14315534",
+        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Panic! At the Lab ft. Drew Landry, Jonathon Hollis, Holly Brown, Josh Edelman, Aaron Monte, Christine Little, Vince Caldera, Daniela Calvo, and more TBA",
         "date": "2026-10-09",
         "time": "19:30:00",
@@ -1079,6 +1093,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14301534",
         "image": "https://i.ticketweb.com/i/00/13/01/77/24_Edp.jpg?v=2"
+      },
+      {
+        "name": "Undiscovered Genius ft. Josh Edelman, Harper Rose Drummond, Amy Silverberg, Dylan Adler, Keith Johnson, Kylie Vincent, Nthenya Ndunba",
+        "date": "2026-10-10",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-josh-edelman-hollywood-improv-the-lab-tickets/14301544",
+        "image": "https://i.ticketweb.com/i/00/13/01/77/34_Edp.jpg?v=4"
       }
     ]
   }
