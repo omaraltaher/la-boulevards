@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-05T21:48:47.105Z",
+  "generated": "2026-10-06T19:57:57.352Z",
   "events": [
-    {
-      "name": "Jesse Welles - Red Tour 2026",
-      "date": "2026-10-05",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/jesse-welles-red-tour-2026-los-angeles-california-10-05-2026/event/09006478FAADC487",
-      "image": "https://s1.ticketm.net/dam/a/2b7/7afa57e5-485f-418b-80bc-c2758f90a2b7_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Jesse Welles - Red Tour 2026",
       "date": "2026-10-06",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/bandmaid-world-tour-2026-los-angeles-california-10-12-2026/event/090064FBECB9CC71",
       "image": "https://s1.ticketm.net/dam/a/b8e/03239612-54e6-49ee-89f5-81e4c19c2b8e_1616241_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "LP - All Is Not Lost Tour",
+      "date": "2026-10-15",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-los-angeles-california-10-15-2026/event/0900649BF3D23318",
+      "image": "https://s1.ticketm.net/dam/a/6ef/67eeb68d-efaf-46d8-9e34-02502489b6ef_RECOMENDATION_16_9.jpg"
     }
   ]
 }
