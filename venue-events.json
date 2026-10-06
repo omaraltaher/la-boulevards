@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05T22:17:36.209Z",
+  "generated": "2026-10-06T20:44:01.066Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -148,6 +148,13 @@
         "image": "https://i.ticketweb.com/i/00/13/05/72/14_Edp.jpg?v=6"
       },
       {
+        "name": "Emo Nite",
+        "date": "2026-10-30",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14343534",
+        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Gasolina",
         "date": "2026-10-31",
         "time": "22:00:00",
@@ -167,13 +174,6 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/deathpact-w-jiqui-avalon-hollywood-tickets/14307674",
         "image": "https://i.ticketweb.com/i/00/13/02/38/14_Edp.jpg?v=7"
-      },
-      {
-        "name": "Riot Ten w/ Special Guest Codd Dubz + Joust B2B Mongrel",
-        "date": "2026-11-14",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/riot-ten-w-special-guest-avalon-hollywood-tickets/14352674",
-        "image": "https://s1.ticketm.net/dam/a/19d/8d5fef9a-6cf3-4796-9b31-a1afcf43119d_1463971_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Kylesa",
-        "date": "2026-10-05",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/kylesa-los-angeles-california-10-05-2026/event/090064F79C1E716F",
-        "image": "https://s1.ticketm.net/dam/a/03a/efaf4785-14dc-461e-b30d-1c43dc5e703a_13791_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "This Wild Life",
         "date": "2026-10-08",
         "time": "19:00:00",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/lauren-ash-los-angeles-california-10-22-2026/event/090064D1D163E74D",
         "image": "https://s1.ticketm.net/dam/e/91e/3b5c7de9-6720-4828-96a1-c2d9ffbd791e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Justin Nozuka",
+        "date": "2026-10-23",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/justin-nozuka-los-angeles-california-10-23-2026/event/090064AC0608A5C6",
+        "image": "https://s1.ticketm.net/dam/e/1c1/e909f0c3-5b33-40ae-bc28-3792af87d1c1_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -395,13 +395,6 @@
       }
     ],
     "Kirk Douglas Theatre": [
-      {
-        "name": "Dogman: The Musical",
-        "date": "2026-10-06",
-        "time": "11:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4A",
-        "image": null
-      },
       {
         "name": "Dogman: The Musical",
         "date": "2026-10-07",
@@ -536,13 +529,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Premium: ROXETTE",
-        "date": "2026-10-05",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/premium-roxette-los-angeles-california-10-05-2026/event/090064BCE9941B91",
-        "image": null
-      },
-      {
         "name": "Clair Obscur: Expedition 33",
         "date": "2026-10-06",
         "time": "20:00:00",
@@ -589,6 +575,13 @@
         "date": "2026-10-13",
         "time": "19:10:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYx9",
+        "image": "https://s1.ticketm.net/dam/a/10b/3e5a6f73-de54-42c4-818c-0e422b59810b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ella Langley",
+        "date": "2026-10-14",
+        "time": "19:10:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYxb",
         "image": "https://s1.ticketm.net/dam/a/10b/3e5a6f73-de54-42c4-818c-0e422b59810b_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -990,20 +983,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Jessica Kirson, Preacher Lawson, Chloe Radcliffe, Laurie Kilmartin, Gary Cannon and more TBA",
-        "date": "2026-10-05",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339534",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G thang, BT Kingsley, Cameron Davis, Spanky Hayes, Boo Kapone and more",
-        "date": "2026-10-05",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14300404",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Sebastian Maniscalco, Jay Leno, Anthony Jeselnik, Kevin Nealon, Brian Monarch, Jen Murphy and MORE TBD!",
         "date": "2026-10-06",
         "time": "19:30:00",
@@ -1025,7 +1004,7 @@
         "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Iliza Shlesinger, Dave Nihill, Hunter Hill, Gina Brillon, Nikki Bon and more TBA",
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Trevor Wallace, Dave Nihill, Hunter Hill, Gina Brillon, Nikki Bon and more TBA",
         "date": "2026-10-07",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339664",
@@ -1046,7 +1025,7 @@
         "image": "https://i.ticketweb.com/i/00/13/06/17/14_Edp.jpg?v=9"
       },
       {
-        "name": "Tonight at the Improv ft. Jay Leno, Trevor Wallace, Brian Monarch and Very Special Guests",
+        "name": "Tonight at the Improv ft. Jay Leno, Trevor Wallace, Orny Adams, Brian Monarch and Very Special Guests",
         "date": "2026-10-08",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300464",
@@ -1081,11 +1060,25 @@
         "image": "https://i.ticketweb.com/i/00/13/64/18/23_Edp.jpg?v=4"
       },
       {
-        "name": "Comedy Grind ft. Lachlan Patterson, Rob DaRocha, Sam Fortin, Matty P, Johana Scortia, Joe Hill, Reid Brackenbury, Willie Krisztal, Amie Lieberman, Those Klein Boys",
+        "name": "Tonight at the Improv ft. Trevor Wallace, Ali Macofsky, Dustin Ybarra, Red Richardson, Justine Marino and more TBA",
         "date": "2026-10-09",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/comedy-grind-ft-lachlan-patterson-hollywood-improv-the-lab-tickets/14267874",
-        "image": "https://i.ticketweb.com/i/00/12/98/35/74_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300554",
+        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Comedy Grind ft. Rob DaRocha, Sam Fortin, Matty P, Johana Scortia, Joe Hill, Reid Brackenbury, Willie Krisztal, Amie Lieberman, Those Klein Boys",
+        "date": "2026-10-09",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/comedy-grind-ft-rob-darocha-hollywood-improv-the-lab-tickets/14267874",
+        "image": "https://i.ticketweb.com/i/00/12/98/35/74_Edp.jpg?v=6"
+      },
+      {
+        "name": "La Mole",
+        "date": "2026-10-10",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/la-mole-hollywood-improv-the-main-room-tickets/14900433",
+        "image": "https://i.ticketweb.com/i/00/13/49/61/63_Edp.jpg?v=3"
       },
       {
         "name": "Tonight at the Lab",
