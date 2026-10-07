@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-06T19:57:57.352Z",
+  "generated": "2026-10-07T20:24:00.965Z",
   "events": [
-    {
-      "name": "Jesse Welles - Red Tour 2026",
-      "date": "2026-10-06",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/jesse-welles-red-tour-2026-los-angeles-california-10-06-2026/event/0900646DC15BCAEE",
-      "image": "https://s1.ticketm.net/dam/a/2b7/7afa57e5-485f-418b-80bc-c2758f90a2b7_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "PRESIDENT: North American Campaign 2026",
       "date": "2026-10-07",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-los-angeles-california-10-15-2026/event/0900649BF3D23318",
       "image": "https://s1.ticketm.net/dam/a/6ef/67eeb68d-efaf-46d8-9e34-02502489b6ef_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "KCRW Presents Thee Sinseers: Love Stories Tour",
+      "date": "2026-10-17",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/kcrw-presents-thee-sinseers-love-stories-los-angeles-california-10-17-2026/event/090064A7AA64CDC1",
+      "image": "https://s1.ticketm.net/dam/a/d64/60864546-4721-4e39-8443-da6be7dddd64_RECOMENDATION_16_9.jpg"
     }
   ]
 }
