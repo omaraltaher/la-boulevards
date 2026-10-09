@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-08T20:29:16.391Z",
+  "generated": "2026-10-09T19:59:16.560Z",
   "events": [
-    {
-      "name": "Cavetown - Running With Scissors Tour",
-      "date": "2026-10-08",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/cavetown-running-with-scissors-tour-los-angeles-california-10-08-2026/event/09006429C7AEB2B7",
-      "image": "https://s1.ticketm.net/dam/a/dd9/dd1c868c-8736-4919-bfc8-b4a8d89a0dd9_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Tinlicker North America 2026",
       "date": "2026-10-09",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/cameron-whitcomb-kingdom-of-fear-tour-los-angeles-california-10-20-2026/event/090064A6F300C7A0",
       "image": "https://s1.ticketm.net/dam/a/84e/a3525439-bf0f-43fb-b0ad-0a96fb67884e_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Pouya: The Forever Glades Tour",
+      "date": "2026-10-21",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/pouya-the-forever-glades-tour-los-angeles-california-10-21-2026/event/090064C5BD791540",
+      "image": "https://s1.ticketm.net/dam/a/9fd/12d38709-d7b1-4f7b-9a55-a583f16c99fd_RECOMENDATION_16_9.jpg"
     }
   ]
 }
