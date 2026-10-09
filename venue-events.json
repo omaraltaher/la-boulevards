@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T20:59:07.232Z",
+  "generated": "2026-10-09T20:28:26.763Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -63,13 +63,6 @@
     "Henry Fonda Theater": [
       {
         "name": "ADELA",
-        "date": "2026-10-08",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70M-0",
-        "image": "https://s1.ticketm.net/dam/a/e6b/132de64e-984e-4eea-934a-f8360ecd4e6b_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "ADELA",
         "date": "2026-10-09",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PvZA",
@@ -94,14 +87,14 @@
         "date": "2026-10-15",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UAO",
-        "image": "https://s1.ticketm.net/dam/a/9ec/f144a004-d88f-464f-97d3-11f8f975e9ec_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/987/d708119f-6026-422c-b7cd-240b00c8f987_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Mico",
         "date": "2026-10-16",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UA4",
-        "image": "https://s1.ticketm.net/dam/a/9ec/f144a004-d88f-464f-97d3-11f8f975e9ec_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/987/d708119f-6026-422c-b7cd-240b00c8f987_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Peaches w/ Gelli Haha",
@@ -116,6 +109,13 @@
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxPt",
         "image": "https://s1.ticketm.net/dam/a/140/1c78442a-f593-4ce3-bf39-cfaf24e4b140_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Flying Lotus",
+        "date": "2026-10-23",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeox4",
+        "image": "https://s1.ticketm.net/dam/a/2fd/2d6e0f3a-b015-4e7c-b35b-95c3453f42fd_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "This Wild Life",
-        "date": "2026-10-08",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/this-wild-life-los-angeles-california-10-08-2026/event/090064F1461256F9",
-        "image": "https://s1.ticketm.net/dam/e/6f7/1dd92092-41d2-4349-a632-95d37e7456f7_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Deer Tick",
         "date": "2026-10-09",
         "time": "19:00:00",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/justin-nozuka-los-angeles-california-10-23-2026/event/090064AC0608A5C6",
         "image": "https://s1.ticketm.net/dam/e/1c1/e909f0c3-5b33-40ae-bc28-3792af87d1c1_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Cheekface",
+        "date": "2026-10-24",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/cheekface-los-angeles-california-10-24-2026/event/09006474BA19B6DE",
+        "image": "https://s1.ticketm.net/dam/e/e49/26442ea3-fe85-49cd-a58b-a82abb1a1e49_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -587,13 +587,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "Protocols with Andrew Huberman",
-        "date": "2026-10-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/protocols-with-andrew-huberman-hollywood-california-10-08-2026/event/09006507D6E2E0AE",
-        "image": "https://s1.ticketm.net/dam/a/070/d2065151-fa63-4754-af30-5c609e9f0070_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Max Amini Live in Hollywood!",
         "date": "2026-10-10",
         "time": "18:00:00",
@@ -634,6 +627,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/mansour-live-in-concert-hollywood-california-10-17-2026/event/090064D29F7E82B0",
         "image": "https://s1.ticketm.net/dam/e/2c6/ea8a5894-bf2c-4772-b69f-40af4fbdd2c6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "CHRONO TRIGGER Orchestra Concert: Melodies Across Time",
+        "date": "2026-10-18",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/chrono-trigger-orchestra-concert-melodies-across-hollywood-california-10-18-2026/event/090064479D724280",
+        "image": "https://s1.ticketm.net/dam/a/272/402e12b9-8a5c-4185-acc8-2bca708f4272_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -751,13 +751,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "La Mirada Theatre presents: Little Shop of Horrors",
-        "date": "2026-10-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQv",
-        "image": "https://s1.ticketm.net/dam/a/2c8/212bcfc5-dba6-4537-b62e-d63d6ceac2c8_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "La Mirada Theatre presents: Little Shop of Horrors",
         "date": "2026-10-10",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JQA",
@@ -796,6 +789,13 @@
         "date": "2026-11-12",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J3p",
+        "image": null
+      },
+      {
+        "name": "La Mirada Theatre presents: Dear Evan Hansen",
+        "date": "2026-11-13",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Jfv",
         "image": null
       }
     ],
@@ -863,13 +863,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "South Side Sessions: Season 3 - Aaron Shaw",
-        "date": "2026-10-08",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/south-side-sessions-season-3-aaron-inglewood-california-10-08-2026/event/0B006530DD083994",
-        "image": "https://s1.ticketm.net/dam/e/c48/aabd9d4b-e67f-49ca-aace-e7fc0379ac48_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "D Smoke B-Day Show @ The Miracle",
         "date": "2026-10-15",
         "time": "20:00:00",
@@ -898,17 +891,17 @@
         "image": "https://s1.ticketm.net/dam/e/8d3/956640e9-c8c8-4ac6-ad69-7a0893b538d3_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Argentine Film Festival in LA",
+        "name": "Argentine Film Festival Supported by The Miracle Theater Foundation",
         "date": "2026-10-23",
         "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-23-2026/event/0B006545AFBF917E",
+        "url": "https://www.ticketmaster.com/argentine-film-festival-supported-by-the-inglewood-california-10-23-2026/event/0B006545AFBF917E",
         "image": null
       },
       {
-        "name": "Argentine Film Festival in LA",
+        "name": "Argentine Film Festival Supported by The Miracle Theater Foundation",
         "date": "2026-10-24",
         "time": "17:00:00",
-        "url": "https://www.ticketmaster.com/argentine-film-festival-in-la-inglewood-california-10-24-2026/event/0B006545AFC29187",
+        "url": "https://www.ticketmaster.com/argentine-film-festival-supported-by-the-inglewood-california-10-24-2026/event/0B006545AFC29187",
         "image": null
       },
       {
@@ -916,6 +909,13 @@
         "date": "2026-10-25",
         "time": "15:00:00",
         "url": "https://www.ticketmaster.com/on-sale-on-tm-please-search-inglewood-california-10-25-2026/event/0B006539C7B06779",
+        "image": null
+      },
+      {
+        "name": "Argentine Film Festival Supported by The Miracle Theater Foundation",
+        "date": "2026-10-25",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/argentine-film-festival-supported-by-the-inglewood-california-10-25-2026/event/0B006545AFC59192",
         "image": null
       }
     ],
@@ -991,27 +991,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Jay Leno, Trevor Wallace, Orny Adams, Dan Mintz (Voice of Tina Belcher), Brian Monarch, Leah Knauer, and Very Special Guests",
-        "date": "2026-10-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300464",
-        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Cult Comedy ft. Laurie Douglas, Sam Grody, Jesus Sepulveda, Tahir Moore, Vanessa Graddick, Faysal Lawrence",
-        "date": "2026-10-08",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/cult-comedy-ft-laurie-douglas-hollywood-improv-the-lab-tickets/15022053",
-        "image": "https://i.ticketweb.com/i/00/13/62/20/53_Edp.jpg?v=4"
-      },
-      {
-        "name": "Basshole ft. Doug Bass, Leah Knauer, Gary Cannon, Cid Williams, Jason Delgado, Tonya Moon, Amie Lieberman, Sarah Randolph. Tamara Marry, Cole Young, Claudia Monica, and more TBA",
-        "date": "2026-10-08",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-leah-hollywood-improv-the-lab-tickets/15012203",
-        "image": "https://i.ticketweb.com/i/00/13/61/29/23_Edp.jpg?v=5"
-      },
-      {
         "name": "Tonight at the Improv ft. Trevor Wallace, Jay Pharoah, Charles Fleischer, Erica Rhodes, Brian Monarch, Alex T and Very Special Guests",
         "date": "2026-10-09",
         "time": "19:30:00",
@@ -1026,7 +1005,7 @@
         "image": "https://i.ticketweb.com/i/00/13/64/18/23_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. Trevor Wallace, Ali Macofsky, Dustin Ybarra, Greg Fitzsimmons, Red Richardson, Justine Marino and more TBA",
+        "name": "Tonight at the Improv ft. Trevor Wallace, Ali Macofsky, Dustin Ybarra, Greg Fitzsimmons, Sheng Wang, Red Richardson, Justine Marino and more TBA",
         "date": "2026-10-09",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300554",
@@ -1047,14 +1026,14 @@
         "image": "https://i.ticketweb.com/i/00/13/49/61/63_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Cameron Esposito, Al Madrigal, Rory Albanese, Suli McCullough, Frazer Smith, and more TBA",
+        "name": "Tonight at the Improv ft. Cameron Esposito, Al Madrigal, Sheng Wang, Rory Albanese, Sarah Tiana, Suli McCullough, Frazer Smith, and more TBA",
         "date": "2026-10-10",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300574",
         "image": "https://s1.ticketm.net/dam/a/2dc/b5b74ad6-0e8d-423d-bf03-de93d024f2dc_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Brent Weinbach, Jay Washington, Hormoz Rashidi, Matt Marx, Pallavi Gunalan, Black Pedro, Andy Benedetti, and More TBA",
+        "name": "Tonight at the Lab ft. Brent Weinbach, Jay Washington, Hormoz Rashidi, Matt Marx, Pallavi Gunalan, Black Pedro, Mandy Robbins, Andy Benedetti, and More TBA",
         "date": "2026-10-10",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14301534",
@@ -1075,7 +1054,7 @@
         "image": "https://i.ticketweb.com/i/00/13/01/77/34_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Amir K, Cristela Alonzo, Preacher Lawson, Cid Williams, and More TBA",
+        "name": "Tonight at the Improv ft. Amir K, Cristela Alonzo, Preacher Lawson, Jessica Michelle Singleton, Asif Ali, Nika King, Cid Williams, and More TBA",
         "date": "2026-10-11",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339674",
@@ -1101,6 +1080,27 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/mermaid-comedy-hour-ft-amy-hollywood-improv-the-lab-tickets/14816453",
         "image": "https://i.ticketweb.com/i/00/13/41/64/93_Edp.jpg?v=4"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-10-12",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14300674",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Just Pull Up ft. Dulcé Sloan, Camille Waters, Kym Whitley, Tahir Moore, Mandal, Sydney Castillo, Kanisha Buss, and more TBA",
+        "date": "2026-10-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/just-pull-up-ft-dulc-hollywood-improv-the-lab-tickets/14291464",
+        "image": "https://s1.ticketm.net/dam/a/c99/def9c37a-77e3-4bd1-9da5-369f62e62c99_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Dvontre and His Friends Figure Out What's Funny ft. Felicia Folkes, Mandal, Gary Michael Anderson",
+        "date": "2026-10-14",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/dvontre-and-his-friends-figure-hollywood-improv-the-lab-tickets/14285574",
+        "image": "https://i.ticketweb.com/i/00/13/00/09/74_Edp.jpg?v=4"
       }
     ]
   }
