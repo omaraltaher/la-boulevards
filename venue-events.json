@@ -1,14 +1,7 @@
 {
-  "generated": "2026-10-09T20:28:26.763Z",
+  "generated": "2026-10-10T19:40:38.182Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "SCHOOLBOY Q - 10 Years of Blank Face LP",
-        "date": "2026-10-09",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/schoolboy-q-10-years-of-blank-hollywood-california-10-09-2026/event/090064ED8E51464F",
-        "image": "https://s1.ticketm.net/dam/a/4b5/f2e5e163-2e13-463a-bccf-64c7b8a934b5_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Mastodon",
         "date": "2026-10-10",
@@ -57,17 +50,17 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/vanillamace-ghosted-by-vanilla-hollywood-california-10-19-2026/event/09006521C63DAF94",
         "image": "https://s1.ticketm.net/dam/a/e89/214c04ba-b138-4078-8543-5b2f65e5ae89_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Modest Mouse",
+        "date": "2026-10-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/modest-mouse-hollywood-california-10-20-2026/event/0900648FCF4AA265",
+        "image": "https://s1.ticketm.net/dam/a/545/c385defe-57ae-4ba9-b36c-1d5c69af2545_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "ADELA",
-        "date": "2026-10-09",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PvZA",
-        "image": "https://s1.ticketm.net/dam/a/e6b/132de64e-984e-4eea-934a-f8360ecd4e6b_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Blasting Company",
         "date": "2026-10-11",
@@ -116,16 +109,16 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeox4",
         "image": "https://s1.ticketm.net/dam/a/2fd/2d6e0f3a-b015-4e7c-b35b-95c3453f42fd_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Animal Collective",
+        "date": "2026-10-24",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvx-J",
+        "image": "https://s1.ticketm.net/dam/a/3b9/d81d3922-8082-4012-9696-cecc3b6683b9_1591641_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "ALT8, Noise Mafia, PeterBlue",
-        "date": "2026-10-09",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/alt8-noise-mafia-peterblue-avalon-hollywood-tickets/15016173",
-        "image": "https://i.ticketweb.com/i/00/13/61/62/63_Edp.jpg?v=8"
-      },
       {
         "name": "Petit Biscuit w/ Special Guest: Forester",
         "date": "2026-10-17",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/deathpact-w-jiqui-avalon-hollywood-tickets/14307674",
         "image": "https://i.ticketweb.com/i/00/13/02/38/14_Edp.jpg?v=7"
+      },
+      {
+        "name": "Riot Ten w/ Special Guest Codd Dubz + Joust B2B Mongrel",
+        "date": "2026-11-14",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/riot-ten-w-special-guest-avalon-hollywood-tickets/14352674",
+        "image": "https://s1.ticketm.net/dam/a/19d/8d5fef9a-6cf3-4796-9b31-a1afcf43119d_1463971_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "Hudson Westbrook",
-        "date": "2026-10-09",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa8J",
-        "image": "https://s1.ticketm.net/dam/a/9dc/dc0bf060-a92a-4a60-8458-8105d9b119dc_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Dying Fetus w/ Sanguisugabogg",
         "date": "2026-10-10",
@@ -232,16 +225,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAFY",
         "image": "https://s1.ticketm.net/dam/a/975/bf82a8e9-2aba-4fd8-bd8d-b03ce990e975_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ten",
+        "date": "2026-10-24",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4FV",
+        "image": "https://s1.ticketm.net/dbimages/197728a.jpg"
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "Los Horoscopos de Durango",
-        "date": "2026-10-09",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3FA",
-        "image": "https://s1.ticketm.net/dam/a/8fd/839e35cc-0616-4bba-8d8f-28da69d408fd_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Elefante",
         "date": "2026-10-10",
@@ -290,16 +283,16 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pz4o",
         "image": "https://s1.ticketm.net/dam/a/341/5d9feaa5-e9a3-4559-a1f0-0d7413c2d341_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "El Fantasma",
+        "date": "2026-11-21",
+        "time": "20:01:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IoM",
+        "image": "https://s1.ticketm.net/dam/a/3f5/77d312f9-5ae7-42b6-bffb-e798014a13f5_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Deer Tick",
-        "date": "2026-10-09",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/deer-tick-los-angeles-california-10-09-2026/event/09006463FEFD2184",
-        "image": "https://s1.ticketm.net/dam/a/ddd/fb759cf3-0e29-4a38-9961-c85d75e6bddd_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "FIGHTMASTER",
         "date": "2026-10-15",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/cheekface-los-angeles-california-10-24-2026/event/09006474BA19B6DE",
         "image": "https://s1.ticketm.net/dam/e/e49/26442ea3-fe85-49cd-a58b-a82abb1a1e49_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "KCRW Presents: Lauren Sanderson",
+        "date": "2026-10-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/kcrw-presents-lauren-sanderson-los-angeles-california-10-29-2026/event/090064BBEAF0F711",
+        "image": "https://s1.ticketm.net/dam/e/f6d/956e5c91-317e-4a0c-8d12-e8bce06f0f6d_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -397,16 +397,9 @@
     "Kirk Douglas Theatre": [
       {
         "name": "Dogman: The Musical",
-        "date": "2026-10-09",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU48",
-        "image": null
-      },
-      {
-        "name": "Dogman: The Musical",
         "date": "2026-10-10",
-        "time": "11:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4o",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU43",
         "image": null
       },
       {
@@ -428,6 +421,20 @@
         "date": "2026-10-14",
         "time": "11:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4O",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-10-15",
+        "time": "11:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4-",
+        "image": null
+      },
+      {
+        "name": "Dogman: The Musical",
+        "date": "2026-10-16",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4x",
         "image": null
       }
     ],
@@ -466,6 +473,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeer8",
         "image": "https://s1.ticketm.net/dam/a/28c/21424130-f7a3-41c4-bad2-cefd7ae0428c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Distant Worlds: Music from Final Fantasy",
+        "date": "2027-04-03",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7A7U",
+        "image": "https://s1.ticketm.net/dam/a/ecb/5856f849-d144-490e-891e-a3fcd6508ecb_627671_RECOMENDATION_16_9.jpg"
       }
     ],
     "Orpheum Theatre": [
@@ -482,13 +496,6 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/ozzy-black-sabbath-back-to-the-los-angeles-california-10-14-2026/event/0900654102F5CF7C",
         "image": "https://s1.ticketm.net/dam/e/ca6/c2892b40-aac2-41fb-999b-65ec3ed99ca6_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Maher Zain - USA Tour 2026",
-        "date": "2026-10-15",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/maher-zain-usa-tour-2026-los-angeles-california-10-15-2026/event/09006494E6B9EB3D",
-        "image": "https://s1.ticketm.net/dam/a/475/d556a790-7e9c-4acf-aab2-d004f51d2475_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Daniel Sloss: BITTER  (Brand New Tour!)",
@@ -524,17 +531,17 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/hablando-huevadas-us-tour-2026-los-angeles-california-10-21-2026/event/090064ED93F94F18",
         "image": "https://s1.ticketm.net/dam/a/b50/bd6aed73-6732-4e3b-8dce-635319696b50_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Chelsea Wolfe: THE DARK World Tour",
+        "date": "2026-10-23",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/chelsea-wolfe-the-dark-world-tour-los-angeles-california-10-23-2026/event/090064D2B2B3A5F4",
+        "image": "https://s1.ticketm.net/dam/a/2b1/d1850a94-98c5-43e6-b5cc-c0c9059562b1_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
-      {
-        "name": "for KING & COUNTRY",
-        "date": "2026-10-09",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/for-king-country-los-angeles-california-10-09-2026/event/090064AEDD6E900E",
-        "image": "https://s1.ticketm.net/dam/a/4ba/9f167894-32fc-40bd-8a87-c57554a304ba_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Premium: AIR SUPPLY",
         "date": "2026-10-10",
@@ -583,6 +590,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PEub",
         "image": "https://s1.ticketm.net/dam/a/e07/8b9d60f8-faf0-488f-90d3-5cd1f69aae07_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Vulfpeck",
+        "date": "2026-10-17",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/vulfpeck-los-angeles-california-10-17-2026/event/0900648DE474A9BA",
+        "image": "https://s1.ticketm.net/dam/a/a96/fce83de8-ad64-46c0-8c7f-81da3f95ca96_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -951,7 +965,7 @@
         "date": "2026-10-12",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1994592186924",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195491091%2F2989400506155%2F1%2Foriginal.20261009-235750?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d134310daaeec2a5083554ea6bffcd05"
       },
       {
         "name": "Pookie Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -991,39 +1005,11 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Trevor Wallace, Jay Pharoah, Charles Fleischer, Erica Rhodes, Brian Monarch, Alex T and Very Special Guests",
-        "date": "2026-10-09",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14315534",
-        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Panic! At the Lab ft. Drew Landry, Jonathon Hollis, Holly Brown, Josh Edelman, Aaron Monte, Christine Little, Vince Caldera, Daniela Calvo, and more TBA",
-        "date": "2026-10-09",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/panic-at-the-lab-ft-hollywood-improv-the-lab-tickets/15044643",
-        "image": "https://i.ticketweb.com/i/00/13/64/18/23_Edp.jpg?v=5"
-      },
-      {
-        "name": "Tonight at the Improv ft. Trevor Wallace, Ali Macofsky, Dustin Ybarra, Greg Fitzsimmons, Sheng Wang, Red Richardson, Justine Marino and more TBA",
-        "date": "2026-10-09",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300554",
-        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Comedy Grind ft. Rob DaRocha, Sam Fortin, Matty P, Joanne Scorcia, Joe Hill, Reid Brackenbury, Willie Krisztal, Amie Lieberman, Those Klein Boys, Sergio Novoa",
-        "date": "2026-10-09",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/comedy-grind-ft-rob-darocha-hollywood-improv-the-lab-tickets/14267874",
-        "image": "https://i.ticketweb.com/i/00/12/98/35/74_Edp.jpg?v=8"
-      },
-      {
         "name": "La Mole ft. Victor Ramirez",
         "date": "2026-10-10",
         "time": "16:00:00",
         "url": "https://www.ticketweb.com/event/la-mole-ft-victor-ramirez-hollywood-improv-the-main-room-tickets/14900433",
-        "image": "https://i.ticketweb.com/i/00/13/49/61/63_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/49/61/63_Edp.jpg?v=5"
       },
       {
         "name": "Tonight at the Improv ft. Cameron Esposito, Al Madrigal, Sheng Wang, Rory Albanese, Sarah Tiana, Suli McCullough, Frazer Smith, and more TBA",
@@ -1040,7 +1026,7 @@
         "image": "https://s1.ticketm.net/dam/a/b39/78c80946-96f4-4215-bc8d-99c506cf9b39_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Rick Ingraham, Jessie \"Jetski\" Johnson, Jessimae Peluso, Kirk Fox, Ron G, Andre Kelly, and more TBA",
+        "name": "Tonight at the Improv ft. Rick Ingraham, Jessie \"Jetski\" Johnson, Jessimae Peluso, Eleanor Kerrigan, Kirk Fox, Ron G, Andre Kelley, and more TBA",
         "date": "2026-10-10",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300584",
@@ -1054,7 +1040,7 @@
         "image": "https://i.ticketweb.com/i/00/13/01/77/34_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Amir K, Cristela Alonzo, Preacher Lawson, Jessica Michelle Singleton, Asif Ali, Nika King, Cid Williams, and More TBA",
+        "name": "Tonight at the Improv ft. Amir K, Cristela Alonzo, Preacher Lawson, Jessica Michelle Singleton, Asif Ali, Wayne Federman, Nika King, Cid Williams, and More TBA",
         "date": "2026-10-11",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339674",
@@ -1068,11 +1054,11 @@
         "image": "https://s1.ticketm.net/dam/a/ca0/1f5b6d32-ff79-4568-be1b-08ae5b1e4ca0_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Rocky Dale Davis",
+        "name": "Rocky Dale Davis ft. Gray West, Will Hunsinger",
         "date": "2026-10-12",
         "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/rocky-dale-davis-hollywood-improv-the-main-room-tickets/14931963",
-        "image": "https://i.ticketweb.com/i/00/13/52/73/43_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/rocky-dale-davis-ft-gray-hollywood-improv-the-main-room-tickets/14931963",
+        "image": "https://i.ticketweb.com/i/00/13/52/73/43_Edp.jpg?v=3"
       },
       {
         "name": "Mermaid Comedy Hour ft. Amy Miller, Lana Salah, Paige Weldon, Madison Shepard, MK Gannon, Gigi Garcia, Kari Assad, Valerie Tosi and more TBA",
@@ -1082,11 +1068,18 @@
         "image": "https://i.ticketweb.com/i/00/13/41/64/93_Edp.jpg?v=4"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis, G Thang, Solo Jones, Josh Shakespeare, Spank Horton, Damon Williams, & more",
         "date": "2026-10-12",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14300674",
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Jay Leno, Anthony Jeselnik, Arsenio Hall, Patton Oswalt, Brian Monarch, Renee Percy, and Very Special Guests",
+        "date": "2026-10-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14300694",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Just Pull Up ft. Dulcé Sloan, Camille Waters, Kym Whitley, Tahir Moore, Mandal, Sydney Castillo, Kanisha Buss, and more TBA",
@@ -1096,11 +1089,32 @@
         "image": "https://s1.ticketm.net/dam/a/c99/def9c37a-77e3-4bd1-9da5-369f62e62c99_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "*JUST ADDED TREVOR WALLACE* COMEDY CRUSH w/ TIFFANY HADDISH, MELISSA VILLASENOR, JUSTINE MARINO, AVERY PEARSON & HUGE GUESTS TBA!",
+        "date": "2026-10-14",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/just-added-trevor-wallace-comedy-hollywood-improv-the-main-room-tickets/14247864",
+        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Dvontre and His Friends Figure Out What's Funny ft. Felicia Folkes, Mandal, Gary Michael Anderson",
         "date": "2026-10-14",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/dvontre-and-his-friends-figure-hollywood-improv-the-lab-tickets/14285574",
         "image": "https://i.ticketweb.com/i/00/13/00/09/74_Edp.jpg?v=4"
+      },
+      {
+        "name": "Polly Wolly and Friends ft. Owen Smith, Nicole Aimee Schreiber, Saul Trujillo, Willie Simon, Margaux Hamilton",
+        "date": "2026-10-15",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/polly-wolly-and-friends-ft-hollywood-improv-the-lab-tickets/15030693",
+        "image": "https://i.ticketweb.com/i/00/13/62/81/33_Edp.jpg?v=5"
+      },
+      {
+        "name": "Comedy Mayhem ft. Joel Kim Booster, Adam Conover, Jonathan Kite, Pardis Parker and More TBA",
+        "date": "2026-10-15",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/comedy-mayhem-ft-joel-kim-hollywood-improv-the-lab-tickets/14301414",
+        "image": "https://s1.ticketm.net/dam/a/8dc/8dc028fe-86e3-406d-888b-f0213de3b8dc_RECOMENDATION_16_9.jpg"
       }
     ]
   }
