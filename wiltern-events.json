@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-10T19:06:44.170Z",
+  "generated": "2026-10-11T19:19:23.813Z",
   "events": [
-    {
-      "name": "Bassem Youssef: The Belly of the Beast Tour",
-      "date": "2026-10-10",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/bassem-youssef-the-belly-of-the-los-angeles-california-10-10-2026/event/0900646CF90AFB88",
-      "image": "https://s1.ticketm.net/dam/a/4e9/debacb0e-51b2-41c0-99c1-d54e44e2e4e9_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Sons of Legion - Soul to SØL World Tour 2026",
       "date": "2026-10-11",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/julia-jacklin-north-america-tour-2026-los-angeles-california-10-22-2026/event/090064BD96128D74",
       "image": "https://s1.ticketm.net/dam/a/2ca/2b62de30-a977-47e0-934b-4b6e07d102ca_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "2026 Rock 2 Freedom® Benefit Concert",
+      "date": "2026-10-24",
+      "time": "18:30:00",
+      "url": "https://www.universe.com/events/2026-rock-2-freedom-benefit-concert-tickets-PDGMZ2?ref=ticketmaster",
+      "image": "https://s1.ticketm.net/dam/a/6d9/7c2a846f-3607-4246-bba9-e599844fc6d9_RECOMENDATION_16_9.jpg"
     }
   ]
 }
