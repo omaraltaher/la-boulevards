@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-11T19:19:23.813Z",
+  "generated": "2026-10-12T22:22:42.605Z",
   "events": [
-    {
-      "name": "Sons of Legion - Soul to SØL World Tour 2026",
-      "date": "2026-10-11",
-      "time": "18:30:00",
-      "url": "https://www.ticketmaster.com/sons-of-legion-soul-to-sl-los-angeles-california-10-11-2026/event/090064D2EA96F313",
-      "image": "https://s1.ticketm.net/dam/a/395/839b6a5f-48f8-4ae0-88be-2a168e4c4395_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Band-Maid World Tour 2026",
       "date": "2026-10-12",
@@ -55,6 +48,13 @@
       "date": "2026-10-24",
       "time": "18:30:00",
       "url": "https://www.universe.com/events/2026-rock-2-freedom-benefit-concert-tickets-PDGMZ2?ref=ticketmaster",
+      "image": "https://s1.ticketm.net/dam/a/6d9/7c2a846f-3607-4246-bba9-e599844fc6d9_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "The Offspring - Rock 2 Freedom® Benefit Concert",
+      "date": "2026-10-24",
+      "time": "18:30:00",
+      "url": "https://www.universe.com/events/2026-rock-2-freedom-benefit-concert-tickets-PDGMZ2",
       "image": "https://s1.ticketm.net/dam/a/6d9/7c2a846f-3607-4246-bba9-e599844fc6d9_RECOMENDATION_16_9.jpg"
     }
   ]
