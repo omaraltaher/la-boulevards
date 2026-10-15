@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T19:55:51.774Z",
+  "generated": "2026-10-15T19:41:32.130Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -404,13 +404,6 @@
     "Kirk Douglas Theatre": [
       {
         "name": "Dogman: The Musical",
-        "date": "2026-10-15",
-        "time": "11:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4-",
-        "image": null
-      },
-      {
-        "name": "Dogman: The Musical",
         "date": "2026-10-16",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4x",
@@ -470,13 +463,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "OZZY & BLACK SABBATH: BACK TO THE BEGINNING",
-        "date": "2026-10-14",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/ozzy-black-sabbath-back-to-the-los-angeles-california-10-14-2026/event/0900654102F5CF7C",
-        "image": "https://s1.ticketm.net/dam/e/ca6/c2892b40-aac2-41fb-999b-65ec3ed99ca6_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Daniel Sloss: BITTER  (Brand New Tour!)",
         "date": "2026-10-16",
         "time": "19:00:00",
@@ -524,17 +510,17 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/george-lopez-los-angeles-california-10-24-2026/event/09006469F133DFAA",
         "image": "https://s1.ticketm.net/dam/a/63f/adc31591-f93c-47a2-b05f-874cc97f963f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Gary Clark Jr.with special guest Xavier Lynn",
+        "date": "2026-10-26",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/gary-clark-jrwith-special-guest-xavier-los-angeles-california-10-26-2026/event/090064BACEC1C60F",
+        "image": "https://s1.ticketm.net/dam/a/f4c/ad97e28a-7c34-4c04-b7f8-46cddb0c3f4c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
-      {
-        "name": "Ella Langley",
-        "date": "2026-10-14",
-        "time": "19:10:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYxb",
-        "image": "https://s1.ticketm.net/dam/a/10b/3e5a6f73-de54-42c4-818c-0e422b59810b_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Role Model w/ Samia",
         "date": "2026-10-15",
@@ -583,16 +569,16 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPt",
         "image": "https://s1.ticketm.net/dam/a/d55/e7d9f34f-40ae-46d7-80d6-1cd814456d55_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Malcolm Todd: Do That Again Tour",
+        "date": "2026-10-28",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-28-2026/event/090064C3B5A6FC88",
+        "image": "https://s1.ticketm.net/dam/a/237/2144a2e6-e59d-4ed1-8ae7-ea630b1f4237_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
-      {
-        "name": "Sara Bareilles: The Good Grief Tour",
-        "date": "2026-10-14",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/sara-bareilles-the-good-grief-tour-hollywood-california-10-14-2026/event/090064C2D947CF38",
-        "image": "https://s1.ticketm.net/dam/a/d75/c9e9ff52-8f03-4705-b92b-96c3651f9d75_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Terminator Live",
         "date": "2026-10-16",
@@ -640,6 +626,13 @@
         "date": "2026-11-01",
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-01-2026/event/090064BAE60EE7D7",
+        "image": "https://s1.ticketm.net/dam/a/447/17624bbd-1bde-49bf-8817-52a3aaeae447_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "THE CHICKS - TAKING THE LONG WAY",
+        "date": "2026-11-02",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
         "image": "https://s1.ticketm.net/dam/a/447/17624bbd-1bde-49bf-8817-52a3aaeae447_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -699,13 +692,6 @@
     "Ambassador Auditorium": [],
     "Wilshire Ebell Theater and Club": [
       {
-        "name": "Katt Williams On Book Tour!",
-        "date": "2026-10-14",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/katt-williams-on-book-tour-los-angeles-california-10-14-2026/event/09006522E5D2BE94",
-        "image": "https://s1.ticketm.net/dam/a/ecc/1f63601f-dd30-4e5d-a768-23b083249ecc_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Randy Feltface: Gimmick",
         "date": "2026-10-20",
         "time": "19:00:00",
@@ -753,6 +739,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/alok-eat-pray-leave-tour-los-angeles-california-03-10-2027/event/090064CB7BC63F7B",
         "image": "https://s1.ticketm.net/dam/a/365/2ed4d0bf-fbd5-4429-a335-75e84f5d7365_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Michelle Wolf: Best Job in the World",
+        "date": "2027-04-01",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/michelle-wolf-best-job-in-the-los-angeles-california-04-01-2027/event/09006528B26C8AF1",
+        "image": "https://s1.ticketm.net/dam/a/11e/a0046ab5-a10e-414f-89fb-4c7128b7d11e_RECOMENDATION_16_9.jpg"
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
@@ -943,7 +936,7 @@
         "date": "2026-10-19",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1994592691433",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158499%2F2986605123498%2F1%2Foriginal.20251217-203120?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e86cde0dacbc676ddb3a024a163ccce1"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195812993%2F2989400506155%2F1%2Foriginal.20261014-200950?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fa594cc98b781566573af385485798a2"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -983,13 +976,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "*JUST ADDED ARI MATTI & JACK WHITEHALL* COMEDY CRUSH ft. MELISSA VILLASEÑOR, TREVOR WALLACE, JUSTINE MARINO & AVERY PEARSON!",
-        "date": "2026-10-14",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-added-ari-matti-hollywood-improv-the-main-room-tickets/14247864",
-        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Iliza Shlesinger ft. Hunter Hill, Kat Bird",
         "date": "2026-10-15",
         "time": "19:00:00",
@@ -1004,7 +990,7 @@
         "image": "https://i.ticketweb.com/i/00/13/62/81/33_Edp.jpg?v=6"
       },
       {
-        "name": "Comedy Mayhem ft. Adam Conover, Jonathan Kite, Josh Adam Meyers, Melanie Iglesias, Justin Herman, Pardis Parker and More TBA",
+        "name": "Comedy Mayhem ft. Adam Conover, Jonathan Kite, Levi MacDougall, Melanie Iglesias, Justin Herman, Pardis Parker and More TBA",
         "date": "2026-10-15",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/comedy-mayhem-ft-adam-conover-hollywood-improv-the-lab-tickets/14301414",
@@ -1093,6 +1079,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/comedy-n-chill-ft-maria-hollywood-improv-the-lab-tickets/14301634",
         "image": "https://i.ticketweb.com/i/00/13/01/78/44_Edp.jpg?v=8"
+      },
+      {
+        "name": "Kerryn Feehan & Friends",
+        "date": "2026-10-19",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/kerryn-feehan-friends-hollywood-improv-the-main-room-tickets/15045603",
+        "image": "https://i.ticketweb.com/i/00/13/64/25/43_Edp.jpg?v=2"
       }
     ]
   }
