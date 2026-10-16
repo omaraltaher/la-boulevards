@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-15T18:51:57.248Z",
+  "generated": "2026-10-16T18:36:15.029Z",
   "events": [
-    {
-      "name": "LP - All Is Not Lost Tour",
-      "date": "2026-10-15",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-los-angeles-california-10-15-2026/event/0900649BF3D23318",
-      "image": "https://s1.ticketm.net/dam/a/6ef/67eeb68d-efaf-46d8-9e34-02502489b6ef_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "KCRW Presents Thee Sinseers: Love Stories Tour",
       "date": "2026-10-17",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/switchfoot-with-special-guest-anberlin-forever-los-angeles-california-10-25-2026/event/090064A7AAE6D09A",
       "image": "https://s1.ticketm.net/dam/a/3b1/21f0aa08-a149-4823-b3be-a1563b4a63b1_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "The Rocky Horror Picture Show Spooktacular Tour with Barry Bostwick",
+      "date": "2026-10-26",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/the-rocky-horror-picture-show-spooktacular-los-angeles-california-10-26-2026/event/090064B3D19C1D19",
+      "image": "https://s1.ticketm.net/dam/e/d0e/07946bb9-7150-4c10-a277-1e184f3d3d0e_RECOMENDATION_16_9.jpg"
     }
   ]
 }
