@@ -1,14 +1,7 @@
 {
-  "generated": "2026-10-18T18:24:58.302Z",
+  "generated": "2026-10-19T20:50:12.358Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "SEX PISTOLS (Steve Jones, Paul Cook, Glen Matlock) feat. Frank Carter",
-        "date": "2026-10-18",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/sex-pistols-steve-jones-paul-cook-hollywood-california-10-18-2026/event/0900627AEA50512B",
-        "image": "https://s1.ticketm.net/dam/a/6e7/48330409-0d19-4228-af7f-df52749866e7_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Vanillamace  -'Ghosted by Vanilla'",
         "date": "2026-10-19",
@@ -57,6 +50,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/carl-cox-hollywood-california-11-06-2026/event/09006503777A2802",
         "image": "https://s1.ticketm.net/dam/a/a71/d629288b-1635-410b-a7a3-35f5826fba71_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "TINASHE - ONE NIGHT WITH A POPSTAR",
+        "date": "2026-11-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/tinashe-one-night-with-a-popstar-hollywood-california-11-07-2026/event/090064F499E14E53",
+        "image": "https://s1.ticketm.net/dam/e/a5c/60d959f6-ebd3-4436-a8df-9b2ced5a2a5c_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -394,15 +394,7 @@
         "image": "https://s1.ticketm.net/dam/a/90e/afce7690-6d6b-40f5-bef3-f48ae012590e_RECOMENDATION_16_9.jpg"
       }
     ],
-    "Kirk Douglas Theatre": [
-      {
-        "name": "Dogman: The Musical",
-        "date": "2026-10-18",
-        "time": "13:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU4g",
-        "image": null
-      }
-    ],
+    "Kirk Douglas Theatre": [],
     "Shrine Auditorium": [
       {
         "name": "NieR: Orchestra Concert",
@@ -559,13 +551,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "CHRONO TRIGGER Orchestra Concert: Melodies Across Time",
-        "date": "2026-10-18",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/chrono-trigger-orchestra-concert-melodies-across-hollywood-california-10-18-2026/event/090064479D724280",
-        "image": "https://s1.ticketm.net/dam/a/272/402e12b9-8a5c-4185-acc8-2bca708f4272_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Assala Nasri",
         "date": "2026-10-23",
         "time": "20:00:00",
@@ -613,6 +598,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/pimpinela-usa-tour-leyendas-hollywood-california-11-13-2026/event/090064F2D4FFD9F4",
         "image": "https://s1.ticketm.net/dam/a/2bf/73de0c61-a9dc-4ef6-a137-aa79562bd2bf_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Outlander in Concert",
+        "date": "2026-11-14",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/outlander-in-concert-hollywood-california-11-14-2026/event/09006473E78ADF87",
+        "image": "https://s1.ticketm.net/dam/a/e1b/f47c7258-5b27-4fd1-a278-399d5a711e1b_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -897,20 +889,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
-        "date": "2026-10-18",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/pookey-wigington-presents-chocolate-sundaes-700pm-tickets-1994242294386",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Pookey Wigington Presents: Chocolate Sundaes 9:30PM",
-        "date": "2026-10-18",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/pookey-wigington-presents-chocolate-sundaes-930pm-tickets-1994242810931",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
-      },
-      {
         "name": "Monday All-Star Comedy 8:00PM",
         "date": "2026-10-19",
         "time": "20:00",
@@ -923,6 +901,13 @@
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1994593290224",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196016834%2F2989400506155%2F1%2Foriginal.20261017-205742?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=666e2b1f86b2dbb509aab0fe7f9fca4b"
+      },
+      {
+        "name": "Fat Fish and Friends 7:30 PM",
+        "date": "2026-10-21",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/fat-fish-and-friends-730-pm-tickets-1994595006357",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158481%2F2986607467794%2F1%2Foriginal.20251217-203109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4cba2f2a43f0d170f10c5098e1a4b04b"
       },
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -951,42 +936,21 @@
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1994593643280",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
+      },
+      {
+        "name": "Wednesday All-Star Comedy 7:30 PM",
+        "date": "2026-10-28",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1994595457707",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195982936%2F2989400506155%2F1%2Foriginal.20261016-235641?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a74c6899b5eb4e6fef3765323c9c3e9e"
       }
     ],
     "Hollywood Improv": [
       {
-        "name": "Ray Lau FREE Career Workshop for LA Comics",
-        "date": "2026-10-18",
-        "time": "14:30:00",
-        "url": "https://www.ticketweb.com/event/ray-lau-free-career-workshop-hollywood-improv-the-main-room-tickets/14366624",
-        "image": "https://i.ticketweb.com/i/00/13/07/97/34_Edp.jpg?v=3"
-      },
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Cameron Esposito, Nicole Aimee Schreiber, Dan Levy, Danny Jolles, Red Richardson, Erica Spera, Matt Marx and more TBA",
-        "date": "2026-10-18",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14340184",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Never Ending Comedy ft. Macey Isaacs, Leslie Liao, Peter Murphy, Devyn Perry, Julian Fernandez, Avry Ross, Greg Hoffman, Chip Nicholson, Lemon Pepper Wet, Sweet Dalai Lama",
-        "date": "2026-10-18",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/never-ending-comedy-ft-macey-hollywood-improv-the-lab-tickets/14267904",
-        "image": "https://i.ticketweb.com/i/00/12/98/36/04_Edp.jpg?v=4"
-      },
-      {
-        "name": "Comedy N Chill ft. Maria Bruggere, Chris Waitkus, Willie Macc, Leah Bonhema, BlakkSmyth Rog, Max Eddy, Elijah Nevels and more TBA!",
-        "date": "2026-10-19",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/comedy-n-chill-ft-maria-hollywood-improv-the-lab-tickets/14301634",
-        "image": "https://i.ticketweb.com/i/00/13/01/78/44_Edp.jpg?v=8"
-      },
-      {
         "name": "Kerryn Feehan & Friends ft. Jay Mohr, Jiaoying Summers, Liz Splatt",
         "date": "2026-10-19",
         "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/kerryn-feehan-friends-ft-hollywood-improv-the-main-room-tickets/15045603",
+        "url": "https://www.ticketweb.com/event/kerryn-feehan-friends-ft-hollywood-improv-the-lab-tickets/15045603",
         "image": "https://s1.ticketm.net/dam/a/0e0/302dfcfc-dae9-4946-a474-1a219c8ae0e0_357091_RECOMENDATION_16_9.jpg"
       },
       {
@@ -1011,7 +975,7 @@
         "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "John Campanelli & Special Guests ft. Brent Morin, Scott Stewart, Jennie Mintz, Caitlin Brosious, Vivi, and more TBA",
+        "name": "John Campanelli & Special Guests ft. Brent Morin, Dewey Nelson, Jennie Mintz, Caitlin Brosious, Vivi, and more TBA",
         "date": "2026-10-20",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/15010403",
@@ -1046,6 +1010,13 @@
         "image": "https://i.ticketweb.com/i/00/13/62/50/43_Edp.jpg?v=3"
       },
       {
+        "name": "Tonight at the Improv ft. Craig Robinson, Zainab Johnson, Mark Hayes, Crystal Marie, King Bo, Learnmore Jonasi and more TBA",
+        "date": "2026-10-22",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14293684",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "The Blueprint 500",
         "date": "2026-10-22",
         "time": "21:30:00",
@@ -1053,11 +1024,25 @@
         "image": "https://i.ticketweb.com/i/00/13/03/99/84_Edp.jpg?v=4"
       },
       {
+        "name": "Tonight at the Improv",
+        "date": "2026-10-23",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14339934",
+        "image": "https://i.ticketweb.com/i/00/13/05/57/44_Edp.jpg?v=4"
+      },
+      {
         "name": "Horror Nerd ft. Jason Horton, Allusia, Meryl Klemow, Amber Easton, Kathleen Piche, Amie Lieberman, Steven Adkins, Chris Alves, Kelly Hamlin, Angela Dirksen, Jeremy Tinoco, Samantha Hale and more TBA",
         "date": "2026-10-23",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/horror-nerd-ft-jason-horton-hollywood-improv-the-lab-tickets/14967813",
         "image": "https://i.ticketweb.com/i/00/13/57/34/33_Edp.jpg?v=7"
+      },
+      {
+        "name": "Vibe Check ft. Clay Horwitz, Jenn Sterger, Skyler Higley, Elijah Nevels, Jamie Hendrix, Lea'h Sampson & more TBA",
+        "date": "2026-10-23",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/vibe-check-ft-clay-horwitz-hollywood-improv-the-lab-tickets/14234464",
+        "image": "https://i.ticketweb.com/i/00/12/95/08/04_Edp.jpg?v=5"
       }
     ]
   }
