@@ -1,14 +1,7 @@
 {
-  "generated": "2026-10-19T20:50:12.358Z",
+  "generated": "2026-10-20T19:47:38.813Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Vanillamace  -'Ghosted by Vanilla'",
-        "date": "2026-10-19",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/vanillamace-ghosted-by-vanilla-hollywood-california-10-19-2026/event/09006521C63DAF94",
-        "image": "https://s1.ticketm.net/dam/a/e89/214c04ba-b138-4078-8543-5b2f65e5ae89_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Modest Mouse",
         "date": "2026-10-20",
@@ -57,6 +50,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/tinashe-one-night-with-a-popstar-hollywood-california-11-07-2026/event/090064F499E14E53",
         "image": "https://s1.ticketm.net/dam/e/a5c/60d959f6-ebd3-4436-a8df-9b2ced5a2a5c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Turnover - Down On Earth Tour",
+        "date": "2026-11-11",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/turnover-down-on-earth-tour-hollywood-california-11-11-2026/event/090064D2BD80BA7E",
+        "image": "https://s1.ticketm.net/dam/a/c0d/afb5f88c-ff9a-4869-8ae8-71e24c9d3c0d_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -152,7 +152,7 @@
         "date": "2026-11-06",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/innellea-w-rafael-cerato-avalon-hollywood-tickets/14297224",
-        "image": "https://i.ticketweb.com/i/00/13/01/33/64_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/01/33/64_Edp.jpg?v=7"
       },
       {
         "name": "Deathpact w/ Jiqui",
@@ -889,13 +889,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-10-19",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1994592691433",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195987255%2F2989400506155%2F1%2Foriginal.20261017-021010?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=736e2552525e22c6db7e38deb4cf3b98"
-      },
-      {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-10-20",
         "time": "19:45",
@@ -903,11 +896,25 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196016834%2F2989400506155%2F1%2Foriginal.20261017-205742?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=666e2b1f86b2dbb509aab0fe7f9fca4b"
       },
       {
+        "name": "Rubee Tuesdays",
+        "date": "2026-10-20",
+        "time": "19:45:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe80I",
+        "image": null
+      },
+      {
         "name": "Fat Fish and Friends 7:30 PM",
         "date": "2026-10-21",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/fat-fish-and-friends-730-pm-tickets-1994595006357",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173158481%2F2986607467794%2F1%2Foriginal.20251217-203109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4cba2f2a43f0d170f10c5098e1a4b04b"
+      },
+      {
+        "name": "Wednesday All-Star Comedy 9:45PM",
+        "date": "2026-10-21",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-945pm-tickets-1994718726407",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195977492%2F2989400506155%2F1%2Foriginal.20261016-214703?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=66675b6acf194bd07790b3be5debfaa8"
       },
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -943,23 +950,16 @@
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1994595457707",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195982936%2F2989400506155%2F1%2Foriginal.20261016-235641?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a74c6899b5eb4e6fef3765323c9c3e9e"
+      },
+      {
+        "name": "Ray Lau",
+        "date": "2026-12-16",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_qb",
+        "image": null
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Kerryn Feehan & Friends ft. Jay Mohr, Jiaoying Summers, Liz Splatt",
-        "date": "2026-10-19",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/kerryn-feehan-friends-ft-hollywood-improv-the-lab-tickets/15045603",
-        "image": "https://s1.ticketm.net/dam/a/0e0/302dfcfc-dae9-4946-a474-1a219c8ae0e0_357091_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Lionel Dalton, McGriff, Rodney Perry, Donnivin Jordan, James Davis, & more",
-        "date": "2026-10-19",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14301064",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Ben Bankas & Friends",
         "date": "2026-10-20",
@@ -982,7 +982,7 @@
         "image": "https://s1.ticketm.net/dam/a/b52/752565d7-24cf-4bb4-8caf-1e7c0d77ab52_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Donnell Rawlings, Kira Soltanovich, Paul Elia, Saul Trujillo and more TBA",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Donnell Rawlings,  Amir K, Kira Soltanovich, Paul Elia, Saul Trujillo and more TBA",
         "date": "2026-10-21",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339924",
@@ -1043,6 +1043,20 @@
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/vibe-check-ft-clay-horwitz-hollywood-improv-the-lab-tickets/14234464",
         "image": "https://i.ticketweb.com/i/00/12/95/08/04_Edp.jpg?v=5"
+      },
+      {
+        "name": "Hocus Pocus Drag Brunch",
+        "date": "2026-10-24",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/hocus-pocus-drag-brunch-hollywood-improv-the-main-room-tickets/14321324",
+        "image": "https://i.ticketweb.com/i/00/13/03/76/54_Edp.jpg?v=6"
+      },
+      {
+        "name": "Next Generation Comedy",
+        "date": "2026-10-24",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/next-generation-comedy-hollywood-improv-the-lab-tickets/14816473",
+        "image": "https://i.ticketweb.com/i/00/13/41/65/13_Edp.jpg?v=2"
       }
     ]
   }
