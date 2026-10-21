@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-20T18:53:20.512Z",
+  "generated": "2026-10-21T19:05:42.721Z",
   "events": [
-    {
-      "name": "Cameron Whitcomb - Kingdom of Fear Tour",
-      "date": "2026-10-20",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/cameron-whitcomb-kingdom-of-fear-tour-los-angeles-california-10-20-2026/event/090064A6F300C7A0",
-      "image": "https://s1.ticketm.net/dam/a/84e/a3525439-bf0f-43fb-b0ad-0a96fb67884e_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Pouya: The Forever Glades Tour",
       "date": "2026-10-21",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/chief-keef-los-angeles-california-10-27-2026/event/090064E1B5B0905D",
       "image": "https://s1.ticketm.net/dam/a/113/a6487484-f2b3-4bca-a28b-32f016487113_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Lenny Pearce - Toddler Rave World Tour",
+      "date": "2026-10-28",
+      "time": "17:00:00",
+      "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-los-angeles-california-10-28-2026/event/090064C9F08E749C",
+      "image": "https://s1.ticketm.net/dam/a/b0f/179e3fee-6a4e-4a3c-8017-de6ba086eb0f_RECOMENDATION_16_9.jpg"
     }
   ]
 }
