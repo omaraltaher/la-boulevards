@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-21T19:05:42.721Z",
+  "generated": "2026-10-22T19:02:30.558Z",
   "events": [
-    {
-      "name": "Pouya: The Forever Glades Tour",
-      "date": "2026-10-21",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/pouya-the-forever-glades-tour-los-angeles-california-10-21-2026/event/090064C5BD791540",
-      "image": "https://s1.ticketm.net/dam/a/9fd/12d38709-d7b1-4f7b-9a55-a583f16c99fd_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Julia Jacklin - North America Tour 2026",
       "date": "2026-10-22",
@@ -56,6 +49,13 @@
       "time": "17:00:00",
       "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-los-angeles-california-10-28-2026/event/090064C9F08E749C",
       "image": "https://s1.ticketm.net/dam/a/b0f/179e3fee-6a4e-4a3c-8017-de6ba086eb0f_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Slow Pulp",
+      "date": "2026-10-29",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/slow-pulp-los-angeles-california-10-29-2026/event/090064A7AB53D323",
+      "image": "https://s1.ticketm.net/dam/a/6c0/32dd22da-0af2-4cbe-bb24-d56d5cb1c6c0_RECOMENDATION_16_9.jpg"
     }
   ]
 }
