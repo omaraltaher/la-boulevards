@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T19:53:20.200Z",
+  "generated": "2026-10-22T19:41:17.277Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Cuco",
-        "date": "2026-10-21",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxPt",
-        "image": "https://s1.ticketm.net/dam/a/140/1c78442a-f593-4ce3-bf39-cfaf24e4b140_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Mac DeMarco",
         "date": "2026-10-22",
         "time": "20:30:00",
@@ -116,6 +109,13 @@
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jooa",
         "image": null
+      },
+      {
+        "name": "DJ Mandy - 18+",
+        "date": "2026-10-30",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7kk",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
@@ -131,7 +131,7 @@
         "date": "2026-10-29",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/gag-avalon-hollywood-tickets/14341464",
-        "image": "https://i.ticketweb.com/i/00/13/05/72/14_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/05/72/14_Edp.jpg?v=7"
       },
       {
         "name": "Emo Nite",
@@ -236,20 +236,6 @@
     ],
     "Peacock Theater": [
       {
-        "name": "Umamusume: Pretty Derby",
-        "date": "2026-10-22",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZF1K",
-        "image": null
-      },
-      {
-        "name": "Umamusume: Pretty Derby",
-        "date": "2026-10-23",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZF1f",
-        "image": null
-      },
-      {
         "name": "Reincarnation",
         "date": "2026-10-24",
         "time": "19:00:00",
@@ -290,16 +276,23 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-f4V",
         "image": "https://s1.ticketm.net/dam/a/7ae/9d11bef4-876c-4977-af8c-3d2c269147ae_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Game Awards",
+        "date": "2026-12-10",
+        "time": "16:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_p4",
+        "image": null
+      },
+      {
+        "name": "Armenian Music Awards",
+        "date": "2026-12-13",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZt1K",
+        "image": null
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Lauren Ash",
-        "date": "2026-10-22",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/lauren-ash-los-angeles-california-10-22-2026/event/090064D1D163E74D",
-        "image": "https://s1.ticketm.net/dam/e/91e/3b5c7de9-6720-4828-96a1-c2d9ffbd791e_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Justin Nozuka",
         "date": "2026-10-23",
@@ -348,6 +341,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/six60-los-angeles-california-11-03-2026/event/090064CC2C9AE978",
         "image": "https://s1.ticketm.net/dam/e/8ea/5034d5da-c992-41d7-8ef6-0d73ed2d38ea_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "All Season Brewing Battle of the Bands",
+        "date": "2026-11-05",
+        "time": "18:00:00",
+        "url": "https://www.ticketmaster.com/all-season-brewing-battle-of-the-los-angeles-california-11-05-2026/event/0900651BD48BC41E",
+        "image": "https://s1.ticketm.net/dam/e/51c/10c2cba7-f971-4fdf-98e9-a1fdb20d251c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -434,13 +434,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Hablando Huevadas - US Tour 2026",
-        "date": "2026-10-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/hablando-huevadas-us-tour-2026-los-angeles-california-10-21-2026/event/090064ED93F94F18",
-        "image": "https://s1.ticketm.net/dam/a/b50/bd6aed73-6732-4e3b-8dce-635319696b50_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Chelsea Wolfe: THE DARK World Tour",
         "date": "2026-10-23",
         "time": "20:30:00",
@@ -488,6 +481,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/dante-gebel-los-angeles-california-11-11-2026/event/0900654E95F467F9",
         "image": "https://s1.ticketm.net/dam/a/aac/e9ec005a-4d4e-49b1-b874-4ec091b4eaac_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Sienna Spiro: My House Tour",
+        "date": "2026-11-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
+        "image": "https://s1.ticketm.net/dam/a/b07/09e0979d-7b3d-4cd4-badf-67d6ced79b07_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -834,13 +834,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "Elliott Brothers Present COMEDY BLOCK PARTY Hosted by Chris Spencer",
-        "date": "2026-10-21",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/elliott-brothers-present-comedy-block-party-inglewood-california-10-21-2026/event/0B00652103F07EE4",
-        "image": "https://s1.ticketm.net/dam/e/543/32f77528-64d3-459e-9687-819d68c20543_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "South Side Sessions: Season 3 - Kenneth Brown II",
         "date": "2026-10-22",
         "time": "20:00:00",
@@ -874,6 +867,13 @@
         "time": "16:00:00",
         "url": "https://www.ticketmaster.com/argentine-film-festival-supported-by-the-inglewood-california-10-25-2026/event/0B006545AFC59192",
         "image": null
+      },
+      {
+        "name": "SET IT OFF - Hosted by Sum Cut",
+        "date": "2026-11-06",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/set-it-off-hosted-by-sum-inglewood-california-11-06-2026/event/0B006548AF5AA11F",
+        "image": "https://s1.ticketm.net/dam/e/a70/64bd2e75-91c4-40be-bf5a-68db63476a70_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -882,18 +882,11 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Fat Fish and Friends 7:30 PM",
-        "date": "2026-10-21",
+        "name": "Thursday All-Star Comedy 7:30PM",
+        "date": "2026-10-22",
         "time": "19:30",
-        "url": "https://www.eventbrite.com/e/fat-fish-and-friends-730-pm-tickets-1994595006357",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196236094%2F3015802494368%2F1%2Foriginal.20261020-231000?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d1a9d8180d784da9d506e7acd803887f"
-      },
-      {
-        "name": "Comedy Gold 9:45PM",
-        "date": "2026-10-21",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/comedy-gold-945pm-tickets-1994718726407",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196254279%2F2989400506155%2F1%2Foriginal.20261021-062313?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=dd97dd1ff4767ddaf0de5aa813a88eda"
+        "url": "https://www.eventbrite.com/e/thursday-all-star-comedy-730pm-tickets-1994749448297",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196236378%2F3015802494368%2F1%2Foriginal.20261020-231405?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=86f5b19125611d1a15a0cfddcb436f1d"
       },
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -914,14 +907,14 @@
         "date": "2026-10-26",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1994592839877",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195982925%2F2989400506155%2F1%2Foriginal.20261016-235634?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f88428d3c68c4e7ef5a270308e4406da"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196322274%2F2989400506155%2F1%2Foriginal.20261021-225316?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b0bc6f716b2247dd78684fac4318592"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-10-27",
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1994593643280",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196322323%2F2989400506155%2F1%2Foriginal.20261021-225403?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5219d0e8a014a3e1038f3ebdde86eb03"
       },
       {
         "name": "Wednesday All-Star Comedy 7:30 PM",
@@ -938,6 +931,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195967587%2F2989400506155%2F1%2Foriginal.20261016-191636?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=85620ffe21fd236dbe39adc3da32f50a"
       },
       {
+        "name": "Late Night with King Bo 7:30PM",
+        "date": "2026-10-29",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/late-night-with-king-bo-730pm-tickets-1994749610783",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196145873%2F2990051982791%2F1%2Foriginal.20261019-234244?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=39d85f4f0204bdf864c95235de930e01"
+      },
+      {
         "name": "Ray Lau",
         "date": "2026-12-16",
         "time": "20:00:00",
@@ -946,20 +946,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Donnell Rawlings, Amir K, Greg Fitzsimmons, Kira Soltanovich, Paul Elia, Saul Trujillo and more TBA",
-        "date": "2026-10-21",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339924",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Shaw-some Show ft. Cristela Alonzo, Forrest Shaw, Ryan O'Flanagan, Lisa Curry, Billy Wayne Davis, Ryan Stalder, Elijah Nevels and more TBA",
-        "date": "2026-10-21",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/shaw-some-show-ft-cristela-hollywood-improv-the-lab-tickets/14245184",
-        "image": "https://s1.ticketm.net/dam/a/93a/7595caed-f1b2-49c9-a3b8-8216ca01d93a_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Tonight at the Improv ft. Chelsea Handler, Anthony Jeselnik, Charles Fleischer, Kira Soltanovich, Brian Monarch, Brittany Ross and More TBD!",
         "date": "2026-10-22",
@@ -1038,11 +1024,11 @@
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Caroline Rhea, Kirk Fox, Erik Griffin and more TBA",
+        "name": "Tonight at the Improv ft. Asif Ali, Caroline Rhea, Kirk Fox, Erik Griffin, Brent Morin, Gary Cannon, and more TBA",
         "date": "2026-10-24",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14301164",
-        "image": "https://s1.ticketm.net/dbimages/9160a.jpg"
+        "image": "https://s1.ticketm.net/dam/a/689/514bec4c-42ef-4165-92f8-1124365dd689_1827131_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "LA vs. Transplants! ft. Kayla Hardy, Amber Easton, Veronica Shea, Jazzy Byner, Franchesca Ramsey, KJ Alfrey, LeeAnn Tooker, Mayra Aburto, Nthenya, Claire Luisa, Samantha Hale, and more TBA!",
@@ -1052,11 +1038,25 @@
         "image": "https://i.ticketweb.com/i/00/13/00/72/64_Edp.jpg?v=4"
       },
       {
+        "name": "The OTHER Show ft. Lizzie Rose, Gabby Vargas, Bee Gutierrez, Joncea Dixon, Oliver Wong, Tyrone G, Denise Greenhut, Scott Vinci, Adam Barnhardt",
+        "date": "2026-10-25",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/the-other-show-ft-lizzie-hollywood-improv-the-lab-tickets/14301664",
+        "image": "https://i.ticketweb.com/i/00/13/01/78/74_Edp.jpg?v=4"
+      },
+      {
         "name": "Private Event",
         "date": "2026-10-25",
         "time": "20:00:00",
         "url": "https://www.ticketweb.com/event/private-event-hollywood-improv-the-main-room-tickets/14305284",
         "image": "https://i.ticketweb.com/i/00/13/02/16/54_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Beth Stelling and more TBA",
+        "date": "2026-10-26",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14340834",
+        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
       }
     ]
   }
