@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-22T19:02:30.558Z",
+  "generated": "2026-10-23T18:52:34.563Z",
   "events": [
-    {
-      "name": "Julia Jacklin - North America Tour 2026",
-      "date": "2026-10-22",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/julia-jacklin-north-america-tour-2026-los-angeles-california-10-22-2026/event/090064BD96128D74",
-      "image": "https://s1.ticketm.net/dam/a/2ca/2b62de30-a977-47e0-934b-4b6e07d102ca_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "2026 Rock 2 Freedom® Benefit Concert",
       "date": "2026-10-24",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/slow-pulp-los-angeles-california-10-29-2026/event/090064A7AB53D323",
       "image": "https://s1.ticketm.net/dam/a/6c0/32dd22da-0af2-4cbe-bb24-d56d5cb1c6c0_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Daði Freyr",
+      "date": "2026-10-30",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/dai-freyr-los-angeles-california-10-30-2026/event/090064761D110CC9",
+      "image": "https://s1.ticketm.net/dam/a/124/20ba9f0d-d63e-46da-b014-861c050a0124_RECOMENDATION_16_9.jpg"
     }
   ]
 }
