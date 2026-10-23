@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T19:41:17.277Z",
+  "generated": "2026-10-23T19:43:34.539Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Mac DeMarco",
-        "date": "2026-10-22",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7kCA",
-        "image": "https://s1.ticketm.net/dam/a/51a/abf7eafe-6520-4fa5-929d-89b03e13951a_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Flying Lotus",
         "date": "2026-10-23",
         "time": "21:00:00",
@@ -115,6 +108,13 @@
         "date": "2026-10-30",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7kk",
+        "image": null
+      },
+      {
+        "name": "bleood",
+        "date": "2026-10-31",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZz44",
         "image": null
       }
     ],
@@ -264,6 +264,13 @@
         "image": "https://s1.ticketm.net/dam/a/3f5/77d312f9-5ae7-42b6-bffb-e798014a13f5_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Smoke Me Out",
+        "date": "2026-11-25",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70pA",
+        "image": null
+      },
+      {
         "name": "Tierra Cali w/ Banda Machos",
         "date": "2026-11-27",
         "time": "20:00:00",
@@ -282,13 +289,6 @@
         "date": "2026-12-10",
         "time": "16:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_p4",
-        "image": null
-      },
-      {
-        "name": "Armenian Music Awards",
-        "date": "2026-12-13",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZt1K",
         "image": null
       }
     ],
@@ -834,13 +834,6 @@
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
       {
-        "name": "South Side Sessions: Season 3 - Kenneth Brown II",
-        "date": "2026-10-22",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/south-side-sessions-season-3-kenneth-inglewood-california-10-22-2026/event/0B006530DD6E3A8A",
-        "image": "https://s1.ticketm.net/dam/e/8d3/956640e9-c8c8-4ac6-ad69-7a0893b538d3_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Argentine Film Festival Supported by The Miracle Theater Foundation",
         "date": "2026-10-23",
         "time": "19:30:00",
@@ -874,6 +867,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/set-it-off-hosted-by-sum-inglewood-california-11-06-2026/event/0B006548AF5AA11F",
         "image": "https://s1.ticketm.net/dam/e/a70/64bd2e75-91c4-40be-bf5a-68db63476a70_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Healing Box Part 2",
+        "date": "2026-11-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/the-healing-box-part-2-inglewood-california-11-07-2026/event/0B00654DEFF09824",
+        "image": "https://s1.ticketm.net/dam/e/a83/46763027-6f7f-49eb-a437-a6296542fa83_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -881,13 +881,6 @@
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
     "Laugh Factory": [
-      {
-        "name": "Thursday All-Star Comedy 7:30PM",
-        "date": "2026-10-22",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/thursday-all-star-comedy-730pm-tickets-1994749448297",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196236378%2F3015802494368%2F1%2Foriginal.20261020-231405?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=86f5b19125611d1a15a0cfddcb436f1d"
-      },
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
         "date": "2026-10-25",
@@ -907,7 +900,7 @@
         "date": "2026-10-26",
         "time": "20:00",
         "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1994592839877",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196322274%2F2989400506155%2F1%2Foriginal.20261021-225316?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b0bc6f716b2247dd78684fac4318592"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196402719%2F2989400506155%2F1%2Foriginal.20261022-215016?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3c430ba72d3ba5c9d85d14d37aacb694"
       },
       {
         "name": "Rubee Tuesdays 7:45pm",
@@ -921,7 +914,7 @@
         "date": "2026-10-28",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1994595457707",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195982936%2F2989400506155%2F1%2Foriginal.20261016-235641?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a74c6899b5eb4e6fef3765323c9c3e9e"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196402239%2F2989400506155%2F1%2Foriginal.20261022-214243?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=048c3f9200e92ce66e0b21ab11bdb2ca"
       },
       {
         "name": "Massey Brothers Costume Comedy Jam 10:00PM",
@@ -938,6 +931,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196145873%2F2990051982791%2F1%2Foriginal.20261019-234244?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=39d85f4f0204bdf864c95235de930e01"
       },
       {
+        "name": "Tehran Thursday's 9:45 PM",
+        "date": "2026-10-29",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/tehran-thursdays-945-pm-tickets-1994750220607",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182604607%2F2990051982791%2F1%2Foriginal.20260420-194813?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=81a640bf33508b2badcc25712d3f8f85"
+      },
+      {
         "name": "Ray Lau",
         "date": "2026-12-16",
         "time": "20:00:00",
@@ -947,35 +947,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Chelsea Handler, Anthony Jeselnik, Charles Fleischer, Kira Soltanovich, Brian Monarch, Brittany Ross and More TBD!",
-        "date": "2026-10-22",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14301114",
-        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
-        "date": "2026-10-22",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/15026173",
-        "image": "https://i.ticketweb.com/i/00/13/62/50/43_Edp.jpg?v=3"
-      },
-      {
-        "name": "Tonight at the Improv ft. Craig Robinson, Zainab Johnson, Mark Hayes, Crystal Marie, King Bo, Learnmore Jonasi and more TBA",
-        "date": "2026-10-22",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14293684",
-        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "The Blueprint 500",
-        "date": "2026-10-22",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/the-blueprint-500-hollywood-improv-the-lab-tickets/14323444",
-        "image": "https://i.ticketweb.com/i/00/13/03/99/84_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Amir K, Owen Smith, Sheng Wang, Orny Adams, Andre Kelley and more TBA",
+        "name": "Tonight at the Improv ft. Amir K, Asif Ali, Owen Smith, Sheng Wang, Orny Adams, Andre Kelley and more TBA",
         "date": "2026-10-23",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339934",
@@ -989,18 +961,18 @@
         "image": "https://i.ticketweb.com/i/00/13/57/34/33_Edp.jpg?v=7"
       },
       {
-        "name": "Tonight at the Improv ft. Zainab Johnson, Melissa Villasenor, Francisco Ramos, Mike Estime, Corinne Fisher, Chris Renois, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Zainab Johnson, Francisco Ramos, Mike Estime, Taylor Williamson, Corinne Fisher, Chris Renois, Gary Cannon and more TBA",
         "date": "2026-10-23",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14339944",
-        "image": "https://s1.ticketm.net/dam/a/1db/e6ab31f6-a7af-4554-86cc-9cd06e75c1db_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/044/996dbbc5-52af-4e24-92ef-690de8616044_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Vibe Check ft. Clay Horwitz, Jenn Sterger, Skyler Higley, Elijah Nevels, Jamie Hendrix, Lea'h Sampson & more TBA",
+        "name": "Vibe Check ft. Clay Horwitz, Jenn Sterger, Skyler Higley, Elijah Nevels, Jamie Hendrix, Lea'h Sampson, Tommy Mitchell, & more TBA",
         "date": "2026-10-23",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/vibe-check-ft-clay-horwitz-hollywood-improv-the-lab-tickets/14234464",
-        "image": "https://i.ticketweb.com/i/00/12/95/08/04_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/12/95/08/04_Edp.jpg?v=6"
       },
       {
         "name": "Next Generation Comedy",
@@ -1024,11 +996,11 @@
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Asif Ali, Caroline Rhea, Kirk Fox, Erik Griffin, Brent Morin, Gary Cannon, and more TBA",
+        "name": "Tonight at the Improv ft. Caroline Rhea, Kirk Fox, Leslie Liao, Erik Griffin, Brent Morin, Willie Simon, Gary Cannon, and more TBA",
         "date": "2026-10-24",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14301164",
-        "image": "https://s1.ticketm.net/dam/a/689/514bec4c-42ef-4165-92f8-1124365dd689_1827131_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dbimages/9160a.jpg"
       },
       {
         "name": "LA vs. Transplants! ft. Kayla Hardy, Amber Easton, Veronica Shea, Jazzy Byner, Franchesca Ramsey, KJ Alfrey, LeeAnn Tooker, Mayra Aburto, Nthenya, Claire Luisa, Samantha Hale, and more TBA!",
@@ -1052,11 +1024,39 @@
         "image": "https://i.ticketweb.com/i/00/13/02/16/54_Edp.jpg?v=2"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Beth Stelling and more TBA",
+        "name": "Better Late Than Never ft. Jeremy Christian and More TBA",
+        "date": "2026-10-25",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/better-late-than-never-ft-hollywood-improv-the-lab-tickets/14351854",
+        "image": "https://i.ticketweb.com/i/00/13/06/65/74_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Beth Stelling, Preacher Lawson, Eric Freedman and more TBA",
         "date": "2026-10-26",
         "time": "19:15:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14340834",
         "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Comedy and Cocktails ft. Bill Devlin, Murray Valeriano, Dwayne Perkins, Jeffrey Lewis and more TBA",
+        "date": "2026-10-26",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/comedy-and-cocktails-ft-bill-hollywood-improv-the-lab-tickets/14315054",
+        "image": "https://s1.ticketm.net/dbimages/89390a.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-10-26",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14301174",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Jay Leno, Chelsea Handler, Chelsea Peretti, Craig Robinson, Brian Monarch, Leah Knauer and very special guests",
+        "date": "2026-10-27",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14301264",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
       }
     ]
   }
