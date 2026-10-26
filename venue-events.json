@@ -1,14 +1,7 @@
 {
-  "generated": "2026-10-25T18:40:34.642Z",
+  "generated": "2026-10-26T20:50:12.160Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "XAVIER WULF - THE COOL WORLD TOUR",
-        "date": "2026-10-25",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/xavier-wulf-the-cool-world-tour-hollywood-california-10-25-2026/event/090064F4D3499ECC",
-        "image": "https://s1.ticketm.net/dam/a/8d5/57273730-f629-4aed-994a-ca6a6b8a68d5_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "10 Years of 6LACK Tour",
         "date": "2026-11-03",
@@ -57,6 +50,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/insomniac-presents-valentino-khan-hollywood-california-11-14-2026/event/090064BDA75FB781",
         "image": "https://s1.ticketm.net/dam/a/e6c/547f780e-5bcc-41c0-8a71-46a96b656e6c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LIL PEEP 30TH BIRTHDAY CELEBRATION",
+        "date": "2026-11-15",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/lil-peep-30th-birthday-celebration-hollywood-california-11-15-2026/event/090065068E7555BB",
+        "image": "https://s1.ticketm.net/dam/a/c36/5941c678-4994-49f1-91de-fdb871100c36_471631_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -551,13 +551,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "Rahat Fateh Ali Khan Live In Concert",
-        "date": "2026-10-25",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/rahat-fateh-ali-khan-live-in-hollywood-california-10-25-2026/event/090064FCCABBC3C0",
-        "image": "https://s1.ticketm.net/dam/a/7c1/4ece14b0-06d8-4b5c-867b-1e954f0a77c1_366991_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "THE CHICKS - TAKING THE LONG WAY",
         "date": "2026-11-01",
         "time": "20:30:00",
@@ -605,6 +598,13 @@
         "time": "17:30:00",
         "url": "https://www.ticketmaster.com/the-2026-clio-entertainment-awards-hollywood-california-11-19-2026/event/090065259F707A15",
         "image": "https://s1.ticketm.net/dam/e/aa7/6dfb2a8e-31f7-4ea1-9f3e-3044e743daa7_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Project Hail Mary: Live in Concert",
+        "date": "2026-11-20",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/project-hail-mary-live-in-concert-hollywood-california-11-20-2026/event/0900654D902B5992",
+        "image": "https://s1.ticketm.net/dam/a/52d/72c4bcb4-5894-46e3-8e25-50c0eb06152d_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -799,13 +799,6 @@
     "Beverly O'Neill Theater": [],
     "Levitt Pavilion": [
       {
-        "name": "Día De Los Muertos Community Arts Workshop #1",
-        "date": "2026-10-25",
-        "time": "10:00",
-        "url": "https://www.eventbrite.com/e/dia-de-los-muertos-community-arts-workshop-1-tickets-2002836275214",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193789240%2F405366306269%2F1%2Foriginal.20260917-211711?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bec899639c609abde08459d3fb89311d"
-      },
-      {
         "name": "Día De Los Muertos Community Arts Workshop #2",
         "date": "2026-10-26",
         "time": "16:00",
@@ -833,20 +826,6 @@
     "Dynasty Typewriter At The Hayworth": [],
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
-      {
-        "name": "On Sale on TM -- please search",
-        "date": "2026-10-25",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/on-sale-on-tm-please-search-inglewood-california-10-25-2026/event/0B006539C7B06779",
-        "image": null
-      },
-      {
-        "name": "Argentine Film Festival Supported by The Miracle Theater Foundation",
-        "date": "2026-10-25",
-        "time": "16:00:00",
-        "url": "https://www.ticketmaster.com/argentine-film-festival-supported-by-the-inglewood-california-10-25-2026/event/0B006545AFC59192",
-        "image": null
-      },
       {
         "name": "SET IT OFF - Hosted by Sum Cut",
         "date": "2026-11-06",
@@ -881,6 +860,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/icef-performing-arts-presents-disneys-descendents-inglewood-california-12-04-2026/event/0B006553A0F641F8",
         "image": null
+      },
+      {
+        "name": "ICEF Performing Arts Presents Disney's \"DESCENDENTS THE MUSICAL\"",
+        "date": "2026-12-05",
+        "time": "15:00:00",
+        "url": "https://www.ticketmaster.com/icef-performing-arts-presents-disneys-descendents-inglewood-california-12-05-2026/event/0B006553A0F841FC",
+        "image": null
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -888,20 +874,6 @@
     "Upright Citizens Brigade": [],
     "The Comedy Store": [],
     "Laugh Factory": [
-      {
-        "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
-        "date": "2026-10-25",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/pookey-wigington-presents-chocolate-sundaes-700pm-tickets-1994242394686",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Pookey Wigington Presents: Chocolate Sundaes 9:30PM",
-        "date": "2026-10-25",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/pookey-wigington-presents-chocolate-sundaes-930pm-tickets-1994242965393",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
       {
         "name": "Monday All-Star Comedy 8:00PM",
         "date": "2026-10-26",
@@ -945,6 +917,20 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196484968%2F2989400506155%2F1%2Foriginal.20261024-022459?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f6ec80562f470e54abdb1ee3b46c290b"
       },
       {
+        "name": "No Tricks, Just Laughs! Halloween Comedy! 7:30PM",
+        "date": "2026-10-30",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/no-tricks-just-laughs-halloween-comedy-730pm-tickets-1994900450950",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195983054%2F2989400506155%2F1%2Foriginal.20261016-235905?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2df8db7b9a702fc4d5706d1813038f5d"
+      },
+      {
+        "name": "Fright Night at the Laugh Factory 9:45PM",
+        "date": "2026-10-30",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/fright-night-at-the-laugh-factory-945pm-tickets-1994907701637",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196413355%2F2989400506155%2F1%2Foriginal.20261023-012726?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c27b5520ea48e6f7a15db07d1e58fa96"
+      },
+      {
         "name": "Ray Lau",
         "date": "2026-12-16",
         "time": "20:00:00",
@@ -953,27 +939,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "The OTHER Show ft. Lizzie Rose, Joncea Dixon, Oliver Wong, Tyrone G, Denise Greenhut, Adam Barnhardt, and More TBA",
-        "date": "2026-10-25",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/the-other-show-ft-lizzie-hollywood-improv-the-lab-tickets/14301664",
-        "image": "https://i.ticketweb.com/i/00/13/01/78/74_Edp.jpg?v=5"
-      },
-      {
-        "name": "Private Event",
-        "date": "2026-10-25",
-        "time": "20:00:00",
-        "url": "https://www.ticketweb.com/event/private-event-hollywood-improv-the-main-room-tickets/14305284",
-        "image": "https://i.ticketweb.com/i/00/13/02/16/54_Edp.jpg?v=2"
-      },
-      {
-        "name": "Better Late Than Never ft. Jeremy Christian, Brandon Broady, Gimel Hooper, KBeautty, Myles Marchand and More TBA",
-        "date": "2026-10-25",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/better-late-than-never-ft-hollywood-improv-the-lab-tickets/14351854",
-        "image": "https://i.ticketweb.com/i/00/13/06/65/74_Edp.jpg?v=6"
-      },
       {
         "name": "Tonight at the Improv ft. Anthony Jeselnik, Orny Adams, Beth Stelling, Preacher Lawson, Jeff Dye, Eric Freedman and more TBA",
         "date": "2026-10-26",
@@ -1017,7 +982,7 @@
         "image": "https://s1.ticketm.net/dam/a/d8d/ebec76ab-49cb-4647-aed3-b9baafa10d8d_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Amir K Headlines The Improv",
+        "name": "Amir K Headlines The Improv ft. Maz Jobrani, Bobby U, Gary Cannon",
         "date": "2026-10-28",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/amir-k-headlines-the-improv-hollywood-improv-the-main-room-tickets/14287004",
@@ -1028,7 +993,7 @@
         "date": "2026-10-28",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/all-jokes-no-filter-ft-hollywood-improv-the-lab-tickets/14368744",
-        "image": "https://i.ticketweb.com/i/00/13/08/20/24_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/13/08/20/24_Edp.jpg?v=8"
       },
       {
         "name": "Tonight at the Improv ft. Sarah Silverman, Chelsea Handler, Anthony Jeselnik, Brian Monarch, Jeanne Whitney and Very Special Guests",
@@ -1064,6 +1029,20 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14301284",
         "image": "https://i.ticketweb.com/i/00/13/01/74/84_Edp.jpg?v=2"
+      },
+      {
+        "name": "Low & Inside ft. Radu Bondar, Aaron Brooks and more TBA",
+        "date": "2026-10-30",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/low-inside-ft-radu-hollywood-improv-the-lab-tickets/14329794",
+        "image": "https://i.ticketweb.com/i/00/13/04/60/74_Edp.jpg?v=2"
+      },
+      {
+        "name": "Fictional Roast: Classic Movie Monsters ft. Sam Salem, Leah Knauer, Mike Menendez, Eddie Furth, Ryan Piggs, Keith Carey, Julian M Stern, Anyi Malik, Sarah Fatemi and TBA",
+        "date": "2026-10-30",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/fictional-roast-classic-movie-monsters-hollywood-improv-the-lab-tickets/14337634",
+        "image": "https://i.ticketweb.com/i/00/13/05/31/24_Edp.jpg?v=3"
       }
     ]
   }
