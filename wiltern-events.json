@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-25T18:06:31.938Z",
+  "generated": "2026-10-26T20:17:24.255Z",
   "events": [
-    {
-      "name": "Switchfoot with special guest Anberlin - Forever Now Tour",
-      "date": "2026-10-25",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/switchfoot-with-special-guest-anberlin-forever-los-angeles-california-10-25-2026/event/090064A7AAE6D09A",
-      "image": "https://s1.ticketm.net/dam/a/3b1/21f0aa08-a149-4823-b3be-a1563b4a63b1_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "The Rocky Horror Picture Show Spooktacular Tour with Barry Bostwick",
       "date": "2026-10-26",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/marilyn-manson-live-in-los-angeles-los-angeles-california-11-01-2026/event/09006466890C7815",
       "image": "https://s1.ticketm.net/dam/a/4af/cc237a20-4d53-49e4-8f1b-30f38caec4af_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Todd Rundgren",
+      "date": "2026-11-02",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/todd-rundgren-los-angeles-california-11-02-2026/event/090064D9E64B1A67",
+      "image": "https://s1.ticketm.net/dam/a/10c/d7303d2f-b6e8-4f0d-a456-902c4abfa10c_1251021_RECOMENDATION_16_9.jpg"
     }
   ]
 }
