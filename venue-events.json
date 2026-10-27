@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T20:50:12.160Z",
+  "generated": "2026-10-27T20:22:10.375Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Julia Wolf w/ Bee Blackwell",
-        "date": "2026-10-26",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8Az",
-        "image": "https://s1.ticketm.net/dam/a/7b7/f3401d4a-7a7f-439b-b0ad-c7dd659087b7_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "VOILA",
         "date": "2026-10-27",
         "time": "19:20:00",
@@ -116,6 +109,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZe_f",
         "image": "https://s1.ticketm.net/dam/a/a0c/16fb1c8d-79e1-42f9-befe-47d34d68ba0c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Nia Archives",
+        "date": "2026-11-06",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv73_",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
@@ -152,7 +152,7 @@
         "date": "2026-11-07",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/deathpact-w-jiqui-avalon-hollywood-tickets/14307674",
-        "image": "https://i.ticketweb.com/i/00/13/02/38/14_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/13/02/38/14_Edp.jpg?v=8"
       },
       {
         "name": "Riot Ten w/ Special Guest Codd Dubz + Joust B2B Mongrel",
@@ -162,18 +162,18 @@
         "image": "https://s1.ticketm.net/dam/a/19d/8d5fef9a-6cf3-4796-9b31-a1afcf43119d_1463971_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Reggaeton Rave",
+        "date": "2026-11-20",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/reggaeton-rave-avalon-hollywood-tickets/14404044",
+        "image": "https://s1.ticketm.net/dam/a/bf7/69698309-be3e-43a5-95ac-c161f19a7bf7_1499091_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Barely Alive w/ Luci",
         "date": "2026-11-21",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/barely-alive-w-luci-avalon-hollywood-tickets/14285004",
         "image": "https://s1.ticketm.net/dam/a/679/a1695f3e-b074-43cf-b23a-dc4038c46679_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Clawz w/ Dr Donk",
-        "date": "2026-11-25",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/clawz-w-dr-donk-avalon-hollywood-tickets/14312964",
-        "image": "https://i.ticketweb.com/i/00/13/02/92/54_Edp.jpg?v=7"
       }
     ],
     "The Novo": [
@@ -434,13 +434,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Gary Clark Jr.with special guest Xavier Lynn",
-        "date": "2026-10-26",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/gary-clark-jrwith-special-guest-xavier-los-angeles-california-10-26-2026/event/090064BACEC1C60F",
-        "image": "https://s1.ticketm.net/dam/a/f4c/ad97e28a-7c34-4c04-b7f8-46cddb0c3f4c_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Yesenia Then: Levántate Tour",
         "date": "2026-10-30",
         "time": "20:00:00",
@@ -488,17 +481,17 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/jorja-smith-los-angeles-california-11-14-2026/event/090064FDB2A38B1E",
         "image": "https://s1.ticketm.net/dam/a/16a/249ddf49-3dba-4a95-afb6-27a14cfa816a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "ASIM ALI TOUR 2.0 featuring Mickey Singh",
+        "date": "2026-11-21",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/asim-ali-tour-20-featuring-mickey-los-angeles-california-11-21-2026/event/090064E9DD6BCB66",
+        "image": "https://s1.ticketm.net/dam/a/656/0db9b1fc-6acc-4f8f-bd2d-3fd4a728e656_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
-      {
-        "name": "Tom Jones : Come Gather Round Tour",
-        "date": "2026-10-26",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
-        "image": "https://s1.ticketm.net/dam/a/dca/e3197c3f-db63-41c5-be46-f48e5c2d2dca_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Shaboozey w/ Carter Faith",
         "date": "2026-10-27",
@@ -540,6 +533,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/premium-uhf-livetoscreen-weird-al-yankovic-los-angeles-california-10-31-2026/event/090064D0CCEBCA0D",
         "image": null
+      },
+      {
+        "name": "Tom Jones : Come Gather Round Tour",
+        "date": "2026-11-04",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-11-04-2026/event/090064B43E17B4D1",
+        "image": "https://s1.ticketm.net/dam/a/dca/e3197c3f-db63-41c5-be46-f48e5c2d2dca_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "LOLA YOUNG - Everything Begins",
@@ -799,17 +799,10 @@
     "Beverly O'Neill Theater": [],
     "Levitt Pavilion": [
       {
-        "name": "Día De Los Muertos Community Arts Workshop #2",
-        "date": "2026-10-26",
-        "time": "16:00",
-        "url": "https://www.eventbrite.com/e/dia-de-los-muertos-community-arts-workshop-2-tickets-2002836803795",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193789240%2F405366306269%2F1%2Foriginal.20260917-211711?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bec899639c609abde08459d3fb89311d"
-      },
-      {
-        "name": "Dia De Los Muertos at MacAthur Park",
+        "name": "Dia De Los Muertos at MacArthur Park",
         "date": "2026-11-01",
         "time": "16:00",
-        "url": "https://www.eventbrite.com/e/dia-de-los-muertos-at-macathur-park-tickets-2001414109478",
+        "url": "https://www.eventbrite.com/e/dia-de-los-muertos-at-macarthur-park-tickets-2001414109478",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196519262%2F405366306269%2F1%2Foriginal.20261024-223215?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.497&fp-y=0.113&s=6097b09338714a78dfba542fd172a47b"
       },
       {
@@ -875,13 +868,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Monday All-Star Comedy 8:00PM",
-        "date": "2026-10-26",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1994592839877",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196480536%2F2989400506155%2F1%2Foriginal.20261023-234605?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e8dbd8c02511f62cf408eb0746e33faf"
-      },
-      {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-10-27",
         "time": "19:45",
@@ -928,7 +914,14 @@
         "date": "2026-10-30",
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/fright-night-at-the-laugh-factory-945pm-tickets-1994907701637",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196413355%2F2989400506155%2F1%2Foriginal.20261023-012726?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c27b5520ea48e6f7a15db07d1e58fa96"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196636515%2F2990051982791%2F1%2Foriginal.20261026-213820?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ff657076f0baacb68e705c6646f0c613"
+      },
+      {
+        "name": "Laugh Factory's Halloween Comedy Bash 7:30PM",
+        "date": "2026-10-31",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/laugh-factorys-halloween-comedy-bash-730pm-tickets-1995020256291",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195983072%2F2989400506155%2F1%2Foriginal.20261016-235920?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=87b94e788668b96ca0bc928f2e52540d"
       },
       {
         "name": "Ray Lau",
@@ -939,27 +932,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Orny Adams, Beth Stelling, Preacher Lawson, Jeff Dye, Eric Freedman and more TBA",
-        "date": "2026-10-26",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14340834",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Comedy and Cocktails ft. Bill Devlin, Murray Valeriano, Dwayne Perkins, Jeffrey Lewis, Jann Karam and more TBA",
-        "date": "2026-10-26",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/comedy-and-cocktails-ft-bill-hollywood-improv-the-lab-tickets/14315054",
-        "image": "https://s1.ticketm.net/dbimages/89390a.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. Deray Davis, G Thang, Clay Horwitz, Da Herm, Blaq Ron, Kevin Tate, & more",
-        "date": "2026-10-26",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14301174",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Tonight at the Improv ft. Jay Leno, Chelsea Handler, Chelsea Peretti, Craig Robinson, Brian Monarch, Leah Knauer and very special guests",
         "date": "2026-10-27",
@@ -989,14 +961,14 @@
         "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "All Jokes, No Filter ft. Kim McVicar, Angie Stroud, Kiki Andersen, Joseph Garcia, Ify Nwadiwe, Jay Light, Brian Monarch and more TBA and more TBA",
+        "name": "All Jokes, No Filter ft. Kim McVicar, Angie Stroud, Kiki Andersen, Joseph Garcia, Ify Nwadiwe, Jay Light, Brian Monarch and more TBA",
         "date": "2026-10-28",
         "time": "20:30:00",
         "url": "https://www.ticketweb.com/event/all-jokes-no-filter-ft-hollywood-improv-the-lab-tickets/14368744",
-        "image": "https://i.ticketweb.com/i/00/13/08/20/24_Edp.jpg?v=8"
+        "image": "https://i.ticketweb.com/i/00/13/08/20/24_Edp.jpg?v=9"
       },
       {
-        "name": "Tonight at the Improv ft. Sarah Silverman, Chelsea Handler, Anthony Jeselnik, Brian Monarch, Jeanne Whitney and Very Special Guests",
+        "name": "Tonight at the Improv ft. Sarah Silverman, Chelsea Handler, Anthony Jeselnik, Pete Holms,Brian Monarch, Jeanne Whitney and Very Special Guests",
         "date": "2026-10-29",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14301274",
@@ -1014,7 +986,7 @@
         "date": "2026-10-29",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/david-lucas-roast-therapy-hollywood-improv-the-main-room-tickets/14320074",
-        "image": "https://i.ticketweb.com/i/00/13/03/67/64_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/03/67/64_Edp.jpg?v=7"
       },
       {
         "name": "Queer Roast for the Straight Host ft. Andrew Stier, Joel Kim Booster, Adam Conover, Antonio Rosello, Paige Gallagher, Charlie James, Dylan Guerra, Sophia Sherman and more TBA",
@@ -1031,11 +1003,18 @@
         "image": "https://i.ticketweb.com/i/00/13/01/74/84_Edp.jpg?v=2"
       },
       {
-        "name": "Low & Inside ft. Radu Bondar, Aaron Brooks and more TBA",
+        "name": "Low & Inside ft. Devyn Perry, Dave Waite, John Hastings, Samuel Orson, Johana Coca, Steve Furey, Avra Friedman, Cooper Lyden, Kate Lav, Josh Edelman, Radu Bondar, Aaron Brooks and more TBA",
         "date": "2026-10-30",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/low-inside-ft-radu-hollywood-improv-the-lab-tickets/14329794",
-        "image": "https://i.ticketweb.com/i/00/13/04/60/74_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/low-inside-ft-devyn-hollywood-improv-the-lab-tickets/14329794",
+        "image": "https://i.ticketweb.com/i/00/13/04/60/74_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv ft. Steph Tolev, Sheng Wang, Craig Conant, Rick Ingraham, Gary Cannon, and more TBA",
+        "date": "2026-10-30",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14301294",
+        "image": "https://s1.ticketm.net/dam/a/f1e/66259d51-20d2-4611-9571-8ba4c99f0f1e_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Fictional Roast: Classic Movie Monsters ft. Sam Salem, Leah Knauer, Mike Menendez, Eddie Furth, Ryan Piggs, Keith Carey, Julian M Stern, Anyi Malik, Sarah Fatemi and TBA",
@@ -1043,6 +1022,27 @@
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/fictional-roast-classic-movie-monsters-hollywood-improv-the-lab-tickets/14337634",
         "image": "https://i.ticketweb.com/i/00/13/05/31/24_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv Halloween Show",
+        "date": "2026-10-31",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-halloween-hollywood-improv-the-main-room-tickets/14307144",
+        "image": "https://i.ticketweb.com/i/00/13/02/32/54_Edp.jpg?v=7"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-11-01",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14392464",
+        "image": "https://i.ticketweb.com/i/00/13/10/72/14_Edp.jpg?v=2"
+      },
+      {
+        "name": "Comedy Mayhem ft. Frankie Quinones, Allie Pearse, Sam Morrison, Flula Borg, Mike Falzone, Pardis Parker, Justin Herman",
+        "date": "2026-11-01",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/comedy-mayhem-ft-frankie-quinones-hollywood-improv-the-lab-tickets/14374024",
+        "image": "https://s1.ticketm.net/dam/a/5c6/6dd00db3-3bc5-4951-8615-c71573c515c6_RECOMENDATION_16_9.jpg"
       }
     ]
   }
