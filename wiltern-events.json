@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-27T19:48:30.467Z",
+  "generated": "2026-10-28T20:03:20.502Z",
   "events": [
-    {
-      "name": "CHIEF KEEF",
-      "date": "2026-10-27",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/chief-keef-los-angeles-california-10-27-2026/event/090064E1B5B0905D",
-      "image": "https://s1.ticketm.net/dam/a/113/a6487484-f2b3-4bca-a28b-32f016487113_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Lenny Pearce - Toddler Rave World Tour",
       "date": "2026-10-28",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/jose-madero-usa-tour-2026-los-angeles-california-11-03-2026/event/090064D2E9B5F1D1",
       "image": "https://s1.ticketm.net/dam/a/5e2/83e20271-2959-4544-87fc-ab93087cc5e2_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "ALVARO DIAZ - OMAKASE TOUR",
+      "date": "2026-11-05",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/alvaro-diaz-omakase-tour-los-angeles-california-11-05-2026/event/090064C5BD3B14A4",
+      "image": "https://s1.ticketm.net/dam/a/ec7/6f135f59-6390-4875-9a44-85a157b66ec7_RECOMENDATION_16_9.jpg"
     }
   ]
 }
