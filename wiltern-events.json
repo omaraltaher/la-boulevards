@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-28T20:03:20.502Z",
+  "generated": "2026-10-29T20:02:57.336Z",
   "events": [
-    {
-      "name": "Lenny Pearce - Toddler Rave World Tour",
-      "date": "2026-10-28",
-      "time": "17:00:00",
-      "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-los-angeles-california-10-28-2026/event/090064C9F08E749C",
-      "image": "https://s1.ticketm.net/dam/a/b0f/179e3fee-6a4e-4a3c-8017-de6ba086eb0f_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Slow Pulp",
       "date": "2026-10-29",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/alvaro-diaz-omakase-tour-los-angeles-california-11-05-2026/event/090064C5BD3B14A4",
       "image": "https://s1.ticketm.net/dam/a/ec7/6f135f59-6390-4875-9a44-85a157b66ec7_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Bad Gyal - Más Cara World Tour 2026",
+      "date": "2026-11-06",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/bad-gyal-mas-cara-world-tour-los-angeles-california-11-06-2026/event/09006496E00B9EAF",
+      "image": "https://s1.ticketm.net/dam/a/a53/0513f2a5-a57f-4350-928b-4c114ab8ca53_RECOMENDATION_16_9.jpg"
     }
   ]
 }
