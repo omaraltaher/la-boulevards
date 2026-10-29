@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T20:43:40.190Z",
+  "generated": "2026-10-29T20:47:32.503Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -494,13 +494,6 @@
     "Greek Theatre": [
       {
         "name": "Malcolm Todd: Do That Again Tour",
-        "date": "2026-10-28",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-28-2026/event/090064C3B5A6FC88",
-        "image": "https://s1.ticketm.net/dam/a/237/2144a2e6-e59d-4ed1-8ae7-ea630b1f4237_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Malcolm Todd: Do That Again Tour",
         "date": "2026-10-29",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-29-2026/event/090064C591D293A2",
@@ -547,6 +540,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/damien-rice-o-25th-anniversary-tour-los-angeles-california-05-25-2027/event/09006549AAA9A6FF",
         "image": "https://s1.ticketm.net/dbimages/185752a.jpg"
+      },
+      {
+        "name": "Two Feet",
+        "date": "2027-06-26",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/two-feet-los-angeles-california-06-26-2027/event/0900652997806748",
+        "image": "https://s1.ticketm.net/dam/a/aef/829d0cad-24cb-45f1-a672-72dbaadf8aef_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -698,25 +698,25 @@
         "image": "https://s1.ticketm.net/dam/a/7a8/3cd7c56b-1724-4347-9e8e-d6c3287e37a8_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "ALOK: Eat Pray Leave Tour",
-        "date": "2027-03-10",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/alok-eat-pray-leave-tour-los-angeles-california-03-10-2027/event/090064CB7BC63F7B",
-        "image": "https://s1.ticketm.net/dam/a/365/2ed4d0bf-fbd5-4429-a335-75e84f5d7365_RECOMENDATION_16_9.jpg"
+        "name": "Test - Ashley Kamphaus",
+        "date": "2026-11-25",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-25-2026/event/0900655CD4A60CF2",
+        "image": "https://s1.ticketm.net/dbimages/186776a.jpg"
       },
       {
-        "name": "Michelle Wolf: Best Job in the World",
-        "date": "2027-04-01",
+        "name": "Test - Ashley Kamphaus",
+        "date": "2026-11-26",
         "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/michelle-wolf-best-job-in-the-los-angeles-california-04-01-2027/event/09006528B26C8AF1",
-        "image": "https://s1.ticketm.net/dam/a/11e/a0046ab5-a10e-414f-89fb-4c7128b7d11e_RECOMENDATION_16_9.jpg"
+        "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-26-2026/event/0900655CD4A90CF9",
+        "image": "https://s1.ticketm.net/dbimages/186776a.jpg"
       },
       {
-        "name": "Peter Antoniou: Brain Teaser",
-        "date": "2027-04-02",
+        "name": "Test - Ashley Kamphaus",
+        "date": "2026-11-27",
         "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/peter-antoniou-brain-teaser-los-angeles-california-04-02-2027/event/09006538816543BD",
-        "image": "https://s1.ticketm.net/dam/a/bd5/adb29c86-51da-46b8-8f68-5cd7144a4bd5_RECOMENDATION_16_9.jpg"
+        "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-27-2026/event/0900655CD4AC0D06",
+        "image": "https://s1.ticketm.net/dbimages/186776a.jpg"
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
@@ -868,20 +868,6 @@
     "The Comedy Store": [],
     "Laugh Factory": [
       {
-        "name": "Wednesday All-Star Comedy 7:30 PM",
-        "date": "2026-10-28",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1994595457707",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196794734%2F2989400506155%2F1%2Foriginal.20261028-185113?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=84ad4bed51e5703b9874a8db87ce3d76"
-      },
-      {
-        "name": "Massey Brothers Costume Comedy Jam 10:00PM",
-        "date": "2026-10-28",
-        "time": "22:00",
-        "url": "https://www.eventbrite.com/e/massey-brothers-costume-comedy-jam-1000pm-tickets-1994718960106",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196728765%2F2989400506155%2F1%2Foriginal.20261027-225818?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0a2da24e960c19bf8a219d70cb80f02f"
-      },
-      {
         "name": "Late Night with King Bo 7:30PM",
         "date": "2026-10-29",
         "time": "19:30",
@@ -900,7 +886,7 @@
         "date": "2026-10-30",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/no-tricks-just-laughs-halloween-comedy-730pm-tickets-1994900450950",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195983054%2F2989400506155%2F1%2Foriginal.20261016-235905?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2df8db7b9a702fc4d5706d1813038f5d"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196810026%2F2989400506155%2F1%2Foriginal.20261028-214744?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4c200fc0a61d525e365360841fd092ca"
       },
       {
         "name": "Fright Night at the Laugh Factory 9:45PM",
@@ -914,14 +900,28 @@
         "date": "2026-10-31",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/laugh-factorys-halloween-comedy-bash-730pm-tickets-1995020256291",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195983072%2F2989400506155%2F1%2Foriginal.20261016-235920?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=87b94e788668b96ca0bc928f2e52540d"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196822399%2F2989400506155%2F1%2Foriginal.20261029-012831?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5d5d5cbde40a4ee5c5af0b1ea98cf205"
       },
       {
         "name": "Laugh Factory's Halloween Comedy Bash 9:45PM",
         "date": "2026-10-31",
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/laugh-factorys-halloween-comedy-bash-945pm-tickets-1995021733710",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195983079%2F2989400506155%2F1%2Foriginal.20261016-235923?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c0f681806be5df094fac253ccff7104b"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196815373%2F2989400506155%2F1%2Foriginal.20261028-231401?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cb7fb3d9dbd5bf6be01cb478054a2beb"
+      },
+      {
+        "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
+        "date": "2026-11-01",
+        "time": "19:00",
+        "url": "https://www.eventbrite.com/e/pookey-wigington-presents-chocolate-sundaes-700pm-tickets-1998440163325",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
+      },
+      {
+        "name": "Pookey Wigington Presents: Chocolate Sundaes 9:30PM",
+        "date": "2026-11-01",
+        "time": "21:30",
+        "url": "https://www.eventbrite.com/e/pookey-wigington-presents-chocolate-sundaes-930pm-tickets-1998440970740",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
         "name": "Ray Lau",
@@ -932,20 +932,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Amir K Headlines The Improv ft. Maz Jobrani, Bobby U, Gary Cannon",
-        "date": "2026-10-28",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/amir-k-headlines-the-improv-hollywood-improv-the-main-room-tickets/14287004",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "All Jokes, No Filter ft. Kim McVicar, Angie Stroud, Kiki Andersen, Joseph Garcia, Ify Nwadiwe, Jay Light, Brian Monarch and more TBA",
-        "date": "2026-10-28",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/all-jokes-no-filter-ft-hollywood-improv-the-lab-tickets/14368744",
-        "image": "https://i.ticketweb.com/i/00/13/08/20/24_Edp.jpg?v=9"
-      },
       {
         "name": "Tonight at the Improv ft. Sarah Silverman, Chelsea Handler, Anthony Jeselnik, Pete Holms,Brian Monarch, Jeanne Whitney and Very Special Guests",
         "date": "2026-10-29",
@@ -968,14 +954,14 @@
         "image": "https://i.ticketweb.com/i/00/13/03/67/64_Edp.jpg?v=7"
       },
       {
-        "name": "Queer Roast for the Straight Host ft. Andrew Stier, Joel Kim Booster, Adam Conover, Antonio Rosello, Paige Gallagher, Charlie James, Dylan Guerra, Sophia Sherman and more TBA",
+        "name": "Queer Roast for the Straight Host ft. Andrew Stier, Joel Kim Booster, Adam Conover, Paige Gallagher, Charlie James, Dylan Guerra, Sophia Sherman and more TBA",
         "date": "2026-10-29",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/queer-roast-for-the-straight-hollywood-improv-the-lab-tickets/14356864",
         "image": "https://s1.ticketm.net/dam/a/8dc/8dc028fe-86e3-406d-888b-f0213de3b8dc_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Cristela Alonzo, Lara Beitz, Ian Bagg, Orny Adams & more TBA",
+        "name": "Tonight at the Improv ft. Cristela Alonzo, Lara Beitz, Ian Bagg, Orny Adams, Greg Fitzsimmons & more TBA",
         "date": "2026-10-30",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14301284",
@@ -1010,7 +996,7 @@
         "image": "https://s1.ticketm.net/dam/a/ca0/1f5b6d32-ff79-4568-be1b-08ae5b1e4ca0_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Rene Vaca, Cristela Alonzo, Kevin Sullivan, Finesse Mitchell, Gary Cannon and more TBA",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Rene Vaca, Cristela Alonzo, Kevin Sullivan, Finesse Mitchell, Jared Goldstein, Gary Cannon and more TBA",
         "date": "2026-11-01",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14392464",
@@ -1043,6 +1029,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340904",
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-11-02",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14366824",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       }
     ]
   }
