@@ -1,13 +1,6 @@
 {
-  "generated": "2026-10-30T19:50:30.424Z",
+  "generated": "2026-10-31T19:04:53.932Z",
   "events": [
-    {
-      "name": "Daði Freyr",
-      "date": "2026-10-30",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/dai-freyr-los-angeles-california-10-30-2026/event/090064761D110CC9",
-      "image": "https://s1.ticketm.net/dam/a/124/20ba9f0d-d63e-46da-b014-861c050a0124_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Marilyn Manson: Live in Los Angeles",
       "date": "2026-10-31",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/gnarls-barkley-to-whom-it-still-los-angeles-california-11-07-2026/event/0900653083904368",
       "image": "https://s1.ticketm.net/dam/a/b1c/ecd3dbff-f48d-4078-84a4-8d1ba1311b1c_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Buena Vista Orchestra",
+      "date": "2026-11-08",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/buena-vista-orchestra-los-angeles-california-11-08-2026/event/090064A124716910",
+      "image": "https://s1.ticketm.net/dam/a/fd6/a4a8431d-f2a0-4756-8ff7-adbeee16bfd6_RECOMENDATION_16_9.jpg"
     }
   ]
 }
