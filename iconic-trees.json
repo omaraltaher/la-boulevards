@@ -1,6 +1,134 @@
 {
-  "generated": "2026-10-01T18:17:16.493Z",
+  "generated": "2026-11-01T17:48:51.719Z",
   "trees": [
+    {
+      "lat": 34.1006,
+      "lon": -118.2896,
+      "species": "Jacaranda",
+      "date": "2026-10-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757949071/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411966665"
+    },
+    {
+      "lat": 34.0526,
+      "lon": -118.3201,
+      "species": "Jacaranda",
+      "date": "2026-10-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757791321/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411885549"
+    },
+    {
+      "lat": 33.8275,
+      "lon": -118.0981,
+      "species": "Jacaranda",
+      "date": "2026-10-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/756889050/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411435743"
+    },
+    {
+      "lat": 33.8385,
+      "lon": -117.8921,
+      "species": "Jacaranda",
+      "date": "2026-10-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/755701502/small.jpg",
+      "url": "https://www.inaturalist.org/observations/410850473"
+    },
+    {
+      "lat": 34.1154,
+      "lon": -118.2116,
+      "species": "Jacaranda",
+      "date": "2026-10-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/755218299/small.jpg",
+      "url": "https://www.inaturalist.org/observations/410615290"
+    },
+    {
+      "lat": 34.189,
+      "lon": -118.5356,
+      "species": "Jacaranda",
+      "date": "2026-10-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/756220486/small.jpg",
+      "url": "https://www.inaturalist.org/observations/410610002"
+    },
+    {
+      "lat": 34.1418,
+      "lon": -118.3236,
+      "species": "Jacaranda",
+      "date": "2026-10-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/754419403/small.jpg",
+      "url": "https://www.inaturalist.org/observations/410222345"
+    },
+    {
+      "lat": 33.8369,
+      "lon": -118.3407,
+      "species": "Jacaranda",
+      "date": "2026-10-22",
+      "photo": "https://static.inaturalist.org/photos/754300526/small.jpg",
+      "url": "https://www.inaturalist.org/observations/410167048"
+    },
+    {
+      "lat": 33.9324,
+      "lon": -118.0067,
+      "species": "Jacaranda",
+      "date": "2026-10-21",
+      "photo": "https://static.inaturalist.org/photos/753757852/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409896282"
+    },
+    {
+      "lat": 34.4029,
+      "lon": -118.5699,
+      "species": "Jacaranda",
+      "date": "2026-10-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/754353927/small.jpg",
+      "url": "https://www.inaturalist.org/observations/410192141"
+    },
+    {
+      "lat": 34.1578,
+      "lon": -118.3121,
+      "species": "Jacaranda",
+      "date": "2026-10-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/751829584/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408954158"
+    },
+    {
+      "lat": 34.0992,
+      "lon": -118.2011,
+      "species": "Jacaranda",
+      "date": "2026-10-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/750563566/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408328005"
+    },
+    {
+      "lat": 34.1724,
+      "lon": -118.5152,
+      "species": "Jacaranda",
+      "date": "2026-10-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/749530851/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407826166"
+    },
+    {
+      "lat": 34.135,
+      "lon": -118.2829,
+      "species": "Jacaranda",
+      "date": "2026-10-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/745646469/small.jpg",
+      "url": "https://www.inaturalist.org/observations/405903470"
+    },
+    {
+      "lat": 34.0655,
+      "lon": -118.444,
+      "species": "Jacaranda",
+      "date": "2026-10-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/746732328/small.jpg",
+      "url": "https://www.inaturalist.org/observations/406439938"
+    },
+    {
+      "lat": 33.9076,
+      "lon": -117.9369,
+      "species": "Jacaranda",
+      "date": "2026-10-01",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/743981687/small.jpg",
+      "url": "https://www.inaturalist.org/observations/405076891"
+    },
     {
       "lat": 34.0367,
       "lon": -118.0601,
@@ -8,6 +136,14 @@
       "date": "2026-09-28",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/742979518/small.jpg",
       "url": "https://www.inaturalist.org/observations/404570943"
+    },
+    {
+      "lat": 34.124,
+      "lon": -118.2544,
+      "species": "Jacaranda",
+      "date": "2026-09-28",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/747963368/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407054478"
     },
     {
       "lat": 34.0228,
@@ -32,6 +168,14 @@
       "date": "2026-09-21",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/738647400/small.jpg",
       "url": "https://www.inaturalist.org/observations/402366278"
+    },
+    {
+      "lat": 34.1106,
+      "lon": -118.2729,
+      "species": "Jacaranda",
+      "date": "2026-09-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/753168459/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409608261"
     },
     {
       "lat": 34.0685,
@@ -66,12 +210,12 @@
       "url": "https://www.inaturalist.org/observations/401293223"
     },
     {
-      "lat": 34.0991,
-      "lon": -118.2009,
+      "lat": 34.046,
+      "lon": -118.2581,
       "species": "Jacaranda",
       "date": "2026-09-17",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/735982194/small.jpg",
-      "url": "https://www.inaturalist.org/observations/401013060"
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/735933386/small.jpg",
+      "url": "https://www.inaturalist.org/observations/400987852"
     },
     {
       "lat": 34.0615,
@@ -88,14 +232,6 @@
       "date": "2026-09-16",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/735685329/small.jpg",
       "url": "https://www.inaturalist.org/observations/400863864"
-    },
-    {
-      "lat": 34.1083,
-      "lon": -118.2896,
-      "species": "Jacaranda",
-      "date": "2026-09-16",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/735406221/small.jpg",
-      "url": "https://www.inaturalist.org/observations/400724394"
     },
     {
       "lat": 34.1055,
@@ -154,14 +290,6 @@
       "url": "https://www.inaturalist.org/observations/396266789"
     },
     {
-      "lat": 34.1288,
-      "lon": -118.2114,
-      "species": "Jacaranda",
-      "date": "2026-08-31",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/726499029/small.jpg",
-      "url": "https://www.inaturalist.org/observations/396167750"
-    },
-    {
       "lat": 33.7865,
       "lon": -117.8296,
       "species": "Jacaranda",
@@ -192,14 +320,6 @@
       "date": "2026-08-16",
       "photo": "https://static.inaturalist.org/photos/717992983/small.jpg",
       "url": "https://www.inaturalist.org/observations/391823320"
-    },
-    {
-      "lat": 34.0521,
-      "lon": -118.4321,
-      "species": "Jacaranda",
-      "date": "2026-08-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/717406270/small.jpg",
-      "url": "https://www.inaturalist.org/observations/391517067"
     },
     {
       "lat": 34.1405,
@@ -280,14 +400,6 @@
       "date": "2026-08-03",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/710693101/small.jpg",
       "url": "https://www.inaturalist.org/observations/388069313"
-    },
-    {
-      "lat": 34.0457,
-      "lon": -118.2617,
-      "species": "Jacaranda",
-      "date": "2026-08-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/710410217/small.jpg",
-      "url": "https://www.inaturalist.org/observations/387924866"
     },
     {
       "lat": 34.0508,
@@ -562,14 +674,6 @@
       "url": "https://www.inaturalist.org/observations/366752427"
     },
     {
-      "lat": 34.1303,
-      "lon": -118.3192,
-      "species": "Jacaranda",
-      "date": "2026-05-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/669643377/small.jpg",
-      "url": "https://www.inaturalist.org/observations/366723274"
-    },
-    {
       "lat": 34.1289,
       "lon": -118.4069,
       "species": "Jacaranda",
@@ -826,14 +930,6 @@
       "url": "https://www.inaturalist.org/observations/358952388"
     },
     {
-      "lat": 34.1111,
-      "lon": -118.2763,
-      "species": "Jacaranda",
-      "date": "2026-05-05",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/711872738/small.jpg",
-      "url": "https://www.inaturalist.org/observations/388669607"
-    },
-    {
       "lat": 34.1637,
       "lon": -118.2399,
       "species": "Jacaranda",
@@ -882,8 +978,8 @@
       "url": "https://www.inaturalist.org/observations/362192268"
     },
     {
-      "lat": 34.1281,
-      "lon": -118.2592,
+      "lat": 34.012,
+      "lon": -118.3386,
       "species": "Jacaranda",
       "date": "2026-05-02",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/651956796/small.jpg",
@@ -1056,14 +1152,6 @@
       "date": "2026-04-21",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/642183659/small.jpg",
       "url": "https://www.inaturalist.org/observations/351873669"
-    },
-    {
-      "lat": 33.8369,
-      "lon": -118.3407,
-      "species": "Jacaranda",
-      "date": "2026-04-19",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/641145945/small.jpg",
-      "url": "https://www.inaturalist.org/observations/351344090"
     },
     {
       "lat": 34.2321,
@@ -1622,7 +1710,7 @@
       "lon": -117.6529,
       "species": "Jacaranda",
       "date": "2025-10-02",
-      "photo": "https://static.inaturalist.org/photos/575219043/small.jpg",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/575219043/small.jpg",
       "url": "https://www.inaturalist.org/observations/318283322"
     },
     {
@@ -2194,14 +2282,6 @@
       "url": "https://www.inaturalist.org/observations/282462561"
     },
     {
-      "lat": 33.8187,
-      "lon": -118.1035,
-      "species": "Jacaranda",
-      "date": "2025-04-29",
-      "photo": "https://static.inaturalist.org/photos/498481219/small.jpg",
-      "url": "https://www.inaturalist.org/observations/277612469"
-    },
-    {
       "lat": 33.8027,
       "lon": -118.0266,
       "species": "Jacaranda",
@@ -2322,14 +2402,6 @@
       "url": "https://www.inaturalist.org/observations/252981521"
     },
     {
-      "lat": 33.9007,
-      "lon": -117.9418,
-      "species": "Jacaranda",
-      "date": "2024-11-24",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/454596471/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/253843750"
-    },
-    {
       "lat": 34.2478,
       "lon": -118.4808,
       "species": "Jacaranda",
@@ -2448,14 +2520,6 @@
       "date": "2024-08-06",
       "photo": "https://static.inaturalist.org/photos/416233710/small.jpeg",
       "url": "https://www.inaturalist.org/observations/234160794"
-    },
-    {
-      "lat": 34.0283,
-      "lon": -118.3339,
-      "species": "Jacaranda",
-      "date": "2024-07-30",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/413541130/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/232748626"
     },
     {
       "lat": 33.881,
@@ -3578,14 +3642,6 @@
       "url": "https://www.inaturalist.org/observations/84223998"
     },
     {
-      "lat": 34.07,
-      "lon": -118.3177,
-      "species": "Jacaranda",
-      "date": "2021-06-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/136652660/small.jpg",
-      "url": "https://www.inaturalist.org/observations/83216435"
-    },
-    {
       "lat": 34.1323,
       "lon": -117.829,
       "species": "Jacaranda",
@@ -3728,14 +3784,6 @@
       "date": "2021-04-23",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/122610649/small.jpeg",
       "url": "https://www.inaturalist.org/observations/74979526"
-    },
-    {
-      "lat": 34.1519,
-      "lon": -118.3163,
-      "species": "Jacaranda",
-      "date": "2021-04-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/122577265/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/74959971"
     },
     {
       "lat": 34.0554,
@@ -4410,14 +4458,6 @@
       "url": "https://www.inaturalist.org/observations/15337808"
     },
     {
-      "lat": 34.1771,
-      "lon": -118.5386,
-      "species": "Jacaranda",
-      "date": "2018-05-22",
-      "photo": "https://static.inaturalist.org/photos/18437491/small.jpg",
-      "url": "https://www.inaturalist.org/observations/12729731"
-    },
-    {
       "lat": 33.8916,
       "lon": -117.8057,
       "species": "Jacaranda",
@@ -4562,6 +4602,38 @@
       "url": "http://www.inaturalist.org/observations/3491499"
     },
     {
+      "lat": 34.0202,
+      "lon": -118.3607,
+      "species": "Coral Tree",
+      "date": "2026-10-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/758138383/small.jpg",
+      "url": "https://www.inaturalist.org/observations/412060134"
+    },
+    {
+      "lat": 34.0501,
+      "lon": -118.4831,
+      "species": "Coral Tree",
+      "date": "2026-10-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/752493842/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409281442"
+    },
+    {
+      "lat": 34.0366,
+      "lon": -118.506,
+      "species": "Coral Tree",
+      "date": "2026-10-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/752476004/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409272480"
+    },
+    {
+      "lat": 33.8559,
+      "lon": -118.3774,
+      "species": "Coral Tree",
+      "date": "2026-10-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/751863926/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408971202"
+    },
+    {
       "lat": 34.139,
       "lon": -118.1986,
       "species": "Coral Tree",
@@ -4576,22 +4648,6 @@
       "date": "2026-09-18",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/743097216/small.jpg",
       "url": "https://www.inaturalist.org/observations/404628579"
-    },
-    {
-      "lat": 34.0517,
-      "lon": -118.4751,
-      "species": "Coral Tree",
-      "date": "2026-09-11",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/732704199/small.jpg",
-      "url": "https://www.inaturalist.org/observations/399366391"
-    },
-    {
-      "lat": 34.0485,
-      "lon": -118.4917,
-      "species": "Coral Tree",
-      "date": "2026-09-11",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/732701448/small.jpg",
-      "url": "https://www.inaturalist.org/observations/399365000"
     },
     {
       "lat": 34.0091,
@@ -4776,14 +4832,6 @@
       "date": "2025-04-18",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/567661887/small.jpg",
       "url": "https://www.inaturalist.org/observations/314292532"
-    },
-    {
-      "lat": 33.8566,
-      "lon": -118.3763,
-      "species": "Coral Tree",
-      "date": "2025-04-15",
-      "photo": "https://static.inaturalist.org/photos/486865208/small.jpg",
-      "url": "https://www.inaturalist.org/observations/270704378"
     },
     {
       "lat": 34.3632,
@@ -5238,7 +5286,7 @@
       "lon": -118.383,
       "species": "Coral Tree",
       "date": "2023-04-13",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/331844930/small.jpeg",
+      "photo": "https://static.inaturalist.org/photos/331844930/small.jpeg",
       "url": "https://www.inaturalist.org/observations/189438391"
     },
     {
@@ -5602,14 +5650,6 @@
       "url": "https://www.inaturalist.org/observations/63587527"
     },
     {
-      "lat": 34.0203,
-      "lon": -118.3607,
-      "species": "Coral Tree",
-      "date": "2020-04-14",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/68165151/small.jpg",
-      "url": "https://www.inaturalist.org/observations/42927518"
-    },
-    {
       "lat": 34.0145,
       "lon": -118.3314,
       "species": "Coral Tree",
@@ -5658,6 +5698,374 @@
       "url": "https://www.inaturalist.org/observations/11708852"
     },
     {
+      "lat": 34.0249,
+      "lon": -118.3771,
+      "species": "Washington Palm",
+      "date": "2026-10-31",
+      "photo": "https://static.inaturalist.org/photos/758175708/small.jpg",
+      "url": "https://www.inaturalist.org/observations/412078969"
+    },
+    {
+      "lat": 34.1451,
+      "lon": -118.408,
+      "species": "Washington Palm",
+      "date": "2026-10-31",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/758149938/small.jpg",
+      "url": "https://www.inaturalist.org/observations/412065511"
+    },
+    {
+      "lat": 34.2834,
+      "lon": -118.5639,
+      "species": "Washington Palm",
+      "date": "2026-10-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757772471/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411875868"
+    },
+    {
+      "lat": 33.7113,
+      "lon": -118.0615,
+      "species": "Washington Palm",
+      "date": "2026-10-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757588849/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411786304"
+    },
+    {
+      "lat": 34.4013,
+      "lon": -118.5596,
+      "species": "Washington Palm",
+      "date": "2026-10-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757396916/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411689839"
+    },
+    {
+      "lat": 34.1404,
+      "lon": -118.4683,
+      "species": "Washington Palm",
+      "date": "2026-10-29",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757296185/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411637783"
+    },
+    {
+      "lat": 34.1722,
+      "lon": -118.527,
+      "species": "Washington Palm",
+      "date": "2026-10-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/756551772/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411269653"
+    },
+    {
+      "lat": 33.8954,
+      "lon": -117.9749,
+      "species": "Washington Palm",
+      "date": "2026-10-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757195812/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411590684"
+    },
+    {
+      "lat": 33.9456,
+      "lon": -118.1634,
+      "species": "Washington Palm",
+      "date": "2026-10-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/756418664/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411204113"
+    },
+    {
+      "lat": 34.3095,
+      "lon": -118.412,
+      "species": "Washington Palm",
+      "date": "2026-10-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/756610329/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411297761"
+    },
+    {
+      "lat": 33.7634,
+      "lon": -118.203,
+      "species": "Washington Palm",
+      "date": "2026-10-27",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757180681/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411580886"
+    },
+    {
+      "lat": 34.1827,
+      "lon": -118.9439,
+      "species": "Washington Palm",
+      "date": "2026-10-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/756227889/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411108080"
+    },
+    {
+      "lat": 34.2144,
+      "lon": -118.9103,
+      "species": "Washington Palm",
+      "date": "2026-10-26",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/756222442/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411106457"
+    },
+    {
+      "lat": 34.0194,
+      "lon": -118.4978,
+      "species": "Washington Palm",
+      "date": "2026-10-25",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/756127481/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411060367"
+    },
+    {
+      "lat": 33.9826,
+      "lon": -118.082,
+      "species": "Washington Palm",
+      "date": "2026-10-25",
+      "photo": "https://static.inaturalist.org/photos/755728007/small.jpg",
+      "url": "https://www.inaturalist.org/observations/410862974"
+    },
+    {
+      "lat": 34.6234,
+      "lon": -118.1856,
+      "species": "Washington Palm",
+      "date": "2026-10-24",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/755313051/small.jpg",
+      "url": "https://www.inaturalist.org/observations/410658836"
+    },
+    {
+      "lat": 34.095,
+      "lon": -118.2177,
+      "species": "Washington Palm",
+      "date": "2026-10-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/753388558/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409714269"
+    },
+    {
+      "lat": 33.9952,
+      "lon": -118.0736,
+      "species": "Washington Palm",
+      "date": "2026-10-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/753447504/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409742683"
+    },
+    {
+      "lat": 34.1956,
+      "lon": -118.6655,
+      "species": "Washington Palm",
+      "date": "2026-10-18",
+      "photo": "https://static.inaturalist.org/photos/752665333/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409325922"
+    },
+    {
+      "lat": 33.7452,
+      "lon": -117.6685,
+      "species": "Washington Palm",
+      "date": "2026-10-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/752562323/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409314770"
+    },
+    {
+      "lat": 34.1071,
+      "lon": -117.7722,
+      "species": "Washington Palm",
+      "date": "2026-10-18",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/752545211/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409305949"
+    },
+    {
+      "lat": 34.0496,
+      "lon": -118.0714,
+      "species": "Washington Palm",
+      "date": "2026-10-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/752120823/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409096079"
+    },
+    {
+      "lat": 34.1385,
+      "lon": -118.0204,
+      "species": "Washington Palm",
+      "date": "2026-10-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/751822522/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408950473"
+    },
+    {
+      "lat": 34.0285,
+      "lon": -118.0732,
+      "species": "Washington Palm",
+      "date": "2026-10-16",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/751627510/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408852252"
+    },
+    {
+      "lat": 34.076,
+      "lon": -117.8677,
+      "species": "Washington Palm",
+      "date": "2026-10-15",
+      "photo": "https://static.inaturalist.org/photos/754221569/small.jpg",
+      "url": "https://www.inaturalist.org/observations/410126654"
+    },
+    {
+      "lat": 34.2012,
+      "lon": -118.5384,
+      "species": "Washington Palm",
+      "date": "2026-10-15",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/751100773/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408590227"
+    },
+    {
+      "lat": 34.0867,
+      "lon": -118.217,
+      "species": "Washington Palm",
+      "date": "2026-10-14",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/750579327/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408335457"
+    },
+    {
+      "lat": 34.0913,
+      "lon": -117.8331,
+      "species": "Washington Palm",
+      "date": "2026-10-13",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/750160854/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408133523"
+    },
+    {
+      "lat": 34.0535,
+      "lon": -118.3225,
+      "species": "Washington Palm",
+      "date": "2026-10-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757790258/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411885064"
+    },
+    {
+      "lat": 34.2648,
+      "lon": -118.5614,
+      "species": "Washington Palm",
+      "date": "2026-10-12",
+      "photo": "https://static.inaturalist.org/photos/749716807/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407916157"
+    },
+    {
+      "lat": 34.2848,
+      "lon": -118.5298,
+      "species": "Washington Palm",
+      "date": "2026-10-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/749743406/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407929593"
+    },
+    {
+      "lat": 34.0921,
+      "lon": -117.8225,
+      "species": "Washington Palm",
+      "date": "2026-10-12",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/749629112/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407873213"
+    },
+    {
+      "lat": 33.9716,
+      "lon": -118.4505,
+      "species": "Washington Palm",
+      "date": "2026-10-11",
+      "photo": "https://static.inaturalist.org/photos/750229795/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408166309"
+    },
+    {
+      "lat": 33.7727,
+      "lon": -118.1328,
+      "species": "Washington Palm",
+      "date": "2026-10-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/749115907/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407624685"
+    },
+    {
+      "lat": 34.1307,
+      "lon": -117.7749,
+      "species": "Washington Palm",
+      "date": "2026-10-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/749306092/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407716347"
+    },
+    {
+      "lat": 33.8725,
+      "lon": -118.3658,
+      "species": "Washington Palm",
+      "date": "2026-10-11",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/749081927/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407607894"
+    },
+    {
+      "lat": 34.1277,
+      "lon": -118.3025,
+      "species": "Washington Palm",
+      "date": "2026-10-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757242266/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411611278"
+    },
+    {
+      "lat": 34.0429,
+      "lon": -117.9003,
+      "species": "Washington Palm",
+      "date": "2026-10-10",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/758233320/small.jpg",
+      "url": "https://www.inaturalist.org/observations/412106511"
+    },
+    {
+      "lat": 33.9303,
+      "lon": -118.396,
+      "species": "Washington Palm",
+      "date": "2026-10-09",
+      "photo": "https://static.inaturalist.org/photos/748024535/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407085842"
+    },
+    {
+      "lat": 34.6697,
+      "lon": -118.1592,
+      "species": "Washington Palm",
+      "date": "2026-10-06",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/749357467/small.jpg",
+      "url": "https://www.inaturalist.org/observations/407740160"
+    },
+    {
+      "lat": 34.0595,
+      "lon": -118.2463,
+      "species": "Washington Palm",
+      "date": "2026-10-06",
+      "photo": "https://static.inaturalist.org/photos/746751799/small.jpg",
+      "url": "https://www.inaturalist.org/observations/406448799"
+    },
+    {
+      "lat": 34.1799,
+      "lon": -118.4741,
+      "species": "Washington Palm",
+      "date": "2026-10-06",
+      "photo": "https://static.inaturalist.org/photos/747695053/small.jpg",
+      "url": "https://www.inaturalist.org/observations/406919484"
+    },
+    {
+      "lat": 34.1469,
+      "lon": -118.1644,
+      "species": "Washington Palm",
+      "date": "2026-10-03",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/744865791/small.jpg",
+      "url": "https://www.inaturalist.org/observations/405513949"
+    },
+    {
+      "lat": 34.0783,
+      "lon": -118.2888,
+      "species": "Washington Palm",
+      "date": "2026-10-02",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/744566084/small.jpg",
+      "url": "https://www.inaturalist.org/observations/405365000"
+    },
+    {
+      "lat": 34.1141,
+      "lon": -117.9494,
+      "species": "Washington Palm",
+      "date": "2026-10-01",
+      "photo": "https://static.inaturalist.org/photos/744063469/small.jpg",
+      "url": "https://www.inaturalist.org/observations/405112681"
+    },
+    {
+      "lat": 33.8704,
+      "lon": -117.9242,
+      "species": "Washington Palm",
+      "date": "2026-09-30",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/744650418/small.jpg",
+      "url": "https://www.inaturalist.org/observations/405406277"
+    },
+    {
       "lat": 33.846,
       "lon": -117.7452,
       "species": "Washington Palm",
@@ -5672,22 +6080,6 @@
       "date": "2026-09-30",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/743360636/small.jpg",
       "url": "https://www.inaturalist.org/observations/404762356"
-    },
-    {
-      "lat": 34.1351,
-      "lon": -117.771,
-      "species": "Washington Palm",
-      "date": "2026-09-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/743066529/small.jpg",
-      "url": "https://www.inaturalist.org/observations/404611243"
-    },
-    {
-      "lat": 33.8704,
-      "lon": -117.9242,
-      "species": "Washington Palm",
-      "date": "2026-09-29",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/742937167/small.jpg",
-      "url": "https://www.inaturalist.org/observations/404550194"
     },
     {
       "lat": 33.8068,
@@ -5728,6 +6120,14 @@
       "date": "2026-09-26",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/741405587/small.jpg",
       "url": "https://www.inaturalist.org/observations/403773485"
+    },
+    {
+      "lat": 34.0978,
+      "lon": -117.8573,
+      "species": "Washington Palm",
+      "date": "2026-09-26",
+      "photo": "https://static.inaturalist.org/photos/752460686/small.jpg",
+      "url": "https://www.inaturalist.org/observations/409263858"
     },
     {
       "lat": 33.8037,
@@ -5818,14 +6218,6 @@
       "url": "https://www.inaturalist.org/observations/402655504"
     },
     {
-      "lat": 34.1131,
-      "lon": -117.94,
-      "species": "Washington Palm",
-      "date": "2026-09-20",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/738552167/small.jpg",
-      "url": "https://www.inaturalist.org/observations/402319680"
-    },
-    {
       "lat": 34.0737,
       "lon": -118.2488,
       "species": "Washington Palm",
@@ -5842,20 +6234,20 @@
       "url": "https://www.inaturalist.org/observations/401396277"
     },
     {
-      "lat": 34.0158,
-      "lon": -118.4965,
-      "species": "Washington Palm",
-      "date": "2026-09-18",
-      "photo": "https://static.inaturalist.org/photos/736541169/small.jpg",
-      "url": "https://www.inaturalist.org/observations/401302823"
-    },
-    {
       "lat": 34.169,
       "lon": -118.4996,
       "species": "Washington Palm",
       "date": "2026-09-18",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/736554818/small.jpg",
       "url": "https://www.inaturalist.org/observations/401310254"
+    },
+    {
+      "lat": 34.0683,
+      "lon": -118.0062,
+      "species": "Washington Palm",
+      "date": "2026-09-17",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/745763080/small.jpg",
+      "url": "https://www.inaturalist.org/observations/405959653"
     },
     {
       "lat": 34.0568,
@@ -5896,14 +6288,6 @@
       "date": "2026-09-11",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/732831819/small.jpg",
       "url": "https://www.inaturalist.org/observations/399429113"
-    },
-    {
-      "lat": 33.7548,
-      "lon": -118.1957,
-      "species": "Washington Palm",
-      "date": "2026-09-10",
-      "photo": "https://static.inaturalist.org/photos/733486069/small.jpg",
-      "url": "https://www.inaturalist.org/observations/399104862"
     },
     {
       "lat": 33.9654,
@@ -5952,14 +6336,6 @@
       "date": "2026-09-07",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/730989377/small.jpg",
       "url": "https://www.inaturalist.org/observations/398218258"
-    },
-    {
-      "lat": 34.1092,
-      "lon": -117.771,
-      "species": "Washington Palm",
-      "date": "2026-09-07",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/730460457/small.jpg",
-      "url": "https://www.inaturalist.org/observations/398212117"
     },
     {
       "lat": 34.0956,
@@ -6040,14 +6416,6 @@
       "date": "2026-08-30",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/726117739/small.jpg",
       "url": "https://www.inaturalist.org/observations/395975553"
-    },
-    {
-      "lat": 34.0636,
-      "lon": -118.2495,
-      "species": "Washington Palm",
-      "date": "2026-08-30",
-      "photo": "https://static.inaturalist.org/photos/726077529/small.jpg",
-      "url": "https://www.inaturalist.org/observations/395955994"
     },
     {
       "lat": 34.1271,
@@ -6162,28 +6530,12 @@
       "url": "https://www.inaturalist.org/observations/391256472"
     },
     {
-      "lat": 34.0934,
-      "lon": -117.8211,
-      "species": "Washington Palm",
-      "date": "2026-08-12",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/716163285/small.jpg",
-      "url": "https://www.inaturalist.org/observations/390882734"
-    },
-    {
       "lat": 33.9846,
       "lon": -118.4419,
       "species": "Washington Palm",
       "date": "2026-08-09",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/714126223/small.jpg",
       "url": "https://www.inaturalist.org/observations/389839784"
-    },
-    {
-      "lat": 33.873,
-      "lon": -118.3632,
-      "species": "Washington Palm",
-      "date": "2026-08-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/713454632/small.jpg",
-      "url": "https://www.inaturalist.org/observations/389494528"
     },
     {
       "lat": 33.767,
@@ -6224,22 +6576,6 @@
       "date": "2026-08-05",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/711712126/small.jpg",
       "url": "https://www.inaturalist.org/observations/388588111"
-    },
-    {
-      "lat": 34.2937,
-      "lon": -118.4212,
-      "species": "Washington Palm",
-      "date": "2026-08-05",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/711513973/small.jpg",
-      "url": "https://www.inaturalist.org/observations/388486977"
-    },
-    {
-      "lat": 33.9799,
-      "lon": -118.4677,
-      "species": "Washington Palm",
-      "date": "2026-08-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/717861341/small.jpg",
-      "url": "https://www.inaturalist.org/observations/391751572"
     },
     {
       "lat": 34.0072,
@@ -6378,14 +6714,6 @@
       "url": "https://www.inaturalist.org/observations/380908102"
     },
     {
-      "lat": 34.1279,
-      "lon": -118.3022,
-      "species": "Washington Palm",
-      "date": "2026-07-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/695646452/small.jpg",
-      "url": "https://www.inaturalist.org/observations/380248199"
-    },
-    {
       "lat": 34.4175,
       "lon": -118.5634,
       "species": "Washington Palm",
@@ -6408,14 +6736,6 @@
       "date": "2026-06-30",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/694641854/small.jpg",
       "url": "https://www.inaturalist.org/observations/379733905"
-    },
-    {
-      "lat": 34.1794,
-      "lon": -118.4744,
-      "species": "Washington Palm",
-      "date": "2026-06-30",
-      "photo": "https://static.inaturalist.org/photos/689252046/small.jpg",
-      "url": "https://www.inaturalist.org/observations/376952518"
     },
     {
       "lat": 34.0176,
@@ -6466,6 +6786,14 @@
       "url": "https://www.inaturalist.org/observations/374621830"
     },
     {
+      "lat": 34.1037,
+      "lon": -118.3227,
+      "species": "Washington Palm",
+      "date": "2026-06-22",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/745647262/small.jpg",
+      "url": "https://www.inaturalist.org/observations/405903868"
+    },
+    {
       "lat": 34.6032,
       "lon": -118.6641,
       "species": "Washington Palm",
@@ -6512,14 +6840,6 @@
       "date": "2026-06-10",
       "photo": "https://static.inaturalist.org/photos/677345718/small.jpg",
       "url": "https://www.inaturalist.org/observations/370755925"
-    },
-    {
-      "lat": 34.0622,
-      "lon": -118.005,
-      "species": "Washington Palm",
-      "date": "2026-06-09",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/676834508/small.jpg",
-      "url": "https://www.inaturalist.org/observations/370495630"
     },
     {
       "lat": 34.284,
@@ -6592,30 +6912,6 @@
       "date": "2026-06-03",
       "photo": "https://static.inaturalist.org/photos/672230160/small.jpg",
       "url": "https://www.inaturalist.org/observations/368071769"
-    },
-    {
-      "lat": 34.1447,
-      "lon": -118.1657,
-      "species": "Washington Palm",
-      "date": "2026-06-02",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671982747/small.jpg",
-      "url": "https://www.inaturalist.org/observations/367941020"
-    },
-    {
-      "lat": 34.0834,
-      "lon": -118.2201,
-      "species": "Washington Palm",
-      "date": "2026-06-02",
-      "photo": "https://static.inaturalist.org/photos/671876485/small.jpg",
-      "url": "https://www.inaturalist.org/observations/367887381"
-    },
-    {
-      "lat": 34.0234,
-      "lon": -118.3774,
-      "species": "Washington Palm",
-      "date": "2026-06-01",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/671099647/small.jpg",
-      "url": "https://www.inaturalist.org/observations/367481154"
     },
     {
       "lat": 33.7117,
@@ -6746,8 +7042,8 @@
       "url": "https://www.inaturalist.org/observations/362514283"
     },
     {
-      "lat": 34.1543,
-      "lon": -118.2755,
+      "lat": 34.1639,
+      "lon": -118.207,
       "species": "Washington Palm",
       "date": "2026-05-13",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/659470536/small.jpg",
@@ -6978,14 +7274,6 @@
       "url": "https://www.inaturalist.org/observations/357317155"
     },
     {
-      "lat": 34.2801,
-      "lon": -118.5268,
-      "species": "Washington Palm",
-      "date": "2026-04-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/649219460/small.jpg",
-      "url": "https://www.inaturalist.org/observations/356005761"
-    },
-    {
       "lat": 34.0616,
       "lon": -118.7881,
       "species": "Washington Palm",
@@ -7040,14 +7328,6 @@
       "date": "2026-04-25",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645859964/small.jpg",
       "url": "https://www.inaturalist.org/observations/354007369"
-    },
-    {
-      "lat": 34.103,
-      "lon": -118.3238,
-      "species": "Washington Palm",
-      "date": "2026-04-25",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/645628735/small.jpg",
-      "url": "https://www.inaturalist.org/observations/353880968"
     },
     {
       "lat": 34.0437,
@@ -7200,6 +7480,14 @@
       "date": "2026-04-11",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/636803303/small.jpg",
       "url": "https://www.inaturalist.org/observations/349113876"
+    },
+    {
+      "lat": 34.1483,
+      "lon": -117.7401,
+      "species": "Washington Palm",
+      "date": "2026-04-10",
+      "photo": "https://static.inaturalist.org/photos/746784337/small.jpg",
+      "url": "https://www.inaturalist.org/observations/406472607"
     },
     {
       "lat": 34.0504,
@@ -7370,14 +7658,6 @@
       "url": "https://www.inaturalist.org/observations/343847535"
     },
     {
-      "lat": 33.9412,
-      "lon": -118.3942,
-      "species": "Washington Palm",
-      "date": "2026-03-17",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/625748005/small.jpg",
-      "url": "https://www.inaturalist.org/observations/343508972"
-    },
-    {
       "lat": 34.2539,
       "lon": -118.5169,
       "species": "Washington Palm",
@@ -7408,14 +7688,6 @@
       "date": "2026-03-14",
       "photo": "https://static.inaturalist.org/photos/624812183/small.jpg",
       "url": "https://www.inaturalist.org/observations/343048482"
-    },
-    {
-      "lat": 34.2773,
-      "lon": -118.5619,
-      "species": "Washington Palm",
-      "date": "2026-03-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/623153621/small.jpg",
-      "url": "https://www.inaturalist.org/observations/342218872"
     },
     {
       "lat": 33.9147,
@@ -7520,6 +7792,14 @@
       "date": "2026-02-20",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/617642237/small.jpg",
       "url": "https://www.inaturalist.org/observations/339514032"
+    },
+    {
+      "lat": 34.0689,
+      "lon": -118.3897,
+      "species": "Washington Palm",
+      "date": "2026-02-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/751289926/small.jpg",
+      "url": "https://www.inaturalist.org/observations/408684072"
     },
     {
       "lat": 33.9293,
@@ -7658,14 +7938,6 @@
       "url": "https://www.inaturalist.org/observations/334095533"
     },
     {
-      "lat": 34.2039,
-      "lon": -118.1978,
-      "species": "Washington Palm",
-      "date": "2025-12-27",
-      "photo": "https://static.inaturalist.org/photos/603142112/small.jpg",
-      "url": "https://www.inaturalist.org/observations/332355532"
-    },
-    {
       "lat": 33.9919,
       "lon": -118.4453,
       "species": "Washington Palm",
@@ -7722,6 +7994,22 @@
       "url": "https://www.inaturalist.org/observations/331471193"
     },
     {
+      "lat": 33.7249,
+      "lon": -118.2729,
+      "species": "Washington Palm",
+      "date": "2025-12-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/758434537/small.jpg",
+      "url": "https://www.inaturalist.org/observations/412212516"
+    },
+    {
+      "lat": 34.0334,
+      "lon": -118.3512,
+      "species": "Washington Palm",
+      "date": "2025-12-20",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/757987568/small.jpg",
+      "url": "https://www.inaturalist.org/observations/411986277"
+    },
+    {
       "lat": 33.8112,
       "lon": -118.2857,
       "species": "Washington Palm",
@@ -7736,22 +8024,6 @@
       "date": "2025-12-18",
       "photo": "https://static.inaturalist.org/photos/600771742/small.jpg",
       "url": "https://www.inaturalist.org/observations/331201347"
-    },
-    {
-      "lat": 34.0477,
-      "lon": -118.353,
-      "species": "Washington Palm",
-      "date": "2025-12-17",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/689721959/small.jpg",
-      "url": "https://www.inaturalist.org/observations/377205782"
-    },
-    {
-      "lat": 34.0503,
-      "lon": -118.3833,
-      "species": "Washington Palm",
-      "date": "2025-12-12",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/599369579/small.jpg",
-      "url": "https://www.inaturalist.org/observations/330521609"
     },
     {
       "lat": 33.7712,
@@ -7874,14 +8146,6 @@
       "url": "https://www.inaturalist.org/observations/328677198"
     },
     {
-      "lat": 34.0709,
-      "lon": -118.2786,
-      "species": "Washington Palm",
-      "date": "2025-11-22",
-      "photo": "https://static.inaturalist.org/photos/593758400/small.jpg",
-      "url": "https://www.inaturalist.org/observations/327719020"
-    },
-    {
       "lat": 33.8012,
       "lon": -118.3812,
       "species": "Washington Palm",
@@ -7904,14 +8168,6 @@
       "date": "2025-11-18",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/592719868/small.jpg",
       "url": "https://www.inaturalist.org/observations/327193722"
-    },
-    {
-      "lat": 33.7281,
-      "lon": -118.2819,
-      "species": "Washington Palm",
-      "date": "2025-11-11",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/590794331/small.jpg",
-      "url": "https://www.inaturalist.org/observations/326224861"
     },
     {
       "lat": 34.1849,
@@ -8080,14 +8336,6 @@
       "date": "2025-10-11",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/579001372/small.jpg",
       "url": "https://www.inaturalist.org/observations/320255007"
-    },
-    {
-      "lat": 34.1402,
-      "lon": -118.4592,
-      "species": "Washington Palm",
-      "date": "2025-10-09",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/580964345/small.jpg",
-      "url": "https://www.inaturalist.org/observations/321254899"
     },
     {
       "lat": 33.8542,
@@ -8306,14 +8554,6 @@
       "url": "https://www.inaturalist.org/observations/306352517"
     },
     {
-      "lat": 33.7132,
-      "lon": -118.0664,
-      "species": "Washington Palm",
-      "date": "2025-08-12",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/551633909/small.jpg",
-      "url": "https://www.inaturalist.org/observations/305791622"
-    },
-    {
       "lat": 33.8004,
       "lon": -118.3534,
       "species": "Washington Palm",
@@ -8432,14 +8672,6 @@
       "date": "2025-07-09",
       "photo": "https://static.inaturalist.org/photos/534068139/small.jpg",
       "url": "https://www.inaturalist.org/observations/296597308"
-    },
-    {
-      "lat": 33.7702,
-      "lon": -118.1313,
-      "species": "Washington Palm",
-      "date": "2025-07-08",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/573636932/small.jpg",
-      "url": "https://www.inaturalist.org/observations/317454250"
     },
     {
       "lat": 34.0333,
@@ -8938,14 +9170,6 @@
       "url": "https://www.inaturalist.org/observations/267771687"
     },
     {
-      "lat": 33.7454,
-      "lon": -117.6686,
-      "species": "Washington Palm",
-      "date": "2025-03-29",
-      "photo": "https://static.inaturalist.org/photos/480888333/small.jpg",
-      "url": "https://www.inaturalist.org/observations/267584886"
-    },
-    {
       "lat": 34.0967,
       "lon": -118.4865,
       "species": "Washington Palm",
@@ -9010,14 +9234,6 @@
       "url": "https://www.inaturalist.org/observations/266777833"
     },
     {
-      "lat": 34.092,
-      "lon": -117.8309,
-      "species": "Washington Palm",
-      "date": "2025-03-15",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/476860914/small.jpg",
-      "url": "https://www.inaturalist.org/observations/265478463"
-    },
-    {
       "lat": 34.1541,
       "lon": -117.8452,
       "species": "Washington Palm",
@@ -9032,14 +9248,6 @@
       "date": "2025-03-12",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/476091010/small.jpeg",
       "url": "https://www.inaturalist.org/observations/265087812"
-    },
-    {
-      "lat": 34.1483,
-      "lon": -117.7401,
-      "species": "Washington Palm",
-      "date": "2025-03-12",
-      "photo": "https://static.inaturalist.org/photos/476116545/small.jpg",
-      "url": "https://www.inaturalist.org/observations/265100290"
     },
     {
       "lat": 33.7821,
@@ -9578,14 +9786,6 @@
       "url": "https://www.inaturalist.org/observations/259710969"
     },
     {
-      "lat": 34.0475,
-      "lon": -118.0826,
-      "species": "Washington Palm",
-      "date": "2025-01-23",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/465558492/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/259357856"
-    },
-    {
       "lat": 33.8962,
       "lon": -117.9255,
       "species": "Washington Palm",
@@ -9656,14 +9856,6 @@
       "date": "2025-01-19",
       "photo": "https://static.inaturalist.org/photos/464791581/small.jpg",
       "url": "https://www.inaturalist.org/observations/258982747"
-    },
-    {
-      "lat": 34.391,
-      "lon": -118.5656,
-      "species": "Washington Palm",
-      "date": "2025-01-15",
-      "photo": "https://static.inaturalist.org/photos/463981698/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/258585203"
     },
     {
       "lat": 34.0295,
@@ -9800,14 +9992,6 @@
       "date": "2024-12-25",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/459337416/small.jpg",
       "url": "https://www.inaturalist.org/observations/256222173"
-    },
-    {
-      "lat": 34.1772,
-      "lon": -118.2655,
-      "species": "Washington Palm",
-      "date": "2024-12-22",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/458766546/small.jpg",
-      "url": "https://www.inaturalist.org/observations/255940679"
     },
     {
       "lat": 34.2866,
@@ -10026,14 +10210,6 @@
       "url": "https://www.inaturalist.org/observations/249436080"
     },
     {
-      "lat": 34.1956,
-      "lon": -118.6637,
-      "species": "Washington Palm",
-      "date": "2024-10-26",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/445482413/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/249232317"
-    },
-    {
       "lat": 34.134,
       "lon": -118.2903,
       "species": "Washington Palm",
@@ -10048,14 +10224,6 @@
       "date": "2024-10-22",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/444369074/small.jpeg",
       "url": "https://www.inaturalist.org/observations/248670496"
-    },
-    {
-      "lat": 34.0905,
-      "lon": -118.2296,
-      "species": "Washington Palm",
-      "date": "2024-10-21",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/444153060/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/248561078"
     },
     {
       "lat": 34.1148,
@@ -10186,14 +10354,6 @@
       "url": "https://www.inaturalist.org/observations/242206004"
     },
     {
-      "lat": 34.1668,
-      "lon": -118.2068,
-      "species": "Washington Palm",
-      "date": "2024-08-24",
-      "photo": "https://static.inaturalist.org/photos/422997602/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/237662139"
-    },
-    {
       "lat": 34.1126,
       "lon": -118.4827,
       "species": "Washington Palm",
@@ -10240,6 +10400,14 @@
       "date": "2024-07-26",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/412031360/small.jpeg",
       "url": "https://www.inaturalist.org/observations/231952087"
+    },
+    {
+      "lat": 34.1529,
+      "lon": -118.286,
+      "species": "Washington Palm",
+      "date": "2024-07-13",
+      "photo": "https://static.inaturalist.org/photos/406875465/small.jpeg",
+      "url": "https://www.inaturalist.org/observations/229229271"
     },
     {
       "lat": 33.8637,
@@ -10330,14 +10498,6 @@
       "url": "https://www.inaturalist.org/observations/211186689"
     },
     {
-      "lat": 34.1447,
-      "lon": -118.4073,
-      "species": "Washington Palm",
-      "date": "2024-04-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/373071053/small.jpg",
-      "url": "https://www.inaturalist.org/observations/210975346"
-    },
-    {
       "lat": 34.1757,
       "lon": -118.095,
       "species": "Washington Palm",
@@ -10368,6 +10528,14 @@
       "date": "2024-04-20",
       "photo": "https://static.inaturalist.org/photos/387913768/small.jpeg",
       "url": "https://www.inaturalist.org/observations/219175045"
+    },
+    {
+      "lat": 34.2097,
+      "lon": -118.2,
+      "species": "Washington Palm",
+      "date": "2024-04-19",
+      "photo": "https://static.inaturalist.org/photos/368486106/small.jpg",
+      "url": "https://www.inaturalist.org/observations/208102748"
     },
     {
       "lat": 34.21,
@@ -10504,14 +10672,6 @@
       "date": "2024-02-03",
       "photo": "https://static.inaturalist.org/photos/349629213/small.jpg",
       "url": "https://www.inaturalist.org/observations/198373847"
-    },
-    {
-      "lat": 34.0012,
-      "lon": -118.0754,
-      "species": "Washington Palm",
-      "date": "2024-01-28",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/357240553/small.jpg",
-      "url": "https://www.inaturalist.org/observations/202288237"
     },
     {
       "lat": 34.042,
@@ -10672,14 +10832,6 @@
       "date": "2023-11-05",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/333703805/small.jpeg",
       "url": "https://www.inaturalist.org/observations/190369745"
-    },
-    {
-      "lat": 33.8932,
-      "lon": -117.9779,
-      "species": "Washington Palm",
-      "date": "2023-10-31",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/332180768/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/189597588"
     },
     {
       "lat": 34.4276,
@@ -10888,14 +11040,6 @@
       "date": "2023-05-28",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/285114496/small.jpg",
       "url": "https://www.inaturalist.org/observations/164758649"
-    },
-    {
-      "lat": 34.1873,
-      "lon": -118.5109,
-      "species": "Washington Palm",
-      "date": "2023-05-27",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/283931647/small.jpg",
-      "url": "https://www.inaturalist.org/observations/164119661"
     },
     {
       "lat": 34.0964,
@@ -11210,14 +11354,6 @@
       "url": "https://www.inaturalist.org/observations/143678336"
     },
     {
-      "lat": 34.0451,
-      "lon": -117.8999,
-      "species": "Washington Palm",
-      "date": "2022-12-02",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/247159377/small.jpg",
-      "url": "https://www.inaturalist.org/observations/144051081"
-    },
-    {
       "lat": 34.1579,
       "lon": -118.074,
       "species": "Washington Palm",
@@ -11530,14 +11666,6 @@
       "url": "https://www.inaturalist.org/observations/118762407"
     },
     {
-      "lat": 34.1838,
-      "lon": -118.9393,
-      "species": "Washington Palm",
-      "date": "2022-05-16",
-      "photo": "https://static.inaturalist.org/photos/198272889/small.jpg",
-      "url": "https://www.inaturalist.org/observations/117403433"
-    },
-    {
       "lat": 33.9777,
       "lon": -118.031,
       "species": "Washington Palm",
@@ -11736,14 +11864,6 @@
       "date": "2021-12-16",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/172592853/small.jpg",
       "url": "https://www.inaturalist.org/observations/103158740"
-    },
-    {
-      "lat": 34.2106,
-      "lon": -118.9277,
-      "species": "Washington Palm",
-      "date": "2021-12-10",
-      "photo": "https://static.inaturalist.org/photos/172000703/small.jpg",
-      "url": "https://www.inaturalist.org/observations/102843372"
     },
     {
       "lat": 34.1687,
@@ -12010,14 +12130,6 @@
       "url": "https://www.inaturalist.org/observations/79601001"
     },
     {
-      "lat": 34.0677,
-      "lon": -118.323,
-      "species": "Washington Palm",
-      "date": "2021-05-03",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/161137054/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/96954121"
-    },
-    {
       "lat": 33.9481,
       "lon": -118.2354,
       "species": "Washington Palm",
@@ -12146,6 +12258,14 @@
       "url": "https://www.inaturalist.org/observations/69877711"
     },
     {
+      "lat": 34.18,
+      "lon": -118.27,
+      "species": "Washington Palm",
+      "date": "2021-02-19",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/113631661/small.png",
+      "url": "https://www.inaturalist.org/observations/69955355"
+    },
+    {
       "lat": 34.0907,
       "lon": -118.8173,
       "species": "Washington Palm",
@@ -12256,14 +12376,6 @@
       "date": "2020-11-13",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/104280252/small.jpeg",
       "url": "https://www.inaturalist.org/observations/64824643"
-    },
-    {
-      "lat": 33.9784,
-      "lon": -118.0772,
-      "species": "Washington Palm",
-      "date": "2020-11-10",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/104430448/small.jpg",
-      "url": "https://www.inaturalist.org/observations/64909940"
     },
     {
       "lat": 34.1676,
@@ -12424,14 +12536,6 @@
       "date": "2020-07-27",
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/92119507/small.jpg",
       "url": "https://www.inaturalist.org/observations/57734777"
-    },
-    {
-      "lat": 34.133,
-      "lon": -118.0229,
-      "species": "Washington Palm",
-      "date": "2020-07-12",
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/84130544/small.jpeg",
-      "url": "https://www.inaturalist.org/observations/52908350"
     },
     {
       "lat": 34.0065,
