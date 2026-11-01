@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T23:02:10.580Z",
+  "generated": "2026-11-01T22:38:12.621Z",
   "wells": [
     {
       "lat": 34.00231,
@@ -60,6 +60,26 @@
       "type": "Oil & Gas",
       "api": "0403700810",
       "blvd": "Washington Boulevard"
+    },
+    {
+      "lat": 34.05554,
+      "lon": -118.39027,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Beverly Hills",
+      "type": "Oil & Gas",
+      "api": "0403720908",
+      "blvd": "Pico Boulevard"
+    },
+    {
+      "lat": 34.0507,
+      "lon": -118.40543,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Beverly Hills",
+      "type": "Oil & Gas",
+      "api": "0403701054",
+      "blvd": "Pico Boulevard"
     },
     {
       "lat": 34.05547,
@@ -1062,6 +1082,16 @@
       "blvd": "South San Vicente Boulevard"
     },
     {
+      "lat": 34.05074,
+      "lon": -118.40544,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Cheviot Hills",
+      "type": "Oil & Gas",
+      "api": "0403717977",
+      "blvd": "Pico Boulevard"
+    },
+    {
       "lat": 34.04565,
       "lon": -118.41325,
       "status": "Active",
@@ -1069,6 +1099,16 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717586",
+      "blvd": "Pico Boulevard"
+    },
+    {
+      "lat": 34.04562,
+      "lon": -118.41331,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Cheviot Hills",
+      "type": "Oil & Gas",
+      "api": "0403717593",
       "blvd": "Pico Boulevard"
     },
     {
@@ -1089,6 +1129,16 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717599",
+      "blvd": "Pico Boulevard"
+    },
+    {
+      "lat": 34.05071,
+      "lon": -118.4053,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Cheviot Hills",
+      "type": "Oil & Gas",
+      "api": "0403717979",
       "blvd": "Pico Boulevard"
     },
     {
@@ -1132,6 +1182,16 @@
       "blvd": "Pico Boulevard"
     },
     {
+      "lat": 34.04556,
+      "lon": -118.41342,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Cheviot Hills",
+      "type": "Oil & Gas",
+      "api": "0403717588",
+      "blvd": "Pico Boulevard"
+    },
+    {
       "lat": 34.05066,
       "lon": -118.40536,
       "status": "Active",
@@ -1159,6 +1219,26 @@
       "field": "Cheviot Hills",
       "type": "Oil & Gas",
       "api": "0403717590",
+      "blvd": "Pico Boulevard"
+    },
+    {
+      "lat": 34.0456,
+      "lon": -118.41335,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Cheviot Hills",
+      "type": "Oil & Gas",
+      "api": "0403717591",
+      "blvd": "Pico Boulevard"
+    },
+    {
+      "lat": 34.05074,
+      "lon": -118.40531,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Cheviot Hills",
+      "type": "Oil & Gas",
+      "api": "0403717984",
       "blvd": "Pico Boulevard"
     },
     {
@@ -1329,16 +1409,6 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403708050",
-      "blvd": "South La Cienega Boulevard"
-    },
-    {
-      "lat": 33.99592,
-      "lon": -118.36711,
-      "status": "Active",
-      "operator": "Sentinel Peak Resources California LLC",
-      "field": "Inglewood",
-      "type": "Oil & Gas",
-      "api": "0403708066",
       "blvd": "South La Cienega Boulevard"
     },
     {
@@ -2902,6 +2972,16 @@
       "blvd": "South La Cienega Boulevard"
     },
     {
+      "lat": 34.00409,
+      "lon": -118.37614,
+      "status": "Active",
+      "operator": "Sentinel Peak Resources California LLC",
+      "field": "Inglewood",
+      "type": "Oil & Gas",
+      "api": "0403726448",
+      "blvd": "South La Cienega Boulevard"
+    },
+    {
       "lat": 34.00674,
       "lon": -118.37637,
       "status": "Active",
@@ -2909,16 +2989,6 @@
       "field": "Inglewood",
       "type": "Oil & Gas",
       "api": "0403726667",
-      "blvd": "South La Cienega Boulevard"
-    },
-    {
-      "lat": 34.00703,
-      "lon": -118.37572,
-      "status": "Active",
-      "operator": "Sentinel Peak Resources California LLC",
-      "field": "Inglewood",
-      "type": "Oil & Gas",
-      "api": "0403726671",
       "blvd": "South La Cienega Boulevard"
     },
     {
@@ -3059,16 +3129,6 @@
       "field": "Las Cienegas",
       "type": "Oil & Gas",
       "api": "0403700384",
-      "blvd": "Adams Boulevard"
-    },
-    {
-      "lat": 34.03226,
-      "lon": -118.3128,
-      "status": "Active",
-      "operator": "E & B Natural Resources Management Corporation",
-      "field": "Las Cienegas",
-      "type": "Oil & Gas",
-      "api": "0403700322",
       "blvd": "Adams Boulevard"
     },
     {
@@ -3222,13 +3282,13 @@
       "blvd": "Long Beach Boulevard"
     },
     {
-      "lat": 33.81558,
-      "lon": -118.18761,
+      "lat": 33.81317,
+      "lon": -118.1875,
       "status": "Active",
-      "operator": "Herley-Kelley LLC",
+      "operator": "S & C Oil Co., Inc.",
       "field": "Long Beach",
       "type": "Oil & Gas",
-      "api": "0403709964",
+      "api": "0403710380",
       "blvd": "Long Beach Boulevard"
     },
     {
@@ -3242,13 +3302,13 @@
       "blvd": "Long Beach Boulevard"
     },
     {
-      "lat": 33.81317,
-      "lon": -118.1875,
+      "lat": 33.81558,
+      "lon": -118.18761,
       "status": "Active",
-      "operator": "S & C Oil Co., Inc.",
+      "operator": "Herley-Kelley LLC",
       "field": "Long Beach",
       "type": "Oil & Gas",
-      "api": "0403710380",
+      "api": "0403709964",
       "blvd": "Long Beach Boulevard"
     },
     {
@@ -3272,16 +3332,6 @@
       "blvd": "Long Beach Boulevard"
     },
     {
-      "lat": 33.81657,
-      "lon": -118.18982,
-      "status": "Active",
-      "operator": "Signal Hill Petroleum, Inc.",
-      "field": "Long Beach",
-      "type": "Oil & Gas",
-      "api": "0403709947",
-      "blvd": "Long Beach Boulevard"
-    },
-    {
       "lat": 33.81929,
       "lon": -118.19022,
       "status": "Active",
@@ -3289,6 +3339,16 @@
       "field": "Long Beach",
       "type": "Oil & Gas",
       "api": "0403709885",
+      "blvd": "Long Beach Boulevard"
+    },
+    {
+      "lat": 33.81657,
+      "lon": -118.18982,
+      "status": "Active",
+      "operator": "Signal Hill Petroleum, Inc.",
+      "field": "Long Beach",
+      "type": "Oil & Gas",
+      "api": "0403709947",
       "blvd": "Long Beach Boulevard"
     },
     {
@@ -3842,16 +3902,6 @@
       "blvd": "Redondo Beach Boulevard"
     },
     {
-      "lat": 33.89113,
-      "lon": -118.26923,
-      "status": "Active",
-      "operator": "Bridgeland Resources, LLC",
-      "field": "Rosecrans, South",
-      "type": "Oil & Gas",
-      "api": "0403714590",
-      "blvd": "Redondo Beach Boulevard"
-    },
-    {
       "lat": 33.8909,
       "lon": -118.26839,
       "status": "Active",
@@ -3859,6 +3909,16 @@
       "field": "Rosecrans, South",
       "type": "Oil & Gas",
       "api": "0403714568",
+      "blvd": "Redondo Beach Boulevard"
+    },
+    {
+      "lat": 33.89113,
+      "lon": -118.26923,
+      "status": "Active",
+      "operator": "Bridgeland Resources, LLC",
+      "field": "Rosecrans, South",
+      "type": "Oil & Gas",
+      "api": "0403714590",
       "blvd": "Redondo Beach Boulevard"
     },
     {
@@ -4192,16 +4252,6 @@
       "blvd": "South San Vicente Boulevard"
     },
     {
-      "lat": 34.07516,
-      "lon": -118.37809,
-      "status": "Active",
-      "operator": "E & B Natural Resources Management Corporation",
-      "field": "San Vicente",
-      "type": "Oil & Gas",
-      "api": "0403720963",
-      "blvd": "South San Vicente Boulevard"
-    },
-    {
       "lat": 34.07483,
       "lon": -118.3779,
       "status": "Active",
@@ -4280,6 +4330,16 @@
       "type": "Oil & Gas",
       "api": "0403721136",
       "blvd": "South San Vicente Boulevard"
+    },
+    {
+      "lat": 34.07547,
+      "lon": -118.37753,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "San Vicente",
+      "type": "Oil & Gas",
+      "api": "0403720723",
+      "blvd": "Beverly Boulevard"
     },
     {
       "lat": 34.07507,
@@ -4912,6 +4972,16 @@
       "blvd": "Sepulveda Boulevard"
     },
     {
+      "lat": 33.79557,
+      "lon": -118.29212,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Torrance",
+      "type": "Oil & Gas",
+      "api": "0403706498",
+      "blvd": "Lomita Boulevard"
+    },
+    {
       "lat": 33.79612,
       "lon": -118.28005,
       "status": "Active",
@@ -4932,16 +5002,6 @@
       "blvd": "Wilmington Boulevard"
     },
     {
-      "lat": 33.79173,
-      "lon": -118.27687,
-      "status": "Active",
-      "operator": "E & B Natural Resources Management Corporation",
-      "field": "Torrance",
-      "type": "Oil & Gas",
-      "api": "0403716604",
-      "blvd": "Wilmington Boulevard"
-    },
-    {
       "lat": 33.79977,
       "lon": -118.29957,
       "status": "Active",
@@ -4952,14 +5012,14 @@
       "blvd": "Lomita Boulevard"
     },
     {
-      "lat": 33.79557,
-      "lon": -118.29212,
+      "lat": 33.79173,
+      "lon": -118.27687,
       "status": "Active",
       "operator": "E & B Natural Resources Management Corporation",
       "field": "Torrance",
       "type": "Oil & Gas",
-      "api": "0403706498",
-      "blvd": "Lomita Boulevard"
+      "api": "0403716604",
+      "blvd": "Wilmington Boulevard"
     },
     {
       "lat": 33.84763,
@@ -4982,16 +5042,6 @@
       "blvd": "Del Amo Boulevard"
     },
     {
-      "lat": 33.7921,
-      "lon": -118.27549,
-      "status": "Active",
-      "operator": "E & B Natural Resources Management Corporation",
-      "field": "Torrance",
-      "type": "Oil & Gas",
-      "api": "0403716605",
-      "blvd": "Wilmington Boulevard"
-    },
-    {
       "lat": 33.84772,
       "lon": -118.36565,
       "status": "Active",
@@ -5000,6 +5050,16 @@
       "type": "Oil & Gas",
       "api": "0403702096",
       "blvd": "Del Amo Boulevard"
+    },
+    {
+      "lat": 33.7921,
+      "lon": -118.27549,
+      "status": "Active",
+      "operator": "E & B Natural Resources Management Corporation",
+      "field": "Torrance",
+      "type": "Oil & Gas",
+      "api": "0403716605",
+      "blvd": "Wilmington Boulevard"
     },
     {
       "lat": 33.79269,
@@ -6719,16 +6779,6 @@
       "field": "Wilmington",
       "type": "Oil & Gas",
       "api": "0403722487",
-      "blvd": "Lomita Boulevard"
-    },
-    {
-      "lat": 33.79803,
-      "lon": -118.25619,
-      "status": "Active",
-      "operator": "E & B Natural Resources Management Corporation",
-      "field": "Wilmington",
-      "type": "Oil & Gas",
-      "api": "0403723078",
       "blvd": "Lomita Boulevard"
     },
     {
