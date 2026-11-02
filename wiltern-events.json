@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-01T19:21:30.671Z",
+  "generated": "2026-11-02T22:58:39.873Z",
   "events": [
-    {
-      "name": "Marilyn Manson: Live in Los Angeles",
-      "date": "2026-11-01",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/marilyn-manson-live-in-los-angeles-los-angeles-california-11-01-2026/event/09006466890C7815",
-      "image": "https://s1.ticketm.net/dam/a/4af/cc237a20-4d53-49e4-8f1b-30f38caec4af_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Todd Rundgren",
       "date": "2026-11-02",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
       "image": "https://s1.ticketm.net/dam/a/b07/09e0979d-7b3d-4cd4-badf-67d6ced79b07_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "KCRW Presents Bonobo: Distance in Static Live North American Tour",
+      "date": "2026-11-11",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/kcrw-presents-bonobo-distance-in-static-los-angeles-california-11-11-2026/event/090064C3CC0645B7",
+      "image": "https://s1.ticketm.net/dam/a/3a8/db384fc3-0981-4463-b8da-2e8df78cd3a8_RECOMENDATION_16_9.jpg"
     }
   ]
 }
