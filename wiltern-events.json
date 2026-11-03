@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-02T22:58:39.873Z",
+  "generated": "2026-11-03T20:45:42.292Z",
   "events": [
-    {
-      "name": "Todd Rundgren",
-      "date": "2026-11-02",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/todd-rundgren-los-angeles-california-11-02-2026/event/090064D9E64B1A67",
-      "image": "https://s1.ticketm.net/dam/a/10c/d7303d2f-b6e8-4f0d-a456-902c4abfa10c_1251021_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Jose Madero - USA Tour 2026",
       "date": "2026-11-03",
@@ -55,6 +48,13 @@
       "date": "2026-11-11",
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/kcrw-presents-bonobo-distance-in-static-los-angeles-california-11-11-2026/event/090064C3CC0645B7",
+      "image": "https://s1.ticketm.net/dam/a/3a8/db384fc3-0981-4463-b8da-2e8df78cd3a8_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "KCRW Presents Bonobo: Distance in Static Live North American Tour",
+      "date": "2026-11-12",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/kcrw-presents-bonobo-distance-in-static-los-angeles-california-11-12-2026/event/090064C3CC0A45C4",
       "image": "https://s1.ticketm.net/dam/a/3a8/db384fc3-0981-4463-b8da-2e8df78cd3a8_RECOMENDATION_16_9.jpg"
     }
   ]
