@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T23:16:43.209Z",
+  "generated": "2026-11-03T21:26:10.296Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -22,13 +22,6 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/tinashe-one-night-with-a-popstar-hollywood-california-11-07-2026/event/090064F499E14E53",
         "image": "https://s1.ticketm.net/dam/e/a5c/60d959f6-ebd3-4436-a8df-9b2ced5a2a5c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Turnover - Down On Earth Tour",
-        "date": "2026-11-11",
-        "time": "18:30:00",
-        "url": "https://www.ticketmaster.com/turnover-down-on-earth-tour-hollywood-california-11-11-2026/event/090064D2BD80BA7E",
-        "image": "https://s1.ticketm.net/dam/a/c0d/afb5f88c-ff9a-4869-8ae8-71e24c9d3c0d_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Sabaton: Legends on Tour",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/lil-peep-30th-birthday-celebration-hollywood-california-11-15-2026/event/090065068E7555BB",
         "image": "https://s1.ticketm.net/dam/a/c36/5941c678-4994-49f1-91de-fdb871100c36_471631_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "BOLO",
+        "date": "2026-11-19",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/bolo-hollywood-california-11-19-2026/event/0900650CAE378D35",
+        "image": "https://s1.ticketm.net/dam/a/7a6/89a91865-b339-410c-b382-44a8e793a7a6_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Stella Lefty",
-        "date": "2026-11-02",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Sod",
-        "image": "https://s1.ticketm.net/dam/a/b14/51f86754-b9f1-4929-9a62-b4a6c922ab14_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Black Angels w/ GHOSTWOMAN",
         "date": "2026-11-04",
@@ -97,13 +90,6 @@
         "image": "https://s1.ticketm.net/dam/a/6d2/64cfb21b-5033-4e19-a0fd-bf2e287736d2_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "they are gutting a body of water",
-        "date": "2026-11-09",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UGx",
-        "image": "https://s1.ticketm.net/dam/a/200/3e784e75-0b9a-44a6-8069-dd19ab1e4200_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Quadeca w/ Derby",
         "date": "2026-11-10",
         "time": "20:00:00",
@@ -115,6 +101,20 @@
         "date": "2026-11-11",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdvO",
+        "image": null
+      },
+      {
+        "name": "Ninajirachi (18 and Over)",
+        "date": "2026-11-12",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oA0",
+        "image": null
+      },
+      {
+        "name": "Ninajirachi (18 and Over)",
+        "date": "2026-11-13",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fAz",
         "image": null
       }
     ],
@@ -531,16 +531,16 @@
     "Dolby Theatre": [
       {
         "name": "THE CHICKS - TAKING THE LONG WAY",
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
         "image": "https://s1.ticketm.net/dam/a/447/17624bbd-1bde-49bf-8817-52a3aaeae447_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "THE CHICKS - TAKING THE LONG WAY",
-        "date": "2026-11-03",
+        "date": "2026-11-04",
         "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-04-2026/event/090064B785414609",
         "image": "https://s1.ticketm.net/dam/a/447/17624bbd-1bde-49bf-8817-52a3aaeae447_RECOMENDATION_16_9.jpg"
       },
       {
@@ -643,13 +643,6 @@
     "Wilshire Ebell Theater and Club": [
       {
         "name": "Dan and Phil: Hard Launch World Tour",
-        "date": "2026-11-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/dan-and-phil-hard-launch-world-los-angeles-california-11-02-2026/event/090064D1B1CBAC4F",
-        "image": "https://s1.ticketm.net/dam/a/415/040df804-f51a-4e21-8137-d17f51f0e415_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Dan and Phil: Hard Launch World Tour",
         "date": "2026-11-04",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/dan-and-phil-hard-launch-world-los-angeles-california-11-04-2026/event/090064D39F8A8B4A",
@@ -695,6 +688,13 @@
         "date": "2026-11-27",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-27-2026/event/0900655CD4AC0D06",
+        "image": "https://s1.ticketm.net/dbimages/186776a.jpg"
+      },
+      {
+        "name": "Test - Ashley Kamphaus",
+        "date": "2026-11-28",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-28-2026/event/0900655CD4AF0D17",
         "image": "https://s1.ticketm.net/dbimages/186776a.jpg"
       }
     ],
@@ -912,27 +912,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Pete Lee, Christopher Titus, Dan Levy, Nika King,  Audrey Stewart and more TBA",
-        "date": "2026-11-02",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/15050823",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-11-02",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340904",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Rob Ward, T Barb, Tahir Moore, Malik S",
-        "date": "2026-11-02",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14366824",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Ray Romano, Tiffany Haddish, Jay Leno, Howie Mandel, Brian Monarch, Jen Murphy and Very Special Guests",
         "date": "2026-11-03",
         "time": "19:30:00",
@@ -954,7 +933,7 @@
         "image": "https://i.ticketweb.com/i/00/13/06/96/74_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Rick Glassman, Chad Kroeger, The Sklar Brothers, Eleanor Kerrigan, Pat McGann, Kelly Ryan and more TBA",
+        "name": "Tonight at the Improv ft. Rick Glassman, Chad Kroeger, The Sklar Brothers, Amir K, Eleanor Kerrigan, Pat McGann, Kelly Ryan and more TBA",
         "date": "2026-11-04",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14410064",
@@ -968,11 +947,11 @@
         "image": "https://i.ticketweb.com/i/00/13/04/22/84_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft. Jay Leno, Arsenio Hall, Brian Monarch, Ksenia and Very Special Guests",
+        "name": "Tonight at the Improv ft. David Spade, Jay Leno, Arsenio Hall, Brian Monarch, Ksenia and Very Special Guests",
         "date": "2026-11-05",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366064",
-        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/790/2e124d53-3f5e-48c4-ab26-11bc2213a790_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
@@ -987,13 +966,6 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tyler-fischer-hollywood-improv-the-main-room-tickets/15047923",
         "image": "https://i.ticketweb.com/i/00/13/64/49/23_Edp.jpg?v=3"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-11-05",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340924",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Tonight at the Improv",
@@ -1015,6 +987,27 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/desi-comedy-fest-ft-abhay-hollywood-improv-the-lab-tickets/14975753",
         "image": "https://i.ticketweb.com/i/00/13/58/03/03_Edp.jpg?v=6"
+      },
+      {
+        "name": "Jonathan Leigh Solomon's School for Stand Up",
+        "date": "2026-11-07",
+        "time": "16:15:00",
+        "url": "https://www.ticketweb.com/event/jonathan-leigh-solomons-school-for-hollywood-improv-the-lab-tickets/14285404",
+        "image": "https://i.ticketweb.com/i/00/13/00/08/94_Edp.jpg?v=6"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-11-07",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14392484",
+        "image": "https://i.ticketweb.com/i/00/13/10/72/54_Edp.jpg?v=2"
+      },
+      {
+        "name": "Elliott Connie 50th Birthday Comedy Show ft. Elliott Connie, Tiffany Haddish, Flame Monroe, J.D. Witherspoon, Jeremy Scippio",
+        "date": "2026-11-07",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/elliott-connie-50th-birthday-comedy-hollywood-improv-the-lab-tickets/14378814",
+        "image": "https://s1.ticketm.net/dam/a/055/6c45506b-40ac-430f-ab82-6ce05178c055_RECOMENDATION_16_9.jpg"
       }
     ]
   }
