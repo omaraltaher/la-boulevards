@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-03T20:45:42.292Z",
+  "generated": "2026-11-04T21:02:53.339Z",
   "events": [
-    {
-      "name": "Jose Madero - USA Tour 2026",
-      "date": "2026-11-03",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/jose-madero-usa-tour-2026-los-angeles-california-11-03-2026/event/090064D2E9B5F1D1",
-      "image": "https://s1.ticketm.net/dam/a/5e2/83e20271-2959-4544-87fc-ab93087cc5e2_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "ALVARO DIAZ - OMAKASE TOUR",
       "date": "2026-11-05",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/kcrw-presents-bonobo-distance-in-static-los-angeles-california-11-12-2026/event/090064C3CC0A45C4",
       "image": "https://s1.ticketm.net/dam/a/3a8/db384fc3-0981-4463-b8da-2e8df78cd3a8_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Ólafur Arnalds",
+      "date": "2026-11-13",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/olafur-arnalds-los-angeles-california-11-13-2026/event/09006428B4269410",
+      "image": "https://s1.ticketm.net/dam/a/a3e/6b0b1ea7-f679-4553-930c-8ac3197b0a3e_1571301_RECOMENDATION_16_9.jpg"
     }
   ]
 }
