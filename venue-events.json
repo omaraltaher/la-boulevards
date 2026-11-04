@@ -1,14 +1,7 @@
 {
-  "generated": "2026-11-03T21:26:10.296Z",
+  "generated": "2026-11-04T21:40:36.133Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "10 Years of 6LACK Tour",
-        "date": "2026-11-03",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/10-years-of-6lack-tour-hollywood-california-11-03-2026/event/090064B61A982EB0",
-        "image": "https://s1.ticketm.net/dam/a/943/7c89470e-2cbf-4bac-b014-d5fdf8f29943_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Carl Cox",
         "date": "2026-11-06",
@@ -57,6 +50,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/bolo-hollywood-california-11-19-2026/event/0900650CAE378D35",
         "image": "https://s1.ticketm.net/dam/a/7a6/89a91865-b339-410c-b382-44a8e793a7a6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Rhye",
+        "date": "2026-11-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/rhye-hollywood-california-11-20-2026/event/090064C32762134F",
+        "image": "https://s1.ticketm.net/dam/a/f46/d0c139de-8a11-4ca8-8206-d25784b4af46_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "SIX60",
-        "date": "2026-11-03",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/six60-los-angeles-california-11-03-2026/event/090064CC2C9AE978",
-        "image": "https://s1.ticketm.net/dam/e/8ea/5034d5da-c992-41d7-8ef6-0d73ed2d38ea_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "All Season Brewing Battle of the Bands",
         "date": "2026-11-05",
         "time": "18:00:00",
@@ -348,6 +341,13 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/oso-oso-los-angeles-california-11-15-2026/event/0900650BB3E89978",
         "image": "https://s1.ticketm.net/dam/a/193/aa331941-c74d-4aaf-a9d0-2d8712fcb193_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Slothrust: The Dystopian Theatre Tour",
+        "date": "2026-11-18",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/slothrust-the-dystopian-theatre-tour-los-angeles-california-11-18-2026/event/0900654EC615BF1F",
+        "image": "https://s1.ticketm.net/dam/a/76a/59a68785-35fa-4258-963a-00de1337776a_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -531,13 +531,6 @@
     "Dolby Theatre": [
       {
         "name": "THE CHICKS - TAKING THE LONG WAY",
-        "date": "2026-11-03",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
-        "image": "https://s1.ticketm.net/dam/a/447/17624bbd-1bde-49bf-8817-52a3aaeae447_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "THE CHICKS - TAKING THE LONG WAY",
         "date": "2026-11-04",
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-04-2026/event/090064B785414609",
@@ -584,6 +577,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/gevorkian-dance-academy-hollywood-california-11-22-2026/event/0900650B9D70724B",
         "image": "https://s1.ticketm.net/dam/a/e6a/0e5cc93d-98f8-4f83-9762-b7b6d08a7e6a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Holiday in Concert",
+        "date": "2026-11-27",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/the-holiday-in-concert-hollywood-california-11-27-2026/event/09006516B69968B4",
+        "image": null
       }
     ],
     "Geffen Playhouse": [
@@ -912,27 +912,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Ray Romano, Tiffany Haddish, Jay Leno, Howie Mandel, Brian Monarch, Jen Murphy and Very Special Guests",
-        "date": "2026-11-03",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366054",
-        "image": "https://s1.ticketm.net/dam/a/0ea/1df53b79-a116-4b41-8430-8c6790d290ea_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Funny Mill ft. Bo Johnson, Rishi Arya, Rob Pugliese, Mike Falzone, Carly Ballerini, Brian Wiora, Zeo Niu, Molly Bowes, Brooke Vanderdonck, Rohan Blum and more TBA",
-        "date": "2026-11-03",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/funny-mill-ft-bo-johnson-hollywood-improv-the-lab-tickets/14384604",
-        "image": "https://i.ticketweb.com/i/00/13/10/05/34_Edp.jpg?v=6"
-      },
-      {
-        "name": "AZIZAMS ft. Zar the Star and more TBA",
-        "date": "2026-11-03",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/azizams-ft-zar-the-star-hollywood-improv-the-lab-tickets/14354604",
-        "image": "https://i.ticketweb.com/i/00/13/06/96/74_Edp.jpg?v=4"
-      },
-      {
         "name": "Tonight at the Improv ft. Rick Glassman, Chad Kroeger, The Sklar Brothers, Amir K, Eleanor Kerrigan, Pat McGann, Kelly Ryan and more TBA",
         "date": "2026-11-04",
         "time": "19:30:00",
@@ -947,18 +926,18 @@
         "image": "https://i.ticketweb.com/i/00/13/04/22/84_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft. David Spade, Jay Leno, Arsenio Hall, Brian Monarch, Ksenia and Very Special Guests",
+        "name": "Tonight at the Improv ft. David Spade, Jay Leno, Arsenio Hall, Ron Funches, Brian Monarch, Ksenia and Very Special Guests",
         "date": "2026-11-05",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366064",
         "image": "https://s1.ticketm.net/dam/a/790/2e124d53-3f5e-48c4-ab26-11bc2213a790_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar and more TBA",
+        "name": "The Download Comedy Show ft. Kate Lav, OJ Stellar, Amber Abundance, Shenba Vairavan, Chiara Montali, Andrey Aripez",
         "date": "2026-11-05",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-download-comedy-show-ft-hollywood-improv-the-lab-tickets/14306104",
-        "image": "https://i.ticketweb.com/i/00/13/02/26/14_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/13/02/26/14_Edp.jpg?v=3"
       },
       {
         "name": "Tyler Fischer",
@@ -979,14 +958,14 @@
         "date": "2026-11-06",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/desi-comedy-fest-ft-abhay-hollywood-improv-the-lab-tickets/14975743",
-        "image": "https://i.ticketweb.com/i/00/13/58/02/93_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/58/02/93_Edp.jpg?v=7"
       },
       {
         "name": "Desi Comedy Fest ft. Abhay Nadkarni, Samson Koletkar, Pardis Parker, Zahid Dewji, Aliya Kanani, DJ Sandhu",
         "date": "2026-11-06",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/desi-comedy-fest-ft-abhay-hollywood-improv-the-lab-tickets/14975753",
-        "image": "https://i.ticketweb.com/i/00/13/58/03/03_Edp.jpg?v=6"
+        "image": "https://i.ticketweb.com/i/00/13/58/03/03_Edp.jpg?v=7"
       },
       {
         "name": "Jonathan Leigh Solomon's School for Stand Up",
@@ -996,11 +975,11 @@
         "image": "https://i.ticketweb.com/i/00/13/00/08/94_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jim Norton, Beth Stelling, Rick Glassman, Frazer Smith and more TBA",
         "date": "2026-11-07",
         "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14392484",
-        "image": "https://i.ticketweb.com/i/00/13/10/72/54_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14392484",
+        "image": "https://s1.ticketm.net/dam/a/7d8/5a93af5f-248c-4cb4-8858-dd11b286b7d8_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Elliott Connie 50th Birthday Comedy Show ft. Elliott Connie, Tiffany Haddish, Flame Monroe, J.D. Witherspoon, Jeremy Scippio",
@@ -1008,6 +987,27 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/elliott-connie-50th-birthday-comedy-hollywood-improv-the-lab-tickets/14378814",
         "image": "https://s1.ticketm.net/dam/a/055/6c45506b-40ac-430f-ab82-6ce05178c055_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-11-07",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14392494",
+        "image": "https://i.ticketweb.com/i/00/13/10/72/44_Edp.jpg?v=2"
+      },
+      {
+        "name": "LA Stand Up Presents",
+        "date": "2026-11-08",
+        "time": "16:00:00",
+        "url": "https://www.ticketweb.com/event/la-stand-up-presents-hollywood-improv-the-main-room-tickets/14384874",
+        "image": "https://i.ticketweb.com/i/00/13/10/12/14_Edp.jpg?v=3"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-11-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340874",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       }
     ]
   }
