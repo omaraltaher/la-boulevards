@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T21:40:36.133Z",
+  "generated": "2026-11-05T21:44:08.774Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Black Angels w/ GHOSTWOMAN",
-        "date": "2026-11-04",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9kd",
-        "image": "https://s1.ticketm.net/dam/a/199/81d0984d-f0b4-48c2-9495-f3b038b4c199_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Rebecca Black",
         "date": "2026-11-05",
         "time": "21:00:00",
@@ -116,6 +109,13 @@
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fAz",
         "image": null
+      },
+      {
+        "name": "The Milk Carton Kids w/ Paper Wings",
+        "date": "2026-11-15",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ZG0",
+        "image": "https://s1.ticketm.net/dam/a/2e8/06c7c00c-d04d-4d05-bd3f-e84aab4702e8_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -322,6 +322,13 @@
         "image": "https://s1.ticketm.net/dam/e/54a/05178035-59b7-4ff2-b39c-f65c7843754a_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "ATEEZ - GOLDEN HOUR : Part.6 OFFICIAL ALBUM LISTENING PARTY",
+        "date": "2026-11-12",
+        "time": "17:00:00",
+        "url": "https://www.ticketmaster.com/ateez-golden-hour-part6-official-album-los-angeles-california-11-12-2026/event/090065649C3F7545",
+        "image": "https://s1.ticketm.net/dam/e/afd/8c21f529-5f5e-4478-a1da-82b862528afd_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "SWMRS",
         "date": "2026-11-13",
         "time": "19:00:00",
@@ -341,13 +348,6 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/oso-oso-los-angeles-california-11-15-2026/event/0900650BB3E89978",
         "image": "https://s1.ticketm.net/dam/a/193/aa331941-c74d-4aaf-a9d0-2d8712fcb193_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Slothrust: The Dystopian Theatre Tour",
-        "date": "2026-11-18",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/slothrust-the-dystopian-theatre-tour-los-angeles-california-11-18-2026/event/0900654EC615BF1F",
-        "image": "https://s1.ticketm.net/dam/a/76a/59a68785-35fa-4258-963a-00de1337776a_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -486,13 +486,6 @@
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
       {
-        "name": "Tom Jones : Come Gather Round Tour",
-        "date": "2026-11-04",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-11-04-2026/event/090064B43E17B4D1",
-        "image": "https://s1.ticketm.net/dam/a/dca/e3197c3f-db63-41c5-be46-f48e5c2d2dca_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "LOLA YOUNG - Everything Begins",
         "date": "2027-05-04",
         "time": "20:00:00",
@@ -529,13 +522,6 @@
       }
     ],
     "Dolby Theatre": [
-      {
-        "name": "THE CHICKS - TAKING THE LONG WAY",
-        "date": "2026-11-04",
-        "time": "20:30:00",
-        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-04-2026/event/090064B785414609",
-        "image": "https://s1.ticketm.net/dam/a/447/17624bbd-1bde-49bf-8817-52a3aaeae447_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Pimpinela USA Tour Leyendas",
         "date": "2026-11-13",
@@ -584,6 +570,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/the-holiday-in-concert-hollywood-california-11-27-2026/event/09006516B69968B4",
         "image": null
+      },
+      {
+        "name": "Los Angeles Ballet Presents The Nutcracker",
+        "date": "2026-12-18",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/los-angeles-ballet-presents-the-nutcracker-hollywood-california-12-18-2026/event/09006548CBABEA86",
+        "image": "https://s1.ticketm.net/dam/a/e1b/c69c19db-6190-435a-b3ff-4db8473d6e1b_RECOMENDATION_16_9.jpg"
       }
     ],
     "Geffen Playhouse": [
@@ -642,13 +635,6 @@
     "Ambassador Auditorium": [],
     "Wilshire Ebell Theater and Club": [
       {
-        "name": "Dan and Phil: Hard Launch World Tour",
-        "date": "2026-11-04",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/dan-and-phil-hard-launch-world-los-angeles-california-11-04-2026/event/090064D39F8A8B4A",
-        "image": "https://s1.ticketm.net/dam/a/415/040df804-f51a-4e21-8137-d17f51f0e415_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Sara Naeini, Reza Rohani & Orchestra Live in LA",
         "date": "2026-11-07",
         "time": "20:00:00",
@@ -696,6 +682,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-28-2026/event/0900655CD4AF0D17",
         "image": "https://s1.ticketm.net/dbimages/186776a.jpg"
+      },
+      {
+        "name": "ALOK: Eat Pray Leave Tour",
+        "date": "2027-03-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/alok-eat-pray-leave-tour-los-angeles-california-03-10-2027/event/090064CB7BC63F7B",
+        "image": "https://s1.ticketm.net/dam/a/365/2ed4d0bf-fbd5-4429-a335-75e84f5d7365_RECOMENDATION_16_9.jpg"
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
@@ -844,7 +837,15 @@
     "Barnsdall Gallery Theatre": [],
     "The Groundlings": [],
     "Upright Citizens Brigade": [],
-    "The Comedy Store": [],
+    "The Comedy Store": [
+      {
+        "name": "Dave Attell",
+        "date": "2026-12-08",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvv0Z",
+        "image": "https://s1.ticketm.net/dam/a/a80/a3ef8377-6255-46c4-ab79-ce7a29eeba80_RECOMENDATION_16_9.jpg"
+      }
+    ],
     "Laugh Factory": [
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -912,21 +913,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Rick Glassman, Chad Kroeger, The Sklar Brothers, Amir K, Eleanor Kerrigan, Pat McGann, Kelly Ryan and more TBA",
-        "date": "2026-11-04",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14410064",
-        "image": "https://s1.ticketm.net/dam/a/922/feec859e-c789-4eee-bd8f-687f68d96922_447321_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "WE'RE BAAACK! w/ Chloé & Rochée ft. Chloé Hilliard, Rochée Jeffrey",
-        "date": "2026-11-04",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/were-baaack-w-chlo-hollywood-improv-the-lab-tickets/14325704",
-        "image": "https://i.ticketweb.com/i/00/13/04/22/84_Edp.jpg?v=6"
-      },
-      {
-        "name": "Tonight at the Improv ft. David Spade, Jay Leno, Arsenio Hall, Ron Funches, Brian Monarch, Ksenia and Very Special Guests",
+        "name": "Tonight at the Improv ft. David Spade, Arsenio Hall, Donnell Rawlings, Ron Funches, Brian Monarch, Ksenia and Very Special Guests",
         "date": "2026-11-05",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366064",
@@ -947,11 +934,11 @@
         "image": "https://i.ticketweb.com/i/00/13/64/49/23_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Donnell Rawlings, Asif Ali, Julia Hladkowicz, Doug Benson, Vinny Fasline and more TBA",
         "date": "2026-11-06",
         "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14366844",
-        "image": "https://i.ticketweb.com/i/00/13/07/99/94_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366844",
+        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Desi Comedy Fest ft. Abhay Nadkarni, Samson Koletkar, Kiran Deol, Zahra Ali, Feraz Ozel. Shilpa Das",
@@ -959,6 +946,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/desi-comedy-fest-ft-abhay-hollywood-improv-the-lab-tickets/14975743",
         "image": "https://i.ticketweb.com/i/00/13/58/02/93_Edp.jpg?v=7"
+      },
+      {
+        "name": "Tonight at the Improv ft. Donnell Rawlings, Sarah Tiana, Lara Beitz, Tyler Fischer, Joe Bartnick, Barry Diamond, Gary Cannon and more TBA",
+        "date": "2026-11-06",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366854",
+        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Desi Comedy Fest ft. Abhay Nadkarni, Samson Koletkar, Pardis Parker, Zahid Dewji, Aliya Kanani, DJ Sandhu",
@@ -975,7 +969,7 @@
         "image": "https://i.ticketweb.com/i/00/13/00/08/94_Edp.jpg?v=6"
       },
       {
-        "name": "Tonight at the Improv ft. Jim Norton, Beth Stelling, Rick Glassman, Frazer Smith and more TBA",
+        "name": "Tonight at the Improv ft. Jim Norton, Beth Stelling, Rick Glassman,  Dan Levy, Chloe Hilliard, Frazer Smith and more TBA",
         "date": "2026-11-07",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14392484",
@@ -989,11 +983,11 @@
         "image": "https://s1.ticketm.net/dam/a/055/6c45506b-40ac-430f-ab82-6ce05178c055_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Jim Norton, Frankie Quinones, Aida Rodriguez, Francisco Ramos, Kirk Fox, Ken Garr and more TBA",
         "date": "2026-11-07",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14392494",
-        "image": "https://i.ticketweb.com/i/00/13/10/72/44_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14392494",
+        "image": "https://s1.ticketm.net/dam/a/7d8/5a93af5f-248c-4cb4-8858-dd11b286b7d8_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "LA Stand Up Presents",
@@ -1003,11 +997,25 @@
         "image": "https://i.ticketweb.com/i/00/13/10/12/14_Edp.jpg?v=3"
       },
       {
+        "name": "Tonight at the Improv ft. Cameron Esposito, Ismo, James Davis, Saul Trujillo and more TBA",
+        "date": "2026-11-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14392514",
+        "image": "https://s1.ticketm.net/dam/a/0ba/da363796-4f3e-4b1a-a2b1-e2c4564910ba_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Deon Cole: Does This Work?",
         "date": "2026-11-08",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340874",
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "New Joke Night ft. Mike Falzone & JF Harris",
+        "date": "2026-11-09",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/new-joke-night-ft-mike-hollywood-improv-the-lab-tickets/14368734",
+        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       }
     ]
   }
