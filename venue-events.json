@@ -1,14 +1,7 @@
 {
-  "generated": "2026-11-06T21:13:17.449Z",
+  "generated": "2026-11-07T19:48:09.638Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Carl Cox",
-        "date": "2026-11-06",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/carl-cox-hollywood-california-11-06-2026/event/09006503777A2802",
-        "image": "https://s1.ticketm.net/dam/a/a71/d629288b-1635-410b-a7a3-35f5826fba71_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "TINASHE - ONE NIGHT WITH A POPSTAR",
         "date": "2026-11-07",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/rhye-hollywood-california-11-20-2026/event/090064C32762134F",
         "image": "https://s1.ticketm.net/dam/a/f46/d0c139de-8a11-4ca8-8206-d25784b4af46_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "BOLO",
+        "date": "2026-11-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/bolo-hollywood-california-11-21-2026/event/09006506891F4B69",
+        "image": "https://s1.ticketm.net/dam/a/7a6/89a91865-b339-410c-b382-44a8e793a7a6_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Nia Archives",
-        "date": "2026-11-06",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv73_",
-        "image": null
-      },
       {
         "name": "Plini w/ Night Verses",
         "date": "2026-11-08",
@@ -116,16 +109,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFp",
         "image": "https://s1.ticketm.net/dam/a/945/ad613023-8edd-4859-a25b-86a5d7666945_1447101_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "DANNA",
+        "date": "2026-11-17",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvO4x",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Innellea w/ Rafael Cerato",
-        "date": "2026-11-06",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/innellea-w-rafael-cerato-avalon-hollywood-tickets/14297224",
-        "image": "https://i.ticketweb.com/i/00/13/01/33/64_Edp.jpg?v=7"
-      },
       {
         "name": "Deathpact w/ Jiqui",
         "date": "2026-11-07",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/gasolina-avalon-hollywood-tickets/15053523",
         "image": "https://s1.ticketm.net/dam/a/937/06f3770b-0b33-435a-b067-55f5ff989937_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Emo Nite",
+        "date": "2026-12-04",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14411704",
+        "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "Pedro Sampaio - The Brazilian Chaos Tour",
-        "date": "2026-11-06",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgPS",
-        "image": null
-      },
       {
         "name": "Countess Luann",
         "date": "2026-11-07",
@@ -232,6 +225,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7u3",
         "image": null
+      },
+      {
+        "name": "CupcakKe",
+        "date": "2026-11-18",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPvo",
+        "image": "https://s1.ticketm.net/dam/a/235/0263fa23-a1b5-45bf-987a-70770815b235_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -293,13 +293,6 @@
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Conan O'Brien and The Vigodas",
-        "date": "2026-11-06",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/conan-obrien-and-the-vigodas-los-angeles-california-11-06-2026/event/09006542FA31FA7A",
-        "image": "https://s1.ticketm.net/dam/e/2a3/e5124a26-9d75-4506-95e0-6c376a20d2a3_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Fox Stevenson & Mystery Skulls",
         "date": "2026-11-07",
@@ -427,13 +420,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Pivot with Kara Swisher and Scott Galloway presented by beehiiv",
-        "date": "2026-11-06",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/pivot-with-kara-swisher-and-scott-los-angeles-california-11-06-2026/event/0900652ECBDBA895",
-        "image": "https://s1.ticketm.net/dam/a/64f/1585e9d0-4793-4822-b3de-cb06daedf64f_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Dante Gebel",
         "date": "2026-11-11",
         "time": "19:30:00",
@@ -481,6 +467,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/an-evening-w-christina-perri-celebrating-los-angeles-california-12-03-2026/event/09006553877B46A1",
         "image": "https://s1.ticketm.net/dam/a/e2e/f7d838c8-846e-4c49-99a1-2f563682ce2e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Bare Knuckle Boxing: BKB 62 ORTIZ V MALIGNAGGI",
+        "date": "2026-12-05",
+        "time": "17:00:00",
+        "url": "https://www.ticketmaster.com/bare-knuckle-boxing-bkb-62-ortiz-los-angeles-california-12-05-2026/event/09006563A0858A16",
+        "image": "https://s1.ticketm.net/dam/e/62f/c769ae29-e998-47de-be8d-a5831dcb062f_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -771,13 +764,6 @@
     "Beverly O'Neill Theater": [],
     "Levitt Pavilion": [
       {
-        "name": "Music + Movement: House Night w. DJs Rachel Lee & Corbeatz",
-        "date": "2026-11-06",
-        "time": "17:00",
-        "url": "https://www.eventbrite.com/e/music-movement-house-night-w-djs-rachel-lee-corbeatz-tickets-2004108376102",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196964026%2F405366306269%2F1%2Foriginal.20261030-225450?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.019&s=c697a301c1f589ef063a9e2cdaeb673e"
-      },
-      {
         "name": "Kasama Fest (For the People / Para la Gente)",
         "date": "2026-11-14",
         "time": "15:00",
@@ -791,13 +777,6 @@
     "Dynasty Typewriter At The Hayworth": [],
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
-      {
-        "name": "SET IT OFF - Hosted by Sum Cut",
-        "date": "2026-11-06",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/set-it-off-hosted-by-sum-inglewood-california-11-06-2026/event/0B006548AF5AA11F",
-        "image": "https://s1.ticketm.net/dam/e/a70/64bd2e75-91c4-40be-bf5a-68db63476a70_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "The Healing Box Part 2",
         "date": "2026-11-07",
@@ -913,34 +892,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Donnell Rawlings, Asif Ali, Dean Delray, Julia Hladkowicz, Doug Benson, Vinny Fasline and more TBA",
-        "date": "2026-11-06",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366844",
-        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Desi Comedy Fest ft. Abhay Nadkarni, Samson Koletkar, Kiran Deol, Zahra Ali, Feraz Ozel. Shilpa Das",
-        "date": "2026-11-06",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/desi-comedy-fest-ft-abhay-hollywood-improv-the-lab-tickets/14975743",
-        "image": "https://i.ticketweb.com/i/00/13/58/02/93_Edp.jpg?v=7"
-      },
-      {
-        "name": "Tonight at the Improv ft. Donnell Rawlings, Sarah Tiana, Lara Beitz, Tyler Fischer, Joe Bartnick, Barry Diamond, Gary Cannon and more TBA",
-        "date": "2026-11-06",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366854",
-        "image": "https://s1.ticketm.net/dam/a/730/9618c87e-c032-4331-9f09-53464b3a0730_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Desi Comedy Fest ft. Abhay Nadkarni, Samson Koletkar, Pardis Parker, Zahid Dewji, Aliya Kanani, DJ Sandhu",
-        "date": "2026-11-06",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/desi-comedy-fest-ft-abhay-hollywood-improv-the-lab-tickets/14975753",
-        "image": "https://i.ticketweb.com/i/00/13/58/03/03_Edp.jpg?v=7"
-      },
-      {
         "name": "Jonathan Leigh Solomon's School for Stand Up",
         "date": "2026-11-07",
         "time": "16:15:00",
@@ -1004,7 +955,7 @@
         "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Scott Ibarra, Malik S, Rashaun Reese, J Snow  & more",
         "date": "2026-11-09",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14366874",
@@ -1016,6 +967,34 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340864",
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lab Work",
+        "date": "2026-11-10",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14414664",
+        "image": "https://i.ticketweb.com/i/00/13/12/82/44_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv ft. Chelsea Handler, Jay Leno, Jessica Kirson, Brian Monarch and Very Special Guests",
+        "date": "2026-11-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366074",
+        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Just Pull Up ft. Dulcé Sloan, Camille Waters, and more TBA",
+        "date": "2026-11-10",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/just-pull-up-ft-dulc-hollywood-improv-the-lab-tickets/14360084",
+        "image": "https://s1.ticketm.net/dam/a/c99/def9c37a-77e3-4bd1-9da5-369f62e62c99_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Comedy Spotlight ft. Jessica Kirson, Larry Wilmore, Chris Millhouse, Gary Cannon and more TBA",
+        "date": "2026-11-11",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/the-comedy-spotlight-ft-jessica-hollywood-improv-the-main-room-tickets/14384564",
+        "image": "https://s1.ticketm.net/dam/a/9f8/76f260aa-e7fa-4862-9f57-94a3e42239f8_RECOMENDATION_16_9.jpg"
       }
     ]
   }
