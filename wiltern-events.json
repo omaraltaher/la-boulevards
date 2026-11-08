@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-07T19:14:55.403Z",
+  "generated": "2026-11-08T19:18:59.309Z",
   "events": [
-    {
-      "name": "Gnarls Barkley: To Whom It Still Concerns Tour",
-      "date": "2026-11-07",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/gnarls-barkley-to-whom-it-still-los-angeles-california-11-07-2026/event/0900653083904368",
-      "image": "https://s1.ticketm.net/dam/a/b1c/ecd3dbff-f48d-4078-84a4-8d1ba1311b1c_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Buena Vista Orchestra",
       "date": "2026-11-08",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/leonid-friends-los-angeles-california-11-15-2026/event/09006450A0667B77",
       "image": "https://s1.ticketm.net/dam/a/04d/ff62c781-05be-424b-880e-7d2d3b00804d_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Josh Homme & Friends: A Benefit for CORE & The Sweet Stuff Foundation",
+      "date": "2026-11-16",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/josh-homme-friends-a-benefit-for-los-angeles-california-11-16-2026/event/09006545F671117F",
+      "image": "https://s1.ticketm.net/dam/e/0cf/703a1140-5907-4a2a-beaf-797b4f5590cf_RECOMENDATION_16_9.jpg"
     }
   ]
 }
