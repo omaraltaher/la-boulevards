@@ -1,14 +1,7 @@
 {
-  "generated": "2026-11-07T19:48:09.638Z",
+  "generated": "2026-11-08T20:05:26.856Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "TINASHE - ONE NIGHT WITH A POPSTAR",
-        "date": "2026-11-07",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/tinashe-one-night-with-a-popstar-hollywood-california-11-07-2026/event/090064F499E14E53",
-        "image": "https://s1.ticketm.net/dam/e/a5c/60d959f6-ebd3-4436-a8df-9b2ced5a2a5c_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Sabaton: Legends on Tour",
         "date": "2026-11-12",
@@ -56,6 +49,13 @@
         "date": "2026-11-21",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/bolo-hollywood-california-11-21-2026/event/09006506891F4B69",
+        "image": "https://s1.ticketm.net/dam/a/7a6/89a91865-b339-410c-b382-44a8e793a7a6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "BOLO",
+        "date": "2026-11-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/bolo-hollywood-california-11-22-2026/event/0900650CD725EBE0",
         "image": "https://s1.ticketm.net/dam/a/7a6/89a91865-b339-410c-b382-44a8e793a7a6_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Deathpact w/ Jiqui",
-        "date": "2026-11-07",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/deathpact-w-jiqui-avalon-hollywood-tickets/14307674",
-        "image": "https://i.ticketweb.com/i/00/13/02/38/14_Edp.jpg?v=8"
-      },
-      {
         "name": "Riot Ten w/ Special Guest Codd Dubz + Joust B2B Mongrel",
         "date": "2026-11-14",
         "time": "22:00:00",
@@ -174,16 +167,16 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/emo-nite-avalon-hollywood-tickets/14411704",
         "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Oden & Fatzo",
+        "date": "2026-12-05",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/oden-fatzo-avalon-hollywood-tickets/14331894",
+        "image": "https://i.ticketweb.com/i/00/13/04/79/44_Edp.jpg?v=8"
       }
     ],
     "The Novo": [
-      {
-        "name": "Countess Luann",
-        "date": "2026-11-07",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKuz",
-        "image": "https://s1.ticketm.net/dam/a/1a2/8f1defb7-209b-4db9-9113-b3cb5faf51a2_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "kwn",
         "date": "2026-11-08",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPvo",
         "image": "https://s1.ticketm.net/dam/a/235/0263fa23-a1b5-45bf-987a-70770815b235_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "The Amity Affliction w/ blessthefall",
+        "date": "2026-11-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAFM",
+        "image": "https://s1.ticketm.net/dam/a/551/375a5480-571a-4831-807b-eb5fc7b5d551_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Fox Stevenson & Mystery Skulls",
-        "date": "2026-11-07",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/fox-stevenson-mystery-skulls-los-angeles-california-11-07-2026/event/09006515B812B352",
-        "image": "https://s1.ticketm.net/dam/e/b1c/e762969b-3d63-4831-8950-66d5447d3b1c_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Sexy Unique Podcast",
         "date": "2026-11-11",
         "time": "19:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/slothrust-the-dystopian-theatre-tour-los-angeles-california-11-18-2026/event/0900654EC615BF1F",
         "image": "https://s1.ticketm.net/dam/a/76a/59a68785-35fa-4258-963a-00de1337776a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Em Beihold: Tales Of A Failed Shapeshifter Tour",
+        "date": "2026-11-19",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/em-beihold-tales-of-a-failed-los-angeles-california-11-19-2026/event/090064D6ECA8C2CB",
+        "image": "https://s1.ticketm.net/dam/a/abd/fb4476c1-d584-4ca5-8a7b-b18e5ac2babd_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -628,13 +628,6 @@
     "Ambassador Auditorium": [],
     "Wilshire Ebell Theater and Club": [
       {
-        "name": "Sara Naeini, Reza Rohani & Orchestra Live in LA",
-        "date": "2026-11-07",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgGk",
-        "image": null
-      },
-      {
         "name": "Alex O'connor: Pre-show Q&a Add-on",
         "date": "2026-11-21",
         "time": "19:00:00",
@@ -682,16 +675,16 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/alok-eat-pray-leave-tour-los-angeles-california-03-10-2027/event/090064CB7BC63F7B",
         "image": "https://s1.ticketm.net/dam/a/365/2ed4d0bf-fbd5-4429-a335-75e84f5d7365_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Michelle Wolf: Best Job in the World",
+        "date": "2027-04-01",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/michelle-wolf-best-job-in-the-los-angeles-california-04-01-2027/event/09006528B26C8AF1",
+        "image": "https://s1.ticketm.net/dam/a/11e/a0046ab5-a10e-414f-89fb-4c7128b7d11e_RECOMENDATION_16_9.jpg"
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
-      {
-        "name": "La Mirada Theatre presents: Dear Evan Hansen",
-        "date": "2026-11-07",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JfZ",
-        "image": null
-      },
       {
         "name": "La Mirada Theatre presents: Dear Evan Hansen",
         "date": "2026-11-08",
@@ -732,6 +725,13 @@
         "date": "2026-11-19",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J3f",
+        "image": null
+      },
+      {
+        "name": "La Mirada Theatre presents: Dear Evan Hansen",
+        "date": "2026-11-21",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Jfe",
         "image": null
       }
     ],
@@ -777,13 +777,6 @@
     "Dynasty Typewriter At The Hayworth": [],
     "Bob Baker Marionette Theater": [],
     "Miracle Theater": [
-      {
-        "name": "The Healing Box Part 2",
-        "date": "2026-11-07",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/the-healing-box-part-2-inglewood-california-11-07-2026/event/0B00654DEFF09824",
-        "image": "https://s1.ticketm.net/dam/e/a83/46763027-6f7f-49eb-a437-a6296542fa83_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "For the Love of Dance",
         "date": "2026-11-13",
@@ -892,34 +885,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Jonathan Leigh Solomon's School for Stand Up",
-        "date": "2026-11-07",
-        "time": "16:15:00",
-        "url": "https://www.ticketweb.com/event/jonathan-leigh-solomons-school-for-hollywood-improv-the-lab-tickets/14285404",
-        "image": "https://i.ticketweb.com/i/00/13/00/08/94_Edp.jpg?v=6"
-      },
-      {
-        "name": "Tonight at the Improv ft. Jim Norton, Beth Stelling, Rick Glassman,  Dan Levy, Wayne Federman, Chloe Hilliard, Frazer Smith and more TBA",
-        "date": "2026-11-07",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14392484",
-        "image": "https://s1.ticketm.net/dam/a/7d8/5a93af5f-248c-4cb4-8858-dd11b286b7d8_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Elliott Connie 50th Birthday Comedy Show ft. Elliott Connie, Tiffany Haddish, Flame Monroe, J.D. Witherspoon, Jeremy Scippio",
-        "date": "2026-11-07",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/elliott-connie-50th-birthday-comedy-hollywood-improv-the-lab-tickets/14378814",
-        "image": "https://s1.ticketm.net/dam/a/055/6c45506b-40ac-430f-ab82-6ce05178c055_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Jim Norton, Frankie Quinones, Aida Rodriguez, Francisco Ramos, Kirk Fox, Zahid Dewji, Ken Garr and more TBA",
-        "date": "2026-11-07",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14392494",
-        "image": "https://s1.ticketm.net/dam/a/7d8/5a93af5f-248c-4cb4-8858-dd11b286b7d8_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "LA Stand Up Presents",
         "date": "2026-11-08",
         "time": "16:00:00",
@@ -932,13 +897,6 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14392514",
         "image": "https://s1.ticketm.net/dam/a/0ba/da363796-4f3e-4b1a-a2b1-e2c4564910ba_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-11-08",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340874",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Tonight at the Improv ft. Pete Holmes, Robby Hoffman, Johnny Pemberton, Jason Cheny, Jake Lambert and more TBA",
@@ -983,11 +941,25 @@
         "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Just Pull Up ft. Dulcé Sloan, Camille Waters, and more TBA",
+        "name": "Just Pull Up ft. Dulcé Sloan, Camille Waters, Jay Washington, Fatimah Taliah, Solomon Georgio, Bresha Webb, Jordan Conley and more TBA",
         "date": "2026-11-10",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/just-pull-up-ft-dulc-hollywood-improv-the-lab-tickets/14360084",
         "image": "https://s1.ticketm.net/dam/a/c99/def9c37a-77e3-4bd1-9da5-369f62e62c99_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-11-10",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340934",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-11-11",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-lab-tickets/14414684",
+        "image": "https://i.ticketweb.com/i/00/13/12/82/64_Edp.jpg?v=2"
       },
       {
         "name": "The Comedy Spotlight ft. Jessica Kirson, Larry Wilmore, Chris Millhouse, Gary Cannon and more TBA",
@@ -995,6 +967,34 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-comedy-spotlight-ft-jessica-hollywood-improv-the-main-room-tickets/14384564",
         "image": "https://s1.ticketm.net/dam/a/9f8/76f260aa-e7fa-4862-9f57-94a3e42239f8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-11-11",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340954",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mark Hayes & Friends ft. Tony Rock, Jessica Kirson, Earthquake, Robby Hoffman, Craig Robinson, Mark Hayes and more TBA",
+        "date": "2026-11-11",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/mark-hayes-friends-ft-hollywood-improv-the-main-room-tickets/14397844",
+        "image": "https://s1.ticketm.net/dam/a/b48/08dbf706-15bc-49e0-a136-15660bf15b48_1092281_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "F*ck It with Jessica Kirson",
+        "date": "2026-11-12",
+        "time": "19:15:00",
+        "url": "https://www.ticketweb.com/event/fck-it-with-jessica-kirson-hollywood-improv-the-main-room-tickets/14371444",
+        "image": "https://s1.ticketm.net/dam/a/61e/6a3c4cc4-f3e5-4106-bf6a-8a7833cd061e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Liz Glazer ft. Quincy Yeoman, Josh Edelman, Tina Friml",
+        "date": "2026-11-12",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/liz-glazer-ft-quincy-yeoman-hollywood-improv-the-lab-tickets/14379724",
+        "image": "https://i.ticketweb.com/i/00/13/09/56/04_Edp.jpg?v=4"
       }
     ]
   }
