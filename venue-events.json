@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T20:05:26.856Z",
+  "generated": "2026-11-09T23:56:13.489Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Plini w/ Night Verses",
-        "date": "2026-11-08",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pfad",
-        "image": "https://s1.ticketm.net/dam/a/6d2/64cfb21b-5033-4e19-a0fd-bf2e287736d2_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Quadeca w/ Derby",
         "date": "2026-11-10",
         "time": "20:00:00",
@@ -115,6 +108,13 @@
         "date": "2026-11-17",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvO4x",
+        "image": null
+      },
+      {
+        "name": "Lucy Bedroque w/ pinponpanpon",
+        "date": "2026-11-19",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv78-",
         "image": null
       }
     ],
@@ -178,13 +178,6 @@
     ],
     "The Novo": [
       {
-        "name": "kwn",
-        "date": "2026-11-08",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_j7",
-        "image": "https://s1.ticketm.net/dam/a/be6/59d23edb-abbc-4ad5-87a6-aad5325cabe6_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Lawrence",
         "date": "2026-11-12",
         "time": "19:00:00",
@@ -232,6 +225,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAFM",
         "image": "https://s1.ticketm.net/dam/a/551/375a5480-571a-4831-807b-eb5fc7b5d551_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ceremony w/ Spelling",
+        "date": "2026-11-20",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ8P",
+        "image": null
       }
     ],
     "Peacock Theater": [
@@ -687,13 +687,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "La Mirada Theatre presents: Dear Evan Hansen",
-        "date": "2026-11-08",
-        "time": "13:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J3_",
-        "image": null
-      },
-      {
-        "name": "La Mirada Theatre presents: Dear Evan Hansen",
         "date": "2026-11-12",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J3p",
@@ -789,7 +782,7 @@
         "date": "2026-11-18",
         "time": "20:30:00",
         "url": "https://www.ticketmaster.com/elliott-brothers-comedy-block-party-hosted-inglewood-california-11-18-2026/event/0B00654C9BF53CBD",
-        "image": "https://s1.ticketm.net/dam/e/819/3261d434-cf3a-4c45-845c-8c5ed7473819_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/e/496/d02dff07-80f5-4ffb-b42d-5e4a4e6b4496_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "ICEF Performing Arts Presents Disney's \"DESCENDENTS THE MUSICAL\"",
@@ -820,18 +813,11 @@
     ],
     "Laugh Factory": [
       {
-        "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
-        "date": "2026-11-08",
-        "time": "19:00",
-        "url": "https://www.eventbrite.com/e/pookey-wigington-presents-chocolate-sundaes-700pm-tickets-1998441759098",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173175926%2F2986605118463%2F1%2Foriginal.20251218-012325?crop=focalpoint&fit=crop&h=181&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=da0cb850c9a73571c87115059173b457"
-      },
-      {
-        "name": "Pookey Wigington Presents: Chocolate Sundaes 9:30PM",
-        "date": "2026-11-08",
-        "time": "21:30",
-        "url": "https://www.eventbrite.com/e/pookey-wigington-presents-chocolate-sundaes-930pm-tickets-1998441867422",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-11-09",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1998445591561",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197620381%2F2989400506155%2F1%2Foriginal.20261109-192932?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0e3c1cd7b6fd422076866110681e91b5"
       },
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -846,6 +832,13 @@
         "time": "21:30",
         "url": "https://www.eventbrite.com/e/pookey-wigington-presents-chocolate-sundaes-930pm-tickets-1998442674837",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
+      },
+      {
+        "name": "Special Premier: Daniel Franzese 8:00PM",
+        "date": "2026-11-16",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/special-premier-daniel-franzese-800pm-tickets-1998446074004",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197394078%2F2989400506155%2F1%2Foriginal.20261106-002636?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7702851ecd6ae19aa69e42094b61ec34"
       },
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -885,28 +878,14 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "LA Stand Up Presents",
-        "date": "2026-11-08",
-        "time": "16:00:00",
-        "url": "https://www.ticketweb.com/event/la-stand-up-presents-hollywood-improv-the-main-room-tickets/14384874",
-        "image": "https://i.ticketweb.com/i/00/13/10/12/14_Edp.jpg?v=3"
-      },
-      {
-        "name": "Tonight at the Improv ft. Cameron Esposito, Ismo, James Davis, Ali Macofsky, Taylor Williamson, Esau McGraw, Willie Simon, Saul Trujillo and more TBA",
-        "date": "2026-11-08",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14392514",
-        "image": "https://s1.ticketm.net/dam/a/0ba/da363796-4f3e-4b1a-a2b1-e2c4564910ba_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Pete Holmes, Robby Hoffman, Johnny Pemberton, Jason Cheny, Jake Lambert and more TBA",
+        "name": "Tonight at the Improv ft. Pete Holmes, Robby Hoffman, Amir K, Johnny Pemberton, Jason Cheny, Jake Lambert, Kira Soltanovich, Justine Marino and more TBA",
         "date": "2026-11-09",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14397834",
         "image": "https://s1.ticketm.net/dam/a/9f8/bf237f0b-48fc-4a61-b94c-fcee43d8a9f8_1773861_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "New Joke Night ft. Mike Falzone, JF Harris, Steve Furey, Liz Miele, Cooper Lyden, Annie Lederman",
+        "name": "New Joke Night ft. Mike Falzone, JF Harris, Asif Ali, Liz Miele, Cooper Lyden, Annie Lederman",
         "date": "2026-11-09",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/new-joke-night-ft-mike-hollywood-improv-the-lab-tickets/14368734",
@@ -927,11 +906,11 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Lab Work",
+        "name": "Lab Work hosted by Andy Benedetti  ft. Brittany Ross, Dvontre Coleman, Billy Bonnell, LaFountaine Oliver Jeanne Whitney, Jasmine Ellis",
         "date": "2026-11-10",
         "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14414664",
-        "image": "https://i.ticketweb.com/i/00/13/12/82/44_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/lab-work-hosted-by-andy-hollywood-improv-the-lab-tickets/14414664",
+        "image": "https://i.ticketweb.com/i/00/13/12/82/44_Edp.jpg?v=3"
       },
       {
         "name": "Tonight at the Improv ft. Chelsea Handler, Jay Leno, Jessica Kirson, Brian Monarch and Very Special Guests",
@@ -955,14 +934,14 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Happy Hour Open Mic",
+        "name": "Happy Hour Open Mic host by Cid Williams",
         "date": "2026-11-11",
         "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-lab-tickets/14414684",
-        "image": "https://i.ticketweb.com/i/00/13/12/82/64_Edp.jpg?v=2"
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-host-hollywood-improv-the-lab-tickets/14414684",
+        "image": "https://i.ticketweb.com/i/00/13/12/82/64_Edp.jpg?v=3"
       },
       {
-        "name": "The Comedy Spotlight ft. Jessica Kirson, Larry Wilmore, Chris Millhouse, Gary Cannon and more TBA",
+        "name": "The Comedy Spotlight ft. Jessica Kirson, Larry Wilmore, Chris Millhouse, Asif Ali, Gary Cannon and more TBA",
         "date": "2026-11-11",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/the-comedy-spotlight-ft-jessica-hollywood-improv-the-main-room-tickets/14384564",
@@ -994,7 +973,14 @@
         "date": "2026-11-12",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/liz-glazer-ft-quincy-yeoman-hollywood-improv-the-lab-tickets/14379724",
-        "image": "https://i.ticketweb.com/i/00/13/09/56/04_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/09/56/04_Edp.jpg?v=5"
+      },
+      {
+        "name": "Tonight at the Improv ft. Whitney Cummings, Melissa Villasenor, Orny Adams, Frankie Quinones, Brian Monarch and Very Special Guests",
+        "date": "2026-11-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14342694",
+        "image": "https://s1.ticketm.net/dam/a/9dc/9bd9d5fa-a287-40b2-84e8-24101f82b9dc_RECOMENDATION_16_9.jpg"
       }
     ]
   }
