@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-08T19:18:59.309Z",
+  "generated": "2026-11-09T23:40:59.062Z",
   "events": [
-    {
-      "name": "Buena Vista Orchestra",
-      "date": "2026-11-08",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/buena-vista-orchestra-los-angeles-california-11-08-2026/event/090064A124716910",
-      "image": "https://s1.ticketm.net/dam/a/fd6/a4a8431d-f2a0-4756-8ff7-adbeee16bfd6_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Sienna Spiro: My House Tour",
       "date": "2026-11-10",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/josh-homme-friends-a-benefit-for-los-angeles-california-11-16-2026/event/09006545F671117F",
       "image": "https://s1.ticketm.net/dam/e/0cf/703a1140-5907-4a2a-beaf-797b4f5590cf_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "THE DAMNED - FINAL DAMNATION 50",
+      "date": "2026-11-17",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/the-damned-final-damnation-50-los-angeles-california-11-17-2026/event/09006490C927A3CF",
+      "image": "https://s1.ticketm.net/dam/a/2d3/eb6f8680-8beb-4fb7-963d-a58dfc90e2d3_RECOMENDATION_16_9.jpg"
     }
   ]
 }
