@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T21:36:47.676Z",
+  "generated": "2026-11-11T22:25:46.847Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Quadeca w/ Derby",
-        "date": "2026-11-10",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZpad",
-        "image": "https://s1.ticketm.net/dam/a/d38/bfdf6cc9-fb63-4771-b3f8-b6548259cd38_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Ninajirachi w/ MGNA Crrrta",
         "date": "2026-11-11",
         "time": "20:00:00",
@@ -115,6 +108,13 @@
         "date": "2026-11-19",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv78-",
+        "image": null
+      },
+      {
+        "name": "Lucy Bedroque w/ pinponpanpon",
+        "date": "2026-11-20",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvdr7",
         "image": null
       }
     ],
@@ -670,18 +670,18 @@
         "image": "https://s1.ticketm.net/dbimages/186776a.jpg"
       },
       {
+        "name": "Dynamicduo 2027 US TOUR- DUO DECADES",
+        "date": "2027-01-31",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/dynamicduo-2027-us-tour-duo-decades-los-angeles-california-01-31-2027/event/0900656A03F14D7E",
+        "image": "https://s1.ticketm.net/dam/e/adc/7cdd1f30-8961-4428-956e-5b952328cadc_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "ALOK: Eat Pray Leave Tour",
         "date": "2027-03-10",
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/alok-eat-pray-leave-tour-los-angeles-california-03-10-2027/event/090064CB7BC63F7B",
         "image": "https://s1.ticketm.net/dam/a/365/2ed4d0bf-fbd5-4429-a335-75e84f5d7365_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Michelle Wolf: Best Job in the World",
-        "date": "2027-04-01",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/michelle-wolf-best-job-in-the-los-angeles-california-04-01-2027/event/09006528B26C8AF1",
-        "image": "https://s1.ticketm.net/dam/a/11e/a0046ab5-a10e-414f-89fb-4c7128b7d11e_RECOMENDATION_16_9.jpg"
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
@@ -804,6 +804,13 @@
     "Upright Citizens Brigade": [],
     "The Comedy Store": [
       {
+        "name": "Adam Ray",
+        "date": "2026-11-15",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7gp4",
+        "image": "https://s1.ticketm.net/dam/a/8d6/a01d8edf-195c-4361-b3ce-7836d62f08d6_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Dave Attell",
         "date": "2026-12-08",
         "time": "20:00:00",
@@ -878,34 +885,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work hosted by Andy Benedetti  ft. Dvontre Coleman, Brittany Ross, Jeanne Whitney, Jasmine Ellis, Pancho Moler",
-        "date": "2026-11-10",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hosted-by-andy-hollywood-improv-the-lab-tickets/14414664",
-        "image": "https://i.ticketweb.com/i/00/13/12/82/44_Edp.jpg?v=6"
-      },
-      {
-        "name": "Tonight at the Improv ft. Chelsea Handler, Jay Leno, Jessica Kirson, Jay Pharoah, Brian Monarch, Brittany Ross and Very Special Guests",
-        "date": "2026-11-10",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366074",
-        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Just Pull Up ft. Dulcé Sloan, Camille Waters, Jay Washington, Fatimah Taliah, Solomon Georgio, Bresha Webb, Jordan Conley and more TBA",
-        "date": "2026-11-10",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/just-pull-up-ft-dulc-hollywood-improv-the-lab-tickets/14360084",
-        "image": "https://s1.ticketm.net/dam/a/c99/def9c37a-77e3-4bd1-9da5-369f62e62c99_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-11-10",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340934",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic host by Cid Williams",
         "date": "2026-11-11",
         "time": "17:15:00",
@@ -973,7 +952,14 @@
         "date": "2026-11-13",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14414304",
-        "image": "https://i.ticketweb.com/i/00/13/12/80/04_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/13/12/80/04_Edp.jpg?v=3"
+      },
+      {
+        "name": "Comedy Grind ft. Gene Pompa, Greg Wilson, Ryan Talmo, Tonya Moon, Lorena Alexander Gomez, Pete Giovine, Willie Krisztal, Sarah Randolph, Evelyn JC Richardson, Rob DaRocha",
+        "date": "2026-11-13",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/comedy-grind-ft-gene-pompa-hollywood-improv-the-lab-tickets/14279154",
+        "image": "https://s1.ticketm.net/dam/a/65b/fa95d05e-6fe6-4ca4-a977-95999b37765b_1037281_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Jaime French",
@@ -981,6 +967,27 @@
         "time": "16:00:00",
         "url": "https://www.ticketweb.com/event/jaime-french-hollywood-improv-the-main-room-tickets/15048113",
         "image": "https://i.ticketweb.com/i/00/13/64/51/33_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-11-14",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14421904",
+        "image": "https://i.ticketweb.com/i/00/13/13/30/14_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Lab",
+        "date": "2026-11-14",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-hollywood-improv-the-lab-tickets/14366984",
+        "image": "https://i.ticketweb.com/i/00/13/08/01/34_Edp.jpg?v=2"
+      },
+      {
+        "name": "Undiscovered Genius ft. Tom Fox, Josh Edelman, Dane Anthony, Sarah Mooney, Julia Li, Tom Johnson, Rick Blaze, Charlotte Star",
+        "date": "2026-11-14",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-tom-fox-hollywood-improv-the-lab-tickets/14368894",
+        "image": "https://i.ticketweb.com/i/00/13/08/21/84_Edp.jpg?v=4"
       }
     ]
   }
