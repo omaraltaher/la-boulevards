@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-10T21:11:08.311Z",
+  "generated": "2026-11-11T21:43:35.858Z",
   "events": [
-    {
-      "name": "Sienna Spiro: My House Tour",
-      "date": "2026-11-10",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
-      "image": "https://s1.ticketm.net/dam/a/b07/09e0979d-7b3d-4cd4-badf-67d6ced79b07_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "KCRW Presents Bonobo: Distance in Static Live North American Tour",
       "date": "2026-11-11",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/the-damned-final-damnation-50-los-angeles-california-11-17-2026/event/09006490C927A3CF",
       "image": "https://s1.ticketm.net/dam/a/2d3/eb6f8680-8beb-4fb7-963d-a58dfc90e2d3_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Brad Williams: The Tall Tales Tour",
+      "date": "2026-11-19",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/brad-williams-the-tall-tales-tour-los-angeles-california-11-19-2026/event/09006445B8DA9561",
+      "image": "https://s1.ticketm.net/dam/a/685/0c876ac5-1fa5-43a2-9fd5-08187f9b7685_RECOMENDATION_16_9.jpg"
     }
   ]
 }
