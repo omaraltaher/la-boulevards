@@ -1,14 +1,7 @@
 {
-  "generated": "2026-11-12T22:00:15.167Z",
+  "generated": "2026-11-13T21:46:24.838Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Sabaton: Legends on Tour",
-        "date": "2026-11-12",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-hollywood-california-11-12-2026/event/09006455C0F6592F",
-        "image": "https://s1.ticketm.net/dam/a/6af/faa2c053-7247-49f9-9cd2-9dd6512986af_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Underoath - Define the Great Line 20th Anniversary Tour",
         "date": "2026-11-13",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/bolo-hollywood-california-11-22-2026/event/0900650CD725EBE0",
         "image": "https://s1.ticketm.net/dam/a/7a6/89a91865-b339-410c-b382-44a8e793a7a6_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Punchis Punchis: Banda Rave Experience",
+        "date": "2026-11-25",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/punchis-punchis-banda-rave-experience-hollywood-california-11-25-2026/event/09006549278532F8",
+        "image": "https://s1.ticketm.net/dam/a/bb2/548e6c66-c89e-4b37-b808-485b5c446bb2_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Ninajirachi (18 and Over)",
-        "date": "2026-11-12",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oA0",
-        "image": null
-      },
       {
         "name": "Ninajirachi (18 and Over)",
         "date": "2026-11-13",
@@ -115,6 +108,13 @@
         "date": "2026-11-21",
         "time": "21:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvU0U",
+        "image": null
+      },
+      {
+        "name": "Holywatr",
+        "date": "2026-11-22",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPuO",
         "image": null
       }
     ],
@@ -179,13 +179,6 @@
     "The Novo": [
       {
         "name": "Lawrence",
-        "date": "2026-11-12",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OMe8",
-        "image": "https://s1.ticketm.net/dam/a/f52/5f3274be-be3f-4e37-9fc4-55ac9c470f52_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Lawrence",
         "date": "2026-11-13",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OMeF",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ8P",
         "image": null
+      },
+      {
+        "name": "R??Z: SE ESTA HACIENDO TARDE",
+        "date": "2026-11-21",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgPV",
+        "image": "https://s1.ticketm.net/dam/a/403/ddb22a4e-4f6d-4eaa-8292-d6801d596403_RECOMENDATION_16_9.jpg"
       }
     ],
     "Peacock Theater": [
@@ -294,13 +294,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "ATEEZ - GOLDEN HOUR : Part.6 OFFICIAL ALBUM RELEASE PARTY",
-        "date": "2026-11-12",
-        "time": "18:00:00",
-        "url": "https://www.ticketmaster.com/ateez-golden-hour-part6-official-album-los-angeles-california-11-12-2026/event/090065649C3F7545",
-        "image": "https://s1.ticketm.net/dam/e/afd/8c21f529-5f5e-4478-a1da-82b862528afd_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "SWMRS",
         "date": "2026-11-13",
         "time": "19:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/pretty-but-wicked-presents-mark-william-los-angeles-california-11-20-2026/event/090064EFE257F310",
         "image": "https://s1.ticketm.net/dam/e/44f/c5173179-ce4e-45c5-bc5f-65d53e6bf44f_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Eivør",
+        "date": "2026-11-21",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/eivr-los-angeles-california-11-21-2026/event/09006495D46CF11E",
+        "image": "https://s1.ticketm.net/dam/e/3d0/62d2daf7-c948-4339-a525-1720772d53d0_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -420,13 +420,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Sienna Spiro: My House Tour",
-        "date": "2026-11-12",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
-        "image": "https://s1.ticketm.net/dam/a/b07/09e0979d-7b3d-4cd4-badf-67d6ced79b07_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Gianmarco Soresi: The Misery Loves Tour",
         "date": "2026-11-13",
         "time": "19:00:00",
@@ -474,10 +467,24 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/cirque-musica-holiday-wonderland-los-angeles-california-12-11-2026/event/090064ED94A04FF3",
         "image": "https://s1.ticketm.net/dam/a/b5c/53a0549e-068e-42f4-ac7c-ebcdaa592b5c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Silvestre Dangond - El Baile de Todos",
+        "date": "2026-12-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/silvestre-dangond-el-baile-de-todos-los-angeles-california-12-12-2026/event/09006504C2599941",
+        "image": "https://s1.ticketm.net/dam/a/05f/32059bc2-eaa0-409a-82d8-ff61ba32505f_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
     "Greek Theatre": [
+      {
+        "name": "Bebe & Cece Winans: The Encore",
+        "date": "2027-04-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/bebe-cece-winans-the-encore-los-angeles-california-04-29-2027/event/0900656C6B812D90",
+        "image": "https://s1.ticketm.net/dam/a/674/8d30aa04-542b-4d1b-80d2-94c1ed007674_RECOMENDATION_16_9.jpg"
+      },
       {
         "name": "Sam Fender: North America Tour '27",
         "date": "2027-05-03",
@@ -525,7 +532,7 @@
         "date": "2027-10-24",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/leonid-friends-los-angeles-california-10-24-2027/event/09006569FEEB220E",
-        "image": "https://s1.ticketm.net/dam/a/04d/ff62c781-05be-424b-880e-7d2d3b00804d_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/e48/c13503bc-72b8-4a5a-a97d-fe136bd68e48_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -587,13 +594,6 @@
       }
     ],
     "Geffen Playhouse": [
-      {
-        "name": "Purpose - Play",
-        "date": "2026-11-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87s",
-        "image": null
-      },
       {
         "name": "Purpose - Play",
         "date": "2026-11-13",
@@ -701,13 +701,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "La Mirada Theatre presents: Dear Evan Hansen",
-        "date": "2026-11-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J3p",
-        "image": null
-      },
-      {
-        "name": "La Mirada Theatre presents: Dear Evan Hansen",
         "date": "2026-11-13",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Jfv",
@@ -739,6 +732,13 @@
         "date": "2026-11-21",
         "time": "14:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Jfe",
+        "image": null
+      },
+      {
+        "name": "La Mirada Theatre presents: Dear Evan Hansen",
+        "date": "2026-11-22",
+        "time": "13:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J3b",
         "image": null
       }
     ],
@@ -869,13 +869,6 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
-        "name": "New Material with Kevin Nealon 8:00PM",
-        "date": "2026-11-23",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/new-material-with-kevin-nealon-800pm-tickets-1998453432012",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197213920%2F2990051982791%2F1%2Foriginal.20261103-221104?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=35628f019d5fff99c7f3948101d134dc"
-      },
-      {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
         "date": "2026-11-29",
         "time": "19:00",
@@ -890,6 +883,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
+        "name": "Monday All-Star Comedy 8:00PM",
+        "date": "2026-11-30",
+        "time": "20:00",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1998453493195",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195984171%2F2989400506155%2F1%2Foriginal.20261017-002637?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=16373188cf28137bfdfa9330df999f58"
+      },
+      {
         "name": "Ray Lau",
         "date": "2026-12-16",
         "time": "20:00:00",
@@ -898,27 +898,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "F*ck It with Jessica Kirson",
-        "date": "2026-11-12",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/fck-it-with-jessica-kirson-hollywood-improv-the-main-room-tickets/14371444",
-        "image": "https://s1.ticketm.net/dam/a/61e/6a3c4cc4-f3e5-4106-bf6a-8a7833cd061e_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Liz Glazer ft. Quincy Yeoman, Josh Edelman, Tina Friml",
-        "date": "2026-11-12",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/liz-glazer-ft-quincy-yeoman-hollywood-improv-the-lab-tickets/14379724",
-        "image": "https://i.ticketweb.com/i/00/13/09/56/04_Edp.jpg?v=5"
-      },
-      {
-        "name": "Basshole ft. Doug Bass, Daniel Alvarez, Ryan Clark, Kelly McInerney, Rich Chassler, Isaac Chu, Joanie Mooney, Aimie Lieberman, Rachel Sterling, Brent Pella, Kyle Tomlin, Avra Friedman, Cid Williams",
-        "date": "2026-11-12",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/basshole-ft-doug-bass-daniel-hollywood-improv-the-lab-tickets/14368624",
-        "image": "https://i.ticketweb.com/i/00/13/08/18/44_Edp.jpg?v=6"
-      },
       {
         "name": "Tonight at the Improv ft. Whitney Cummings, Melissa Villasenor, Orny Adams, Frankie Quinones, Brian Monarch, Rahmein Mostafavi and Very Special Guests",
         "date": "2026-11-13",
@@ -931,7 +910,7 @@
         "date": "2026-11-13",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/at-the-lab-trios-ft-hollywood-improv-the-lab-tickets/14378864",
-        "image": "https://i.ticketweb.com/i/00/13/09/46/54_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/09/46/54_Edp.jpg?v=8"
       },
       {
         "name": "Tonight at the Improv ft. Fahim Anwar, Asif Ali, Lara Beitz, Mark Smalls, Brent Pella, MK Paulsen, Audrey Stewart and more TBA",
@@ -952,28 +931,28 @@
         "date": "2026-11-14",
         "time": "16:00:00",
         "url": "https://www.ticketweb.com/event/jaime-french-hollywood-improv-the-main-room-tickets/15048113",
-        "image": "https://i.ticketweb.com/i/00/13/64/51/33_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/64/51/33_Edp.jpg?v=7"
       },
       {
-        "name": "Tonight at the Improv ft. Melissa Villasenor, Chris Estrada, Mary Lynn Rajskub, Tom  Rhodes, Jay Washington",
+        "name": "Tonight at the Improv ft. Chris Estrada, Mary Lynn Rajskub, Charles Fleischer, Wayne Federman, Tom Rhodes, Jay Washington",
         "date": "2026-11-14",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14421904",
-        "image": "https://s1.ticketm.net/dam/a/1db/e6ab31f6-a7af-4554-86cc-9cd06e75c1db_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/a5b/33fb8749-a759-42d6-bb58-92dc8e55aa5b_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Dvontre Coleman, Cooper Lyden, Amy Silverberg, Cid Williams",
+        "name": "Tonight at the Lab ft. Dvontre Coleman, J.F. Harris, Cooper Lyden, Andrew Orolfo, Amy Silverberg, Fizaa Dosani, Arzo Dotson, Cid Williams",
         "date": "2026-11-14",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14366984",
-        "image": "https://i.ticketweb.com/i/00/13/08/01/34_Edp.jpg?v=3"
+        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv ft. Sarah Tiana, Nika King, Rick Ingraham, Yassir Lester, Justine Marino",
+        "name": "Tonight at the Improv ft. Will Burkart, Sarah Tiana, Nika King, Rick Ingraham, Mark Ellis, Yassir Lester, Justine Marino",
         "date": "2026-11-14",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14421964",
-        "image": "https://s1.ticketm.net/dam/a/360/357e7af4-2cd6-4276-a7ee-ea93a984b360_208741_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Undiscovered Genius ft. Tom Fox, Josh Edelman, Dane Anthony, Sarah Mooney, Julia Li, Tom Johnson, Rick Blaze, Charlotte Star",
@@ -990,11 +969,11 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Anthony Jeselnik, Craig Robinson, Craig Conant , Blair Socci, Dan Mahboubian Rosen, Chloe Radcliffe and more TBA",
         "date": "2026-11-16",
         "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14414344",
-        "image": "https://i.ticketweb.com/i/00/13/12/80/44_Edp.jpg?v=3"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14414344",
+        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -1002,6 +981,27 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340994",
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-11-16",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14366904",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lab Work",
+        "date": "2026-11-17",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hollywood-improv-the-lab-tickets/14427044",
+        "image": "https://i.ticketweb.com/i/00/13/13/61/14_Edp.jpg?v=3"
+      },
+      {
+        "name": "Tonight at the Improv ft.  Ray Romano, Jay Leno, Iliza Shlesinger, Craig Robinson, Brian Monarch, Leah Knauer, and Very Special Guests",
+        "date": "2026-11-17",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14342724",
+        "image": "https://s1.ticketm.net/dam/a/0ea/1df53b79-a116-4b41-8430-8c6790d290ea_RECOMENDATION_16_9.jpg"
       }
     ]
   }
