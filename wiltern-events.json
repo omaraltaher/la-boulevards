@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-12T21:42:37.100Z",
+  "generated": "2026-11-13T21:10:00.482Z",
   "events": [
-    {
-      "name": "KCRW Presents Bonobo: Distance in Static Live North American Tour",
-      "date": "2026-11-12",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/kcrw-presents-bonobo-distance-in-static-los-angeles-california-11-12-2026/event/090064C3CC0A45C4",
-      "image": "https://s1.ticketm.net/dam/a/3a8/db384fc3-0981-4463-b8da-2e8df78cd3a8_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Ólafur Arnalds",
       "date": "2026-11-13",
@@ -27,7 +20,7 @@
       "date": "2026-11-15",
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/leonid-friends-los-angeles-california-11-15-2026/event/09006450A0667B77",
-      "image": "https://s1.ticketm.net/dam/a/04d/ff62c781-05be-424b-880e-7d2d3b00804d_RECOMENDATION_16_9.jpg"
+      "image": "https://s1.ticketm.net/dam/a/e48/c13503bc-72b8-4a5a-a97d-fe136bd68e48_RECOMENDATION_16_9.jpg"
     },
     {
       "name": "Josh Homme & Friends: A Benefit for CORE & The Sweet Stuff Foundation",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/houndmouth-los-angeles-california-11-20-2026/event/090064EFE52CF86A",
       "image": "https://s1.ticketm.net/dam/a/ddd/06b4a38a-f999-477f-88a4-5d2f9f220ddd_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Silverstein & Story Of The Year: CAMP SCREAMO TOUR",
+      "date": "2026-11-22",
+      "time": "18:00:00",
+      "url": "https://www.ticketmaster.com/silverstein-story-of-the-year-camp-los-angeles-california-11-22-2026/event/090064F89F486E4F",
+      "image": "https://s1.ticketm.net/dam/a/aa5/72d2b1f2-b6ff-49a7-9266-b2602352aaa5_RECOMENDATION_16_9.jpg"
     }
   ]
 }
