@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-14T19:41:19.606Z",
+  "generated": "2026-11-15T20:07:17.012Z",
   "events": [
-    {
-      "name": "L7: The Last Hurrah Tour 2026",
-      "date": "2026-11-14",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/l7-the-last-hurrah-tour-2026-los-angeles-california-11-14-2026/event/090064A6AFD3FDB2",
-      "image": "https://s1.ticketm.net/dam/a/215/a8fedb17-86c7-4fb7-ac83-fc963c5ac215_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Leonid & Friends",
       "date": "2026-11-15",
@@ -56,6 +49,13 @@
       "time": "17:00:00",
       "url": "https://www.ticketmaster.com/like-nastya-los-angeles-california-11-23-2026/event/090064C39BEAC413",
       "image": "https://s1.ticketm.net/dam/a/e4e/2bc87aae-52c7-431c-ab97-d2c36f295e4e_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "2026 tripleS world tour [ANDLESS] in NA",
+      "date": "2026-11-24",
+      "time": "18:00:00",
+      "url": "https://www.ticketmaster.com/2026-triples-world-tour-andless-in-los-angeles-california-11-24-2026/event/09006523EB64E79F",
+      "image": "https://s1.ticketm.net/dam/a/2ef/e7661471-e684-4fcf-8109-c2acd487b2ef_RECOMENDATION_16_9.jpg"
     }
   ]
 }
