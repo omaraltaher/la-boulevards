@@ -1,14 +1,7 @@
 {
-  "generated": "2026-11-14T20:18:02.521Z",
+  "generated": "2026-11-15T20:43:20.728Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Insomniac presents Valentino Khan",
-        "date": "2026-11-14",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/insomniac-presents-valentino-khan-hollywood-california-11-14-2026/event/090064BDA75FB781",
-        "image": "https://s1.ticketm.net/dam/a/e6c/547f780e-5bcc-41c0-8a71-46a96b656e6c_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "LIL PEEP 30TH BIRTHDAY CELEBRATION",
         "date": "2026-11-15",
@@ -57,6 +50,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/insomniac-presents-devault-hollywood-california-11-27-2026/event/090064CD1DD77F50",
         "image": "https://s1.ticketm.net/dam/a/b5b/c5b756b8-3f1d-47a0-bcf0-02200406bb5b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Meek Mill: Dream Chasers Nights",
+        "date": "2026-11-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/meek-mill-dream-chasers-nights-hollywood-california-11-29-2026/event/09006550EDCC51CA",
+        "image": "https://s1.ticketm.net/dam/a/138/9f4a5765-62fa-4581-8175-ec7f9a54f138_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Riot Ten w/ Special Guest Codd Dubz + Joust B2B Mongrel",
-        "date": "2026-11-14",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/riot-ten-w-special-guest-avalon-hollywood-tickets/14352674",
-        "image": "https://s1.ticketm.net/dam/a/19d/8d5fef9a-6cf3-4796-9b31-a1afcf43119d_1463971_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Reggaeton Rave",
         "date": "2026-11-20",
         "time": "22:00:00",
@@ -174,16 +167,16 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/oden-fatzo-avalon-hollywood-tickets/14331894",
         "image": "https://i.ticketweb.com/i/00/13/04/79/44_Edp.jpg?v=8"
+      },
+      {
+        "name": "Electrik Seoul: K-pop x EDM",
+        "date": "2026-12-12",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/electrik-seoul-k-pop-x-avalon-hollywood-tickets/14441514",
+        "image": "https://s1.ticketm.net/dam/a/138/f695ee79-aca7-4f24-b0f2-8a121b620138_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
-      {
-        "name": "Lawrence",
-        "date": "2026-11-14",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OMea",
-        "image": "https://s1.ticketm.net/dam/a/f52/5f3274be-be3f-4e37-9fc4-55ac9c470f52_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Ghostface Killah w/ Raekwon",
         "date": "2026-11-15",
@@ -232,16 +225,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgPy",
         "image": "https://s1.ticketm.net/dam/a/403/ddb22a4e-4f6d-4eaa-8292-d6801d596403_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Song Dongye",
+        "date": "2026-11-25",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeFPI",
+        "image": null
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "2026 Rock and Roll Hall of Fame",
-        "date": "2026-11-14",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzOe",
-        "image": null
-      },
       {
         "name": "BOYNEXTDOOR",
         "date": "2026-11-20",
@@ -290,16 +283,16 @@
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZt1K",
         "image": null
+      },
+      {
+        "name": "Cece Winans",
+        "date": "2026-12-17",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFjS",
+        "image": "https://s1.ticketm.net/dam/a/327/8fad4fb6-48d4-432c-9e9b-59a2ea470327_RECOMENDATION_16_9.jpg"
       }
     ],
     "Teragram Ballroom": [
-      {
-        "name": "Other Lives",
-        "date": "2026-11-14",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/other-lives-los-angeles-california-11-14-2026/event/090064AC13F6CD62",
-        "image": "https://s1.ticketm.net/dam/e/050/bb96bede-cccc-465d-8c4d-54dcc644f050_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Oso Oso",
         "date": "2026-11-15",
@@ -341,6 +334,13 @@
         "time": "23:00:00",
         "url": "https://www.ticketmaster.com/kawaii-rave-katseye-unofficial-afterparty-los-angeles-california-11-21-2026/event/090064E29EC7564F",
         "image": "https://s1.ticketm.net/dam/e/929/1003b79c-35c6-4c60-bf4c-1025e84a6929_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Forbidden: Chaos By Design US Tour 2026",
+        "date": "2026-11-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/forbidden-chaos-by-design-us-tour-los-angeles-california-11-22-2026/event/090064EFDA41E3B5",
+        "image": "https://s1.ticketm.net/dam/e/8d5/673ada57-c772-40b9-83b4-eedf2bcf68d5_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -420,13 +420,6 @@
     ],
     "Orpheum Theatre": [
       {
-        "name": "Jorja Smith",
-        "date": "2026-11-14",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/jorja-smith-los-angeles-california-11-14-2026/event/090064FDB2A38B1E",
-        "image": "https://s1.ticketm.net/dam/a/16a/249ddf49-3dba-4a95-afb6-27a14cfa816a_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "ASIM ALI TOUR 2.0 featuring Mickey Singh",
         "date": "2026-11-21",
         "time": "19:30:00",
@@ -474,6 +467,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/andrea-gibsons-love-letter-from-the-los-angeles-california-02-04-2027/event/09006565E7A42D94",
         "image": "https://s1.ticketm.net/dam/a/914/bb53ed19-729d-4577-b124-ccb1c887a914_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "ALFRED ROBLES: EL ROMANTICO",
+        "date": "2027-02-13",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/alfred-robles-el-romantico-los-angeles-california-02-13-2027/event/0900656933A68E00",
+        "image": "https://s1.ticketm.net/dam/a/1da/59f86268-e95d-401d-a46d-4bac1eaca1da_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -537,13 +537,6 @@
     ],
     "Dolby Theatre": [
       {
-        "name": "Outlander in Concert",
-        "date": "2026-11-14",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/outlander-in-concert-hollywood-california-11-14-2026/event/09006473E78ADF87",
-        "image": "https://s1.ticketm.net/dam/a/e1b/f47c7258-5b27-4fd1-a278-399d5a711e1b_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "The 2026 Clio Creator Awards",
         "date": "2026-11-18",
         "time": "15:30:00",
@@ -596,13 +589,6 @@
     "Geffen Playhouse": [
       {
         "name": "Purpose - Play",
-        "date": "2026-11-14",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87V",
-        "image": null
-      },
-      {
-        "name": "Purpose - Play",
         "date": "2026-11-15",
         "time": "13:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87g",
@@ -634,6 +620,13 @@
         "date": "2026-11-22",
         "time": "13:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8AZ",
+        "image": null
+      },
+      {
+        "name": "Purpose - Play",
+        "date": "2026-11-27",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Ae",
         "image": null
       }
     ],
@@ -701,13 +694,6 @@
     "La Mirada Theatre For The Performing Arts": [
       {
         "name": "La Mirada Theatre presents: Dear Evan Hansen",
-        "date": "2026-11-14",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JfA",
-        "image": null
-      },
-      {
-        "name": "La Mirada Theatre presents: Dear Evan Hansen",
         "date": "2026-11-15",
         "time": "18:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J39",
@@ -733,17 +719,24 @@
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70J3b",
         "image": null
+      },
+      {
+        "name": "La Mirada Theatre presents: To Kill a Mockingbird",
+        "date": "2027-02-12",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JOb",
+        "image": "https://s1.ticketm.net/dam/a/09f/709eb211-6334-44be-aa89-37047fc9c09f_72421_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "La Mirada Theatre presents: To Kill a Mockingbird",
+        "date": "2027-02-13",
+        "time": "14:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JOo",
+        "image": "https://s1.ticketm.net/dam/a/09f/709eb211-6334-44be-aa89-37047fc9c09f_72421_RECOMENDATION_16_9.jpg"
       }
     ],
     "Downey Civic Theatre": [],
     "Redondo Beach Performing Arts Center": [
-      {
-        "name": "MARVIN - The Marvin Gaye Musical",
-        "date": "2026-11-14",
-        "time": "15:00:00",
-        "url": "https://www.ticketmaster.com/marvin-the-marvin-gaye-musical-redondo-beach-california-11-14-2026/event/090064B20C2109C7",
-        "image": "https://s1.ticketm.net/dam/a/593/6f7c735d-a1d2-4c09-9b0a-e1b72eab7593_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "MARVIN - The Marvin Gaye Musical",
         "date": "2026-11-15",
@@ -755,15 +748,7 @@
     "Haugh Performing Arts Center": [],
     "Eli Broad Stage": [],
     "Beverly O'Neill Theater": [],
-    "Levitt Pavilion": [
-      {
-        "name": "Kasama Fest (For the People / Para la Gente)",
-        "date": "2026-11-14",
-        "time": "15:00",
-        "url": "https://www.eventbrite.com/e/kasama-fest-for-the-people-para-la-gente-tickets-2003553549601",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196960483%2F405366306269%2F1%2Foriginal.20261030-213656?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.505&fp-y=0.39&s=4470bddfc9ee6ffdf8c77818f2758472"
-      }
-    ],
+    "Levitt Pavilion": [],
     "Bootleg Theater": [],
     "Coronet Theater": [],
     "Ivar Theatre": [],
@@ -885,41 +870,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Jaime French",
-        "date": "2026-11-14",
-        "time": "16:00:00",
-        "url": "https://www.ticketweb.com/event/jaime-french-hollywood-improv-the-lab-tickets/15048113",
-        "image": "https://i.ticketweb.com/i/00/13/64/51/33_Edp.jpg?v=10"
-      },
-      {
-        "name": "Tonight at the Improv ft. Chris Estrada, Mary Lynn Rajskub, Charles Fleischer, Wayne Federman, Tom Rhodes, Matt Fulchiron, Jay Washington",
-        "date": "2026-11-14",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14421904",
-        "image": "https://s1.ticketm.net/dam/a/a5b/33fb8749-a759-42d6-bb58-92dc8e55aa5b_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Lab ft. Dvontre Coleman, J.F. Harris, Cooper Lyden, Andrew Orolfo, Amy Silverberg, Fizaa Dosani, Arzo Dotson, Cid Williams",
-        "date": "2026-11-14",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14366984",
-        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Will Burkart, Sarah Tiana, Nika King, Rick Ingraham, Mark Ellis, Yassir Lester, Justine Marino",
-        "date": "2026-11-14",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14421964",
-        "image": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Undiscovered Genius ft. Tom Fox, Josh Edelman, Dane Anthony, Joanie Mooney, Julia Li, Tom Johnson, Rick Blaze, Charlotte Star",
-        "date": "2026-11-14",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/undiscovered-genius-ft-tom-fox-hollywood-improv-the-lab-tickets/14368894",
-        "image": "https://i.ticketweb.com/i/00/13/08/21/84_Edp.jpg?v=6"
-      },
-      {
         "name": "Deon Cole: Does This Work?",
         "date": "2026-11-15",
         "time": "21:00:00",
@@ -976,6 +926,20 @@
         "image": "https://i.ticketweb.com/i/00/13/11/80/74_Edp.jpg?v=4"
       },
       {
+        "name": "Jesus Sepulveda",
+        "date": "2026-11-17",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/jesus-sepulveda-hollywood-improv-the-lab-tickets/14411634",
+        "image": "https://i.ticketweb.com/i/00/13/12/46/04_Edp.jpg?v=4"
+      },
+      {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-11-18",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-lab-tickets/14427124",
+        "image": "https://i.ticketweb.com/i/00/13/13/61/94_Edp.jpg?v=3"
+      },
+      {
         "name": "*JUST ADDED NATE JACKSON* COMEDY CRUSH ft. ARSENIO HALL, ADAM RAY, DAN LEVY, JUSTINE MARINO & AVERY PEARSON",
         "date": "2026-11-18",
         "time": "19:30:00",
@@ -983,11 +947,32 @@
         "image": "https://s1.ticketm.net/dam/a/fbf/81572b30-6b47-4aa3-a6e9-6f83f7daafbf_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Babe Stoppp ft. Hayden Johnson, Zavior Phillips, Ava Bunn, Jonas Gindin, Vinny Thomas, Caroline Timoney, Hannah Schoen, and More TBA",
+        "date": "2026-11-18",
+        "time": "20:30:00",
+        "url": "https://www.ticketweb.com/event/babe-stoppp-ft-hayden-johnson-hollywood-improv-the-lab-tickets/14352714",
+        "image": "https://i.ticketweb.com/i/00/13/06/75/24_Edp.jpg?v=3"
+      },
+      {
         "name": "Jim Norton: Stupid Smile ft. Natasha Pearl Hansen",
         "date": "2026-11-18",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/jim-norton-stupid-smile-ft-hollywood-improv-the-main-room-tickets/14372954",
         "image": "https://s1.ticketm.net/dam/a/7d8/5a93af5f-248c-4cb4-8858-dd11b286b7d8_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Brian Monarch and Very Special Guests",
+        "date": "2026-11-19",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14414404",
+        "image": "https://s1.ticketm.net/dam/a/445/90200216-25a1-4dd1-9b82-25c5aad91445_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Richie O'Farrill",
+        "date": "2026-11-19",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/richie-ofarrill-hollywood-improv-the-main-room-tickets/14274504",
+        "image": "https://i.ticketweb.com/i/00/12/98/94/14_Edp.jpg?v=2"
       }
     ]
   }
