@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-15T20:07:17.012Z",
+  "generated": "2026-11-16T23:37:59.943Z",
   "events": [
-    {
-      "name": "Leonid & Friends",
-      "date": "2026-11-15",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/leonid-friends-los-angeles-california-11-15-2026/event/09006450A0667B77",
-      "image": "https://s1.ticketm.net/dam/a/e48/c13503bc-72b8-4a5a-a97d-fe136bd68e48_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Josh Homme & Friends: A Benefit for CORE & The Sweet Stuff Foundation",
       "date": "2026-11-16",
@@ -56,6 +49,13 @@
       "time": "18:00:00",
       "url": "https://www.ticketmaster.com/2026-triples-world-tour-andless-in-los-angeles-california-11-24-2026/event/09006523EB64E79F",
       "image": "https://s1.ticketm.net/dam/a/2ef/e7661471-e684-4fcf-8109-c2acd487b2ef_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Imminence - Axis Mundi Tour: North America 2026",
+      "date": "2026-11-28",
+      "time": "18:00:00",
+      "url": "https://www.ticketmaster.com/imminence-axis-mundi-tour-north-america-los-angeles-california-11-28-2026/event/090064CB9D108813",
+      "image": "https://s1.ticketm.net/dam/a/516/cd386496-e3e1-4219-8dd3-4761d3e20516_RECOMENDATION_16_9.jpg"
     }
   ]
 }
