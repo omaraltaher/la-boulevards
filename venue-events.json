@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T23:56:50.686Z",
+  "generated": "2026-11-17T23:17:28.332Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Gary Numan",
-        "date": "2026-11-16",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFp",
-        "image": "https://s1.ticketm.net/dam/a/945/ad613023-8edd-4859-a25b-86a5d7666945_1447101_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "DANNA",
         "date": "2026-11-17",
         "time": "20:00:00",
@@ -116,6 +109,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvaqY",
         "image": "https://s1.ticketm.net/dam/a/093/f93ac7cf-9b23-4003-9437-32b9a5b41093_1267261_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Infectious Grooves",
+        "date": "2026-11-28",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7EOY",
+        "image": "https://s1.ticketm.net/dbimages/66390a.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -138,7 +138,7 @@
         "date": "2026-11-25",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/clawz-w-dr-donk-avalon-hollywood-tickets/14312964",
-        "image": "https://i.ticketweb.com/i/00/13/02/92/54_Edp.jpg?v=7"
+        "image": "https://i.ticketweb.com/i/00/13/02/92/54_Edp.jpg?v=8"
       },
       {
         "name": "Andy C",
@@ -378,6 +378,13 @@
         "time": "18:00:00",
         "url": "https://www.ticketmaster.com/world-ballet-company-the-sleeping-beauty-glendale-california-02-14-2027/event/0B0064FED92767A1",
         "image": "https://s1.ticketm.net/dam/a/90e/afce7690-6d6b-40f5-bef3-f48ae012590e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Brincos Dieras El Que Se Sube Se Pasea Tour",
+        "date": "2027-03-14",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/brincos-dieras-el-que-se-sube-glendale-california-03-14-2027/event/0B006570D3064BFD",
+        "image": "https://s1.ticketm.net/dam/e/66e/095f0f4e-3a56-494c-a4f9-dff6fc69166e_RECOMENDATION_16_9.jpg"
       }
     ],
     "Kirk Douglas Theatre": [],
@@ -631,7 +638,15 @@
       }
     ],
     "Pasadena Playhouse": [],
-    "Ricardo Montalban Theatre": [],
+    "Ricardo Montalban Theatre": [
+      {
+        "name": "MST3K LIVE: THE RETURNEN-ING TOUR",
+        "date": "2027-03-16",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/mst3k-live-the-returnening-tour-hollywood-california-03-16-2027/event/0B006569EC4E528D",
+        "image": "https://s1.ticketm.net/dam/a/7d3/4badc2c6-011e-48fa-8c22-f027999937d3_1471131_RECOMENDATION_16_9.jpg"
+      }
+    ],
     "Ambassador Auditorium": [],
     "Wilshire Ebell Theater and Club": [
       {
@@ -740,7 +755,15 @@
     "Haugh Performing Arts Center": [],
     "Eli Broad Stage": [],
     "Beverly O'Neill Theater": [],
-    "Levitt Pavilion": [],
+    "Levitt Pavilion": [
+      {
+        "name": "Home for the Holidays: A musical evening with Feather Flowers + Guests",
+        "date": "2026-11-27",
+        "time": "17:00",
+        "url": "https://www.eventbrite.com/e/home-for-the-holidays-a-musical-evening-with-feather-flowers-guests-tickets-2004967148714",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196909226%2F405366306269%2F1%2Foriginal.20261030-051826?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.501&fp-y=0.315&s=4827585da90a473e8cf73aba3bb1a807"
+      }
+    ],
     "Bootleg Theater": [],
     "Coronet Theater": [],
     "Ivar Theatre": [],
@@ -789,13 +812,6 @@
       }
     ],
     "Laugh Factory": [
-      {
-        "name": "Special Premier: Daniel Franzese 8:00PM",
-        "date": "2026-11-16",
-        "time": "20:00",
-        "url": "https://www.eventbrite.com/e/special-premier-daniel-franzese-800pm-tickets-1998446074004",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197394078%2F2989400506155%2F1%2Foriginal.20261106-002636?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7702851ecd6ae19aa69e42094b61ec34"
-      },
       {
         "name": "Rubee Tuesdays 7:45pm",
         "date": "2026-11-17",
@@ -846,6 +862,13 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195984171%2F2989400506155%2F1%2Foriginal.20261017-002637?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=16373188cf28137bfdfa9330df999f58"
       },
       {
+        "name": "Rubee Tuesdays 7:45pm",
+        "date": "2026-12-01",
+        "time": "19:45",
+        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1998830444667",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173156473%2F2986605123498%2F1%2Foriginal.20251217-200747?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4d1d7b2ada1d6281149234c1585d9b46"
+      },
+      {
         "name": "Ray Lau",
         "date": "2026-12-16",
         "time": "20:00:00",
@@ -854,27 +877,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Anthony Jeselnik, Craig Robinson, Craig Conant, Blair Socci, Dan Mahboubian Rosen, Chloe Radcliffe, Audrey Stewart and more TBA",
-        "date": "2026-11-16",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14414344",
-        "image": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-11-16",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340994",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, Ocean Glapion, Chris Sneed, Anthony Fuentes, Brandie Denise, Joel Ortiz & more",
-        "date": "2026-11-16",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14366904",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Lab Work ft. Jake Noll, Cid Williams, Dave Waite, Saul Trujillo, Mandy Robbins",
         "date": "2026-11-17",
@@ -897,18 +899,18 @@
         "image": "https://i.ticketweb.com/i/00/13/12/47/04_Edp.jpg?v=6"
       },
       {
-        "name": "Set Me Up ft. Vinny Fasline, Chaunte Wayans, Brent Morin, Nicole Becannon and more TBA",
+        "name": "Set Me Up ft. Vinny Fasline, Chaunte Wayans, Brent Morin, Nicole Becannon, Pete Giovine and more TBA",
         "date": "2026-11-17",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/set-me-up-ft-vinny-hollywood-improv-the-main-room-tickets/14405424",
-        "image": "https://i.ticketweb.com/i/00/13/11/80/74_Edp.jpg?v=5"
+        "image": "https://i.ticketweb.com/i/00/13/11/80/74_Edp.jpg?v=6"
       },
       {
-        "name": "Jesus Sepulveda",
+        "name": "Jesus Sepulveda ft. Keon Polee, Johana Coca, Silvia de Anda, David Rodriguez, Ramiro Granado",
         "date": "2026-11-17",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/jesus-sepulveda-hollywood-improv-the-lab-tickets/14411634",
-        "image": "https://i.ticketweb.com/i/00/13/12/46/04_Edp.jpg?v=4"
+        "url": "https://www.ticketweb.com/event/jesus-sepulveda-ft-keon-polee-hollywood-improv-the-lab-tickets/14411634",
+        "image": "https://i.ticketweb.com/i/00/13/12/46/04_Edp.jpg?v=5"
       },
       {
         "name": "Happy Hour Open Mic",
@@ -932,7 +934,7 @@
         "image": "https://i.ticketweb.com/i/00/13/06/75/24_Edp.jpg?v=3"
       },
       {
-        "name": "Jim Norton: Stupid Smile ft. Natasha Pearl Hansen",
+        "name": "Jim Norton: Stupid Smile ft. Natasha Pearl Hansen, Matt Fulchiron, Frazer Smith",
         "date": "2026-11-18",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/jim-norton-stupid-smile-ft-hollywood-improv-the-main-room-tickets/14372954",
@@ -958,6 +960,34 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/richie-ofarrill-hollywood-improv-the-main-room-tickets/14274504",
         "image": "https://i.ticketweb.com/i/00/12/98/94/14_Edp.jpg?v=2"
+      },
+      {
+        "name": "Tonight at the Improv ft. Nikki Bon, and More TBA",
+        "date": "2026-11-20",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14431534",
+        "image": "https://i.ticketweb.com/i/00/13/13/98/34_Edp.jpg?v=7"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-11-20",
+        "time": "20:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14451154",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv",
+        "date": "2026-11-20",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14366924",
+        "image": "https://i.ticketweb.com/i/00/13/08/00/74_Edp.jpg?v=3"
+      },
+      {
+        "name": "Damon Wayans: Under Construction",
+        "date": "2026-11-21",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/damon-wayans-under-construction-hollywood-improv-the-lab-tickets/14367004",
+        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
       }
     ]
   }
