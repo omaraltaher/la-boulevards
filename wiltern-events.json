@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-16T23:37:59.943Z",
+  "generated": "2026-11-17T22:45:48.305Z",
   "events": [
-    {
-      "name": "Josh Homme & Friends: A Benefit for CORE & The Sweet Stuff Foundation",
-      "date": "2026-11-16",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/josh-homme-friends-a-benefit-for-los-angeles-california-11-16-2026/event/09006545F671117F",
-      "image": "https://s1.ticketm.net/dam/e/0cf/703a1140-5907-4a2a-beaf-797b4f5590cf_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "THE DAMNED - FINAL DAMNATION 50",
       "date": "2026-11-17",
@@ -56,6 +49,13 @@
       "time": "18:00:00",
       "url": "https://www.ticketmaster.com/imminence-axis-mundi-tour-north-america-los-angeles-california-11-28-2026/event/090064CB9D108813",
       "image": "https://s1.ticketm.net/dam/a/516/cd386496-e3e1-4219-8dd3-4761d3e20516_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "KROQ Presents Reel Big Fish - Turn The Radio Off 30th Anniversary",
+      "date": "2026-12-03",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/kroq-presents-reel-big-fish-turn-los-angeles-california-12-03-2026/event/0900652A975B56A1",
+      "image": "https://s1.ticketm.net/dam/a/6be/ced8f18f-f5e1-4136-9c9b-c89a349d16be_RECOMENDATION_16_9.jpg"
     }
   ]
 }
