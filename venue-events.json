@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T23:17:28.332Z",
+  "generated": "2026-11-18T22:48:44.790Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "DANNA",
-        "date": "2026-11-17",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvO4x",
-        "image": null
-      },
-      {
         "name": "Lucy Bedroque w/ pinponpanpon",
         "date": "2026-11-19",
         "time": "20:00:00",
@@ -116,6 +109,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7EOY",
         "image": "https://s1.ticketm.net/dbimages/66390a.jpg"
+      },
+      {
+        "name": "Matt Rogers - THIS TIME IT???S *REALLY* CHRISTMAS Tour - Ages 18+",
+        "date": "2026-12-02",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvU0b",
+        "image": "https://s1.ticketm.net/dam/a/eb9/3907ef01-ee19-4e3b-9b80-bc287e2ddeb9_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -166,7 +166,7 @@
         "date": "2026-12-05",
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/oden-fatzo-avalon-hollywood-tickets/14331894",
-        "image": "https://i.ticketweb.com/i/00/13/04/79/44_Edp.jpg?v=8"
+        "image": "https://i.ticketweb.com/i/00/13/04/79/44_Edp.jpg?v=9"
       },
       {
         "name": "Electrik Seoul: K-pop x EDM",
@@ -177,13 +177,6 @@
       }
     ],
     "The Novo": [
-      {
-        "name": "Rachel Maddow",
-        "date": "2026-11-17",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7u3",
-        "image": null
-      },
       {
         "name": "CupcakKe",
         "date": "2026-11-18",
@@ -232,6 +225,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvY16",
         "image": "https://s1.ticketm.net/dam/a/662/9147bf05-aec2-4687-b1ef-afa07168e662_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "ROA",
+        "date": "2026-12-06",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvO4w",
+        "image": null
       }
     ],
     "Peacock Theater": [
@@ -751,15 +751,23 @@
       }
     ],
     "Downey Civic Theatre": [],
-    "Redondo Beach Performing Arts Center": [],
+    "Redondo Beach Performing Arts Center": [
+      {
+        "name": "MARVIN - The Marvin Gaye Musical",
+        "date": "2028-11-11",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/marvin-the-marvin-gaye-musical-redondo-beach-california-11-11-2028/event/090064B20C1909BC",
+        "image": "https://s1.ticketm.net/dam/a/593/6f7c735d-a1d2-4c09-9b0a-e1b72eab7593_RECOMENDATION_16_9.jpg"
+      }
+    ],
     "Haugh Performing Arts Center": [],
     "Eli Broad Stage": [],
     "Beverly O'Neill Theater": [],
     "Levitt Pavilion": [
       {
         "name": "Home for the Holidays: A musical evening with Feather Flowers + Guests",
-        "date": "2026-11-27",
-        "time": "17:00",
+        "date": "2026-11-29",
+        "time": "13:00",
         "url": "https://www.eventbrite.com/e/home-for-the-holidays-a-musical-evening-with-feather-flowers-guests-tickets-2004967148714",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196909226%2F405366306269%2F1%2Foriginal.20261030-051826?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.501&fp-y=0.315&s=4827585da90a473e8cf73aba3bb1a807"
       }
@@ -797,6 +805,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/cult-classics-cinema-presents-dreamgirls-inglewood-california-12-12-2026/event/0B00656DEB356958",
         "image": "https://s1.ticketm.net/dam/e/ddf/9a67f1bc-2fcd-432a-823b-bfcbf461cddf_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Elliott Brothers' COMEDY BLOCK PARTY Hosted by Chris Spencer",
+        "date": "2026-12-15",
+        "time": "20:30:00",
+        "url": "https://www.ticketmaster.com/elliott-brothers-comedy-block-party-hosted-inglewood-california-12-15-2026/event/0B006572B7757843",
+        "image": "https://s1.ticketm.net/dam/e/9b4/5a39a302-5865-442e-9975-6ea403dca9b4_RECOMENDATION_16_9.jpg"
       }
     ],
     "Barnsdall Gallery Theatre": [],
@@ -813,11 +828,11 @@
     ],
     "Laugh Factory": [
       {
-        "name": "Rubee Tuesdays 7:45pm",
-        "date": "2026-11-17",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1998591747718",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197950163%2F3015802494368%2F1%2Foriginal.20261113-215250?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ad8735653b55da050cf2b1f02b2a3a01"
+        "name": "Throwdown Thursdays 9:45 PM",
+        "date": "2026-11-19",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/throwdown-thursdays-945-pm-tickets-1998830651285",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198201990%2F2989400506155%2F1%2Foriginal.20261117-225405?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d26efc6d4d44a4d4e4a8cfd3a2f7ce2d"
       },
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -878,41 +893,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work ft. Jake Noll, Cid Williams, Dave Waite, Saul Trujillo, Mandy Robbins",
-        "date": "2026-11-17",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-ft-jake-noll-hollywood-improv-the-lab-tickets/14427044",
-        "image": "https://i.ticketweb.com/i/00/13/13/61/14_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft.  Ray Romano, Jay Leno, Iliza Shlesinger, Craig Robinson, Brian Monarch, Leah Knauer, and Very Special Guests",
-        "date": "2026-11-17",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14342724",
-        "image": "https://s1.ticketm.net/dam/a/0ea/1df53b79-a116-4b41-8430-8c6790d290ea_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "All Jokes, No Filter ft. Jeremiah Watkins, Kim McVicar, Maxi Witrak, John Conroy, Julian Fernandez, Dhurv Uday Singh, Heather Winter and more TBA",
-        "date": "2026-11-17",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/all-jokes-no-filter-ft-hollywood-improv-the-lab-tickets/14411724",
-        "image": "https://i.ticketweb.com/i/00/13/12/47/04_Edp.jpg?v=6"
-      },
-      {
-        "name": "Set Me Up ft. Vinny Fasline, Chaunte Wayans, Brent Morin, Nicole Becannon, Pete Giovine and more TBA",
-        "date": "2026-11-17",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/set-me-up-ft-vinny-hollywood-improv-the-main-room-tickets/14405424",
-        "image": "https://i.ticketweb.com/i/00/13/11/80/74_Edp.jpg?v=6"
-      },
-      {
-        "name": "Jesus Sepulveda ft. Keon Polee, Johana Coca, Silvia de Anda, David Rodriguez, Ramiro Granado",
-        "date": "2026-11-17",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/jesus-sepulveda-ft-keon-polee-hollywood-improv-the-lab-tickets/14411634",
-        "image": "https://i.ticketweb.com/i/00/13/12/46/04_Edp.jpg?v=5"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-11-18",
         "time": "17:15:00",
@@ -959,14 +939,14 @@
         "date": "2026-11-19",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/richie-ofarrill-hollywood-improv-the-main-room-tickets/14274504",
-        "image": "https://i.ticketweb.com/i/00/12/98/94/14_Edp.jpg?v=2"
+        "image": "https://i.ticketweb.com/i/00/12/98/94/14_Edp.jpg?v=3"
       },
       {
-        "name": "Tonight at the Improv ft. Nikki Bon, and More TBA",
+        "name": "Tonight at the Improv ft. Sarah Silverman, Iliza Shlesinger, Beth Stelling, Rick Glassman, Rory Albanese, Nikki Bon, and More TBA",
         "date": "2026-11-20",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14431534",
-        "image": "https://i.ticketweb.com/i/00/13/13/98/34_Edp.jpg?v=7"
+        "image": "https://s1.ticketm.net/dam/a/0fb/e3cfa95f-c1b5-4075-8362-1bcdcdb730fb_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Deon Cole: Does This Work?",
@@ -976,11 +956,18 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Improv",
+        "name": "Tonight at the Improv ft. Amir K, Jessie \"Jetski\" Johnson, Kirk Fox, Bruce Gray and more TBA",
         "date": "2026-11-20",
         "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-hollywood-improv-the-main-room-tickets/14366924",
-        "image": "https://i.ticketweb.com/i/00/13/08/00/74_Edp.jpg?v=3"
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366924",
+        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Dana Gould, Owen Smith, Orny Adams and more TBA",
+        "date": "2026-11-21",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14435924",
+        "image": "https://s1.ticketm.net/dam/a/837/5a0be907-bf0e-4f14-aa40-d508d8556837_865321_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Damon Wayans: Under Construction",
@@ -988,6 +975,34 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/damon-wayans-under-construction-hollywood-improv-the-lab-tickets/14367004",
         "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Aida Rodriguez, Jay Phillips, Finesse Mitchell, Meredith Casey and more TBA",
+        "date": "2026-11-21",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14435944",
+        "image": "https://s1.ticketm.net/dam/a/15b/8aa47481-de5f-4fd9-97fa-95b0fd18515b_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Semper Funny ft. Bryson Banks and more TBA!",
+        "date": "2026-11-21",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/semper-funny-ft-bryson-banks-hollywood-improv-the-lab-tickets/14303554",
+        "image": "https://i.ticketweb.com/i/00/13/01/97/24_Edp.jpg?v=2"
+      },
+      {
+        "name": "Ron Funches: Funchadelic",
+        "date": "2026-11-22",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/ron-funches-funchadelic-hollywood-improv-the-lab-tickets/14967853",
+        "image": "https://s1.ticketm.net/dam/a/ca0/1f5b6d32-ff79-4568-be1b-08ae5b1e4ca0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-11-22",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340944",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       }
     ]
   }
