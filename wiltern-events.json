@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-19T22:33:16.616Z",
+  "generated": "2026-11-20T22:06:02.384Z",
   "events": [
-    {
-      "name": "Brad Williams: The Tall Tales Tour",
-      "date": "2026-11-19",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/brad-williams-the-tall-tales-tour-los-angeles-california-11-19-2026/event/09006445B8DA9561",
-      "image": "https://s1.ticketm.net/dam/a/685/0c876ac5-1fa5-43a2-9fd5-08187f9b7685_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Houndmouth",
       "date": "2026-11-20",
@@ -55,6 +48,13 @@
       "date": "2026-12-04",
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/angine-de-poitrine-los-angeles-california-12-04-2026/event/090064A7ABE2D617",
+      "image": "https://s1.ticketm.net/dam/a/f20/adae57b5-1be5-4278-9a59-588a7bf8cf20_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Angine de Poitrine",
+      "date": "2026-12-05",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/angine-de-poitrine-los-angeles-california-12-05-2026/event/090064AEEF92CF1B",
       "image": "https://s1.ticketm.net/dam/a/f20/adae57b5-1be5-4278-9a59-588a7bf8cf20_RECOMENDATION_16_9.jpg"
     }
   ]
