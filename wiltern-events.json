@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-20T22:06:02.384Z",
+  "generated": "2026-11-21T20:45:33.996Z",
   "events": [
-    {
-      "name": "Houndmouth",
-      "date": "2026-11-20",
-      "time": "19:00:00",
-      "url": "https://www.ticketmaster.com/houndmouth-los-angeles-california-11-20-2026/event/090064EFE52CF86A",
-      "image": "https://s1.ticketm.net/dam/a/ddd/06b4a38a-f999-477f-88a4-5d2f9f220ddd_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Silverstein & Story Of The Year: CAMP SCREAMO TOUR",
       "date": "2026-11-22",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/angine-de-poitrine-los-angeles-california-12-05-2026/event/090064AEEF92CF1B",
       "image": "https://s1.ticketm.net/dam/a/f20/adae57b5-1be5-4278-9a59-588a7bf8cf20_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Modi: Big Deal Comedy Festival",
+      "date": "2026-12-06",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/modi-big-deal-comedy-festival-los-angeles-california-12-06-2026/event/0900652AE3A9D236",
+      "image": "https://s1.ticketm.net/dam/a/af6/2053bbac-4b16-4361-a239-625edb046af6_RECOMENDATION_16_9.jpg"
     }
   ]
 }
