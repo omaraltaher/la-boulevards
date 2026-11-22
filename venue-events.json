@@ -1,14 +1,7 @@
 {
-  "generated": "2026-11-21T21:24:37.623Z",
+  "generated": "2026-11-22T21:27:13.571Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "BOLO",
-        "date": "2026-11-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/bolo-hollywood-california-11-21-2026/event/09006506891F4B69",
-        "image": "https://s1.ticketm.net/dam/a/7a6/89a91865-b339-410c-b382-44a8e793a7a6_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "BOLO",
         "date": "2026-11-22",
@@ -57,17 +50,17 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/thundercat-distracted-af-tour-hollywood-california-12-05-2026/event/090064E88ABF42B0",
         "image": "https://s1.ticketm.net/dam/a/f36/ba98d2e4-ecf5-4c6b-be55-981f01dfcf36_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Stoney 10th Anniversary - Live at The Palladium",
+        "date": "2026-12-09",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/stoney-10th-anniversary-live-at-the-hollywood-california-12-09-2026/event/0900656BA1B1A1B6",
+        "image": "https://s1.ticketm.net/dam/a/344/89b3ad2c-d696-4f4d-a29b-9918588cd344_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
-      {
-        "name": "Takuya Nakamura - Ages 18+",
-        "date": "2026-11-21",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvU0U",
-        "image": null
-      },
       {
         "name": "Holywatr",
         "date": "2026-11-22",
@@ -116,16 +109,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzA6",
         "image": null
+      },
+      {
+        "name": "The Hellp",
+        "date": "2026-12-05",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZfJ",
+        "image": null
       }
     ],
     "Avalon Hollywood": [
-      {
-        "name": "Barely Alive w/ Luci",
-        "date": "2026-11-21",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/barely-alive-w-luci-avalon-hollywood-tickets/14285004",
-        "image": "https://s1.ticketm.net/dam/a/679/a1695f3e-b074-43cf-b23a-dc4038c46679_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Clawz w/ Dr Donk",
         "date": "2026-11-25",
@@ -174,29 +167,22 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/electrik-seoul-k-pop-x-avalon-hollywood-tickets/14441514",
         "image": "https://s1.ticketm.net/dam/a/138/f695ee79-aca7-4f24-b0f2-8a121b620138_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Bou",
+        "date": "2026-12-18",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/bou-avalon-hollywood-tickets/14360384",
+        "image": "https://i.ticketweb.com/i/00/13/07/40/14_Edp.jpg?v=8"
       }
     ],
     "The Novo": [
-      {
-        "name": "R??Z: SE ESTA HACIENDO TARDE",
-        "date": "2026-11-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgPV",
-        "image": "https://s1.ticketm.net/dam/a/403/ddb22a4e-4f6d-4eaa-8292-d6801d596403_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "ROZ: SE ESTA HACIENDO TARDE",
         "date": "2026-11-22",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgPy",
         "image": "https://s1.ticketm.net/dam/a/403/ddb22a4e-4f6d-4eaa-8292-d6801d596403_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Song Dongye",
-        "date": "2026-11-25",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeFPI",
-        "image": null
       },
       {
         "name": "Saosin w/ Silent Planet",
@@ -232,16 +218,23 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv93Z",
         "image": "https://s1.ticketm.net/dam/a/53d/ccdc7e7e-1bf7-4805-a88d-a428f516053d_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "DJ Quik",
+        "date": "2026-12-19",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvyob",
+        "image": "https://s1.ticketm.net/dam/a/b7d/a7f41740-f4ad-4a81-9182-c10512bdab7d_1227701_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Wonho",
+        "date": "2027-01-13",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64e",
+        "image": null
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "El Fantasma",
-        "date": "2026-11-21",
-        "time": "20:01:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IoM",
-        "image": "https://s1.ticketm.net/dam/a/3f5/77d312f9-5ae7-42b6-bffb-e798014a13f5_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Smoke Me Out",
         "date": "2026-11-25",
@@ -294,20 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Eivør",
-        "date": "2026-11-21",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/eivr-los-angeles-california-11-21-2026/event/09006495D46CF11E",
-        "image": "https://s1.ticketm.net/dam/e/3d0/62d2daf7-c948-4339-a525-1720772d53d0_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Kawaii Rave: Katseye Unofficial Afterparty",
-        "date": "2026-11-21",
-        "time": "23:00:00",
-        "url": "https://www.ticketmaster.com/kawaii-rave-katseye-unofficial-afterparty-los-angeles-california-11-21-2026/event/090064E29EC7564F",
-        "image": "https://s1.ticketm.net/dam/e/929/1003b79c-35c6-4c60-bf4c-1025e84a6929_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Forbidden: Chaos By Design US Tour 2026",
         "date": "2026-11-22",
         "time": "19:00:00",
@@ -348,6 +327,20 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/your-renaissance-presents-pee-los-angeles-california-12-06-2026/event/09006531DD23FA37",
         "image": "https://s1.ticketm.net/dam/e/7c0/f145a72e-8421-4fbe-aec6-9089ceeb57c0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Demola",
+        "date": "2026-12-08",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/demola-los-angeles-california-12-08-2026/event/09006545B5F99CFC",
+        "image": "https://s1.ticketm.net/dam/e/8fd/78e2150d-34cf-455c-967f-a5d9a31508fd_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LPR Presents: Labiahead - California Tour 2026 ",
+        "date": "2026-12-10",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/lpr-presents-labiahead-california-tour-2026-los-angeles-california-12-10-2026/event/09006528F419E915",
+        "image": "https://s1.ticketm.net/dam/e/d02/13d23969-9513-422e-94ae-94f5d2f0cd02_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -397,13 +390,6 @@
     "Kirk Douglas Theatre": [],
     "Shrine Auditorium": [
       {
-        "name": "NieR: Orchestra Concert",
-        "date": "2026-11-21",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe1A",
-        "image": "https://s1.ticketm.net/dam/a/92a/dbc1ee3a-5189-4e0a-a9cb-d6577596b92a_1178411_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Red Bull Home Ground World Finals 2026",
         "date": "2026-12-12",
         "time": "13:30:00",
@@ -433,13 +419,6 @@
       }
     ],
     "Orpheum Theatre": [
-      {
-        "name": "ASIM ALI TOUR 2.0 featuring Mickey Singh",
-        "date": "2026-11-21",
-        "time": "19:30:00",
-        "url": "https://www.ticketmaster.com/asim-ali-tour-20-featuring-mickey-los-angeles-california-11-21-2026/event/090064E9DD6BCB66",
-        "image": "https://s1.ticketm.net/dam/a/656/0db9b1fc-6acc-4f8f-bd2d-3fd4a728e656_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Dweezil Zappa DZ20: Like Father, Like Son",
         "date": "2026-11-28",
@@ -488,6 +467,13 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/alfred-robles-el-romantico-los-angeles-california-02-13-2027/event/0900656933A68E00",
         "image": "https://s1.ticketm.net/dam/a/1da/59f86268-e95d-401d-a46d-4bac1eaca1da_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Ben Rector & Friends with Jon McLaughlin and Josh Jenkins",
+        "date": "2027-02-27",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/ben-rector-friends-with-jon-mclaughlin-los-angeles-california-02-27-2027/event/09006570D8AAA23C",
+        "image": "https://s1.ticketm.net/dam/a/f7e/b252b440-16a5-487e-86c0-7c0b11497f7e_RECOMENDATION_16_9.jpg"
       }
     ],
     "Pasadena Civic Auditorium": [],
@@ -596,16 +582,9 @@
     "Geffen Playhouse": [
       {
         "name": "Purpose - Play",
-        "date": "2026-11-21",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv87y",
-        "image": null
-      },
-      {
-        "name": "Purpose - Play",
         "date": "2026-11-22",
-        "time": "13:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8AZ",
+        "time": "18:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Av",
         "image": null
       },
       {
@@ -628,6 +607,20 @@
         "time": "13:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8AA",
         "image": null
+      },
+      {
+        "name": "Purpose - Play",
+        "date": "2026-12-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8A6",
+        "image": null
+      },
+      {
+        "name": "Purpose - Play",
+        "date": "2026-12-02",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8AF",
+        "image": null
       }
     ],
     "Pasadena Playhouse": [],
@@ -642,20 +635,6 @@
     ],
     "Ambassador Auditorium": [],
     "Wilshire Ebell Theater and Club": [
-      {
-        "name": "Alex O'connor: Pre-show Q&a Add-on",
-        "date": "2026-11-21",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/alex-oconnor-preshow-qa-addon-los-angeles-california-11-21-2026/event/09006524A7C78C90",
-        "image": null
-      },
-      {
-        "name": "Alex O'Connor",
-        "date": "2026-11-21",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/alex-oconnor-los-angeles-california-11-21-2026/event/090064FEC628AE3F",
-        "image": "https://s1.ticketm.net/dam/a/7a8/3cd7c56b-1724-4347-9e8e-d6c3287e37a8_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Test - Ashley Kamphaus",
         "date": "2026-11-25",
@@ -697,16 +676,23 @@
         "time": "19:30:00",
         "url": "https://www.ticketmaster.com/alok-eat-pray-leave-tour-los-angeles-california-03-10-2027/event/090064CB7BC63F7B",
         "image": "https://s1.ticketm.net/dam/a/365/2ed4d0bf-fbd5-4429-a335-75e84f5d7365_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "A Conversation with Alison Roman: Food, Life & Other Strong Opinions",
+        "date": "2027-03-23",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/a-conversation-with-alison-roman-food-los-angeles-california-03-23-2027/event/0900656B899E60DD",
+        "image": "https://s1.ticketm.net/dam/e/8a4/e1c03e67-ea7d-4533-a6cc-bfddd8d7b8a4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Michelle Wolf: Best Job in the World",
+        "date": "2027-04-01",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/michelle-wolf-best-job-in-the-los-angeles-california-04-01-2027/event/09006528B26C8AF1",
+        "image": "https://s1.ticketm.net/dam/a/11e/a0046ab5-a10e-414f-89fb-4c7128b7d11e_RECOMENDATION_16_9.jpg"
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
-      {
-        "name": "La Mirada Theatre presents: Dear Evan Hansen",
-        "date": "2026-11-21",
-        "time": "14:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Jfe",
-        "image": null
-      },
       {
         "name": "La Mirada Theatre presents: Dear Evan Hansen",
         "date": "2026-11-22",
@@ -733,6 +719,20 @@
         "date": "2027-02-14",
         "time": "13:30:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JON",
+        "image": "https://s1.ticketm.net/dam/a/09f/709eb211-6334-44be-aa89-37047fc9c09f_72421_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "La Mirada Theatre presents: To Kill a Mockingbird",
+        "date": "2027-02-18",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JOO",
+        "image": "https://s1.ticketm.net/dam/a/09f/709eb211-6334-44be-aa89-37047fc9c09f_72421_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "La Mirada Theatre presents: To Kill a Mockingbird",
+        "date": "2027-02-19",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JO9",
         "image": "https://s1.ticketm.net/dam/a/09f/709eb211-6334-44be-aa89-37047fc9c09f_72421_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -825,7 +825,7 @@
         "date": "2026-11-24",
         "time": "19:45",
         "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1998454466105",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198428181%2F2989400506155%2F1%2Foriginal.20261121-003206?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=757611e7a5bc6f36a99e90e0d91a1b11"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198496217%2F3009370122762%2F1%2Foriginal.20261122-211359?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.498&fp-y=0.43&s=c72d7452160f6da0d6597fce0894ef4a"
       },
       {
         "name": "Tuesday All-Star Comedy 10:00PM",
@@ -872,34 +872,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Tonight at the Improv ft. Dana Gould, Owen Smith, The Sklar Brothers, Orny Adams, Cathy Ladman, Suli McCullough, Julia Hladkowicz and more TBA",
-        "date": "2026-11-21",
-        "time": "19:00:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14435924",
-        "image": "https://s1.ticketm.net/dam/a/837/5a0be907-bf0e-4f14-aa40-d508d8556837_865321_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Damon Wayans: Under Construction",
-        "date": "2026-11-21",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/damon-wayans-under-construction-hollywood-improv-the-lab-tickets/14367004",
-        "image": "https://s1.ticketm.net/dam/a/cf6/d6da794e-10c4-4702-a9f8-29142eb4ccf6_1656701_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Aida Rodriguez, Jay Phillips, Finesse Mitchell, Sydney Castillo, Meredith Casey, Justine Marino and more TBA",
-        "date": "2026-11-21",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14435944",
-        "image": "https://s1.ticketm.net/dam/a/15b/8aa47481-de5f-4fd9-97fa-95b0fd18515b_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Semper Funny ft. Bryson Banks, Jimmy Draxler, Chris Mack, Julia Jasunas, Pardis Parker, Rick Martinelli, Sam Brilhart and more TBA!",
-        "date": "2026-11-21",
-        "time": "21:45:00",
-        "url": "https://www.ticketweb.com/event/semper-funny-ft-bryson-banks-hollywood-improv-the-lab-tickets/14303554",
-        "image": "https://i.ticketweb.com/i/00/13/01/97/24_Edp.jpg?v=3"
-      },
-      {
         "name": "Mark Hayes & Friends ft. Amir K, Will Burkart, Denny Love, Learnmore Jonasi, Mark Hayes, Nick Colletti and more TBA",
         "date": "2026-11-22",
         "time": "19:00:00",
@@ -935,7 +907,7 @@
         "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, K Dott, Maronzio Vance, Herby Moore, Ray Lipowski & more TBA",
+        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, K Dott, Maronzio Vance, Ha Ha Herby, Ray Lipowski & more TBA",
         "date": "2026-11-23",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14366934",
@@ -970,11 +942,39 @@
         "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "John Campanelli & Special Guests ft. Godfrey, Scott Rowe, Wesley Fuller, Natasha Ellis, Ronnie Camp and more TBA",
+        "date": "2026-11-24",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/15010413",
+        "image": "https://s1.ticketm.net/dam/a/5cc/4c227195-7b94-4072-b9f5-9d3e9d1535cc_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Happy Hour Open Mic",
+        "date": "2026-11-25",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-lab-tickets/14427134",
+        "image": "https://i.ticketweb.com/i/00/13/13/62/14_Edp.jpg?v=3"
+      },
+      {
         "name": "Amir K Headlines The Improv",
         "date": "2026-11-25",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/amir-k-headlines-the-improv-hollywood-improv-the-main-room-tickets/14292114",
         "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Mark Hayes & Friends ft. Craig Robinson, Earthquake, Trevor Wallace, Denny Love, Mark Hayes and more TBA",
+        "date": "2026-11-25",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/mark-hayes-friends-ft-hollywood-improv-the-main-room-tickets/14397864",
+        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Closed for Thanksgiving!",
+        "date": "2026-11-26",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/closed-for-thanksgiving-hollywood-improv-the-main-room-tickets/14371794",
+        "image": "https://i.ticketweb.com/i/00/13/08/52/14_Edp.jpg?v=4"
       }
     ]
   }
