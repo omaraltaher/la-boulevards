@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-22T20:55:02.168Z",
+  "generated": "2026-11-24T01:59:09.750Z",
   "events": [
-    {
-      "name": "Silverstein & Story Of The Year: CAMP SCREAMO TOUR",
-      "date": "2026-11-22",
-      "time": "18:00:00",
-      "url": "https://www.ticketmaster.com/silverstein-story-of-the-year-camp-los-angeles-california-11-22-2026/event/090064F89F486E4F",
-      "image": "https://s1.ticketm.net/dam/a/aa5/72d2b1f2-b6ff-49a7-9266-b2602352aaa5_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Like Nastya",
       "date": "2026-11-23",
@@ -56,6 +49,13 @@
       "time": "19:00:00",
       "url": "https://www.ticketmaster.com/modi-big-deal-comedy-festival-los-angeles-california-12-06-2026/event/0900652AE3A9D236",
       "image": "https://s1.ticketm.net/dam/a/af6/2053bbac-4b16-4361-a239-625edb046af6_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "David Bisbal - Tour Eternos 2026",
+      "date": "2026-12-09",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/david-bisbal-tour-eternos-2026-los-angeles-california-12-09-2026/event/090064BC06AB8170",
+      "image": "https://s1.ticketm.net/dam/a/1d1/65a47f8e-6696-4003-a33c-179363c8c1d1_RECOMENDATION_16_9.jpg"
     }
   ]
 }
