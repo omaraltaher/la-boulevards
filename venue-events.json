@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T00:16:59.533Z",
+  "generated": "2026-11-25T23:57:03.776Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "CocoRosie",
-        "date": "2026-11-24",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvaqY",
-        "image": "https://s1.ticketm.net/dam/a/093/f93ac7cf-9b23-4003-9437-32b9a5b41093_1267261_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Infectious Grooves",
         "date": "2026-11-28",
         "time": "20:00:00",
@@ -115,6 +108,13 @@
         "date": "2026-12-09",
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZs03",
+        "image": "https://s1.ticketm.net/dam/a/47c/42056f93-6a2e-47ff-b63a-61ee2398547c_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Frost Children - Ages 18+",
+        "date": "2026-12-10",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZYee",
         "image": "https://s1.ticketm.net/dam/a/47c/42056f93-6a2e-47ff-b63a-61ee2398547c_RECOMENDATION_16_9.jpg"
       }
     ],
@@ -287,13 +287,6 @@
     ],
     "Teragram Ballroom": [
       {
-        "name": "Beauty School Dropout",
-        "date": "2026-11-24",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/beauty-school-dropout-los-angeles-california-11-24-2026/event/09006507A3DB7E3B",
-        "image": "https://s1.ticketm.net/dam/e/b74/1f07979b-ab60-46a9-9891-552d75a9fb74_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Broadway Rave",
         "date": "2026-11-27",
         "time": "22:00:00",
@@ -341,6 +334,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/ramones-x-los-angeles-california-12-11-2026/event/09006514C41DACF1",
         "image": "https://s1.ticketm.net/dam/e/d6e/23204558-0624-4713-9971-7afecb360d6e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Brooklyn Vegan Presents: Swervedriver - raise at 35",
+        "date": "2026-12-12",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/brooklyn-vegan-presents-swervedriver-raise-at-los-angeles-california-12-12-2026/event/090064A7E16A758D",
+        "image": "https://s1.ticketm.net/dam/e/7d2/6767d635-6d10-435b-8d89-fe5d1b3577d2_RECOMENDATION_16_9.jpg"
       }
     ],
     "Alex Theatre": [
@@ -436,7 +436,7 @@
       {
         "name": "Bare Knuckle Boxing: BKB 62 Duran Jr. vs Ortiz",
         "date": "2026-12-05",
-        "time": "17:00:00",
+        "time": "16:30:00",
         "url": "https://www.ticketmaster.com/bare-knuckle-boxing-bkb-62-duran-los-angeles-california-12-05-2026/event/09006563A0858A16",
         "image": "https://s1.ticketm.net/dam/e/683/444bfc3a-449a-47aa-839f-89b0f81cc683_RECOMENDATION_16_9.jpg"
       },
@@ -800,20 +800,6 @@
     ],
     "Laugh Factory": [
       {
-        "name": "Rubee Tuesdays 7:45pm",
-        "date": "2026-11-24",
-        "time": "19:45",
-        "url": "https://www.eventbrite.com/e/rubee-tuesdays-745pm-tickets-1998454466105",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198502524%2F2989400506155%2F1%2Foriginal.20261123-000102?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=533f6797f90f6cce7510c2f5385ffcda"
-      },
-      {
-        "name": "Tuesday All-Star Comedy 10:00PM",
-        "date": "2026-11-24",
-        "time": "22:00",
-        "url": "https://www.eventbrite.com/e/tuesday-all-star-comedy-1000pm-tickets-1999301238825",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195984030%2F2989400506155%2F1%2Foriginal.20261017-002218?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=270dcd213293016b8c031e6eab108a00"
-      },
-      {
         "name": "Wednesday All-Star Comedy 7:30 PM",
         "date": "2026-11-25",
         "time": "19:30",
@@ -832,7 +818,21 @@
         "date": "2026-11-27",
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/friday-night-all-stars-730pm-black-friday-ticket-sale-tickets-1999421637942",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195984040%2F2989400506155%2F1%2Foriginal.20261017-002228?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6a607ad524f7fcdabd1b69503b570693"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198711509%2F3015802494368%2F1%2Foriginal.20261125-222759?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=98b0f19acd5fa7e7823aee0ac0c7120e"
+      },
+      {
+        "name": "Friday Night All-Stars 9:45PM — Black Friday Ticket Sale",
+        "date": "2026-11-27",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/friday-night-all-stars-945pm-black-friday-ticket-sale-tickets-1999421773347",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198659811%2F2989400506155%2F1%2Foriginal.20261125-040945?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b4c5d5c80f7ffe6bb683ca51d079218e"
+      },
+      {
+        "name": "Hollywood's Hottest 7:30PM",
+        "date": "2026-11-28",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/hollywoods-hottest-730pm-tickets-1999597070666",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198659871%2F2989400506155%2F1%2Foriginal.20261125-041138?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fd3a8b970f217c1aa5b15e0778a8ddd6"
       },
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -849,10 +849,10 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
-        "name": "Monday All-Star Comedy 8:00PM — Cyber Monday Sale",
+        "name": "Monday All-Star Comedy 8:00PM — Cyber Monday Ticket Sale",
         "date": "2026-11-30",
         "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-cyber-monday-sale-tickets-1998453493195",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-cyber-monday-ticket-sale-tickets-1998453493195",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195984171%2F2989400506155%2F1%2Foriginal.20261017-002637?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=16373188cf28137bfdfa9330df999f58"
       },
       {
@@ -865,34 +865,6 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Lab Work hosted by Andy Benedetti  ft. Kiki Andersen, Frank Castillo, Jay Light, Nicole Becannon, Ellen Harrold",
-        "date": "2026-11-24",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/lab-work-hosted-by-andy-hollywood-improv-the-lab-tickets/14427064",
-        "image": "https://i.ticketweb.com/i/00/13/13/61/24_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Ray Romano, Jay Leno, Chelsea Handler, Tim Dillon, Brian Monarch, Jen Murphy and Very Special Guests",
-        "date": "2026-11-24",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366084",
-        "image": "https://s1.ticketm.net/dam/a/0ea/1df53b79-a116-4b41-8430-8c6790d290ea_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Tonight at the Improv ft. Trevor Wallace, Godfrey, Amir K, Leah Rudick, Bassem Youssef, Faysal Lawrence, Laurie Douglas and more TBA",
-        "date": "2026-11-24",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14405514",
-        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "John Campanelli & Special Guests ft. Godfrey, Scott Rowe, Wesley Fuller, Natasha Ellis, Ronnie Camp and more TBA",
-        "date": "2026-11-24",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/15010413",
-        "image": "https://s1.ticketm.net/dam/a/5cc/4c227195-7b94-4072-b9f5-9d3e9d1535cc_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Happy Hour Open Mic",
         "date": "2026-11-25",
         "time": "17:15:00",
@@ -900,7 +872,7 @@
         "image": "https://i.ticketweb.com/i/00/13/13/62/14_Edp.jpg?v=3"
       },
       {
-        "name": "Amir K Headlines The Improv",
+        "name": "Amir K Headlines The Improv ft. Nitish Sakhuja",
         "date": "2026-11-25",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/amir-k-headlines-the-improv-hollywood-improv-the-main-room-tickets/14292114",
@@ -914,7 +886,7 @@
         "image": "https://s1.ticketm.net/dam/a/c99/def9c37a-77e3-4bd1-9da5-369f62e62c99_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Mark Hayes & Friends ft. Craig Robinson, Godfrey, Earthquake, Trevor Wallace, Denny Love, Mark Hayes and more TBA",
+        "name": "Mark Hayes & Friends ft. Craig Robinson, Godfrey, Earthquake, Trevor Wallace, Denny Love, Mark Hayes, Gary Cannon and more TBA",
         "date": "2026-11-25",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/mark-hayes-friends-ft-hollywood-improv-the-main-room-tickets/14397864",
@@ -942,18 +914,18 @@
         "image": "https://i.ticketweb.com/i/00/13/00/31/44_Edp.jpg?v=5"
       },
       {
-        "name": "Tonight at the Improv ft. Trevor Wallace, Sarah Tiana, Rick Ingraham, Brent Morin, Francisco Ramos, Eric Freedman, and More TBA",
+        "name": "Tonight at the Improv ft. Trevor Wallace, Sarah Tiana, Rick Ingraham, Brent Morin, Aida Rodriguez, Francisco Ramos, Eric Freedman, and More TBA",
         "date": "2026-11-27",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366954",
         "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "LA vs. Transplants! ft. Kayla Hardy and more TBA!",
+        "name": "LA vs. Transplants ft. Kayla Hardy, Samantha Hale, Isa Quiros, Shoshana, Tierra Amira, Laurel Kathleen, Jaya Tewari, Jesse Zand, Ashley Lawrence, Tracey Macdonald and more TBA!",
         "date": "2026-11-27",
         "time": "21:45:00",
         "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-kayla-hollywood-improv-the-lab-tickets/14372794",
-        "image": "https://i.ticketweb.com/i/00/13/08/64/84_Edp.jpg?v=4"
+        "image": "https://i.ticketweb.com/i/00/13/08/64/84_Edp.jpg?v=5"
       },
       {
         "name": "Chelsea Handler & Friends ft. Sarah Silverman, Natasha Leggero, Zainab Johnson, Yamaneika Saunders, Megan Gailey, Jeanne Whitney, and more TBA",
@@ -963,11 +935,39 @@
         "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Tonight at the Lab ft. Maddy Kelly, Liz Miele, Dave Waite, Pardis Parker, Eric Freedman, Mandy Robbins, Jay Light and More TBA",
+        "name": "Tonight at the Lab ft. Maddy Kelly, Liz Miele, Dave Waite, Pardis Parker, Eric Freedman, Mandy Robbins, Jay Light, Arzo Dotson and More TBA",
         "date": "2026-11-28",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14367014",
         "image": "https://s1.ticketm.net/dam/a/bfc/0b32ee06-afbc-4926-bdc0-5430e7cb2bfc_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Chelsea Handler & Friends ft. Natasha Leggero, Yamaneika Saunders, Megan Gailey, Dulce Sloan, Rebecca Corry, Nikki Bon, and More TBA",
+        "date": "2026-11-28",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/chelsea-handler-friends-ft-hollywood-improv-the-main-room-tickets/14396674",
+        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Reid the Room ft. Reid Brackenbury, Matty Chymbor, Mandy Martino, Denny Love, Macey Isaacs, Willie Simon and more TBA!",
+        "date": "2026-11-28",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/reid-the-room-ft-reid-hollywood-improv-the-lab-tickets/14369174",
+        "image": "https://i.ticketweb.com/i/00/13/08/25/24_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Ron Funches, Drew Lynch, Chris Estrada, Laura Peek, Erik Griffin, Nicole Aimee Schreiber, Justine Marino and more TBA",
+        "date": "2026-11-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14435984",
+        "image": "https://s1.ticketm.net/dam/a/ca0/1f5b6d32-ff79-4568-be1b-08ae5b1e4ca0_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Never Ending Comedy with Devyn Perry and Avry Ross ft. Peter Murphy, Daniel Alvarez, Sweet Dalai Lama, Chelsé Greaux, Mike Falzone, Greg Hoffman, Jonathan Kite, Herman Wrice",
+        "date": "2026-11-29",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/never-ending-comedy-with-devyn-hollywood-improv-the-lab-tickets/14317364",
+        "image": "https://s1.ticketm.net/dbimages/192560a.jpg"
       }
     ]
   }
