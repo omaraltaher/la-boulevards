@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T02:43:15.126Z",
+  "generated": "2026-11-25T00:16:59.533Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -62,13 +62,6 @@
     "El Rey Theatre": [],
     "Henry Fonda Theater": [
       {
-        "name": "Prateek Kuhad",
-        "date": "2026-11-23",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvU00",
-        "image": "https://s1.ticketm.net/dam/a/d24/40a1e7a2-5310-45d3-a40c-ce72527d9d24_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "CocoRosie",
         "date": "2026-11-24",
         "time": "20:00:00",
@@ -116,6 +109,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PzAk",
         "image": null
+      },
+      {
+        "name": "Frost Children",
+        "date": "2026-12-09",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZs03",
+        "image": "https://s1.ticketm.net/dam/a/47c/42056f93-6a2e-47ff-b63a-61ee2398547c_RECOMENDATION_16_9.jpg"
       }
     ],
     "Avalon Hollywood": [
@@ -185,6 +185,13 @@
         "image": "https://s1.ticketm.net/dam/a/4ea/3585b221-3e42-4f12-8eaf-1ebe054e84ea_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "Channel Tres (Ages: 18 & Over with Valid Government ID)",
+        "date": "2026-11-28",
+        "time": "21:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA798F",
+        "image": "https://s1.ticketm.net/dam/a/3f4/e5435e39-c762-4a44-b31a-7cb8064bc3f4_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "CupcakKe",
         "date": "2026-12-03",
         "time": "20:00:00",
@@ -225,13 +232,6 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvyob",
         "image": "https://s1.ticketm.net/dam/a/b7d/a7f41740-f4ad-4a81-9182-c10512bdab7d_1227701_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Wonho",
-        "date": "2027-01-13",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64e",
-        "image": null
       }
     ],
     "Peacock Theater": [
@@ -500,6 +500,13 @@
         "image": "https://s1.ticketm.net/dam/a/e64/b3b6ff37-b6a2-4f1e-a0d6-8ce90d7abe64_RECOMENDATION_16_9.jpg"
       },
       {
+        "name": "An Evening with Wilco - Wilcoworld Tour 2027",
+        "date": "2027-05-08",
+        "time": "20:00:00",
+        "url": "https://www.ticketmaster.com/an-evening-with-wilco-wilcoworld-tour-los-angeles-california-05-08-2027/event/090065743A3C8B3D",
+        "image": "https://s1.ticketm.net/dam/a/139/277f8850-34d0-4cee-b8a5-1a2eef4b1139_RECOMENDATION_16_9.jpg"
+      },
+      {
         "name": "Damien Rice o 25th Anniversary Tour",
         "date": "2027-05-25",
         "time": "20:00:00",
@@ -521,18 +528,11 @@
         "image": "https://s1.ticketm.net/dam/a/ab5/9914ca2d-3115-427b-9cde-424a66230ab5_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Roger Waters Presents LEGACY - A Pink Floyd Show",
-        "date": "2027-09-11",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKfN",
-        "image": "https://s1.ticketm.net/dam/a/ad2/2916b9f1-ce69-462e-ade4-4572efe3bad2_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Leonid & Friends",
-        "date": "2027-10-24",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/leonid-friends-los-angeles-california-10-24-2027/event/09006569FEEB220E",
-        "image": "https://s1.ticketm.net/dam/a/e48/c13503bc-72b8-4a5a-a97d-fe136bd68e48_RECOMENDATION_16_9.jpg"
+        "name": "Dermot Kennedy: The Weight of the Woods Tour",
+        "date": "2027-09-07",
+        "time": "19:30:00",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-los-angeles-california-09-07-2027/event/090064787D02336C",
+        "image": "https://s1.ticketm.net/dam/a/970/92588748-6362-4a68-886b-71f55bee6970_RECOMENDATION_16_9.jpg"
       }
     ],
     "Dolby Theatre": [
@@ -825,13 +825,13 @@
         "date": "2026-11-25",
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-945pm-tickets-1999303087354",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195984037%2F2989400506155%2F1%2Foriginal.20261017-002225?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=12d99c89d5866a7879c832b0f95aa109"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198636948%2F3009370122762%2F1%2Foriginal.20261124-202222?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=55bc882bf51b5999da8a6e8848dd7cf3"
       },
       {
-        "name": "Friday Night All-Stars 7:30PM — Black Friday Sale",
+        "name": "Friday Night All-Stars 7:30PM — Black Friday Ticket Sale",
         "date": "2026-11-27",
         "time": "19:30",
-        "url": "https://www.eventbrite.com/e/friday-night-all-stars-730pm-black-friday-sale-tickets-1999421637942",
+        "url": "https://www.eventbrite.com/e/friday-night-all-stars-730pm-black-friday-ticket-sale-tickets-1999421637942",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195984040%2F2989400506155%2F1%2Foriginal.20261017-002228?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6a607ad524f7fcdabd1b69503b570693"
       },
       {
@@ -849,10 +849,10 @@
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173176027%2F2986605118463%2F1%2Foriginal.20251218-012606?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4b76d42986e871f3493e0c4bcc15cf90"
       },
       {
-        "name": "Monday All-Star Comedy 8:00PM",
+        "name": "Monday All-Star Comedy 8:00PM — Cyber Monday Sale",
         "date": "2026-11-30",
         "time": "20:00",
-        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-tickets-1998453493195",
+        "url": "https://www.eventbrite.com/e/monday-all-star-comedy-800pm-cyber-monday-sale-tickets-1998453493195",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195984171%2F2989400506155%2F1%2Foriginal.20261017-002637?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=16373188cf28137bfdfa9330df999f58"
       },
       {
@@ -864,27 +864,6 @@
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Tonight at the Improv ft. Andrew Santino, Pete Holmes, Cameron Esposito, Dan Levy, Danny Jolles, Kirk Fox, Gary Cannon and More TBA",
-        "date": "2026-11-23",
-        "time": "19:15:00",
-        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14414434",
-        "image": "https://s1.ticketm.net/dam/a/939/e9983c3b-750c-455b-9b85-d7470a893939_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-11-23",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14340974",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Improv Presents: MONDERAYS with Deray Davis ft. G Thang, K Dott, Maronzio Vance, Ha Ha Herby, Ray Lipowski & more TBA",
-        "date": "2026-11-23",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14366934",
-        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Lab Work hosted by Andy Benedetti  ft. Kiki Andersen, Frank Castillo, Jay Light, Nicole Becannon, Ellen Harrold",
         "date": "2026-11-24",
@@ -898,13 +877,6 @@
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366084",
         "image": "https://s1.ticketm.net/dam/a/0ea/1df53b79-a116-4b41-8430-8c6790d290ea_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Plant Mob ft. Mary Lynn Rajskub, Jay Washington, Amy Silverberg, Eric Freedman, Ryan Clark, Kyle Tomlin, Gus Viveiros and more TBA",
-        "date": "2026-11-24",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/plant-mob-ft-mary-lynn-hollywood-improv-the-lab-tickets/14354314",
-        "image": "https://s1.ticketm.net/dam/a/a5b/33fb8749-a759-42d6-bb58-92dc8e55aa5b_RECOMENDATION_16_9.jpg"
       },
       {
         "name": "Tonight at the Improv ft. Trevor Wallace, Godfrey, Amir K, Leah Rudick, Bassem Youssef, Faysal Lawrence, Laurie Douglas and more TBA",
@@ -956,11 +928,46 @@
         "image": "https://i.ticketweb.com/i/00/13/08/52/14_Edp.jpg?v=4"
       },
       {
-        "name": "Tonight at the Improv ft. Adam Ray, Ron Funches, Trevor Wallace, Brian Monarch and Very Special Guests",
+        "name": "Tonight at the Improv ft. Chelsea Handler, Adam Ray, Ron Funches, Trevor Wallace, Brian Monarch, Heather Pasternak and More TBD!!!",
         "date": "2026-11-27",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366184",
-        "image": "https://s1.ticketm.net/dam/a/8d6/a01d8edf-195c-4361-b3ce-7836d62f08d6_RECOMENDATION_16_9.jpg"
+        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Horror Nerd ft. Veronica Shea, Ben Gonzalez, Gigi Modrich, Laurel Kathleen, Jeremy Tinoco, Grace Kasemeier, Kayla Hardy, Mary Huth, Josh Young, Paige Shanley, Matty P, Samantha Hale, and More TBA!",
+        "date": "2026-11-27",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/horror-nerd-ft-veronica-shea-hollywood-improv-the-lab-tickets/14287774",
+        "image": "https://i.ticketweb.com/i/00/13/00/31/44_Edp.jpg?v=5"
+      },
+      {
+        "name": "Tonight at the Improv ft. Trevor Wallace, Sarah Tiana, Rick Ingraham, Brent Morin, Francisco Ramos, Eric Freedman, and More TBA",
+        "date": "2026-11-27",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366954",
+        "image": "https://s1.ticketm.net/dam/a/216/c886cd5c-a794-4091-a7ea-7ccb7d709216_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "LA vs. Transplants! ft. Kayla Hardy and more TBA!",
+        "date": "2026-11-27",
+        "time": "21:45:00",
+        "url": "https://www.ticketweb.com/event/la-vs-transplants-ft-kayla-hollywood-improv-the-lab-tickets/14372794",
+        "image": "https://i.ticketweb.com/i/00/13/08/64/84_Edp.jpg?v=4"
+      },
+      {
+        "name": "Chelsea Handler & Friends ft. Sarah Silverman, Natasha Leggero, Zainab Johnson, Yamaneika Saunders, Megan Gailey, Jeanne Whitney, and more TBA",
+        "date": "2026-11-28",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/chelsea-handler-friends-ft-hollywood-improv-the-main-room-tickets/15054623",
+        "image": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Lab ft. Maddy Kelly, Liz Miele, Dave Waite, Pardis Parker, Eric Freedman, Mandy Robbins, Jay Light and More TBA",
+        "date": "2026-11-28",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-lab-ft-hollywood-improv-the-lab-tickets/14367014",
+        "image": "https://s1.ticketm.net/dam/a/bfc/0b32ee06-afbc-4926-bdc0-5430e7cb2bfc_RECOMENDATION_16_9.jpg"
       }
     ]
   }
