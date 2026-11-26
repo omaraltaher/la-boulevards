@@ -1,13 +1,6 @@
 {
-  "generated": "2026-11-25T23:27:35.844Z",
+  "generated": "2026-11-26T23:28:26.577Z",
   "events": [
-    {
-      "name": "2026 tripleS world tour [ANDLESS] in NA",
-      "date": "2026-11-24",
-      "time": "18:00:00",
-      "url": "https://www.ticketmaster.com/2026-triples-world-tour-andless-in-los-angeles-california-11-24-2026/event/09006523EB64E79F",
-      "image": "https://s1.ticketm.net/dam/a/2ef/e7661471-e684-4fcf-8109-c2acd487b2ef_RECOMENDATION_16_9.jpg"
-    },
     {
       "name": "Imminence - Axis Mundi Tour: North America 2026",
       "date": "2026-11-28",
@@ -56,6 +49,13 @@
       "time": "18:00:00",
       "url": "https://www.ticketmaster.com/the-string-cheese-incident-just-keep-los-angeles-california-12-10-2026/event/09006504CD69A75A",
       "image": "https://s1.ticketm.net/dam/a/f2e/b66f8d4e-56d8-4802-9867-baa89f29af2e_RECOMENDATION_16_9.jpg"
+    },
+    {
+      "name": "Yachtley Crew",
+      "date": "2026-12-11",
+      "time": "19:00:00",
+      "url": "https://www.ticketmaster.com/yachtley-crew-los-angeles-california-12-11-2026/event/09006506B1FD9D9B",
+      "image": "https://s1.ticketm.net/dam/a/077/35f5f959-3d55-499c-8ad0-61eb49052077_RECOMENDATION_16_9.jpg"
     }
   ]
 }
