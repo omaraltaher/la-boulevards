@@ -1,14 +1,7 @@
 {
-  "generated": "2026-11-25T23:57:03.776Z",
+  "generated": "2026-11-27T00:14:47.109Z",
   "venues": {
     "Hollywood Palladium": [
-      {
-        "name": "Punchis Punchis: Banda Rave Experience",
-        "date": "2026-11-25",
-        "time": "21:00:00",
-        "url": "https://www.ticketmaster.com/punchis-punchis-banda-rave-experience-hollywood-california-11-25-2026/event/09006549278532F8",
-        "image": "https://s1.ticketm.net/dam/a/bb2/548e6c66-c89e-4b37-b808-485b5c446bb2_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Insomniac presents DEVAULT ",
         "date": "2026-11-27",
@@ -57,6 +50,13 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/bassrush-presents-virtual-riot-blanke-far-hollywood-california-12-11-2026/event/090064D6B46E7E1D",
         "image": "https://s1.ticketm.net/dam/a/6bf/d029e880-324b-4138-9150-7331553f06bf_1488761_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "R&B ONLY LIVE - Los Angeles, CA",
+        "date": "2026-12-12",
+        "time": "20:00:00",
+        "url": "https://www.universe.com/events/r-b-only-live-los-angeles-ca-tickets-KMS02P?ref=ticketmaster",
+        "image": "https://s1.ticketm.net/dam/a/ea6/4b579945-d22f-4ad7-963f-6289ef280ea6_RECOMENDATION_16_9.jpg"
       }
     ],
     "El Rey Theatre": [],
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Clawz w/ Dr Donk",
-        "date": "2026-11-25",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/clawz-w-dr-donk-avalon-hollywood-tickets/14312964",
-        "image": "https://i.ticketweb.com/i/00/13/02/92/54_Edp.jpg?v=8"
-      },
-      {
         "name": "Andy C",
         "date": "2026-11-26",
         "time": "22:00:00",
@@ -174,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/bou-avalon-hollywood-tickets/14360384",
         "image": "https://i.ticketweb.com/i/00/13/07/40/14_Edp.jpg?v=8"
+      },
+      {
+        "name": "Fish56Octagon",
+        "date": "2026-12-19",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/fish56octagon-avalon-hollywood-tickets/14377954",
+        "image": "https://i.ticketweb.com/i/00/13/09/36/74_Edp.jpg?v=8"
       }
     ],
     "The Novo": [
@@ -235,13 +235,6 @@
       }
     ],
     "Peacock Theater": [
-      {
-        "name": "Smoke Me Out",
-        "date": "2026-11-25",
-        "time": "20:00:00",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70pA",
-        "image": null
-      },
       {
         "name": "Tierra Cali w/ Banda Machos",
         "date": "2026-11-27",
@@ -630,13 +623,6 @@
     "Wilshire Ebell Theater and Club": [
       {
         "name": "Test - Ashley Kamphaus",
-        "date": "2026-11-25",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-25-2026/event/0900655CD4A60CF2",
-        "image": "https://s1.ticketm.net/dbimages/186776a.jpg"
-      },
-      {
-        "name": "Test - Ashley Kamphaus",
         "date": "2026-11-26",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-26-2026/event/0900655CD4A90CF9",
@@ -683,6 +669,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/michelle-wolf-best-job-in-the-los-angeles-california-04-01-2027/event/09006528B26C8AF1",
         "image": "https://s1.ticketm.net/dam/a/11e/a0046ab5-a10e-414f-89fb-4c7128b7d11e_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Peter Antoniou: Brain Teaser",
+        "date": "2027-04-02",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/peter-antoniou-brain-teaser-los-angeles-california-04-02-2027/event/09006538816543BD",
+        "image": "https://s1.ticketm.net/dam/a/bd5/adb29c86-51da-46b8-8f68-5cd7144a4bd5_RECOMENDATION_16_9.jpg"
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
@@ -800,20 +793,6 @@
     ],
     "Laugh Factory": [
       {
-        "name": "Wednesday All-Star Comedy 7:30 PM",
-        "date": "2026-11-25",
-        "time": "19:30",
-        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-730-pm-tickets-1998932221083",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198562400%2F3015802494368%2F1%2Foriginal.20261123-210603?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ca389fee2aee0dd5448abdbc8887ae8c"
-      },
-      {
-        "name": "Wednesday All-Star Comedy 9:45PM",
-        "date": "2026-11-25",
-        "time": "21:45",
-        "url": "https://www.eventbrite.com/e/wednesday-all-star-comedy-945pm-tickets-1999303087354",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198636948%2F3009370122762%2F1%2Foriginal.20261124-202222?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=55bc882bf51b5999da8a6e8848dd7cf3"
-      },
-      {
         "name": "Friday Night All-Stars 7:30PM — Black Friday Ticket Sale",
         "date": "2026-11-27",
         "time": "19:30",
@@ -833,6 +812,13 @@
         "time": "19:30",
         "url": "https://www.eventbrite.com/e/hollywoods-hottest-730pm-tickets-1999597070666",
         "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198659871%2F2989400506155%2F1%2Foriginal.20261125-041138?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fd3a8b970f217c1aa5b15e0778a8ddd6"
+      },
+      {
+        "name": "Saturday Night All-Stars 9:45PM",
+        "date": "2026-11-28",
+        "time": "21:45",
+        "url": "https://www.eventbrite.com/e/saturday-night-all-stars-945pm-tickets-1999604812823",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198659854%2F2989400506155%2F1%2Foriginal.20261125-041109?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cf7e536eb830ecd975d4ce6763477e12"
       },
       {
         "name": "Pookey Wigington Presents: Chocolate Sundaes 7:00PM",
@@ -861,37 +847,16 @@
         "time": "20:00:00",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_qb",
         "image": null
+      },
+      {
+        "name": "Friday Night All-Stars 7:30PM",
+        "date": "2027-02-19",
+        "time": "19:30",
+        "url": "https://www.eventbrite.com/e/friday-night-all-stars-730pm-tickets-1999735138631",
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195982960%2F2990051982791%2F1%2Foriginal.20261016-235705?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=76bb7de8b9e9d0a4496f3318e0ee5a32"
       }
     ],
     "Hollywood Improv": [
-      {
-        "name": "Happy Hour Open Mic",
-        "date": "2026-11-25",
-        "time": "17:15:00",
-        "url": "https://www.ticketweb.com/event/happy-hour-open-mic-hollywood-improv-the-lab-tickets/14427134",
-        "image": "https://i.ticketweb.com/i/00/13/13/62/14_Edp.jpg?v=3"
-      },
-      {
-        "name": "Amir K Headlines The Improv ft. Nitish Sakhuja",
-        "date": "2026-11-25",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/amir-k-headlines-the-improv-hollywood-improv-the-main-room-tickets/14292114",
-        "image": "https://s1.ticketm.net/dam/a/ec6/afc9d927-edfa-499d-9bf2-02257f9b4ec6_890431_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Just Pull Up ft. Gary Anderson, Denny Love, Kali Scott, Amber Abundance, Kasuan Wilson, Dulcé Sloan, Camille Waters, and more TBA",
-        "date": "2026-11-25",
-        "time": "20:30:00",
-        "url": "https://www.ticketweb.com/event/just-pull-up-ft-gary-hollywood-improv-the-lab-tickets/14368604",
-        "image": "https://s1.ticketm.net/dam/a/c99/def9c37a-77e3-4bd1-9da5-369f62e62c99_RECOMENDATION_16_9.jpg"
-      },
-      {
-        "name": "Mark Hayes & Friends ft. Craig Robinson, Godfrey, Earthquake, Trevor Wallace, Denny Love, Mark Hayes, Gary Cannon and more TBA",
-        "date": "2026-11-25",
-        "time": "21:30:00",
-        "url": "https://www.ticketweb.com/event/mark-hayes-friends-ft-hollywood-improv-the-main-room-tickets/14397864",
-        "image": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_RECOMENDATION_16_9.jpg"
-      },
       {
         "name": "Closed for Thanksgiving!",
         "date": "2026-11-26",
@@ -928,7 +893,7 @@
         "image": "https://i.ticketweb.com/i/00/13/08/64/84_Edp.jpg?v=5"
       },
       {
-        "name": "Chelsea Handler & Friends ft. Sarah Silverman, Natasha Leggero, Zainab Johnson, Yamaneika Saunders, Megan Gailey, Jeanne Whitney, and more TBA",
+        "name": "Chelsea Handler & Friends ft. Sarah Silverman, Natasha Leggero, Zainab Johnson, Yamaneika Saunders, Megan Gailey, Jeanne Whitney,  Chelse Greaux",
         "date": "2026-11-28",
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/chelsea-handler-friends-ft-hollywood-improv-the-main-room-tickets/15054623",
@@ -942,7 +907,7 @@
         "image": "https://s1.ticketm.net/dam/a/bfc/0b32ee06-afbc-4926-bdc0-5430e7cb2bfc_RECOMENDATION_16_9.jpg"
       },
       {
-        "name": "Chelsea Handler & Friends ft. Natasha Leggero, Yamaneika Saunders, Megan Gailey, Dulce Sloan, Rebecca Corry, Nikki Bon, and More TBA",
+        "name": "Chelsea Handler & Friends ft. Natasha Leggero, Yamaneika Saunders, Megan Gailey, Dulce Sloan, Rebecca Corry, Nikki Bon, Ainsley Bailey",
         "date": "2026-11-28",
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/chelsea-handler-friends-ft-hollywood-improv-the-main-room-tickets/14396674",
@@ -968,6 +933,34 @@
         "time": "19:00:00",
         "url": "https://www.ticketweb.com/event/never-ending-comedy-with-devyn-hollywood-improv-the-lab-tickets/14317364",
         "image": "https://s1.ticketm.net/dbimages/192560a.jpg"
+      },
+      {
+        "name": "Deon Cole: Does This Work?",
+        "date": "2026-11-29",
+        "time": "21:00:00",
+        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14341014",
+        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Tonight at the Improv ft. Iliza Shlesinger, Harland Williams, Cristela Alonzo, Donnell Rawlings, Craig Conant, Laurie Kilmartin, Gary Cannon and more TBA",
+        "date": "2026-11-30",
+        "time": "19:00:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14435734",
+        "image": "https://s1.ticketm.net/dam/a/445/90200216-25a1-4dd1-9b82-25c5aad91445_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "John Campanelli & Special Guests ft. John Campanelli, James Sommers, Nathan Spina, Emily Powers, Misty Dawn and more TBA",
+        "date": "2026-11-30",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/john-campanelli-special-guests-hollywood-improv-the-lab-tickets/15010433",
+        "image": "https://i.ticketweb.com/i/00/13/61/24/23_Edp.jpg?v=4"
+      },
+      {
+        "name": "Improv Presents: MONDERAYS with Deray Davis & more",
+        "date": "2026-11-30",
+        "time": "21:30:00",
+        "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14366974",
+        "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
       }
     ]
   }
