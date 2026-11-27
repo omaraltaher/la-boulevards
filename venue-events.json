@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T00:14:47.109Z",
+  "generated": "2026-11-27T23:52:26.276Z",
   "venues": {
     "Hollywood Palladium": [
       {
@@ -120,13 +120,6 @@
     ],
     "Avalon Hollywood": [
       {
-        "name": "Andy C",
-        "date": "2026-11-26",
-        "time": "22:00:00",
-        "url": "https://www.ticketweb.com/event/andy-c-avalon-hollywood-tickets/14335714",
-        "image": "https://s1.ticketm.net/dam/a/291/97d2d067-3924-4781-bf26-4b04bbbf8291_1785511_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Gasolina",
         "date": "2026-11-27",
         "time": "22:00:00",
@@ -174,6 +167,13 @@
         "time": "22:00:00",
         "url": "https://www.ticketweb.com/event/fish56octagon-avalon-hollywood-tickets/14377954",
         "image": "https://i.ticketweb.com/i/00/13/09/36/74_Edp.jpg?v=8"
+      },
+      {
+        "name": "Trivecta",
+        "date": "2026-12-26",
+        "time": "22:00:00",
+        "url": "https://www.ticketweb.com/event/trivecta-avalon-hollywood-tickets/14421544",
+        "image": "https://s1.ticketm.net/dam/a/437/87a4fcb1-ffd5-4d48-9857-a43bba2b7437_RECOMENDATION_16_9.jpg"
       }
     ],
     "The Novo": [
@@ -623,13 +623,6 @@
     "Wilshire Ebell Theater and Club": [
       {
         "name": "Test - Ashley Kamphaus",
-        "date": "2026-11-26",
-        "time": "19:00:00",
-        "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-26-2026/event/0900655CD4A90CF9",
-        "image": "https://s1.ticketm.net/dbimages/186776a.jpg"
-      },
-      {
-        "name": "Test - Ashley Kamphaus",
         "date": "2026-11-27",
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/test-ashley-kamphaus-los-angeles-california-11-27-2026/event/0900655CD4AC0D06",
@@ -676,6 +669,13 @@
         "time": "19:00:00",
         "url": "https://www.ticketmaster.com/peter-antoniou-brain-teaser-los-angeles-california-04-02-2027/event/09006538816543BD",
         "image": "https://s1.ticketm.net/dam/a/bd5/adb29c86-51da-46b8-8f68-5cd7144a4bd5_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Danila Kozlovsky: Check Up",
+        "date": "2027-04-11",
+        "time": "19:00:00",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvE0-",
+        "image": null
       }
     ],
     "La Mirada Theatre For The Performing Arts": [
@@ -804,7 +804,7 @@
         "date": "2026-11-27",
         "time": "21:45",
         "url": "https://www.eventbrite.com/e/friday-night-all-stars-945pm-black-friday-ticket-sale-tickets-1999421773347",
-        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198659811%2F2989400506155%2F1%2Foriginal.20261125-040945?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b4c5d5c80f7ffe6bb683ca51d079218e"
+        "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198807153%2F3009370122762%2F1%2Foriginal.20261127-222630?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f61c0cd1dbc0a20799c16944d42a2c41"
       },
       {
         "name": "Hollywood's Hottest 7:30PM",
@@ -858,14 +858,7 @@
     ],
     "Hollywood Improv": [
       {
-        "name": "Closed for Thanksgiving!",
-        "date": "2026-11-26",
-        "time": "19:30:00",
-        "url": "https://www.ticketweb.com/event/closed-for-thanksgiving-hollywood-improv-the-main-room-tickets/14371794",
-        "image": "https://i.ticketweb.com/i/00/13/08/52/14_Edp.jpg?v=4"
-      },
-      {
-        "name": "Tonight at the Improv ft. Chelsea Handler, Adam Ray, Ron Funches, Trevor Wallace, Brian Monarch, Heather Pasternak and More TBD!!!",
+        "name": "Tonight at the Improv ft. Chelsea Handler, Ron Funches, Trevor Wallace, Kira Soltanovich, Brian Monarch, Heather Pasternak and More TBD!!!",
         "date": "2026-11-27",
         "time": "19:30:00",
         "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14366184",
@@ -935,13 +928,6 @@
         "image": "https://s1.ticketm.net/dbimages/192560a.jpg"
       },
       {
-        "name": "Deon Cole: Does This Work?",
-        "date": "2026-11-29",
-        "time": "21:00:00",
-        "url": "https://www.ticketweb.com/event/deon-cole-does-this-work-hollywood-improv-the-lab-tickets/14341014",
-        "image": "https://s1.ticketm.net/dam/a/253/da895717-c4cd-40dd-9dd4-7130e750f253_RECOMENDATION_16_9.jpg"
-      },
-      {
         "name": "Tonight at the Improv ft. Iliza Shlesinger, Harland Williams, Cristela Alonzo, Donnell Rawlings, Craig Conant, Laurie Kilmartin, Gary Cannon and more TBA",
         "date": "2026-11-30",
         "time": "19:00:00",
@@ -961,6 +947,27 @@
         "time": "21:30:00",
         "url": "https://www.ticketweb.com/event/improv-presents-monderays-with-deray-hollywood-improv-the-main-room-tickets/14366974",
         "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "Lab Work hosted by Andy Benedetti  ft. Bailey Hardwick, Effie Meadows",
+        "date": "2026-12-01",
+        "time": "17:15:00",
+        "url": "https://www.ticketweb.com/event/lab-work-hosted-by-andy-hollywood-improv-the-lab-tickets/14427074",
+        "image": "https://i.ticketweb.com/i/00/13/13/61/34_Edp.jpg?v=4"
+      },
+      {
+        "name": "Tonight at the Improv ft. Jay Leno, Chelsea Handler, Andrew Santino, Brian Monarch and Very Special Guests",
+        "date": "2026-12-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/tonight-at-the-improv-ft-hollywood-improv-the-main-room-tickets/14390434",
+        "image": "https://s1.ticketm.net/dam/a/ad4/74a28b3b-2ccd-4685-a453-ea530243dad4_RECOMENDATION_16_9.jpg"
+      },
+      {
+        "name": "New Joke Night ft. J.F. Harris, Mike Falzone and more TBA",
+        "date": "2026-12-01",
+        "time": "19:30:00",
+        "url": "https://www.ticketweb.com/event/new-joke-night-ft-jf-hollywood-improv-the-lab-tickets/15058623",
+        "image": "https://s1.ticketm.net/dam/a/e8a/094e4fb5-6947-45cc-a457-852c04fa1e8a_1526661_RECOMENDATION_16_9.jpg"
       }
     ]
   }
